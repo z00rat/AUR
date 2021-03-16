@@ -1,0 +1,3 @@
+[submodule "AUR/opencomic-bin"]
+	path = AUR/opencomic-bin
+	url = ssh://aur@aur.archlinux.org/opencomic-bin.git
