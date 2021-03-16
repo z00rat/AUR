@@ -1,2 +1,2 @@
 # AUR
-all my AUR related works
+In here all AUR packages are either I use or I maintain or I like that project 
