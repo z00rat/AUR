@@ -379,3 +379,7 @@
 	path = repos/stretchly-bin
 	url = ssh://aur@aur.archlinux.org/stretchly-bin.git
 	branch = master
+[submodule "repos/surf"]
+	path = repos/surf
+	url = ssh://aur@aur.archlinux.org/surf.git
+	branch = master
