@@ -139,3 +139,7 @@
 	path = repos/gitui-bin
 	url = ssh://aur@aur.archlinux.org/gitui-bin.git
 	branch = master
+[submodule "repos/glow"]
+	path = repos/glow
+	url = ssh://aur@aur.archlinux.org/glow.git
+	branch = master
