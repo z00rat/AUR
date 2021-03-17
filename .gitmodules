@@ -35,3 +35,7 @@
 	path = repos/aurvote
 	url = ssh://aur@aur.archlinux.org/aurvote.git
 	branch = master
+[submodule "repos/awesome-git"]
+	path = repos/awesome-git
+	url = ssh://aur@aur.archlinux.org/awesome-git.git
+	branch = master
