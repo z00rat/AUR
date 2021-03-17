@@ -163,3 +163,7 @@
 	path = repos/ibus-avro-git
 	url = ssh://aur@aur.archlinux.org/ibus-avro-git.git
 	branch = master
+[submodule "repos/jmtpfs"]
+	path = repos/jmtpfs
+	url = ssh://aur@aur.archlinux.org/jmtpfs.git
+	branch = master
