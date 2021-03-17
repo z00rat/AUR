@@ -295,3 +295,7 @@
 	path = repos/python-pydes
 	url = ssh://aur@aur.archlinux.org/python-pydes.git
 	branch = master
+[submodule "antibody"]
+	path = antibody
+	url = ssh://aur@aur.archlinux.org/antibody.git
+	branch = master
