@@ -123,3 +123,7 @@
 	path = repos/gallery-dl
 	url = ssh://aur@aur.archlinux.org/gallery-dl.git
 	branch = master
+[submodule "repos/gconf-cleaner"]
+	path = repos/gconf-cleaner
+	url = ssh://aur@aur.archlinux.org/gconf-cleaner.git
+	branch = master
