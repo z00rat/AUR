@@ -415,3 +415,7 @@
 	path = repos/ttyd
 	url = ssh://aur@aur.archlinux.org/ttyd.git
 	branch = master
+[submodule "repos/volctl"]
+	path = repos/volctl
+	url = ssh://aur@aur.archlinux.org/volctl.git
+	branch = master
