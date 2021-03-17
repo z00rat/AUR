@@ -255,3 +255,7 @@
 	path = repos/passivedns-git
 	url = ssh://aur@aur.archlinux.org/passivedns-git.git
 	branch = master
+[submodule "repos/patat-bin"]
+	path = repos/patat-bin
+	url = ssh://aur@aur.archlinux.org/patat-bin.git
+	branch = master
