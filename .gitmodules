@@ -411,3 +411,7 @@
 	path = repos/tty-clock
 	url = ssh://aur@aur.archlinux.org/tty-clock.git
 	branch = master
+[submodule "repos/ttyd"]
+	path = repos/ttyd
+	url = ssh://aur@aur.archlinux.org/ttyd.git
+	branch = master
