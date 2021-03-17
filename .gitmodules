@@ -135,3 +135,7 @@
 	path = repos/gitstatus
 	url = ssh://aur@aur.archlinux.org/gitstatus.git
 	branch = master
+[submodule "repos/gitui-bin"]
+	path = repos/gitui-bin
+	url = ssh://aur@aur.archlinux.org/gitui-bin.git
+	branch = master
