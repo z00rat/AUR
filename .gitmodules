@@ -327,3 +327,7 @@
 	path = repos/python-ytmusicapi
 	url = ssh://aur@aur.archlinux.org/python-ytmusicapi.git
 	branch = master
+[submodule "repos/python2-twodict-git"]
+	path = repos/python2-twodict-git
+	url = ssh://aur@aur.archlinux.org/python2-twodict-git.git
+	branch = master
