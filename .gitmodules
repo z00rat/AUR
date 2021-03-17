@@ -183,3 +183,7 @@
 	path = repos/losslesscut-bin
 	url = ssh://aur@aur.archlinux.org/losslesscut-bin.git
 	branch = master
+[submodule "repos/lscolors-git"]
+	path = repos/lscolors-git
+	url = ssh://aur@aur.archlinux.org/lscolors-git.git
+	branch = master
