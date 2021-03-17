@@ -83,3 +83,7 @@
 	path = repos/discord-ptb
 	url = ssh://aur@aur.archlinux.org/discord-ptb.git
 	branch = master
+[submodule "repos/downloader-cli"]
+	path = repos/downloader-cli
+	url = ssh://aur@aur.archlinux.org/downloader-cli.git
+	branch = master
