@@ -251,3 +251,7 @@
 	path = repos/p7zip-gui
 	url = ssh://aur@aur.archlinux.org/p7zip-gui.git
 	branch = master
+[submodule "repos/passivedns-git"]
+	path = repos/passivedns-git
+	url = ssh://aur@aur.archlinux.org/passivedns-git.git
+	branch = master
