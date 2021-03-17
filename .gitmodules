@@ -179,3 +179,7 @@
 	path = repos/light-git
 	url = ssh://aur@aur.archlinux.org/light-git.git
 	branch = master
+[submodule "repos/losslesscut-bin"]
+	path = repos/losslesscut-bin
+	url = ssh://aur@aur.archlinux.org/losslesscut-bin.git
+	branch = master
