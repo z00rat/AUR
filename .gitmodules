@@ -387,3 +387,7 @@
 	path = repos/tlpui-git
 	url = ssh://aur@aur.archlinux.org/tlpui-git.git
 	branch = master
+[submodule "repos/tor-browser"]
+	path = repos/tor-browser
+	url = ssh://aur@aur.archlinux.org/tor-browser.git
+	branch = master
