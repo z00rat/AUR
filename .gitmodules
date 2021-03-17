@@ -11,3 +11,7 @@
 	path = repos/ansifilter
 	url = ssh://aur@aur.archlinux.org/ansifilter.git
 	branch = master
+[submodule "repos/antibody"]
+	path = repos/antibody
+	url = ssh://aur@aur.archlinux.org/antibody.git
+	branch = master
