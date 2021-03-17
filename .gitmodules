@@ -79,3 +79,7 @@
 	path = repos/debtap
 	url = ssh://aur@aur.archlinux.org/debtap.git
 	branch = master
+[submodule "repos/discord-ptb"]
+	path = repos/discord-ptb
+	url = ssh://aur@aur.archlinux.org/discord-ptb.git
+	branch = master
