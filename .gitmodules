@@ -391,3 +391,7 @@
 	path = repos/tor-browser
 	url = ssh://aur@aur.archlinux.org/tor-browser.git
 	branch = master
+[submodule "repos/ttf-anka-coder"]
+	path = repos/ttf-anka-coder
+	url = ssh://aur@aur.archlinux.org/ttf-anka-coder.git
+	branch = master
