@@ -451,3 +451,7 @@
 	path = repos/zoom
 	url = ssh://aur@aur.archlinux.org/zoom.git
 	branch = master
+[submodule "repos/raven-reader"]
+	path = repos/raven-reader
+	url = ssh://aur@aur.archlinux.org/raven-reader.git
+	branch = master
