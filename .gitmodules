@@ -299,3 +299,7 @@
 	path = antibody
 	url = ssh://aur@aur.archlinux.org/antibody.git
 	branch = master
+[submodule "repos/python-pytube"]
+	path = repos/python-pytube
+	url = ssh://aur@aur.archlinux.org/python-pytube.git
+	branch = master
