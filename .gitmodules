@@ -291,3 +291,7 @@
 	path = repos/python-itunespy
 	url = ssh://aur@aur.archlinux.org/python-itunespy.git
 	branch = master
+[submodule "repos/python-pydes"]
+	path = repos/python-pydes
+	url = ssh://aur@aur.archlinux.org/python-pydes.git
+	branch = master
