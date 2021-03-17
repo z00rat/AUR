@@ -355,3 +355,7 @@
 	path = repos/robo3t-bin
 	url = ssh://aur@aur.archlinux.org/robo3t-bin.git
 	branch = master
+[submodule "repos/rofi-greenclip"]
+	path = repos/rofi-greenclip
+	url = ssh://aur@aur.archlinux.org/rofi-greenclip.git
+	branch = master
