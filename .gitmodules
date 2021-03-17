@@ -195,3 +195,7 @@
 	path = repos/lynis-git
 	url = ssh://aur@aur.archlinux.org/lynis-git.git
 	branch = master
+[submodule "repos/maldet"]
+	path = repos/maldet
+	url = ssh://aur@aur.archlinux.org/maldet.git
+	branch = master
