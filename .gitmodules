@@ -407,3 +407,7 @@
 	path = repos/ttf-typicons
 	url = ssh://aur@aur.archlinux.org/ttf-typicons.git
 	branch = master
+[submodule "repos/tty-clock"]
+	path = repos/tty-clock
+	url = ssh://aur@aur.archlinux.org/tty-clock.git
+	branch = master
