@@ -115,3 +115,7 @@
 	path = repos/florence
 	url = ssh://aur@aur.archlinux.org/florence.git
 	branch = master
+[submodule "repos/fsearch-git"]
+	path = repos/fsearch-git
+	url = ssh://aur@aur.archlinux.org/fsearch-git.git
+	branch = master
