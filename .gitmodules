@@ -439,3 +439,7 @@
 	path = repos/xmind
 	url = ssh://aur@aur.archlinux.org/xmind.git
 	branch = master
+[submodule "repos/youtube-dl-gui-git"]
+	path = repos/youtube-dl-gui-git
+	url = ssh://aur@aur.archlinux.org/youtube-dl-gui-git.git
+	branch = master
