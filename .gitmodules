@@ -111,3 +111,7 @@
 	path = repos/firefox-esr-bin
 	url = ssh://aur@aur.archlinux.org/firefox-esr-bin.git
 	branch = master
+[submodule "repos/florence"]
+	path = repos/florence
+	url = ssh://aur@aur.archlinux.org/florence.git
+	branch = master
