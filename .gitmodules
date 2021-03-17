@@ -7,3 +7,7 @@
 	path = repos/advcpmv
 	url = ssh://aur@aur.archlinux.org/advcpmv.git
 	branch = master
+[submodule "repos/ansifilter"]
+	path = repos/ansifilter
+	url = ssh://aur@aur.archlinux.org/ansifilter.git
+	branch = master
