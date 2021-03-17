@@ -203,3 +203,7 @@
 	path = repos/mkp224o
 	url = ssh://aur@aur.archlinux.org/mkp224o.git
 	branch = master
+[submodule "repos/msg2"]
+	path = repos/msg2
+	url = ssh://aur@aur.archlinux.org/msg2.git
+	branch = master
