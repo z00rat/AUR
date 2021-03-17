@@ -91,3 +91,7 @@
 	path = repos/drawio-desktop-bin
 	url = ssh://aur@aur.archlinux.org/drawio-desktop-bin.git
 	branch = master
+[submodule "repos/dry-bin"]
+	path = repos/dry-bin
+	url = ssh://aur@aur.archlinux.org/dry-bin.git
+	branch = master
