@@ -47,3 +47,7 @@
 	path = repos/betterdiscordctl-git
 	url = ssh://aur@aur.archlinux.org/betterdiscordctl-git.git
 	branch = master
+[submodule "repos/betterlockscreen"]
+	path = repos/betterlockscreen
+	url = ssh://aur@aur.archlinux.org/betterlockscreen.git
+	branch = master
