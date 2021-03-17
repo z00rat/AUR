@@ -63,3 +63,7 @@
 	path = repos/broken-link-checker
 	url = ssh://aur@aur.archlinux.org/broken-link-checker.git
 	branch = master
+[submodule "repos/cava"]
+	path = repos/cava
+	url = ssh://aur@aur.archlinux.org/cava.git
+	branch = master
