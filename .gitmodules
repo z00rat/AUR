@@ -343,3 +343,7 @@
 	path = repos/python3-xcpf
 	url = ssh://aur@aur.archlinux.org/python3-xcpf.git
 	branch = master
+[submodule "repos/resvg"]
+	path = repos/resvg
+	url = ssh://aur@aur.archlinux.org/resvg.git
+	branch = master
