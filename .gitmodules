@@ -223,3 +223,7 @@
 	path = repos/notion-app
 	url = ssh://aur@aur.archlinux.org/notion-app.git
 	branch = master
+[submodule "repos/obfs4proxy"]
+	path = repos/obfs4proxy
+	url = ssh://aur@aur.archlinux.org/obfs4proxy.git
+	branch = master
