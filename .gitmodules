@@ -267,3 +267,7 @@
 	path = repos/pipes.sh
 	url = ssh://aur@aur.archlinux.org/pipes.sh.git
 	branch = master
+[submodule "repos/pkgoutofdate-git"]
+	path = repos/pkgoutofdate-git
+	url = ssh://aur@aur.archlinux.org/pkgoutofdate-git.git
+	branch = master
