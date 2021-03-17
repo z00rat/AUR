@@ -303,3 +303,7 @@
 	path = repos/python-pytube
 	url = ssh://aur@aur.archlinux.org/python-pytube.git
 	branch = master
+[submodule "repos/python-rapidfuzz"]
+	path = repos/python-rapidfuzz
+	url = ssh://aur@aur.archlinux.org/python-rapidfuzz.git
+	branch = master
