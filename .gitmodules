@@ -131,3 +131,7 @@
 	path = repos/gitify-bin
 	url = ssh://aur@aur.archlinux.org/gitify-bin.git
 	branch = master
+[submodule "repos/gitstatus"]
+	path = repos/gitstatus
+	url = ssh://aur@aur.archlinux.org/gitstatus.git
+	branch = master
