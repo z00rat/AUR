@@ -307,3 +307,7 @@
 	path = repos/python-rapidfuzz
 	url = ssh://aur@aur.archlinux.org/python-rapidfuzz.git
 	branch = master
+[submodule "repos/python-simber"]
+	path = repos/python-simber
+	url = ssh://aur@aur.archlinux.org/python-simber.git
+	branch = master
