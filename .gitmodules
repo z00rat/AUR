@@ -51,3 +51,7 @@
 	path = repos/betterlockscreen
 	url = ssh://aur@aur.archlinux.org/betterlockscreen.git
 	branch = master
+[submodule "repos/bibata-cursor-theme"]
+	path = repos/bibata-cursor-theme
+	url = ssh://aur@aur.archlinux.org/bibata-cursor-theme.git
+	branch = master
