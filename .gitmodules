@@ -191,3 +191,7 @@
 	path = repos/lsdesktopf
 	url = ssh://aur@aur.archlinux.org/lsdesktopf.git
 	branch = master
+[submodule "repos/lynis-git"]
+	path = repos/lynis-git
+	url = ssh://aur@aur.archlinux.org/lynis-git.git
+	branch = master
