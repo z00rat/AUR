@@ -187,3 +187,7 @@
 	path = repos/lscolors-git
 	url = ssh://aur@aur.archlinux.org/lscolors-git.git
 	branch = master
+[submodule "repos/lsdesktopf"]
+	path = repos/lsdesktopf
+	url = ssh://aur@aur.archlinux.org/lsdesktopf.git
+	branch = master
