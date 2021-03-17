@@ -431,3 +431,7 @@
 	path = repos/webtty
 	url = ssh://aur@aur.archlinux.org/webtty.git
 	branch = master
+[submodule "repos/wttr"]
+	path = repos/wttr
+	url = ssh://aur@aur.archlinux.org/wttr.git
+	branch = master
