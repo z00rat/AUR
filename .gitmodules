@@ -275,3 +275,7 @@
 	path = repos/pm2ml
 	url = ssh://aur@aur.archlinux.org/pm2ml.git
 	branch = master
+[submodule "repos/popcorntime-bin"]
+	path = repos/popcorntime-bin
+	url = ssh://aur@aur.archlinux.org/popcorntime-bin.git
+	branch = master
