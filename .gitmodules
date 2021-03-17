@@ -99,3 +99,7 @@
 	path = repos/edex-ui-bin
 	url = ssh://aur@aur.archlinux.org/edex-ui-bin.git
 	branch = master
+[submodule "repos/exe-thumbnailer"]
+	path = repos/exe-thumbnailer
+	url = ssh://aur@aur.archlinux.org/exe-thumbnailer.git
+	branch = master
