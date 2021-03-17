@@ -167,3 +167,7 @@
 	path = repos/jmtpfs
 	url = ssh://aur@aur.archlinux.org/jmtpfs.git
 	branch = master
+[submodule "repos/libuiohook"]
+	path = repos/libuiohook
+	url = ssh://aur@aur.archlinux.org/libuiohook.git
+	branch = master
