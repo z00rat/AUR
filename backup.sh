@@ -11,8 +11,8 @@ done
 msg2 "status:"
 git status
 
-msg2 "file tree:"
-tree -fia pkgs
+# msg2 "file tree:"
+# tree -fia pkgs
 
 msg2 "commting changes in 10s (CTRL+C to exit)"
 sleep 10
