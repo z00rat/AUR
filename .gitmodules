@@ -219,3 +219,7 @@
 	path = repos/nomad
 	url = ssh://aur@aur.archlinux.org/nomad.git
 	branch = master
+[submodule "repos/notion-app"]
+	path = repos/notion-app
+	url = ssh://aur@aur.archlinux.org/notion-app.git
+	branch = master
