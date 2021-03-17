@@ -55,3 +55,7 @@
 	path = repos/bibata-cursor-theme
 	url = ssh://aur@aur.archlinux.org/bibata-cursor-theme.git
 	branch = master
+[submodule "repos/boundary-bin"]
+	path = repos/boundary-bin
+	url = ssh://aur@aur.archlinux.org/boundary-bin.git
+	branch = master
