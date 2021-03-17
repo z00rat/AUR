@@ -59,3 +59,7 @@
 	path = repos/boundary-bin
 	url = ssh://aur@aur.archlinux.org/boundary-bin.git
 	branch = master
+[submodule "repos/broken-link-checker"]
+	path = repos/broken-link-checker
+	url = ssh://aur@aur.archlinux.org/broken-link-checker.git
+	branch = master
