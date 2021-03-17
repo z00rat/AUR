@@ -171,3 +171,7 @@
 	path = repos/libuiohook
 	url = ssh://aur@aur.archlinux.org/libuiohook.git
 	branch = master
+[submodule "repos/libva-intel-driver-hybrid"]
+	path = repos/libva-intel-driver-hybrid
+	url = ssh://aur@aur.archlinux.org/libva-intel-driver-hybrid.git
+	branch = master
