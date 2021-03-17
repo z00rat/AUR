@@ -371,3 +371,7 @@
 	path = repos/spicetify-cli
 	url = ssh://aur@aur.archlinux.org/spicetify-cli.git
 	branch = master
+[submodule "repos/spotify"]
+	path = repos/spotify
+	url = ssh://aur@aur.archlinux.org/spotify.git
+	branch = master
