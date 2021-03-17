@@ -127,3 +127,7 @@
 	path = repos/gconf-cleaner
 	url = ssh://aur@aur.archlinux.org/gconf-cleaner.git
 	branch = master
+[submodule "repos/gitify-bin"]
+	path = repos/gitify-bin
+	url = ssh://aur@aur.archlinux.org/gitify-bin.git
+	branch = master
