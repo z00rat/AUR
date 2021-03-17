@@ -359,3 +359,7 @@
 	path = repos/rofi-greenclip
 	url = ssh://aur@aur.archlinux.org/rofi-greenclip.git
 	branch = master
+[submodule "repos/runjs-bin"]
+	path = repos/runjs-bin
+	url = ssh://aur@aur.archlinux.org/runjs-bin.git
+	branch = master
