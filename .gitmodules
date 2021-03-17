@@ -27,3 +27,7 @@
 	path = repos/aur-out-of-date
 	url = ssh://aur@aur.archlinux.org/aur-out-of-date.git
 	branch = master
+[submodule "repos/aurutils"]
+	path = repos/aurutils
+	url = ssh://aur@aur.archlinux.org/aurutils.git
+	branch = master
