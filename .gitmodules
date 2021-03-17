@@ -375,3 +375,7 @@
 	path = repos/spotify
 	url = ssh://aur@aur.archlinux.org/spotify.git
 	branch = master
+[submodule "repos/stretchly-bin"]
+	path = repos/stretchly-bin
+	url = ssh://aur@aur.archlinux.org/stretchly-bin.git
+	branch = master
