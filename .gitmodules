@@ -159,3 +159,7 @@
 	path = repos/i3lock-color
 	url = ssh://aur@aur.archlinux.org/i3lock-color.git
 	branch = master
+[submodule "repos/ibus-avro-git"]
+	path = repos/ibus-avro-git
+	url = ssh://aur@aur.archlinux.org/ibus-avro-git.git
+	branch = master
