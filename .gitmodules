@@ -447,3 +447,7 @@
 	path = repos/ytmdl-git
 	url = ssh://aur@aur.archlinux.org/ytmdl-git.git
 	branch = master
+[submodule "repos/zoom"]
+	path = repos/zoom
+	url = ssh://aur@aur.archlinux.org/zoom.git
+	branch = master
