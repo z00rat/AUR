@@ -75,3 +75,7 @@
 	path = repos/cointop-bin
 	url = ssh://aur@aur.archlinux.org/cointop-bin.git
 	branch = master
+[submodule "repos/debtap"]
+	path = repos/debtap
+	url = ssh://aur@aur.archlinux.org/debtap.git
+	branch = master
