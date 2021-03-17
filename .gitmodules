@@ -1,1 +1,5 @@
 
+[submodule "repos/opencomic-bin"]
+	path = repos/opencomic-bin
+	url = ssh://aur@aur.archlinux.org/opencomic-bin.git
+	branch = master
