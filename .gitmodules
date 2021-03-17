@@ -367,3 +367,7 @@
 	path = repos/siji-git
 	url = ssh://aur@aur.archlinux.org/siji-git.git
 	branch = master
+[submodule "repos/spicetify-cli"]
+	path = repos/spicetify-cli
+	url = ssh://aur@aur.archlinux.org/spicetify-cli.git
+	branch = master
