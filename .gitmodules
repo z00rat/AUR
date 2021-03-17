@@ -287,3 +287,7 @@
 	path = repos/python-ffmpeg
 	url = ssh://aur@aur.archlinux.org/python-ffmpeg.git
 	branch = master
+[submodule "repos/python-itunespy"]
+	path = repos/python-itunespy
+	url = ssh://aur@aur.archlinux.org/python-itunespy.git
+	branch = master
