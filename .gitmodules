@@ -315,3 +315,7 @@
 	path = repos/python-spotdl
 	url = ssh://aur@aur.archlinux.org/python-spotdl.git
 	branch = master
+[submodule "repos/python-spotipy"]
+	path = repos/python-spotipy
+	url = ssh://aur@aur.archlinux.org/python-spotipy.git
+	branch = master
