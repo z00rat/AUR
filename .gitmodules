@@ -211,3 +211,7 @@
 	path = repos/nerd-fonts-source-code-pro
 	url = ssh://aur@aur.archlinux.org/nerd-fonts-source-code-pro.git
 	branch = master
+[submodule "repos/nodejs-mapscii"]
+	path = repos/nodejs-mapscii
+	url = ssh://aur@aur.archlinux.org/nodejs-mapscii.git
+	branch = master
