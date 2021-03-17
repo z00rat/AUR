@@ -67,3 +67,7 @@
 	path = repos/cava
 	url = ssh://aur@aur.archlinux.org/cava.git
 	branch = master
+[submodule "repos/code-server"]
+	path = repos/code-server
+	url = ssh://aur@aur.archlinux.org/code-server.git
+	branch = master
