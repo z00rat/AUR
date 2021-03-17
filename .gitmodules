@@ -71,3 +71,7 @@
 	path = repos/code-server
 	url = ssh://aur@aur.archlinux.org/code-server.git
 	branch = master
+[submodule "repos/cointop-bin"]
+	path = repos/cointop-bin
+	url = ssh://aur@aur.archlinux.org/cointop-bin.git
+	branch = master
