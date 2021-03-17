@@ -235,3 +235,7 @@
 	path = repos/obs-v4l2sink
 	url = ssh://aur@aur.archlinux.org/obs-v4l2sink.git
 	branch = master
+[submodule "repos/oomox"]
+	path = repos/oomox
+	url = ssh://aur@aur.archlinux.org/oomox.git
+	branch = master
