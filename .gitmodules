@@ -435,3 +435,7 @@
 	path = repos/wttr
 	url = ssh://aur@aur.archlinux.org/wttr.git
 	branch = master
+[submodule "repos/xmind"]
+	path = repos/xmind
+	url = ssh://aur@aur.archlinux.org/xmind.git
+	branch = master
