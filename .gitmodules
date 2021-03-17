@@ -427,3 +427,7 @@
 	path = repos/webtorrent-desktop-bin
 	url = ssh://aur@aur.archlinux.org/webtorrent-desktop-bin.git
 	branch = master
+[submodule "repos/webtty"]
+	path = repos/webtty
+	url = ssh://aur@aur.archlinux.org/webtty.git
+	branch = master
