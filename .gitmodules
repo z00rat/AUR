@@ -419,3 +419,7 @@
 	path = repos/volctl
 	url = ssh://aur@aur.archlinux.org/volctl.git
 	branch = master
+[submodule "repos/vrms-arch"]
+	path = repos/vrms-arch
+	url = ssh://aur@aur.archlinux.org/vrms-arch.git
+	branch = master
