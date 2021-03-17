@@ -175,3 +175,7 @@
 	path = repos/libva-intel-driver-hybrid
 	url = ssh://aur@aur.archlinux.org/libva-intel-driver-hybrid.git
 	branch = master
+[submodule "repos/light-git"]
+	path = repos/light-git
+	url = ssh://aur@aur.archlinux.org/light-git.git
+	branch = master
