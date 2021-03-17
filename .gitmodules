@@ -331,3 +331,7 @@
 	path = repos/python2-twodict-git
 	url = ssh://aur@aur.archlinux.org/python2-twodict-git.git
 	branch = master
+[submodule "repos/python3-memoizedb"]
+	path = repos/python3-memoizedb
+	url = ssh://aur@aur.archlinux.org/python3-memoizedb.git
+	branch = master
