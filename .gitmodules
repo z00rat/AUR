@@ -339,3 +339,7 @@
 	path = repos/python3-xcgf
 	url = ssh://aur@aur.archlinux.org/python3-xcgf.git
 	branch = master
+[submodule "repos/python3-xcpf"]
+	path = repos/python3-xcpf
+	url = ssh://aur@aur.archlinux.org/python3-xcpf.git
+	branch = master
