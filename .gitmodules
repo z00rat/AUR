@@ -403,3 +403,7 @@
 	path = repos/ttf-ms-fonts
 	url = ssh://aur@aur.archlinux.org/ttf-ms-fonts.git
 	branch = master
+[submodule "repos/ttf-typicons"]
+	path = repos/ttf-typicons
+	url = ssh://aur@aur.archlinux.org/ttf-typicons.git
+	branch = master
