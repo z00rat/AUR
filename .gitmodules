@@ -271,3 +271,7 @@
 	path = repos/pkgoutofdate-git
 	url = ssh://aur@aur.archlinux.org/pkgoutofdate-git.git
 	branch = master
+[submodule "repos/pm2ml"]
+	path = repos/pm2ml
+	url = ssh://aur@aur.archlinux.org/pm2ml.git
+	branch = master
