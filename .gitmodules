@@ -199,3 +199,7 @@
 	path = repos/maldet
 	url = ssh://aur@aur.archlinux.org/maldet.git
 	branch = master
+[submodule "repos/mkp224o"]
+	path = repos/mkp224o
+	url = ssh://aur@aur.archlinux.org/mkp224o.git
+	branch = master
