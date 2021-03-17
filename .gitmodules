@@ -19,3 +19,7 @@
 	path = repos/archiso-git
 	url = ssh://aur@aur.archlinux.org/archiso-git.git
 	branch = master
+[submodule "repos/aseprite"]
+	path = repos/aseprite
+	url = ssh://aur@aur.archlinux.org/aseprite.git
+	branch = master
