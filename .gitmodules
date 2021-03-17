@@ -279,3 +279,7 @@
 	path = repos/popcorntime-bin
 	url = ssh://aur@aur.archlinux.org/popcorntime-bin.git
 	branch = master
+[submodule "repos/powerpill"]
+	path = repos/powerpill
+	url = ssh://aur@aur.archlinux.org/powerpill.git
+	branch = master
