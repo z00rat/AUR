@@ -1,0 +1,5 @@
+post_remove(){
+#echo "wttr has just removed from your computer"
+echo " Script removed successfuly .By the way You need to Manually remove .wttr directory from your home directory"
+#echo "if there is any bug please let us know . firoozi128.af@gmail.com"
+}

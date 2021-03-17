@@ -1,0 +1,37 @@
+pkgbase = ytmdl-git
+	pkgdesc = Download songs from YouTube with metadata from sources like Itunes and Gaana
+	pkgver = 2021.01.13.3.g8c29e79
+	pkgrel = 1
+	url = https://github.com/deepjyoti30/ytmdl
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = python-setuptools
+	depends = python>=3.6
+	depends = ffmpeg
+	depends = youtube-dl
+	depends = python-mutagen
+	depends = python-beautifulsoup4
+	depends = python-colorama
+	depends = downloader-cli
+	depends = python-itunespy
+	depends = python-ffmpeg
+	depends = python-pysocks
+	depends = python-xdg
+	depends = python-requests
+	depends = python-lxml
+	depends = python-wheel
+	depends = python-youtube-search-git
+	depends = python-unidecode
+	depends = python-simber
+	depends = python-pydes
+	depends = python-urllib3
+	depends = python-rich
+	optdepends = tensorflow: Trim Support
+	provides = ytmdl
+	conflicts = ytmdl
+	source = ytmdl::git+https://github.com/deepjyoti30/ytmdl.git
+	md5sums = SKIP
+
+pkgname = ytmdl-git
+

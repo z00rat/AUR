@@ -1,0 +1,16 @@
+pkgbase = betterdiscordctl-git
+	pkgdesc = A utility for managing BetterDiscord on Linux
+	pkgver = 1.7.0.r0.g785ad01
+	pkgrel = 2
+	url = https://github.com/bb010g/betterdiscordctl
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = git
+	provides = betterdiscordctl
+	conflicts = betterdiscordctl
+	source = git+https://github.com/bb010g/betterdiscordctl.git
+	md5sums = SKIP
+
+pkgname = betterdiscordctl-git
+

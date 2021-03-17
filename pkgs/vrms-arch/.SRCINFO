@@ -1,0 +1,15 @@
+pkgbase = vrms-arch
+	pkgdesc = vrms for ArchLinux
+	pkgver = 0.1.0.r25.g802c767
+	pkgrel = 1
+	url = https://github.com/orospakr/vrms-arch
+	arch = any
+	license = custom:BSD3
+	makedepends = git
+	depends = python
+	depends = pyalpm
+	source = git+https://github.com/orospakr/vrms-arch.git
+	sha256sums = SKIP
+
+pkgname = vrms-arch
+

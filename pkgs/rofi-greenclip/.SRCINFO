@@ -1,0 +1,22 @@
+pkgbase = rofi-greenclip
+	pkgdesc = Clipboard manager to use with rofi - Image support and blacklist
+	pkgver = 3.4
+	pkgrel = 5
+	url = https://github.com/erebe/greenclip
+	changelog = changelog
+	arch = x86_64
+	license = GPL
+	optdepends = rofi
+	optdepends = fzf
+	optdepends = dmenu
+	provides = greenclip
+	conflicts = rofi-greenclip-beta
+	replaces = rofi-greenclip-beta
+	options = !strip
+	source = https://github.com/erebe/greenclip/releases/download/3.4/greenclip
+	source = greenclip.service
+	sha256sums = 6b3d5804be52cd477c8cc1c86f20fcaeb5ba55c89f72f5a690e84d6998dc6583
+	sha256sums = 85ecca9b6f5903ee53615c09802efd389662ddba7ce1febe34302a6a1d87179e
+
+pkgname = rofi-greenclip
+

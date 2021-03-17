@@ -1,0 +1,13 @@
+pkgbase = pkgoutofdate-git
+	pkgdesc = Checks whether Arch packages are out-of-date
+	pkgver = r18.f06a1df
+	pkgrel = 1
+	url = https://github.com/anatol/pkgoutofdate
+	arch = any
+	license = GPL3
+	makedepends = git
+	depends = ruby
+	source = git://github.com/anatol/pkgoutofdate
+	sha1sums = SKIP
+
+pkgname = pkgoutofdate-git

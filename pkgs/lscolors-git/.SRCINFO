@@ -1,0 +1,14 @@
+pkgbase = lscolors-git
+	pkgdesc = Colorize the output of the "ls" shell command via LS_COLORS
+	pkgver = r259.03e66df
+	pkgrel = 1
+	url = https://github.com/trapd00r/LS_COLORS
+	install = lscolors-git.install
+	arch = any
+	license = PerlArtistic
+	makedepends = git
+	source = git+https://github.com/trapd00r/LS_COLORS.git
+	sha256sums = SKIP
+
+pkgname = lscolors-git
+

@@ -1,0 +1,21 @@
+pkgbase = exe-thumbnailer
+	pkgdesc = Thumbnailer for .exe/.dll/.msi/.lnk files
+	pkgver = 0.10.1
+	pkgrel = 1
+	url = https://github.com/exe-thumbnailer/exe-thumbnailer
+	arch = any
+	license = LGPL2.1
+	depends = bash
+	depends = imagemagick
+	depends = icoutils
+	depends = glib2
+	optdepends = wine: to support .lnk shortcuts
+	optdepends = liblnk-tools: to support .lnk shortcuts
+	optdepends = msitools: to support .msi installers
+	conflicts = gnome-exe-thumbnailer
+	replaces = gnome-exe-thumbnailer
+	source = exe-thumbnailer-0.10.1.tar.gz::https://github.com/exe-thumbnailer/exe-thumbnailer/archive/0.10.1.tar.gz
+	sha256sums = 52a48d8e94009453f3506d33eefca9a6551ec94ac1580dc3129c1139e719c782
+
+pkgname = exe-thumbnailer
+

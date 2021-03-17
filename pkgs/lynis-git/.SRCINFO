@@ -1,0 +1,23 @@
+pkgbase = lynis-git
+	pkgdesc = Security and system auditing tool to harden Unix/Linux systems
+	pkgver = 2.6.4.2108.5300475
+	pkgrel = 1
+	url = https://cisofy.com/lynis/
+	arch = any
+	license = GPL3
+	makedepends = git
+	depends = sh
+	depends = awk
+	optdepends = net-tools: networking tests
+	optdepends = bind-tools: nameserver tests
+	optdepends = iptables: firewall tests
+	optdepends = bash-completion: completion for bash
+	provides = lynis
+	conflicts = lynis
+	backup = etc/lynis/default.prf
+	source = lynis-git::git+https://github.com/CISOfy/lynis
+	validpgpkeys = 73AC9FC55848E977024D1A61429A566FD5B79251
+	sha512sums = SKIP
+
+pkgname = lynis-git
+

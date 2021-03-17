@@ -1,0 +1,14 @@
+pkgbase = msg2
+	pkgdesc = Output a blue arrow and a bold message
+	pkgver = 1.2.0
+	pkgrel = 2
+	url = https://roboticoverlords.org/msg2
+	arch = x86_64
+	license = GPL
+	makedepends = cmake
+	makedepends = ninja
+	source = https://roboticoverlords.org/msg2/msg2-1.2.0.tar.xz
+	sha256sums = 4834104465f62f0ecec7615e75ca2e50a5e42218854da8f6b022a120937702ac
+
+pkgname = msg2
+
