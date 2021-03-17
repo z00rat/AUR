@@ -143,3 +143,7 @@
 	path = repos/glow
 	url = ssh://aur@aur.archlinux.org/glow.git
 	branch = master
+[submodule "repos/google-chrome"]
+	path = repos/google-chrome
+	url = ssh://aur@aur.archlinux.org/google-chrome.git
+	branch = master
