@@ -311,3 +311,7 @@
 	path = repos/python-simber
 	url = ssh://aur@aur.archlinux.org/python-simber.git
 	branch = master
+[submodule "repos/python-spotdl"]
+	path = repos/python-spotdl
+	url = ssh://aur@aur.archlinux.org/python-spotdl.git
+	branch = master
