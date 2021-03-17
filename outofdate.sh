@@ -16,3 +16,5 @@ do
     cd $pwd
 
 done
+
+msg2 "done."

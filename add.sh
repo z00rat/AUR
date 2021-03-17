@@ -6,6 +6,7 @@ do
    cd repos
    git submodule add --force -b master ssh://aur@aur.archlinux.org/$pkgname.git
    git commit -m "adding $pkgname"
+   tree -fia 
    cd ..
 
 done

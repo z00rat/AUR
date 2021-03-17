@@ -14,4 +14,4 @@ do
 
 done
 
-msg2 "done cloning"
+msg2 "done cloning."
