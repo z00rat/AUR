@@ -455,3 +455,7 @@
 	path = repos/raven-reader
 	url = ssh://aur@aur.archlinux.org/raven-reader.git
 	branch = master
+[submodule "repos/raven-reader-bin"]
+	path = repos/raven-reader-bin
+	url = ssh://aur@aur.archlinux.org/raven-reader-bin.git
+	branch = master
