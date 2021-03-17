@@ -3,3 +3,7 @@
 	path = repos/opencomic-bin
 	url = ssh://aur@aur.archlinux.org/opencomic-bin.git
 	branch = master
+[submodule "repos/advcpmv"]
+	path = repos/advcpmv
+	url = ssh://aur@aur.archlinux.org/advcpmv.git
+	branch = master
