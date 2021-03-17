@@ -39,3 +39,7 @@
 	path = repos/awesome-git
 	url = ssh://aur@aur.archlinux.org/awesome-git.git
 	branch = master
+[submodule "repos/awmtt"]
+	path = repos/awmtt
+	url = ssh://aur@aur.archlinux.org/awmtt.git
+	branch = master
