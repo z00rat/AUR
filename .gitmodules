@@ -207,3 +207,7 @@
 	path = repos/msg2
 	url = ssh://aur@aur.archlinux.org/msg2.git
 	branch = master
+[submodule "repos/nerd-fonts-source-code-pro"]
+	path = repos/nerd-fonts-source-code-pro
+	url = ssh://aur@aur.archlinux.org/nerd-fonts-source-code-pro.git
+	branch = master
