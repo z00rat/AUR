@@ -215,3 +215,7 @@
 	path = repos/nodejs-mapscii
 	url = ssh://aur@aur.archlinux.org/nodejs-mapscii.git
 	branch = master
+[submodule "repos/nomad"]
+	path = repos/nomad
+	url = ssh://aur@aur.archlinux.org/nomad.git
+	branch = master
