@@ -107,3 +107,7 @@
 	path = repos/fbrokendesktop
 	url = ssh://aur@aur.archlinux.org/fbrokendesktop.git
 	branch = master
+[submodule "repos/firefox-esr-bin"]
+	path = repos/firefox-esr-bin
+	url = ssh://aur@aur.archlinux.org/firefox-esr-bin.git
+	branch = master
