@@ -15,3 +15,7 @@
 	path = repos/antibody
 	url = ssh://aur@aur.archlinux.org/antibody.git
 	branch = master
+[submodule "repos/archiso-git"]
+	path = repos/archiso-git
+	url = ssh://aur@aur.archlinux.org/archiso-git.git
+	branch = master
