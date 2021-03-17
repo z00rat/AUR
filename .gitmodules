@@ -423,3 +423,7 @@
 	path = repos/vrms-arch
 	url = ssh://aur@aur.archlinux.org/vrms-arch.git
 	branch = master
+[submodule "repos/webtorrent-desktop-bin"]
+	path = repos/webtorrent-desktop-bin
+	url = ssh://aur@aur.archlinux.org/webtorrent-desktop-bin.git
+	branch = master
