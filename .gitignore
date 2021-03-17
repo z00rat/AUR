@@ -1,4 +1,4 @@
-pkgs/opencomic-bin/opencomic-bin-0.2.0-2-x86_64.pkg.tar.zst
-pkgs/opencomic-bin/opencomic-bin-0.2.0.tar.gz
+pkgs/opencomic-bin/opencomic-bin-*
+pkgs/opencomic-bin/opencomic-bin-*
 pkgs/opencomic-bin/pkg/
 pkgs/opencomic-bin/src/
