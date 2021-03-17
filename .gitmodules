@@ -95,3 +95,7 @@
 	path = repos/dry-bin
 	url = ssh://aur@aur.archlinux.org/dry-bin.git
 	branch = master
+[submodule "repos/edex-ui-bin"]
+	path = repos/edex-ui-bin
+	url = ssh://aur@aur.archlinux.org/edex-ui-bin.git
+	branch = master
