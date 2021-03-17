@@ -239,3 +239,7 @@
 	path = repos/oomox
 	url = ssh://aur@aur.archlinux.org/oomox.git
 	branch = master
+[submodule "repos/opensnitch-git"]
+	path = repos/opensnitch-git
+	url = ssh://aur@aur.archlinux.org/opensnitch-git.git
+	branch = master
