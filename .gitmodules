@@ -119,3 +119,7 @@
 	path = repos/fsearch-git
 	url = ssh://aur@aur.archlinux.org/fsearch-git.git
 	branch = master
+[submodule "repos/gallery-dl"]
+	path = repos/gallery-dl
+	url = ssh://aur@aur.archlinux.org/gallery-dl.git
+	branch = master
