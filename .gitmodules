@@ -319,3 +319,7 @@
 	path = repos/python-spotipy
 	url = ssh://aur@aur.archlinux.org/python-spotipy.git
 	branch = master
+[submodule "repos/python-youtube-search-git"]
+	path = repos/python-youtube-search-git
+	url = ssh://aur@aur.archlinux.org/python-youtube-search-git.git
+	branch = master
