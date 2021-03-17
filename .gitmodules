@@ -363,3 +363,7 @@
 	path = repos/runjs-bin
 	url = ssh://aur@aur.archlinux.org/runjs-bin.git
 	branch = master
+[submodule "repos/siji-git"]
+	path = repos/siji-git
+	url = ssh://aur@aur.archlinux.org/siji-git.git
+	branch = master
