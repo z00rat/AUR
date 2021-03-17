@@ -1,6 +1,6 @@
 #!/bin/bash
 msg2 "submodule status"
-msg2 $(git submodule status)
+git submodule status
 echo ""
 pwd=$(pwd)
 

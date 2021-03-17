@@ -4,7 +4,7 @@ pwd=$(pwd)
 echo ""
 
 msg2 "running pkgoutofdate"
-pkgoutofdate --threads_num 1 -v -d repos/
+pkgoutofdate -d repos/ #--threads_num 1
 
 msg2 "running aur-out-of-date"
 for pkgname in $(/usr/bin/ls repos)
