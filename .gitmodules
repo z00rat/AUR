@@ -103,3 +103,7 @@
 	path = repos/exe-thumbnailer
 	url = ssh://aur@aur.archlinux.org/exe-thumbnailer.git
 	branch = master
+[submodule "repos/fbrokendesktop"]
+	path = repos/fbrokendesktop
+	url = ssh://aur@aur.archlinux.org/fbrokendesktop.git
+	branch = master
