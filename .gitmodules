@@ -335,3 +335,7 @@
 	path = repos/python3-memoizedb
 	url = ssh://aur@aur.archlinux.org/python3-memoizedb.git
 	branch = master
+[submodule "repos/python3-xcgf"]
+	path = repos/python3-xcgf
+	url = ssh://aur@aur.archlinux.org/python3-xcgf.git
+	branch = master
