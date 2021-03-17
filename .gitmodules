@@ -383,3 +383,7 @@
 	path = repos/surf
 	url = ssh://aur@aur.archlinux.org/surf.git
 	branch = master
+[submodule "repos/tlpui-git"]
+	path = repos/tlpui-git
+	url = ssh://aur@aur.archlinux.org/tlpui-git.git
+	branch = master
