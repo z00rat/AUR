@@ -1,20 +1,27 @@
 #!/bin/bash
 msg2 "checking for out-of-date packages"
 pwd=$(pwd)
+let i=0
 echo ""
+
+msg2 "listing already flaged packages" 
+trizen -Su 2>&1 >/dev/null | grep "has been flagged" | awk '{print $2}' | tee alreadyflaged.txt
 
 msg2 "running pkgoutofdate"
 pkgoutofdate -d repos/ #--threads_num 1
 
 msg2 "running aur-out-of-date"
-for pkgname in $(/usr/bin/ls repos)
+repolist=$(/usr/bin/ls repos)
+reponum=$(/usr/bin/ls repos | wc -l)
+
+for pkgname in $repolist
 do
-    msg2 "checking for update for '$pkgname'"
+    let i+=1
+    msg2 "[$i/$reponum] checking for update for '$pkgname'"
 
     cd repos/$pkgname
-    aur-out-of-date -local .SRCINFO
+    aur-out-of-date -local .SRCINFO | grep "OUT-OF-DATE"
     cd $pwd
-
 done
 
 msg2 "done."

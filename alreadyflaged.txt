@@ -1,0 +1,11 @@
+burpsuite
+gitify-bin
+gitui-bin
+google-chrome
+maldet
+notion-app
+obs-input-overlay-bin
+oomox
+resvg
+robo3t-bin
+spotify
