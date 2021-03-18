@@ -459,3 +459,7 @@
 	path = repos/raven-reader-bin
 	url = ssh://aur@aur.archlinux.org/raven-reader-bin.git
 	branch = master
+[submodule "repos/burpsuite"]
+	path = repos/burpsuite
+	url = ssh://aur@aur.archlinux.org/burpsuite.git
+	branch = master
