@@ -8,4 +8,3 @@ obs-input-overlay-bin
 oomox
 resvg
 robo3t-bin
-spotify
