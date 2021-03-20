@@ -9,9 +9,10 @@ do
    msg2 "pulling update for '$pkgname' repo"
 
    cd repos/$pkgname
-   git pull
+   git pull | grep -v "Already up to date."
    cd $pwd
 
 done
 
 msg2 "done cloning."
+

@@ -4,14 +4,17 @@
 burpsuite
 gitify-bin
 gitui-bin
-google-chrome
 maldet
 notion-app
 obs-input-overlay-bin
 oomox
+python-pytube
+python-rapidfuzz
+python-spotdl
 resvg
 robo3t-bin
   [1;34m->[;1m running pkgoutofdate[0m
+python-pytube: new version found - 10.5.2 => 10.6.0
 notion-app: new version found - 2.0.11 => 2.0.12
 resvg: new version found - 0.13.0 => 0.13.1
   [1;34m->[;1m running aur-out-of-date[0m
@@ -67,7 +70,6 @@ resvg: new version found - 0.13.0 => 0.13.1
   [1;34m->[;1m [48/115] checking for update for 'lsdesktopf'[0m
   [1;34m->[;1m [49/115] checking for update for 'lynis-git'[0m
   [1;34m->[;1m [50/115] checking for update for 'maldet'[0m
-[31m         [OUT-OF-DATE] [maldet][1.6-3] should be updated to 1.6.4 [0m
   [1;34m->[;1m [51/115] checking for update for 'mkp224o'[0m
   [1;34m->[;1m [52/115] checking for update for 'msg2'[0m
   [1;34m->[;1m [53/115] checking for update for 'nerd-fonts-source-code-pro'[0m
@@ -76,10 +78,8 @@ resvg: new version found - 0.13.0 => 0.13.1
   [1;34m->[;1m [56/115] checking for update for 'notion-app'[0m
   [1;34m->[;1m [57/115] checking for update for 'obfs4proxy'[0m
   [1;34m->[;1m [58/115] checking for update for 'obs-input-overlay-bin'[0m
-[31m         [OUT-OF-DATE] [obs-input-overlay-bin][v4.8-3] should be updated to 4.8 [0m
   [1;34m->[;1m [59/115] checking for update for 'obs-v4l2sink'[0m
   [1;34m->[;1m [60/115] checking for update for 'oomox'[0m
-[31m         [OUT-OF-DATE] [oomox][1.12.5.3-3] should be updated to 1.13.3 [0m
   [1;34m->[;1m [61/115] checking for update for 'opencomic-bin'[0m
   [1;34m->[;1m [62/115] checking for update for 'opensnitch-git'[0m
   [1;34m->[;1m [63/115] checking for update for 'otf-san-francisco'[0m
@@ -103,16 +103,15 @@ resvg: new version found - 0.13.0 => 0.13.1
   [1;34m->[;1m [81/115] checking for update for 'python-rapidfuzz'[0m
   [1;34m->[;1m [82/115] checking for update for 'python-simber'[0m
   [1;34m->[;1m [83/115] checking for update for 'python-spotdl'[0m
+[31m         [OUT-OF-DATE] [python-spotdl][3.4.1-1] should be updated to 3.4.2 [0m
   [1;34m->[;1m [84/115] checking for update for 'python-spotipy'[0m
   [1;34m->[;1m [85/115] checking for update for 'python-youtube-search-git'[0m
   [1;34m->[;1m [86/115] checking for update for 'python-ytmusicapi'[0m
   [1;34m->[;1m [87/115] checking for update for 'raven-reader'[0m
   [1;34m->[;1m [88/115] checking for update for 'raven-reader-bin'[0m
   [1;34m->[;1m [89/115] checking for update for 'resvg'[0m
-[31m         [OUT-OF-DATE] [resvg][0.13.0-1] should be updated to 0.14.0 [0m
   [1;34m->[;1m [90/115] checking for update for 'ricochet'[0m
   [1;34m->[;1m [91/115] checking for update for 'robo3t-bin'[0m
-[31m         [OUT-OF-DATE] [robo3t-bin][1.4.2-1] should be updated to 1.4.3 [0m
   [1;34m->[;1m [92/115] checking for update for 'rofi-greenclip'[0m
   [1;34m->[;1m [93/115] checking for update for 'runjs-bin'[0m
   [1;34m->[;1m [94/115] checking for update for 'siji-git'[0m
