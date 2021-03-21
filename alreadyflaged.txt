@@ -1,12 +1,8 @@
-burpsuite
 gitify-bin
 gitui-bin
 maldet
 notion-app
 obs-input-overlay-bin
 oomox
-python-pytube
-python-rapidfuzz
-python-spotdl
 resvg
 robo3t-bin
