@@ -467,3 +467,7 @@
 	path = repos/electronmail-bin
 	url = ssh://aur@aur.archlinux.org/electronmail-bin.git
 	branch = master
+[submodule "repos/bibata-cursor-theme-bin"]
+	path = repos/bibata-cursor-theme-bin
+	url = ssh://aur@aur.archlinux.org/bibata-cursor-theme-bin.git
+	branch = master
