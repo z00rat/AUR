@@ -463,3 +463,7 @@
 	path = repos/burpsuite
 	url = ssh://aur@aur.archlinux.org/burpsuite.git
 	branch = master
+[submodule "repos/electronmail-bin"]
+	path = repos/electronmail-bin
+	url = ssh://aur@aur.archlinux.org/electronmail-bin.git
+	branch = master
