@@ -1,9 +1,10 @@
+burpsuite
 gitify-bin
 gitui-bin
 maldet
-notion-app
 obs-input-overlay-bin
 oomox
 resvg
 robo3t-bin
+spotify
 ttf-typicons
