@@ -471,3 +471,7 @@
 	path = repos/bibata-cursor-theme-bin
 	url = ssh://aur@aur.archlinux.org/bibata-cursor-theme-bin.git
 	branch = master
+[submodule "repos/discord-chat-exporter-cli"]
+	path = repos/discord-chat-exporter-cli
+	url = ssh://aur@aur.archlinux.org/discord-chat-exporter-cli.git
+	branch = master
