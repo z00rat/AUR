@@ -479,3 +479,7 @@
 	path = repos/faq-bin
 	url = ssh://aur@aur.archlinux.org/faq-bin.git
 	branch = master
+[submodule "repos/jiq-bin"]
+	path = repos/jiq-bin
+	url = ssh://aur@aur.archlinux.org/jiq-bin.git
+	branch = master
