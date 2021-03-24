@@ -475,3 +475,7 @@
 	path = repos/discord-chat-exporter-cli
 	url = ssh://aur@aur.archlinux.org/discord-chat-exporter-cli.git
 	branch = master
+[submodule "repos/faq-bin"]
+	path = repos/faq-bin
+	url = ssh://aur@aur.archlinux.org/faq-bin.git
+	branch = master
