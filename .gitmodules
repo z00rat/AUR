@@ -487,3 +487,7 @@
 	path = repos/fakepkg
 	url = ssh://aur@aur.archlinux.org/fakepkg.git
 	branch = master
+[submodule "repos/onedrive-abraunegg"]
+	path = repos/onedrive-abraunegg
+	url = ssh://aur@aur.archlinux.org/onedrive-abraunegg.git
+	branch = master
