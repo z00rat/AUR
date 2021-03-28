@@ -483,3 +483,7 @@
 	path = repos/jiq-bin
 	url = ssh://aur@aur.archlinux.org/jiq-bin.git
 	branch = master
+[submodule "repos/fakepkg"]
+	path = repos/fakepkg
+	url = ssh://aur@aur.archlinux.org/fakepkg.git
+	branch = master
