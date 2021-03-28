@@ -1,4 +1,3 @@
-burpsuite
 gitify-bin
 gitui-bin
 losslesscut-bin
