@@ -1,10 +1,12 @@
+awesome-git
+fsearch-git
 gitify-bin
 gitui-bin
-losslesscut-bin
 maldet
 notion-app
 obs-input-overlay-bin
 oomox
 resvg
 robo3t-bin
+tor-browser
 ttf-typicons
