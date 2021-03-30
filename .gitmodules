@@ -491,3 +491,7 @@
 	path = repos/onedrive-abraunegg
 	url = ssh://aur@aur.archlinux.org/onedrive-abraunegg.git
 	branch = master
+[submodule "repos/tt-bin"]
+	path = repos/tt-bin
+	url = ssh://aur@aur.archlinux.org/tt-bin.git
+	branch = master
