@@ -8,5 +8,4 @@ obs-input-overlay-bin
 oomox
 resvg
 robo3t-bin
-tor-browser
 ttf-typicons
