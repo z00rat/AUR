@@ -1,4 +1,3 @@
-awesome-git
 fsearch-git
 gitify-bin
 gitui-bin
