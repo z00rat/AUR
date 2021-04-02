@@ -495,3 +495,7 @@
 	path = repos/tt-bin
 	url = ssh://aur@aur.archlinux.org/tt-bin.git
 	branch = master
+[submodule "repos/git-sizer"]
+	path = repos/git-sizer
+	url = ssh://aur@aur.archlinux.org/git-sizer.git
+	branch = master
