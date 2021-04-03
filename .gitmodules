@@ -499,3 +499,7 @@
 	path = repos/git-sizer
 	url = ssh://aur@aur.archlinux.org/git-sizer.git
 	branch = master
+[submodule "repos/betterdiscord"]
+	path = repos/betterdiscord
+	url = ssh://aur@aur.archlinux.org/betterdiscord.git
+	branch = master
