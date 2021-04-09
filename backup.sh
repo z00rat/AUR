@@ -16,6 +16,7 @@ git status
 
 msg2 "commting changes in 10s (CTRL+C to exit)"
 sleep 10
+echo "commit msg: \"$(date)\""
 git commit -a -m "$(date)"
 git push
 
