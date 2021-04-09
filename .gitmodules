@@ -503,3 +503,7 @@
 	path = repos/betterdiscord
 	url = ssh://aur@aur.archlinux.org/betterdiscord.git
 	branch = master
+[submodule "repos/ctjs-bin"]
+	path = repos/ctjs-bin
+	url = ssh://aur@aur.archlinux.org/ctjs-bin.git
+	branch = master
