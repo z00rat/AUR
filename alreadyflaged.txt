@@ -1,7 +1,6 @@
 fsearch-git
 gitify-bin
 gitui-bin
-heroku-cli-bin
 losslesscut-bin
 maldet
 obs-input-overlay-bin
