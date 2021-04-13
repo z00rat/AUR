@@ -5,10 +5,10 @@ do
 
    cd repos
    git submodule add --force -b master ssh://aur@aur.archlinux.org/$pkgname.git
-   git commit -m "adding $pkgname"
+   git commit -s -m "adding $pkgname"
    tree -fia $pkgname
    cd ..
 
 done
 
-msg2 "done cloning"
+msg2 "done cloning (if there was any)"
