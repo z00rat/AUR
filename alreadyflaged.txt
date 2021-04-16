@@ -1,3 +1,4 @@
+aseprite
 fsearch-git
 gitify-bin
 gitui-bin
