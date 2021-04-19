@@ -2,7 +2,6 @@ aseprite
 fsearch-git
 gitify-bin
 gitui-bin
-losslesscut-bin
 maldet
 obs-input-overlay-bin
 oomox
