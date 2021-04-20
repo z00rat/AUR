@@ -507,3 +507,7 @@
 	path = repos/ctjs-bin
 	url = ssh://aur@aur.archlinux.org/ctjs-bin.git
 	branch = master
+[submodule "repos/ebtables"]
+	path = repos/ebtables
+	url = ssh://aur@aur.archlinux.org/ebtables.git
+	branch = master
