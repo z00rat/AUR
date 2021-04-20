@@ -511,3 +511,7 @@
 	path = repos/ebtables
 	url = ssh://aur@aur.archlinux.org/ebtables.git
 	branch = master
+[submodule "repos/ugrep"]
+	path = repos/ugrep
+	url = ssh://aur@aur.archlinux.org/ugrep.git
+	branch = master
