@@ -1,4 +1,3 @@
-aseprite
 fsearch-git
 gitify-bin
 gitui-bin
@@ -8,4 +7,6 @@ oomox
 python-spotdl
 resvg
 robo3t-bin
+tor-browser
 ttf-typicons
+zoom
