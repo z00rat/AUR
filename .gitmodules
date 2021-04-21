@@ -515,3 +515,7 @@
 	path = repos/ugrep
 	url = ssh://aur@aur.archlinux.org/ugrep.git
 	branch = master
+[submodule "repos/tmpwatch"]
+	path = repos/tmpwatch
+	url = ssh://aur@aur.archlinux.org/tmpwatch.git
+	branch = master
