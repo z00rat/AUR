@@ -1,12 +1,8 @@
-fsearch-git
 gitify-bin
-gitui-bin
 maldet
 obs-input-overlay-bin
 oomox
 python-spotdl
 resvg
 robo3t-bin
-tor-browser
 ttf-typicons
-zoom
