@@ -5,7 +5,6 @@ gitify-bin
 maldet
 obs-input-overlay-bin
 oomox
-python-spotdl
 resvg
 robo3t-bin
 ttf-typicons
@@ -56,6 +55,7 @@ resvg: new version found - 0.13.0 => 0.13.1
   [1;34m->[;1m [41/133] checking for update for 'gitify-bin'[0m
 [31m         [OUT-OF-DATE] [gitify-bin][3.0.5-1] should be updated to 4.2.1 [0m
   [1;34m->[;1m [42/133] checking for update for 'git-sizer'[0m
+[31m         [OUT-OF-DATE] [git-sizer][1.3.0-1] should be updated to 1.4.0 [0m
   [1;34m->[;1m [43/133] checking for update for 'gitstatus'[0m
   [1;34m->[;1m [44/133] checking for update for 'gitui-bin'[0m
   [1;34m->[;1m [45/133] checking for update for 'glow'[0m
@@ -115,7 +115,6 @@ resvg: new version found - 0.13.0 => 0.13.1
   [1;34m->[;1m [96/133] checking for update for 'python-rapidfuzz'[0m
   [1;34m->[;1m [97/133] checking for update for 'python-simber'[0m
   [1;34m->[;1m [98/133] checking for update for 'python-spotdl'[0m
-[31m         [OUT-OF-DATE] [python-spotdl][3.5.0-1] should be updated to 3.5.1 [0m
   [1;34m->[;1m [99/133] checking for update for 'python-spotipy'[0m
   [1;34m->[;1m [100/133] checking for update for 'python-youtube-search-git'[0m
   [1;34m->[;1m [101/133] checking for update for 'python-ytmusicapi'[0m

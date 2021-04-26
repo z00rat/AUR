@@ -2,7 +2,6 @@ gitify-bin
 maldet
 obs-input-overlay-bin
 oomox
-python-spotdl
 resvg
 robo3t-bin
 ttf-typicons
