@@ -2,6 +2,6 @@ gitify-bin
 maldet
 obs-input-overlay-bin
 oomox
+popcorntime-bin
 resvg
-robo3t-bin
 ttf-typicons
