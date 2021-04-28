@@ -531,3 +531,7 @@
 	path = repos/speedometer
 	url = ssh://aur@aur.archlinux.org/speedometer.git
 	branch = master
+[submodule "repos/rtags"]
+	path = repos/rtags
+	url = ssh://aur@aur.archlinux.org/rtags.git
+	branch = master
