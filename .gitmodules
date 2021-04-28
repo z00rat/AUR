@@ -527,3 +527,7 @@
 	path = repos/hollywood
 	url = ssh://aur@aur.archlinux.org/hollywood.git
 	branch = master
+[submodule "repos/speedometer"]
+	path = repos/speedometer
+	url = ssh://aur@aur.archlinux.org/speedometer.git
+	branch = master
