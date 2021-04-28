@@ -519,3 +519,7 @@
 	path = repos/tmpwatch
 	url = ssh://aur@aur.archlinux.org/tmpwatch.git
 	branch = master
+[submodule "repos/apg"]
+	path = repos/apg
+	url = ssh://aur@aur.archlinux.org/apg.git
+	branch = master
