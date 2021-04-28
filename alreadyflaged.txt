@@ -1,7 +1,7 @@
+burpsuite
 gitify-bin
 maldet
 obs-input-overlay-bin
 oomox
-popcorntime-bin
 resvg
 ttf-typicons
