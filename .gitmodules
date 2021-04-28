@@ -523,3 +523,7 @@
 	path = repos/apg
 	url = ssh://aur@aur.archlinux.org/apg.git
 	branch = master
+[submodule "repos/hollywood"]
+	path = repos/hollywood
+	url = ssh://aur@aur.archlinux.org/hollywood.git
+	branch = master
