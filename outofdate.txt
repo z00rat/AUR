@@ -8,151 +8,262 @@ obs-input-overlay-bin
 oomox
 resvg
 ttf-typicons
+zoom
   [1;34m->[;1m running pkgoutofdate[0m
 ttf-typicons: new version found - 2.0.9 => 2.1.0
 resvg: new version found - 0.13.0 => 0.13.1
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m [1/137] checking for update for 'advcpmv'[0m
+[37m             [UNKNOWN] [advcpmv][8.32-2] No release found for http://ftp.gnu.org/gnu/coreutils/coreutils-8.32.tar.xz [0m
   [1;34m->[;1m [2/137] checking for update for 'ansifilter'[0m
+[37m             [UNKNOWN] [ansifilter][2.18-1] No release found for http://www.andre-simon.de/zip/ansifilter-2.18.tar.bz2 [0m
   [1;34m->[;1m [3/137] checking for update for 'antibody'[0m
+[32m          [UP-TO-DATE] [antibody][6.1.1-1] matches upstream version 6.1.1 [0m
   [1;34m->[;1m [4/137] checking for update for 'apg'[0m
+[32m          [UP-TO-DATE] [apg][2.2.3-5] matches upstream version 2.2.3 [0m
   [1;34m->[;1m [5/137] checking for update for 'archiso-git'[0m
   [1;34m->[;1m [6/137] checking for update for 'aseprite'[0m
+[32m          [UP-TO-DATE] [aseprite][1.2.27-1] matches upstream version 1.2.27 [0m
   [1;34m->[;1m [7/137] checking for update for 'aur-out-of-date'[0m
+[32m          [UP-TO-DATE] [aur-out-of-date][3.2.0-1] matches upstream version 3.2.0 [0m
   [1;34m->[;1m [8/137] checking for update for 'aurutils'[0m
+[32m          [UP-TO-DATE] [aurutils][3.1.2-2] matches upstream version 3.1.2 [0m
   [1;34m->[;1m [9/137] checking for update for 'aurvote'[0m
+[32m          [UP-TO-DATE] [aurvote][1.9-3] matches upstream version 1.9 [0m
   [1;34m->[;1m [10/137] checking for update for 'awesome-git'[0m
   [1;34m->[;1m [11/137] checking for update for 'awmtt'[0m
+[37m             [UNKNOWN] [awmtt][0.5-1] Failed to obtain GitHub release for mikar/awmtt.git from https://api.github.com/repos/mikar/awmtt.git/releases/latest: No GitHub project found for mikar/awmtt.git on https://api.github.com/repos/mikar/awmtt.git/releases/latest [0m
   [1;34m->[;1m [12/137] checking for update for 'betterdiscord'[0m
+[37m             [UNKNOWN] [betterdiscord][1.0.0.beta-1] upstream version is 1.0.0-beta [0m
   [1;34m->[;1m [13/137] checking for update for 'betterdiscordctl-git'[0m
   [1;34m->[;1m [14/137] checking for update for 'betterlockscreen'[0m
+[32m          [UP-TO-DATE] [betterlockscreen][3.0.1-6] matches upstream version 3.0.1 [0m
   [1;34m->[;1m [15/137] checking for update for 'bibata-cursor-theme'[0m
+[32m          [UP-TO-DATE] [bibata-cursor-theme][1.1.1-1] matches upstream version 1.1.1 [0m
   [1;34m->[;1m [16/137] checking for update for 'bibata-cursor-theme-bin'[0m
+[32m          [UP-TO-DATE] [bibata-cursor-theme-bin][1.1.1-1] matches upstream version 1.1.1 [0m
   [1;34m->[;1m [17/137] checking for update for 'boundary-bin'[0m
+[37m             [UNKNOWN] [boundary-bin][0.2.0-1] No release found for boundary-controller.service [0m
   [1;34m->[;1m [18/137] checking for update for 'broken-link-checker'[0m
+[32m          [UP-TO-DATE] [broken-link-checker][0.7.8-1] matches upstream version 0.7.8 [0m
   [1;34m->[;1m [19/137] checking for update for 'burpsuite'[0m
+[37m             [UNKNOWN] [burpsuite][2021.3.3-1] No release found for burpsuite-2021.3.3.jar::https://portswigger.net/burp/releases/download?product=community&version=2021.3.3&type=Jar [0m
   [1;34m->[;1m [20/137] checking for update for 'cava'[0m
+[32m          [UP-TO-DATE] [cava][0.7.3-3] matches upstream version 0.7.3 [0m
   [1;34m->[;1m [21/137] checking for update for 'code-server'[0m
+[32m          [UP-TO-DATE] [code-server][3.9.3-1] matches upstream version 3.9.3 [0m
   [1;34m->[;1m [22/137] checking for update for 'cointop-bin'[0m
+[32m          [UP-TO-DATE] [cointop-bin][1.6.5-1] matches upstream version 1.6.5 [0m
   [1;34m->[;1m [23/137] checking for update for 'ctjs-bin'[0m
+[32m          [UP-TO-DATE] [ctjs-bin][1.7.0-1] matches upstream version 1.7.0 [0m
   [1;34m->[;1m [24/137] checking for update for 'debtap'[0m
+[32m          [UP-TO-DATE] [debtap][3.4.2-1] matches upstream version 3.4.2 [0m
   [1;34m->[;1m [25/137] checking for update for 'discord-chat-exporter-cli'[0m
+[32m          [UP-TO-DATE] [discord-chat-exporter-cli][2.27-1] matches upstream version 2.27 [0m
   [1;34m->[;1m [26/137] checking for update for 'discord-ptb'[0m
+[37m             [UNKNOWN] [discord-ptb][0.0.23-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.23/discord-ptb-0.0.23.tar.gz [0m
   [1;34m->[;1m [27/137] checking for update for 'downloader-cli'[0m
+[32m          [UP-TO-DATE] [downloader-cli][0.3.1-0] matches upstream version 0.3.1 [0m
   [1;34m->[;1m [28/137] checking for update for 'drawio-desktop-bin'[0m
+[32m          [UP-TO-DATE] [drawio-desktop-bin][14.5.1-2] matches upstream version 14.5.1 [0m
   [1;34m->[;1m [29/137] checking for update for 'dry-bin'[0m
+[37m             [UNKNOWN] [dry-bin][0.10-1] upstream version is 0.10-beta.1 [0m
   [1;34m->[;1m [30/137] checking for update for 'ebtables'[0m
+[37m             [UNKNOWN] [ebtables][2.0.10_4-8] No release found for https://downloads.sourceforge.net/ebtables/ebtables-v2.0.10-4.tar.gz [0m
   [1;34m->[;1m [31/137] checking for update for 'edex-ui-bin'[0m
+[32m          [UP-TO-DATE] [edex-ui-bin][2.2.7-1] matches upstream version 2.2.7 [0m
   [1;34m->[;1m [32/137] checking for update for 'electronmail-bin'[0m
+[32m          [UP-TO-DATE] [electronmail-bin][4.12.1-1] matches upstream version 4.12.1 [0m
   [1;34m->[;1m [33/137] checking for update for 'exe-thumbnailer'[0m
+[37m             [UNKNOWN] [exe-thumbnailer][0.10.1-1] Failed to obtain GitHub release for exe-thumbnailer/exe-thumbnailer from https://api.github.com/repos/exe-thumbnailer/exe-thumbnailer/releases/latest: No GitHub project found for exe-thumbnailer/exe-thumbnailer on https://api.github.com/repos/exe-thumbnailer/exe-thumbnailer/releases/latest [0m
   [1;34m->[;1m [34/137] checking for update for 'fakepkg'[0m
+[37m             [UNKNOWN] [fakepkg][1.41.1-1] Failed to obtain GitHub release for Edenhofer/fakepkg from https://api.github.com/repos/Edenhofer/fakepkg/releases/latest: No GitHub project found for Edenhofer/fakepkg on https://api.github.com/repos/Edenhofer/fakepkg/releases/latest [0m
   [1;34m->[;1m [35/137] checking for update for 'faq-bin'[0m
+[37m             [UNKNOWN] [faq-bin][0.0.7-1] Failed to obtain GitHub release for jzelinskie/faq from https://api.github.com/repos/jzelinskie/faq/releases/latest: No GitHub project found for jzelinskie/faq on https://api.github.com/repos/jzelinskie/faq/releases/latest [0m
   [1;34m->[;1m [36/137] checking for update for 'fbrokendesktop'[0m
+[37m             [UNKNOWN] [fbrokendesktop][1.0.3-1] Failed to obtain GitHub release for AndyCrowd/fbrokendesktop.git from https://api.github.com/repos/AndyCrowd/fbrokendesktop.git/releases/latest: No GitHub project found for AndyCrowd/fbrokendesktop.git on https://api.github.com/repos/AndyCrowd/fbrokendesktop.git/releases/latest [0m
   [1;34m->[;1m [37/137] checking for update for 'firefox-esr-bin'[0m
+[37m             [UNKNOWN] [firefox-esr-bin][78.10.0-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/78.10.0esr/linux-x86_64/en-US/firefox-78.10.0esr.tar.bz2 [0m
   [1;34m->[;1m [38/137] checking for update for 'florence'[0m
+[37m             [UNKNOWN] [florence][0.6.3-2] No release found for http://sourceforge.net/projects/florence/files/florence/0.6.3/florence-0.6.3.tar.bz2 [0m
   [1;34m->[;1m [39/137] checking for update for 'fsearch-git'[0m
   [1;34m->[;1m [40/137] checking for update for 'gallery-dl'[0m
+[32m          [UP-TO-DATE] [gallery-dl][1.17.3-1] matches upstream version 1.17.3 [0m
   [1;34m->[;1m [41/137] checking for update for 'gconf-cleaner'[0m
+[37m             [UNKNOWN] [gconf-cleaner][0.0.3-2] No release found for https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gconf-cleaner/gconf-cleaner-0.0.3.tar.gz [0m
   [1;34m->[;1m [42/137] checking for update for 'gitify-bin'[0m
 [31m         [OUT-OF-DATE] [gitify-bin][3.0.5-1] should be updated to 4.2.1 [0m
   [1;34m->[;1m [43/137] checking for update for 'git-sizer'[0m
+[32m          [UP-TO-DATE] [git-sizer][1.4.0-1] matches upstream version 1.4.0 [0m
   [1;34m->[;1m [44/137] checking for update for 'gitstatus'[0m
+[32m          [UP-TO-DATE] [gitstatus][1.4.4-1] matches upstream version 1.4.4 [0m
   [1;34m->[;1m [45/137] checking for update for 'gitui-bin'[0m
+[32m          [UP-TO-DATE] [gitui-bin][0.15.0-1] matches upstream version 0.15.0 [0m
   [1;34m->[;1m [46/137] checking for update for 'glow'[0m
+[32m          [UP-TO-DATE] [glow][1.4.1-1] matches upstream version 1.4.1 [0m
   [1;34m->[;1m [47/137] checking for update for 'gnome-getting-started-docs'[0m
   [1;34m->[;1m [48/137] checking for update for 'google-chrome'[0m
+[37m             [UNKNOWN] [google-chrome][90.0.4430.93-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_90.0.4430.93-1_amd64.deb [0m
   [1;34m->[;1m [49/137] checking for update for 'hakuneko-desktop'[0m
+[32m          [UP-TO-DATE] [hakuneko-desktop][6.1.7-1] matches upstream version 6.1.7 [0m
   [1;34m->[;1m [50/137] checking for update for 'heroku-cli-bin'[0m
+[37m             [UNKNOWN] [heroku-cli-bin][7.53.0-1] Failed to obtain GitHub release for SampsonCrowley/heroku-cli-bin from https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest: No GitHub project found for SampsonCrowley/heroku-cli-bin on https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest [0m
   [1;34m->[;1m [51/137] checking for update for 'hollywood'[0m
+[37m             [UNKNOWN] [hollywood][1.21-5] No release found for hollywood-1.21.tar.gz::https://launchpad.net/hollywood/trunk/1.21/+download/hollywood_1.21.orig.tar.gz [0m
   [1;34m->[;1m [52/137] checking for update for 'i3lock-color'[0m
+[32m          [UP-TO-DATE] [i3lock-color][2.13.c.2-1] matches upstream version 2.13.c.2 [0m
   [1;34m->[;1m [53/137] checking for update for 'ibus-avro-git'[0m
   [1;34m->[;1m [54/137] checking for update for 'jiq-bin'[0m
+[32m          [UP-TO-DATE] [jiq-bin][0.7.1-2] matches upstream version 0.7.1 [0m
   [1;34m->[;1m [55/137] checking for update for 'jmtpfs'[0m
+[37m             [UNKNOWN] [jmtpfs][0.5-2] Failed to obtain GitHub release for JasonFerrara/jmtpfs from https://api.github.com/repos/JasonFerrara/jmtpfs/releases/latest: No GitHub project found for JasonFerrara/jmtpfs on https://api.github.com/repos/JasonFerrara/jmtpfs/releases/latest [0m
   [1;34m->[;1m [56/137] checking for update for 'libuiohook'[0m
+[37m             [UNKNOWN] [libuiohook][1.0.3-5] Failed to obtain GitHub release for kwhat/libuiohook from https://api.github.com/repos/kwhat/libuiohook/releases/latest: No GitHub project found for kwhat/libuiohook on https://api.github.com/repos/kwhat/libuiohook/releases/latest [0m
   [1;34m->[;1m [57/137] checking for update for 'libva-intel-driver-hybrid'[0m
+[37m             [UNKNOWN] [libva-intel-driver-hybrid][2.4.1-1] Failed to obtain GitHub release for intel/intel-vaapi-driver.git from https://api.github.com/repos/intel/intel-vaapi-driver.git/releases/latest: No GitHub project found for intel/intel-vaapi-driver.git on https://api.github.com/repos/intel/intel-vaapi-driver.git/releases/latest [0m
   [1;34m->[;1m [58/137] checking for update for 'light-git'[0m
   [1;34m->[;1m [59/137] checking for update for 'linux-latest'[0m
   [1;34m->[;1m [60/137] checking for update for 'linux-latest-headers'[0m
   [1;34m->[;1m [61/137] checking for update for 'losslesscut-bin'[0m
+[32m          [UP-TO-DATE] [losslesscut-bin][3.36.0-1] matches upstream version 3.36.0 [0m
   [1;34m->[;1m [62/137] checking for update for 'lscolors-git'[0m
   [1;34m->[;1m [63/137] checking for update for 'lsdesktopf'[0m
+[37m             [UNKNOWN] [lsdesktopf][1.0.7-4] Failed to obtain GitHub release for AndyCrowd/list-desktop-files.git from https://api.github.com/repos/AndyCrowd/list-desktop-files.git/releases/latest: No GitHub project found for AndyCrowd/list-desktop-files.git on https://api.github.com/repos/AndyCrowd/list-desktop-files.git/releases/latest [0m
   [1;34m->[;1m [64/137] checking for update for 'lynis-git'[0m
   [1;34m->[;1m [65/137] checking for update for 'maldet'[0m
 [31m         [OUT-OF-DATE] [maldet][1.6-3] should be updated to 1.6.4 [0m
   [1;34m->[;1m [66/137] checking for update for 'mkp224o'[0m
+[32m          [UP-TO-DATE] [mkp224o][1.5.0-1] matches upstream version 1.5.0 [0m
   [1;34m->[;1m [67/137] checking for update for 'mozilla-common'[0m
+[37m             [UNKNOWN] [mozilla-common][1.4-6] No release found for mozilla-common.sh [0m
   [1;34m->[;1m [68/137] checking for update for 'msg2'[0m
+[37m             [UNKNOWN] [msg2][1.2.0-2] No release found for https://roboticoverlords.org/msg2/msg2-1.2.0.tar.xz [0m
   [1;34m->[;1m [69/137] checking for update for 'nerd-fonts-source-code-pro'[0m
+[32m          [UP-TO-DATE] [nerd-fonts-source-code-pro][2.1.0-2] matches upstream version 2.1.0 [0m
   [1;34m->[;1m [70/137] checking for update for 'nodejs-mapscii'[0m
+[32m          [UP-TO-DATE] [nodejs-mapscii][0.3.1-3] matches upstream version 0.3.1 [0m
   [1;34m->[;1m [71/137] checking for update for 'nomad'[0m
+[32m          [UP-TO-DATE] [nomad][1.0.4-1] matches upstream version 1.0.4 [0m
   [1;34m->[;1m [72/137] checking for update for 'notion-app'[0m
+[37m             [UNKNOWN] [notion-app][2:2.0.16-9] No release found for Notion-2.0.16.exe::https://desktop-release.notion-static.com/Notion%20Setup%202.0.16.exe [0m
   [1;34m->[;1m [73/137] checking for update for 'obfs4proxy'[0m
+[37m             [UNKNOWN] [obfs4proxy][0.0.11-1] No release found for https://people.torproject.org/~yawning/releases/obfs4proxy/obfs4proxy-0.0.11.tar.xz [0m
   [1;34m->[;1m [74/137] checking for update for 'obs-input-overlay-bin'[0m
 [31m         [OUT-OF-DATE] [obs-input-overlay-bin][v4.8-3] should be updated to 4.8 [0m
   [1;34m->[;1m [75/137] checking for update for 'obs-v4l2sink'[0m
+[32m          [UP-TO-DATE] [obs-v4l2sink][0.1.0-21] matches upstream version 0.1.0 [0m
   [1;34m->[;1m [76/137] checking for update for 'onedrive-abraunegg'[0m
+[32m          [UP-TO-DATE] [onedrive-abraunegg][2.4.11-1] matches upstream version 2.4.11 [0m
   [1;34m->[;1m [77/137] checking for update for 'oomox'[0m
 [31m         [OUT-OF-DATE] [oomox][1.12.5.3-3] should be updated to 1.13.3 [0m
   [1;34m->[;1m [78/137] checking for update for 'opencomic-bin'[0m
+[32m          [UP-TO-DATE] [opencomic-bin][0.2.0-4] matches upstream version 0.2.0 [0m
   [1;34m->[;1m [79/137] checking for update for 'opensnitch-git'[0m
   [1;34m->[;1m [80/137] checking for update for 'otf-san-francisco'[0m
+[37m             [UNKNOWN] [otf-san-francisco][1:2-1] No release found for SFPro-1.0.zip::https://developer.apple.com/fonts/downloads/SFPro.zip [0m
   [1;34m->[;1m [81/137] checking for update for 'p7zip-gui'[0m
+[37m             [UNKNOWN] [p7zip-gui][16.02-5] No release found for https://downloads.sourceforge.net/project/p7zip/p7zip/16.02/p7zip_16.02_src_all.tar.bz2 [0m
   [1;34m->[;1m [82/137] checking for update for 'passivedns-git'[0m
   [1;34m->[;1m [83/137] checking for update for 'patat-bin'[0m
+[32m          [UP-TO-DATE] [patat-bin][0.8.7.0-1] matches upstream version 0.8.7.0 [0m
   [1;34m->[;1m [84/137] checking for update for 'picom-ibhagwan-git'[0m
   [1;34m->[;1m [85/137] checking for update for 'pipes.sh'[0m
+[32m          [UP-TO-DATE] [pipes.sh][1.3.0-1] matches upstream version 1.3.0 [0m
   [1;34m->[;1m [86/137] checking for update for 'pkgoutofdate-git'[0m
   [1;34m->[;1m [87/137] checking for update for 'pm2ml'[0m
+[37m             [UNKNOWN] [pm2ml][2017.12-5] No release found for https://xyne.archlinux.ca/projects/pm2ml/src/pm2ml-2017.12.tar.xz [0m
   [1;34m->[;1m [88/137] checking for update for 'popcorntime-bin'[0m
+[32m          [UP-TO-DATE] [popcorntime-bin][0.4.4-3] matches upstream version 0.4.4 [0m
   [1;34m->[;1m [89/137] checking for update for 'powerpill'[0m
+[37m             [UNKNOWN] [powerpill][2020.12.15-2] No release found for https://xyne.archlinux.ca/projects/powerpill/src/powerpill-2020.12.15.tar.xz [0m
   [1;34m->[;1m [90/137] checking for update for 'python2-twodict-git'[0m
   [1;34m->[;1m [91/137] checking for update for 'python3-memoizedb'[0m
+[37m             [UNKNOWN] [python3-memoizedb][2017.3.30-5] No release found for https://xyne.archlinux.ca/projects/python3-memoizedb/src/python3-memoizedb-2017.3.30.tar.xz [0m
   [1;34m->[;1m [92/137] checking for update for 'python3-xcgf'[0m
+[37m             [UNKNOWN] [python3-xcgf][2017.3-5] No release found for https://xyne.archlinux.ca/projects/python3-xcgf/src/python3-xcgf-2017.3.tar.xz [0m
   [1;34m->[;1m [93/137] checking for update for 'python3-xcpf'[0m
+[37m             [UNKNOWN] [python3-xcpf][2019.11-3] No release found for https://xyne.archlinux.ca/projects/python3-xcpf/src/python3-xcpf-2019.11.tar.xz [0m
   [1;34m->[;1m [94/137] checking for update for 'python-ffmpeg'[0m
+[37m             [UNKNOWN] [python-ffmpeg][0.2.0-2] Failed to obtain GitHub release for kkroening/ffmpeg-python from https://api.github.com/repos/kkroening/ffmpeg-python/releases/latest: No GitHub project found for kkroening/ffmpeg-python on https://api.github.com/repos/kkroening/ffmpeg-python/releases/latest [0m
   [1;34m->[;1m [95/137] checking for update for 'python-itunespy'[0m
+[32m          [UP-TO-DATE] [python-itunespy][1.6-2] matches upstream version 1.6 [0m
   [1;34m->[;1m [96/137] checking for update for 'python-pydes'[0m
+[32m          [UP-TO-DATE] [python-pydes][2.0.1-2] matches upstream version 2.0.1 [0m
   [1;34m->[;1m [97/137] checking for update for 'python-pytube'[0m
+[32m          [UP-TO-DATE] [python-pytube][10.7.2-1] matches upstream version 10.7.2 [0m
   [1;34m->[;1m [98/137] checking for update for 'python-rapidfuzz'[0m
+[32m          [UP-TO-DATE] [python-rapidfuzz][1.4.1-1] matches upstream version 1.4.1 [0m
   [1;34m->[;1m [99/137] checking for update for 'python-simber'[0m
+[32m          [UP-TO-DATE] [python-simber][0.2.1-0] matches upstream version 0.2.1 [0m
   [1;34m->[;1m [100/137] checking for update for 'python-spotdl'[0m
+[32m          [UP-TO-DATE] [python-spotdl][3.5.2-1] matches upstream version 3.5.2 [0m
   [1;34m->[;1m [101/137] checking for update for 'python-spotipy'[0m
+[32m          [UP-TO-DATE] [python-spotipy][2.18.0-1] matches upstream version 2.18.0 [0m
   [1;34m->[;1m [102/137] checking for update for 'python-youtube-search-git'[0m
   [1;34m->[;1m [103/137] checking for update for 'python-ytmusicapi'[0m
+[32m          [UP-TO-DATE] [python-ytmusicapi][0.16.0-1] matches upstream version 0.16.0 [0m
   [1;34m->[;1m [104/137] checking for update for 'raven-reader'[0m
+[32m          [UP-TO-DATE] [raven-reader][1.0.50-1] matches upstream version 1.0.50 [0m
   [1;34m->[;1m [105/137] checking for update for 'raven-reader-bin'[0m
+[32m          [UP-TO-DATE] [raven-reader-bin][1.0.50-1] matches upstream version 1.0.50 [0m
   [1;34m->[;1m [106/137] checking for update for 'resvg'[0m
 [31m         [OUT-OF-DATE] [resvg][0.13.0-1] should be updated to 0.14.1 [0m
   [1;34m->[;1m [107/137] checking for update for 'ricochet'[0m
+[37m             [UNKNOWN] [ricochet][1.1.4-2] No release found for https://ricochet.im/releases/1.1.4/ricochet-1.1.4-src.tar.bz2 [0m
   [1;34m->[;1m [108/137] checking for update for 'robo3t-bin'[0m
+[32m          [UP-TO-DATE] [robo3t-bin][1.4.3-1] matches upstream version 1.4.3 [0m
   [1;34m->[;1m [109/137] checking for update for 'rofi-greenclip'[0m
+[32m          [UP-TO-DATE] [rofi-greenclip][3.4-5] matches upstream version 3.4 [0m
   [1;34m->[;1m [110/137] checking for update for 'rtags'[0m
+[32m          [UP-TO-DATE] [rtags][2.38-1] matches upstream version 2.38 [0m
   [1;34m->[;1m [111/137] checking for update for 'runjs-bin'[0m
+[32m          [UP-TO-DATE] [runjs-bin][1.15.1-1] matches upstream version 1.15.1 [0m
   [1;34m->[;1m [112/137] checking for update for 'siji-git'[0m
   [1;34m->[;1m [113/137] checking for update for 'speedometer'[0m
+[32m          [UP-TO-DATE] [speedometer][2.8-4] matches upstream version 2.8 [0m
   [1;34m->[;1m [114/137] checking for update for 'spicetify-cli'[0m
+[32m          [UP-TO-DATE] [spicetify-cli][1.2.1-1] matches upstream version 1.2.1 [0m
   [1;34m->[;1m [115/137] checking for update for 'spotify'[0m
+[37m             [UNKNOWN] [spotify][1:1.1.56.595-1] No release found for spotify.protocol [0m
   [1;34m->[;1m [116/137] checking for update for 'stretchly-bin'[0m
+[32m          [UP-TO-DATE] [stretchly-bin][1.6.0-1] matches upstream version 1.6.0 [0m
   [1;34m->[;1m [117/137] checking for update for 'surf'[0m
+[37m             [UNKNOWN] [surf][2.0+9+g5c52733-1] No release found for git+git://git.suckless.org/surf#commit=5c527339842fdd06411eaf25547aef0902f96915 [0m
   [1;34m->[;1m [118/137] checking for update for 'tlpui-git'[0m
   [1;34m->[;1m [119/137] checking for update for 'tmpwatch'[0m
+[37m             [UNKNOWN] [tmpwatch][2.11-3] No release found for https://releases.pagure.org/tmpwatch/tmpwatch-2.11.tar.bz2 [0m
   [1;34m->[;1m [120/137] checking for update for 'tor-browser'[0m
+[37m             [UNKNOWN] [tor-browser][10.0.16-1] No release found for tor-browser.desktop.in [0m
   [1;34m->[;1m [121/137] checking for update for 'tt-bin'[0m
+[37m             [UNKNOWN] [tt-bin][0.4.0-2] Failed to obtain GitHub release for lemnos/tt from https://api.github.com/repos/lemnos/tt/releases/latest: API rate limit exceeded for 110.76.128.87. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.) [0m
   [1;34m->[;1m [122/137] checking for update for 'ttf-anka-coder'[0m
+[37m             [UNKNOWN] [ttf-anka-coder][1.100-1] No release found for https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/anka-coder-fonts/AnkaCoder.zip [0m
   [1;34m->[;1m [123/137] checking for update for 'ttf-firacode'[0m
+[37m             [UNKNOWN] [ttf-firacode][5.2-1] Failed to obtain GitHub release for tonsky/FiraCode from https://api.github.com/repos/tonsky/FiraCode/releases/latest: API rate limit exceeded for 110.76.128.87. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.) [0m
   [1;34m->[;1m [124/137] checking for update for 'ttf-ms-fonts'[0m
+[37m             [UNKNOWN] [ttf-ms-fonts][2.0-12] No release found for https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/andale32.exe [0m
   [1;34m->[;1m [125/137] checking for update for 'ttf-typicons'[0m
-[31m         [OUT-OF-DATE] [ttf-typicons][2.0.9-2] should be updated to 2.1.1 [0m
+[37m             [UNKNOWN] [ttf-typicons][2.0.9-2] Failed to obtain GitHub release for stephenhutchings/typicons.font from https://api.github.com/repos/stephenhutchings/typicons.font/releases/latest: API rate limit exceeded for 110.76.128.87. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.) [0m
   [1;34m->[;1m [126/137] checking for update for 'tty-clock'[0m
+[37m             [UNKNOWN] [tty-clock][2.3-1] Failed to obtain GitHub release for xorg62/tty-clock from https://api.github.com/repos/xorg62/tty-clock/releases/latest: API rate limit exceeded for 110.76.128.87. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.) [0m
   [1;34m->[;1m [127/137] checking for update for 'ttyd'[0m
+[37m             [UNKNOWN] [ttyd][1.6.3-1] No release found for ttyd.service [0m
   [1;34m->[;1m [128/137] checking for update for 'ugrep'[0m
+[37m             [UNKNOWN] [ugrep][3.1.15-1] Failed to obtain GitHub release for Genivia/ugrep from https://api.github.com/repos/Genivia/ugrep/releases/latest: API rate limit exceeded for 110.76.128.87. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.) [0m
   [1;34m->[;1m [129/137] checking for update for 'volctl'[0m
+[37m             [UNKNOWN] [volctl][0.8.2-1] Failed to obtain GitHub release for buzz/volctl.git from https://api.github.com/repos/buzz/volctl.git/releases/latest: API rate limit exceeded for 110.76.128.87. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.) [0m
   [1;34m->[;1m [130/137] checking for update for 'vrms-arch'[0m
+[37m             [UNKNOWN] [vrms-arch][0.1.0.r25.g802c767-1] Failed to obtain GitHub release for orospakr/vrms-arch.git from https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest: API rate limit exceeded for 110.76.128.87. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.) [0m
   [1;34m->[;1m [131/137] checking for update for 'webtorrent-desktop-bin'[0m
+[37m             [UNKNOWN] [webtorrent-desktop-bin][0.24.0-1] Failed to obtain GitHub release for webtorrent/webtorrent-desktop from https://api.github.com/repos/webtorrent/webtorrent-desktop/releases/latest: API rate limit exceeded for 110.76.128.87. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.) [0m
   [1;34m->[;1m [132/137] checking for update for 'webtty'[0m
+[37m             [UNKNOWN] [webtty][0.4.1-1] Failed to obtain GitHub release for maxmcd/webtty from https://api.github.com/repos/maxmcd/webtty/releases/latest: API rate limit exceeded for 110.76.128.87. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.) [0m
   [1;34m->[;1m [133/137] checking for update for 'wttr'[0m
+[37m             [UNKNOWN] [wttr][1.2.1-2] Failed to obtain GitHub release for AmirrezaFiroozi/wttr from https://api.github.com/repos/AmirrezaFiroozi/wttr/releases/latest: API rate limit exceeded for 110.76.128.87. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.) [0m
   [1;34m->[;1m [134/137] checking for update for 'xmind'[0m
+[37m             [UNKNOWN] [xmind][3.7.9+8update9-1] No release found for https://www.xmind.net/xmind/downloads/xmind-8-update9-linux.zip [0m
   [1;34m->[;1m [135/137] checking for update for 'youtube-dl-gui-git'[0m
   [1;34m->[;1m [136/137] checking for update for 'ytmdl-git'[0m
   [1;34m->[;1m [137/137] checking for update for 'zoom'[0m
+[37m             [UNKNOWN] [zoom][5.6.4-1] No release found for zoom-5.6.4_orig_x86_64.pkg.tar.xz::https://zoom.us/client/5.6.16888.0424/zoom_x86_64.pkg.tar.xz [0m
   [1;34m->[;1m done.[0m
