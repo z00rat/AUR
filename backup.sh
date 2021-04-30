@@ -5,7 +5,7 @@ cp -r repos/* pkgs
 for gitfile in $(tree -fia pkgs | grep -E ".git$")
 do
     msg2 "deleting '$gitfile'"
-    rm $gitfile
+    rm "$gitfile"
 done
 
 msg2 "status:"

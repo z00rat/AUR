@@ -1,13 +1,13 @@
 #!/bin/bash
-for pkgname in $@ 
+for pkgname in "$@" 
 do
    msg2 "cloning AUR repo of '$pkgname'"
 
-   cd repos
-   git submodule add --force -b master ssh://aur@aur.archlinux.org/$pkgname.git
+   cd repos || exit
+   git submodule add --force -b master ssh://aur@aur.archlinux.org/"$pkgname".git
    git commit -s -m "adding $pkgname"
-   tree -fia $pkgname
-   cd ..
+   tree -fia "$pkgname"
+   cd .. || exit
 
 done
 

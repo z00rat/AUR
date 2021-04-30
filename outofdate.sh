@@ -1,7 +1,8 @@
 #!/bin/bash
 msg2 "checking for out-of-date packages"
 pwd=$(pwd)
-let i=0
+#let i=0
+(( i=0 ))
 echo ""
 
 msg2 "listing already flaged packages" 
@@ -16,12 +17,13 @@ reponum=$(/usr/bin/ls repos | wc -l)
 
 for pkgname in $repolist
 do
-    let i+=1
+    #let i+=1
+    (( i+=1 ))
     msg2 "[$i/$reponum] checking for update for '$pkgname'"
 
-    cd repos/$pkgname
-    aur-out-of-date -local .SRCINFO | grep "OUT-OF-DATE"
-    cd $pwd
+    cd repos/"$pkgname" || exit
+    aur-out-of-date -local .SRCINFO #| grep "OUT-OF-DATE"
+    cd "$pwd" || exit
 done
 
 msg2 "done."

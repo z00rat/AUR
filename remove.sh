@@ -1,3 +1,4 @@
+#!/bin/bash
 msg2 "from https://gist.github.com/myusuf3/7f645819ded92bda6677"
 echo ""
 msg2 "Delete the relevant section from the .gitmodules file."
