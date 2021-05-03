@@ -5,4 +5,3 @@ obs-input-overlay-bin
 oomox
 resvg
 ttf-typicons
-zoom
