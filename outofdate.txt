@@ -41,7 +41,7 @@ resvg: new version found - 0.13.0 => 0.13.1
   [1;34m->[;1m [16/137] checking for update for 'bibata-cursor-theme-bin'[0m
 [32m          [UP-TO-DATE] [bibata-cursor-theme-bin][1.1.1-1] matches upstream version 1.1.1 [0m
   [1;34m->[;1m [17/137] checking for update for 'boundary-bin'[0m
-[37m             [UNKNOWN] [boundary-bin][0.2.0-1] No release found for boundary-controller.service [0m
+[37m             [UNKNOWN] [boundary-bin][0.2.1-1] No release found for boundary-controller.service [0m
   [1;34m->[;1m [18/137] checking for update for 'broken-link-checker'[0m
 [32m          [UP-TO-DATE] [broken-link-checker][0.7.8-1] matches upstream version 0.7.8 [0m
   [1;34m->[;1m [19/137] checking for update for 'burpsuite'[0m
@@ -86,7 +86,7 @@ resvg: new version found - 0.13.0 => 0.13.1
 [37m             [UNKNOWN] [florence][0.6.3-2] No release found for http://sourceforge.net/projects/florence/files/florence/0.6.3/florence-0.6.3.tar.bz2 [0m
   [1;34m->[;1m [39/137] checking for update for 'fsearch-git'[0m
   [1;34m->[;1m [40/137] checking for update for 'gallery-dl'[0m
-[32m          [UP-TO-DATE] [gallery-dl][1.17.3-1] matches upstream version 1.17.3 [0m
+[32m          [UP-TO-DATE] [gallery-dl][1.17.4-1] matches upstream version 1.17.4 [0m
   [1;34m->[;1m [41/137] checking for update for 'gconf-cleaner'[0m
 [37m             [UNKNOWN] [gconf-cleaner][0.0.3-2] No release found for https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gconf-cleaner/gconf-cleaner-0.0.3.tar.gz [0m
   [1;34m->[;1m [42/137] checking for update for 'gitify-bin'[0m
@@ -233,15 +233,15 @@ resvg: new version found - 0.13.0 => 0.13.1
   [1;34m->[;1m [120/137] checking for update for 'tor-browser'[0m
 [37m             [UNKNOWN] [tor-browser][10.0.16-1] No release found for tor-browser.desktop.in [0m
   [1;34m->[;1m [121/137] checking for update for 'tt-bin'[0m
-[37m             [UNKNOWN] [tt-bin][0.4.0-2] Failed to obtain GitHub release for lemnos/tt from https://api.github.com/repos/lemnos/tt/releases/latest: API rate limit exceeded for 103.220.204.174. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.) [0m
+[32m          [UP-TO-DATE] [tt-bin][0.4.0-2] matches upstream version 0.4.0 [0m
   [1;34m->[;1m [122/137] checking for update for 'ttf-anka-coder'[0m
 [37m             [UNKNOWN] [ttf-anka-coder][1.100-1] No release found for https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/anka-coder-fonts/AnkaCoder.zip [0m
   [1;34m->[;1m [123/137] checking for update for 'ttf-firacode'[0m
-[37m             [UNKNOWN] [ttf-firacode][5.2-1] Failed to obtain GitHub release for tonsky/FiraCode from https://api.github.com/repos/tonsky/FiraCode/releases/latest: API rate limit exceeded for 103.220.204.174. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.) [0m
+[32m          [UP-TO-DATE] [ttf-firacode][5.2-1] matches upstream version 5.2 [0m
   [1;34m->[;1m [124/137] checking for update for 'ttf-ms-fonts'[0m
 [37m             [UNKNOWN] [ttf-ms-fonts][2.0-12] No release found for https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/andale32.exe [0m
   [1;34m->[;1m [125/137] checking for update for 'ttf-typicons'[0m
-[37m             [UNKNOWN] [ttf-typicons][2.0.9-2] Failed to obtain GitHub release for stephenhutchings/typicons.font from https://api.github.com/repos/stephenhutchings/typicons.font/releases/latest: API rate limit exceeded for 103.220.204.174. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.) [0m
+[31m         [OUT-OF-DATE] [ttf-typicons][2.0.9-2] should be updated to 2.1.1 [0m
   [1;34m->[;1m [126/137] checking for update for 'tty-clock'[0m
 [37m             [UNKNOWN] [tty-clock][2.3-1] Failed to obtain GitHub release for xorg62/tty-clock from https://api.github.com/repos/xorg62/tty-clock/releases/latest: API rate limit exceeded for 103.220.204.174. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.) [0m
   [1;34m->[;1m [127/137] checking for update for 'ttyd'[0m
