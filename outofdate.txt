@@ -6,6 +6,7 @@ gitify-bin
 maldet
 obs-input-overlay-bin
 oomox
+python-pytube
 resvg
 ttf-typicons
   [1;34m->[;1m running pkgoutofdate[0m
@@ -189,7 +190,7 @@ python-pytube: new version found - 10.7.2 => 10.8.0
   [1;34m->[;1m [96/137] checking for update for 'python-pydes'[0m
 [32m          [UP-TO-DATE] [python-pydes][2.0.1-2] matches upstream version 2.0.1 [0m
   [1;34m->[;1m [97/137] checking for update for 'python-pytube'[0m
-[31m         [OUT-OF-DATE] [python-pytube][10.7.2-1] should be updated to 10.8.0 [0m
+[31m         [OUT-OF-DATE] [python-pytube][10.7.2-1] should be updated to 10.8.1 [0m
   [1;34m->[;1m [98/137] checking for update for 'python-rapidfuzz'[0m
 [32m          [UP-TO-DATE] [python-rapidfuzz][1.4.1-1] matches upstream version 1.4.1 [0m
   [1;34m->[;1m [99/137] checking for update for 'python-simber'[0m
@@ -234,7 +235,7 @@ python-pytube: new version found - 10.7.2 => 10.8.0
   [1;34m->[;1m [120/137] checking for update for 'tor-browser'[0m
 [37m             [UNKNOWN] [tor-browser][10.0.16-1] No release found for tor-browser.desktop.in [0m
   [1;34m->[;1m [121/137] checking for update for 'tt-bin'[0m
-[37m             [UNKNOWN] [tt-bin][0.4.0-2] Failed to obtain GitHub release for lemnos/tt from https://api.github.com/repos/lemnos/tt/releases/latest: API rate limit exceeded for 103.220.204.174. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.) [0m
+[32m          [UP-TO-DATE] [tt-bin][0.4.0-2] matches upstream version 0.4.0 [0m
   [1;34m->[;1m [122/137] checking for update for 'ttf-anka-coder'[0m
 [37m             [UNKNOWN] [ttf-anka-coder][1.100-1] No release found for https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/anka-coder-fonts/AnkaCoder.zip [0m
   [1;34m->[;1m [123/137] checking for update for 'ttf-firacode'[0m
@@ -246,7 +247,7 @@ python-pytube: new version found - 10.7.2 => 10.8.0
   [1;34m->[;1m [126/137] checking for update for 'tty-clock'[0m
 [37m             [UNKNOWN] [tty-clock][2.3-1] Failed to obtain GitHub release for xorg62/tty-clock from https://api.github.com/repos/xorg62/tty-clock/releases/latest: API rate limit exceeded for 103.220.204.174. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.) [0m
   [1;34m->[;1m [127/137] checking for update for 'ttyd'[0m
-[37m             [UNKNOWN] [ttyd][1.6.3-1] No release found for ttyd.service [0m
+[37m             [UNKNOWN] [ttyd][1.6.3-2] No release found for ttyd.service [0m
   [1;34m->[;1m [128/137] checking for update for 'ugrep'[0m
 [37m             [UNKNOWN] [ugrep][3.2.1-1] Failed to obtain GitHub release for Genivia/ugrep from https://api.github.com/repos/Genivia/ugrep/releases/latest: API rate limit exceeded for 103.220.204.174. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.) [0m
   [1;34m->[;1m [129/137] checking for update for 'volctl'[0m

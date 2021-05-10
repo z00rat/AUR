@@ -3,5 +3,6 @@ gitify-bin
 maldet
 obs-input-overlay-bin
 oomox
+python-pytube
 resvg
 ttf-typicons
