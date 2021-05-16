@@ -1,8 +1,8 @@
   [1;34m->[;1m checking for out-of-date packages[0m
 
   [1;34m->[;1m listing already flaged packages[0m
+betterlockscreen
 burpsuite
-drawio-desktop-bin
 gitify-bin
 maldet
 obs-input-overlay-bin
@@ -12,10 +12,11 @@ ttf-typicons
   [1;34m->[;1m running pkgoutofdate[0m
 ttf-typicons: new version found - 2.0.9 => 2.1.0
 resvg: new version found - 0.13.0 => 0.13.1
-spicetify-cli: new version found - 1.2.1 => 2.0.0
-nomad: new version found - 1.0.4 => 1.0.5
+python-simber: new version found - 0.2.1 => 0.2.2
+betterlockscreen: new version found - 3.0.1 => 3.1.0
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m [1/137] checking for update for 'advcpmv'[0m
+[37m             [UNKNOWN] [advcpmv][8.32-2] No release found for http://ftp.gnu.org/gnu/coreutils/coreutils-8.32.tar.xz [0m
   [1;34m->[;1m [2/137] checking for update for 'ansifilter'[0m
 [37m             [UNKNOWN] [ansifilter][2.18-1] No release found for http://www.andre-simon.de/zip/ansifilter-2.18.tar.bz2 [0m
   [1;34m->[;1m [3/137] checking for update for 'antibody'[0m
@@ -38,7 +39,7 @@ nomad: new version found - 1.0.4 => 1.0.5
 [37m             [UNKNOWN] [betterdiscord][1.0.0.beta-1] upstream version is 1.0.0-beta [0m
   [1;34m->[;1m [13/137] checking for update for 'betterdiscordctl-git'[0m
   [1;34m->[;1m [14/137] checking for update for 'betterlockscreen'[0m
-[32m          [UP-TO-DATE] [betterlockscreen][3.0.1-6] matches upstream version 3.0.1 [0m
+[31m         [OUT-OF-DATE] [betterlockscreen][3.0.1-6] should be updated to 3.1.0 [0m
   [1;34m->[;1m [15/137] checking for update for 'bibata-cursor-theme'[0m
 [32m          [UP-TO-DATE] [bibata-cursor-theme][1.1.1-1] matches upstream version 1.1.1 [0m
   [1;34m->[;1m [16/137] checking for update for 'bibata-cursor-theme-bin'[0m
@@ -66,7 +67,7 @@ nomad: new version found - 1.0.4 => 1.0.5
   [1;34m->[;1m [27/137] checking for update for 'downloader-cli'[0m
 [32m          [UP-TO-DATE] [downloader-cli][0.3.1-0] matches upstream version 0.3.1 [0m
   [1;34m->[;1m [28/137] checking for update for 'drawio-desktop-bin'[0m
-[31m         [OUT-OF-DATE] [drawio-desktop-bin][14.5.1-2] should be updated to 14.6.13 [0m
+[32m          [UP-TO-DATE] [drawio-desktop-bin][14.6.13-1] matches upstream version 14.6.13 [0m
   [1;34m->[;1m [29/137] checking for update for 'dry-bin'[0m
 [37m             [UNKNOWN] [dry-bin][0.10-1] upstream version is 0.10-beta.1 [0m
   [1;34m->[;1m [30/137] checking for update for 'ebtables'[0m
@@ -144,9 +145,9 @@ nomad: new version found - 1.0.4 => 1.0.5
   [1;34m->[;1m [70/137] checking for update for 'nodejs-mapscii'[0m
 [32m          [UP-TO-DATE] [nodejs-mapscii][0.3.1-3] matches upstream version 0.3.1 [0m
   [1;34m->[;1m [71/137] checking for update for 'nomad'[0m
-[31m         [OUT-OF-DATE] [nomad][1.0.4-1] should be updated to 1.0.5 [0m
+[32m          [UP-TO-DATE] [nomad][1.0.5-1] matches upstream version 1.0.5 [0m
   [1;34m->[;1m [72/137] checking for update for 'notion-app'[0m
-[37m             [UNKNOWN] [notion-app][2:2.0.16-9] No release found for Notion-2.0.16.exe::https://desktop-release.notion-static.com/Notion%20Setup%202.0.16.exe [0m
+[37m             [UNKNOWN] [notion-app][2:2.0.16-10] No release found for Notion-2.0.16.exe::https://desktop-release.notion-static.com/Notion%20Setup%202.0.16.exe [0m
   [1;34m->[;1m [73/137] checking for update for 'obfs4proxy'[0m
 [37m             [UNKNOWN] [obfs4proxy][0.0.11-1] No release found for https://people.torproject.org/~yawning/releases/obfs4proxy/obfs4proxy-0.0.11.tar.xz [0m
   [1;34m->[;1m [74/137] checking for update for 'obs-input-overlay-bin'[0m
@@ -195,7 +196,7 @@ nomad: new version found - 1.0.4 => 1.0.5
   [1;34m->[;1m [98/137] checking for update for 'python-rapidfuzz'[0m
 [32m          [UP-TO-DATE] [python-rapidfuzz][1.4.1-1] matches upstream version 1.4.1 [0m
   [1;34m->[;1m [99/137] checking for update for 'python-simber'[0m
-[32m          [UP-TO-DATE] [python-simber][0.2.1-0] matches upstream version 0.2.1 [0m
+[31m         [OUT-OF-DATE] [python-simber][0.2.1-0] should be updated to 0.2.2 [0m
   [1;34m->[;1m [100/137] checking for update for 'python-spotdl'[0m
 [32m          [UP-TO-DATE] [python-spotdl][3.5.2-1] matches upstream version 3.5.2 [0m
   [1;34m->[;1m [101/137] checking for update for 'python-spotipy'[0m
@@ -204,9 +205,9 @@ nomad: new version found - 1.0.4 => 1.0.5
   [1;34m->[;1m [103/137] checking for update for 'python-ytmusicapi'[0m
 [32m          [UP-TO-DATE] [python-ytmusicapi][0.16.0-1] matches upstream version 0.16.0 [0m
   [1;34m->[;1m [104/137] checking for update for 'raven-reader'[0m
-[32m          [UP-TO-DATE] [raven-reader][1.0.52-1] matches upstream version 1.0.52 [0m
+[31m         [OUT-OF-DATE] [raven-reader][1.0.52-1] should be updated to 1.0.54 [0m
   [1;34m->[;1m [105/137] checking for update for 'raven-reader-bin'[0m
-[32m          [UP-TO-DATE] [raven-reader-bin][1.0.52-1] matches upstream version 1.0.52 [0m
+[32m          [UP-TO-DATE] [raven-reader-bin][1.0.54-1] matches upstream version 1.0.54 [0m
   [1;34m->[;1m [106/137] checking for update for 'resvg'[0m
 [31m         [OUT-OF-DATE] [resvg][0.13.0-1] should be updated to 0.14.1 [0m
   [1;34m->[;1m [107/137] checking for update for 'ricochet'[0m
@@ -223,11 +224,11 @@ nomad: new version found - 1.0.4 => 1.0.5
   [1;34m->[;1m [113/137] checking for update for 'speedometer'[0m
 [32m          [UP-TO-DATE] [speedometer][2.8-4] matches upstream version 2.8 [0m
   [1;34m->[;1m [114/137] checking for update for 'spicetify-cli'[0m
-[37m             [UNKNOWN] [spicetify-cli][1.2.1-1] Failed to obtain GitHub release for khanhas/spicetify-cli from https://api.github.com/repos/khanhas/spicetify-cli/releases/latest: API rate limit exceeded for 103.220.204.174. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.) [0m
+[32m          [UP-TO-DATE] [spicetify-cli][2.1.0-1] matches upstream version 2.1.0 [0m
   [1;34m->[;1m [115/137] checking for update for 'spotify'[0m
 [37m             [UNKNOWN] [spotify][1:1.1.56.595-1] No release found for spotify.protocol [0m
   [1;34m->[;1m [116/137] checking for update for 'stretchly-bin'[0m
-[37m             [UNKNOWN] [stretchly-bin][1.7.0-1] No release found for LICENSE::https://raw.githubusercontent.com/hovancik/stretchly/v1.7.0/LICENSE [0m
+[32m          [UP-TO-DATE] [stretchly-bin][1.7.0-1] matches upstream version 1.7.0 [0m
   [1;34m->[;1m [117/137] checking for update for 'surf'[0m
 [37m             [UNKNOWN] [surf][2.1-2] No release found for git+git://git.suckless.org/surf#commit=d75c3ded0b1ebb8e2778961c5a928f247798686a [0m
   [1;34m->[;1m [118/137] checking for update for 'tlpui-git'[0m
@@ -236,31 +237,31 @@ nomad: new version found - 1.0.4 => 1.0.5
   [1;34m->[;1m [120/137] checking for update for 'tor-browser'[0m
 [37m             [UNKNOWN] [tor-browser][10.0.16-1] No release found for tor-browser.desktop.in [0m
   [1;34m->[;1m [121/137] checking for update for 'tt-bin'[0m
-[37m             [UNKNOWN] [tt-bin][0.4.0-4] Failed to obtain GitHub release for lemnos/tt from https://api.github.com/repos/lemnos/tt/releases/latest: API rate limit exceeded for 103.220.204.174. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.) [0m
+[32m          [UP-TO-DATE] [tt-bin][0.4.0-4] matches upstream version 0.4.0 [0m
   [1;34m->[;1m [122/137] checking for update for 'ttf-anka-coder'[0m
 [37m             [UNKNOWN] [ttf-anka-coder][1.100-1] No release found for https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/anka-coder-fonts/AnkaCoder.zip [0m
   [1;34m->[;1m [123/137] checking for update for 'ttf-firacode'[0m
-[37m             [UNKNOWN] [ttf-firacode][5.2-1] Failed to obtain GitHub release for tonsky/FiraCode from https://api.github.com/repos/tonsky/FiraCode/releases/latest: API rate limit exceeded for 103.220.204.174. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.) [0m
+[32m          [UP-TO-DATE] [ttf-firacode][5.2-1] matches upstream version 5.2 [0m
   [1;34m->[;1m [124/137] checking for update for 'ttf-ms-fonts'[0m
 [37m             [UNKNOWN] [ttf-ms-fonts][2.0-12] No release found for https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/andale32.exe [0m
   [1;34m->[;1m [125/137] checking for update for 'ttf-typicons'[0m
-[37m             [UNKNOWN] [ttf-typicons][2.0.9-2] Failed to obtain GitHub release for stephenhutchings/typicons.font from https://api.github.com/repos/stephenhutchings/typicons.font/releases/latest: API rate limit exceeded for 103.220.204.174. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.) [0m
+[31m         [OUT-OF-DATE] [ttf-typicons][2.0.9-2] should be updated to 2.1.2 [0m
   [1;34m->[;1m [126/137] checking for update for 'tty-clock'[0m
-[37m             [UNKNOWN] [tty-clock][2.3-1] Failed to obtain GitHub release for xorg62/tty-clock from https://api.github.com/repos/xorg62/tty-clock/releases/latest: API rate limit exceeded for 103.220.204.174. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.) [0m
+[37m             [UNKNOWN] [tty-clock][2.3-1] Failed to obtain GitHub release for xorg62/tty-clock from https://api.github.com/repos/xorg62/tty-clock/releases/latest: No GitHub project found for xorg62/tty-clock on https://api.github.com/repos/xorg62/tty-clock/releases/latest [0m
   [1;34m->[;1m [127/137] checking for update for 'ttyd'[0m
-[37m             [UNKNOWN] [ttyd][1.6.3-2] No release found for ttyd.service [0m
+[32m          [UP-TO-DATE] [ttyd][1.6.3-2] matches upstream version 1.6.3 [0m
   [1;34m->[;1m [128/137] checking for update for 'ugrep'[0m
-[37m             [UNKNOWN] [ugrep][3.2.2-1] Failed to obtain GitHub release for Genivia/ugrep from https://api.github.com/repos/Genivia/ugrep/releases/latest: API rate limit exceeded for 103.220.204.174. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.) [0m
+[32m          [UP-TO-DATE] [ugrep][3.2.2-1] matches upstream version 3.2.2 [0m
   [1;34m->[;1m [129/137] checking for update for 'volctl'[0m
-[37m             [UNKNOWN] [volctl][0.8.2-1] Failed to obtain GitHub release for buzz/volctl.git from https://api.github.com/repos/buzz/volctl.git/releases/latest: API rate limit exceeded for 103.220.204.174. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.) [0m
+[37m             [UNKNOWN] [volctl][0.8.2-1] Failed to obtain GitHub release for buzz/volctl.git from https://api.github.com/repos/buzz/volctl.git/releases/latest: No GitHub project found for buzz/volctl.git on https://api.github.com/repos/buzz/volctl.git/releases/latest [0m
   [1;34m->[;1m [130/137] checking for update for 'vrms-arch'[0m
-[37m             [UNKNOWN] [vrms-arch][0.1.0.r25.g802c767-1] Failed to obtain GitHub release for orospakr/vrms-arch.git from https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest: API rate limit exceeded for 103.220.204.174. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.) [0m
+[37m             [UNKNOWN] [vrms-arch][0.1.0.r25.g802c767-1] Failed to obtain GitHub release for orospakr/vrms-arch.git from https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest: No GitHub project found for orospakr/vrms-arch.git on https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest [0m
   [1;34m->[;1m [131/137] checking for update for 'webtorrent-desktop-bin'[0m
-[37m             [UNKNOWN] [webtorrent-desktop-bin][0.24.0-1] Failed to obtain GitHub release for webtorrent/webtorrent-desktop from https://api.github.com/repos/webtorrent/webtorrent-desktop/releases/latest: API rate limit exceeded for 103.220.204.174. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.) [0m
+[32m          [UP-TO-DATE] [webtorrent-desktop-bin][0.24.0-1] matches upstream version 0.24.0 [0m
   [1;34m->[;1m [132/137] checking for update for 'webtty'[0m
-[37m             [UNKNOWN] [webtty][0.4.1-1] Failed to obtain GitHub release for maxmcd/webtty from https://api.github.com/repos/maxmcd/webtty/releases/latest: API rate limit exceeded for 103.220.204.174. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.) [0m
+[32m          [UP-TO-DATE] [webtty][0.4.1-1] matches upstream version 0.4.1 [0m
   [1;34m->[;1m [133/137] checking for update for 'wttr'[0m
-[37m             [UNKNOWN] [wttr][1.2.1-2] Failed to obtain GitHub release for AmirrezaFiroozi/wttr from https://api.github.com/repos/AmirrezaFiroozi/wttr/releases/latest: API rate limit exceeded for 103.220.204.174. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.) [0m
+[32m          [UP-TO-DATE] [wttr][1.2.1-2] matches upstream version 1.2.1 [0m
   [1;34m->[;1m [134/137] checking for update for 'xmind'[0m
 [37m             [UNKNOWN] [xmind][3.7.9+8update9-1] No release found for https://www.xmind.net/xmind/downloads/xmind-8-update9-linux.zip [0m
   [1;34m->[;1m [135/137] checking for update for 'youtube-dl-gui-git'[0m

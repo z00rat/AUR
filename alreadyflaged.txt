@@ -1,5 +1,5 @@
+betterlockscreen
 burpsuite
-drawio-desktop-bin
 gitify-bin
 maldet
 obs-input-overlay-bin
