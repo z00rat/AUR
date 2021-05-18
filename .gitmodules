@@ -535,3 +535,7 @@
 	path = repos/rtags
 	url = ssh://aur@aur.archlinux.org/rtags.git
 	branch = master
+[submodule "repos/keeweb-desktop-bin"]
+	path = repos/keeweb-desktop-bin
+	url = ssh://aur@aur.archlinux.org/keeweb-desktop-bin.git
+	branch = master
