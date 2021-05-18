@@ -547,3 +547,7 @@
 	path = repos/python-requests-futures
 	url = ssh://aur@aur.archlinux.org/python-requests-futures.git
 	branch = master
+[submodule "repos/python-torrequest"]
+	path = repos/python-torrequest
+	url = ssh://aur@aur.archlinux.org/python-torrequest.git
+	branch = master
