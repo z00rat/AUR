@@ -1,0 +1,27 @@
+pkgbase = sherlock-git
+	pkgdesc = Hunt down social media accounts by username across social networks
+	pkgver = r1480.9d824d1
+	pkgrel = 2
+	url = https://github.com/sherlock-project/sherlock
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = python-setuptools
+	depends = python
+	depends = python-beautifulsoup4
+	depends = python-certifi
+	depends = python-colorama
+	depends = python-lxml
+	depends = python-pysocks
+	depends = python-requests
+	depends = python-requests-futures
+	depends = python-soupsieve
+	depends = python-stem
+	depends = python-torrequest
+	provides = sherlock
+	conflicts = sherlock
+	source = git+https://github.com/sherlock-project/sherlock.git
+	sha256sums = SKIP
+
+pkgname = sherlock-git
+
