@@ -539,3 +539,7 @@
 	path = repos/keeweb-desktop-bin
 	url = ssh://aur@aur.archlinux.org/keeweb-desktop-bin.git
 	branch = master
+[submodule "repos/python-fangfrisch"]
+	path = repos/python-fangfrisch
+	url = ssh://aur@aur.archlinux.org/python-fangfrisch.git
+	branch = master
