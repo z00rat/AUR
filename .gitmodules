@@ -551,3 +551,7 @@
 	path = repos/python-torrequest
 	url = ssh://aur@aur.archlinux.org/python-torrequest.git
 	branch = master
+[submodule "repos/sherlock-git"]
+	path = repos/sherlock-git
+	url = ssh://aur@aur.archlinux.org/sherlock-git.git
+	branch = master
