@@ -559,3 +559,7 @@
 	path = repos/vscodium-bin
 	url = ssh://aur@aur.archlinux.org/vscodium-bin.git
 	branch = master
+[submodule "repos/gconf-gtk2"]
+	path = repos/gconf-gtk2
+	url = ssh://aur@aur.archlinux.org/gconf-gtk2.git
+	branch = master
