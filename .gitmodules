@@ -543,3 +543,7 @@
 	path = repos/python-fangfrisch
 	url = ssh://aur@aur.archlinux.org/python-fangfrisch.git
 	branch = master
+[submodule "repos/python-requests-futures"]
+	path = repos/python-requests-futures
+	url = ssh://aur@aur.archlinux.org/python-requests-futures.git
+	branch = master
