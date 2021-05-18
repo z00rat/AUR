@@ -555,3 +555,7 @@
 	path = repos/sherlock-git
 	url = ssh://aur@aur.archlinux.org/sherlock-git.git
 	branch = master
+[submodule "repos/vscodium-bin"]
+	path = repos/vscodium-bin
+	url = ssh://aur@aur.archlinux.org/vscodium-bin.git
+	branch = master
