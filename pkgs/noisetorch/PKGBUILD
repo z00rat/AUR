@@ -1,0 +1,46 @@
+# Maintainer:  Travis Collins <erbrecht at pobox dot com>
+# Contributor: Justin Kromlinger <hashworks@archlinux.org>
+
+# Note: The upstream maintainer does not allow ANY modifications
+# to the source code. Please refrain from doing so.
+# https://lists.archlinux.org/pipermail/aur-general/2021-May/036230.html
+
+pkgname=noisetorch
+pkgver=0.10.1
+pkgrel=5
+pkgdesc='Real-time microphone noise suppression on Linux.'
+arch=('x86_64')
+url=https://github.com/lawl/NoiseTorch
+license=('GPL3')
+depends=('pulseaudio' 'polkit')
+makedepends=('go' 'cmake' 'git')
+provides=('noisetorch')
+install="${pkgname}.install"
+source=("git+${url}#tag=${pkgver}"
+        "${pkgname}.install")
+sha256sums=('SKIP'
+            '171a4179c7e0f3a018a314893e81e598c02cfee274c90d715a302660af920eba')
+
+build() {
+	export GOPATH="$srcdir/go"
+	cd NoiseTorch/c/ladspa
+	make
+	cd ${srcdir}/NoiseTorch
+	export CGO_CPPFLAGS="${CPPFLAGS}"
+	export CGO_CFLAGS="${CFLAGS}"
+	export CGO_CXXFLAGS="${CXXFLAGS}"
+	export CGO_LDFLAGS="${LDFLAGS}"
+	export GOFLAGS="-buildmode=pie -trimpath -ldflags=-linkmode=external -mod=readonly -modcacherw"
+	go generate
+	go build -o bin/noisetorch
+	go clean -modcache
+}
+
+package() {
+	cd NoiseTorch
+	install -D -m755 bin/noisetorch "${pkgdir}/usr/bin/noisetorch"
+	install -D -m644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+	install -D -m644 assets/noisetorch.desktop "${pkgdir}/usr/share/applications/noisetorch.desktop"
+	install -D -m644 assets/icon/LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/icon-LICENSE"
+	install -D -m644 assets/icon/noisetorch.png "${pkgdir}/usr/share/icons/hicolor/256x256/apps/noisetorch.png"
+}
