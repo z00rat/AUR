@@ -1,5 +1,6 @@
 betterlockscreen
 burpsuite
+cava
 gitify-bin
 maldet
 obs-input-overlay-bin
