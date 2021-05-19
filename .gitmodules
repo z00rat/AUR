@@ -563,3 +563,7 @@
 	path = repos/gconf-gtk2
 	url = ssh://aur@aur.archlinux.org/gconf-gtk2.git
 	branch = master
+[submodule "repos/noisetorch"]
+	path = repos/noisetorch
+	url = ssh://aur@aur.archlinux.org/noisetorch.git
+	branch = master
