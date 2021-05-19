@@ -567,3 +567,7 @@
 	path = repos/noisetorch
 	url = ssh://aur@aur.archlinux.org/noisetorch.git
 	branch = master
+[submodule "repos/betterdiscord-installer"]
+	path = repos/betterdiscord-installer
+	url = ssh://aur@aur.archlinux.org/betterdiscord-installer.git
+	branch = master
