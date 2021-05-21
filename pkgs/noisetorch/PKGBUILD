@@ -1,12 +1,13 @@
 # Maintainer:  Travis Collins <erbrecht at pobox dot com>
 # Contributor: Justin Kromlinger <hashworks@archlinux.org>
+# Contributor: Sefa Eyeoglu <contact@scrumplex.net>
 
 # Note: The upstream maintainer does not allow ANY modifications
 # to the source code. Please refrain from doing so.
 # https://lists.archlinux.org/pipermail/aur-general/2021-May/036230.html
 
 pkgname=noisetorch
-pkgver=0.11.1
+pkgver=0.11.2
 pkgrel=1
 pkgdesc='Real-time microphone noise suppression on Linux.'
 arch=('x86_64')
@@ -26,13 +27,16 @@ build() {
 	cd NoiseTorch/c/ladspa
 	make
 	cd ${srcdir}/NoiseTorch
+
+	vendor_flags="-X main.version=${pkgver} -X main.distribution=archlinux"
+
 	export CGO_CPPFLAGS="${CPPFLAGS}"
 	export CGO_CFLAGS="${CFLAGS}"
 	export CGO_CXXFLAGS="${CXXFLAGS}"
 	export CGO_LDFLAGS="${LDFLAGS}"
-	export GOFLAGS="-buildmode=pie -trimpath -ldflags=-linkmode=external -mod=readonly -modcacherw"
+	export GOFLAGS="-buildmode=pie -trimpath -mod=readonly -modcacherw"
 	go generate
-	go build -o bin/noisetorch
+	go build -ldflags "$vendor_flags -linkmode=external" -o bin/noisetorch
 	go clean -modcache
 }
 

@@ -2,7 +2,6 @@ betterlockscreen
 burpsuite
 gitify-bin
 maldet
-nomad
 obs-input-overlay-bin
 oomox
 resvg
