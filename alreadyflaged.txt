@@ -1,5 +1,6 @@
 betterlockscreen
 burpsuite
+discord-ptb
 gitify-bin
 maldet
 obs-input-overlay-bin
