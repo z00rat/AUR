@@ -217,7 +217,7 @@ betterlockscreen: new version found - 3.0.1 => 3.1.0
 [32m          [UP-TO-DATE] [python-torrequest][0.1.0-3] matches upstream version 0.1.0 [0m
   [1;34m->[;1m [110/147] checking for update for 'python-youtube-search-git'[0m
   [1;34m->[;1m [111/147] checking for update for 'python-ytmusicapi'[0m
-[32m          [UP-TO-DATE] [python-ytmusicapi][0.17.2-1] matches upstream version 0.17.2 [0m
+[31m         [OUT-OF-DATE] [python-ytmusicapi][0.17.2-1] should be updated to 0.17.3 [0m
   [1;34m->[;1m [112/147] checking for update for 'raven-reader'[0m
 [32m          [UP-TO-DATE] [raven-reader][1.0.55-1] matches upstream version 1.0.55 [0m
   [1;34m->[;1m [113/147] checking for update for 'raven-reader-bin'[0m
