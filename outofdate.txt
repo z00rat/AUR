@@ -46,7 +46,7 @@ betterlockscreen: new version found - 3.0.1 => 3.1.0
   [1;34m->[;1m [17/147] checking for update for 'bibata-cursor-theme-bin'[0m
 [32m          [UP-TO-DATE] [bibata-cursor-theme-bin][1.1.1-1] matches upstream version 1.1.1 [0m
   [1;34m->[;1m [18/147] checking for update for 'boundary-bin'[0m
-[37m             [UNKNOWN] [boundary-bin][0.2.2-1] No release found for boundary-controller.service [0m
+[37m             [UNKNOWN] [boundary-bin][0.2.3-1] No release found for boundary-controller.service [0m
   [1;34m->[;1m [19/147] checking for update for 'broken-link-checker'[0m
 [32m          [UP-TO-DATE] [broken-link-checker][0.7.8-1] matches upstream version 0.7.8 [0m
   [1;34m->[;1m [20/147] checking for update for 'burpsuite'[0m
@@ -217,7 +217,7 @@ betterlockscreen: new version found - 3.0.1 => 3.1.0
 [32m          [UP-TO-DATE] [python-torrequest][0.1.0-3] matches upstream version 0.1.0 [0m
   [1;34m->[;1m [110/147] checking for update for 'python-youtube-search-git'[0m
   [1;34m->[;1m [111/147] checking for update for 'python-ytmusicapi'[0m
-[31m         [OUT-OF-DATE] [python-ytmusicapi][0.17.2-1] should be updated to 0.17.3 [0m
+[32m          [UP-TO-DATE] [python-ytmusicapi][0.17.3-1] matches upstream version 0.17.3 [0m
   [1;34m->[;1m [112/147] checking for update for 'raven-reader'[0m
 [32m          [UP-TO-DATE] [raven-reader][1.0.55-1] matches upstream version 1.0.55 [0m
   [1;34m->[;1m [113/147] checking for update for 'raven-reader-bin'[0m
