@@ -571,3 +571,7 @@
 	path = repos/betterdiscord-installer
 	url = ssh://aur@aur.archlinux.org/betterdiscord-installer.git
 	branch = master
+[submodule "repos/dust-bin"]
+	path = repos/dust-bin
+	url = ssh://aur@aur.archlinux.org/dust-bin.git
+	branch = master
