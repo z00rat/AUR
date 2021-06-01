@@ -2,16 +2,18 @@
 
   [1;34m->[;1m listing already flaged packages[0m
 betterlockscreen
+burpsuite
 gitify-bin
+gitstatus
 maldet
 obs-input-overlay-bin
-oomox
 resvg
 ttf-typicons
   [1;34m->[;1m running pkgoutofdate[0m
 ttf-typicons: new version found - 2.0.9 => 2.1.0
 resvg: new version found - 0.13.0 => 0.13.1
-gitui-bin: new version found - 0.15.0 => 0.16.0
+raven-reader-bin: new version found - 1.0.55 => 1.0.56
+python-pytube: new version found - 10.8.2 => 10.8.3
 gitstatus: new version found - 1.4.4 => 1.5.0
 betterlockscreen: new version found - 3.0.1 => 3.1.0
   [1;34m->[;1m running aur-out-of-date[0m
@@ -94,7 +96,7 @@ betterlockscreen: new version found - 3.0.1 => 3.1.0
 [37m             [UNKNOWN] [florence][0.6.3-2] No release found for http://sourceforge.net/projects/florence/files/florence/0.6.3/florence-0.6.3.tar.bz2 [0m
   [1;34m->[;1m [41/148] checking for update for 'fsearch-git'[0m
   [1;34m->[;1m [42/148] checking for update for 'gallery-dl'[0m
-[32m          [UP-TO-DATE] [gallery-dl][1.17.4-1] matches upstream version 1.17.4 [0m
+[32m          [UP-TO-DATE] [gallery-dl][1.17.5-1] matches upstream version 1.17.5 [0m
   [1;34m->[;1m [43/148] checking for update for 'gconf-cleaner'[0m
 [37m             [UNKNOWN] [gconf-cleaner][0.0.3-2] No release found for https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gconf-cleaner/gconf-cleaner-0.0.3.tar.gz [0m
   [1;34m->[;1m [44/148] checking for update for 'gconf-gtk2'[0m
@@ -106,7 +108,7 @@ betterlockscreen: new version found - 3.0.1 => 3.1.0
   [1;34m->[;1m [47/148] checking for update for 'gitstatus'[0m
 [31m         [OUT-OF-DATE] [gitstatus][1.4.4-1] should be updated to 1.5.0 [0m
   [1;34m->[;1m [48/148] checking for update for 'gitui-bin'[0m
-[31m         [OUT-OF-DATE] [gitui-bin][0.15.0-1] should be updated to 0.16.0 [0m
+[32m          [UP-TO-DATE] [gitui-bin][0.16.0-1] matches upstream version 0.16.0 [0m
   [1;34m->[;1m [49/148] checking for update for 'glow'[0m
 [32m          [UP-TO-DATE] [glow][1.4.1-1] matches upstream version 1.4.1 [0m
   [1;34m->[;1m [50/148] checking for update for 'gnome-getting-started-docs'[0m
@@ -168,7 +170,7 @@ betterlockscreen: new version found - 3.0.1 => 3.1.0
   [1;34m->[;1m [82/148] checking for update for 'onedrive-abraunegg'[0m
 [32m          [UP-TO-DATE] [onedrive-abraunegg][2.4.12-1] matches upstream version 2.4.12 [0m
   [1;34m->[;1m [83/148] checking for update for 'oomox'[0m
-[31m         [OUT-OF-DATE] [oomox][1.12.5.3-3] should be updated to 1.13.3 [0m
+[32m          [UP-TO-DATE] [oomox][1.13.3-1] matches upstream version 1.13.3 [0m
   [1;34m->[;1m [84/148] checking for update for 'opencomic-bin'[0m
 [32m          [UP-TO-DATE] [opencomic-bin][0.2.0-4] matches upstream version 0.2.0 [0m
   [1;34m->[;1m [85/148] checking for update for 'opensnitch-git'[0m
@@ -205,7 +207,7 @@ betterlockscreen: new version found - 3.0.1 => 3.1.0
   [1;34m->[;1m [103/148] checking for update for 'python-pydes'[0m
 [32m          [UP-TO-DATE] [python-pydes][2.0.1-2] matches upstream version 2.0.1 [0m
   [1;34m->[;1m [104/148] checking for update for 'python-pytube'[0m
-[32m          [UP-TO-DATE] [python-pytube][10.8.2-1] matches upstream version 10.8.2 [0m
+[31m         [OUT-OF-DATE] [python-pytube][10.8.2-1] should be updated to 10.8.3 [0m
   [1;34m->[;1m [105/148] checking for update for 'python-rapidfuzz'[0m
 [32m          [UP-TO-DATE] [python-rapidfuzz][1.4.1-1] matches upstream version 1.4.1 [0m
   [1;34m->[;1m [106/148] checking for update for 'python-requests-futures'[0m
@@ -222,9 +224,9 @@ betterlockscreen: new version found - 3.0.1 => 3.1.0
   [1;34m->[;1m [112/148] checking for update for 'python-ytmusicapi'[0m
 [32m          [UP-TO-DATE] [python-ytmusicapi][0.17.3-1] matches upstream version 0.17.3 [0m
   [1;34m->[;1m [113/148] checking for update for 'raven-reader'[0m
-[32m          [UP-TO-DATE] [raven-reader][1.0.55-1] matches upstream version 1.0.55 [0m
+[32m          [UP-TO-DATE] [raven-reader][1.0.56-1] matches upstream version 1.0.56 [0m
   [1;34m->[;1m [114/148] checking for update for 'raven-reader-bin'[0m
-[32m          [UP-TO-DATE] [raven-reader-bin][1.0.55-1] matches upstream version 1.0.55 [0m
+[31m         [OUT-OF-DATE] [raven-reader-bin][1.0.55-1] should be updated to 1.0.56 [0m
   [1;34m->[;1m [115/148] checking for update for 'resvg'[0m
 [31m         [OUT-OF-DATE] [resvg][0.13.0-1] should be updated to 0.14.1 [0m
   [1;34m->[;1m [116/148] checking for update for 'ricochet'[0m
@@ -242,7 +244,7 @@ betterlockscreen: new version found - 3.0.1 => 3.1.0
   [1;34m->[;1m [123/148] checking for update for 'speedometer'[0m
 [32m          [UP-TO-DATE] [speedometer][2.8-4] matches upstream version 2.8 [0m
   [1;34m->[;1m [124/148] checking for update for 'spicetify-cli'[0m
-[32m          [UP-TO-DATE] [spicetify-cli][2.2.4-1] matches upstream version 2.2.4 [0m
+[32m          [UP-TO-DATE] [spicetify-cli][2.2.5-1] matches upstream version 2.2.5 [0m
   [1;34m->[;1m [125/148] checking for update for 'spotify'[0m
 [37m             [UNKNOWN] [spotify][1:1.1.56.595-1] No release found for spotify.protocol [0m
   [1;34m->[;1m [126/148] checking for update for 'stretchly-bin'[0m

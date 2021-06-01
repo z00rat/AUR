@@ -1,7 +1,8 @@
 betterlockscreen
+burpsuite
 gitify-bin
+gitstatus
 maldet
 obs-input-overlay-bin
-oomox
 resvg
 ttf-typicons
