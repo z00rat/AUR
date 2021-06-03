@@ -5,4 +5,5 @@ maldet
 obs-input-overlay-bin
 powerpill
 resvg
+tor-browser
 ttf-typicons
