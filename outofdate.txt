@@ -12,8 +12,8 @@ tor-browser
 ttf-typicons
   [1;34m->[;1m running pkgoutofdate[0m
 ttf-typicons: new version found - 2.0.9 => 2.1.0
+raven-reader-bin: new version found - 1.0.56 => 1.0.57
 resvg: new version found - 0.13.0 => 0.13.1
-python-pytube: new version found - 10.8.3 => 10.8.4
 gitstatus: new version found - 1.4.4 => 1.5.0
 betterlockscreen: new version found - 3.0.1 => 3.1.0
   [1;34m->[;1m running aur-out-of-date[0m
@@ -207,7 +207,7 @@ betterlockscreen: new version found - 3.0.1 => 3.1.0
   [1;34m->[;1m [103/148] checking for update for 'python-pydes'[0m
 [32m          [UP-TO-DATE] [python-pydes][2.0.1-2] matches upstream version 2.0.1 [0m
   [1;34m->[;1m [104/148] checking for update for 'python-pytube'[0m
-[31m         [OUT-OF-DATE] [python-pytube][10.8.3-1] should be updated to 10.8.4 [0m
+[32m          [UP-TO-DATE] [python-pytube][10.8.4-1] matches upstream version 10.8.4 [0m
   [1;34m->[;1m [105/148] checking for update for 'python-rapidfuzz'[0m
 [32m          [UP-TO-DATE] [python-rapidfuzz][1.4.1-1] matches upstream version 1.4.1 [0m
   [1;34m->[;1m [106/148] checking for update for 'python-requests-futures'[0m
@@ -224,9 +224,9 @@ betterlockscreen: new version found - 3.0.1 => 3.1.0
   [1;34m->[;1m [112/148] checking for update for 'python-ytmusicapi'[0m
 [32m          [UP-TO-DATE] [python-ytmusicapi][0.17.3-1] matches upstream version 0.17.3 [0m
   [1;34m->[;1m [113/148] checking for update for 'raven-reader'[0m
-[32m          [UP-TO-DATE] [raven-reader][1.0.56-1] matches upstream version 1.0.56 [0m
+[32m          [UP-TO-DATE] [raven-reader][1.0.57-1] matches upstream version 1.0.57 [0m
   [1;34m->[;1m [114/148] checking for update for 'raven-reader-bin'[0m
-[32m          [UP-TO-DATE] [raven-reader-bin][1.0.56-1] matches upstream version 1.0.56 [0m
+[31m         [OUT-OF-DATE] [raven-reader-bin][1.0.56-1] should be updated to 1.0.57 [0m
   [1;34m->[;1m [115/148] checking for update for 'resvg'[0m
 [31m         [OUT-OF-DATE] [resvg][0.13.0-1] should be updated to 0.14.1 [0m
   [1;34m->[;1m [116/148] checking for update for 'ricochet'[0m
@@ -271,7 +271,7 @@ betterlockscreen: new version found - 3.0.1 => 3.1.0
   [1;34m->[;1m [137/148] checking for update for 'ttyd'[0m
 [32m          [UP-TO-DATE] [ttyd][1.6.3-2] matches upstream version 1.6.3 [0m
   [1;34m->[;1m [138/148] checking for update for 'ugrep'[0m
-[32m          [UP-TO-DATE] [ugrep][3.3-1] matches upstream version 3.3 [0m
+[32m          [UP-TO-DATE] [ugrep][3.3.1-1] matches upstream version 3.3.1 [0m
   [1;34m->[;1m [139/148] checking for update for 'volctl'[0m
 [37m             [UNKNOWN] [volctl][0.8.2-1] Failed to obtain GitHub release for buzz/volctl.git from https://api.github.com/repos/buzz/volctl.git/releases/latest: No GitHub project found for buzz/volctl.git on https://api.github.com/repos/buzz/volctl.git/releases/latest [0m
   [1;34m->[;1m [140/148] checking for update for 'vrms-arch'[0m
