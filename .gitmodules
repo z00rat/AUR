@@ -579,3 +579,7 @@
 	path = repos/python-gtts
 	url = ssh://aur@aur.archlinux.org/python-gtts.git
 	branch = master
+[submodule "repos/python-gtts-token"]
+	path = repos/python-gtts-token
+	url = ssh://aur@aur.archlinux.org/python-gtts-token.git
+	branch = master
