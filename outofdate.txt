@@ -260,7 +260,7 @@ gitstatus: new version found - 1.4.4 => 1.5.0
   [1;34m->[;1m [132/150] checking for update for 'tor-browser'[0m
 [37m             [UNKNOWN] [tor-browser][10.0.16-1] No release found for tor-browser.desktop.in [0m
   [1;34m->[;1m [133/150] checking for update for 'tt-bin'[0m
-[31m         [OUT-OF-DATE] [tt-bin][0.4.0-5] should be updated to 0.4.1 [0m
+[32m          [UP-TO-DATE] [tt-bin][0.4.1-1] matches upstream version 0.4.1 [0m
   [1;34m->[;1m [134/150] checking for update for 'ttf-anka-coder'[0m
 [37m             [UNKNOWN] [ttf-anka-coder][1.100-1] No release found for https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/anka-coder-fonts/AnkaCoder.zip [0m
   [1;34m->[;1m [135/150] checking for update for 'ttf-firacode'[0m
