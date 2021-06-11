@@ -1,8 +1,6 @@
 gitify-bin
-gitstatus
 i3lock-color
 maldet
-obs-input-overlay-bin
 powerpill
 resvg
 ttf-typicons
