@@ -583,3 +583,7 @@
 	path = repos/python-gtts-token
 	url = ssh://aur@aur.archlinux.org/python-gtts-token.git
 	branch = master
+[submodule "repos/noisetorch-bin"]
+	path = repos/noisetorch-bin
+	url = ssh://aur@aur.archlinux.org/noisetorch-bin.git
+	branch = master
