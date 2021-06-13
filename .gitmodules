@@ -587,3 +587,7 @@
 	path = repos/noisetorch-bin
 	url = ssh://aur@aur.archlinux.org/noisetorch-bin.git
 	branch = master
+[submodule "repos/paru-bin"]
+	path = repos/paru-bin
+	url = ssh://aur@aur.archlinux.org/paru-bin.git
+	branch = master
