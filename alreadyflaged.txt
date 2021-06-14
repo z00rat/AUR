@@ -4,3 +4,4 @@ maldet
 powerpill
 resvg
 ttf-typicons
+vrms-arch
