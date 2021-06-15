@@ -591,3 +591,7 @@
 	path = repos/paru-bin
 	url = ssh://aur@aur.archlinux.org/paru-bin.git
 	branch = master
+[submodule "repos/mergerfs"]
+	path = repos/mergerfs
+	url = ssh://aur@aur.archlinux.org/mergerfs.git
+	branch = master
