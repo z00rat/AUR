@@ -603,3 +603,7 @@
 	path = repos/code-features
 	url = ssh://aur@aur.archlinux.org/code-features.git
 	branch = master
+[submodule "repos/code-marketplace"]
+	path = repos/code-marketplace
+	url = ssh://aur@aur.archlinux.org/code-marketplace.git
+	branch = master
