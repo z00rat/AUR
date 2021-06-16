@@ -599,3 +599,7 @@
 	path = repos/mergerfs-tools-git
 	url = ssh://aur@aur.archlinux.org/mergerfs-tools-git.git
 	branch = master
+[submodule "repos/code-features"]
+	path = repos/code-features
+	url = ssh://aur@aur.archlinux.org/code-features.git
+	branch = master
