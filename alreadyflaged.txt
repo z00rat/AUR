@@ -3,5 +3,4 @@ i3lock-color
 maldet
 powerpill
 resvg
-ttf-typicons
 vrms-arch

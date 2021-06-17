@@ -6,10 +6,8 @@ i3lock-color
 maldet
 powerpill
 resvg
-ttf-typicons
 vrms-arch
   [1;34m->[;1m running pkgoutofdate[0m
-ttf-typicons: new version found - 2.0.9 => 2.1.0
 resvg: new version found - 0.13.0 => 0.13.1
 i3lock-color: new version found - 2.13.c.3 => 2.13.c.4
   [1;34m->[;1m running aur-out-of-date[0m
@@ -113,7 +111,7 @@ i3lock-color: new version found - 2.13.c.3 => 2.13.c.4
 [32m          [UP-TO-DATE] [glow][1.4.1-1] matches upstream version 1.4.1 [0m
   [1;34m->[;1m [52/156] checking for update for 'gnome-getting-started-docs'[0m
   [1;34m->[;1m [53/156] checking for update for 'google-chrome'[0m
-[37m             [UNKNOWN] [google-chrome][91.0.4472.101-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_91.0.4472.101-1_amd64.deb [0m
+[37m             [UNKNOWN] [google-chrome][91.0.4472.106-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_91.0.4472.106-1_amd64.deb [0m
   [1;34m->[;1m [54/156] checking for update for 'hakuneko-desktop'[0m
 [32m          [UP-TO-DATE] [hakuneko-desktop][6.1.7-1] matches upstream version 6.1.7 [0m
   [1;34m->[;1m [55/156] checking for update for 'heroku-cli-bin'[0m
@@ -276,7 +274,7 @@ i3lock-color: new version found - 2.13.c.3 => 2.13.c.4
   [1;34m->[;1m [142/156] checking for update for 'ttf-ms-fonts'[0m
 [37m             [UNKNOWN] [ttf-ms-fonts][2.0-12] No release found for https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/andale32.exe [0m
   [1;34m->[;1m [143/156] checking for update for 'ttf-typicons'[0m
-[31m         [OUT-OF-DATE] [ttf-typicons][2.0.9-2] should be updated to 2.1.2 [0m
+[32m          [UP-TO-DATE] [ttf-typicons][2.1.2-1] matches upstream version 2.1.2 [0m
   [1;34m->[;1m [144/156] checking for update for 'tty-clock'[0m
 [37m             [UNKNOWN] [tty-clock][2.3-1] Failed to obtain GitHub release for xorg62/tty-clock from https://api.github.com/repos/xorg62/tty-clock/releases/latest: No GitHub project found for xorg62/tty-clock on https://api.github.com/repos/xorg62/tty-clock/releases/latest [0m
   [1;34m->[;1m [145/156] checking for update for 'ttyd'[0m
