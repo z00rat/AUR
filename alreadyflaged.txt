@@ -2,5 +2,6 @@ gitify-bin
 i3lock-color
 maldet
 powerpill
+python-gtts
 resvg
 vrms-arch
