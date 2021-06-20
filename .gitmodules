@@ -607,3 +607,7 @@
 	path = repos/code-marketplace
 	url = ssh://aur@aur.archlinux.org/code-marketplace.git
 	branch = master
+[submodule "repos/obs-plugin-input-overlay-bin"]
+	path = repos/obs-plugin-input-overlay-bin
+	url = ssh://aur@aur.archlinux.org/obs-plugin-input-overlay-bin.git
+	branch = master
