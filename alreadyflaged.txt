@@ -1,7 +1,8 @@
-burpsuite
 gitify-bin
 i3lock-color
 maldet
+pm2ml
 python-gtts
 resvg
+runjs-bin
 vrms-arch
