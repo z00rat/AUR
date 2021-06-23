@@ -611,3 +611,7 @@
 	path = repos/obs-plugin-input-overlay-bin
 	url = ssh://aur@aur.archlinux.org/obs-plugin-input-overlay-bin.git
 	branch = master
+[submodule "repos/vimix-cursors"]
+	path = repos/vimix-cursors
+	url = ssh://aur@aur.archlinux.org/vimix-cursors.git
+	branch = master
