@@ -7,7 +7,7 @@ msg2 "new packages "
 pacman -Qqm | sort > alreadyinstalled.txt
 msg2 "number of packages that are $( < alreadyinstalled.txt wc -l) installed"
 
-./add.sh "$(diff alreadyinstalled.txt alreadytracked.txt | grep "<" | cut -c 3-)"
+./add.sh $(diff alreadyinstalled.txt alreadytracked.txt | grep "<" | cut -c 3-)
 
 trash alreadyinstalled.txt alreadytracked.txt
 
