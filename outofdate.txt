@@ -3,11 +3,12 @@
   [1;34m->[;1m listing already flaged packages[0m
 i3lock-color
 maldet
+nomad
+paru-bin
 pm2ml
 resvg
 vrms-arch
   [1;34m->[;1m running pkgoutofdate[0m
-raven-reader-bin: new version found - 1.0.59 => 1.0.60
 resvg: new version found - 0.13.0 => 0.13.1
 nomad: new version found - 1.1.1 => 1.1.2
 i3lock-color: new version found - 2.13.c.3 => 2.13.c.4
@@ -48,7 +49,7 @@ i3lock-color: new version found - 2.13.c.3 => 2.13.c.4
   [1;34m->[;1m [19/159] checking for update for 'broken-link-checker'[0m
 [32m          [UP-TO-DATE] [broken-link-checker][0.7.8-1] matches upstream version 0.7.8 [0m
   [1;34m->[;1m [20/159] checking for update for 'burpsuite'[0m
-[37m             [UNKNOWN] [burpsuite][2021.6.2-1] No release found for burpsuite-2021.6.1.jar::https://portswigger.net/burp/releases/download?product=community&version=2021.6.1&type=Jar [0m
+[37m             [UNKNOWN] [burpsuite][2021.6.2-2] No release found for burpsuite-2021.6.1.jar::https://portswigger.net/burp/releases/download?product=community&version=2021.6.1&type=Jar [0m
   [1;34m->[;1m [21/159] checking for update for 'cava'[0m
 [32m          [UP-TO-DATE] [cava][0.7.4-1] matches upstream version 0.7.4 [0m
   [1;34m->[;1m [22/159] checking for update for 'code-features'[0m
@@ -238,7 +239,7 @@ i3lock-color: new version found - 2.13.c.3 => 2.13.c.4
   [1;34m->[;1m [122/159] checking for update for 'raven-reader'[0m
 [32m          [UP-TO-DATE] [raven-reader][1.0.60-1] matches upstream version 1.0.60 [0m
   [1;34m->[;1m [123/159] checking for update for 'raven-reader-bin'[0m
-[31m         [OUT-OF-DATE] [raven-reader-bin][1.0.59-1] should be updated to 1.0.60 [0m
+[32m          [UP-TO-DATE] [raven-reader-bin][1.0.60-1] matches upstream version 1.0.60 [0m
   [1;34m->[;1m [124/159] checking for update for 'resvg'[0m
 [31m         [OUT-OF-DATE] [resvg][0.13.0-1] should be updated to 0.15.0 [0m
   [1;34m->[;1m [125/159] checking for update for 'ricochet'[0m
