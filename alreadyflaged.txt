@@ -1,7 +1,6 @@
 i3lock-color
 maldet
 nomad
-paru-bin
 pm2ml
 resvg
 vrms-arch
