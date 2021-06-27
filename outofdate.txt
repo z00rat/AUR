@@ -10,7 +10,6 @@ vrms-arch
   [1;34m->[;1m running pkgoutofdate[0m
 resvg: new version found - 0.13.0 => 0.13.1
 nomad: new version found - 1.1.1 => 1.1.2
-mergerfs: new version found - 2.32.5 => 2.32.6
 i3lock-color: new version found - 2.13.c.3 => 2.13.c.4
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m [1/159] checking for update for 'advcpmv'[0m
@@ -146,7 +145,7 @@ i3lock-color: new version found - 2.13.c.3 => 2.13.c.4
   [1;34m->[;1m [72/159] checking for update for 'maldet'[0m
 [31m         [OUT-OF-DATE] [maldet][1.6-3] should be updated to 1.6.4 [0m
   [1;34m->[;1m [73/159] checking for update for 'mergerfs'[0m
-[31m         [OUT-OF-DATE] [mergerfs][2.32.5-1] should be updated to 2.32.6 [0m
+[32m          [UP-TO-DATE] [mergerfs][2.32.6-1] matches upstream version 2.32.6 [0m
   [1;34m->[;1m [74/159] checking for update for 'mergerfs-tools-git'[0m
   [1;34m->[;1m [75/159] checking for update for 'mkp224o'[0m
 [32m          [UP-TO-DATE] [mkp224o][1.5.0-1] matches upstream version 1.5.0 [0m
@@ -228,7 +227,7 @@ i3lock-color: new version found - 2.13.c.3 => 2.13.c.4
   [1;34m->[;1m [116/159] checking for update for 'python-simber'[0m
 [32m          [UP-TO-DATE] [python-simber][0.2.3-0] matches upstream version 0.2.3 [0m
   [1;34m->[;1m [117/159] checking for update for 'python-spotdl'[0m
-[32m          [UP-TO-DATE] [python-spotdl][3.6.2-1] matches upstream version 3.6.2 [0m
+[32m          [UP-TO-DATE] [python-spotdl][3.6.3-1] matches upstream version 3.6.3 [0m
   [1;34m->[;1m [118/159] checking for update for 'python-spotipy'[0m
 [32m          [UP-TO-DATE] [python-spotipy][2.18.0-1] matches upstream version 2.18.0 [0m
   [1;34m->[;1m [119/159] checking for update for 'python-torrequest'[0m
@@ -237,7 +236,7 @@ i3lock-color: new version found - 2.13.c.3 => 2.13.c.4
   [1;34m->[;1m [121/159] checking for update for 'python-ytmusicapi'[0m
 [32m          [UP-TO-DATE] [python-ytmusicapi][0.17.3-1] matches upstream version 0.17.3 [0m
   [1;34m->[;1m [122/159] checking for update for 'raven-reader'[0m
-[31m         [OUT-OF-DATE] [raven-reader][1.0.60-1] should be updated to 1.0.61 [0m
+[32m          [UP-TO-DATE] [raven-reader][1.0.61-1] matches upstream version 1.0.61 [0m
   [1;34m->[;1m [123/159] checking for update for 'raven-reader-bin'[0m
 [32m          [UP-TO-DATE] [raven-reader-bin][1.0.61-1] matches upstream version 1.0.61 [0m
   [1;34m->[;1m [124/159] checking for update for 'resvg'[0m
@@ -251,7 +250,7 @@ i3lock-color: new version found - 2.13.c.3 => 2.13.c.4
   [1;34m->[;1m [128/159] checking for update for 'rtags'[0m
 [32m          [UP-TO-DATE] [rtags][2.38-1] matches upstream version 2.38 [0m
   [1;34m->[;1m [129/159] checking for update for 'runjs-bin'[0m
-[32m          [UP-TO-DATE] [runjs-bin][2.0.0-1] matches upstream version 2.0.0 [0m
+[31m         [OUT-OF-DATE] [runjs-bin][2.0.0-1] should be updated to 2.0.1 [0m
   [1;34m->[;1m [130/159] checking for update for 'sherlock-git'[0m
   [1;34m->[;1m [131/159] checking for update for 'siji-git'[0m
   [1;34m->[;1m [132/159] checking for update for 'speedometer'[0m
