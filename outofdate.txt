@@ -6,6 +6,7 @@ maldet
 nomad
 pm2ml
 resvg
+runjs-bin
 vrms-arch
   [1;34m->[;1m running pkgoutofdate[0m
 resvg: new version found - 0.13.0 => 0.13.1
@@ -256,7 +257,7 @@ i3lock-color: new version found - 2.13.c.3 => 2.13.c.4
   [1;34m->[;1m [132/159] checking for update for 'speedometer'[0m
 [32m          [UP-TO-DATE] [speedometer][2.8-4] matches upstream version 2.8 [0m
   [1;34m->[;1m [133/159] checking for update for 'spicetify-cli'[0m
-[32m          [UP-TO-DATE] [spicetify-cli][2.4.0-1] matches upstream version 2.4.0 [0m
+[32m          [UP-TO-DATE] [spicetify-cli][2.5.0-1] matches upstream version 2.5.0 [0m
   [1;34m->[;1m [134/159] checking for update for 'spotify'[0m
 [37m             [UNKNOWN] [spotify][1:1.1.56.595-1] No release found for spotify.protocol [0m
   [1;34m->[;1m [135/159] checking for update for 'ssh-audit'[0m
