@@ -3,5 +3,4 @@ maldet
 nomad
 pm2ml
 resvg
-runjs-bin
 vrms-arch

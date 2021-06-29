@@ -6,7 +6,6 @@ maldet
 nomad
 pm2ml
 resvg
-runjs-bin
 vrms-arch
   [1;34m->[;1m running pkgoutofdate[0m
 resvg: new version found - 0.13.0 => 0.13.1
@@ -251,7 +250,7 @@ i3lock-color: new version found - 2.13.c.3 => 2.13.c.4
   [1;34m->[;1m [128/159] checking for update for 'rtags'[0m
 [32m          [UP-TO-DATE] [rtags][2.38-1] matches upstream version 2.38 [0m
   [1;34m->[;1m [129/159] checking for update for 'runjs-bin'[0m
-[31m         [OUT-OF-DATE] [runjs-bin][2.0.0-1] should be updated to 2.0.1 [0m
+[32m          [UP-TO-DATE] [runjs-bin][2.0.1-1] matches upstream version 2.0.1 [0m
   [1;34m->[;1m [130/159] checking for update for 'sherlock-git'[0m
   [1;34m->[;1m [131/159] checking for update for 'siji-git'[0m
   [1;34m->[;1m [132/159] checking for update for 'speedometer'[0m
@@ -306,5 +305,5 @@ i3lock-color: new version found - 2.13.c.3 => 2.13.c.4
   [1;34m->[;1m [157/159] checking for update for 'youtube-dl-gui-git'[0m
   [1;34m->[;1m [158/159] checking for update for 'ytmdl-git'[0m
   [1;34m->[;1m [159/159] checking for update for 'zoom'[0m
-[37m             [UNKNOWN] [zoom][5.7.0-1] No release found for zoom-5.7.0_orig_x86_64.pkg.tar.xz::https://zoom.us/client/5.7.25958.0621/zoom_x86_64.pkg.tar.xz [0m
+[37m             [UNKNOWN] [zoom][5.7.1-1] No release found for zoom-5.7.1_orig_x86_64.pkg.tar.xz::https://zoom.us/client/5.7.26030.0627/zoom_x86_64.pkg.tar.xz [0m
   [1;34m->[;1m done.[0m
