@@ -8,6 +8,7 @@ pm2ml
 resvg
 vrms-arch
   [1;34m->[;1m running pkgoutofdate[0m
+raven-reader-bin: new version found - 1.0.61 => 1.0.62
 resvg: new version found - 0.13.0 => 0.13.1
 nomad: new version found - 1.1.1 => 1.1.2
 i3lock-color: new version found - 2.13.c.3 => 2.13.c.4
@@ -236,9 +237,9 @@ i3lock-color: new version found - 2.13.c.3 => 2.13.c.4
   [1;34m->[;1m [121/159] checking for update for 'python-ytmusicapi'[0m
 [32m          [UP-TO-DATE] [python-ytmusicapi][0.17.3-1] matches upstream version 0.17.3 [0m
   [1;34m->[;1m [122/159] checking for update for 'raven-reader'[0m
-[32m          [UP-TO-DATE] [raven-reader][1.0.61-1] matches upstream version 1.0.61 [0m
+[31m         [OUT-OF-DATE] [raven-reader][1.0.61-1] should be updated to 1.0.62 [0m
   [1;34m->[;1m [123/159] checking for update for 'raven-reader-bin'[0m
-[32m          [UP-TO-DATE] [raven-reader-bin][1.0.61-1] matches upstream version 1.0.61 [0m
+[31m         [OUT-OF-DATE] [raven-reader-bin][1.0.61-1] should be updated to 1.0.62 [0m
   [1;34m->[;1m [124/159] checking for update for 'resvg'[0m
 [31m         [OUT-OF-DATE] [resvg][0.13.0-1] should be updated to 0.15.0 [0m
   [1;34m->[;1m [125/159] checking for update for 'ricochet'[0m
