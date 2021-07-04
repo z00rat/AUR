@@ -8,9 +8,6 @@ pm2ml
 resvg
 vrms-arch
   [1;34m->[;1m running pkgoutofdate[0m
-resvg: new version found - 0.13.0 => 0.13.1
-nomad: new version found - 1.1.1 => 1.1.2
-i3lock-color: new version found - 2.13.c.3 => 2.13.c.4
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m [1/159] checking for update for 'advcpmv'[0m
 [37m             [UNKNOWN] [advcpmv][8.32-2] No release found for http://ftp.gnu.org/gnu/coreutils/coreutils-8.32.tar.xz [0m
