@@ -3,5 +3,4 @@ i3lock-color
 maldet
 nomad
 resvg
-tor-browser
 vrms-arch
