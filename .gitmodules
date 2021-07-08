@@ -627,3 +627,7 @@
 	path = repos/typora
 	url = ssh://aur@aur.archlinux.org/typora.git
 	branch = master
+[submodule "repos/fswatch"]
+	path = repos/fswatch
+	url = ssh://aur@aur.archlinux.org/fswatch.git
+	branch = master
