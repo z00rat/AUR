@@ -5,6 +5,7 @@ firefox-esr-bin
 i3lock-color
 maldet
 nomad
+pm2ml
 resvg
 vrms-arch
   [1;34m->[;1m running pkgoutofdate[0m
@@ -33,10 +34,10 @@ i3lock-color: new version found - 2.13.c.3 => 2.13.c.4
   [1;34m->[;1m [11/163] checking for update for 'awmtt'[0m
 [37m             [UNKNOWN] [awmtt][0.5-1] Failed to obtain GitHub release for mikar/awmtt.git from https://api.github.com/repos/mikar/awmtt.git/releases/latest: No GitHub project found for mikar/awmtt.git on https://api.github.com/repos/mikar/awmtt.git/releases/latest [0m
   [1;34m->[;1m [12/163] checking for update for 'betterdiscord'[0m
-[37m             [UNKNOWN] [betterdiscord][1.0.0.beta-1] upstream version is 1.0.0-beta [0m
+[37m             [UNKNOWN] [betterdiscord][1.0.0.beta-1] upstream version is 1.0.0-hotfix [0m
   [1;34m->[;1m [13/163] checking for update for 'betterdiscordctl-git'[0m
   [1;34m->[;1m [14/163] checking for update for 'betterdiscord-installer'[0m
-[37m             [UNKNOWN] [betterdiscord-installer][1.0.0.beta-2] upstream version is 1.0.0-beta [0m
+[37m             [UNKNOWN] [betterdiscord-installer][1.0.0.beta-2] upstream version is 1.0.0-hotfix [0m
   [1;34m->[;1m [15/163] checking for update for 'betterlockscreen'[0m
 [32m          [UP-TO-DATE] [betterlockscreen][3.2.0-2] matches upstream version 3.2.0 [0m
   [1;34m->[;1m [16/163] checking for update for 'bibata-cursor-theme'[0m
@@ -118,7 +119,7 @@ i3lock-color: new version found - 2.13.c.3 => 2.13.c.4
   [1;34m->[;1m [55/163] checking for update for 'hakuneko-desktop'[0m
 [32m          [UP-TO-DATE] [hakuneko-desktop][6.1.7-1] matches upstream version 6.1.7 [0m
   [1;34m->[;1m [56/163] checking for update for 'heroku-cli-bin'[0m
-[37m             [UNKNOWN] [heroku-cli-bin][7.54.1-1] Failed to obtain GitHub release for SampsonCrowley/heroku-cli-bin from https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest: No GitHub project found for SampsonCrowley/heroku-cli-bin on https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest [0m
+[37m             [UNKNOWN] [heroku-cli-bin][7.56.0-1] Failed to obtain GitHub release for SampsonCrowley/heroku-cli-bin from https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest: No GitHub project found for SampsonCrowley/heroku-cli-bin on https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest [0m
   [1;34m->[;1m [57/163] checking for update for 'hollywood'[0m
 [37m             [UNKNOWN] [hollywood][1.21-5] No release found for hollywood-1.21.tar.gz::https://launchpad.net/hollywood/trunk/1.21/+download/hollywood_1.21.orig.tar.gz [0m
   [1;34m->[;1m [58/163] checking for update for 'i3lock-color'[0m
