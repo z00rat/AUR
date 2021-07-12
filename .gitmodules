@@ -635,3 +635,7 @@
 	path = repos/obsidian
 	url = ssh://aur@aur.archlinux.org/obsidian.git
 	branch = master
+[submodule "repos/subuser"]
+	path = repos/subuser
+	url = ssh://aur@aur.archlinux.org/subuser.git
+	branch = master
