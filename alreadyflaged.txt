@@ -1,5 +1,4 @@
 aseprite
-firefox-esr-bin
 i3lock-color
 maldet
 nomad
