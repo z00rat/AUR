@@ -639,3 +639,7 @@
 	path = repos/subuser
 	url = ssh://aur@aur.archlinux.org/subuser.git
 	branch = master
+[submodule "repos/x11docker"]
+	path = repos/x11docker
+	url = ssh://aur@aur.archlinux.org/x11docker.git
+	branch = master
