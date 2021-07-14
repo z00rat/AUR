@@ -643,3 +643,7 @@
 	path = repos/x11docker
 	url = ssh://aur@aur.archlinux.org/x11docker.git
 	branch = master
+[submodule "repos/bubblejail"]
+	path = repos/bubblejail
+	url = ssh://aur@aur.archlinux.org/bubblejail.git
+	branch = master
