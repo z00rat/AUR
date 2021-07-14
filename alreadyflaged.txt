@@ -1,7 +1,7 @@
 aseprite
+betterdiscord-installer
 i3lock-color
 maldet
-nomad
 pm2ml
 resvg
 vrms-arch
