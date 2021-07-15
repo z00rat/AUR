@@ -647,3 +647,7 @@
 	path = repos/bubblejail
 	url = ssh://aur@aur.archlinux.org/bubblejail.git
 	branch = master
+[submodule "repos/nordic-theme"]
+	path = repos/nordic-theme
+	url = ssh://aur@aur.archlinux.org/nordic-theme.git
+	branch = master
