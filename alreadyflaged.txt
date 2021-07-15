@@ -1,7 +1,8 @@
 aseprite
-betterdiscord-installer
+burpsuite
 i3lock-color
 maldet
 pm2ml
 resvg
+tor-browser
 vrms-arch
