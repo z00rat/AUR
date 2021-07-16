@@ -1,5 +1,6 @@
 aseprite
-burpsuite
+code-server
+google-chrome
 i3lock-color
 maldet
 pm2ml

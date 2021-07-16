@@ -2,7 +2,8 @@
 
   [1;34m->[;1m listing already flaged packages[0m
 aseprite
-burpsuite
+code-server
+google-chrome
 i3lock-color
 maldet
 pm2ml
@@ -13,6 +14,7 @@ vrms-arch
 resvg: new version found - 0.13.0 => 0.13.1
 nomad: new version found - 1.1.1 => 1.1.2
 i3lock-color: new version found - 2.13.c.3 => 2.13.c.4
+aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m [1/167] checking for update for 'advcpmv'[0m
 [37m             [UNKNOWN] [advcpmv][8.32-2] No release found for http://ftp.gnu.org/gnu/coreutils/coreutils-8.32.tar.xz [0m
@@ -52,11 +54,11 @@ i3lock-color: new version found - 2.13.c.3 => 2.13.c.4
   [1;34m->[;1m [20/167] checking for update for 'bubblejail'[0m
 [32m          [UP-TO-DATE] [bubblejail][0.4.2-1] matches upstream version 0.4.2 [0m
   [1;34m->[;1m [21/167] checking for update for 'burpsuite'[0m
-[37m             [UNKNOWN] [burpsuite][2021.7-1] No release found for burpsuite-2021.7.jar::https://portswigger.net/burp/releases/download?product=community&version=2021.7&type=Jar [0m
+[37m             [UNKNOWN] [burpsuite][2021.7.1-1] No release found for burpsuite-2021.7.jar::https://portswigger.net/burp/releases/download?product=community&version=2021.7&type=Jar [0m
   [1;34m->[;1m [22/167] checking for update for 'cava'[0m
 [32m          [UP-TO-DATE] [cava][0.7.4-1] matches upstream version 0.7.4 [0m
   [1;34m->[;1m [23/167] checking for update for 'code-features'[0m
-[31m         [OUT-OF-DATE] [code-features][1.58.0-1] should be updated to 1.58.1 [0m
+[31m         [OUT-OF-DATE] [code-features][1.58.0-1] should be updated to 1.58.2 [0m
   [1;34m->[;1m [24/167] checking for update for 'code-marketplace'[0m
 [37m             [UNKNOWN] [code-marketplace][1.54.3-4] No release found for code-marketplace.hook [0m
   [1;34m->[;1m [25/167] checking for update for 'code-server'[0m
@@ -143,7 +145,7 @@ i3lock-color: new version found - 2.13.c.3 => 2.13.c.4
   [1;34m->[;1m [68/167] checking for update for 'linux-latest'[0m
   [1;34m->[;1m [69/167] checking for update for 'linux-latest-headers'[0m
   [1;34m->[;1m [70/167] checking for update for 'losslesscut-bin'[0m
-[32m          [UP-TO-DATE] [losslesscut-bin][3.36.0-1] matches upstream version 3.36.0 [0m
+[32m          [UP-TO-DATE] [losslesscut-bin][3.36.0-2] matches upstream version 3.36.0 [0m
   [1;34m->[;1m [71/167] checking for update for 'lscolors-git'[0m
   [1;34m->[;1m [72/167] checking for update for 'lsdesktopf'[0m
 [37m             [UNKNOWN] [lsdesktopf][1.0.7-4] Failed to obtain GitHub release for AndyCrowd/list-desktop-files.git from https://api.github.com/repos/AndyCrowd/list-desktop-files.git/releases/latest: No GitHub project found for AndyCrowd/list-desktop-files.git on https://api.github.com/repos/AndyCrowd/list-desktop-files.git/releases/latest [0m
@@ -309,7 +311,7 @@ i3lock-color: new version found - 2.13.c.3 => 2.13.c.4
   [1;34m->[;1m [158/167] checking for update for 'vrms-arch'[0m
 [37m             [UNKNOWN] [vrms-arch][0.1.0.r25.g802c767-1] Failed to obtain GitHub release for orospakr/vrms-arch.git from https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest: No GitHub project found for orospakr/vrms-arch.git on https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest [0m
   [1;34m->[;1m [159/167] checking for update for 'vscodium-bin'[0m
-[32m          [UP-TO-DATE] [vscodium-bin][1.58.1-1] matches upstream version 1.58.1 [0m
+[32m          [UP-TO-DATE] [vscodium-bin][1.58.2-1] matches upstream version 1.58.2 [0m
   [1;34m->[;1m [160/167] checking for update for 'webtorrent-desktop-bin'[0m
 [32m          [UP-TO-DATE] [webtorrent-desktop-bin][0.24.0-1] matches upstream version 0.24.0 [0m
   [1;34m->[;1m [161/167] checking for update for 'webtty'[0m
