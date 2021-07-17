@@ -2,8 +2,6 @@
 
   [1;34m->[;1m listing already flaged packages[0m
 aseprite
-code-server
-google-chrome
 i3lock-color
 maldet
 pm2ml
@@ -62,7 +60,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m [24/167] checking for update for 'code-marketplace'[0m
 [37m             [UNKNOWN] [code-marketplace][1.54.3-4] No release found for code-marketplace.hook [0m
   [1;34m->[;1m [25/167] checking for update for 'code-server'[0m
-[31m         [OUT-OF-DATE] [code-server][3.10.2-1] should be updated to 3.11.0 [0m
+[32m          [UP-TO-DATE] [code-server][3.11.0-1] matches upstream version 3.11.0 [0m
   [1;34m->[;1m [26/167] checking for update for 'cointop-bin'[0m
 [32m          [UP-TO-DATE] [cointop-bin][1.6.5-1] matches upstream version 1.6.5 [0m
   [1;34m->[;1m [27/167] checking for update for 'ctjs-bin'[0m
@@ -120,7 +118,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
 [32m          [UP-TO-DATE] [glow][1.4.1-1] matches upstream version 1.4.1 [0m
   [1;34m->[;1m [54/167] checking for update for 'gnome-getting-started-docs'[0m
   [1;34m->[;1m [55/167] checking for update for 'google-chrome'[0m
-[37m             [UNKNOWN] [google-chrome][91.0.4472.114-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_91.0.4472.114-1_amd64.deb [0m
+[37m             [UNKNOWN] [google-chrome][91.0.4472.164-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_91.0.4472.164-1_amd64.deb [0m
   [1;34m->[;1m [56/167] checking for update for 'hakuneko-desktop'[0m
 [32m          [UP-TO-DATE] [hakuneko-desktop][6.1.7-1] matches upstream version 6.1.7 [0m
   [1;34m->[;1m [57/167] checking for update for 'heroku-cli-bin'[0m
