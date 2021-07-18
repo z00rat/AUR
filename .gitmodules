@@ -651,3 +651,7 @@
 	path = repos/nordic-theme
 	url = ssh://aur@aur.archlinux.org/nordic-theme.git
 	branch = master
+[submodule "repos/brave"]
+	path = repos/brave
+	url = ssh://aur@aur.archlinux.org/brave.git
+	branch = master
