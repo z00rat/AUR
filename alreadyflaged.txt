@@ -1,5 +1,6 @@
 aseprite
 i3lock-color
+keeweb-desktop-bin
 maldet
 pm2ml
 resvg

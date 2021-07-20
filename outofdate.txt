@@ -3,6 +3,7 @@
   [1;34m->[;1m listing already flaged packages[0m
 aseprite
 i3lock-color
+keeweb-desktop-bin
 maldet
 pm2ml
 resvg
@@ -12,7 +13,6 @@ resvg: new version found - 0.13.0 => 0.13.1
 nomad: new version found - 1.1.1 => 1.1.2
 keeweb-desktop-bin: new version found - 1.18.6 => 1.18.7
 i3lock-color: new version found - 2.13.c.3 => 2.13.c.4
-discord-chat-exporter-cli: new version found - 2.28 => 2.29
 aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m [1/168] checking for update for 'advcpmv'[0m
@@ -71,7 +71,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m [29/168] checking for update for 'debtap'[0m
 [32m          [UP-TO-DATE] [debtap][3.4.2-1] matches upstream version 3.4.2 [0m
   [1;34m->[;1m [30/168] checking for update for 'discord-chat-exporter-cli'[0m
-[31m         [OUT-OF-DATE] [discord-chat-exporter-cli][2.28-1] should be updated to 2.29 [0m
+[32m          [UP-TO-DATE] [discord-chat-exporter-cli][2.29-1] matches upstream version 2.29 [0m
   [1;34m->[;1m [31/168] checking for update for 'discord-ptb'[0m
 [37m             [UNKNOWN] [discord-ptb][0.0.25-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.25/discord-ptb-0.0.25.tar.gz [0m
   [1;34m->[;1m [32/168] checking for update for 'downloader-cli'[0m
@@ -81,7 +81,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m [34/168] checking for update for 'dry-bin'[0m
 [37m             [UNKNOWN] [dry-bin][0.10-1] upstream version is 0.10-beta.1 [0m
   [1;34m->[;1m [35/168] checking for update for 'dust-bin'[0m
-[32m          [UP-TO-DATE] [dust-bin][0.6.0-1] matches upstream version 0.6.0 [0m
+[32m          [UP-TO-DATE] [dust-bin][0.6.1-1] matches upstream version 0.6.1 [0m
   [1;34m->[;1m [36/168] checking for update for 'ebtables'[0m
 [37m             [UNKNOWN] [ebtables][2.0.10_4-8] No release found for https://downloads.sourceforge.net/ebtables/ebtables-v2.0.10-4.tar.gz [0m
   [1;34m->[;1m [37/168] checking for update for 'edex-ui-bin'[0m
