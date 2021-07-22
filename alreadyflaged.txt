@@ -1,6 +1,6 @@
 aseprite
+heroku-cli-bin
 i3lock-color
-keeweb-desktop-bin
 maldet
 pm2ml
 resvg
