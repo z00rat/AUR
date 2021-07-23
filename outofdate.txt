@@ -12,6 +12,7 @@ vrms-arch
 resvg: new version found - 0.13.0 => 0.13.1
 nomad: new version found - 1.1.1 => 1.1.2
 i3lock-color: new version found - 2.13.c.3 => 2.13.c.4
+burpsuite: new version found - 2021.7.1 => 2021.7.2
 aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m [1/168] checking for update for 'advcpmv'[0m
