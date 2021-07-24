@@ -12,7 +12,6 @@ vrms-arch
 resvg: new version found - 0.13.0 => 0.13.1
 nomad: new version found - 1.1.1 => 1.1.2
 i3lock-color: new version found - 2.13.c.3 => 2.13.c.4
-burpsuite: new version found - 2021.7.1 => 2021.7.2
 aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m [1/168] checking for update for 'advcpmv'[0m
@@ -55,7 +54,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m [21/168] checking for update for 'bubblejail'[0m
 [32m          [UP-TO-DATE] [bubblejail][0.4.2-1] matches upstream version 0.4.2 [0m
   [1;34m->[;1m [22/168] checking for update for 'burpsuite'[0m
-[37m             [UNKNOWN] [burpsuite][2021.7.1-1] No release found for burpsuite-2021.7.jar::https://portswigger.net/burp/releases/download?product=community&version=2021.7&type=Jar [0m
+[37m             [UNKNOWN] [burpsuite][2021.7.2-1] No release found for burpsuite-2021.7.2.jar::https://portswigger.net/burp/releases/download?product=community&version=2021.7.2&type=Jar [0m
   [1;34m->[;1m [23/168] checking for update for 'cava'[0m
 [32m          [UP-TO-DATE] [cava][0.7.4-1] matches upstream version 0.7.4 [0m
   [1;34m->[;1m [24/168] checking for update for 'code-features'[0m
@@ -104,7 +103,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m [46/168] checking for update for 'fswatch'[0m
 [32m          [UP-TO-DATE] [fswatch][1.16.0-1] matches upstream version 1.16.0 [0m
   [1;34m->[;1m [47/168] checking for update for 'gallery-dl'[0m
-[32m          [UP-TO-DATE] [gallery-dl][1.18.1-1] matches upstream version 1.18.1 [0m
+[32m          [UP-TO-DATE] [gallery-dl][1.18.2-1] matches upstream version 1.18.2 [0m
   [1;34m->[;1m [48/168] checking for update for 'gconf-cleaner'[0m
 [37m             [UNKNOWN] [gconf-cleaner][0.0.3-2] No release found for https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gconf-cleaner/gconf-cleaner-0.0.3.tar.gz [0m
   [1;34m->[;1m [49/168] checking for update for 'gconf-gtk2'[0m
@@ -302,13 +301,13 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m [154/168] checking for update for 'ttyd'[0m
 [32m          [UP-TO-DATE] [ttyd][1.6.3-2] matches upstream version 1.6.3 [0m
   [1;34m->[;1m [155/168] checking for update for 'typora'[0m
-[37m             [UNKNOWN] [typora][0.10.11-1] No release found for https://typora.io/linux/typora_0.10.11_amd64.deb [0m
+[37m             [UNKNOWN] [typora][0.11.1-1] No release found for https://typora.io/linux/typora_0.11.1_amd64.deb [0m
   [1;34m->[;1m [156/168] checking for update for 'ugrep'[0m
 [32m          [UP-TO-DATE] [ugrep][3.3.5-1] matches upstream version 3.3.5 [0m
   [1;34m->[;1m [157/168] checking for update for 'vimix-cursors'[0m
 [37m             [UNKNOWN] [vimix-cursors][2020.02.24-4] Failed to parse upstream version: invalid version format: 2020-02-24 [0m
   [1;34m->[;1m [158/168] checking for update for 'volctl'[0m
-[37m             [UNKNOWN] [volctl][0.8.2-1] Failed to obtain GitHub release for buzz/volctl.git from https://api.github.com/repos/buzz/volctl.git/releases/latest: No GitHub project found for buzz/volctl.git on https://api.github.com/repos/buzz/volctl.git/releases/latest [0m
+[37m             [UNKNOWN] [volctl][0.9.0-2] Failed to obtain GitHub release for buzz/volctl.git from https://api.github.com/repos/buzz/volctl.git/releases/latest: No GitHub project found for buzz/volctl.git on https://api.github.com/repos/buzz/volctl.git/releases/latest [0m
   [1;34m->[;1m [159/168] checking for update for 'vrms-arch'[0m
 [37m             [UNKNOWN] [vrms-arch][0.1.0.r25.g802c767-1] Failed to obtain GitHub release for orospakr/vrms-arch.git from https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest: No GitHub project found for orospakr/vrms-arch.git on https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest [0m
   [1;34m->[;1m [160/168] checking for update for 'vscodium-bin'[0m
