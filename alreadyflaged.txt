@@ -1,4 +1,5 @@
 aseprite
+brave
 heroku-cli-bin
 i3lock-color
 maldet
