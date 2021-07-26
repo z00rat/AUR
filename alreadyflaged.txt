@@ -1,8 +1,9 @@
 aseprite
-brave
 heroku-cli-bin
 i3lock-color
+losslesscut-bin
 maldet
 pm2ml
 resvg
+runjs-bin
 vrms-arch
