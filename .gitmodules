@@ -655,3 +655,7 @@
 	path = repos/brave
 	url = ssh://aur@aur.archlinux.org/brave.git
 	branch = master
+[submodule "repos/lib32-jack"]
+	path = repos/lib32-jack
+	url = ssh://aur@aur.archlinux.org/lib32-jack.git
+	branch = master
