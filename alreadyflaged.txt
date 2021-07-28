@@ -6,4 +6,5 @@ maldet
 pm2ml
 resvg
 runjs-bin
+typora
 vrms-arch
