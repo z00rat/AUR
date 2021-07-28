@@ -659,3 +659,7 @@
 	path = repos/lib32-jack
 	url = ssh://aur@aur.archlinux.org/lib32-jack.git
 	branch = master
+[submodule "repos/pfetch"]
+	path = repos/pfetch
+	url = ssh://aur@aur.archlinux.org/pfetch.git
+	branch = master
