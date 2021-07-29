@@ -663,3 +663,7 @@
 	path = repos/pfetch
 	url = ssh://aur@aur.archlinux.org/pfetch.git
 	branch = master
+[submodule "repos/grex"]
+	path = repos/grex
+	url = ssh://aur@aur.archlinux.org/grex.git
+	branch = master
