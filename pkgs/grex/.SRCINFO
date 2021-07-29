@@ -1,0 +1,13 @@
+pkgbase = grex
+	pkgdesc = A command-line tool for generating regular expressions from user-provided input strings
+	pkgver = 1.2.0
+	pkgrel = 1
+	url = https://github.com/pemistahl/grex
+	arch = x86_64
+	license = Apache
+	makedepends = rust
+	source = grex-1.2.0.tar.gz::https://github.com/pemistahl/grex/archive/v1.2.0.tar.gz
+	sha512sums = e9e9c9f951d189bce13f7b695a5e5a340912759e0f6910efcaf3b7e8cc75624e8d05ee504f25e4fd0cea5905f0f646c78364da6ce5c1a8f869460823d572d8e5
+
+pkgname = grex
+

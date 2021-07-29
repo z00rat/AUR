@@ -6,5 +6,6 @@ maldet
 pm2ml
 resvg
 runjs-bin
+tt-bin
 typora
 vrms-arch
