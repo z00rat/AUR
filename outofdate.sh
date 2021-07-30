@@ -19,7 +19,8 @@ for pkgname in $repolist
 do
     #let i+=1
     (( i+=1 ))
-    msg2 "[$i/$reponum] checking for update for '$pkgname'"
+    # msg2 "[$i/$reponum] checking for update for '$pkgname'"
+    msg2 "checking for update for '$pkgname'"
 
     cd repos/"$pkgname" || exit
     aur-out-of-date -local .SRCINFO #| grep "OUT-OF-DATE"

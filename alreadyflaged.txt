@@ -1,11 +1,9 @@
 aseprite
 heroku-cli-bin
-i3lock-color
 losslesscut-bin
 maldet
 pm2ml
 resvg
-runjs-bin
 tt-bin
 typora
 vrms-arch
