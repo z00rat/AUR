@@ -667,3 +667,7 @@
 	path = repos/grex
 	url = ssh://aur@aur.archlinux.org/grex.git
 	branch = master
+[submodule "repos/nodejs-csso"]
+	path = repos/nodejs-csso
+	url = ssh://aur@aur.archlinux.org/nodejs-csso.git
+	branch = master
