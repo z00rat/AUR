@@ -679,3 +679,7 @@
 	path = repos/surf-git
 	url = ssh://aur@aur.archlinux.org/surf-git.git
 	branch = master
+[submodule "repos/webtorrent-cli"]
+	path = repos/webtorrent-cli
+	url = ssh://aur@aur.archlinux.org/webtorrent-cli.git
+	branch = master
