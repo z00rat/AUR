@@ -675,3 +675,7 @@
 	path = repos/nodejs-csso-cli
 	url = ssh://aur@aur.archlinux.org/nodejs-csso-cli.git
 	branch = master
+[submodule "repos/surf-git"]
+	path = repos/surf-git
+	url = ssh://aur@aur.archlinux.org/surf-git.git
+	branch = master
