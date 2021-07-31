@@ -3,7 +3,7 @@ heroku-cli-bin
 losslesscut-bin
 maldet
 pm2ml
+python3-xcpf
 resvg
-tt-bin
 typora
 vrms-arch
