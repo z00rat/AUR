@@ -252,7 +252,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'python-simber'[0m
 [32m          [UP-TO-DATE] [python-simber][0.2.3-0] matches upstream version 0.2.3 [0m
   [1;34m->[;1m checking for update for 'python-spotdl'[0m
-[31m         [OUT-OF-DATE] [python-spotdl][3.7.1-1] should be updated to 3.7.2 [0m
+[32m          [UP-TO-DATE] [python-spotdl][3.7.2-1] matches upstream version 3.7.2 [0m
   [1;34m->[;1m checking for update for 'python-spotipy'[0m
 [32m          [UP-TO-DATE] [python-spotipy][2.18.0-1] matches upstream version 2.18.0 [0m
   [1;34m->[;1m checking for update for 'python-torrequest'[0m
@@ -261,9 +261,9 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'python-ytmusicapi'[0m
 [32m          [UP-TO-DATE] [python-ytmusicapi][0.18.0-1] matches upstream version 0.18.0 [0m
   [1;34m->[;1m checking for update for 'raven-reader'[0m
-[32m          [UP-TO-DATE] [raven-reader][1.0.63-1] matches upstream version 1.0.63 [0m
+[31m         [OUT-OF-DATE] [raven-reader][1.0.63-1] should be updated to 1.0.64 [0m
   [1;34m->[;1m checking for update for 'raven-reader-bin'[0m
-[32m          [UP-TO-DATE] [raven-reader-bin][1.0.63-1] matches upstream version 1.0.63 [0m
+[32m          [UP-TO-DATE] [raven-reader-bin][1.0.64-1] matches upstream version 1.0.64 [0m
   [1;34m->[;1m checking for update for 'resvg'[0m
 [31m         [OUT-OF-DATE] [resvg][0.13.0-1] should be updated to 0.15.0 [0m
   [1;34m->[;1m checking for update for 'ricochet'[0m
