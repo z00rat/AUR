@@ -1,9 +1,7 @@
 aseprite
-heroku-cli-bin
 losslesscut-bin
 maldet
 pm2ml
 python3-xcpf
 resvg
-typora
 vrms-arch

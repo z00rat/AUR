@@ -2,13 +2,11 @@
 
   [1;34m->[;1m listing already flaged packages[0m
 aseprite
-heroku-cli-bin
 losslesscut-bin
 maldet
 pm2ml
 python3-xcpf
 resvg
-typora
 vrms-arch
   [1;34m->[;1m running pkgoutofdate[0m
 resvg: new version found - 0.13.0 => 0.13.1
@@ -127,7 +125,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'hakuneko-desktop'[0m
 [32m          [UP-TO-DATE] [hakuneko-desktop][6.1.7-1] matches upstream version 6.1.7 [0m
   [1;34m->[;1m checking for update for 'heroku-cli-bin'[0m
-[37m             [UNKNOWN] [heroku-cli-bin][7.56.0-1] Failed to obtain GitHub release for SampsonCrowley/heroku-cli-bin from https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest: No GitHub project found for SampsonCrowley/heroku-cli-bin on https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest [0m
+[37m             [UNKNOWN] [heroku-cli-bin][7.56.1-1] Failed to obtain GitHub release for SampsonCrowley/heroku-cli-bin from https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest: No GitHub project found for SampsonCrowley/heroku-cli-bin on https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest [0m
   [1;34m->[;1m checking for update for 'hollywood'[0m
 [37m             [UNKNOWN] [hollywood][1.21-5] No release found for hollywood-1.21.tar.gz::https://launchpad.net/hollywood/trunk/1.21/+download/hollywood_1.21.orig.tar.gz [0m
   [1;34m->[;1m checking for update for 'i3lock-color'[0m
@@ -261,7 +259,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'python-ytmusicapi'[0m
 [32m          [UP-TO-DATE] [python-ytmusicapi][0.18.0-1] matches upstream version 0.18.0 [0m
   [1;34m->[;1m checking for update for 'raven-reader'[0m
-[31m         [OUT-OF-DATE] [raven-reader][1.0.63-1] should be updated to 1.0.64 [0m
+[32m          [UP-TO-DATE] [raven-reader][1.0.64-1] matches upstream version 1.0.64 [0m
   [1;34m->[;1m checking for update for 'raven-reader-bin'[0m
 [32m          [UP-TO-DATE] [raven-reader-bin][1.0.64-1] matches upstream version 1.0.64 [0m
   [1;34m->[;1m checking for update for 'resvg'[0m
@@ -291,7 +289,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'subuser'[0m
 [37m             [UNKNOWN] [subuser][0.6.2-1] Failed to obtain GitHub release for subuser-security/subuser from https://api.github.com/repos/subuser-security/subuser/releases/latest: No GitHub project found for subuser-security/subuser on https://api.github.com/repos/subuser-security/subuser/releases/latest [0m
   [1;34m->[;1m checking for update for 'surf'[0m
-[37m             [UNKNOWN] [surf][2.1-2] No release found for git+git://git.suckless.org/surf#commit=d75c3ded0b1ebb8e2778961c5a928f247798686a [0m
+[37m             [UNKNOWN] [surf][2.1-4] No release found for https://dl.suckless.org/surf/surf-2.1.tar.gz [0m
   [1;34m->[;1m checking for update for 'surf-git'[0m
   [1;34m->[;1m checking for update for 'tlpui-git'[0m
   [1;34m->[;1m checking for update for 'tmpwatch'[0m
@@ -313,7 +311,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'ttyd'[0m
 [32m          [UP-TO-DATE] [ttyd][1.6.3-2] matches upstream version 1.6.3 [0m
   [1;34m->[;1m checking for update for 'typora'[0m
-[37m             [UNKNOWN] [typora][0.11.1-1] No release found for https://typora.io/linux/typora_0.11.1_amd64.deb [0m
+[37m             [UNKNOWN] [typora][0.11.2-1] No release found for https://typora.io/linux/typora_0.11.2_amd64.deb [0m
   [1;34m->[;1m checking for update for 'ugrep'[0m
 [32m          [UP-TO-DATE] [ugrep][3.3.6-1] matches upstream version 3.3.6 [0m
   [1;34m->[;1m checking for update for 'vimix-cursors'[0m
