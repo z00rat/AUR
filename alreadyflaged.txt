@@ -1,7 +1,5 @@
 aseprite
 losslesscut-bin
 maldet
-pm2ml
-python3-xcpf
 resvg
 vrms-arch
