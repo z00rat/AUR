@@ -683,3 +683,7 @@
 	path = repos/webtorrent-cli
 	url = ssh://aur@aur.archlinux.org/webtorrent-cli.git
 	branch = master
+[submodule "repos/themix-export-spotify-git"]
+	path = repos/themix-export-spotify-git
+	url = ssh://aur@aur.archlinux.org/themix-export-spotify-git.git
+	branch = master
