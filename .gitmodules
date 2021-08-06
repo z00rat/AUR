@@ -691,3 +691,7 @@
 	path = repos/themix-full-git
 	url = ssh://aur@aur.archlinux.org/themix-full-git.git
 	branch = master
+[submodule "repos/themix-gui-git"]
+	path = repos/themix-gui-git
+	url = ssh://aur@aur.archlinux.org/themix-gui-git.git
+	branch = master
