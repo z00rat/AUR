@@ -707,3 +707,7 @@
 	path = repos/themix-icons-numix-git
 	url = ssh://aur@aur.archlinux.org/themix-icons-numix-git.git
 	branch = master
+[submodule "repos/themix-icons-papirus-git"]
+	path = repos/themix-icons-papirus-git
+	url = ssh://aur@aur.archlinux.org/themix-icons-papirus-git.git
+	branch = master
