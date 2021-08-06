@@ -735,3 +735,7 @@
 	path = repos/themix-theme-oomox-git
 	url = ssh://aur@aur.archlinux.org/themix-theme-oomox-git.git
 	branch = master
+[submodule "repos/stacer"]
+	path = repos/stacer
+	url = ssh://aur@aur.archlinux.org/stacer.git
+	branch = master
