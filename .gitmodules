@@ -723,3 +723,7 @@
 	path = repos/themix-import-images-git
 	url = ssh://aur@aur.archlinux.org/themix-import-images-git.git
 	branch = master
+[submodule "repos/themix-plugin-base16-git"]
+	path = repos/themix-plugin-base16-git
+	url = ssh://aur@aur.archlinux.org/themix-plugin-base16-git.git
+	branch = master
