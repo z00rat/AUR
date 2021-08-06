@@ -695,3 +695,7 @@
 	path = repos/themix-gui-git
 	url = ssh://aur@aur.archlinux.org/themix-gui-git.git
 	branch = master
+[submodule "repos/themix-icons-archdroid-git"]
+	path = repos/themix-icons-archdroid-git
+	url = ssh://aur@aur.archlinux.org/themix-icons-archdroid-git.git
+	branch = master
