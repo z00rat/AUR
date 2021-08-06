@@ -719,3 +719,7 @@
 	path = repos/themix-icons-suru-plus-git
 	url = ssh://aur@aur.archlinux.org/themix-icons-suru-plus-git.git
 	branch = master
+[submodule "repos/themix-import-images-git"]
+	path = repos/themix-import-images-git
+	url = ssh://aur@aur.archlinux.org/themix-import-images-git.git
+	branch = master
