@@ -703,3 +703,7 @@
 	path = repos/themix-icons-gnome-colors-git
 	url = ssh://aur@aur.archlinux.org/themix-icons-gnome-colors-git.git
 	branch = master
+[submodule "repos/themix-icons-numix-git"]
+	path = repos/themix-icons-numix-git
+	url = ssh://aur@aur.archlinux.org/themix-icons-numix-git.git
+	branch = master
