@@ -727,3 +727,7 @@
 	path = repos/themix-plugin-base16-git
 	url = ssh://aur@aur.archlinux.org/themix-plugin-base16-git.git
 	branch = master
+[submodule "repos/themix-theme-materia-git"]
+	path = repos/themix-theme-materia-git
+	url = ssh://aur@aur.archlinux.org/themix-theme-materia-git.git
+	branch = master
