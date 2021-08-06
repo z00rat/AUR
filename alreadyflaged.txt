@@ -1,5 +1,5 @@
 aseprite
 losslesscut-bin
 maldet
-resvg
+obsidian
 vrms-arch

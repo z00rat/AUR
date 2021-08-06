@@ -4,7 +4,7 @@
 aseprite
 losslesscut-bin
 maldet
-resvg
+obsidian
 vrms-arch
   [1;34m->[;1m running pkgoutofdate[0m
 resvg: new version found - 0.13.0 => 0.13.1
@@ -55,7 +55,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'cava'[0m
 [32m          [UP-TO-DATE] [cava][0.7.4-1] matches upstream version 0.7.4 [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
-[31m         [OUT-OF-DATE] [code-features][1.58.0-1] should be updated to 1.58.2 [0m
+[31m         [OUT-OF-DATE] [code-features][1.58.0-1] should be updated to 1.59.0 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
 [37m             [UNKNOWN] [code-marketplace][1.54.3-4] No release found for code-marketplace.hook [0m
   [1;34m->[;1m checking for update for 'code-server'[0m
@@ -77,7 +77,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'dry-bin'[0m
 [37m             [UNKNOWN] [dry-bin][0.10-1] upstream version is 0.10-beta.1 [0m
   [1;34m->[;1m checking for update for 'dust-bin'[0m
-[32m          [UP-TO-DATE] [dust-bin][0.6.1-1] matches upstream version 0.6.1 [0m
+[31m         [OUT-OF-DATE] [dust-bin][0.6.1-1] should be updated to 0.6.2 [0m
   [1;34m->[;1m checking for update for 'ebtables'[0m
 [37m             [UNKNOWN] [ebtables][2.0.10_4-8] No release found for https://downloads.sourceforge.net/ebtables/ebtables-v2.0.10-4.tar.gz [0m
   [1;34m->[;1m checking for update for 'edex-ui-bin'[0m
@@ -204,7 +204,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'p7zip-gui'[0m
 [37m             [UNKNOWN] [p7zip-gui][16.02-5] No release found for https://downloads.sourceforge.net/project/p7zip/p7zip/16.02/p7zip_16.02_src_all.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'paru-bin'[0m
-[32m          [UP-TO-DATE] [paru-bin][1.7.3-1] matches upstream version 1.7.3 [0m
+[32m          [UP-TO-DATE] [paru-bin][1.8.0-1] matches upstream version 1.8.0 [0m
   [1;34m->[;1m checking for update for 'passivedns-git'[0m
   [1;34m->[;1m checking for update for 'patat-bin'[0m
 [32m          [UP-TO-DATE] [patat-bin][0.8.7.0-1] matches upstream version 0.8.7.0 [0m
@@ -289,6 +289,19 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'surf'[0m
 [37m             [UNKNOWN] [surf][2.1-4] No release found for https://dl.suckless.org/surf/surf-2.1.tar.gz [0m
   [1;34m->[;1m checking for update for 'surf-git'[0m
+  [1;34m->[;1m checking for update for 'themix-export-spotify-git'[0m
+  [1;34m->[;1m checking for update for 'themix-full-git'[0m
+  [1;34m->[;1m checking for update for 'themix-gui-git'[0m
+  [1;34m->[;1m checking for update for 'themix-icons-archdroid-git'[0m
+  [1;34m->[;1m checking for update for 'themix-icons-gnome-colors-git'[0m
+  [1;34m->[;1m checking for update for 'themix-icons-numix-git'[0m
+  [1;34m->[;1m checking for update for 'themix-icons-papirus-git'[0m
+  [1;34m->[;1m checking for update for 'themix-icons-suru-plus-aspromauros-git'[0m
+  [1;34m->[;1m checking for update for 'themix-icons-suru-plus-git'[0m
+  [1;34m->[;1m checking for update for 'themix-import-images-git'[0m
+  [1;34m->[;1m checking for update for 'themix-plugin-base16-git'[0m
+  [1;34m->[;1m checking for update for 'themix-theme-materia-git'[0m
+  [1;34m->[;1m checking for update for 'themix-theme-oomox-git'[0m
   [1;34m->[;1m checking for update for 'tlpui-git'[0m
   [1;34m->[;1m checking for update for 'tmpwatch'[0m
 [37m             [UNKNOWN] [tmpwatch][2.11-3] No release found for https://releases.pagure.org/tmpwatch/tmpwatch-2.11.tar.bz2 [0m
@@ -319,7 +332,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'vrms-arch'[0m
 [37m             [UNKNOWN] [vrms-arch][0.1.0.r25.g802c767-1] Failed to obtain GitHub release for orospakr/vrms-arch.git from https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest: No GitHub project found for orospakr/vrms-arch.git on https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'vscodium-bin'[0m
-[32m          [UP-TO-DATE] [vscodium-bin][1.58.2-1] matches upstream version 1.58.2 [0m
+[32m          [UP-TO-DATE] [vscodium-bin][1.59.0-1] matches upstream version 1.59.0 [0m
   [1;34m->[;1m checking for update for 'webtorrent-cli'[0m
 [32m          [UP-TO-DATE] [webtorrent-cli][3.5.3-1] matches upstream version 3.5.3 [0m
   [1;34m->[;1m checking for update for 'webtorrent-desktop-bin'[0m
