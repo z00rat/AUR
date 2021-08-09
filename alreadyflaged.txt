@@ -1,5 +1,4 @@
 aseprite
-burpsuite
 losslesscut-bin
 maldet
 obsidian
