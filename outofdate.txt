@@ -2,9 +2,11 @@
 
   [1;34m->[;1m listing already flaged packages[0m
 aseprite
+betterlockscreen
 losslesscut-bin
 maldet
 obsidian
+tor-browser
 vrms-arch
   [1;34m->[;1m running pkgoutofdate[0m
 resvg: new version found - 0.13.0 => 0.13.1
@@ -37,7 +39,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'betterdiscord-installer'[0m
 [37m             [UNKNOWN] [betterdiscord-installer][1.0.0.hotfix-2] upstream version is 1.0.0-hotfix [0m
   [1;34m->[;1m checking for update for 'betterlockscreen'[0m
-[31m         [OUT-OF-DATE] [betterlockscreen][3.2.0-2] should be updated to 4.0.0 [0m
+[31m         [OUT-OF-DATE] [betterlockscreen][3.2.0-2] should be updated to 4.0.1 [0m
   [1;34m->[;1m checking for update for 'bibata-cursor-theme'[0m
 [32m          [UP-TO-DATE] [bibata-cursor-theme][1.1.2-1] matches upstream version 1.1.2 [0m
   [1;34m->[;1m checking for update for 'bibata-cursor-theme-bin'[0m
@@ -93,7 +95,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'fbrokendesktop'[0m
 [37m             [UNKNOWN] [fbrokendesktop][1.0.3-1] Failed to obtain GitHub release for AndyCrowd/fbrokendesktop.git from https://api.github.com/repos/AndyCrowd/fbrokendesktop.git/releases/latest: No GitHub project found for AndyCrowd/fbrokendesktop.git on https://api.github.com/repos/AndyCrowd/fbrokendesktop.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'firefox-esr-bin'[0m
-[37m             [UNKNOWN] [firefox-esr-bin][78.12.0-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/78.12.0esr/linux-x86_64/en-US/firefox-78.12.0esr.tar.bz2 [0m
+[37m             [UNKNOWN] [firefox-esr-bin][78.13.0-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/78.13.0esr/linux-x86_64/en-US/firefox-78.13.0esr.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'florence'[0m
 [37m             [UNKNOWN] [florence][0.6.3-2] No release found for http://sourceforge.net/projects/florence/files/florence/0.6.3/florence-0.6.3.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'fsearch-git'[0m

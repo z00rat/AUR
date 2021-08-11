@@ -1,5 +1,7 @@
 aseprite
+betterlockscreen
 losslesscut-bin
 maldet
 obsidian
+tor-browser
 vrms-arch
