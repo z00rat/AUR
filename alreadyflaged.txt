@@ -5,3 +5,4 @@ maldet
 obsidian
 tor-browser
 vrms-arch
+zoom
