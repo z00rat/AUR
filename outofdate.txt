@@ -8,7 +8,6 @@ maldet
 obsidian
 tor-browser
 vrms-arch
-zoom
   [1;34m->[;1m running pkgoutofdate[0m
 resvg: new version found - 0.13.0 => 0.13.1
 nomad: new version found - 1.1.1 => 1.1.2
@@ -103,7 +102,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'fswatch'[0m
 [32m          [UP-TO-DATE] [fswatch][1.16.0-1] matches upstream version 1.16.0 [0m
   [1;34m->[;1m checking for update for 'gallery-dl'[0m
-[32m          [UP-TO-DATE] [gallery-dl][1.18.2-1] matches upstream version 1.18.2 [0m
+[32m          [UP-TO-DATE] [gallery-dl][1.18.3-1] matches upstream version 1.18.3 [0m
   [1;34m->[;1m checking for update for 'gconf-cleaner'[0m
 [37m             [UNKNOWN] [gconf-cleaner][0.0.3-2] No release found for https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gconf-cleaner/gconf-cleaner-0.0.3.tar.gz [0m
   [1;34m->[;1m checking for update for 'gconf-gtk2'[0m
@@ -207,7 +206,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'p7zip-gui'[0m
 [37m             [UNKNOWN] [p7zip-gui][16.02-5] No release found for https://downloads.sourceforge.net/project/p7zip/p7zip/16.02/p7zip_16.02_src_all.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'paru-bin'[0m
-[32m          [UP-TO-DATE] [paru-bin][1.8.0-1] matches upstream version 1.8.0 [0m
+[32m          [UP-TO-DATE] [paru-bin][1.8.1-1] matches upstream version 1.8.1 [0m
   [1;34m->[;1m checking for update for 'passivedns-git'[0m
   [1;34m->[;1m checking for update for 'patat-bin'[0m
 [32m          [UP-TO-DATE] [patat-bin][0.8.7.0-1] matches upstream version 0.8.7.0 [0m
@@ -330,6 +329,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
 [37m             [UNKNOWN] [typora][0.11.2-1] No release found for https://typora.io/linux/typora_0.11.2_amd64.deb [0m
   [1;34m->[;1m checking for update for 'ugrep'[0m
 [32m          [UP-TO-DATE] [ugrep][3.3.7-1] matches upstream version 3.3.7 [0m
+  [1;34m->[;1m checking for update for 'vanitygen-git'[0m
   [1;34m->[;1m checking for update for 'vimix-cursors'[0m
 [37m             [UNKNOWN] [vimix-cursors][2020.02.24-4] Failed to parse upstream version: invalid version format: 2020-02-24 [0m
   [1;34m->[;1m checking for update for 'volctl'[0m
@@ -353,5 +353,5 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'youtube-dl-gui-git'[0m
   [1;34m->[;1m checking for update for 'ytmdl-git'[0m
   [1;34m->[;1m checking for update for 'zoom'[0m
-[37m             [UNKNOWN] [zoom][5.7.4-1] No release found for zoom-5.7.4_orig_x86_64.pkg.tar.xz::https://zoom.us/client/5.7.28991.0726/zoom_x86_64.pkg.tar.xz [0m
+[37m             [UNKNOWN] [zoom][5.7.5-1] No release found for zoom-5.7.5_orig_x86_64.pkg.tar.xz::https://zoom.us/client/5.7.29123.0808/zoom_x86_64.pkg.tar.xz [0m
   [1;34m->[;1m done.[0m
