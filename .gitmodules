@@ -739,3 +739,7 @@
 	path = repos/stacer
 	url = ssh://aur@aur.archlinux.org/stacer.git
 	branch = master
+[submodule "repos/vanitygen-git"]
+	path = repos/vanitygen-git
+	url = ssh://aur@aur.archlinux.org/vanitygen-git.git
+	branch = master
