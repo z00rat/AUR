@@ -747,3 +747,7 @@
 	path = repos/bats
 	url = ssh://aur@aur.archlinux.org/bats.git
 	branch = master
+[submodule "repos/cointop"]
+	path = repos/cointop
+	url = ssh://aur@aur.archlinux.org/cointop.git
+	branch = master
