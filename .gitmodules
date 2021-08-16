@@ -743,3 +743,7 @@
 	path = repos/vanitygen-git
 	url = ssh://aur@aur.archlinux.org/vanitygen-git.git
 	branch = master
+[submodule "repos/bats"]
+	path = repos/bats
+	url = ssh://aur@aur.archlinux.org/bats.git
+	branch = master
