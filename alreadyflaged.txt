@@ -1,5 +1,5 @@
 aseprite
+drawio-desktop-bin
 maldet
 obsidian
-tor-browser
 vrms-arch

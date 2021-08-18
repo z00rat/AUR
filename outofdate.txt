@@ -2,12 +2,13 @@
 
   [1;34m->[;1m listing already flaged packages[0m
 aseprite
+drawio-desktop-bin
 maldet
 obsidian
-tor-browser
 vrms-arch
   [1;34m->[;1m running pkgoutofdate[0m
 raven-reader-bin: new version found - 1.0.64 => 1.0.65
+spicetify-cli: new version found - 2.5.0 => 2.6.0
 resvg: new version found - 0.13.0 => 0.13.1
 nomad: new version found - 1.1.1 => 1.1.2
 aseprite: new version found - 1.2.27 => 1.2.28
@@ -78,7 +79,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'downloader-cli'[0m
 [32m          [UP-TO-DATE] [downloader-cli][0.3.1-0] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'drawio-desktop-bin'[0m
-[32m          [UP-TO-DATE] [drawio-desktop-bin][14.6.13-1] matches upstream version 14.6.13 [0m
+[31m         [OUT-OF-DATE] [drawio-desktop-bin][14.6.13-1] should be updated to 14.9.6 [0m
   [1;34m->[;1m checking for update for 'dry-bin'[0m
 [37m             [UNKNOWN] [dry-bin][0.10-1] upstream version is 0.10-beta.1 [0m
   [1;34m->[;1m checking for update for 'dust-bin'[0m
@@ -98,7 +99,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'fbrokendesktop'[0m
 [37m             [UNKNOWN] [fbrokendesktop][1.0.3-1] Failed to obtain GitHub release for AndyCrowd/fbrokendesktop.git from https://api.github.com/repos/AndyCrowd/fbrokendesktop.git/releases/latest: No GitHub project found for AndyCrowd/fbrokendesktop.git on https://api.github.com/repos/AndyCrowd/fbrokendesktop.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'firefox-esr-bin'[0m
-[37m             [UNKNOWN] [firefox-esr-bin][78.13.0-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/78.13.0esr/linux-x86_64/en-US/firefox-78.13.0esr.tar.bz2 [0m
+[37m             [UNKNOWN] [firefox-esr-bin][91.0.1-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/91.0.1esr/linux-x86_64/en-US/firefox-91.0.1esr.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'florence'[0m
 [37m             [UNKNOWN] [florence][0.6.3-2] No release found for http://sourceforge.net/projects/florence/files/florence/0.6.3/florence-0.6.3.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'fsearch-git'[0m
@@ -122,7 +123,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
 [32m          [UP-TO-DATE] [glow][1.4.1-1] matches upstream version 1.4.1 [0m
   [1;34m->[;1m checking for update for 'gnome-getting-started-docs'[0m
   [1;34m->[;1m checking for update for 'google-chrome'[0m
-[37m             [UNKNOWN] [google-chrome][92.0.4515.131-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_92.0.4515.131-1_amd64.deb [0m
+[37m             [UNKNOWN] [google-chrome][92.0.4515.159-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_92.0.4515.159-1_amd64.deb [0m
   [1;34m->[;1m checking for update for 'grex'[0m
 [32m          [UP-TO-DATE] [grex][1.2.0-1] matches upstream version 1.2.0 [0m
   [1;34m->[;1m checking for update for 'hakuneko-desktop'[0m
@@ -282,7 +283,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'speedometer'[0m
 [32m          [UP-TO-DATE] [speedometer][2.8-4] matches upstream version 2.8 [0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
-[32m          [UP-TO-DATE] [spicetify-cli][2.5.0-1] matches upstream version 2.5.0 [0m
+[31m         [OUT-OF-DATE] [spicetify-cli][2.5.0-1] should be updated to 2.6.0 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
 [37m             [UNKNOWN] [spotify][1:1.1.56.595-1] No release found for spotify.protocol [0m
   [1;34m->[;1m checking for update for 'ssh-audit'[0m
@@ -313,7 +314,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'tmpwatch'[0m
 [37m             [UNKNOWN] [tmpwatch][2.11-3] No release found for https://releases.pagure.org/tmpwatch/tmpwatch-2.11.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'tor-browser'[0m
-[37m             [UNKNOWN] [tor-browser][10.5.2-1] No release found for tor-browser.desktop.in [0m
+[37m             [UNKNOWN] [tor-browser][10.5.4-1] No release found for tor-browser.desktop.in [0m
   [1;34m->[;1m checking for update for 'tt-bin'[0m
 [32m          [UP-TO-DATE] [tt-bin][0.4.2-1] matches upstream version 0.4.2 [0m
   [1;34m->[;1m checking for update for 'ttf-anka-coder'[0m
