@@ -1,5 +1,7 @@
 aseprite
 drawio-desktop-bin
+heroku-cli-bin
 maldet
 obsidian
+spicetify-cli
 vrms-arch
