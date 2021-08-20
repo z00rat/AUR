@@ -759,3 +759,7 @@
 	path = repos/python-auditok
 	url = ssh://aur@aur.archlinux.org/python-auditok.git
 	branch = master
+[submodule "repos/python-ffsubsync"]
+	path = repos/python-ffsubsync
+	url = ssh://aur@aur.archlinux.org/python-ffsubsync.git
+	branch = master
