@@ -767,3 +767,7 @@
 	path = repos/python-future-annotations
 	url = ssh://aur@aur.archlinux.org/python-future-annotations.git
 	branch = master
+[submodule "repos/python-pysubs2"]
+	path = repos/python-pysubs2
+	url = ssh://aur@aur.archlinux.org/python-pysubs2.git
+	branch = master
