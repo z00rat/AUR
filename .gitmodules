@@ -779,3 +779,7 @@
 	path = repos/python-tokenize-rt
 	url = ssh://aur@aur.archlinux.org/python-tokenize-rt.git
 	branch = master
+[submodule "repos/python-webrtcvad"]
+	path = repos/python-webrtcvad
+	url = ssh://aur@aur.archlinux.org/python-webrtcvad.git
+	branch = master
