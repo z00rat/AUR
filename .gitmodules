@@ -755,3 +755,7 @@
 	path = repos/mkclean
 	url = ssh://aur@aur.archlinux.org/mkclean.git
 	branch = master
+[submodule "repos/python-auditok"]
+	path = repos/python-auditok
+	url = ssh://aur@aur.archlinux.org/python-auditok.git
+	branch = master
