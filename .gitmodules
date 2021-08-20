@@ -763,3 +763,7 @@
 	path = repos/python-ffsubsync
 	url = ssh://aur@aur.archlinux.org/python-ffsubsync.git
 	branch = master
+[submodule "repos/python-future-annotations"]
+	path = repos/python-future-annotations
+	url = ssh://aur@aur.archlinux.org/python-future-annotations.git
+	branch = master
