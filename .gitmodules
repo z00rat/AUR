@@ -751,3 +751,7 @@
 	path = repos/cointop
 	url = ssh://aur@aur.archlinux.org/cointop.git
 	branch = master
+[submodule "repos/mkclean"]
+	path = repos/mkclean
+	url = ssh://aur@aur.archlinux.org/mkclean.git
+	branch = master
