@@ -1,7 +1,8 @@
 aseprite
-drawio-desktop-bin
 heroku-cli-bin
 maldet
 obsidian
+python-tokenize-rt
 spicetify-cli
+tor-browser
 vrms-arch
