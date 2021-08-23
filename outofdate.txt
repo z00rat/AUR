@@ -2,13 +2,13 @@
 
   [1;34m->[;1m listing already flaged packages[0m
 aseprite
-heroku-cli-bin
+betterlockscreen
 maldet
 obsidian
 python-tokenize-rt
 spicetify-cli
-tor-browser
 vrms-arch
+zoom
   [1;34m->[;1m running pkgoutofdate[0m
 spicetify-cli: new version found - 2.5.0 => 2.6.0
 resvg: new version found - 0.13.0 => 0.13.1
@@ -44,7 +44,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'betterdiscord-installer'[0m
 [37m             [UNKNOWN] [betterdiscord-installer][1.0.0.hotfix-2] upstream version is 1.0.0-hotfix [0m
   [1;34m->[;1m checking for update for 'betterlockscreen'[0m
-[32m          [UP-TO-DATE] [betterlockscreen][4.0.1-1] matches upstream version 4.0.1 [0m
+[32m          [UP-TO-DATE] [betterlockscreen][4.0.3-1] matches upstream version 4.0.3 [0m
   [1;34m->[;1m checking for update for 'bibata-cursor-theme'[0m
 [32m          [UP-TO-DATE] [bibata-cursor-theme][1.1.2-1] matches upstream version 1.1.2 [0m
   [1;34m->[;1m checking for update for 'bibata-cursor-theme-bin'[0m
@@ -68,9 +68,9 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'code-server'[0m
 [32m          [UP-TO-DATE] [code-server][3.11.1-0] matches upstream version 3.11.1 [0m
   [1;34m->[;1m checking for update for 'cointop'[0m
-[32m          [UP-TO-DATE] [cointop][1.6.5-1] matches upstream version 1.6.5 [0m
+[32m          [UP-TO-DATE] [cointop][1.6.6-1] matches upstream version 1.6.6 [0m
   [1;34m->[;1m checking for update for 'cointop-bin'[0m
-[32m          [UP-TO-DATE] [cointop-bin][1.6.5-1] matches upstream version 1.6.5 [0m
+[31m         [OUT-OF-DATE] [cointop-bin][1.6.5-1] should be updated to 1.6.6 [0m
   [1;34m->[;1m checking for update for 'ctjs-bin'[0m
 [32m          [UP-TO-DATE] [ctjs-bin][1.7.0-1] matches upstream version 1.7.0 [0m
   [1;34m->[;1m checking for update for 'debtap'[0m
@@ -121,7 +121,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'gitstatus'[0m
 [32m          [UP-TO-DATE] [gitstatus][1.5.2-1] matches upstream version 1.5.2 [0m
   [1;34m->[;1m checking for update for 'gitui-bin'[0m
-[32m          [UP-TO-DATE] [gitui-bin][0.16.2-1] matches upstream version 0.16.2 [0m
+[31m         [OUT-OF-DATE] [gitui-bin][0.16.2-1] should be updated to 0.17 [0m
   [1;34m->[;1m checking for update for 'glow'[0m
 [32m          [UP-TO-DATE] [glow][1.4.1-1] matches upstream version 1.4.1 [0m
   [1;34m->[;1m checking for update for 'gnome-getting-started-docs'[0m
@@ -132,7 +132,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'hakuneko-desktop'[0m
 [32m          [UP-TO-DATE] [hakuneko-desktop][6.1.7-1] matches upstream version 6.1.7 [0m
   [1;34m->[;1m checking for update for 'heroku-cli-bin'[0m
-[37m             [UNKNOWN] [heroku-cli-bin][7.56.1-1] Failed to obtain GitHub release for SampsonCrowley/heroku-cli-bin from https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest: No GitHub project found for SampsonCrowley/heroku-cli-bin on https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest [0m
+[37m             [UNKNOWN] [heroku-cli-bin][7.57.0-1] Failed to obtain GitHub release for SampsonCrowley/heroku-cli-bin from https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest: No GitHub project found for SampsonCrowley/heroku-cli-bin on https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest [0m
   [1;34m->[;1m checking for update for 'hollywood'[0m
 [37m             [UNKNOWN] [hollywood][1.21-5] No release found for hollywood-1.21.tar.gz::https://launchpad.net/hollywood/trunk/1.21/+download/hollywood_1.21.orig.tar.gz [0m
   [1;34m->[;1m checking for update for 'i3lock-color'[0m
@@ -174,7 +174,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'msg2'[0m
 [37m             [UNKNOWN] [msg2][1.2.0-2] No release found for https://roboticoverlords.org/msg2/msg2-1.2.0.tar.xz [0m
   [1;34m->[;1m checking for update for 'mymonero'[0m
-[37m             [UNKNOWN] [mymonero][1.1.24-1] No release found for LICENSE::https://raw.githubusercontent.com/mymonero/mymonero-app-js/master/LICENSE.txt [0m
+[32m          [UP-TO-DATE] [mymonero][1.1.24-1] matches upstream version 1.1.24 [0m
   [1;34m->[;1m checking for update for 'nerd-fonts-source-code-pro'[0m
 [32m          [UP-TO-DATE] [nerd-fonts-source-code-pro][2.1.0-2] matches upstream version 2.1.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-csso'[0m
@@ -192,7 +192,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'nordic-theme'[0m
 [32m          [UP-TO-DATE] [nordic-theme][2.0.0-1] matches upstream version 2.0.0 [0m
   [1;34m->[;1m checking for update for 'notion-app'[0m
-[37m             [UNKNOWN] [notion-app][2.0.16-13] upstream version is 2.0.16-1 [0m
+[37m             [UNKNOWN] [notion-app][2.0.16-13] upstream version is 2.0.16-2 [0m
   [1;34m->[;1m checking for update for 'obfs4proxy'[0m
 [37m             [UNKNOWN] [obfs4proxy][0.0.11-1] No release found for https://people.torproject.org/~yawning/releases/obfs4proxy/obfs4proxy-0.0.11.tar.xz [0m
   [1;34m->[;1m checking for update for 'obsidian'[0m
@@ -263,7 +263,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'python-pytube'[0m
 [32m          [UP-TO-DATE] [python-pytube][11.0.0-1] matches upstream version 11.0.0 [0m
   [1;34m->[;1m checking for update for 'python-rapidfuzz'[0m
-[31m         [OUT-OF-DATE] [python-rapidfuzz][1.4.1-1] should be updated to 1.5.0 [0m
+[32m          [UP-TO-DATE] [python-rapidfuzz][1.5.0-1] matches upstream version 1.5.0 [0m
   [1;34m->[;1m checking for update for 'python-requests-futures'[0m
 [32m          [UP-TO-DATE] [python-requests-futures][1.0.0-3] matches upstream version 1.0.0 [0m
   [1;34m->[;1m checking for update for 'python-simber'[0m
@@ -288,7 +288,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'raven-reader-bin'[0m
 [32m          [UP-TO-DATE] [raven-reader-bin][1.0.65-1] matches upstream version 1.0.65 [0m
   [1;34m->[;1m checking for update for 'resvg'[0m
-[31m         [OUT-OF-DATE] [resvg][0.13.0-1] should be updated to 0.15.0 [0m
+[31m         [OUT-OF-DATE] [resvg][0.13.0-1] should be updated to 0.16.0 [0m
   [1;34m->[;1m checking for update for 'ricochet'[0m
 [37m             [UNKNOWN] [ricochet][1.1.4-2] No release found for https://ricochet.im/releases/1.1.4/ricochet-1.1.4-src.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'robo3t-bin'[0m
@@ -298,7 +298,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'rtags'[0m
 [32m          [UP-TO-DATE] [rtags][2.38-1] matches upstream version 2.38 [0m
   [1;34m->[;1m checking for update for 'runjs-bin'[0m
-[32m          [UP-TO-DATE] [runjs-bin][2.1.1-1] matches upstream version 2.1.1 [0m
+[31m         [OUT-OF-DATE] [runjs-bin][2.1.1-1] should be updated to 2.1.3 [0m
   [1;34m->[;1m checking for update for 'sherlock-git'[0m
   [1;34m->[;1m checking for update for 'siji-git'[0m
   [1;34m->[;1m checking for update for 'speedometer'[0m
@@ -335,7 +335,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'tmpwatch'[0m
 [37m             [UNKNOWN] [tmpwatch][2.11-3] No release found for https://releases.pagure.org/tmpwatch/tmpwatch-2.11.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'tor-browser'[0m
-[37m             [UNKNOWN] [tor-browser][10.5.4-1] No release found for tor-browser.desktop.in [0m
+[37m             [UNKNOWN] [tor-browser][10.5.5-1] No release found for tor-browser.desktop.in [0m
   [1;34m->[;1m checking for update for 'tt-bin'[0m
 [32m          [UP-TO-DATE] [tt-bin][0.4.2-1] matches upstream version 0.4.2 [0m
   [1;34m->[;1m checking for update for 'ttf-anka-coder'[0m
@@ -358,7 +358,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'vimix-cursors'[0m
 [37m             [UNKNOWN] [vimix-cursors][2020.02.24-5] Failed to parse upstream version: invalid version format: 2020-02-24 [0m
   [1;34m->[;1m checking for update for 'volctl'[0m
-[37m             [UNKNOWN] [volctl][0.9.0-2] Failed to obtain GitHub release for buzz/volctl.git from https://api.github.com/repos/buzz/volctl.git/releases/latest: No GitHub project found for buzz/volctl.git on https://api.github.com/repos/buzz/volctl.git/releases/latest [0m
+[37m             [UNKNOWN] [volctl][0.9.1-1] Failed to obtain GitHub release for buzz/volctl.git from https://api.github.com/repos/buzz/volctl.git/releases/latest: No GitHub project found for buzz/volctl.git on https://api.github.com/repos/buzz/volctl.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'vrms-arch'[0m
 [37m             [UNKNOWN] [vrms-arch][0.1.0.r25.g802c767-1] Failed to obtain GitHub release for orospakr/vrms-arch.git from https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest: No GitHub project found for orospakr/vrms-arch.git on https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'vscodium-bin'[0m

@@ -1,8 +1,8 @@
 aseprite
-heroku-cli-bin
+betterlockscreen
 maldet
 obsidian
 python-tokenize-rt
 spicetify-cli
-tor-browser
 vrms-arch
+zoom
