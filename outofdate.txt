@@ -6,9 +6,9 @@ betterlockscreen
 maldet
 obsidian
 python-tokenize-rt
+runjs-bin
 spicetify-cli
 vrms-arch
-zoom
   [1;34m->[;1m running pkgoutofdate[0m
 spicetify-cli: new version found - 2.5.0 => 2.6.0
 resvg: new version found - 0.13.0 => 0.13.1
@@ -378,5 +378,5 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'youtube-dl-gui-git'[0m
   [1;34m->[;1m checking for update for 'ytmdl-git'[0m
   [1;34m->[;1m checking for update for 'zoom'[0m
-[37m             [UNKNOWN] [zoom][5.7.6-1] No release found for zoom-5.7.6_orig_x86_64.pkg.tar.xz::https://zoom.us/client/5.7.31792.0820/zoom_x86_64.pkg.tar.xz [0m
+[37m             [UNKNOWN] [zoom][5.7.6a-1] No release found for zoom-5.7.6a_orig_x86_64.pkg.tar.xz::https://zoom.us/client/5.7.31792.0820/zoom_x86_64.pkg.tar.xz [0m
   [1;34m->[;1m done.[0m
