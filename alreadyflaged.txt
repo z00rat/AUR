@@ -1,8 +1,0 @@
-aseprite
-betterlockscreen
-maldet
-obsidian
-python-tokenize-rt
-runjs-bin
-spicetify-cli
-vrms-arch

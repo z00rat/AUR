@@ -1,14 +1,6 @@
   [1;34m->[;1m checking for out-of-date packages[0m
 
   [1;34m->[;1m listing already flaged packages[0m
-aseprite
-betterlockscreen
-maldet
-obsidian
-python-tokenize-rt
-runjs-bin
-spicetify-cli
-vrms-arch
   [1;34m->[;1m running pkgoutofdate[0m
 spicetify-cli: new version found - 2.5.0 => 2.6.0
 resvg: new version found - 0.13.0 => 0.13.1
@@ -26,7 +18,8 @@ aseprite: new version found - 1.2.27 => 1.2.28
 [32m          [UP-TO-DATE] [apg][2.2.3-5] matches upstream version 2.2.3 [0m
   [1;34m->[;1m checking for update for 'archiso-git'[0m
   [1;34m->[;1m checking for update for 'aseprite'[0m
-[31m         [OUT-OF-DATE] [aseprite][1.2.27-1] should be updated to 1.2.28 [0m
+[31m         [OUT-OF-DATE] [aseprite][1.2.27-1] should be updated to 1.3-beta6 [0m
+  [1;34m->[;1m checking for update for 'asp-git'[0m
   [1;34m->[;1m checking for update for 'aur-out-of-date'[0m
 [32m          [UP-TO-DATE] [aur-out-of-date][3.2.0-1] matches upstream version 3.2.0 [0m
   [1;34m->[;1m checking for update for 'aurutils'[0m
@@ -44,13 +37,13 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'betterdiscord-installer'[0m
 [37m             [UNKNOWN] [betterdiscord-installer][1.0.0.hotfix-2] upstream version is 1.0.0-hotfix [0m
   [1;34m->[;1m checking for update for 'betterlockscreen'[0m
-[32m          [UP-TO-DATE] [betterlockscreen][4.0.3-1] matches upstream version 4.0.3 [0m
+[32m          [UP-TO-DATE] [betterlockscreen][4.0.3-2] matches upstream version 4.0.3 [0m
   [1;34m->[;1m checking for update for 'bibata-cursor-theme'[0m
 [32m          [UP-TO-DATE] [bibata-cursor-theme][1.1.2-1] matches upstream version 1.1.2 [0m
   [1;34m->[;1m checking for update for 'bibata-cursor-theme-bin'[0m
 [32m          [UP-TO-DATE] [bibata-cursor-theme-bin][1.1.2-1] matches upstream version 1.1.2 [0m
   [1;34m->[;1m checking for update for 'boundary-bin'[0m
-[37m             [UNKNOWN] [boundary-bin][0.5.0-1] No release found for boundary-controller.service [0m
+[37m             [UNKNOWN] [boundary-bin][0.5.1-1] No release found for boundary-controller.service [0m
   [1;34m->[;1m checking for update for 'brave'[0m
 [37m             [UNKNOWN] [brave][1.28.105-1] Failed to obtain GitHub release for brave/brave-browser.git from https://api.github.com/repos/brave/brave-browser.git/releases/latest: No GitHub project found for brave/brave-browser.git on https://api.github.com/repos/brave/brave-browser.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'broken-link-checker'[0m
@@ -132,7 +125,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'hakuneko-desktop'[0m
 [32m          [UP-TO-DATE] [hakuneko-desktop][6.1.7-1] matches upstream version 6.1.7 [0m
   [1;34m->[;1m checking for update for 'heroku-cli-bin'[0m
-[37m             [UNKNOWN] [heroku-cli-bin][7.57.0-1] Failed to obtain GitHub release for SampsonCrowley/heroku-cli-bin from https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest: No GitHub project found for SampsonCrowley/heroku-cli-bin on https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest [0m
+[37m             [UNKNOWN] [heroku-cli-bin][7.59.0-1] Failed to obtain GitHub release for SampsonCrowley/heroku-cli-bin from https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest: No GitHub project found for SampsonCrowley/heroku-cli-bin on https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest [0m
   [1;34m->[;1m checking for update for 'hollywood'[0m
 [37m             [UNKNOWN] [hollywood][1.21-5] No release found for hollywood-1.21.tar.gz::https://launchpad.net/hollywood/trunk/1.21/+download/hollywood_1.21.orig.tar.gz [0m
   [1;34m->[;1m checking for update for 'i3lock-color'[0m
@@ -224,6 +217,8 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'pfetch'[0m
 [32m          [UP-TO-DATE] [pfetch][0.6.0-3] matches upstream version 0.6.0 [0m
   [1;34m->[;1m checking for update for 'picom-ibhagwan-git'[0m
+  [1;34m->[;1m checking for update for 'pikaur'[0m
+[37m             [UNKNOWN] [pikaur][1.7-1] upstream version is 1.6.17 [0m
   [1;34m->[;1m checking for update for 'pipes.sh'[0m
 [32m          [UP-TO-DATE] [pipes.sh][1.3.0-1] matches upstream version 1.3.0 [0m
   [1;34m->[;1m checking for update for 'pkgoutofdate-git'[0m
