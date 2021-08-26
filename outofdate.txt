@@ -1,11 +1,19 @@
   [1;34m->[;1m checking for out-of-date packages[0m
 
   [1;34m->[;1m listing already flaged packages[0m
+aseprite
+maldet
+obsidian
+python-tokenize-rt
+runjs-bin
+spicetify-cli
+vrms-arch
   [1;34m->[;1m running pkgoutofdate[0m
 spicetify-cli: new version found - 2.5.0 => 2.6.0
 resvg: new version found - 0.13.0 => 0.13.1
 python-tokenize-rt: new version found - 4.0.0 => 4.1.0
 nomad: new version found - 1.1.1 => 1.1.2
+hydroxide: new version found - 0.2.19 => 0.2.20
 aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'advcpmv'[0m
@@ -45,7 +53,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'boundary-bin'[0m
 [37m             [UNKNOWN] [boundary-bin][0.5.1-1] No release found for boundary-controller.service [0m
   [1;34m->[;1m checking for update for 'brave'[0m
-[37m             [UNKNOWN] [brave][1.28.105-1] Failed to obtain GitHub release for brave/brave-browser.git from https://api.github.com/repos/brave/brave-browser.git/releases/latest: No GitHub project found for brave/brave-browser.git on https://api.github.com/repos/brave/brave-browser.git/releases/latest [0m
+[37m             [UNKNOWN] [brave][1.28.106-1] Failed to obtain GitHub release for brave/brave-browser.git from https://api.github.com/repos/brave/brave-browser.git/releases/latest: No GitHub project found for brave/brave-browser.git on https://api.github.com/repos/brave/brave-browser.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'broken-link-checker'[0m
 [32m          [UP-TO-DATE] [broken-link-checker][0.7.8-1] matches upstream version 0.7.8 [0m
   [1;34m->[;1m checking for update for 'bubblejail'[0m
@@ -128,11 +136,13 @@ aseprite: new version found - 1.2.27 => 1.2.28
 [37m             [UNKNOWN] [heroku-cli-bin][7.59.0-1] Failed to obtain GitHub release for SampsonCrowley/heroku-cli-bin from https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest: No GitHub project found for SampsonCrowley/heroku-cli-bin on https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest [0m
   [1;34m->[;1m checking for update for 'hollywood'[0m
 [37m             [UNKNOWN] [hollywood][1.21-5] No release found for hollywood-1.21.tar.gz::https://launchpad.net/hollywood/trunk/1.21/+download/hollywood_1.21.orig.tar.gz [0m
+  [1;34m->[;1m checking for update for 'hydroxide'[0m
+[31m         [OUT-OF-DATE] [hydroxide][0.2.19-1] should be updated to 0.2.20 [0m
   [1;34m->[;1m checking for update for 'i3lock-color'[0m
 [32m          [UP-TO-DATE] [i3lock-color][2.13.c.4-1] matches upstream version 2.13.c.4 [0m
   [1;34m->[;1m checking for update for 'ibus-avro-git'[0m
   [1;34m->[;1m checking for update for 'jiq-bin'[0m
-[32m          [UP-TO-DATE] [jiq-bin][0.7.1-2] matches upstream version 0.7.1 [0m
+[31m         [OUT-OF-DATE] [jiq-bin][0.7.1-2] should be updated to 0.7.2 [0m
   [1;34m->[;1m checking for update for 'jmtpfs'[0m
 [37m             [UNKNOWN] [jmtpfs][0.5-2] Failed to obtain GitHub release for JasonFerrara/jmtpfs from https://api.github.com/repos/JasonFerrara/jmtpfs/releases/latest: No GitHub project found for JasonFerrara/jmtpfs on https://api.github.com/repos/JasonFerrara/jmtpfs/releases/latest [0m
   [1;34m->[;1m checking for update for 'keeweb-desktop-bin'[0m
@@ -148,7 +158,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'linux-latest'[0m
   [1;34m->[;1m checking for update for 'linux-latest-headers'[0m
   [1;34m->[;1m checking for update for 'losslesscut-bin'[0m
-[32m          [UP-TO-DATE] [losslesscut-bin][3.37.0-1] matches upstream version 3.37.0 [0m
+[32m          [UP-TO-DATE] [losslesscut-bin][3.38.0-1] matches upstream version 3.38.0 [0m
   [1;34m->[;1m checking for update for 'lscolors-git'[0m
   [1;34m->[;1m checking for update for 'lsdesktopf'[0m
 [37m             [UNKNOWN] [lsdesktopf][1.0.7-4] Failed to obtain GitHub release for AndyCrowd/list-desktop-files.git from https://api.github.com/repos/AndyCrowd/list-desktop-files.git/releases/latest: No GitHub project found for AndyCrowd/list-desktop-files.git on https://api.github.com/repos/AndyCrowd/list-desktop-files.git/releases/latest [0m
@@ -238,7 +248,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'python-auditok'[0m
 [32m          [UP-TO-DATE] [python-auditok][0.2.0-1] matches upstream version 0.2.0 [0m
   [1;34m->[;1m checking for update for 'python-fangfrisch'[0m
-[32m          [UP-TO-DATE] [python-fangfrisch][1.4.0-1] matches upstream version 1.4.0 [0m
+[32m          [UP-TO-DATE] [python-fangfrisch][1.4.0-2] matches upstream version 1.4.0 [0m
   [1;34m->[;1m checking for update for 'python-ffmpeg'[0m
 [37m             [UNKNOWN] [python-ffmpeg][0.2.0-2] Failed to obtain GitHub release for kkroening/ffmpeg-python from https://api.github.com/repos/kkroening/ffmpeg-python/releases/latest: No GitHub project found for kkroening/ffmpeg-python on https://api.github.com/repos/kkroening/ffmpeg-python/releases/latest [0m
   [1;34m->[;1m checking for update for 'python-ffsubsync'[0m
