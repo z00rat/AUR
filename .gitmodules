@@ -795,3 +795,7 @@
 	path = repos/pikaur
 	url = ssh://aur@aur.archlinux.org/pikaur.git
 	branch = master
+[submodule "repos/hydroxide"]
+	path = repos/hydroxide
+	url = ssh://aur@aur.archlinux.org/hydroxide.git
+	branch = master
