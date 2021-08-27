@@ -3,17 +3,13 @@
   [1;34m->[;1m listing already flaged packages[0m
 aseprite
 maldet
-obsidian
-python-tokenize-rt
-runjs-bin
 spicetify-cli
 vrms-arch
   [1;34m->[;1m running pkgoutofdate[0m
 spicetify-cli: new version found - 2.5.0 => 2.6.0
+ssh-audit: new version found - 2.4.0 => 2.5.0
 resvg: new version found - 0.13.0 => 0.13.1
-python-tokenize-rt: new version found - 4.0.0 => 4.1.0
 nomad: new version found - 1.1.1 => 1.1.2
-hydroxide: new version found - 0.2.19 => 0.2.20
 aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'advcpmv'[0m
@@ -71,7 +67,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'cointop'[0m
 [32m          [UP-TO-DATE] [cointop][1.6.6-1] matches upstream version 1.6.6 [0m
   [1;34m->[;1m checking for update for 'cointop-bin'[0m
-[31m         [OUT-OF-DATE] [cointop-bin][1.6.5-1] should be updated to 1.6.6 [0m
+[32m          [UP-TO-DATE] [cointop-bin][1.6.6-1] matches upstream version 1.6.6 [0m
   [1;34m->[;1m checking for update for 'ctjs-bin'[0m
 [32m          [UP-TO-DATE] [ctjs-bin][1.7.0-1] matches upstream version 1.7.0 [0m
   [1;34m->[;1m checking for update for 'debtap'[0m
@@ -137,12 +133,12 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'hollywood'[0m
 [37m             [UNKNOWN] [hollywood][1.21-5] No release found for hollywood-1.21.tar.gz::https://launchpad.net/hollywood/trunk/1.21/+download/hollywood_1.21.orig.tar.gz [0m
   [1;34m->[;1m checking for update for 'hydroxide'[0m
-[31m         [OUT-OF-DATE] [hydroxide][0.2.19-1] should be updated to 0.2.20 [0m
+[32m          [UP-TO-DATE] [hydroxide][0.2.20-1] matches upstream version 0.2.20 [0m
   [1;34m->[;1m checking for update for 'i3lock-color'[0m
 [32m          [UP-TO-DATE] [i3lock-color][2.13.c.4-1] matches upstream version 2.13.c.4 [0m
   [1;34m->[;1m checking for update for 'ibus-avro-git'[0m
   [1;34m->[;1m checking for update for 'jiq-bin'[0m
-[31m         [OUT-OF-DATE] [jiq-bin][0.7.1-2] should be updated to 0.7.2 [0m
+[32m          [UP-TO-DATE] [jiq-bin][0.7.2-1] matches upstream version 0.7.2 [0m
   [1;34m->[;1m checking for update for 'jmtpfs'[0m
 [37m             [UNKNOWN] [jmtpfs][0.5-2] Failed to obtain GitHub release for JasonFerrara/jmtpfs from https://api.github.com/repos/JasonFerrara/jmtpfs/releases/latest: No GitHub project found for JasonFerrara/jmtpfs on https://api.github.com/repos/JasonFerrara/jmtpfs/releases/latest [0m
   [1;34m->[;1m checking for update for 'keeweb-desktop-bin'[0m
@@ -191,7 +187,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'noisetorch-bin'[0m
 [32m          [UP-TO-DATE] [noisetorch-bin][0.11.3-1] matches upstream version 0.11.3 [0m
   [1;34m->[;1m checking for update for 'nomad'[0m
-[31m         [OUT-OF-DATE] [nomad][1.1.1-1] should be updated to 1.1.3 [0m
+[31m         [OUT-OF-DATE] [nomad][1.1.1-1] should be updated to 1.1.4 [0m
   [1;34m->[;1m checking for update for 'nordic-theme'[0m
 [32m          [UP-TO-DATE] [nordic-theme][2.0.0-1] matches upstream version 2.0.0 [0m
   [1;34m->[;1m checking for update for 'notion-app'[0m
@@ -199,7 +195,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'obfs4proxy'[0m
 [37m             [UNKNOWN] [obfs4proxy][0.0.11-1] No release found for https://people.torproject.org/~yawning/releases/obfs4proxy/obfs4proxy-0.0.11.tar.xz [0m
   [1;34m->[;1m checking for update for 'obsidian'[0m
-[37m             [UNKNOWN] [obsidian][0.12.10-1] No release found for obsidian [0m
+[37m             [UNKNOWN] [obsidian][0.12.12-1] No release found for obsidian [0m
   [1;34m->[;1m checking for update for 'obs-input-overlay-bin'[0m
 [31m         [OUT-OF-DATE] [obs-input-overlay-bin][v4.8-3] should be updated to 4.8 [0m
   [1;34m->[;1m checking for update for 'obs-plugin-input-overlay-bin'[0m
@@ -280,7 +276,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'python-srt'[0m
 [32m          [UP-TO-DATE] [python-srt][3.4.1-1] matches upstream version 3.4.1 [0m
   [1;34m->[;1m checking for update for 'python-tokenize-rt'[0m
-[37m             [UNKNOWN] [python-tokenize-rt][4.0.0-1] Failed to obtain GitHub release for asottile/tokenize-rt from https://api.github.com/repos/asottile/tokenize-rt/releases/latest: No GitHub project found for asottile/tokenize-rt on https://api.github.com/repos/asottile/tokenize-rt/releases/latest [0m
+[37m             [UNKNOWN] [python-tokenize-rt][4.1.0-1] Failed to obtain GitHub release for asottile/tokenize-rt from https://api.github.com/repos/asottile/tokenize-rt/releases/latest: No GitHub project found for asottile/tokenize-rt on https://api.github.com/repos/asottile/tokenize-rt/releases/latest [0m
   [1;34m->[;1m checking for update for 'python-torrequest'[0m
 [32m          [UP-TO-DATE] [python-torrequest][0.1.0-3] matches upstream version 0.1.0 [0m
   [1;34m->[;1m checking for update for 'python-webrtcvad'[0m
@@ -303,7 +299,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'rtags'[0m
 [32m          [UP-TO-DATE] [rtags][2.38-1] matches upstream version 2.38 [0m
   [1;34m->[;1m checking for update for 'runjs-bin'[0m
-[31m         [OUT-OF-DATE] [runjs-bin][2.1.1-1] should be updated to 2.1.3 [0m
+[32m          [UP-TO-DATE] [runjs-bin][2.1.3-1] matches upstream version 2.1.3 [0m
   [1;34m->[;1m checking for update for 'sherlock-git'[0m
   [1;34m->[;1m checking for update for 'siji-git'[0m
   [1;34m->[;1m checking for update for 'speedometer'[0m
@@ -313,7 +309,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'spotify'[0m
 [37m             [UNKNOWN] [spotify][1:1.1.56.595-1] No release found for spotify.protocol [0m
   [1;34m->[;1m checking for update for 'ssh-audit'[0m
-[32m          [UP-TO-DATE] [ssh-audit][2.4.0-1] matches upstream version 2.4.0 [0m
+[31m         [OUT-OF-DATE] [ssh-audit][2.4.0-1] should be updated to 2.5.0 [0m
   [1;34m->[;1m checking for update for 'stacer'[0m
 [32m          [UP-TO-DATE] [stacer][1.1.0-1] matches upstream version 1.1.0 [0m
   [1;34m->[;1m checking for update for 'stretchly-bin'[0m
@@ -356,7 +352,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'ttyd'[0m
 [32m          [UP-TO-DATE] [ttyd][1.6.3-2] matches upstream version 1.6.3 [0m
   [1;34m->[;1m checking for update for 'typora'[0m
-[37m             [UNKNOWN] [typora][0.11.5-1] No release found for https://typora.io/linux/typora_0.11.5_amd64.deb [0m
+[37m             [UNKNOWN] [typora][0.11.7-1] No release found for https://typora.io/linux/typora_0.11.7_amd64.deb [0m
   [1;34m->[;1m checking for update for 'ugrep'[0m
 [32m          [UP-TO-DATE] [ugrep][3.3.7-1] matches upstream version 3.3.7 [0m
   [1;34m->[;1m checking for update for 'vanitygen-git'[0m
