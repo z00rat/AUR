@@ -1,27 +1,30 @@
 # Maintainer: zoorat <zoorat [at] protonmail [dot] com>
 
-pkgname="mymonero"
-pkgver=1.1.24
-pkgrel=2
+_pkgname="fluent-reader"
+pkgname="$_pkgname-bin"
+pkgver=1.0.2
+pkgrel=1
 
-pkgdesc="The simplest way to use the next-generation private digital currency Monero, at the sweet spot between security, convenience, and features."
+pkgdesc="Modern desktop RSS reader built with Electron, React, and Fluent UI."
 arch=('x86_64')
-# url="https://github.com/mymonero/mymonero-app-js"
-url="https://www.mymonero.com/"
-license=('custom:MyMonero')
+# url="https://github.com/yang991178/fluent-reader"
+url="https://hyliu.me/fluent-reader/"
+license=('custom:BSD3')
 
-depends=("libxss" "nss" "gtk3")
-provides=("$pkgname")
+depends=("gtk3" "nss")
+provides=("$_pkgname")
+conflicts=("$_pkgname")
+replaces=("$_pkgname")
 # options=(debug !strip emptydirs zipman)
 options=(strip emptydirs zipman)
 install="$pkgname.install"
 changelog="changelog.md"
 
-source=("${pkgname}-${pkgver}.${CARCH}.AppImage::https://github.com/mymonero/mymonero-app-js/releases/download/v${pkgver}/MyMonero-${pkgver}.AppImage"
-	"LICENSE::https://raw.githubusercontent.com/mymonero/mymonero-app-js/master/LICENSE.txt")
+source=("${pkgname}-${pkgver}.${CARCH}.AppImage::https://github.com/yang991178/fluent-reader/releases/download/v${pkgver}/Fluent.Reader.${pkgver}.AppImage"
+	"LICENSE::https://raw.githubusercontent.com/yang991178/fluent-reader/master/LICENSE")
 noextract=("${pkgname}-${pkgver}.${CARCH}.AppImage")
-b2sums=('fc839324f7e8fd7c15b0aae8a0e335feebdf9fb712f7b63e73f3e04e5ce0aaa639e816b41b84534102734671990182b33f7b605cabd1515b73bca0e0a0aeb086'
-	'e15003acc9be63fd7b76a1021d86045f82fe19a63551c0f2ab1478d4e3e3be8a9bb7dc7f4f06b79fa1005995cebd73807259c3c5c36861f085ca7ad7959eef52')
+b2sums=('5d1fda961ec2aceb39165dc449776a8f857297f4a404beb42b33d9a63c5f956fa1441839d77ed20e606b1d80b3db1de4b4f0eb6fbbc647dc35aaa944d7e74b7e'
+	'0a8e04b682d991c30efd88ff67147b221eaf09e12c7234a776a90897bbedeb8379f73c5d853121f1b37d54bb510ea1bf223b8ef0f480ad3156c4159cbd78f0ac')
 
 log() {
 	echo -e "    $1...\c"
@@ -31,7 +34,7 @@ log_status() {
 	BRed='\033[1;31m'   # Bold Red
 	Reset='\033[0m'     # Reset
 
-	if [ "$1" == 0 ]; then
+	if [ $1 == 0 ]; then
 		echo -e "$BGreen\c"
 		echo -e "done.$Reset"
 	else
@@ -57,8 +60,8 @@ prepare() {
 build() {
 	#
 	# modifying .desktop file
-	log "modifying \"${pkgname}.desktop\" file"
-	sed -i -E "s|Exec=AppRun|Exec=/usr/bin/${pkgname}|" "squashfs-root/${pkgname}.desktop"
+	log "modifying \"${_pkgname}.desktop\" file"
+	sed -i -E "s|Exec=AppRun|Exec=/usr/bin/${_pkgname}|" "squashfs-root/${_pkgname}.desktop"
 	log_status $?
 }
 
@@ -81,11 +84,9 @@ package() {
 
 	#
 	# Link entry point
-	log "linking /usr/bin/${pkgname} with /opt/${pkgname}/${pkgname}"
+	log "linking /usr/bin/${_pkgname} with /opt/${pkgname}/${_pkgname}"
 	install -dm0755 "${pkgdir}/usr/bin"
-	rm "${pkgdir}/opt/${pkgname}/${pkgname}"
-	mv "${pkgdir}/opt/${pkgname}/${pkgname}.bin" "${pkgdir}/opt/${pkgname}/${pkgname}"
-	ln -sf "/opt/${pkgname}/${pkgname}" "${pkgdir}/usr/bin/${pkgname}"
+	ln -sf "/opt/${pkgname}/${_pkgname}" "${pkgdir}/usr/bin/${_pkgname}"
 	log_status $?
 
 	#
@@ -98,8 +99,8 @@ package() {
 
 	#
 	# Copy desktop file
-	log "copying desktop file to /usr/share/applications/${pkgname}.desktop"
-	install -Dm0644 "squashfs-root/${pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname}.desktop"
+	log "copying desktop file to /usr/share/applications/${_pkgname}.desktop"
+	install -Dm0644 "squashfs-root/${_pkgname}.desktop" "${pkgdir}/usr/share/applications/${_pkgname}.desktop"
 	log_status $?
 
 	#
@@ -111,8 +112,8 @@ package() {
 	#
 	# Remove unused files
 	log "removing unused files"
-	rm -rf "${pkgdir}/opt/${pkgname}"/{usr,swiftshader,AppRun,${pkgname}.{desktop,png}}
-	rm -rf "${pkgdir}/opt/${pkgname}"/{libGLESv2.so,libEGL.so,libvk_swiftshader.so,libvulkan.so}
+	rm -rf "${pkgdir}/opt/${pkgname}"/{usr,swiftshader,AppRun,${_pkgname}.{desktop,png}}
+	rm -rf "${pkgdir}/opt/${pkgname}"/{libGLESv2.so,libEGL.so,libvk_swiftshader.so,libvulkan.so.1}
 	rm -rf "${pkgdir}/opt/${pkgname}"/{locales,LICENSE*}
 	log_status $?
 }
