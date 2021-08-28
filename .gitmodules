@@ -799,3 +799,7 @@
 	path = repos/hydroxide
 	url = ssh://aur@aur.archlinux.org/hydroxide.git
 	branch = master
+[submodule "repos/fluent-reader-bin"]
+	path = repos/fluent-reader-bin
+	url = ssh://aur@aur.archlinux.org/fluent-reader-bin.git
+	branch = master
