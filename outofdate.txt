@@ -3,12 +3,13 @@
   [1;34m->[;1m listing already flaged packages[0m
 aseprite
 burpsuite
+losslesscut-bin
 maldet
 spicetify-cli
 vrms-arch
   [1;34m->[;1m running pkgoutofdate[0m
-spicetify-cli: new version found - 2.5.0 => 2.6.0
 ssh-audit: new version found - 2.4.0 => 2.5.0
+spicetify-cli: new version found - 2.5.0 => 2.6.0
 resvg: new version found - 0.13.0 => 0.13.1
 nomad: new version found - 1.1.1 => 1.1.2
 aseprite: new version found - 1.2.27 => 1.2.28
@@ -74,7 +75,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'debtap'[0m
 [32m          [UP-TO-DATE] [debtap][3.4.2-1] matches upstream version 3.4.2 [0m
   [1;34m->[;1m checking for update for 'discord-chat-exporter-cli'[0m
-[32m          [UP-TO-DATE] [discord-chat-exporter-cli][2.30-1] matches upstream version 2.30 [0m
+[31m         [OUT-OF-DATE] [discord-chat-exporter-cli][2.30-1] should be updated to 2.30.1 [0m
   [1;34m->[;1m checking for update for 'discord-ptb'[0m
 [37m             [UNKNOWN] [discord-ptb][0.0.25-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.25/discord-ptb-0.0.25.tar.gz [0m
   [1;34m->[;1m checking for update for 'downloader-cli'[0m
@@ -157,7 +158,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'linux-latest'[0m
   [1;34m->[;1m checking for update for 'linux-latest-headers'[0m
   [1;34m->[;1m checking for update for 'losslesscut-bin'[0m
-[32m          [UP-TO-DATE] [losslesscut-bin][3.38.0-1] matches upstream version 3.38.0 [0m
+[31m         [OUT-OF-DATE] [losslesscut-bin][3.38.0-1] should be updated to 3.39.0 [0m
   [1;34m->[;1m checking for update for 'lscolors-git'[0m
   [1;34m->[;1m checking for update for 'lsdesktopf'[0m
 [37m             [UNKNOWN] [lsdesktopf][1.0.7-4] Failed to obtain GitHub release for AndyCrowd/list-desktop-files.git from https://api.github.com/repos/AndyCrowd/list-desktop-files.git/releases/latest: No GitHub project found for AndyCrowd/list-desktop-files.git on https://api.github.com/repos/AndyCrowd/list-desktop-files.git/releases/latest [0m
@@ -265,7 +266,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'python-pysubs2'[0m
 [32m          [UP-TO-DATE] [python-pysubs2][1.2.0-2] matches upstream version 1.2.0 [0m
   [1;34m->[;1m checking for update for 'python-pytube'[0m
-[31m         [OUT-OF-DATE] [python-pytube][11.0.0-1] should be updated to 11.0.1 [0m
+[32m          [UP-TO-DATE] [python-pytube][11.0.1-1] matches upstream version 11.0.1 [0m
   [1;34m->[;1m checking for update for 'python-rapidfuzz'[0m
 [32m          [UP-TO-DATE] [python-rapidfuzz][1.5.0-1] matches upstream version 1.5.0 [0m
   [1;34m->[;1m checking for update for 'python-requests-futures'[0m
