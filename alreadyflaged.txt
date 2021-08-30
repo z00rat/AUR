@@ -1,6 +1,5 @@
 aseprite
 burpsuite
-losslesscut-bin
 maldet
 spicetify-cli
 vrms-arch
