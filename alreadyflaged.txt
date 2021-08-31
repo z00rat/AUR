@@ -1,5 +1,4 @@
 aseprite
-burpsuite
 maldet
 spicetify-cli
 vrms-arch
