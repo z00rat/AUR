@@ -1,5 +1,4 @@
 aseprite
 maldet
 spicetify-cli
-typora
 vrms-arch
