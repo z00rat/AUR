@@ -1,4 +1,5 @@
 aseprite
 maldet
 spicetify-cli
+spotify
 vrms-arch
