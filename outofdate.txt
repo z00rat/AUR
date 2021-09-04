@@ -3,13 +3,13 @@
   [1;34m->[;1m listing already flaged packages[0m
 aseprite
 maldet
+obsidian
 spicetify-cli
-spotify
 vrms-arch
   [1;34m->[;1m running pkgoutofdate[0m
 ssh-audit: new version found - 2.4.0 => 2.5.0
-spicetify-cli: new version found - 2.5.0 => 2.6.0
 resvg: new version found - 0.13.0 => 0.13.1
+spicetify-cli: new version found - 2.5.0 => 2.6.0
 nomad: new version found - 1.1.1 => 1.1.2
 aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m running aur-out-of-date[0m
@@ -74,7 +74,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'debtap'[0m
 [32m          [UP-TO-DATE] [debtap][3.4.2-1] matches upstream version 3.4.2 [0m
   [1;34m->[;1m checking for update for 'discord-chat-exporter-cli'[0m
-[31m         [OUT-OF-DATE] [discord-chat-exporter-cli][2.30-1] should be updated to 2.30.1 [0m
+[32m          [UP-TO-DATE] [discord-chat-exporter-cli][2.30.1-1] matches upstream version 2.30.1 [0m
   [1;34m->[;1m checking for update for 'discord-ptb'[0m
 [37m             [UNKNOWN] [discord-ptb][0.0.25-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.25/discord-ptb-0.0.25.tar.gz [0m
   [1;34m->[;1m checking for update for 'downloader-cli'[0m
@@ -308,9 +308,9 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'speedometer'[0m
 [32m          [UP-TO-DATE] [speedometer][2.8-4] matches upstream version 2.8 [0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
-[31m         [OUT-OF-DATE] [spicetify-cli][2.5.0-1] should be updated to 2.6.1 [0m
+[31m         [OUT-OF-DATE] [spicetify-cli][2.5.0-1] should be updated to 2.6.2 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
-[37m             [UNKNOWN] [spotify][1:1.1.56.595-1] No release found for spotify.protocol [0m
+[37m             [UNKNOWN] [spotify][1:1.1.67.586-1] No release found for spotify.protocol [0m
   [1;34m->[;1m checking for update for 'ssh-audit'[0m
 [31m         [OUT-OF-DATE] [ssh-audit][2.4.0-1] should be updated to 2.5.0 [0m
   [1;34m->[;1m checking for update for 'stacer'[0m
