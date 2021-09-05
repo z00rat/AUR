@@ -1,6 +1,7 @@
   [1;34m->[;1m checking for out-of-date packages[0m
 
   [1;34m->[;1m listing already flaged packages[0m
+alacritty-themes
 aseprite
 maldet
 obsidian
@@ -8,13 +9,15 @@ spicetify-cli
 vrms-arch
   [1;34m->[;1m running pkgoutofdate[0m
 ssh-audit: new version found - 2.4.0 => 2.5.0
-resvg: new version found - 0.13.0 => 0.13.1
 spicetify-cli: new version found - 2.5.0 => 2.6.0
+resvg: new version found - 0.13.0 => 0.13.1
 nomad: new version found - 1.1.1 => 1.1.2
 aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'advcpmv'[0m
 [37m             [UNKNOWN] [advcpmv][8.32-2] No release found for http://ftp.gnu.org/gnu/coreutils/coreutils-8.32.tar.xz [0m
+  [1;34m->[;1m checking for update for 'alacritty-themes'[0m
+[31m         [OUT-OF-DATE] [alacritty-themes][3.1.0-1] should be updated to 4.1.1 [0m
   [1;34m->[;1m checking for update for 'ansifilter'[0m
 [37m             [UNKNOWN] [ansifilter][2.18-1] No release found for http://www.andre-simon.de/zip/ansifilter-2.18.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'antibody'[0m
@@ -73,6 +76,8 @@ aseprite: new version found - 1.2.27 => 1.2.28
 [32m          [UP-TO-DATE] [ctjs-bin][1.7.0-1] matches upstream version 1.7.0 [0m
   [1;34m->[;1m checking for update for 'debtap'[0m
 [32m          [UP-TO-DATE] [debtap][3.4.2-1] matches upstream version 3.4.2 [0m
+  [1;34m->[;1m checking for update for 'direnv'[0m
+[32m          [UP-TO-DATE] [direnv][2.28.0-1] matches upstream version 2.28.0 [0m
   [1;34m->[;1m checking for update for 'discord-chat-exporter-cli'[0m
 [32m          [UP-TO-DATE] [discord-chat-exporter-cli][2.30.1-1] matches upstream version 2.30.1 [0m
   [1;34m->[;1m checking for update for 'discord-ptb'[0m
@@ -89,6 +94,9 @@ aseprite: new version found - 1.2.27 => 1.2.28
 [37m             [UNKNOWN] [ebtables][2.0.10_4-8] No release found for https://downloads.sourceforge.net/ebtables/ebtables-v2.0.10-4.tar.gz [0m
   [1;34m->[;1m checking for update for 'edex-ui-bin'[0m
 [32m          [UP-TO-DATE] [edex-ui-bin][2.2.7-1] matches upstream version 2.2.7 [0m
+  [1;34m->[;1m checking for update for 'edid-decode'[0m
+  [1;34m->[;1m checking for update for 'electorrent-bin'[0m
+[32m          [UP-TO-DATE] [electorrent-bin][2.7.2-1] matches upstream version 2.7.2 [0m
   [1;34m->[;1m checking for update for 'electronmail-bin'[0m
 [32m          [UP-TO-DATE] [electronmail-bin][4.12.5-1] matches upstream version 4.12.5 [0m
   [1;34m->[;1m checking for update for 'exe-thumbnailer'[0m
@@ -109,7 +117,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'fswatch'[0m
 [32m          [UP-TO-DATE] [fswatch][1.16.0-1] matches upstream version 1.16.0 [0m
   [1;34m->[;1m checking for update for 'gallery-dl'[0m
-[32m          [UP-TO-DATE] [gallery-dl][1.18.3-1] matches upstream version 1.18.3 [0m
+[31m         [OUT-OF-DATE] [gallery-dl][1.18.3-1] should be updated to 1.18.4 [0m
   [1;34m->[;1m checking for update for 'gconf-cleaner'[0m
 [37m             [UNKNOWN] [gconf-cleaner][0.0.3-2] No release found for https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gconf-cleaner/gconf-cleaner-0.0.3.tar.gz [0m
   [1;34m->[;1m checking for update for 'gconf-gtk2'[0m
@@ -135,6 +143,8 @@ aseprite: new version found - 1.2.27 => 1.2.28
 [37m             [UNKNOWN] [heroku-cli-bin][7.59.0-1] Failed to obtain GitHub release for SampsonCrowley/heroku-cli-bin from https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest: No GitHub project found for SampsonCrowley/heroku-cli-bin on https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest [0m
   [1;34m->[;1m checking for update for 'hollywood'[0m
 [37m             [UNKNOWN] [hollywood][1.21-5] No release found for hollywood-1.21.tar.gz::https://launchpad.net/hollywood/trunk/1.21/+download/hollywood_1.21.orig.tar.gz [0m
+  [1;34m->[;1m checking for update for 'hw-probe'[0m
+[32m          [UP-TO-DATE] [hw-probe][1.5-1] matches upstream version 1.5 [0m
   [1;34m->[;1m checking for update for 'hydroxide'[0m
 [32m          [UP-TO-DATE] [hydroxide][0.2.20-1] matches upstream version 0.2.20 [0m
   [1;34m->[;1m checking for update for 'i3lock-color'[0m
@@ -287,12 +297,16 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'python-youtube-search-git'[0m
   [1;34m->[;1m checking for update for 'python-ytmusicapi'[0m
 [32m          [UP-TO-DATE] [python-ytmusicapi][0.19.1-1] matches upstream version 0.19.1 [0m
+  [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
+[32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][0.12.0-1] matches upstream version 0.12.0 [0m
   [1;34m->[;1m checking for update for 'raven-reader'[0m
 [32m          [UP-TO-DATE] [raven-reader][1.0.65-1] matches upstream version 1.0.65 [0m
   [1;34m->[;1m checking for update for 'raven-reader-bin'[0m
 [32m          [UP-TO-DATE] [raven-reader-bin][1.0.65-1] matches upstream version 1.0.65 [0m
+  [1;34m->[;1m checking for update for 'rclone-browser'[0m
+[32m          [UP-TO-DATE] [rclone-browser][1.8.0-2] matches upstream version 1.8.0 [0m
   [1;34m->[;1m checking for update for 'resvg'[0m
-[31m         [OUT-OF-DATE] [resvg][0.13.0-1] should be updated to 0.16.0 [0m
+[31m         [OUT-OF-DATE] [resvg][0.13.0-1] should be updated to 0.17.0 [0m
   [1;34m->[;1m checking for update for 'ricochet'[0m
 [37m             [UNKNOWN] [ricochet][1.1.4-2] No release found for https://ricochet.im/releases/1.1.4/ricochet-1.1.4-src.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'robo3t-bin'[0m
@@ -322,6 +336,8 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'surf'[0m
 [37m             [UNKNOWN] [surf][2.1-4] No release found for https://dl.suckless.org/surf/surf-2.1.tar.gz [0m
   [1;34m->[;1m checking for update for 'surf-git'[0m
+  [1;34m->[;1m checking for update for 'svg-term-cli'[0m
+[37m             [UNKNOWN] [svg-term-cli][2.1.1-1] No release found for svg-term-cli: %!w(<nil>) [0m
   [1;34m->[;1m checking for update for 'themix-export-spotify-git'[0m
   [1;34m->[;1m checking for update for 'themix-full-git'[0m
   [1;34m->[;1m checking for update for 'themix-gui-git'[0m

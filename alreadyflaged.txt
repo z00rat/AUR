@@ -1,3 +1,4 @@
+alacritty-themes
 aseprite
 maldet
 obsidian
