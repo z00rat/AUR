@@ -819,3 +819,7 @@
 	path = repos/hw-probe
 	url = ssh://aur@aur.archlinux.org/hw-probe.git
 	branch = master
+[submodule "repos/qbittorrent-vuetorrent-bin"]
+	path = repos/qbittorrent-vuetorrent-bin
+	url = ssh://aur@aur.archlinux.org/qbittorrent-vuetorrent-bin.git
+	branch = master
