@@ -803,3 +803,7 @@
 	path = repos/fluent-reader-bin
 	url = ssh://aur@aur.archlinux.org/fluent-reader-bin.git
 	branch = master
+[submodule "repos/alacritty-themes"]
+	path = repos/alacritty-themes
+	url = ssh://aur@aur.archlinux.org/alacritty-themes.git
+	branch = master
