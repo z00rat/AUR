@@ -823,3 +823,7 @@
 	path = repos/qbittorrent-vuetorrent-bin
 	url = ssh://aur@aur.archlinux.org/qbittorrent-vuetorrent-bin.git
 	branch = master
+[submodule "repos/rclone-browser"]
+	path = repos/rclone-browser
+	url = ssh://aur@aur.archlinux.org/rclone-browser.git
+	branch = master
