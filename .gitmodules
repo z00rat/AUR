@@ -811,3 +811,7 @@
 	path = repos/direnv
 	url = ssh://aur@aur.archlinux.org/direnv.git
 	branch = master
+[submodule "repos/electorrent-bin"]
+	path = repos/electorrent-bin
+	url = ssh://aur@aur.archlinux.org/electorrent-bin.git
+	branch = master
