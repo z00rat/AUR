@@ -815,3 +815,7 @@
 	path = repos/electorrent-bin
 	url = ssh://aur@aur.archlinux.org/electorrent-bin.git
 	branch = master
+[submodule "repos/hw-probe"]
+	path = repos/hw-probe
+	url = ssh://aur@aur.archlinux.org/hw-probe.git
+	branch = master
