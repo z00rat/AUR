@@ -807,3 +807,7 @@
 	path = repos/alacritty-themes
 	url = ssh://aur@aur.archlinux.org/alacritty-themes.git
 	branch = master
+[submodule "repos/direnv"]
+	path = repos/direnv
+	url = ssh://aur@aur.archlinux.org/direnv.git
+	branch = master
