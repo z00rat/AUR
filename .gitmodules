@@ -827,3 +827,7 @@
 	path = repos/rclone-browser
 	url = ssh://aur@aur.archlinux.org/rclone-browser.git
 	branch = master
+[submodule "repos/svg-term-cli"]
+	path = repos/svg-term-cli
+	url = ssh://aur@aur.archlinux.org/svg-term-cli.git
+	branch = master
