@@ -831,3 +831,7 @@
 	path = repos/svg-term-cli
 	url = ssh://aur@aur.archlinux.org/svg-term-cli.git
 	branch = master
+[submodule "repos/ffpb"]
+	path = repos/ffpb
+	url = ssh://aur@aur.archlinux.org/ffpb.git
+	branch = master
