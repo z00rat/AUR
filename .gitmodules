@@ -835,3 +835,7 @@
 	path = repos/ffpb
 	url = ssh://aur@aur.archlinux.org/ffpb.git
 	branch = master
+[submodule "repos/xinput-gui"]
+	path = repos/xinput-gui
+	url = ssh://aur@aur.archlinux.org/xinput-gui.git
+	branch = master
