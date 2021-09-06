@@ -7,11 +7,14 @@ maldet
 obsidian
 spicetify-cli
 vrms-arch
+zoom
   [1;34m->[;1m running pkgoutofdate[0m
 ssh-audit: new version found - 2.4.0 => 2.5.0
 spicetify-cli: new version found - 2.5.0 => 2.6.0
 resvg: new version found - 0.13.0 => 0.13.1
 nomad: new version found - 1.1.1 => 1.1.2
+electronmail-bin: new version found - 4.12.5 => 4.12.6
+ffpb: new version found - 0.2.0 => 0.3.0
 aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'advcpmv'[0m
@@ -98,7 +101,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'electorrent-bin'[0m
 [32m          [UP-TO-DATE] [electorrent-bin][2.7.2-1] matches upstream version 2.7.2 [0m
   [1;34m->[;1m checking for update for 'electronmail-bin'[0m
-[32m          [UP-TO-DATE] [electronmail-bin][4.12.5-1] matches upstream version 4.12.5 [0m
+[31m         [OUT-OF-DATE] [electronmail-bin][4.12.5-1] should be updated to 4.12.6 [0m
   [1;34m->[;1m checking for update for 'exe-thumbnailer'[0m
 [37m             [UNKNOWN] [exe-thumbnailer][0.10.1-1] Failed to obtain GitHub release for exe-thumbnailer/exe-thumbnailer from https://api.github.com/repos/exe-thumbnailer/exe-thumbnailer/releases/latest: No GitHub project found for exe-thumbnailer/exe-thumbnailer on https://api.github.com/repos/exe-thumbnailer/exe-thumbnailer/releases/latest [0m
   [1;34m->[;1m checking for update for 'fakepkg'[0m
@@ -107,6 +110,8 @@ aseprite: new version found - 1.2.27 => 1.2.28
 [37m             [UNKNOWN] [faq-bin][0.0.7-1] Failed to obtain GitHub release for jzelinskie/faq from https://api.github.com/repos/jzelinskie/faq/releases/latest: No GitHub project found for jzelinskie/faq on https://api.github.com/repos/jzelinskie/faq/releases/latest [0m
   [1;34m->[;1m checking for update for 'fbrokendesktop'[0m
 [37m             [UNKNOWN] [fbrokendesktop][1.0.3-1] Failed to obtain GitHub release for AndyCrowd/fbrokendesktop.git from https://api.github.com/repos/AndyCrowd/fbrokendesktop.git/releases/latest: No GitHub project found for AndyCrowd/fbrokendesktop.git on https://api.github.com/repos/AndyCrowd/fbrokendesktop.git/releases/latest [0m
+  [1;34m->[;1m checking for update for 'ffpb'[0m
+[31m         [OUT-OF-DATE] [ffpb][0.2.0-3] should be updated to 0.4.1 [0m
   [1;34m->[;1m checking for update for 'firefox-esr-bin'[0m
 [37m             [UNKNOWN] [firefox-esr-bin][91.0.1-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/91.0.1esr/linux-x86_64/en-US/firefox-91.0.1esr.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'florence'[0m
@@ -117,7 +122,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'fswatch'[0m
 [32m          [UP-TO-DATE] [fswatch][1.16.0-1] matches upstream version 1.16.0 [0m
   [1;34m->[;1m checking for update for 'gallery-dl'[0m
-[31m         [OUT-OF-DATE] [gallery-dl][1.18.3-1] should be updated to 1.18.4 [0m
+[32m          [UP-TO-DATE] [gallery-dl][1.18.4-1] matches upstream version 1.18.4 [0m
   [1;34m->[;1m checking for update for 'gconf-cleaner'[0m
 [37m             [UNKNOWN] [gconf-cleaner][0.0.3-2] No release found for https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gconf-cleaner/gconf-cleaner-0.0.3.tar.gz [0m
   [1;34m->[;1m checking for update for 'gconf-gtk2'[0m
@@ -393,6 +398,8 @@ aseprite: new version found - 1.2.27 => 1.2.28
 [32m          [UP-TO-DATE] [wttr][1.2.1-2] matches upstream version 1.2.1 [0m
   [1;34m->[;1m checking for update for 'x11docker'[0m
 [32m          [UP-TO-DATE] [x11docker][6.9.0-1] matches upstream version 6.9.0 [0m
+  [1;34m->[;1m checking for update for 'xinput-gui'[0m
+[32m          [UP-TO-DATE] [xinput-gui][0.3.1-1] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'xmind'[0m
 [37m             [UNKNOWN] [xmind][3.7.9+8update9-1] No release found for https://www.xmind.net/xmind/downloads/xmind-8-update9-linux.zip [0m
   [1;34m->[;1m checking for update for 'youtube-dl-gui-git'[0m

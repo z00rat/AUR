@@ -4,3 +4,4 @@ maldet
 obsidian
 spicetify-cli
 vrms-arch
+zoom
