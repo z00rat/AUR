@@ -1,7 +1,5 @@
 alacritty-themes
 aseprite
 maldet
-obsidian
 spicetify-cli
 vrms-arch
-zoom

@@ -4,16 +4,13 @@
 alacritty-themes
 aseprite
 maldet
-obsidian
 spicetify-cli
 vrms-arch
-zoom
   [1;34m->[;1m running pkgoutofdate[0m
 ssh-audit: new version found - 2.4.0 => 2.5.0
 spicetify-cli: new version found - 2.5.0 => 2.6.0
 resvg: new version found - 0.13.0 => 0.13.1
 nomad: new version found - 1.1.1 => 1.1.2
-electronmail-bin: new version found - 4.12.6 => 4.12.7
 aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'advcpmv'[0m
@@ -100,7 +97,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'electorrent-bin'[0m
 [32m          [UP-TO-DATE] [electorrent-bin][2.7.2-1] matches upstream version 2.7.2 [0m
   [1;34m->[;1m checking for update for 'electronmail-bin'[0m
-[31m         [OUT-OF-DATE] [electronmail-bin][4.12.6-1] should be updated to 4.12.7 [0m
+[32m          [UP-TO-DATE] [electronmail-bin][4.12.7-1] matches upstream version 4.12.7 [0m
   [1;34m->[;1m checking for update for 'exe-thumbnailer'[0m
 [37m             [UNKNOWN] [exe-thumbnailer][0.10.1-1] Failed to obtain GitHub release for exe-thumbnailer/exe-thumbnailer from https://api.github.com/repos/exe-thumbnailer/exe-thumbnailer/releases/latest: No GitHub project found for exe-thumbnailer/exe-thumbnailer on https://api.github.com/repos/exe-thumbnailer/exe-thumbnailer/releases/latest [0m
   [1;34m->[;1m checking for update for 'fakepkg'[0m
@@ -112,7 +109,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'ffpb'[0m
 [32m          [UP-TO-DATE] [ffpb][0.4.1-1] matches upstream version 0.4.1 [0m
   [1;34m->[;1m checking for update for 'firefox-esr-bin'[0m
-[37m             [UNKNOWN] [firefox-esr-bin][91.0.1-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/91.0.1esr/linux-x86_64/en-US/firefox-91.0.1esr.tar.bz2 [0m
+[37m             [UNKNOWN] [firefox-esr-bin][91.1.0-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/91.1.0esr/linux-x86_64/en-US/firefox-91.1.0esr.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'florence'[0m
 [37m             [UNKNOWN] [florence][0.6.3-2] No release found for http://sourceforge.net/projects/florence/files/florence/0.6.3/florence-0.6.3.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'fluent-reader-bin'[0m
@@ -212,7 +209,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'obfs4proxy'[0m
 [37m             [UNKNOWN] [obfs4proxy][0.0.11-1] No release found for https://people.torproject.org/~yawning/releases/obfs4proxy/obfs4proxy-0.0.11.tar.xz [0m
   [1;34m->[;1m checking for update for 'obsidian'[0m
-[37m             [UNKNOWN] [obsidian][0.12.12-1] No release found for obsidian [0m
+[37m             [UNKNOWN] [obsidian][0.12.15-1] No release found for obsidian [0m
   [1;34m->[;1m checking for update for 'obs-input-overlay-bin'[0m
 [31m         [OUT-OF-DATE] [obs-input-overlay-bin][v4.8-3] should be updated to 4.8 [0m
   [1;34m->[;1m checking for update for 'obs-plugin-input-overlay-bin'[0m
@@ -287,7 +284,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'python-simber'[0m
 [32m          [UP-TO-DATE] [python-simber][0.2.3-0] matches upstream version 0.2.3 [0m
   [1;34m->[;1m checking for update for 'python-spotdl'[0m
-[31m         [OUT-OF-DATE] [python-spotdl][3.7.2-1] should be updated to 3.8.0 [0m
+[32m          [UP-TO-DATE] [python-spotdl][3.8.0-3] matches upstream version 3.8.0 [0m
   [1;34m->[;1m checking for update for 'python-spotipy'[0m
 [32m          [UP-TO-DATE] [python-spotipy][2.19.0-1] matches upstream version 2.19.0 [0m
   [1;34m->[;1m checking for update for 'python-srt'[0m
@@ -314,7 +311,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'ricochet'[0m
 [37m             [UNKNOWN] [ricochet][1.1.4-2] No release found for https://ricochet.im/releases/1.1.4/ricochet-1.1.4-src.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'robo3t-bin'[0m
-[31m         [OUT-OF-DATE] [robo3t-bin][1.4.3-1] should be updated to 1.4.4 [0m
+[32m          [UP-TO-DATE] [robo3t-bin][1.4.4-1] matches upstream version 1.4.4 [0m
   [1;34m->[;1m checking for update for 'rofi-greenclip'[0m
 [32m          [UP-TO-DATE] [rofi-greenclip][4.2-2] matches upstream version 4.2 [0m
   [1;34m->[;1m checking for update for 'rtags'[0m
@@ -402,6 +399,8 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'xmind'[0m
 [37m             [UNKNOWN] [xmind][3.7.9+8update9-1] No release found for https://www.xmind.net/xmind/downloads/xmind-8-update9-linux.zip [0m
   [1;34m->[;1m checking for update for 'youtube-dl-gui-git'[0m
+  [1;34m->[;1m checking for update for 'yt-dlp'[0m
+[32m          [UP-TO-DATE] [yt-dlp][2021.09.02-1] matches upstream version 2021.09.02 [0m
   [1;34m->[;1m checking for update for 'ytmdl-git'[0m
   [1;34m->[;1m checking for update for 'zoom'[0m
 [37m             [UNKNOWN] [zoom][5.7.6a-1] No release found for zoom-5.7.6a_orig_x86_64.pkg.tar.xz::https://zoom.us/client/5.7.31792.0820/zoom_x86_64.pkg.tar.xz [0m
