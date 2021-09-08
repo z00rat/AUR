@@ -839,3 +839,7 @@
 	path = repos/xinput-gui
 	url = ssh://aur@aur.archlinux.org/xinput-gui.git
 	branch = master
+[submodule "repos/yt-dlp"]
+	path = repos/yt-dlp
+	url = ssh://aur@aur.archlinux.org/yt-dlp.git
+	branch = master
