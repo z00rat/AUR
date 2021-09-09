@@ -1,14 +1,13 @@
   [1;34m->[;1m checking for out-of-date packages[0m
 
   [1;34m->[;1m listing already flaged packages[0m
-alacritty-themes
 aseprite
 maldet
 spicetify-cli
 vrms-arch
   [1;34m->[;1m running pkgoutofdate[0m
-ssh-audit: new version found - 2.4.0 => 2.5.0
 spicetify-cli: new version found - 2.5.0 => 2.6.0
+ssh-audit: new version found - 2.4.0 => 2.5.0
 resvg: new version found - 0.13.0 => 0.13.1
 nomad: new version found - 1.1.1 => 1.1.2
 aseprite: new version found - 1.2.27 => 1.2.28
@@ -16,7 +15,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'advcpmv'[0m
 [37m             [UNKNOWN] [advcpmv][8.32-2] No release found for http://ftp.gnu.org/gnu/coreutils/coreutils-8.32.tar.xz [0m
   [1;34m->[;1m checking for update for 'alacritty-themes'[0m
-[31m         [OUT-OF-DATE] [alacritty-themes][3.1.0-1] should be updated to 4.1.1 [0m
+[32m          [UP-TO-DATE] [alacritty-themes][4.1.1-1] matches upstream version 4.1.1 [0m
   [1;34m->[;1m checking for update for 'ansifilter'[0m
 [37m             [UNKNOWN] [ansifilter][2.18-1] No release found for http://www.andre-simon.de/zip/ansifilter-2.18.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'antibody'[0m
@@ -238,7 +237,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
 [32m          [UP-TO-DATE] [pfetch][0.6.0-3] matches upstream version 0.6.0 [0m
   [1;34m->[;1m checking for update for 'picom-ibhagwan-git'[0m
   [1;34m->[;1m checking for update for 'pikaur'[0m
-[37m             [UNKNOWN] [pikaur][1.7-1] upstream version is 1.6.17 [0m
+[37m             [UNKNOWN] [pikaur][1.8-1] upstream version is 1.6.17 [0m
   [1;34m->[;1m checking for update for 'pipes.sh'[0m
 [32m          [UP-TO-DATE] [pipes.sh][1.3.0-1] matches upstream version 1.3.0 [0m
   [1;34m->[;1m checking for update for 'pkgoutofdate-git'[0m
@@ -297,7 +296,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
 [32m          [UP-TO-DATE] [python-webrtcvad][2.0.10-2] matches upstream version 2.0.10 [0m
   [1;34m->[;1m checking for update for 'python-youtube-search-git'[0m
   [1;34m->[;1m checking for update for 'python-ytmusicapi'[0m
-[32m          [UP-TO-DATE] [python-ytmusicapi][0.19.1-1] matches upstream version 0.19.1 [0m
+[32m          [UP-TO-DATE] [python-ytmusicapi][0.19.2-1] matches upstream version 0.19.2 [0m
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
 [32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][0.12.0-1] matches upstream version 0.12.0 [0m
   [1;34m->[;1m checking for update for 'raven-reader'[0m
@@ -356,7 +355,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'tmpwatch'[0m
 [37m             [UNKNOWN] [tmpwatch][2.11-3] No release found for https://releases.pagure.org/tmpwatch/tmpwatch-2.11.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'tor-browser'[0m
-[37m             [UNKNOWN] [tor-browser][10.5.5-1] No release found for tor-browser.desktop.in [0m
+[37m             [UNKNOWN] [tor-browser][10.5.6-1] No release found for tor-browser.desktop.in [0m
   [1;34m->[;1m checking for update for 'tt-bin'[0m
 [32m          [UP-TO-DATE] [tt-bin][0.4.2-1] matches upstream version 0.4.2 [0m
   [1;34m->[;1m checking for update for 'ttf-anka-coder'[0m
