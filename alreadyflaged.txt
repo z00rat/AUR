@@ -2,3 +2,4 @@ aseprite
 maldet
 spicetify-cli
 vrms-arch
+zoom

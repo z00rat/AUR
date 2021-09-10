@@ -5,10 +5,12 @@ aseprite
 maldet
 spicetify-cli
 vrms-arch
+zoom
   [1;34m->[;1m running pkgoutofdate[0m
-spicetify-cli: new version found - 2.5.0 => 2.6.0
 ssh-audit: new version found - 2.4.0 => 2.5.0
+spicetify-cli: new version found - 2.5.0 => 2.6.0
 resvg: new version found - 0.13.0 => 0.13.1
+opensnitch: new version found - 1.3.6 => 1.4.0
 nomad: new version found - 1.1.1 => 1.1.2
 aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m running aur-out-of-date[0m
@@ -83,7 +85,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'downloader-cli'[0m
 [32m          [UP-TO-DATE] [downloader-cli][0.3.1-0] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'drawio-desktop-bin'[0m
-[32m          [UP-TO-DATE] [drawio-desktop-bin][14.9.6-1] matches upstream version 14.9.6 [0m
+[31m         [OUT-OF-DATE] [drawio-desktop-bin][14.9.6-1] should be updated to 15.1.3 [0m
   [1;34m->[;1m checking for update for 'dry-bin'[0m
 [37m             [UNKNOWN] [dry-bin][0.10-1] upstream version is 0.10-beta.1 [0m
   [1;34m->[;1m checking for update for 'dust-bin'[0m
@@ -204,7 +206,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'nordic-theme'[0m
 [32m          [UP-TO-DATE] [nordic-theme][2.0.0-1] matches upstream version 2.0.0 [0m
   [1;34m->[;1m checking for update for 'notion-app'[0m
-[37m             [UNKNOWN] [notion-app][2.0.16-13] upstream version is 2.0.16-2 [0m
+[37m             [UNKNOWN] [notion-app][2.0.16-13] upstream version is 2.0.16-3 [0m
   [1;34m->[;1m checking for update for 'obfs4proxy'[0m
 [37m             [UNKNOWN] [obfs4proxy][0.0.11-1] No release found for https://people.torproject.org/~yawning/releases/obfs4proxy/obfs4proxy-0.0.11.tar.xz [0m
   [1;34m->[;1m checking for update for 'obsidian'[0m
@@ -355,7 +357,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'tmpwatch'[0m
 [37m             [UNKNOWN] [tmpwatch][2.11-3] No release found for https://releases.pagure.org/tmpwatch/tmpwatch-2.11.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'tor-browser'[0m
-[37m             [UNKNOWN] [tor-browser][10.5.6-1] No release found for tor-browser.desktop.in [0m
+[37m             [UNKNOWN] [tor-browser][10.5.6-2] No release found for tor-browser.desktop.in [0m
   [1;34m->[;1m checking for update for 'tt-bin'[0m
 [32m          [UP-TO-DATE] [tt-bin][0.4.2-1] matches upstream version 0.4.2 [0m
   [1;34m->[;1m checking for update for 'ttf-anka-coder'[0m
