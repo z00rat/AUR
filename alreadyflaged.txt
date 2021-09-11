@@ -1,5 +1,7 @@
 aseprite
+drawio-desktop-bin
 maldet
 spicetify-cli
 vrms-arch
+wttr
 zoom
