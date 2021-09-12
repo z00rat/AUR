@@ -843,3 +843,7 @@
 	path = repos/yt-dlp
 	url = ssh://aur@aur.archlinux.org/yt-dlp.git
 	branch = master
+[submodule "repos/terser"]
+	path = repos/terser
+	url = ssh://aur@aur.archlinux.org/terser.git
+	branch = master
