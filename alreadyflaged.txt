@@ -1,7 +1,7 @@
 aseprite
 drawio-desktop-bin
 maldet
+python-rapidfuzz
 spicetify-cli
 vrms-arch
 wttr
-zoom
