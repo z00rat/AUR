@@ -5,3 +5,4 @@ python-rapidfuzz
 spicetify-cli
 vrms-arch
 wttr
+zoom

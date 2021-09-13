@@ -8,13 +8,13 @@ python-rapidfuzz
 spicetify-cli
 vrms-arch
 wttr
+zoom
   [1;34m->[;1m running pkgoutofdate[0m
 ssh-audit: new version found - 2.4.0 => 2.5.0
 spicetify-cli: new version found - 2.5.0 => 2.6.0
-raven-reader: new version found - 1.0.65 => 1.0.66
 resvg: new version found - 0.13.0 => 0.13.1
-raven-reader-bin: new version found - 1.0.65 => 1.0.66
 nomad: new version found - 1.1.1 => 1.1.2
+gitstatus: new version found - 1.5.2 => 1.5.3
 aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'advcpmv'[0m
@@ -132,7 +132,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'git-sizer'[0m
 [32m          [UP-TO-DATE] [git-sizer][1.4.0-1] matches upstream version 1.4.0 [0m
   [1;34m->[;1m checking for update for 'gitstatus'[0m
-[32m          [UP-TO-DATE] [gitstatus][1.5.2-1] matches upstream version 1.5.2 [0m
+[31m         [OUT-OF-DATE] [gitstatus][1.5.2-1] should be updated to 1.5.3 [0m
   [1;34m->[;1m checking for update for 'gitui-bin'[0m
 [31m         [OUT-OF-DATE] [gitui-bin][0.16.2-1] should be updated to 0.17.1 [0m
   [1;34m->[;1m checking for update for 'glow'[0m
@@ -305,13 +305,13 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
 [32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][0.12.0-1] matches upstream version 0.12.0 [0m
   [1;34m->[;1m checking for update for 'raven-reader'[0m
-[31m         [OUT-OF-DATE] [raven-reader][1.0.65-1] should be updated to 1.0.66 [0m
+[32m          [UP-TO-DATE] [raven-reader][1.0.66-1] matches upstream version 1.0.66 [0m
   [1;34m->[;1m checking for update for 'raven-reader-bin'[0m
-[31m         [OUT-OF-DATE] [raven-reader-bin][1.0.65-1] should be updated to 1.0.66 [0m
+[32m          [UP-TO-DATE] [raven-reader-bin][1.0.66-1] matches upstream version 1.0.66 [0m
   [1;34m->[;1m checking for update for 'rclone-browser'[0m
 [32m          [UP-TO-DATE] [rclone-browser][1.8.0-2] matches upstream version 1.8.0 [0m
   [1;34m->[;1m checking for update for 'resvg'[0m
-[31m         [OUT-OF-DATE] [resvg][0.13.0-1] should be updated to 0.17.0 [0m
+[31m         [OUT-OF-DATE] [resvg][0.13.0-1] should be updated to 0.18.0 [0m
   [1;34m->[;1m checking for update for 'ricochet'[0m
 [37m             [UNKNOWN] [ricochet][1.1.4-2] No release found for https://ricochet.im/releases/1.1.4/ricochet-1.1.4-src.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'robo3t-bin'[0m
