@@ -847,3 +847,7 @@
 	path = repos/terser
 	url = ssh://aur@aur.archlinux.org/terser.git
 	branch = master
+[submodule "repos/aurvote-utils"]
+	path = repos/aurvote-utils
+	url = ssh://aur@aur.archlinux.org/aurvote-utils.git
+	branch = master
