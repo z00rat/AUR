@@ -1,7 +1,9 @@
 aseprite
+cointop
 drawio-desktop-bin
 maldet
 python-rapidfuzz
 spicetify-cli
+terser
 vrms-arch
 wttr
