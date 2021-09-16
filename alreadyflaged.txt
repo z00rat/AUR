@@ -1,8 +1,7 @@
 aseprite
-cointop
 drawio-desktop-bin
+grex
 maldet
-python-rapidfuzz
 spicetify-cli
 terser
 vrms-arch
