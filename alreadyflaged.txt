@@ -1,8 +1,10 @@
 aseprite
+burpsuite
 drawio-desktop-bin
 grex
 maldet
 spicetify-cli
+spotify
 terser
 vrms-arch
 wttr
