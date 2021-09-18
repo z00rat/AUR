@@ -851,3 +851,7 @@
 	path = repos/aurvote-utils
 	url = ssh://aur@aur.archlinux.org/aurvote-utils.git
 	branch = master
+[submodule "repos/lua-format"]
+	path = repos/lua-format
+	url = ssh://aur@aur.archlinux.org/lua-format.git
+	branch = master
