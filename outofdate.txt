@@ -2,7 +2,6 @@
 
   [1;34m->[;1m listing already flaged packages[0m
 aseprite
-drawio-desktop-bin
 grex
 maldet
 spicetify-cli
@@ -10,9 +9,10 @@ spotify
 terser
 vrms-arch
 wttr
+zoom
   [1;34m->[;1m running pkgoutofdate[0m
-spicetify-cli: new version found - 2.5.0 => 2.6.0
 ssh-audit: new version found - 2.4.0 => 2.5.0
+spicetify-cli: new version found - 2.5.0 => 2.6.0
 resvg: new version found - 0.13.0 => 0.13.1
 nomad: new version found - 1.1.1 => 1.1.2
 grex: new version found - 1.2.0 => 1.3.0
@@ -21,7 +21,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'advcpmv'[0m
 [37m             [UNKNOWN] [advcpmv][8.32-2] No release found for http://ftp.gnu.org/gnu/coreutils/coreutils-8.32.tar.xz [0m
   [1;34m->[;1m checking for update for 'alacritty-themes'[0m
-[32m          [UP-TO-DATE] [alacritty-themes][4.1.1-1] matches upstream version 4.1.1 [0m
+[32m          [UP-TO-DATE] [alacritty-themes][4.1.1-2] matches upstream version 4.1.1 [0m
   [1;34m->[;1m checking for update for 'ansifilter'[0m
 [37m             [UNKNOWN] [ansifilter][2.18-1] No release found for http://www.andre-simon.de/zip/ansifilter-2.18.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'antibody'[0m
