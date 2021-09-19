@@ -1,4 +1,4 @@
-pkgs/opencomic-bin/opencomic-bin-*
-pkgs/opencomic-bin/opencomic-bin-*
-pkgs/opencomic-bin/pkg/
-pkgs/opencomic-bin/src/
+pkgs/*/pkg/
+pkgs/*/src/
+pkgs/*/*.tar.zst
+
