@@ -2,8 +2,5 @@ aseprite
 grex
 maldet
 spicetify-cli
-spotify
-terser
 vrms-arch
 wttr
-zoom
