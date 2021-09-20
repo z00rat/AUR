@@ -851,3 +851,7 @@
 	path = repos/lua-format
 	url = ssh://aur@aur.archlinux.org/lua-format.git
 	branch = master
+[submodule "repos/rate-mirrors-bin"]
+	path = repos/rate-mirrors-bin
+	url = ssh://aur@aur.archlinux.org/rate-mirrors-bin.git
+	branch = master
