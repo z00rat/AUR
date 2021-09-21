@@ -855,3 +855,7 @@
 	path = repos/rate-mirrors-bin
 	url = ssh://aur@aur.archlinux.org/rate-mirrors-bin.git
 	branch = master
+[submodule "repos/bashmount"]
+	path = repos/bashmount
+	url = ssh://aur@aur.archlinux.org/bashmount.git
+	branch = master
