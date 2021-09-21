@@ -1,6 +1,8 @@
 aseprite
 grex
 maldet
+python-srt
 spicetify-cli
+spotify
 vrms-arch
 wttr

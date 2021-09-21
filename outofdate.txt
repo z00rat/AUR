@@ -4,7 +4,9 @@
 aseprite
 grex
 maldet
+python-srt
 spicetify-cli
+spotify
 vrms-arch
 wttr
   [1;34m->[;1m running pkgoutofdate[0m
@@ -39,6 +41,8 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'awesome-git'[0m
   [1;34m->[;1m checking for update for 'awmtt'[0m
 [37m             [UNKNOWN] [awmtt][0.5-1] Failed to obtain GitHub release for mikar/awmtt.git from https://api.github.com/repos/mikar/awmtt.git/releases/latest: No GitHub project found for mikar/awmtt.git on https://api.github.com/repos/mikar/awmtt.git/releases/latest [0m
+  [1;34m->[;1m checking for update for 'bashmount'[0m
+[32m          [UP-TO-DATE] [bashmount][4.3.2-1] matches upstream version 4.3.2 [0m
   [1;34m->[;1m checking for update for 'bats'[0m
 [37m             [UNKNOWN] [bats][1.2.0-1] Failed to obtain GitHub release for cdown/bats from https://api.github.com/repos/cdown/bats/releases/latest: No GitHub project found for cdown/bats on https://api.github.com/repos/cdown/bats/releases/latest [0m
   [1;34m->[;1m checking for update for 'betterdiscord'[0m
@@ -162,6 +166,10 @@ aseprite: new version found - 1.2.27 => 1.2.28
 [32m          [UP-TO-DATE] [keeweb-desktop-bin][1.18.7-1] matches upstream version 1.18.7 [0m
   [1;34m->[;1m checking for update for 'lib32-jack'[0m
 [37m             [UNKNOWN] [lib32-jack][0.125.0-4] Failed to obtain GitHub release for jackaudio/jack1.git from https://api.github.com/repos/jackaudio/jack1.git/releases/latest: No GitHub project found for jackaudio/jack1.git on https://api.github.com/repos/jackaudio/jack1.git/releases/latest [0m
+  [1;34m->[;1m checking for update for 'libgbinder'[0m
+[37m             [UNKNOWN] [libgbinder][1.1.11-1] Failed to obtain GitHub release for mer-hybris/libgbinder.git from https://api.github.com/repos/mer-hybris/libgbinder.git/releases/latest: No GitHub project found for mer-hybris/libgbinder.git on https://api.github.com/repos/mer-hybris/libgbinder.git/releases/latest [0m
+  [1;34m->[;1m checking for update for 'libglibutil'[0m
+[37m             [UNKNOWN] [libglibutil][1.0.55-1] No release found for libglibutil::git+https://git.sailfishos.org/mer-core/libglibutil.git#commit=7321c8e782bbe5a679446d9df03d7c22abe8e73b [0m
   [1;34m->[;1m checking for update for 'libuiohook'[0m
 [37m             [UNKNOWN] [libuiohook][1.0.3-5] Failed to obtain GitHub release for kwhat/libuiohook from https://api.github.com/repos/kwhat/libuiohook/releases/latest: No GitHub project found for kwhat/libuiohook on https://api.github.com/repos/kwhat/libuiohook/releases/latest [0m
   [1;34m->[;1m checking for update for 'libva-intel-driver-hybrid'[0m
@@ -206,7 +214,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'noisetorch-bin'[0m
 [32m          [UP-TO-DATE] [noisetorch-bin][0.11.3-1] matches upstream version 0.11.3 [0m
   [1;34m->[;1m checking for update for 'nomad'[0m
-[31m         [OUT-OF-DATE] [nomad][1.1.1-1] should be updated to 1.1.4 [0m
+[31m         [OUT-OF-DATE] [nomad][1.1.1-1] should be updated to 1.1.5 [0m
   [1;34m->[;1m checking for update for 'nordic-theme'[0m
 [32m          [UP-TO-DATE] [nordic-theme][2.0.0-1] matches upstream version 2.0.0 [0m
   [1;34m->[;1m checking for update for 'notion-app'[0m
@@ -270,6 +278,8 @@ aseprite: new version found - 1.2.27 => 1.2.28
 [37m             [UNKNOWN] [python-ffsubsync][0.4.16-2] upstream version is 0.4.11 [0m
   [1;34m->[;1m checking for update for 'python-future-annotations'[0m
 [32m          [UP-TO-DATE] [python-future-annotations][1.0.0-2] matches upstream version 1.0.0 [0m
+  [1;34m->[;1m checking for update for 'python-gbinder'[0m
+[37m             [UNKNOWN] [python-gbinder][1.0.0-1] Failed to obtain GitHub release for erfanoabdi/gbinder-python.git from https://api.github.com/repos/erfanoabdi/gbinder-python.git/releases/latest: No GitHub project found for erfanoabdi/gbinder-python.git on https://api.github.com/repos/erfanoabdi/gbinder-python.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'python-gtts'[0m
 [32m          [UP-TO-DATE] [python-gtts][2.2.3-1] matches upstream version 2.2.3 [0m
   [1;34m->[;1m checking for update for 'python-gtts-token'[0m
@@ -391,6 +401,10 @@ aseprite: new version found - 1.2.27 => 1.2.28
 [37m             [UNKNOWN] [vrms-arch][0.1.0.r25.g802c767-1] Failed to obtain GitHub release for orospakr/vrms-arch.git from https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest: No GitHub project found for orospakr/vrms-arch.git on https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'vscodium-bin'[0m
 [32m          [UP-TO-DATE] [vscodium-bin][1.60.1-3] matches upstream version 1.60.1 [0m
+  [1;34m->[;1m checking for update for 'waydroid'[0m
+[37m             [UNKNOWN] [waydroid][r30.15bbf62-2] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
+  [1;34m->[;1m checking for update for 'waydroid-image'[0m
+[37m             [UNKNOWN] [waydroid-image][17.1_20210913-1] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-17.1-20210913-VANILLA-waydroid_x86_64-system.zip [0m
   [1;34m->[;1m checking for update for 'webtorrent-cli'[0m
 [32m          [UP-TO-DATE] [webtorrent-cli][4.0.0-1] matches upstream version 4.0.0 [0m
   [1;34m->[;1m checking for update for 'webtorrent-desktop-bin'[0m
