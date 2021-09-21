@@ -223,10 +223,6 @@
 	path = repos/obfs4proxy
 	url = ssh://aur@aur.archlinux.org/obfs4proxy.git
 	branch = master
-[submodule "repos/obs-input-overlay-bin"]
-	path = repos/obs-input-overlay-bin
-	url = ssh://aur@aur.archlinux.org/obs-input-overlay-bin.git
-	branch = master
 [submodule "repos/obs-v4l2sink"]
 	path = repos/obs-v4l2sink
 	url = ssh://aur@aur.archlinux.org/obs-v4l2sink.git
