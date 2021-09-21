@@ -387,10 +387,6 @@
 	path = repos/ttf-anka-coder
 	url = ssh://aur@aur.archlinux.org/ttf-anka-coder.git
 	branch = master
-[submodule "repos/ttf-firacode"]
-	path = repos/ttf-firacode
-	url = ssh://aur@aur.archlinux.org/ttf-firacode.git
-	branch = master
 [submodule "repos/ttf-ms-fonts"]
 	path = repos/ttf-ms-fonts
 	url = ssh://aur@aur.archlinux.org/ttf-ms-fonts.git
