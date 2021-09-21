@@ -871,3 +871,7 @@
 	path = repos/python-gbinder
 	url = ssh://aur@aur.archlinux.org/python-gbinder.git
 	branch = master
+[submodule "repos/waydroid"]
+	path = repos/waydroid
+	url = ssh://aur@aur.archlinux.org/waydroid.git
+	branch = master
