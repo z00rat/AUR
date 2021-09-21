@@ -859,3 +859,7 @@
 	path = repos/bashmount
 	url = ssh://aur@aur.archlinux.org/bashmount.git
 	branch = master
+[submodule "repos/libgbinder"]
+	path = repos/libgbinder
+	url = ssh://aur@aur.archlinux.org/libgbinder.git
+	branch = master
