@@ -875,3 +875,7 @@
 	path = repos/waydroid
 	url = ssh://aur@aur.archlinux.org/waydroid.git
 	branch = master
+[submodule "repos/waydroid-image"]
+	path = repos/waydroid-image
+	url = ssh://aur@aur.archlinux.org/waydroid-image.git
+	branch = master
