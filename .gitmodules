@@ -863,3 +863,7 @@
 	path = repos/libgbinder
 	url = ssh://aur@aur.archlinux.org/libgbinder.git
 	branch = master
+[submodule "repos/libglibutil"]
+	path = repos/libglibutil
+	url = ssh://aur@aur.archlinux.org/libglibutil.git
+	branch = master
