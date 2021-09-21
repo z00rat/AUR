@@ -13,7 +13,7 @@ pkgoutofdate -d repos/ #--threads_num 1
 
 msg2 "running aur-out-of-date"
 repolist=$(/usr/bin/ls repos)
-reponum=$(/usr/bin/ls repos | wc -l)
+# reponum=$(/usr/bin/ls repos | wc -l)
 
 for pkgname in $repolist
 do

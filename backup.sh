@@ -2,8 +2,7 @@
 msg2 "copying eveything from repos to pkgs"
 cp -r repos/* pkgs
 
-for gitfile in $(tree -fia pkgs | grep -E ".git$")
-do
+for gitfile in $(tree -fia pkgs | grep -E "\.git$"); do
     msg2 "deleting '$gitfile'"
     rm "$gitfile"
 done

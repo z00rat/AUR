@@ -4,8 +4,7 @@ git submodule status
 echo ""
 pwd=$(pwd)
 
-for pkgname in $(/usr/bin/ls repos)
-do
+for pkgname in $(/usr/bin/ls repos); do
    msg2 "pulling update for '$pkgname' repo"
 
    cd repos/"$pkgname" || exit
@@ -15,4 +14,3 @@ do
 done
 
 msg2 "done cloning."
-

@@ -1,6 +1,5 @@
 #!/bin/bash
-for pkgname in "$@" 
-do
+for pkgname in "$@"; do
    msg2 "cloning AUR repo of '$pkgname'"
 
    cd repos || exit
