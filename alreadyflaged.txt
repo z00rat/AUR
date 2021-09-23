@@ -3,6 +3,6 @@ grex
 maldet
 python-srt
 spicetify-cli
-spotify
+terser
 vrms-arch
 wttr
