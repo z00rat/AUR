@@ -859,3 +859,7 @@
 	path = repos/localepurge
 	url = ssh://aur@aur.archlinux.org/localepurge.git
 	branch = master
+[submodule "repos/simple-mtpfs"]
+	path = repos/simple-mtpfs
+	url = ssh://aur@aur.archlinux.org/simple-mtpfs.git
+	branch = master
