@@ -855,3 +855,7 @@
 	path = repos/waydroid-image
 	url = ssh://aur@aur.archlinux.org/waydroid-image.git
 	branch = master
+[submodule "repos/localepurge"]
+	path = repos/localepurge
+	url = ssh://aur@aur.archlinux.org/localepurge.git
+	branch = master
