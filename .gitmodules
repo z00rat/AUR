@@ -863,3 +863,7 @@
 	path = repos/simple-mtpfs
 	url = ssh://aur@aur.archlinux.org/simple-mtpfs.git
 	branch = master
+[submodule "repos/sirikali"]
+	path = repos/sirikali
+	url = ssh://aur@aur.archlinux.org/sirikali.git
+	branch = master
