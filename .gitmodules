@@ -867,3 +867,7 @@
 	path = repos/sirikali
 	url = ssh://aur@aur.archlinux.org/sirikali.git
 	branch = master
+[submodule "repos/plymouth-theme-arch10"]
+	path = repos/plymouth-theme-arch10
+	url = ssh://aur@aur.archlinux.org/plymouth-theme-arch10.git
+	branch = master
