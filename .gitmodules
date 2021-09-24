@@ -871,3 +871,7 @@
 	path = repos/plymouth-theme-arch10
 	url = ssh://aur@aur.archlinux.org/plymouth-theme-arch10.git
 	branch = master
+[submodule "repos/aur-auto-vote-git"]
+	path = repos/aur-auto-vote-git
+	url = ssh://aur@aur.archlinux.org/aur-auto-vote-git.git
+	branch = master
