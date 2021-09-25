@@ -7,9 +7,11 @@ pwd=$(pwd)
 for pkgname in $(/usr/bin/ls repos); do
    msg2 "pulling update for '$pkgname' repo"
 
-   cd repos/"$pkgname" || exit
+#   cd repos/"$pkgname" || exit
+   pushd repos/"$pkgname" >/dev/null
    git pull | grep -v "Already up to date."
-   cd "$pwd" || exit
+#   cd "$pwd" || exit
+   popd >/dev/null
 
 done
 

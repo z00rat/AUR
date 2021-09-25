@@ -1,6 +1,8 @@
   [1;34m->[;1m number of packags that are 216 tracked[0m
-  [1;34m->[;1m number of packages that are 218 installed[0m
+  [1;34m->[;1m number of packages that are 219 installed[0m
   [1;34m->[;1m packages that are not tracked but installed in the system...[0m
+aur-auto-vote-git
+plymouth-theme-arch10
 plymouth-theme-black-hud-git
 plymouth-theme-blockchain-git
 plymouth-theme-circle-flow-git
@@ -25,6 +27,7 @@ plymouth-theme-seal-3-git
 plymouth-theme-spin-git
 plymouth-theme-square-hud-git
   [1;34m->[;1m packages that are tracked but not installed in the system...[0m
+aurvote-utils
 betterdiscordctl-git
 bibata-cursor-theme
 brave

@@ -3,6 +3,6 @@ grex
 maldet
 python-srt
 spicetify-cli
-terser
 vrms-arch
 wttr
+yt-dlp
