@@ -5,4 +5,3 @@ python-srt
 spicetify-cli
 vrms-arch
 wttr
-yt-dlp

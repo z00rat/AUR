@@ -8,7 +8,6 @@ python-srt
 spicetify-cli
 vrms-arch
 wttr
-yt-dlp
   [1;34m->[;1m running pkgoutofdate[0m
 spicetify-cli: new version found - 2.5.0 => 2.6.0
 resvg: new version found - 0.13.0 => 0.13.1
@@ -301,7 +300,7 @@ advcpmv: new version found - 8.32 => 9.0
 [32m          [UP-TO-DATE] [python-webrtcvad][2.0.10-2] matches upstream version 2.0.10 [0m
   [1;34m->[;1m checking for update for 'python-youtube-search-git'[0m
   [1;34m->[;1m checking for update for 'python-ytmusicapi'[0m
-[31m         [OUT-OF-DATE] [python-ytmusicapi][0.19.2-1] should be updated to 0.19.3 [0m
+[32m          [UP-TO-DATE] [python-ytmusicapi][0.19.3-1] matches upstream version 0.19.3 [0m
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
 [32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][0.12.0-1] matches upstream version 0.12.0 [0m
   [1;34m->[;1m checking for update for 'rate-mirrors-bin'[0m
@@ -412,7 +411,7 @@ advcpmv: new version found - 8.32 => 9.0
 [37m             [UNKNOWN] [xmind][3.7.9+8update9-1] No release found for https://www.xmind.net/xmind/downloads/xmind-8-update9-linux.zip [0m
   [1;34m->[;1m checking for update for 'youtube-dl-gui-git'[0m
   [1;34m->[;1m checking for update for 'yt-dlp'[0m
-[31m         [OUT-OF-DATE] [yt-dlp][2021.09.02-1] should be updated to 2021.09.25 [0m
+[32m          [UP-TO-DATE] [yt-dlp][2021.09.25-1] matches upstream version 2021.09.25 [0m
   [1;34m->[;1m checking for update for 'ytmdl-git'[0m
   [1;34m->[;1m checking for update for 'zoom'[0m
 [37m             [UNKNOWN] [zoom][5.8.0-1] No release found for zoom-5.8.0.16_orig_x86_64.pkg.tar.xz::https://cdn.zoom.us/prod/5.8.0.16/zoom_x86_64.pkg.tar.xz [0m
