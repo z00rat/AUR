@@ -100,7 +100,7 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'electorrent-bin'[0m
 [32m          [UP-TO-DATE] [electorrent-bin][2.7.2-1] matches upstream version 2.7.2 [0m
   [1;34m->[;1m checking for update for 'electronmail-bin'[0m
-[32m          [UP-TO-DATE] [electronmail-bin][4.12.7-1] matches upstream version 4.12.7 [0m
+[37m             [UNKNOWN] [electronmail-bin][4.12.8-1] upstream version is 4.12.7 [0m
   [1;34m->[;1m checking for update for 'exe-thumbnailer'[0m
 [37m             [UNKNOWN] [exe-thumbnailer][0.10.1-1] Failed to obtain GitHub release for exe-thumbnailer/exe-thumbnailer from https://api.github.com/repos/exe-thumbnailer/exe-thumbnailer/releases/latest: No GitHub project found for exe-thumbnailer/exe-thumbnailer on https://api.github.com/repos/exe-thumbnailer/exe-thumbnailer/releases/latest [0m
   [1;34m->[;1m checking for update for 'fakepkg'[0m
@@ -169,7 +169,7 @@ advcpmv: new version found - 8.32 => 9.0
 [37m             [UNKNOWN] [libva-intel-driver-hybrid][2.4.1-1] Failed to obtain GitHub release for intel/intel-vaapi-driver.git from https://api.github.com/repos/intel/intel-vaapi-driver.git/releases/latest: No GitHub project found for intel/intel-vaapi-driver.git on https://api.github.com/repos/intel/intel-vaapi-driver.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'light-git'[0m
   [1;34m->[;1m checking for update for 'localepurge'[0m
-[32m          [UP-TO-DATE] [localepurge][0.7.3.10-0] matches upstream version 0.7.3.10 [0m
+[37m             [UNKNOWN] [localepurge][0.7.3.10-0] No debian release found for localepurge: Get "https://sources.debian.org/api/src/localepurge/": dial tcp 209.87.16.74:443: i/o timeout [0m
   [1;34m->[;1m checking for update for 'losslesscut-bin'[0m
 [32m          [UP-TO-DATE] [losslesscut-bin][3.39.0-1] matches upstream version 3.39.0 [0m
   [1;34m->[;1m checking for update for 'lscolors-git'[0m
@@ -392,9 +392,9 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'vscodium-bin'[0m
 [32m          [UP-TO-DATE] [vscodium-bin][1.60.2-1] matches upstream version 1.60.2 [0m
   [1;34m->[;1m checking for update for 'waydroid'[0m
-[37m             [UNKNOWN] [waydroid][r30.15bbf62-2] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
+[37m             [UNKNOWN] [waydroid][r38.e990576-1] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
-[37m             [UNKNOWN] [waydroid-image][17.1_20210920-1] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-17.1-20210920-VANILLA-waydroid_x86_64-system.zip [0m
+[37m             [UNKNOWN] [waydroid-image][17.1_20210925-1] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-17.1-20210925-VANILLA-waydroid_x86_64-system.zip [0m
   [1;34m->[;1m checking for update for 'webtorrent-cli'[0m
 [32m          [UP-TO-DATE] [webtorrent-cli][4.0.0-1] matches upstream version 4.0.0 [0m
   [1;34m->[;1m checking for update for 'webtorrent-desktop-bin'[0m
