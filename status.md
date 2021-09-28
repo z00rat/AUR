@@ -1,5 +1,5 @@
   [1;34m->[;1m number of packags that are 218 tracked[0m
-  [1;34m->[;1m number of packages that are 219 installed[0m
+  [1;34m->[;1m number of packages that are 215 installed[0m
   [1;34m->[;1m packages that are not tracked but installed in the system...[0m
 plymouth-theme-black-hud-git
 plymouth-theme-blockchain-git
@@ -33,6 +33,8 @@ cointop-bin
 hw-probe
 jmtpfs
 lib32-jack
+libgbinder
+libglibutil
 noisetorch
 nomad
 obs-v4l2sink
@@ -40,11 +42,13 @@ oomox
 opensnitch-git
 popcorntime-bin
 python2-twodict-git
+python-gbinder
 python-gtts-token
 raven-reader-bin
 resvg
 subuser
 surf
 vscodium-bin
+waydroid
 waydroid-image
   [1;34m->[;1m done.[0m
