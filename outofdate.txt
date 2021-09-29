@@ -2,10 +2,10 @@
 
   [1;34m->[;1m listing already flaged packages[0m
 aseprite
-drawio-desktop-bin
+code-features
 grex
 maldet
-python-rapidfuzz
+noisetorch-bin
 python-srt
 spicetify-cli
 vrms-arch
@@ -13,8 +13,8 @@ wttr
   [1;34m->[;1m running pkgoutofdate[0m
 spicetify-cli: new version found - 2.5.0 => 2.6.0
 resvg: new version found - 0.13.0 => 0.13.1
-nomad: new version found - 1.1.1 => 1.1.2
 noisetorch-bin: new version found - 0.11.3 => 0.11.4
+nomad: new version found - 1.1.1 => 1.1.2
 grex: new version found - 1.2.0 => 1.3.0
 aseprite: new version found - 1.2.27 => 1.2.28
 advcpmv: new version found - 8.32 => 9.0
@@ -22,7 +22,7 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'advcpmv'[0m
 [37m             [UNKNOWN] [advcpmv][8.32-2] No release found for http://ftp.gnu.org/gnu/coreutils/coreutils-8.32.tar.xz [0m
   [1;34m->[;1m checking for update for 'alacritty-themes'[0m
-[31m         [OUT-OF-DATE] [alacritty-themes][4.1.2-3] should be updated to 4.1.3 [0m
+[32m          [UP-TO-DATE] [alacritty-themes][4.1.3-1] matches upstream version 4.1.3 [0m
   [1;34m->[;1m checking for update for 'ansifilter'[0m
 [37m             [UNKNOWN] [ansifilter][2.18-1] No release found for http://www.andre-simon.de/zip/ansifilter-2.18.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'antibody'[0m
@@ -93,7 +93,7 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'downloader-cli'[0m
 [32m          [UP-TO-DATE] [downloader-cli][0.3.1-0] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'drawio-desktop-bin'[0m
-[31m         [OUT-OF-DATE] [drawio-desktop-bin][15.3.5-1] should be updated to 15.3.7 [0m
+[32m          [UP-TO-DATE] [drawio-desktop-bin][15.3.8-1] matches upstream version 15.3.8 [0m
   [1;34m->[;1m checking for update for 'dry-bin'[0m
 [37m             [UNKNOWN] [dry-bin][0.10-1] upstream version is 0.10-beta.1 [0m
   [1;34m->[;1m checking for update for 'ebtables'[0m
@@ -286,7 +286,7 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'python-pytube'[0m
 [32m          [UP-TO-DATE] [python-pytube][11.0.1-1] matches upstream version 11.0.1 [0m
   [1;34m->[;1m checking for update for 'python-rapidfuzz'[0m
-[31m         [OUT-OF-DATE] [python-rapidfuzz][1.6.2-1] should be updated to 1.7.0 [0m
+[32m          [UP-TO-DATE] [python-rapidfuzz][1.7.0-1] matches upstream version 1.7.0 [0m
   [1;34m->[;1m checking for update for 'python-requests-futures'[0m
 [32m          [UP-TO-DATE] [python-requests-futures][1.0.0-3] matches upstream version 1.0.0 [0m
   [1;34m->[;1m checking for update for 'python-simber'[0m
@@ -335,7 +335,7 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'speedometer'[0m
 [32m          [UP-TO-DATE] [speedometer][2.8-4] matches upstream version 2.8 [0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
-[31m         [OUT-OF-DATE] [spicetify-cli][2.5.0-1] should be updated to 2.6.6 [0m
+[31m         [OUT-OF-DATE] [spicetify-cli][2.5.0-1] should be updated to 2.6.7 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
 [37m             [UNKNOWN] [spotify][1:1.1.68.632-1] No release found for spotify.protocol [0m
   [1;34m->[;1m checking for update for 'stacer'[0m
@@ -395,7 +395,7 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'vscodium-bin'[0m
 [32m          [UP-TO-DATE] [vscodium-bin][1.60.2-2] matches upstream version 1.60.2 [0m
   [1;34m->[;1m checking for update for 'waydroid'[0m
-[37m             [UNKNOWN] [waydroid][1.1.0-1] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
+[37m             [UNKNOWN] [waydroid][1.1.0-2] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
 [37m             [UNKNOWN] [waydroid-image][17.1_20210928-1] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-17.1-20210928-VANILLA-waydroid_x86_64-system.zip [0m
   [1;34m->[;1m checking for update for 'webtorrent-cli'[0m

@@ -1,8 +1,8 @@
 aseprite
-drawio-desktop-bin
+code-features
 grex
 maldet
-python-rapidfuzz
+noisetorch-bin
 python-srt
 spicetify-cli
 vrms-arch
