@@ -1,6 +1,8 @@
 aseprite
+drawio-desktop-bin
 grex
 maldet
+python-rapidfuzz
 python-srt
 spicetify-cli
 vrms-arch
