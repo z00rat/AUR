@@ -879,3 +879,7 @@
 	path = repos/ttf-twemoji
 	url = ssh://aur@aur.archlinux.org/ttf-twemoji.git
 	branch = master
+[submodule "repos/onioncircuits"]
+	path = repos/onioncircuits
+	url = ssh://aur@aur.archlinux.org/onioncircuits.git
+	branch = master
