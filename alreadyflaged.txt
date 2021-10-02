@@ -4,6 +4,5 @@ grex
 maldet
 noisetorch-bin
 python-srt
-spicetify-cli
 vrms-arch
 wttr

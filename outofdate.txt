@@ -7,16 +7,14 @@ grex
 maldet
 noisetorch-bin
 python-srt
-spicetify-cli
 vrms-arch
 wttr
   [1;34m->[;1m running pkgoutofdate[0m
-spicetify-cli: new version found - 2.5.0 => 2.6.0
 resvg: new version found - 0.13.0 => 0.13.1
-opensnitch: new version found - 1.4.0 => 1.4.1
-nomad: new version found - 1.1.1 => 1.1.2
 noisetorch-bin: new version found - 0.11.3 => 0.11.4
+nomad: new version found - 1.1.1 => 1.1.2
 grex: new version found - 1.2.0 => 1.3.0
+burpsuite: new version found - 2021.8.3 => 2021.8.4
 aseprite: new version found - 1.2.27 => 1.2.28
 advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m running aur-out-of-date[0m
@@ -94,7 +92,7 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'downloader-cli'[0m
 [32m          [UP-TO-DATE] [downloader-cli][0.3.1-0] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'drawio-desktop-bin'[0m
-[32m          [UP-TO-DATE] [drawio-desktop-bin][15.3.8-1] matches upstream version 15.3.8 [0m
+[32m          [UP-TO-DATE] [drawio-desktop-bin][15.4.0-1] matches upstream version 15.4.0 [0m
   [1;34m->[;1m checking for update for 'dry-bin'[0m
 [37m             [UNKNOWN] [dry-bin][0.10-1] upstream version is 0.10-beta.1 [0m
   [1;34m->[;1m checking for update for 'ebtables'[0m
@@ -125,7 +123,7 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'fswatch'[0m
 [32m          [UP-TO-DATE] [fswatch][1.16.0-1] matches upstream version 1.16.0 [0m
   [1;34m->[;1m checking for update for 'gallery-dl'[0m
-[32m          [UP-TO-DATE] [gallery-dl][1.18.4-1] matches upstream version 1.18.4 [0m
+[32m          [UP-TO-DATE] [gallery-dl][1.19.0-1] matches upstream version 1.19.0 [0m
   [1;34m->[;1m checking for update for 'gconf-cleaner'[0m
 [37m             [UNKNOWN] [gconf-cleaner][0.0.3-2] No release found for https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gconf-cleaner/gconf-cleaner-0.0.3.tar.gz [0m
   [1;34m->[;1m checking for update for 'gconf-gtk2'[0m
@@ -204,7 +202,7 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'nodejs-mapscii'[0m
 [32m          [UP-TO-DATE] [nodejs-mapscii][0.3.1-4] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'noisetorch'[0m
-[31m         [OUT-OF-DATE] [noisetorch][0.11.3-1] should be updated to 0.11.4 [0m
+[32m          [UP-TO-DATE] [noisetorch][0.11.4-1] matches upstream version 0.11.4 [0m
   [1;34m->[;1m checking for update for 'noisetorch-bin'[0m
 [31m         [OUT-OF-DATE] [noisetorch-bin][0.11.3-1] should be updated to 0.11.4 [0m
   [1;34m->[;1m checking for update for 'nomad'[0m
@@ -223,12 +221,14 @@ advcpmv: new version found - 8.32 => 9.0
 [32m          [UP-TO-DATE] [obs-v4l2sink][0.1.0-23] matches upstream version 0.1.0 [0m
   [1;34m->[;1m checking for update for 'onedrive-abraunegg'[0m
 [32m          [UP-TO-DATE] [onedrive-abraunegg][2.4.13-1] matches upstream version 2.4.13 [0m
+  [1;34m->[;1m checking for update for 'onioncircuits'[0m
+[32m          [UP-TO-DATE] [onioncircuits][0.7-1] matches upstream version 0.7 [0m
   [1;34m->[;1m checking for update for 'oomox'[0m
 [32m          [UP-TO-DATE] [oomox][1.13.3-1] matches upstream version 1.13.3 [0m
   [1;34m->[;1m checking for update for 'opencomic-bin'[0m
 [32m          [UP-TO-DATE] [opencomic-bin][0.2.1-1] matches upstream version 0.2.1 [0m
   [1;34m->[;1m checking for update for 'opensnitch'[0m
-[31m         [OUT-OF-DATE] [opensnitch][1.4.0-3] should be updated to 1.4.1 [0m
+[32m          [UP-TO-DATE] [opensnitch][1.4.1-2] matches upstream version 1.4.1 [0m
   [1;34m->[;1m checking for update for 'opensnitch-git'[0m
   [1;34m->[;1m checking for update for 'otf-san-francisco'[0m
 [37m             [UNKNOWN] [otf-san-francisco][1:2-1] No release found for SFPro-1.0.zip::https://developer.apple.com/fonts/downloads/SFPro.zip [0m
@@ -336,7 +336,7 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'speedometer'[0m
 [32m          [UP-TO-DATE] [speedometer][2.8-4] matches upstream version 2.8 [0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
-[31m         [OUT-OF-DATE] [spicetify-cli][2.5.0-1] should be updated to 2.6.7 [0m
+[32m          [UP-TO-DATE] [spicetify-cli][2.7.0-1] matches upstream version 2.7.0 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
 [37m             [UNKNOWN] [spotify][1:1.1.68.632-1] No release found for spotify.protocol [0m
   [1;34m->[;1m checking for update for 'stacer'[0m
@@ -398,9 +398,9 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'vscodium-bin'[0m
 [32m          [UP-TO-DATE] [vscodium-bin][1.60.2-2] matches upstream version 1.60.2 [0m
   [1;34m->[;1m checking for update for 'waydroid'[0m
-[37m             [UNKNOWN] [waydroid][1.1.1-1] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
+[37m             [UNKNOWN] [waydroid][1.1.1-2] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
-[37m             [UNKNOWN] [waydroid-image][17.1_20210928-1] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-17.1-20210928-VANILLA-waydroid_x86_64-system.zip [0m
+[37m             [UNKNOWN] [waydroid-image][17.1_20210930-1] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-17.1-20210930-VANILLA-waydroid_x86_64-system.zip [0m
   [1;34m->[;1m checking for update for 'webtorrent-cli'[0m
 [32m          [UP-TO-DATE] [webtorrent-cli][4.0.0-1] matches upstream version 4.0.0 [0m
   [1;34m->[;1m checking for update for 'webtorrent-desktop-bin'[0m
