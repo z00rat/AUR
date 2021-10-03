@@ -887,3 +887,7 @@
 	path = repos/qrcp
 	url = ssh://aur@aur.archlinux.org/qrcp.git
 	branch = master
+[submodule "repos/ttf-vista-fonts"]
+	path = repos/ttf-vista-fonts
+	url = ssh://aur@aur.archlinux.org/ttf-vista-fonts.git
+	branch = master
