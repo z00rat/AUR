@@ -883,3 +883,7 @@
 	path = repos/onioncircuits
 	url = ssh://aur@aur.archlinux.org/onioncircuits.git
 	branch = master
+[submodule "repos/qrcp"]
+	path = repos/qrcp
+	url = ssh://aur@aur.archlinux.org/qrcp.git
+	branch = master
