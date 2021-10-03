@@ -891,3 +891,7 @@
 	path = repos/ttf-vista-fonts
 	url = ssh://aur@aur.archlinux.org/ttf-vista-fonts.git
 	branch = master
+[submodule "repos/fontpreview"]
+	path = repos/fontpreview
+	url = ssh://aur@aur.archlinux.org/fontpreview.git
+	branch = master
