@@ -1,4 +1,5 @@
 aseprite
+burpsuite
 code-features
 grex
 maldet
