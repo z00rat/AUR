@@ -1,9 +1,9 @@
 aseprite
-burpsuite
 code-features
 grex
 maldet
 noisetorch-bin
+python-pysubs2
 python-srt
 vrms-arch
 wttr

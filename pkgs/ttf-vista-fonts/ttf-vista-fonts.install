@@ -1,0 +1,41 @@
+post_install() {
+	rebuild_font_cache
+  echo
+  echo
+	echo "######################################################################"
+	echo "#                                                                    #"
+	echo "# LICENSE AGREEEMENT for ttf-vista-fonts                             #"
+	echo "#                                                                    #"
+	echo "# In accordance to the Microsoft EULA, you are allowed to use these  #"
+	echo "# fonts only if a licensed copy of Windows Vista(tm) or later and/or #"
+	echo "# Microsoft Office 2007(tm) or later is installed on this computer.  #"
+	echo "#                                                                    #"
+	echo "######################################################################"
+	echo
+}
+
+post_upgrade() {
+	rebuild_font_cache
+}
+
+pre_remove() {
+  /bin/true
+}
+
+# arg 1:  the old package version
+post_remove() {
+	rebuild_font_cache
+}
+
+rebuild_font_cache() {
+  echo -n "Rebuilding font cache... "
+  fc-cache /usr/share/fonts/TTF
+  mkfontscale /usr/share/fonts/TTF
+  mkfontdir /usr/share/fonts/TTF
+  echo "done."
+}
+
+op=$1
+shift
+
+$op $*
