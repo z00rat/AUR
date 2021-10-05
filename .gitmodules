@@ -907,3 +907,7 @@
 	path = repos/sndcpy-bin
 	url = ssh://aur@aur.archlinux.org/sndcpy-bin.git
 	branch = master
+[submodule "repos/usbaudio-git"]
+	path = repos/usbaudio-git
+	url = ssh://aur@aur.archlinux.org/usbaudio-git.git
+	branch = master
