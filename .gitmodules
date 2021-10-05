@@ -895,3 +895,7 @@
 	path = repos/fontpreview
 	url = ssh://aur@aur.archlinux.org/fontpreview.git
 	branch = master
+[submodule "repos/python-pynput"]
+	path = repos/python-pynput
+	url = ssh://aur@aur.archlinux.org/python-pynput.git
+	branch = master
