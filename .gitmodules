@@ -915,3 +915,7 @@
 	path = repos/guiscrcpy
 	url = ssh://aur@aur.archlinux.org/guiscrcpy.git
 	branch = master
+[submodule "repos/figlet-fonts"]
+	path = repos/figlet-fonts
+	url = ssh://aur@aur.archlinux.org/figlet-fonts.git
+	branch = master
