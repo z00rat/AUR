@@ -923,3 +923,7 @@
 	path = repos/diceware
 	url = ssh://aur@aur.archlinux.org/diceware.git
 	branch = master
+[submodule "repos/qwinff"]
+	path = repos/qwinff
+	url = ssh://aur@aur.archlinux.org/qwinff.git
+	branch = master
