@@ -919,3 +919,7 @@
 	path = repos/figlet-fonts
 	url = ssh://aur@aur.archlinux.org/figlet-fonts.git
 	branch = master
+[submodule "repos/diceware"]
+	path = repos/diceware
+	url = ssh://aur@aur.archlinux.org/diceware.git
+	branch = master
