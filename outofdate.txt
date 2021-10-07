@@ -10,8 +10,8 @@ python-srt
 vrms-arch
 wttr
   [1;34m->[;1m running pkgoutofdate[0m
+x11docker: new version found - 6.9.0 => 6.10.0
 resvg: new version found - 0.13.0 => 0.13.1
-raven-reader-bin: new version found - 1.0.66 => 1.0.67
 nomad: new version found - 1.1.1 => 1.1.2
 grex: new version found - 1.2.0 => 1.3.0
 aseprite: new version found - 1.2.27 => 1.2.28
@@ -82,6 +82,8 @@ advcpmv: new version found - 8.32 => 9.0
 [32m          [UP-TO-DATE] [ctjs-bin][1.7.0-1] matches upstream version 1.7.0 [0m
   [1;34m->[;1m checking for update for 'debtap'[0m
 [32m          [UP-TO-DATE] [debtap][3.4.2-1] matches upstream version 3.4.2 [0m
+  [1;34m->[;1m checking for update for 'diceware'[0m
+[37m             [UNKNOWN] [diceware][0.9.6-2] Failed to obtain GitHub release for ulif/diceware from https://api.github.com/repos/ulif/diceware/releases/latest: No GitHub project found for ulif/diceware on https://api.github.com/repos/ulif/diceware/releases/latest [0m
   [1;34m->[;1m checking for update for 'direnv'[0m
 [32m          [UP-TO-DATE] [direnv][2.28.0-1] matches upstream version 2.28.0 [0m
   [1;34m->[;1m checking for update for 'discord-chat-exporter-cli'[0m
@@ -229,7 +231,7 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'onioncircuits'[0m
 [32m          [UP-TO-DATE] [onioncircuits][0.7-1] matches upstream version 0.7 [0m
   [1;34m->[;1m checking for update for 'oomox'[0m
-[32m          [UP-TO-DATE] [oomox][1.13.3-1] matches upstream version 1.13.3 [0m
+[31m         [OUT-OF-DATE] [oomox][1.13.3-1] should be updated to 1.14 [0m
   [1;34m->[;1m checking for update for 'opencomic-bin'[0m
 [32m          [UP-TO-DATE] [opencomic-bin][0.2.1-1] matches upstream version 0.2.1 [0m
   [1;34m->[;1m checking for update for 'opensnitch'[0m
@@ -316,12 +318,14 @@ advcpmv: new version found - 8.32 => 9.0
 [32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][0.12.0-1] matches upstream version 0.12.0 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
 [32m          [UP-TO-DATE] [qrcp][0.8.4-1] matches upstream version 0.8.4 [0m
+  [1;34m->[;1m checking for update for 'qwinff'[0m
+[37m             [UNKNOWN] [qwinff][0.2.1-1] No release found for http://sourceforge.net/projects/qwinff/files/release/v0.2.1/qwinff_0.2.1.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'rate-mirrors-bin'[0m
 [32m          [UP-TO-DATE] [rate-mirrors-bin][0.5.1-1] matches upstream version 0.5.1 [0m
   [1;34m->[;1m checking for update for 'raven-reader'[0m
 [32m          [UP-TO-DATE] [raven-reader][1.0.67-1] matches upstream version 1.0.67 [0m
   [1;34m->[;1m checking for update for 'raven-reader-bin'[0m
-[31m         [OUT-OF-DATE] [raven-reader-bin][1.0.66-1] should be updated to 1.0.67 [0m
+[32m          [UP-TO-DATE] [raven-reader-bin][1.0.67-1] matches upstream version 1.0.67 [0m
   [1;34m->[;1m checking for update for 'rclone-browser'[0m
 [32m          [UP-TO-DATE] [rclone-browser][1.8.0-2] matches upstream version 1.8.0 [0m
   [1;34m->[;1m checking for update for 'resvg'[0m
@@ -382,7 +386,7 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'tmpwatch'[0m
 [37m             [UNKNOWN] [tmpwatch][2.11-3] No release found for https://releases.pagure.org/tmpwatch/tmpwatch-2.11.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'tor-browser'[0m
-[37m             [UNKNOWN] [tor-browser][10.5.6-2] No release found for tor-browser.desktop.in [0m
+[37m             [UNKNOWN] [tor-browser][10.5.8-1] No release found for tor-browser.desktop.in [0m
   [1;34m->[;1m checking for update for 'tt-bin'[0m
 [32m          [UP-TO-DATE] [tt-bin][0.4.2-1] matches upstream version 0.4.2 [0m
   [1;34m->[;1m checking for update for 'ttf-anka-coder'[0m
@@ -426,7 +430,7 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'wttr'[0m
 [32m          [UP-TO-DATE] [wttr][1.2.1-2] matches upstream version 1.2.1 [0m
   [1;34m->[;1m checking for update for 'x11docker'[0m
-[32m          [UP-TO-DATE] [x11docker][6.9.0-1] matches upstream version 6.9.0 [0m
+[31m         [OUT-OF-DATE] [x11docker][6.9.0-1] should be updated to 6.10.0 [0m
   [1;34m->[;1m checking for update for 'xinput-gui'[0m
 [32m          [UP-TO-DATE] [xinput-gui][0.3.1-1] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'xmind'[0m

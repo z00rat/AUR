@@ -1,7 +1,7 @@
-  [1;34m->[;1m number of packags that are 228 tracked[0m
-  [1;34m->[;1m number of packages that are 226 installed[0m
+  [1;34m->[;1m number of packags that are 229 tracked[0m
+  [1;34m->[;1m number of packages that are 228 installed[0m
   [1;34m->[;1m packages that are not tracked but installed in the system...[0m
-figlet-fonts
+diceware
 plymouth-theme-black-hud-git
 plymouth-theme-blockchain-git
 plymouth-theme-circle-flow-git
@@ -25,6 +25,7 @@ plymouth-theme-seal-2-git
 plymouth-theme-seal-3-git
 plymouth-theme-spin-git
 plymouth-theme-square-hud-git
+qwinff
   [1;34m->[;1m packages that are tracked but not installed in the system...[0m
 aurvote-utils
 betterdiscordctl-git
