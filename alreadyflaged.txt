@@ -1,8 +1,6 @@
 aseprite
-code-features
 grex
 maldet
-python-pysubs2
 python-srt
 vrms-arch
 wttr
