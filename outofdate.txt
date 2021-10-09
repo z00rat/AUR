@@ -21,7 +21,7 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'ansifilter'[0m
 [37m             [UNKNOWN] [ansifilter][2.18-1] No release found for http://www.andre-simon.de/zip/ansifilter-2.18.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'antibody'[0m
-[32m          [UP-TO-DATE] [antibody][6.1.1-1] matches upstream version 6.1.1 [0m
+[37m             [UNKNOWN] [antibody][6.1.1-1] Failed to obtain GitHub release for getantibody/antibody from https://api.github.com/repos/getantibody/antibody/releases/latest: Get "https://api.github.com/repos/getantibody/antibody/releases/latest": dial tcp: lookup api.github.com: no such host [0m
   [1;34m->[;1m checking for update for 'apg'[0m
 [32m          [UP-TO-DATE] [apg][2.2.3-5] matches upstream version 2.2.3 [0m
   [1;34m->[;1m checking for update for 'archiso-git'[0m
@@ -413,11 +413,11 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'vrms-arch'[0m
 [37m             [UNKNOWN] [vrms-arch][0.1.0.r25.g802c767-1] Failed to obtain GitHub release for orospakr/vrms-arch.git from https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest: No GitHub project found for orospakr/vrms-arch.git on https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'vscodium-bin'[0m
-[32m          [UP-TO-DATE] [vscodium-bin][1.60.2-2] matches upstream version 1.60.2 [0m
+[32m          [UP-TO-DATE] [vscodium-bin][1.61.0-1] matches upstream version 1.61.0 [0m
   [1;34m->[;1m checking for update for 'waydroid'[0m
 [37m             [UNKNOWN] [waydroid][1.1.1-2] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
-[37m             [UNKNOWN] [waydroid-image][17.1_20210930-1] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-17.1-20210930-VANILLA-waydroid_x86_64-system.zip [0m
+[37m             [UNKNOWN] [waydroid-image][17.1_20211007-1] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-17.1-20211007-VANILLA-waydroid_x86_64-system.zip [0m
   [1;34m->[;1m checking for update for 'webtorrent-cli'[0m
 [32m          [UP-TO-DATE] [webtorrent-cli][4.0.0-1] matches upstream version 4.0.0 [0m
   [1;34m->[;1m checking for update for 'webtorrent-desktop-bin'[0m
