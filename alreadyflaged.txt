@@ -4,3 +4,4 @@ maldet
 python-srt
 vrms-arch
 wttr
+yt-dlp

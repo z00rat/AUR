@@ -7,6 +7,7 @@ maldet
 python-srt
 vrms-arch
 wttr
+yt-dlp
   [1;34m->[;1m running pkgoutofdate[0m
 resvg: new version found - 0.13.0 => 0.13.1
 nomad: new version found - 1.1.1 => 1.1.2
@@ -21,7 +22,7 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'ansifilter'[0m
 [37m             [UNKNOWN] [ansifilter][2.18-1] No release found for http://www.andre-simon.de/zip/ansifilter-2.18.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'antibody'[0m
-[37m             [UNKNOWN] [antibody][6.1.1-1] Failed to obtain GitHub release for getantibody/antibody from https://api.github.com/repos/getantibody/antibody/releases/latest: Get "https://api.github.com/repos/getantibody/antibody/releases/latest": dial tcp: lookup api.github.com: no such host [0m
+[32m          [UP-TO-DATE] [antibody][6.1.1-1] matches upstream version 6.1.1 [0m
   [1;34m->[;1m checking for update for 'apg'[0m
 [32m          [UP-TO-DATE] [apg][2.2.3-5] matches upstream version 2.2.3 [0m
   [1;34m->[;1m checking for update for 'archiso-git'[0m
@@ -66,7 +67,7 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'cava'[0m
 [32m          [UP-TO-DATE] [cava][0.7.4-1] matches upstream version 0.7.4 [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
-[31m         [OUT-OF-DATE] [code-features][1.60.2-1] should be updated to 1.61.0 [0m
+[37m             [UNKNOWN] [code-features][1.60.2-1] No release found for code-features.hook [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
 [37m             [UNKNOWN] [code-marketplace][1.54.3-4] No release found for code-marketplace.hook [0m
   [1;34m->[;1m checking for update for 'code-server'[0m
@@ -434,7 +435,7 @@ advcpmv: new version found - 8.32 => 9.0
 [37m             [UNKNOWN] [xmind][3.7.9+8update9-1] No release found for https://www.xmind.net/xmind/downloads/xmind-8-update9-linux.zip [0m
   [1;34m->[;1m checking for update for 'youtube-dl-gui-git'[0m
   [1;34m->[;1m checking for update for 'yt-dlp'[0m
-[32m          [UP-TO-DATE] [yt-dlp][2021.09.25-2] matches upstream version 2021.09.25 [0m
+[31m         [OUT-OF-DATE] [yt-dlp][2021.09.25-2] should be updated to 2021.10.09 [0m
   [1;34m->[;1m checking for update for 'ytmdl-git'[0m
   [1;34m->[;1m checking for update for 'zoom'[0m
 [37m             [UNKNOWN] [zoom][5.8.0-1] No release found for zoom-5.8.0.16_orig_x86_64.pkg.tar.xz::https://cdn.zoom.us/prod/5.8.0.16/zoom_x86_64.pkg.tar.xz [0m
