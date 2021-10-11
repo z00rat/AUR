@@ -927,3 +927,7 @@
 	path = repos/qwinff
 	url = ssh://aur@aur.archlinux.org/qwinff.git
 	branch = master
+[submodule "repos/nodejs-ungit"]
+	path = repos/nodejs-ungit
+	url = ssh://aur@aur.archlinux.org/nodejs-ungit.git
+	branch = master
