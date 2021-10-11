@@ -931,3 +931,7 @@
 	path = repos/nodejs-ungit
 	url = ssh://aur@aur.archlinux.org/nodejs-ungit.git
 	branch = master
+[submodule "repos/activitywatch-bin"]
+	path = repos/activitywatch-bin
+	url = ssh://aur@aur.archlinux.org/activitywatch-bin.git
+	branch = master
