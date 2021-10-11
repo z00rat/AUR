@@ -67,7 +67,7 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'cava'[0m
 [32m          [UP-TO-DATE] [cava][0.7.4-1] matches upstream version 0.7.4 [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
-[37m             [UNKNOWN] [code-features][1.60.2-1] No release found for code-features.hook [0m
+[31m         [OUT-OF-DATE] [code-features][1.60.2-1] should be updated to 1.61.0 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
 [37m             [UNKNOWN] [code-marketplace][1.54.3-4] No release found for code-marketplace.hook [0m
   [1;34m->[;1m checking for update for 'code-server'[0m
@@ -206,6 +206,8 @@ advcpmv: new version found - 8.32 => 9.0
 [32m          [UP-TO-DATE] [nodejs-csso-cli][3.0.0-2] matches upstream version 3.0.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-mapscii'[0m
 [32m          [UP-TO-DATE] [nodejs-mapscii][0.3.1-4] matches upstream version 0.3.1 [0m
+  [1;34m->[;1m checking for update for 'nodejs-ungit'[0m
+[31m         [OUT-OF-DATE] [nodejs-ungit][1.5.17-1] should be updated to 1.5.18 [0m
   [1;34m->[;1m checking for update for 'noisetorch'[0m
 [32m          [UP-TO-DATE] [noisetorch][0.11.4-1] matches upstream version 0.11.4 [0m
   [1;34m->[;1m checking for update for 'noisetorch-bin'[0m
@@ -435,7 +437,7 @@ advcpmv: new version found - 8.32 => 9.0
 [37m             [UNKNOWN] [xmind][3.7.9+8update9-1] No release found for https://www.xmind.net/xmind/downloads/xmind-8-update9-linux.zip [0m
   [1;34m->[;1m checking for update for 'youtube-dl-gui-git'[0m
   [1;34m->[;1m checking for update for 'yt-dlp'[0m
-[31m         [OUT-OF-DATE] [yt-dlp][2021.09.25-2] should be updated to 2021.10.09 [0m
+[31m         [OUT-OF-DATE] [yt-dlp][2021.09.25-2] should be updated to 2021.10.10 [0m
   [1;34m->[;1m checking for update for 'ytmdl-git'[0m
   [1;34m->[;1m checking for update for 'zoom'[0m
 [37m             [UNKNOWN] [zoom][5.8.0-1] No release found for zoom-5.8.0.16_orig_x86_64.pkg.tar.xz::https://cdn.zoom.us/prod/5.8.0.16/zoom_x86_64.pkg.tar.xz [0m
