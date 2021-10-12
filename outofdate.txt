@@ -2,8 +2,10 @@
 
   [1;34m->[;1m listing already flaged packages[0m
 aseprite
+code-features
 grex
 maldet
+nodejs-ungit
 python-srt
 vrms-arch
 wttr
@@ -11,10 +13,14 @@ yt-dlp
   [1;34m->[;1m running pkgoutofdate[0m
 resvg: new version found - 0.13.0 => 0.13.1
 nomad: new version found - 1.1.1 => 1.1.2
+mymonero: new version found - 1.1.24 => 1.2.0
 grex: new version found - 1.2.0 => 1.3.0
+cointop: new version found - 1.6.8 => 1.6.9
 aseprite: new version found - 1.2.27 => 1.2.28
 advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m running aur-out-of-date[0m
+  [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
+[32m          [UP-TO-DATE] [activitywatch-bin][0.11.0-2] matches upstream version 0.11.0 [0m
   [1;34m->[;1m checking for update for 'advcpmv'[0m
 [37m             [UNKNOWN] [advcpmv][8.32-2] No release found for http://ftp.gnu.org/gnu/coreutils/coreutils-8.32.tar.xz [0m
   [1;34m->[;1m checking for update for 'alacritty-themes'[0m
@@ -73,9 +79,9 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'code-server'[0m
 [32m          [UP-TO-DATE] [code-server][3.12.0-0] matches upstream version 3.12.0 [0m
   [1;34m->[;1m checking for update for 'cointop'[0m
-[32m          [UP-TO-DATE] [cointop][1.6.8-1] matches upstream version 1.6.8 [0m
+[31m         [OUT-OF-DATE] [cointop][1.6.8-1] should be updated to 1.6.9 [0m
   [1;34m->[;1m checking for update for 'cointop-bin'[0m
-[32m          [UP-TO-DATE] [cointop-bin][1.6.8-1] matches upstream version 1.6.8 [0m
+[31m         [OUT-OF-DATE] [cointop-bin][1.6.8-1] should be updated to 1.6.9 [0m
   [1;34m->[;1m checking for update for 'ctjs-bin'[0m
 [32m          [UP-TO-DATE] [ctjs-bin][1.7.0-1] matches upstream version 1.7.0 [0m
   [1;34m->[;1m checking for update for 'debtap'[0m
@@ -197,7 +203,7 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'msg2'[0m
 [37m             [UNKNOWN] [msg2][1.2.0-2] No release found for https://roboticoverlords.org/msg2/msg2-1.2.0.tar.xz [0m
   [1;34m->[;1m checking for update for 'mymonero'[0m
-[32m          [UP-TO-DATE] [mymonero][1.1.24-2] matches upstream version 1.1.24 [0m
+[31m         [OUT-OF-DATE] [mymonero][1.1.24-2] should be updated to 1.2.0 [0m
   [1;34m->[;1m checking for update for 'nerd-fonts-source-code-pro'[0m
 [32m          [UP-TO-DATE] [nerd-fonts-source-code-pro][2.1.0-2] matches upstream version 2.1.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-csso'[0m
@@ -259,7 +265,7 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'pm2ml'[0m
 [37m             [UNKNOWN] [pm2ml][2021.8-1] No release found for https://xyne.archlinux.ca/projects/pm2ml/src/pm2ml-2021.8.tar.xz [0m
   [1;34m->[;1m checking for update for 'popcorntime-bin'[0m
-[32m          [UP-TO-DATE] [popcorntime-bin][0.4.5-1] matches upstream version 0.4.5 [0m
+[32m          [UP-TO-DATE] [popcorntime-bin][0.4.6-1] matches upstream version 0.4.6 [0m
   [1;34m->[;1m checking for update for 'powerpill'[0m
 [37m             [UNKNOWN] [powerpill][2020.12.15-2] No release found for https://xyne.archlinux.ca/projects/powerpill/src/powerpill-2020.12.15.tar.xz [0m
   [1;34m->[;1m checking for update for 'python2-twodict-git'[0m

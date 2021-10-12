@@ -1,6 +1,8 @@
 aseprite
+code-features
 grex
 maldet
+nodejs-ungit
 python-srt
 vrms-arch
 wttr
