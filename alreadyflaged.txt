@@ -1,5 +1,4 @@
 aseprite
-code-features
 grex
 maldet
 nodejs-ungit
