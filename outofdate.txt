@@ -5,10 +5,10 @@ aseprite
 grex
 maldet
 nodejs-ungit
+python-fangfrisch
 python-srt
 vrms-arch
 wttr
-yt-dlp
   [1;34m->[;1m running pkgoutofdate[0m
 resvg: new version found - 0.13.0 => 0.13.1
 python-fangfrisch: new version found - 1.4.0 => 1.5.0
@@ -441,7 +441,7 @@ advcpmv: new version found - 8.32 => 9.0
 [37m             [UNKNOWN] [xmind][3.7.9+8update9-1] No release found for https://www.xmind.net/xmind/downloads/xmind-8-update9-linux.zip [0m
   [1;34m->[;1m checking for update for 'youtube-dl-gui-git'[0m
   [1;34m->[;1m checking for update for 'yt-dlp'[0m
-[31m         [OUT-OF-DATE] [yt-dlp][2021.09.25-2] should be updated to 2021.10.10 [0m
+[32m          [UP-TO-DATE] [yt-dlp][2021.10.10-1] matches upstream version 2021.10.10 [0m
   [1;34m->[;1m checking for update for 'ytmdl-git'[0m
   [1;34m->[;1m checking for update for 'zoom'[0m
 [37m             [UNKNOWN] [zoom][5.8.0-1] No release found for zoom-5.8.0.16_orig_x86_64.pkg.tar.xz::https://cdn.zoom.us/prod/5.8.0.16/zoom_x86_64.pkg.tar.xz [0m

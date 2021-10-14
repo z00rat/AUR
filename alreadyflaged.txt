@@ -2,7 +2,7 @@ aseprite
 grex
 maldet
 nodejs-ungit
+python-fangfrisch
 python-srt
 vrms-arch
 wttr
-yt-dlp
