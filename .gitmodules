@@ -935,3 +935,7 @@
 	path = repos/activitywatch-bin
 	url = ssh://aur@aur.archlinux.org/activitywatch-bin.git
 	branch = master
+[submodule "repos/cloudflared-bin"]
+	path = repos/cloudflared-bin
+	url = ssh://aur@aur.archlinux.org/cloudflared-bin.git
+	branch = master
