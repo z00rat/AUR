@@ -1,0 +1,13 @@
+[Unit]
+After=network.target
+Wants=network.target
+
+[Service]
+User=cloudflared
+Group=cloudflared
+Type=simple
+ExecStart=/usr/bin/cloudflared proxy-dns --port 5300
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

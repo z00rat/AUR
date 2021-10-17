@@ -1,6 +1,7 @@
   [1;34m->[;1m number of packags that are 233 tracked[0m
   [1;34m->[;1m number of packages that are 230 installed[0m
   [1;34m->[;1m packages that are not tracked but installed in the system...[0m
+cloudflared-bin
 plymouth-theme-black-hud-git
 plymouth-theme-blockchain-git
 plymouth-theme-circle-flow-git
@@ -30,6 +31,7 @@ betterdiscordctl-git
 bibata-cursor-theme
 brave
 cointop-bin
+git-sizer
 hw-probe
 jmtpfs
 lib32-jack

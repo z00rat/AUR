@@ -68,6 +68,8 @@ advcpmv: new version found - 8.32 => 9.0
 [37m             [UNKNOWN] [burpsuite][2021.8.4-1] No release found for burpsuite-2021.8.4.jar::https://portswigger.net/burp/releases/download?product=community&version=2021.8.4&type=Jar [0m
   [1;34m->[;1m checking for update for 'cava'[0m
 [32m          [UP-TO-DATE] [cava][0.7.4-1] matches upstream version 0.7.4 [0m
+  [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
+[37m             [UNKNOWN] [cloudflared-bin][2021.10.0-1] No release found for https://raw.githubusercontent.com/cloudflare/cloudflared/master/LICENSE [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
 [31m         [OUT-OF-DATE] [code-features][1.61.0-1] should be updated to 1.61.1 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
