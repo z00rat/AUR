@@ -2,9 +2,10 @@
 
   [1;34m->[;1m listing already flaged packages[0m
 aseprite
+betterdiscord-installer
+edex-ui-bin
 grex
 maldet
-nodejs-ungit
 python-srt
 vrms-arch
 wttr
@@ -101,7 +102,7 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'ebtables'[0m
 [37m             [UNKNOWN] [ebtables][2.0.10_4-8] No release found for https://downloads.sourceforge.net/ebtables/ebtables-v2.0.10-4.tar.gz [0m
   [1;34m->[;1m checking for update for 'edex-ui-bin'[0m
-[32m          [UP-TO-DATE] [edex-ui-bin][2.2.7-1] matches upstream version 2.2.7 [0m
+[31m         [OUT-OF-DATE] [edex-ui-bin][2.2.7-1] should be updated to 2.2.8 [0m
   [1;34m->[;1m checking for update for 'electorrent-bin'[0m
 [32m          [UP-TO-DATE] [electorrent-bin][2.7.2-1] matches upstream version 2.7.2 [0m
   [1;34m->[;1m checking for update for 'electronmail-bin'[0m
@@ -211,7 +212,7 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'nodejs-mapscii'[0m
 [32m          [UP-TO-DATE] [nodejs-mapscii][0.3.1-4] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'nodejs-ungit'[0m
-[31m         [OUT-OF-DATE] [nodejs-ungit][1.5.17-1] should be updated to 1.5.18 [0m
+[32m          [UP-TO-DATE] [nodejs-ungit][1.5.18-1] matches upstream version 1.5.18 [0m
   [1;34m->[;1m checking for update for 'noisetorch'[0m
 [32m          [UP-TO-DATE] [noisetorch][0.11.4-1] matches upstream version 0.11.4 [0m
   [1;34m->[;1m checking for update for 'noisetorch-bin'[0m
