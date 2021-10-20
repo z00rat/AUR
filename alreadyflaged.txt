@@ -1,8 +1,8 @@
 aseprite
 betterdiscord-installer
-edex-ui-bin
 grex
 maldet
+obsidian
 python-srt
 vrms-arch
 wttr

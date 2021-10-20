@@ -3,9 +3,9 @@
   [1;34m->[;1m listing already flaged packages[0m
 aseprite
 betterdiscord-installer
-edex-ui-bin
 grex
 maldet
+obsidian
 python-srt
 vrms-arch
 wttr
@@ -50,7 +50,7 @@ advcpmv: new version found - 8.32 => 9.0
 [37m             [UNKNOWN] [bats][1.2.0-1] Failed to obtain GitHub release for cdown/bats from https://api.github.com/repos/cdown/bats/releases/latest: No GitHub project found for cdown/bats on https://api.github.com/repos/cdown/bats/releases/latest [0m
   [1;34m->[;1m checking for update for 'betterdiscordctl-git'[0m
   [1;34m->[;1m checking for update for 'betterdiscord-installer'[0m
-[37m             [UNKNOWN] [betterdiscord-installer][1.0.0.hotfix-2] upstream version is 1.0.0-hotfix [0m
+[31m         [OUT-OF-DATE] [betterdiscord-installer][1.0.0.hotfix-2] should be updated to 1.1.0 [0m
   [1;34m->[;1m checking for update for 'betterlockscreen'[0m
 [32m          [UP-TO-DATE] [betterlockscreen][4.0.3-2] matches upstream version 4.0.3 [0m
   [1;34m->[;1m checking for update for 'bibata-cursor-theme'[0m
@@ -72,7 +72,7 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
 [37m             [UNKNOWN] [cloudflared-bin][2021.10.0-1] No release found for https://raw.githubusercontent.com/cloudflare/cloudflared/master/LICENSE [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
-[31m         [OUT-OF-DATE] [code-features][1.61.0-1] should be updated to 1.61.1 [0m
+[31m         [OUT-OF-DATE] [code-features][1.61.0-1] should be updated to 1.61.2 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
 [37m             [UNKNOWN] [code-marketplace][1.54.3-4] No release found for code-marketplace.hook [0m
   [1;34m->[;1m checking for update for 'code-server'[0m
@@ -80,7 +80,7 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'cointop'[0m
 [32m          [UP-TO-DATE] [cointop][1.6.9-1] matches upstream version 1.6.9 [0m
   [1;34m->[;1m checking for update for 'cointop-bin'[0m
-[31m         [OUT-OF-DATE] [cointop-bin][1.6.8-1] should be updated to 1.6.9 [0m
+[32m          [UP-TO-DATE] [cointop-bin][1.6.9-1] matches upstream version 1.6.9 [0m
   [1;34m->[;1m checking for update for 'ctjs-bin'[0m
 [32m          [UP-TO-DATE] [ctjs-bin][1.7.0-1] matches upstream version 1.7.0 [0m
   [1;34m->[;1m checking for update for 'debtap'[0m
@@ -102,7 +102,7 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'ebtables'[0m
 [37m             [UNKNOWN] [ebtables][2.0.10_4-8] No release found for https://downloads.sourceforge.net/ebtables/ebtables-v2.0.10-4.tar.gz [0m
   [1;34m->[;1m checking for update for 'edex-ui-bin'[0m
-[31m         [OUT-OF-DATE] [edex-ui-bin][2.2.7-1] should be updated to 2.2.8 [0m
+[32m          [UP-TO-DATE] [edex-ui-bin][2.2.8-1] matches upstream version 2.2.8 [0m
   [1;34m->[;1m checking for update for 'electorrent-bin'[0m
 [32m          [UP-TO-DATE] [electorrent-bin][2.7.2-1] matches upstream version 2.7.2 [0m
   [1;34m->[;1m checking for update for 'electronmail-bin'[0m
@@ -145,7 +145,7 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'glow'[0m
 [32m          [UP-TO-DATE] [glow][1.4.1-1] matches upstream version 1.4.1 [0m
   [1;34m->[;1m checking for update for 'google-chrome'[0m
-[37m             [UNKNOWN] [google-chrome][94.0.4606.81-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_94.0.4606.81-1_amd64.deb [0m
+[37m             [UNKNOWN] [google-chrome][95.0.4638.54-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_95.0.4638.54-1_amd64.deb [0m
   [1;34m->[;1m checking for update for 'grex'[0m
 [31m         [OUT-OF-DATE] [grex][1.2.0-1] should be updated to 1.3.0 [0m
   [1;34m->[;1m checking for update for 'guiscrcpy'[0m
@@ -421,9 +421,9 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'vrms-arch'[0m
 [37m             [UNKNOWN] [vrms-arch][0.1.0.r25.g802c767-1] Failed to obtain GitHub release for orospakr/vrms-arch.git from https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest: No GitHub project found for orospakr/vrms-arch.git on https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'vscodium-bin'[0m
-[32m          [UP-TO-DATE] [vscodium-bin][1.61.1-1] matches upstream version 1.61.1 [0m
+[31m         [OUT-OF-DATE] [vscodium-bin][1.61.1-1] should be updated to 1.61.2 [0m
   [1;34m->[;1m checking for update for 'waydroid'[0m
-[37m             [UNKNOWN] [waydroid][1.1.1-2] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
+[37m             [UNKNOWN] [waydroid][1.2.0-1] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
 [37m             [UNKNOWN] [waydroid-image][17.1_20211007-1] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-17.1-20211007-VANILLA-waydroid_x86_64-system.zip [0m
   [1;34m->[;1m checking for update for 'webtorrent-cli'[0m
