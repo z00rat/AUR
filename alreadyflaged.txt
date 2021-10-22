@@ -1,5 +1,4 @@
 aseprite
-betterdiscord-installer
 grex
 maldet
 obsidian
