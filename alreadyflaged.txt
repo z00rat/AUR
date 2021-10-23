@@ -1,7 +1,6 @@
 aseprite
 grex
 maldet
-obsidian
 python-srt
 vrms-arch
 wttr
