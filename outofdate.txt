@@ -8,6 +8,7 @@ python-srt
 vrms-arch
 wttr
   [1;34m->[;1m running pkgoutofdate[0m
+ugrep: new version found - 3.3.7 => 3.3.8
 resvg: new version found - 0.13.0 => 0.13.1
 nomad: new version found - 1.1.1 => 1.1.2
 grex: new version found - 1.2.0 => 1.3.0
@@ -48,7 +49,7 @@ advcpmv: new version found - 8.32 => 9.0
 [37m             [UNKNOWN] [bats][1.2.0-1] Failed to obtain GitHub release for cdown/bats from https://api.github.com/repos/cdown/bats/releases/latest: No GitHub project found for cdown/bats on https://api.github.com/repos/cdown/bats/releases/latest [0m
   [1;34m->[;1m checking for update for 'betterdiscordctl-git'[0m
   [1;34m->[;1m checking for update for 'betterdiscord-installer'[0m
-[32m          [UP-TO-DATE] [betterdiscord-installer][1.1.0-1] matches upstream version 1.1.0 [0m
+[32m          [UP-TO-DATE] [betterdiscord-installer][1.1.1-1] matches upstream version 1.1.1 [0m
   [1;34m->[;1m checking for update for 'betterlockscreen'[0m
 [32m          [UP-TO-DATE] [betterlockscreen][4.0.3-2] matches upstream version 4.0.3 [0m
   [1;34m->[;1m checking for update for 'bibata-cursor-theme'[0m
@@ -168,7 +169,7 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'keeweb-desktop-bin'[0m
 [32m          [UP-TO-DATE] [keeweb-desktop-bin][1.18.7-1] matches upstream version 1.18.7 [0m
   [1;34m->[;1m checking for update for 'lib32-jack'[0m
-[37m             [UNKNOWN] [lib32-jack][0.125.0-4] Failed to obtain GitHub release for jackaudio/jack1.git from https://api.github.com/repos/jackaudio/jack1.git/releases/latest: Get "https://api.github.com/repos/jackaudio/jack1.git/releases/latest": dial tcp: lookup api.github.com: no such host [0m
+[37m             [UNKNOWN] [lib32-jack][0.125.0-4] Failed to obtain GitHub release for jackaudio/jack1.git from https://api.github.com/repos/jackaudio/jack1.git/releases/latest: No GitHub project found for jackaudio/jack1.git on https://api.github.com/repos/jackaudio/jack1.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'libgbinder'[0m
 [37m             [UNKNOWN] [libgbinder][1.1.12-1] Failed to obtain GitHub release for mer-hybris/libgbinder.git from https://api.github.com/repos/mer-hybris/libgbinder.git/releases/latest: No GitHub project found for mer-hybris/libgbinder.git on https://api.github.com/repos/mer-hybris/libgbinder.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'libglibutil'[0m
@@ -305,7 +306,7 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'python-simber'[0m
 [32m          [UP-TO-DATE] [python-simber][0.2.3-0] matches upstream version 0.2.3 [0m
   [1;34m->[;1m checking for update for 'python-spotdl'[0m
-[32m          [UP-TO-DATE] [python-spotdl][3.8.0-3] matches upstream version 3.8.0 [0m
+[31m         [OUT-OF-DATE] [python-spotdl][3.8.0-3] should be updated to 3.9.0 [0m
   [1;34m->[;1m checking for update for 'python-spotipy'[0m
 [32m          [UP-TO-DATE] [python-spotipy][2.19.0-1] matches upstream version 2.19.0 [0m
   [1;34m->[;1m checking for update for 'python-srt'[0m
@@ -409,7 +410,7 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'typora'[0m
 [37m             [UNKNOWN] [typora][0.11.8-2] No release found for https://typora.io/linux/typora_0.11.8_amd64.deb [0m
   [1;34m->[;1m checking for update for 'ugrep'[0m
-[32m          [UP-TO-DATE] [ugrep][3.3.7-1] matches upstream version 3.3.7 [0m
+[31m         [OUT-OF-DATE] [ugrep][3.3.7-1] should be updated to 3.3.8 [0m
   [1;34m->[;1m checking for update for 'usbaudio-git'[0m
   [1;34m->[;1m checking for update for 'vanitygen-git'[0m
   [1;34m->[;1m checking for update for 'vimix-cursors'[0m
