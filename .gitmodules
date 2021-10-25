@@ -939,3 +939,7 @@
 	path = repos/cloudflared-bin
 	url = ssh://aur@aur.archlinux.org/cloudflared-bin.git
 	branch = master
+[submodule "repos/betterdiscord-installer-bin"]
+	path = repos/betterdiscord-installer-bin
+	url = ssh://aur@aur.archlinux.org/betterdiscord-installer-bin.git
+	branch = master
