@@ -1,4 +1,5 @@
 aseprite
+cloudflared-bin
 grex
 maldet
 python-srt
