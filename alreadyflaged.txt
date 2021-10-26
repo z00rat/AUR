@@ -1,6 +1,7 @@
 aseprite
 cloudflared-bin
 grex
+losslesscut-bin
 maldet
 python-srt
 vrms-arch

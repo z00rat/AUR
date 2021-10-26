@@ -1,4 +1,4 @@
-  [1;34m->[;1m number of packags that are 234 tracked[0m
+  [1;34m->[;1m number of packags that are 235 tracked[0m
   [1;34m->[;1m number of packages that are 232 installed[0m
   [1;34m->[;1m packages that are not tracked but installed in the system...[0m
 plymouth-theme-black-hud-git
@@ -28,6 +28,7 @@ zapret-tpws-git
   [1;34m->[;1m packages that are tracked but not installed in the system...[0m
 aurvote-utils
 betterdiscordctl-git
+betterdiscord-installer
 bibata-cursor-theme
 brave
 cointop-bin
