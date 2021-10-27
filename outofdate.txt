@@ -30,7 +30,7 @@ advcpmv: new version found - 8.32 => 9.0
 [32m          [UP-TO-DATE] [apg][2.2.3-5] matches upstream version 2.2.3 [0m
   [1;34m->[;1m checking for update for 'archiso-git'[0m
   [1;34m->[;1m checking for update for 'aseprite'[0m
-[31m         [OUT-OF-DATE] [aseprite][1.2.27-1] should be updated to 1.3-beta6 [0m
+[31m         [OUT-OF-DATE] [aseprite][1.2.27-1] should be updated to 1.3-beta7 [0m
   [1;34m->[;1m checking for update for 'asp-git'[0m
   [1;34m->[;1m checking for update for 'aur-auto-vote-git'[0m
   [1;34m->[;1m checking for update for 'aur-out-of-date'[0m
@@ -50,7 +50,7 @@ advcpmv: new version found - 8.32 => 9.0
 [37m             [UNKNOWN] [bats][1.2.0-1] Failed to obtain GitHub release for cdown/bats from https://api.github.com/repos/cdown/bats/releases/latest: No GitHub project found for cdown/bats on https://api.github.com/repos/cdown/bats/releases/latest [0m
   [1;34m->[;1m checking for update for 'betterdiscordctl-git'[0m
   [1;34m->[;1m checking for update for 'betterdiscord-installer'[0m
-[32m          [UP-TO-DATE] [betterdiscord-installer][1.1.1-1] matches upstream version 1.1.1 [0m
+[32m          [UP-TO-DATE] [betterdiscord-installer][1.1.1-2] matches upstream version 1.1.1 [0m
   [1;34m->[;1m checking for update for 'betterdiscord-installer-bin'[0m
 [32m          [UP-TO-DATE] [betterdiscord-installer-bin][1.1.1-1] matches upstream version 1.1.1 [0m
   [1;34m->[;1m checking for update for 'betterlockscreen'[0m
@@ -68,7 +68,7 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'bubblejail'[0m
 [32m          [UP-TO-DATE] [bubblejail][0.4.2-1] matches upstream version 0.4.2 [0m
   [1;34m->[;1m checking for update for 'burpsuite'[0m
-[37m             [UNKNOWN] [burpsuite][2021.8.4-1] No release found for burpsuite-2021.8.4.jar::https://portswigger.net/burp/releases/download?product=community&version=2021.8.4&type=Jar [0m
+[37m             [UNKNOWN] [burpsuite][2021.9.1-1] No release found for burpsuite-2021.9.1.jar::https://portswigger.net/burp/releases/download?product=community&version=2021.9.1&type=Jar [0m
   [1;34m->[;1m checking for update for 'cava'[0m
 [32m          [UP-TO-DATE] [cava][0.7.4-1] matches upstream version 0.7.4 [0m
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
@@ -309,7 +309,7 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'python-simber'[0m
 [32m          [UP-TO-DATE] [python-simber][0.2.3-0] matches upstream version 0.2.3 [0m
   [1;34m->[;1m checking for update for 'python-spotdl'[0m
-[32m          [UP-TO-DATE] [python-spotdl][3.9.0-1] matches upstream version 3.9.0 [0m
+[32m          [UP-TO-DATE] [python-spotdl][3.9.0-2] matches upstream version 3.9.0 [0m
   [1;34m->[;1m checking for update for 'python-spotipy'[0m
 [32m          [UP-TO-DATE] [python-spotipy][2.19.0-1] matches upstream version 2.19.0 [0m
   [1;34m->[;1m checking for update for 'python-srt'[0m
@@ -393,7 +393,7 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'tmpwatch'[0m
 [37m             [UNKNOWN] [tmpwatch][2.11-3] No release found for https://releases.pagure.org/tmpwatch/tmpwatch-2.11.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'tor-browser'[0m
-[37m             [UNKNOWN] [tor-browser][10.5.8-1] No release found for tor-browser.desktop.in [0m
+[37m             [UNKNOWN] [tor-browser][10.5.10-1] No release found for tor-browser.desktop.in [0m
   [1;34m->[;1m checking for update for 'tt-bin'[0m
 [32m          [UP-TO-DATE] [tt-bin][0.4.2-1] matches upstream version 0.4.2 [0m
   [1;34m->[;1m checking for update for 'ttf-anka-coder'[0m
@@ -423,7 +423,7 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'vrms-arch'[0m
 [37m             [UNKNOWN] [vrms-arch][0.1.0.r25.g802c767-1] Failed to obtain GitHub release for orospakr/vrms-arch.git from https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest: No GitHub project found for orospakr/vrms-arch.git on https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'vscodium-bin'[0m
-[32m          [UP-TO-DATE] [vscodium-bin][1.61.2-1] matches upstream version 1.61.2 [0m
+[32m          [UP-TO-DATE] [vscodium-bin][1.61.2-4] matches upstream version 1.61.2 [0m
   [1;34m->[;1m checking for update for 'waydroid'[0m
 [37m             [UNKNOWN] [waydroid][1.2.0-1] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
