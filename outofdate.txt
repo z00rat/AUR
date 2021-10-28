@@ -303,7 +303,7 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'python-pytube'[0m
 [32m          [UP-TO-DATE] [python-pytube][11.0.1-1] matches upstream version 11.0.1 [0m
   [1;34m->[;1m checking for update for 'python-rapidfuzz'[0m
-[32m          [UP-TO-DATE] [python-rapidfuzz][1.8.1-1] matches upstream version 1.8.1 [0m
+[32m          [UP-TO-DATE] [python-rapidfuzz][1.8.2-1] matches upstream version 1.8.2 [0m
   [1;34m->[;1m checking for update for 'python-requests-futures'[0m
 [32m          [UP-TO-DATE] [python-requests-futures][1.0.0-3] matches upstream version 1.0.0 [0m
   [1;34m->[;1m checking for update for 'python-simber'[0m
@@ -411,7 +411,7 @@ advcpmv: new version found - 8.32 => 9.0
   [1;34m->[;1m checking for update for 'ttyd'[0m
 [32m          [UP-TO-DATE] [ttyd][1.6.3-2] matches upstream version 1.6.3 [0m
   [1;34m->[;1m checking for update for 'typora'[0m
-[37m             [UNKNOWN] [typora][0.11.8-2] No release found for https://typora.io/linux/typora_0.11.8_amd64.deb [0m
+[37m             [UNKNOWN] [typora][0.11.14-1] No release found for https://typora.io/linux/typora_0.11.14_amd64.deb [0m
   [1;34m->[;1m checking for update for 'ugrep'[0m
 [32m          [UP-TO-DATE] [ugrep][3.3.8-1] matches upstream version 3.3.8 [0m
   [1;34m->[;1m checking for update for 'usbaudio-git'[0m
