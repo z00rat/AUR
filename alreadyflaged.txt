@@ -1,5 +1,6 @@
 aseprite
 cloudflared-bin
+dry-bin
 grex
 maldet
 python-srt
