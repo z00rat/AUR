@@ -1,6 +1,7 @@
 aseprite
 cloudflared-bin
 dry-bin
+firefox-esr-bin
 grex
 maldet
 python-srt
