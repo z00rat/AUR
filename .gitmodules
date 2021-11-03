@@ -943,3 +943,7 @@
 	path = repos/betterdiscord-installer-bin
 	url = ssh://aur@aur.archlinux.org/betterdiscord-installer-bin.git
 	branch = master
+[submodule "repos/retroshare"]
+	path = repos/retroshare
+	url = ssh://aur@aur.archlinux.org/retroshare.git
+	branch = master
