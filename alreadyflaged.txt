@@ -3,7 +3,6 @@ burpsuite
 dry-bin
 grex
 maldet
-opensnitch
 python-srt
 vrms-arch
 wttr

@@ -6,13 +6,11 @@ burpsuite
 dry-bin
 grex
 maldet
-opensnitch
 python-srt
 vrms-arch
 wttr
   [1;34m->[;1m running pkgoutofdate[0m
 resvg: new version found - 0.13.0 => 0.13.1
-opensnitch: new version found - 1.4.1 => 1.4.2
 nomad: new version found - 1.1.1 => 1.1.2
 grex: new version found - 1.2.0 => 1.3.0
 aseprite: new version found - 1.2.27 => 1.2.28
@@ -134,7 +132,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'fswatch'[0m
 [32m          [UP-TO-DATE] [fswatch][1.16.0-1] matches upstream version 1.16.0 [0m
   [1;34m->[;1m checking for update for 'gallery-dl'[0m
-[32m          [UP-TO-DATE] [gallery-dl][1.19.1-1] matches upstream version 1.19.1 [0m
+[32m          [UP-TO-DATE] [gallery-dl][1.19.2-1] matches upstream version 1.19.2 [0m
   [1;34m->[;1m checking for update for 'gconf-cleaner'[0m
 [37m             [UNKNOWN] [gconf-cleaner][0.0.3-2] No release found for https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gconf-cleaner/gconf-cleaner-0.0.3.tar.gz [0m
   [1;34m->[;1m checking for update for 'gconf-gtk2'[0m
@@ -152,11 +150,11 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'grex'[0m
 [31m         [OUT-OF-DATE] [grex][1.2.0-1] should be updated to 1.3.0 [0m
   [1;34m->[;1m checking for update for 'guiscrcpy'[0m
-[37m             [UNKNOWN] [guiscrcpy][4.10.0-1] Failed to obtain GitHub release for srevinsaju/guiscrcpy.git from https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest: Get "https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest": dial tcp: lookup api.github.com: no such host [0m
+[37m             [UNKNOWN] [guiscrcpy][4.10.0-1] Failed to obtain GitHub release for srevinsaju/guiscrcpy.git from https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest: No GitHub project found for srevinsaju/guiscrcpy.git on https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'hakuneko-desktop'[0m
 [32m          [UP-TO-DATE] [hakuneko-desktop][6.1.7-1] matches upstream version 6.1.7 [0m
   [1;34m->[;1m checking for update for 'heroku-cli-bin'[0m
-[37m             [UNKNOWN] [heroku-cli-bin][7.59.0-1] Failed to obtain GitHub release for SampsonCrowley/heroku-cli-bin from https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest: Get "https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest": dial tcp: lookup api.github.com: no such host [0m
+[37m             [UNKNOWN] [heroku-cli-bin][7.59.0-1] Failed to obtain GitHub release for SampsonCrowley/heroku-cli-bin from https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest: No GitHub project found for SampsonCrowley/heroku-cli-bin on https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest [0m
   [1;34m->[;1m checking for update for 'hollywood'[0m
 [37m             [UNKNOWN] [hollywood][1.21-6] No release found for hollywood-1.21.tar.gz::https://launchpad.net/hollywood/trunk/1.21/+download/hollywood_1.21.orig.tar.gz [0m
   [1;34m->[;1m checking for update for 'hw-probe'[0m
@@ -243,7 +241,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'opencomic-bin'[0m
 [32m          [UP-TO-DATE] [opencomic-bin][0.2.1-1] matches upstream version 0.2.1 [0m
   [1;34m->[;1m checking for update for 'opensnitch'[0m
-[31m         [OUT-OF-DATE] [opensnitch][1.4.1-2] should be updated to 1.4.2 [0m
+[32m          [UP-TO-DATE] [opensnitch][1.4.2-1] matches upstream version 1.4.2 [0m
   [1;34m->[;1m checking for update for 'opensnitch-git'[0m
   [1;34m->[;1m checking for update for 'otf-san-francisco'[0m
 [37m             [UNKNOWN] [otf-san-francisco][1:2-1] No release found for SFPro-1.0.zip::https://developer.apple.com/fonts/downloads/SFPro.zip [0m
