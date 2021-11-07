@@ -1,5 +1,6 @@
 aseprite
 burpsuite
+cloudflared-bin
 dry-bin
 grex
 maldet
