@@ -947,3 +947,7 @@
 	path = repos/retroshare
 	url = ssh://aur@aur.archlinux.org/retroshare.git
 	branch = master
+[submodule "repos/ddd"]
+	path = repos/ddd
+	url = ssh://aur@aur.archlinux.org/ddd.git
+	branch = master
