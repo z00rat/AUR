@@ -6,5 +6,6 @@ dry-bin
 grex
 maldet
 python-srt
+tor-browser
 vrms-arch
 wttr
