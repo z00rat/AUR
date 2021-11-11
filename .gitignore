@@ -2,3 +2,5 @@ pkgs/*/pkg/
 pkgs/*/src/
 pkgs/*/*.tar.zst
 
+kill/var-cache-pacman-pkg
+kill/pre-build-aur-pkgs
