@@ -1,0 +1,1 @@
+/bin/ls packages/ > names
