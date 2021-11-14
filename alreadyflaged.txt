@@ -4,6 +4,7 @@ cloudflared-bin
 cointop
 dry-bin
 grex
+losslesscut-bin
 maldet
 python-srt
 vrms-arch
