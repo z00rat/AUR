@@ -2,7 +2,6 @@
 
   [1;34m->[;1m listing already flaged packages[0m
 aseprite
-burpsuite
 cloudflared-bin
 cointop
 dry-bin
@@ -71,7 +70,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'bubblejail'[0m
 [32m          [UP-TO-DATE] [bubblejail][0.4.2-1] matches upstream version 0.4.2 [0m
   [1;34m->[;1m checking for update for 'burpsuite'[0m
-[37m             [UNKNOWN] [burpsuite][2021.9.1-1] No release found for burpsuite-2021.9.1.jar::https://portswigger.net/burp/releases/download?product=community&version=2021.9.1&type=Jar [0m
+[37m             [UNKNOWN] [burpsuite][2021.10.1-1] No release found for burpsuite-2021.10.1.jar::https://portswigger.net/burp/releases/download?product=community&version=2021.10.1&type=Jar [0m
   [1;34m->[;1m checking for update for 'cava'[0m
 [32m          [UP-TO-DATE] [cava][0.7.4-1] matches upstream version 0.7.4 [0m
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
@@ -100,6 +99,8 @@ aseprite: new version found - 1.2.27 => 1.2.28
 [32m          [UP-TO-DATE] [discord-chat-exporter-cli][2.30.1-1] matches upstream version 2.30.1 [0m
   [1;34m->[;1m checking for update for 'discord-ptb'[0m
 [37m             [UNKNOWN] [discord-ptb][0.0.26-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.26/discord-ptb-0.0.26.tar.gz [0m
+  [1;34m->[;1m checking for update for 'dive'[0m
+[32m          [UP-TO-DATE] [dive][0.10.0-1] matches upstream version 0.10.0 [0m
   [1;34m->[;1m checking for update for 'downloader-cli'[0m
 [32m          [UP-TO-DATE] [downloader-cli][0.3.2-1] matches upstream version 0.3.2 [0m
   [1;34m->[;1m checking for update for 'drawio-desktop-bin'[0m
@@ -144,7 +145,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'gconf-gtk2'[0m
 [37m             [UNKNOWN] [gconf-gtk2][3.2.6-5] No release found for https://download.gnome.org/sources/GConf/3.2/GConf-3.2.6.tar.xz [0m
   [1;34m->[;1m checking for update for 'gitify-bin'[0m
-[32m          [UP-TO-DATE] [gitify-bin][4.3.0-1] matches upstream version 4.3.0 [0m
+[32m          [UP-TO-DATE] [gitify-bin][4.3.1-1] matches upstream version 4.3.1 [0m
   [1;34m->[;1m checking for update for 'git-sizer'[0m
 [32m          [UP-TO-DATE] [git-sizer][1.4.0-1] matches upstream version 1.4.0 [0m
   [1;34m->[;1m checking for update for 'gitstatus'[0m
@@ -152,7 +153,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'glow'[0m
 [32m          [UP-TO-DATE] [glow][1.4.1-1] matches upstream version 1.4.1 [0m
   [1;34m->[;1m checking for update for 'google-chrome'[0m
-[37m             [UNKNOWN] [google-chrome][95.0.4638.69-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_95.0.4638.69-1_amd64.deb [0m
+[37m             [UNKNOWN] [google-chrome][96.0.4664.45-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_96.0.4664.45-1_amd64.deb [0m
   [1;34m->[;1m checking for update for 'grex'[0m
 [31m         [OUT-OF-DATE] [grex][1.2.0-1] should be updated to 1.3.0 [0m
   [1;34m->[;1m checking for update for 'guiscrcpy'[0m
@@ -382,7 +383,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'svg-term-cli'[0m
 [37m             [UNKNOWN] [svg-term-cli][2.1.1-1] No release found for svg-term-cli: %!w(<nil>) [0m
   [1;34m->[;1m checking for update for 'terser'[0m
-[32m          [UP-TO-DATE] [terser][5.9.0-1] matches upstream version 5.9.0 [0m
+[31m         [OUT-OF-DATE] [terser][5.9.0-1] should be updated to 5.10.0 [0m
   [1;34m->[;1m checking for update for 'themix-export-spotify-git'[0m
   [1;34m->[;1m checking for update for 'themix-full-git'[0m
   [1;34m->[;1m checking for update for 'themix-gui-git'[0m
@@ -400,7 +401,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'tmpwatch'[0m
 [37m             [UNKNOWN] [tmpwatch][2.11-3] No release found for https://releases.pagure.org/tmpwatch/tmpwatch-2.11.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'tor-browser'[0m
-[37m             [UNKNOWN] [tor-browser][11.0-1] No release found for tor-browser.desktop.in [0m
+[37m             [UNKNOWN] [tor-browser][11.0.1-1] No release found for tor-browser.desktop.in [0m
   [1;34m->[;1m checking for update for 'tt-bin'[0m
 [32m          [UP-TO-DATE] [tt-bin][0.4.2-1] matches upstream version 0.4.2 [0m
   [1;34m->[;1m checking for update for 'ttf-anka-coder'[0m
@@ -418,7 +419,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'ttyd'[0m
 [32m          [UP-TO-DATE] [ttyd][1.6.3-2] matches upstream version 1.6.3 [0m
   [1;34m->[;1m checking for update for 'typora'[0m
-[37m             [UNKNOWN] [typora][0.11.14-1] No release found for https://typora.io/linux/typora_0.11.14_amd64.deb [0m
+[37m             [UNKNOWN] [typora][0.11.16-1] No release found for https://typora.io/linux/typora_0.11.16_amd64.deb [0m
   [1;34m->[;1m checking for update for 'ugrep'[0m
 [32m          [UP-TO-DATE] [ugrep][3.3.8-1] matches upstream version 3.3.8 [0m
   [1;34m->[;1m checking for update for 'usbaudio-git'[0m
@@ -452,5 +453,5 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'youtube-dl-gui-git'[0m
   [1;34m->[;1m checking for update for 'ytmdl-git'[0m
   [1;34m->[;1m checking for update for 'zoom'[0m
-[37m             [UNKNOWN] [zoom][5.8.3-1] No release found for zoom-5.8.3.145_orig_x86_64.pkg.tar.xz::https://cdn.zoom.us/prod/5.8.3.145/zoom_x86_64.pkg.tar.xz [0m
+[37m             [UNKNOWN] [zoom][5.8.4-1] No release found for zoom-5.8.4.210_orig_x86_64.pkg.tar.xz::https://cdn.zoom.us/prod/5.8.4.210/zoom_x86_64.pkg.tar.xz [0m
   [1;34m->[;1m done.[0m
