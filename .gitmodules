@@ -947,3 +947,7 @@
 	path = repos/ddd
 	url = ssh://aur@aur.archlinux.org/ddd.git
 	branch = master
+[submodule "repos/dive"]
+	path = repos/dive
+	url = ssh://aur@aur.archlinux.org/dive.git
+	branch = master
