@@ -6,5 +6,6 @@ grex
 losslesscut-bin
 maldet
 python-srt
+terser
 vrms-arch
 wttr
