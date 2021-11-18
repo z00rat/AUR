@@ -2,7 +2,6 @@
 
   [1;34m->[;1m listing already flaged packages[0m
 aseprite
-cloudflared-bin
 cointop
 dry-bin
 grex
@@ -17,6 +16,7 @@ resvg: new version found - 0.13.0 => 0.13.1
 nomad: new version found - 1.1.1 => 1.1.2
 grex: new version found - 1.2.0 => 1.3.0
 git-sizer: new version found - 1.4.0 => 1.5.0
+electorrent-bin: new version found - 2.7.2 => 2.7.3
 cointop: new version found - 1.6.9 => 1.6.10
 aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m running aur-out-of-date[0m
@@ -76,7 +76,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'cava'[0m
 [32m          [UP-TO-DATE] [cava][0.7.4-1] matches upstream version 0.7.4 [0m
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
-[37m             [UNKNOWN] [cloudflared-bin][2021.10.5-1] No release found for https://raw.githubusercontent.com/cloudflare/cloudflared/master/LICENSE [0m
+[37m             [UNKNOWN] [cloudflared-bin][2021.11.0-1] No release found for https://raw.githubusercontent.com/cloudflare/cloudflared/master/LICENSE [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
 [31m         [OUT-OF-DATE] [code-features][1.62.0-1] should be updated to 1.62.2 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
@@ -114,7 +114,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'edex-ui-bin'[0m
 [32m          [UP-TO-DATE] [edex-ui-bin][2.2.8-1] matches upstream version 2.2.8 [0m
   [1;34m->[;1m checking for update for 'electorrent-bin'[0m
-[32m          [UP-TO-DATE] [electorrent-bin][2.7.2-1] matches upstream version 2.7.2 [0m
+[31m         [OUT-OF-DATE] [electorrent-bin][2.7.2-1] should be updated to 2.7.3 [0m
   [1;34m->[;1m checking for update for 'electronmail-bin'[0m
 [32m          [UP-TO-DATE] [electronmail-bin][4.13.0-1] matches upstream version 4.13.0 [0m
   [1;34m->[;1m checking for update for 'exe-thumbnailer'[0m
@@ -272,18 +272,18 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'plymouth-theme-arch10'[0m
 [32m          [UP-TO-DATE] [plymouth-theme-arch10][1-1] matches upstream version 1 [0m
   [1;34m->[;1m checking for update for 'pm2ml'[0m
-[37m             [UNKNOWN] [pm2ml][2021.8-1] No release found for https://xyne.archlinux.ca/projects/pm2ml/src/pm2ml-2021.8.tar.xz [0m
+[37m             [UNKNOWN] [pm2ml][2021.8-2] No release found for https://xyne.mirrorrepo.com/projects/pm2ml/src/pm2ml-2021.8.tar.xz [0m
   [1;34m->[;1m checking for update for 'popcorntime-bin'[0m
 [32m          [UP-TO-DATE] [popcorntime-bin][0.4.6-1] matches upstream version 0.4.6 [0m
   [1;34m->[;1m checking for update for 'powerpill'[0m
-[37m             [UNKNOWN] [powerpill][2020.12.15-2] No release found for https://xyne.archlinux.ca/projects/powerpill/src/powerpill-2020.12.15.tar.xz [0m
+[37m             [UNKNOWN] [powerpill][2021-1] No release found for https://xyne.mirrorrepo.com/projects/powerpill/src/powerpill-2021.tar.xz [0m
   [1;34m->[;1m checking for update for 'python2-twodict-git'[0m
   [1;34m->[;1m checking for update for 'python3-memoizedb'[0m
-[37m             [UNKNOWN] [python3-memoizedb][2017.3.30-5] No release found for https://xyne.archlinux.ca/projects/python3-memoizedb/src/python3-memoizedb-2017.3.30.tar.xz [0m
+[37m             [UNKNOWN] [python3-memoizedb][2017.3.30-6] No release found for https://xyne.mirrorrepo.com/projects/python3-memoizedb/src/python3-memoizedb-2017.3.30.tar.xz [0m
   [1;34m->[;1m checking for update for 'python3-xcgf'[0m
-[37m             [UNKNOWN] [python3-xcgf][2017.3-5] No release found for https://xyne.archlinux.ca/projects/python3-xcgf/src/python3-xcgf-2017.3.tar.xz [0m
+[37m             [UNKNOWN] [python3-xcgf][2017.3-6] No release found for https://xyne.mirrorrepo.com/projects/python3-xcgf/src/python3-xcgf-2017.3.tar.xz [0m
   [1;34m->[;1m checking for update for 'python3-xcpf'[0m
-[37m             [UNKNOWN] [python3-xcpf][2021-1] No release found for https://xyne.archlinux.ca/projects/python3-xcpf/src/python3-xcpf-2021.tar.xz [0m
+[37m             [UNKNOWN] [python3-xcpf][2021-2] No release found for https://xyne.mirrorrepo.com/projects/python3-xcpf/src/python3-xcpf-2021.tar.xz [0m
   [1;34m->[;1m checking for update for 'python-auditok'[0m
 [32m          [UP-TO-DATE] [python-auditok][0.2.0-1] matches upstream version 0.2.0 [0m
   [1;34m->[;1m checking for update for 'python-fangfrisch'[0m
@@ -421,7 +421,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'ttyd'[0m
 [32m          [UP-TO-DATE] [ttyd][1.6.3-2] matches upstream version 1.6.3 [0m
   [1;34m->[;1m checking for update for 'typora'[0m
-[37m             [UNKNOWN] [typora][0.11.16-1] No release found for https://typora.io/linux/typora_0.11.16_amd64.deb [0m
+[37m             [UNKNOWN] [typora][0.11.18-1] No release found for https://typora.io/linux/typora_0.11.18_amd64.deb [0m
   [1;34m->[;1m checking for update for 'ugrep'[0m
 [32m          [UP-TO-DATE] [ugrep][3.3.8-1] matches upstream version 3.3.8 [0m
   [1;34m->[;1m checking for update for 'usbaudio-git'[0m

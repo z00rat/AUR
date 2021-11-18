@@ -1,5 +1,4 @@
 aseprite
-cloudflared-bin
 cointop
 dry-bin
 grex
