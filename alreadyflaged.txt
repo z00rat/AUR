@@ -1,8 +1,10 @@
 aseprite
+aurutils
 cointop
 dry-bin
+electorrent-bin
 grex
-losslesscut-bin
+heroku-cli-bin
 maldet
 python-srt
 terser
