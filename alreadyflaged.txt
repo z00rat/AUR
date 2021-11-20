@@ -7,6 +7,6 @@ grex
 heroku-cli-bin
 maldet
 python-srt
-terser
+spicetify-cli
 vrms-arch
 wttr
