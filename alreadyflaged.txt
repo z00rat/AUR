@@ -1,11 +1,11 @@
 aseprite
 aurutils
-cointop
 dry-bin
 electorrent-bin
 grex
 heroku-cli-bin
 maldet
+nordic-theme
 python-srt
 vrms-arch
 wttr
