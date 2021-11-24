@@ -13,7 +13,9 @@ python-srt
 vrms-arch
 wttr
   [1;34m->[;1m running pkgoutofdate[0m
-nomad: new version found - 1.1.1 => 1.1.2
+opensnitch: new version found - 1.4.2 => 1.4.3
+onedrive-abraunegg: new version found - 2.4.13 => 2.4.14
+hydroxide: new version found - 0.2.20 => 0.2.21
 grex: new version found - 1.2.0 => 1.3.0
 electorrent-bin: new version found - 2.7.2 => 2.7.3
 aseprite: new version found - 1.2.27 => 1.2.28
@@ -104,7 +106,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'downloader-cli'[0m
 [32m          [UP-TO-DATE] [downloader-cli][0.3.2-1] matches upstream version 0.3.2 [0m
   [1;34m->[;1m checking for update for 'drawio-desktop-bin'[0m
-[32m          [UP-TO-DATE] [drawio-desktop-bin][15.7.3-1] matches upstream version 15.7.3 [0m
+[31m         [OUT-OF-DATE] [drawio-desktop-bin][15.7.3-1] should be updated to 15.8.4 [0m
   [1;34m->[;1m checking for update for 'dry-bin'[0m
 [31m         [OUT-OF-DATE] [dry-bin][0.10-1] should be updated to 0.11.1 [0m
   [1;34m->[;1m checking for update for 'ebtables'[0m
@@ -165,7 +167,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'hw-probe'[0m
 [32m          [UP-TO-DATE] [hw-probe][1.6-1] matches upstream version 1.6 [0m
   [1;34m->[;1m checking for update for 'hydroxide'[0m
-[32m          [UP-TO-DATE] [hydroxide][0.2.20-1] matches upstream version 0.2.20 [0m
+[31m         [OUT-OF-DATE] [hydroxide][0.2.20-1] should be updated to 0.2.21 [0m
   [1;34m->[;1m checking for update for 'i3lock-color'[0m
 [32m          [UP-TO-DATE] [i3lock-color][2.13.c.4-1] matches upstream version 2.13.c.4 [0m
   [1;34m->[;1m checking for update for 'ibus-avro-git'[0m
@@ -223,8 +225,6 @@ aseprite: new version found - 1.2.27 => 1.2.28
 [32m          [UP-TO-DATE] [noisetorch][0.11.4-1] matches upstream version 0.11.4 [0m
   [1;34m->[;1m checking for update for 'noisetorch-bin'[0m
 [32m          [UP-TO-DATE] [noisetorch-bin][0.11.4-2] matches upstream version 0.11.4 [0m
-  [1;34m->[;1m checking for update for 'nomad'[0m
-[31m         [OUT-OF-DATE] [nomad][1.1.1-1] should be updated to 1.2.1 [0m
   [1;34m->[;1m checking for update for 'nordic-theme'[0m
 [31m         [OUT-OF-DATE] [nordic-theme][2.0.0-1] should be updated to 2.1.0 [0m
   [1;34m->[;1m checking for update for 'notion-app'[0m
@@ -238,7 +238,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'obs-v4l2sink'[0m
 [32m          [UP-TO-DATE] [obs-v4l2sink][0.1.0-23] matches upstream version 0.1.0 [0m
   [1;34m->[;1m checking for update for 'onedrive-abraunegg'[0m
-[32m          [UP-TO-DATE] [onedrive-abraunegg][2.4.13-1] matches upstream version 2.4.13 [0m
+[31m         [OUT-OF-DATE] [onedrive-abraunegg][2.4.13-1] should be updated to 2.4.14 [0m
   [1;34m->[;1m checking for update for 'onioncircuits'[0m
 [32m          [UP-TO-DATE] [onioncircuits][0.7-1] matches upstream version 0.7 [0m
   [1;34m->[;1m checking for update for 'oomox'[0m
@@ -409,7 +409,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'ttf-twemoji'[0m
 [32m          [UP-TO-DATE] [ttf-twemoji][13.1.0-1] matches upstream version 13.1.0 [0m
   [1;34m->[;1m checking for update for 'ttf-typicons'[0m
-[37m             [UNKNOWN] [ttf-typicons][2.1.2-1] Failed to obtain GitHub release for stephenhutchings/typicons.font from https://api.github.com/repos/stephenhutchings/typicons.font/releases/latest: Get "https://api.github.com/repos/stephenhutchings/typicons.font/releases/latest": dial tcp: lookup api.github.com: no such host [0m
+[32m          [UP-TO-DATE] [ttf-typicons][2.1.2-1] matches upstream version 2.1.2 [0m
   [1;34m->[;1m checking for update for 'ttf-vista-fonts'[0m
 [37m             [UNKNOWN] [ttf-vista-fonts][1-11] No release found for ttf-vista-fonts.cab::https://web.archive.org/web/20171225132744/http://download.microsoft.com/download/E/6/7/E675FFFC-2A6D-4AB0-B3EB-27C9F8C8F696/PowerPointViewer.exe [0m
   [1;34m->[;1m checking for update for 'tty-clock'[0m
