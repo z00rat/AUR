@@ -4,8 +4,9 @@ dry-bin
 electorrent-bin
 grex
 heroku-cli-bin
-maldet
+hydroxide
 nordic-theme
+onedrive-abraunegg
 python-srt
 vrms-arch
 wttr
