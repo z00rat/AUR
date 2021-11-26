@@ -2,9 +2,11 @@ aseprite
 aurutils
 dry-bin
 electorrent-bin
+fsearch-git
 grex
 heroku-cli-bin
 hydroxide
+mergerfs
 nordic-theme
 onedrive-abraunegg
 python-srt
