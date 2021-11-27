@@ -37,7 +37,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
 [32m          [UP-TO-DATE] [apg][2.2.3-5] matches upstream version 2.2.3 [0m
   [1;34m->[;1m checking for update for 'archiso-git'[0m
   [1;34m->[;1m checking for update for 'aseprite'[0m
-[31m         [OUT-OF-DATE] [aseprite][1.2.27-1] should be updated to 1.3-beta7 [0m
+[37m             [UNKNOWN] [aseprite][1.2.27-1] Failed to obtain GitHub release for aseprite/aseprite from https://api.github.com/repos/aseprite/aseprite/releases/latest: Get "https://api.github.com/repos/aseprite/aseprite/releases/latest": dial tcp: lookup api.github.com: no such host [0m
   [1;34m->[;1m checking for update for 'asp-git'[0m
   [1;34m->[;1m checking for update for 'aur-auto-vote-git'[0m
   [1;34m->[;1m checking for update for 'aur-out-of-date'[0m
@@ -183,9 +183,9 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'lib32-jack'[0m
 [37m             [UNKNOWN] [lib32-jack][0.125.0-4] Failed to obtain GitHub release for jackaudio/jack1.git from https://api.github.com/repos/jackaudio/jack1.git/releases/latest: No GitHub project found for jackaudio/jack1.git on https://api.github.com/repos/jackaudio/jack1.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'libgbinder'[0m
-[37m             [UNKNOWN] [libgbinder][1.1.13-1] Failed to obtain GitHub release for mer-hybris/libgbinder.git from https://api.github.com/repos/mer-hybris/libgbinder.git/releases/latest: No GitHub project found for mer-hybris/libgbinder.git on https://api.github.com/repos/mer-hybris/libgbinder.git/releases/latest [0m
+[37m             [UNKNOWN] [libgbinder][1.1.14-1] Failed to obtain GitHub release for mer-hybris/libgbinder.git from https://api.github.com/repos/mer-hybris/libgbinder.git/releases/latest: No GitHub project found for mer-hybris/libgbinder.git on https://api.github.com/repos/mer-hybris/libgbinder.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'libglibutil'[0m
-[37m             [UNKNOWN] [libglibutil][1.0.56-1] Failed to obtain GitHub release for sailfishos/libglibutil.git from https://api.github.com/repos/sailfishos/libglibutil.git/releases/latest: No GitHub project found for sailfishos/libglibutil.git on https://api.github.com/repos/sailfishos/libglibutil.git/releases/latest [0m
+[37m             [UNKNOWN] [libglibutil][1.0.61-1] Failed to obtain GitHub release for sailfishos/libglibutil.git from https://api.github.com/repos/sailfishos/libglibutil.git/releases/latest: No GitHub project found for sailfishos/libglibutil.git on https://api.github.com/repos/sailfishos/libglibutil.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'libuiohook'[0m
 [37m             [UNKNOWN] [libuiohook][1.0.3-5] Failed to obtain GitHub release for kwhat/libuiohook from https://api.github.com/repos/kwhat/libuiohook/releases/latest: No GitHub project found for kwhat/libuiohook on https://api.github.com/repos/kwhat/libuiohook/releases/latest [0m
   [1;34m->[;1m checking for update for 'libva-intel-driver-hybrid'[0m
@@ -420,7 +420,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'ttyd'[0m
 [32m          [UP-TO-DATE] [ttyd][1.6.3-2] matches upstream version 1.6.3 [0m
   [1;34m->[;1m checking for update for 'typora'[0m
-[37m             [UNKNOWN] [typora][0.11.18-1] No release found for https://typora.io/linux/typora_0.11.18_amd64.deb [0m
+[37m             [UNKNOWN] [typora][1.0.0-1] No release found for https://typora.io/linux/typora_1.0.0_amd64.deb [0m
   [1;34m->[;1m checking for update for 'ugrep'[0m
 [32m          [UP-TO-DATE] [ugrep][3.3.8-1] matches upstream version 3.3.8 [0m
   [1;34m->[;1m checking for update for 'usbaudio-git'[0m
