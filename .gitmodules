@@ -943,3 +943,7 @@
 	path = repos/dive
 	url = ssh://aur@aur.archlinux.org/dive.git
 	branch = master
+[submodule "repos/imhex"]
+	path = repos/imhex
+	url = ssh://aur@aur.archlinux.org/imhex.git
+	branch = master
