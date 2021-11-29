@@ -4,7 +4,6 @@ dry-bin
 electorrent-bin
 grex
 heroku-cli-bin
-mergerfs
 nordic-theme
 onedrive-abraunegg
 python-srt
