@@ -947,3 +947,7 @@
 	path = repos/imhex
 	url = ssh://aur@aur.archlinux.org/imhex.git
 	branch = master
+[submodule "repos/nodejs-npm2arch"]
+	path = repos/nodejs-npm2arch
+	url = ssh://aur@aur.archlinux.org/nodejs-npm2arch.git
+	branch = master
