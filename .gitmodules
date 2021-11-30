@@ -951,3 +951,7 @@
 	path = repos/nodejs-npm2arch
 	url = ssh://aur@aur.archlinux.org/nodejs-npm2arch.git
 	branch = master
+[submodule "repos/readability-cli"]
+	path = repos/readability-cli
+	url = ssh://aur@aur.archlinux.org/readability-cli.git
+	branch = master
