@@ -1,7 +1,7 @@
-  [1;34m->[;1m number of packags that are 235 tracked[0m
-  [1;34m->[;1m number of packages that are 235 installed[0m
+  [1;34m->[;1m number of packags that are 236 tracked[0m
+  [1;34m->[;1m number of packages that are 237 installed[0m
   [1;34m->[;1m packages that are not tracked but installed in the system...[0m
-imhex
+nodejs-npm2arch
 plymouth-theme-black-hud-git
 plymouth-theme-blockchain-git
 plymouth-theme-circle-flow-git
@@ -25,6 +25,7 @@ plymouth-theme-seal-2-git
 plymouth-theme-seal-3-git
 plymouth-theme-spin-git
 plymouth-theme-square-hud-git
+readability-cli
 zapret-tpws-git
   [1;34m->[;1m packages that are tracked but not installed in the system...[0m
 aurvote-utils

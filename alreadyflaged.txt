@@ -5,7 +5,6 @@ electorrent-bin
 grex
 heroku-cli-bin
 nordic-theme
-onedrive-abraunegg
 python-srt
 vrms-arch
 wttr
