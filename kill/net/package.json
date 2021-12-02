@@ -1,0 +1,6 @@
+{
+	"dependencies": {
+		"flat": "^5.0.2",
+		"prettyjson": "^1.2.1"
+	}
+}
