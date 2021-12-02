@@ -1,10 +1,9 @@
 aseprite
-aurutils
 dry-bin
-electorrent-bin
 grex
 heroku-cli-bin
 nordic-theme
 python-srt
+spotify
 vrms-arch
 wttr
