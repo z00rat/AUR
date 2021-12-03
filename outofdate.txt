@@ -11,8 +11,10 @@ spotify
 vrms-arch
 wttr
   [1;34m->[;1m running pkgoutofdate[0m
+ugrep: new version found - 3.3.9 => 3.3.10
 grex: new version found - 1.2.0 => 1.3.0
 electorrent-bin: new version found - 2.7.2 => 2.7.3
+burpsuite: new version found - 2021.10.2 => 2021.10.3
 aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
@@ -20,7 +22,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'advcpmv'[0m
 [37m             [UNKNOWN] [advcpmv][9.0-2] No release found for http://ftp.gnu.org/gnu/coreutils/coreutils-9.0.tar.xz [0m
   [1;34m->[;1m checking for update for 'alacritty-themes'[0m
-[32m          [UP-TO-DATE] [alacritty-themes][4.1.6-1] matches upstream version 4.1.6 [0m
+[32m          [UP-TO-DATE] [alacritty-themes][4.1.6-2] matches upstream version 4.1.6 [0m
   [1;34m->[;1m checking for update for 'ansifilter'[0m
 [37m             [UNKNOWN] [ansifilter][2.18-1] No release found for http://www.andre-simon.de/zip/ansifilter-2.18.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'antibody'[0m
@@ -51,7 +53,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'betterdiscord-installer'[0m
 [32m          [UP-TO-DATE] [betterdiscord-installer][1.1.1-2] matches upstream version 1.1.1 [0m
   [1;34m->[;1m checking for update for 'betterdiscord-installer-bin'[0m
-[32m          [UP-TO-DATE] [betterdiscord-installer-bin][1.1.1-1] matches upstream version 1.1.1 [0m
+[32m          [UP-TO-DATE] [betterdiscord-installer-bin][1.1.1-2] matches upstream version 1.1.1 [0m
   [1;34m->[;1m checking for update for 'betterlockscreen'[0m
 [32m          [UP-TO-DATE] [betterlockscreen][4.0.3-2] matches upstream version 4.0.3 [0m
   [1;34m->[;1m checking for update for 'bibata-cursor-theme'[0m
@@ -127,7 +129,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'florence'[0m
 [37m             [UNKNOWN] [florence][0.6.3-2] No release found for http://sourceforge.net/projects/florence/files/florence/0.6.3/florence-0.6.3.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'fluent-reader-bin'[0m
-[32m          [UP-TO-DATE] [fluent-reader-bin][1.0.2-1] matches upstream version 1.0.2 [0m
+[32m          [UP-TO-DATE] [fluent-reader-bin][1.0.2-2] matches upstream version 1.0.2 [0m
   [1;34m->[;1m checking for update for 'fontpreview'[0m
 [37m             [UNKNOWN] [fontpreview][1.0.6-2] Failed to obtain GitHub release for sdushantha/fontpreview from https://api.github.com/repos/sdushantha/fontpreview/releases/latest: No GitHub project found for sdushantha/fontpreview on https://api.github.com/repos/sdushantha/fontpreview/releases/latest [0m
   [1;34m->[;1m checking for update for 'fsearch-git'[0m
@@ -204,7 +206,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'msg2'[0m
 [37m             [UNKNOWN] [msg2][1.2.0-2] No release found for https://roboticoverlords.org/msg2/msg2-1.2.0.tar.xz [0m
   [1;34m->[;1m checking for update for 'mymonero'[0m
-[37m             [UNKNOWN] [mymonero][1.2.1-1] Failed to obtain GitHub release for mymonero/mymonero-app-js from https://api.github.com/repos/mymonero/mymonero-app-js/releases/latest: Get "https://api.github.com/repos/mymonero/mymonero-app-js/releases/latest": dial tcp: lookup api.github.com: no such host [0m
+[32m          [UP-TO-DATE] [mymonero][1.2.1-2] matches upstream version 1.2.1 [0m
   [1;34m->[;1m checking for update for 'nerd-fonts-source-code-pro'[0m
 [32m          [UP-TO-DATE] [nerd-fonts-source-code-pro][2.1.0-2] matches upstream version 2.1.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-csso'[0m
@@ -240,7 +242,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'oomox'[0m
 [31m         [OUT-OF-DATE] [oomox][1.13.3-1] should be updated to 1.14 [0m
   [1;34m->[;1m checking for update for 'opencomic-bin'[0m
-[32m          [UP-TO-DATE] [opencomic-bin][0.2.1-1] matches upstream version 0.2.1 [0m
+[32m          [UP-TO-DATE] [opencomic-bin][0.2.1-3] matches upstream version 0.2.1 [0m
   [1;34m->[;1m checking for update for 'opensnitch'[0m
 [32m          [UP-TO-DATE] [opensnitch][1.4.3-1] matches upstream version 1.4.3 [0m
   [1;34m->[;1m checking for update for 'opensnitch-git'[0m
@@ -309,7 +311,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'python-simber'[0m
 [32m          [UP-TO-DATE] [python-simber][0.2.3-0] matches upstream version 0.2.3 [0m
   [1;34m->[;1m checking for update for 'python-spotdl'[0m
-[32m          [UP-TO-DATE] [python-spotdl][3.9.0-3] matches upstream version 3.9.0 [0m
+[32m          [UP-TO-DATE] [python-spotdl][3.9.0-5] matches upstream version 3.9.0 [0m
   [1;34m->[;1m checking for update for 'python-spotipy'[0m
 [32m          [UP-TO-DATE] [python-spotipy][2.19.0-1] matches upstream version 2.19.0 [0m
   [1;34m->[;1m checking for update for 'python-srt'[0m
@@ -320,7 +322,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
 [32m          [UP-TO-DATE] [python-webrtcvad][2.0.10-2] matches upstream version 2.0.10 [0m
   [1;34m->[;1m checking for update for 'python-youtube-search-git'[0m
   [1;34m->[;1m checking for update for 'python-ytmusicapi'[0m
-[31m         [OUT-OF-DATE] [python-ytmusicapi][0.19.4-1] should be updated to 0.19.5 [0m
+[32m          [UP-TO-DATE] [python-ytmusicapi][0.19.5-1] matches upstream version 0.19.5 [0m
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
 [32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][0.15.0-1] matches upstream version 0.15.0 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
@@ -417,7 +419,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'typora'[0m
 [37m             [UNKNOWN] [typora][1.0.2-1] No release found for https://typora.io/linux/typora_1.0.2_amd64.deb [0m
   [1;34m->[;1m checking for update for 'ugrep'[0m
-[32m          [UP-TO-DATE] [ugrep][3.3.9-1] matches upstream version 3.3.9 [0m
+[31m         [OUT-OF-DATE] [ugrep][3.3.9-1] should be updated to 3.3.10 [0m
   [1;34m->[;1m checking for update for 'usbaudio-git'[0m
   [1;34m->[;1m checking for update for 'vanitygen-git'[0m
   [1;34m->[;1m checking for update for 'vimix-cursors'[0m
