@@ -967,3 +967,7 @@
 	path = repos/pnpm
 	url = ssh://aur@aur.archlinux.org/pnpm.git
 	branch = master
+[submodule "repos/nodejs-autocannon"]
+	path = repos/nodejs-autocannon
+	url = ssh://aur@aur.archlinux.org/nodejs-autocannon.git
+	branch = master
