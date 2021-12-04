@@ -971,3 +971,7 @@
 	path = repos/nodejs-autocannon
 	url = ssh://aur@aur.archlinux.org/nodejs-autocannon.git
 	branch = master
+[submodule "repos/nodejs-clinic"]
+	path = repos/nodejs-clinic
+	url = ssh://aur@aur.archlinux.org/nodejs-clinic.git
+	branch = master
