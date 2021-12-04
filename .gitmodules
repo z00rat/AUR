@@ -983,3 +983,7 @@
 	path = repos/webtorrent-bittorrent-tracker
 	url = ssh://aur@aur.archlinux.org/webtorrent-bittorrent-tracker.git
 	branch = master
+[submodule "repos/ezshare"]
+	path = repos/ezshare
+	url = ssh://aur@aur.archlinux.org/ezshare.git
+	branch = master
