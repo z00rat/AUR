@@ -955,3 +955,7 @@
 	path = repos/csslint
 	url = ssh://aur@aur.archlinux.org/csslint.git
 	branch = master
+[submodule "repos/mpck"]
+	path = repos/mpck
+	url = ssh://aur@aur.archlinux.org/mpck.git
+	branch = master
