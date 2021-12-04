@@ -979,3 +979,7 @@
 	path = repos/parse-torrent
 	url = ssh://aur@aur.archlinux.org/parse-torrent.git
 	branch = master
+[submodule "repos/webtorrent-bittorrent-tracker"]
+	path = repos/webtorrent-bittorrent-tracker
+	url = ssh://aur@aur.archlinux.org/webtorrent-bittorrent-tracker.git
+	branch = master
