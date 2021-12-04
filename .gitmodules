@@ -959,3 +959,7 @@
 	path = repos/mpck
 	url = ssh://aur@aur.archlinux.org/mpck.git
 	branch = master
+[submodule "repos/nodejs-nodemon"]
+	path = repos/nodejs-nodemon
+	url = ssh://aur@aur.archlinux.org/nodejs-nodemon.git
+	branch = master
