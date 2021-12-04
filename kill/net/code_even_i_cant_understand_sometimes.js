@@ -1,6 +1,7 @@
 const flatten = require('flat');
 const unflatten = require('flat').unflatten;
-var prettyjson = require('prettyjson');
+const prettyjson = require('prettyjson');
+const moment = require('moment');
 const fs = require('fs');
 function freeze(time) {
     const stop = new Date().getTime() + time;
@@ -31,15 +32,25 @@ pkgNames = Array.from(new Set(pkgNames));
 
 let matches = [];
 PKGS.forEach(pkg => {
+    // console.log(pkg);
     // var reg = new RegExp('ros-indigo*');
     // var reg = new RegExp('ttf-');
     // var reg = new RegExp('otf-');
-    // var reg = new RegExp('python2-');
-    var reg = new RegExp('font');
+    var reg = new RegExp('python2-');
+    // var reg = new RegExp('font');
+    // var reg = new RegExp('xorg-server');
     if (pkg.Name.toString().match(reg)) {
-        // if (pkg.Maintainer == null)
+        if (pkg.Maintainer == null)
             matches.push(pkg);
     }
+
+    // if(pkg.Depends)
+    //   if(pkg.Depends.includes("gtk2"))
+    //     matches.push(pkg);
+    //
+    // if(pkg.MakeDepends)
+    //   if(pkg.MakeDepends.includes("gtk2"))
+    //     matches.push(pkg);
 });
 // console.log("Number of packages: " + matches.length);
 // console.log(JSON.stringify(matches));
@@ -221,9 +232,36 @@ matches.forEach(pkg => {
 
 
     // let lm_date = ;
+    infos["Votes"] = pkg.NumVotes;
+    infos["Popularity"] = pkg.Popularity;
     infos["Last Modified"] = new Date((pkg.LastModified * 1000)).toUTCString();
-    if (pkg.OutOfDate != null)
-        infos["Flagged out-of-date"] = new Date((pkg.OutOfDate * 1000)).toUTCString();
+    infos["Last Modified"] = infos["Last Modified"] + "  (" + moment((pkg.LastModified * 1000)).fromNow() + ")  ";
+    if (pkg.OutOfDate != null){
+      infos["Flagged out-of-date"] = new Date((pkg.OutOfDate * 1000)).toUTCString();
+      infos["Flagged out-of-date"] = infos["Flagged out-of-date"] + "  (" + moment((pkg.OutOfDate * 1000)).fromNow() + ")  ";
+    }
+    var depnum = 0;
+    var makedepnum = 0;
+    var optdepnum = 0;
+    PKGS.forEach(pkgg => {
+      console.log(pkgg);
+
+      // var prov = formate_dep(pkg.Provides);
+
+      if(pkgg.Depends)
+        if(pkgg.Depends.includes(pkg.Name))
+          depnum++;
+
+      if(pkgg.MakeDepends)
+        if(pkgg.MakeDepends.includes(pkg.Name))
+          makedepnum++;
+
+      if(pkgg.OptDepends)
+        if(pkgg.OptDepends.includes(pkg.Name))
+          optdepnum++;
+    });
+    infos["Required by"] = depnum + ", " + makedepnum + " (make), " + optdepnum + " (optional)"
+
     // console.log("\n\n\n");
     // console.log(JSON.stringify(the_report, null, 2));
     // console.log(prettyjson.render(infos));
@@ -244,7 +282,7 @@ matches.forEach(pkg => {
     // console.log(flatten_the_report)
 
     let b4_push = {};
-    // if (the_report["___broken_deps___"] && !infos["Flagged out-of-date"]) {
+    // if (the_report["___broken_deps___"] && infos["Flagged out-of-date"]) {
     if (the_report["___broken_deps___"]) {
         // b4_push.name = pkg.Name;
         // b4_push.broken_dependencies = the_report["___broken_deps___"];
@@ -253,9 +291,10 @@ matches.forEach(pkg => {
         // report.push(b4_push);
         // console.log("\n\n\nreport for \'" + pkg.Name + "\':");
         console.log("\n\nhttps://aur.archlinux.org/packages/" + pkg.Name + "/");
+        console.log("https://aur.archlinux.org/pkgbase/" + pkg.PackageBase + "/request/");
 
         console.log(prettyjson.render(infos));
-
+        // console.log(pkg);
     }
 });
 // console.log(JSON.stringify(info));

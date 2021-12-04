@@ -1,8 +1,10 @@
 aseprite
 dry-bin
-grex
 heroku-cli-bin
+nodejs-nodemon
 nordic-theme
+paru-bin
+pnpm
 python-srt
 spotify
 vrms-arch
