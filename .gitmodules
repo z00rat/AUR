@@ -975,3 +975,7 @@
 	path = repos/nodejs-clinic
 	url = ssh://aur@aur.archlinux.org/nodejs-clinic.git
 	branch = master
+[submodule "repos/parse-torrent"]
+	path = repos/parse-torrent
+	url = ssh://aur@aur.archlinux.org/parse-torrent.git
+	branch = master
