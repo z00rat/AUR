@@ -951,3 +951,7 @@
 	path = repos/readability-cli
 	url = ssh://aur@aur.archlinux.org/readability-cli.git
 	branch = master
+[submodule "repos/csslint"]
+	path = repos/csslint
+	url = ssh://aur@aur.archlinux.org/csslint.git
+	branch = master
