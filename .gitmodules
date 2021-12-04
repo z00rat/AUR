@@ -963,3 +963,7 @@
 	path = repos/nodejs-nodemon
 	url = ssh://aur@aur.archlinux.org/nodejs-nodemon.git
 	branch = master
+[submodule "repos/pnpm"]
+	path = repos/pnpm
+	url = ssh://aur@aur.archlinux.org/pnpm.git
+	branch = master
