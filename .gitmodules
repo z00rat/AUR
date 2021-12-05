@@ -987,3 +987,7 @@
 	path = repos/ezshare
 	url = ssh://aur@aur.archlinux.org/ezshare.git
 	branch = master
+[submodule "repos/dart-sass"]
+	path = repos/dart-sass
+	url = ssh://aur@aur.archlinux.org/dart-sass.git
+	branch = master
