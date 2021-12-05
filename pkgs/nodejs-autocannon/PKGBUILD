@@ -1,27 +1,26 @@
 # Maintainer: zoorat <zoorat [at] protonmail [dot] com>
-# Contributor: Ben Silverman <bensilverman10 at gmail dot com>
 
-_npmname=alacritty-themes
-pkgname=$_npmname
-pkgver=4.1.6
-pkgrel=3
+_npmname=autocannon
+pkgname=nodejs-$_npmname
+pkgver=7.5.0
+pkgrel=1
 
-pkgdesc="A utility for choosing and applying Alacritty terminal themes."
+pkgdesc="fast HTTP/1.1 benchmarking tool written in Node.js"
 arch=(any)
-url="https://github.com/rajasegar/alacritty-themes"
+url="https://github.com/mcollina/autocannon"
 license=("MIT")
 
 depends=("nodejs")
 makedepends=("npm" "jq")
-# provides=("$_npmname")
-# conflicts=("$_npmname")
+provides=("$_npmname")
+conflicts=("$_npmname")
 options=(strip emptydirs zipman)
 
 source=("https://registry.npmjs.org/${_npmname}/-/${_npmname}-${pkgver}.tgz"
-	"https://raw.githubusercontent.com/rajasegar/alacritty-themes/master/LICENSE")
+	"https://raw.githubusercontent.com/mcollina/autocannon/master/LICENSE")
 noextract=("${_npmname}-${pkgver}.tgz")
-b2sums=('1b662634f0f4d43912568c36927a34548cce77709674dcd3102e4c3bd082ad435cdd5fe65eaf6857755a3fc050bb6747f30f7dd6f86117efc53f3e3895a812f8'
-	'7a11e2eeed89bc67e6cef84badf8cccd1bf2de44423c22bd023fe579795b45bc8906c7a2dc3df4c005d0524b99994d2f534410df8e9a52e2d95f97591dd8949c')
+b2sums=('301dc8b5ef8fa60a608db8e6d49dfbf2af703b7da0a8292f7220e445b6463e5edf9648e85a07bb3a3ed85cd4b3ae79c70e275cd9b46ef6cda5ba2233a2b35ffd'
+	'ac1f56051dfc2f729db4d635ff40ab143314a29b3a3259967e1d83ab1b26cb53059a29d3ec52f1358e588b90cadbcc4a63cf3feb485770b085b7cbfd8313e43a')
 
 # Document: https://wiki.archlinux.org/title/Node.js_package_guidelines
 package() {

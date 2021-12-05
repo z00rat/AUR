@@ -1,14 +1,13 @@
 # Maintainer: zoorat <zoorat [at] protonmail [dot] com>
-# Contributor: Ben Silverman <bensilverman10 at gmail dot com>
 
-_npmname=alacritty-themes
+_npmname=parse-torrent
 pkgname=$_npmname
-pkgver=4.1.6
-pkgrel=3
+pkgver=9.1.4
+pkgrel=2
 
-pkgdesc="A utility for choosing and applying Alacritty terminal themes."
+pkgdesc="Parse a torrent identifier (magnet uri, .torrent file, info hash)"
 arch=(any)
-url="https://github.com/rajasegar/alacritty-themes"
+url="https://github.com/webtorrent/parse-torrent"
 license=("MIT")
 
 depends=("nodejs")
@@ -18,10 +17,10 @@ makedepends=("npm" "jq")
 options=(strip emptydirs zipman)
 
 source=("https://registry.npmjs.org/${_npmname}/-/${_npmname}-${pkgver}.tgz"
-	"https://raw.githubusercontent.com/rajasegar/alacritty-themes/master/LICENSE")
+	"https://raw.githubusercontent.com/webtorrent/parse-torrent/master/LICENSE")
 noextract=("${_npmname}-${pkgver}.tgz")
-b2sums=('1b662634f0f4d43912568c36927a34548cce77709674dcd3102e4c3bd082ad435cdd5fe65eaf6857755a3fc050bb6747f30f7dd6f86117efc53f3e3895a812f8'
-	'7a11e2eeed89bc67e6cef84badf8cccd1bf2de44423c22bd023fe579795b45bc8906c7a2dc3df4c005d0524b99994d2f534410df8e9a52e2d95f97591dd8949c')
+b2sums=('a90ac8db8002448ab3e52d9d33537c4be65ff2c7d54c412b46cdb3f105e03ef822da57e292ff5be5edcf541fefee9b1f6b52b0b3fef2aa4eb864f5ba69ff43f6'
+	'3890a8cd095787f6ab383fe3ca0a0bf0999d80a7ea65627bb1a50f1c2690987f53e0619df5745ba47d6ef46d32e03573b5a52330a7c857220e4db96a33203019')
 
 # Document: https://wiki.archlinux.org/title/Node.js_package_guidelines
 package() {

@@ -1,7 +1,6 @@
 aseprite
 dry-bin
 heroku-cli-bin
-nodejs-nodemon
 nordic-theme
 paru-bin
 pnpm

@@ -1,14 +1,13 @@
 # Maintainer: zoorat <zoorat [at] protonmail [dot] com>
-# Contributor: Ben Silverman <bensilverman10 at gmail dot com>
 
-_npmname=alacritty-themes
+_npmname=ezshare
 pkgname=$_npmname
-pkgver=4.1.6
-pkgrel=3
+pkgver=1.9.0
+pkgrel=2
 
-pkgdesc="A utility for choosing and applying Alacritty terminal themes."
+pkgdesc="Easily share files, folders and clipboard over LAN - Like Google Drive but without internet"
 arch=(any)
-url="https://github.com/rajasegar/alacritty-themes"
+url="https://github.com/mifi/ezshare"
 license=("MIT")
 
 depends=("nodejs")
@@ -17,11 +16,9 @@ makedepends=("npm" "jq")
 # conflicts=("$_npmname")
 options=(strip emptydirs zipman)
 
-source=("https://registry.npmjs.org/${_npmname}/-/${_npmname}-${pkgver}.tgz"
-	"https://raw.githubusercontent.com/rajasegar/alacritty-themes/master/LICENSE")
+source=("https://registry.npmjs.org/${_npmname}/-/${_npmname}-${pkgver}.tgz")
 noextract=("${_npmname}-${pkgver}.tgz")
-b2sums=('1b662634f0f4d43912568c36927a34548cce77709674dcd3102e4c3bd082ad435cdd5fe65eaf6857755a3fc050bb6747f30f7dd6f86117efc53f3e3895a812f8'
-	'7a11e2eeed89bc67e6cef84badf8cccd1bf2de44423c22bd023fe579795b45bc8906c7a2dc3df4c005d0524b99994d2f534410df8e9a52e2d95f97591dd8949c')
+b2sums=('a46df8031c223da4158bb0b88003675c87644ccddd0e1725b8e8455da99dab607b1d8c4ddc3cc56efc667d66a9822734bc6c50f3ff5e5fc5d34749fe53a5c6ab')
 
 # Document: https://wiki.archlinux.org/title/Node.js_package_guidelines
 package() {
@@ -50,7 +47,4 @@ package() {
 		mv "$tmppackage" "$pkgjson"
 		chmod 644 "$pkgjson"
 	done
-
-	# Install LICENSE file
-	install -Dm 644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
 }
