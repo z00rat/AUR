@@ -1,7 +1,6 @@
-  [1;34m->[;1m number of packags that are 246 tracked[0m
+  [1;34m->[;1m number of packags that are 247 tracked[0m
   [1;34m->[;1m number of packages that are 235 installed[0m
   [1;34m->[;1m packages that are not tracked but installed in the system...[0m
-dart-sass
 direnv
 plymouth-theme-black-hud-git
 plymouth-theme-blockchain-git

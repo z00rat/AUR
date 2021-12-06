@@ -39,6 +39,7 @@ PKGS.forEach(pkg => {
     var reg = new RegExp('python2-');
     // var reg = new RegExp('font');
     // var reg = new RegExp('xorg-server');
+    // var reg = new RegExp('');
     if (pkg.Name.toString().match(reg)) {
         if (pkg.Maintainer == null)
             matches.push(pkg);
@@ -236,31 +237,52 @@ matches.forEach(pkg => {
     infos["Popularity"] = pkg.Popularity;
     infos["Last Modified"] = new Date((pkg.LastModified * 1000)).toUTCString();
     infos["Last Modified"] = infos["Last Modified"] + "  (" + moment((pkg.LastModified * 1000)).fromNow() + ")  ";
-    if (pkg.OutOfDate != null){
-      infos["Flagged out-of-date"] = new Date((pkg.OutOfDate * 1000)).toUTCString();
-      infos["Flagged out-of-date"] = infos["Flagged out-of-date"] + "  (" + moment((pkg.OutOfDate * 1000)).fromNow() + ")  ";
+    if (pkg.OutOfDate != null) {
+        infos["Flagged out-of-date"] = new Date((pkg.OutOfDate * 1000)).toUTCString();
+        infos["Flagged out-of-date"] = infos["Flagged out-of-date"] + "  (" + moment((pkg.OutOfDate * 1000)).fromNow() + ")  ";
     }
     var depnum = 0;
     var makedepnum = 0;
     var optdepnum = 0;
+    var prov_names = [];
+    prov_names.push(pkg.Name);
+    if (pkg.Provides)
+        pkg.Provides.forEach(prov => {
+            prov_names.push(formate_dep(prov));
+        });
+    // console.log(prov_names);
+
     PKGS.forEach(pkgg => {
-      console.log(pkgg);
+        // console.log(pkgg);
 
-      // var prov = formate_dep(pkg.Provides);
+        prov_names.forEach(name => {
+            if (pkgg.Depends)
+                pkgg.Depends.forEach(dep => {
+                    if (formate_dep(dep) == name) {
+                        depnum++;
+                        // console.log(name + " => " + pkgg.Name);
+                    }
+                });
 
-      if(pkgg.Depends)
-        if(pkgg.Depends.includes(pkg.Name))
-          depnum++;
+            if (pkgg.MakeDepends)
+                pkgg.MakeDepends.forEach(dep => {
+                    if (formate_dep(dep) == name) {
+                        makedepnum++;
+                        // console.log(name + " => " + pkgg.Name);
+                    }
+                });
 
-      if(pkgg.MakeDepends)
-        if(pkgg.MakeDepends.includes(pkg.Name))
-          makedepnum++;
-
-      if(pkgg.OptDepends)
-        if(pkgg.OptDepends.includes(pkg.Name))
-          optdepnum++;
+            if (pkgg.OptDepends)
+                pkgg.OptDepends.forEach(dep => {
+                    if (formate_dep(dep) == name) {
+                        optdepnum++;
+                        // console.log(name + " => " + pkgg.Name);
+                    }
+                });
+        });
     });
-    infos["Required by"] = depnum + ", " + makedepnum + " (make), " + optdepnum + " (optional)"
+    if ((depnum + makedepnum + optdepnum) != 0)
+        infos["Required by"] = depnum + ", " + makedepnum + " (make), " + optdepnum + " (optional); " + (depnum + makedepnum + optdepnum) + " (all)";
 
     // console.log("\n\n\n");
     // console.log(JSON.stringify(the_report, null, 2));
