@@ -1,7 +1,7 @@
 aseprite
+discord-chat-exporter-cli
 dry-bin
 heroku-cli-bin
-nodejs-csso
 nordic-theme
 paru-bin
 pnpm

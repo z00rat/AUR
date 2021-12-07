@@ -33,15 +33,24 @@ pkgNames = Array.from(new Set(pkgNames));
 let matches = [];
 PKGS.forEach(pkg => {
     // console.log(pkg);
-    // var reg = new RegExp('ros-indigo*');
+    // var reg = new RegExp('ros-indigo');
     // var reg = new RegExp('ttf-');
     // var reg = new RegExp('otf-');
-    var reg = new RegExp('python2-');
+    // var reg = new RegExp('python2-');
     // var reg = new RegExp('font');
     // var reg = new RegExp('xorg-server');
+    // var reg = new RegExp('nodejs');
+    // var reg = new RegExp('npm');
+    // var reg = new RegExp('nvidia');
+    // var reg = new RegExp('amd');
+    // var reg = new RegExp('ros-ardent');
+    // var reg = new RegExp('ros-kinetic');
+    // var reg = new RegExp('ros-lunar');
+    // var reg = new RegExp('ros-melodic');
+    var reg = new RegExp('ros-noetic');
     // var reg = new RegExp('');
     if (pkg.Name.toString().match(reg)) {
-        if (pkg.Maintainer == null)
+        // if (pkg.Maintainer == null)
             matches.push(pkg);
     }
 
@@ -283,6 +292,9 @@ matches.forEach(pkg => {
     });
     if ((depnum + makedepnum + optdepnum) != 0)
         infos["Required by"] = depnum + ", " + makedepnum + " (make), " + optdepnum + " (optional); " + (depnum + makedepnum + optdepnum) + " (all)";
+    else
+        infos["Required by"] = 0;
+
 
     // console.log("\n\n\n");
     // console.log(JSON.stringify(the_report, null, 2));
