@@ -47,10 +47,10 @@ PKGS.forEach(pkg => {
     // var reg = new RegExp('ros-kinetic');
     // var reg = new RegExp('ros-lunar');
     // var reg = new RegExp('ros-melodic');
-    var reg = new RegExp('ros-noetic');
-    // var reg = new RegExp('');
+    // var reg = new RegExp('ros-noetic');
+    var reg = new RegExp('');
     if (pkg.Name.toString().match(reg)) {
-        // if (pkg.Maintainer == null)
+        if (pkg.Maintainer == null)
             matches.push(pkg);
     }
 

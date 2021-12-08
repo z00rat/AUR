@@ -1,5 +1,4 @@
 aseprite
-discord-chat-exporter-cli
 dry-bin
 heroku-cli-bin
 nordic-theme
