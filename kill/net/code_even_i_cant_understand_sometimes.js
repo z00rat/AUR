@@ -48,6 +48,7 @@ PKGS.forEach(pkg => {
     // var reg = new RegExp('ros-lunar');
     // var reg = new RegExp('ros-melodic');
     // var reg = new RegExp('ros-noetic');
+    // var reg = new RegExp('ros');
     var reg = new RegExp('');
     if (pkg.Name.toString().match(reg)) {
         if (pkg.Maintainer == null)
@@ -61,8 +62,12 @@ PKGS.forEach(pkg => {
     // if(pkg.MakeDepends)
     //   if(pkg.MakeDepends.includes("gtk2"))
     //     matches.push(pkg);
+    //
+    // if(pkg.CheckDepends)
+    //   if(pkg.CheckDepends.includes("gtk2"))
+    //     matches.push(pkg);
 });
-// console.log("Number of packages: " + matches.length);
+console.log("Number of packages: " + matches.length);
 // console.log(JSON.stringify(matches));
 
 let info = [];
@@ -128,6 +133,18 @@ function differentiate_deps(pkg_name) {
                     deps.good.push(dep);
             });
         }
+        if (pkg_in_question.CheckDepends) {
+            pkg_in_question.CheckDepends.forEach(dep => {
+                dep = formate_dep(dep);
+
+                if (!pkgNames.includes(dep)) {
+                    deps.broken.push(dep);
+                    deps.bad.push(pkg_in_question.Name);
+                }
+                else
+                    deps.good.push(dep);
+            });
+        }
 
         deps.broken = Array.from(new Set(deps.broken));
         deps.good = Array.from(new Set(deps.good));
@@ -163,7 +180,7 @@ function dep_tree(branch, depth) {
     return returnable;
 }
 
-
+var i = 0;
 matches.forEach(pkg => {
     // console.log(pkg);
     // console.log("\nreport for \'" + pkg.Name + "\':");
@@ -253,6 +270,7 @@ matches.forEach(pkg => {
     var depnum = 0;
     var makedepnum = 0;
     var optdepnum = 0;
+    var checkdepnum = 0;
     var prov_names = [];
     prov_names.push(pkg.Name);
     if (pkg.Provides)
@@ -288,10 +306,18 @@ matches.forEach(pkg => {
                         // console.log(name + " => " + pkgg.Name);
                     }
                 });
+
+            if (pkgg.CheckDepends)
+                pkgg.CheckDepends.forEach(dep => {
+                    if (formate_dep(dep) == name) {
+                        checkdepnum++;
+                        // console.log(name + " => " + pkgg.Name);
+                    }
+                });
         });
     });
-    if ((depnum + makedepnum + optdepnum) != 0)
-        infos["Required by"] = depnum + ", " + makedepnum + " (make), " + optdepnum + " (optional); " + (depnum + makedepnum + optdepnum) + " (all)";
+    if ((depnum + makedepnum + optdepnum + checkdepnum) != 0)
+        infos["Required by"] = depnum + ", " + makedepnum + " (make), " + optdepnum + " (optional); " + checkdepnum + " (check); " + (depnum + makedepnum + optdepnum + checkdepnum) + " (all)";
     else
         infos["Required by"] = 0;
 
@@ -318,18 +344,22 @@ matches.forEach(pkg => {
     let b4_push = {};
     // if (the_report["___broken_deps___"] && infos["Flagged out-of-date"]) {
     if (the_report["___broken_deps___"]) {
+        console.log("\n\n\n\n\n");
+        console.log("pkgnum: " + i);
         // b4_push.name = pkg.Name;
         // b4_push.broken_dependencies = the_report["___broken_deps___"];
         // b4_push.info = infos;
         // delete b4_push.info.broken_dependency;
         // report.push(b4_push);
         // console.log("\n\n\nreport for \'" + pkg.Name + "\':");
-        console.log("\n\nhttps://aur.archlinux.org/packages/" + pkg.Name + "/");
+        console.log("https://aur.archlinux.org/packages/" + pkg.Name + "/");
         console.log("https://aur.archlinux.org/pkgbase/" + pkg.PackageBase + "/request/");
+        console.log("");
 
         console.log(prettyjson.render(infos));
         // console.log(pkg);
     }
+    i = i + 1;
 });
 // console.log(JSON.stringify(info));
 // console.log(info);
