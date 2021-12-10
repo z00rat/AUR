@@ -2,9 +2,7 @@ aseprite
 dry-bin
 heroku-cli-bin
 nordic-theme
-paru-bin
 pnpm
-python-grpcio-tools
 python-srt
 vrms-arch
 wttr
