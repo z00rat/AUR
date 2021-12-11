@@ -991,3 +991,7 @@
 	path = repos/dart-sass
 	url = ssh://aur@aur.archlinux.org/dart-sass.git
 	branch = master
+[submodule "repos/flamegraph"]
+	path = repos/flamegraph
+	url = ssh://aur@aur.archlinux.org/flamegraph.git
+	branch = master
