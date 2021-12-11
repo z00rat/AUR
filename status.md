@@ -1,7 +1,8 @@
   [1;34m->[;1m number of packags that are 247 tracked[0m
-  [1;34m->[;1m number of packages that are 235 installed[0m
+  [1;34m->[;1m number of packages that are 237 installed[0m
   [1;34m->[;1m packages that are not tracked but installed in the system...[0m
 direnv
+flamegraph
 plymouth-theme-black-hud-git
 plymouth-theme-blockchain-git
 plymouth-theme-circle-flow-git
@@ -25,6 +26,7 @@ plymouth-theme-seal-2-git
 plymouth-theme-seal-3-git
 plymouth-theme-spin-git
 plymouth-theme-square-hud-git
+uftrace
 zapret-tpws-git
   [1;34m->[;1m packages that are tracked but not installed in the system...[0m
 aurutils

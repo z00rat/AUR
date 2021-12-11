@@ -1,8 +1,8 @@
 aseprite
 dry-bin
-heroku-cli-bin
 nordic-theme
 pnpm
 python-srt
+uftrace
 vrms-arch
 wttr
