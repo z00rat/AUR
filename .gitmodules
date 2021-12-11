@@ -995,3 +995,7 @@
 	path = repos/flamegraph
 	url = ssh://aur@aur.archlinux.org/flamegraph.git
 	branch = master
+[submodule "repos/uftrace"]
+	path = repos/uftrace
+	url = ssh://aur@aur.archlinux.org/uftrace.git
+	branch = master
