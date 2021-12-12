@@ -1,4 +1,5 @@
 aseprite
+dart-sass
 dry-bin
 nordic-theme
 pnpm
