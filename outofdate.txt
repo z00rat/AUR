@@ -2,7 +2,6 @@
 
   [1;34m->[;1m listing already flaged packages[0m
 aseprite
-dart-sass
 dry-bin
 nordic-theme
 pnpm
@@ -11,16 +10,13 @@ uftrace
 vrms-arch
 wttr
   [1;34m->[;1m running pkgoutofdate[0m
-ugrep: new version found - 3.3.11 => 3.3.12
 uftrace: new version found - 0.9.3 => 0.9.4
-python-ytmusicapi: new version found - 0.19.5 => 0.19.6
-python-srt: new version found - 3.4.1 => 3.4.2
-python-rapidfuzz: new version found - 1.8.3 => 1.8.4
-python-pydes: new version found - 2.0.1 => 2.0.2
+python-torrequest: new version found - 0.1.0 => 0.1.1
+python-gtts-token: new version found - 1.1.4 => 1.1.5
 grex: new version found - 1.2.0 => 1.3.0
 electorrent-bin: new version found - 2.7.2 => 2.7.3
 python-spotdl: new version found - 3.9.0 => 3.9.1
-dart-sass: new version found - 1.44.0 => 1.45.0
+aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
 [32m          [UP-TO-DATE] [activitywatch-bin][0.11.0-3] matches upstream version 0.11.0 [0m
@@ -94,7 +90,7 @@ dart-sass: new version found - 1.44.0 => 1.45.0
   [1;34m->[;1m checking for update for 'ctjs-bin'[0m
 [32m          [UP-TO-DATE] [ctjs-bin][1.7.0-1] matches upstream version 1.7.0 [0m
   [1;34m->[;1m checking for update for 'dart-sass'[0m
-[31m         [OUT-OF-DATE] [dart-sass][1.44.0-1] should be updated to 1.45.0 [0m
+[32m          [UP-TO-DATE] [dart-sass][1.45.0-1] matches upstream version 1.45.0 [0m
   [1;34m->[;1m checking for update for 'ddd'[0m
 [37m             [UNKNOWN] [ddd][3.3.12-12] No release found for http://ftp.gnu.org/gnu/ddd/ddd-3.3.12.tar.gz [0m
   [1;34m->[;1m checking for update for 'debtap'[0m
@@ -324,13 +320,13 @@ dart-sass: new version found - 1.44.0 => 1.45.0
   [1;34m->[;1m checking for update for 'python-pydes'[0m
 [32m          [UP-TO-DATE] [python-pydes][2.0.1-2] matches upstream version 2.0.1 [0m
   [1;34m->[;1m checking for update for 'python-pynput'[0m
-[37m             [UNKNOWN] [python-pynput][1.7.5-1] No PyPI release found for pynput: Get "https://pypi.org/pypi/pynput/json": dial tcp [2a04:4e42::223]:443: connect: network is unreachable [0m
+[32m          [UP-TO-DATE] [python-pynput][1.7.5-1] matches upstream version 1.7.5 [0m
   [1;34m->[;1m checking for update for 'python-pysubs2'[0m
 [32m          [UP-TO-DATE] [python-pysubs2][1.3.0-0] matches upstream version 1.3.0 [0m
   [1;34m->[;1m checking for update for 'python-pytube'[0m
 [32m          [UP-TO-DATE] [python-pytube][11.0.1-1] matches upstream version 11.0.1 [0m
   [1;34m->[;1m checking for update for 'python-rapidfuzz'[0m
-[37m             [UNKNOWN] [python-rapidfuzz][1.8.3-1] Failed to parse upstream version: invalid version format: .1.9.0 [0m
+[32m          [UP-TO-DATE] [python-rapidfuzz][1.9.0-1] matches upstream version 1.9.0 [0m
   [1;34m->[;1m checking for update for 'python-requests-futures'[0m
 [32m          [UP-TO-DATE] [python-requests-futures][1.0.0-3] matches upstream version 1.0.0 [0m
   [1;34m->[;1m checking for update for 'python-simber'[0m
@@ -375,7 +371,7 @@ dart-sass: new version found - 1.44.0 => 1.45.0
   [1;34m->[;1m checking for update for 'rofi-greenclip'[0m
 [32m          [UP-TO-DATE] [rofi-greenclip][4.2-2] matches upstream version 4.2 [0m
   [1;34m->[;1m checking for update for 'rtags'[0m
-[32m          [UP-TO-DATE] [rtags][2.38-1] matches upstream version 2.38 [0m
+[37m             [UNKNOWN] [rtags][2.38-1] Failed to obtain GitHub release for Andersbakken/rtags.git from https://api.github.com/repos/Andersbakken/rtags.git/releases/latest: No GitHub project found for Andersbakken/rtags.git on https://api.github.com/repos/Andersbakken/rtags.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'runjs-bin'[0m
 [37m             [UNKNOWN] [runjs-bin][2.2.0-1] upstream version is 2.1.3 [0m
   [1;34m->[;1m checking for update for 'scrcpy'[0m
@@ -446,7 +442,7 @@ dart-sass: new version found - 1.44.0 => 1.45.0
   [1;34m->[;1m checking for update for 'uftrace'[0m
 [37m             [UNKNOWN] [uftrace][0.9.3-3] Failed to obtain GitHub release for namhyung/uftrace from https://api.github.com/repos/namhyung/uftrace/releases/latest: No GitHub project found for namhyung/uftrace on https://api.github.com/repos/namhyung/uftrace/releases/latest [0m
   [1;34m->[;1m checking for update for 'ugrep'[0m
-[31m         [OUT-OF-DATE] [ugrep][3.3.11-1] should be updated to 3.3.12 [0m
+[32m          [UP-TO-DATE] [ugrep][3.3.12-1] matches upstream version 3.3.12 [0m
   [1;34m->[;1m checking for update for 'usbaudio-git'[0m
   [1;34m->[;1m checking for update for 'vanitygen-git'[0m
   [1;34m->[;1m checking for update for 'vimix-cursors'[0m
