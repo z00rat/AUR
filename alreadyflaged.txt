@@ -2,6 +2,7 @@ aseprite
 dry-bin
 nordic-theme
 pnpm
+python-ffmpeg
 python-srt
 uftrace
 vrms-arch

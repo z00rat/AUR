@@ -5,15 +5,16 @@ aseprite
 dry-bin
 nordic-theme
 pnpm
+python-ffmpeg
 python-srt
 uftrace
 vrms-arch
 wttr
   [1;34m->[;1m running pkgoutofdate[0m
 uftrace: new version found - 0.9.3 => 0.9.4
-python-ytmusicapi: new version found - 0.19.5 => 0.19.6
-python-ffsubsync: new version found - 0.4.16 => 0.4.17
+grex: new version found - 1.2.0 => 1.3.0
 electorrent-bin: new version found - 2.7.2 => 2.7.3
+python-spotdl: new version found - 3.9.0 => 3.9.1
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
 [32m          [UP-TO-DATE] [activitywatch-bin][0.11.0-3] matches upstream version 0.11.0 [0m
@@ -73,7 +74,7 @@ electorrent-bin: new version found - 2.7.2 => 2.7.3
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
 [37m             [UNKNOWN] [cloudflared-bin][2021.11.0-1] No release found for https://raw.githubusercontent.com/cloudflare/cloudflared/master/LICENSE [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
-[31m         [OUT-OF-DATE] [code-features][1.62.0-1] should be updated to 1.63.0 [0m
+[31m         [OUT-OF-DATE] [code-features][1.62.0-1] should be updated to 1.63.1 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
 [37m             [UNKNOWN] [code-marketplace][1.54.3-4] No release found for code-marketplace.hook [0m
   [1;34m->[;1m checking for update for 'code-server'[0m
@@ -222,7 +223,7 @@ electorrent-bin: new version found - 2.7.2 => 2.7.3
   [1;34m->[;1m checking for update for 'nodejs-clinic'[0m
 [32m          [UP-TO-DATE] [nodejs-clinic][10.0.0-1] matches upstream version 10.0.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-csso'[0m
-[32m          [UP-TO-DATE] [nodejs-csso][5.0.0-3] matches upstream version 5.0.0 [0m
+[31m         [OUT-OF-DATE] [nodejs-csso][5.0.0-3] should be updated to 5.0.1 [0m
   [1;34m->[;1m checking for update for 'nodejs-csso-cli'[0m
 [32m          [UP-TO-DATE] [nodejs-csso-cli][3.0.0-3] matches upstream version 3.0.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-mapscii'[0m
@@ -275,7 +276,7 @@ electorrent-bin: new version found - 2.7.2 => 2.7.3
 [32m          [UP-TO-DATE] [pfetch][0.6.0-3] matches upstream version 0.6.0 [0m
   [1;34m->[;1m checking for update for 'picom-ibhagwan-git'[0m
   [1;34m->[;1m checking for update for 'pikaur'[0m
-[37m             [UNKNOWN] [pikaur][1.8-1] upstream version is 1.6.17 [0m
+[32m          [UP-TO-DATE] [pikaur][1.9-1] matches upstream version 1.9 [0m
   [1;34m->[;1m checking for update for 'pipes.sh'[0m
 [32m          [UP-TO-DATE] [pipes.sh][1.3.0-1] matches upstream version 1.3.0 [0m
   [1;34m->[;1m checking for update for 'pkgoutofdate-git'[0m
@@ -284,7 +285,7 @@ electorrent-bin: new version found - 2.7.2 => 2.7.3
   [1;34m->[;1m checking for update for 'pm2ml'[0m
 [37m             [UNKNOWN] [pm2ml][2021.11.20.1-2] No release found for https://xyne.dev/projects/pm2ml/src/pm2ml-2021.11.20.1.tar.xz [0m
   [1;34m->[;1m checking for update for 'pnpm'[0m
-[31m         [OUT-OF-DATE] [pnpm][6.23.3-1] should be updated to 6.23.6 [0m
+[31m         [OUT-OF-DATE] [pnpm][6.23.3-1] should be updated to 6.24.0 [0m
   [1;34m->[;1m checking for update for 'popcorntime-bin'[0m
 [32m          [UP-TO-DATE] [popcorntime-bin][0.4.6-1] matches upstream version 0.4.6 [0m
   [1;34m->[;1m checking for update for 'powerpill'[0m
@@ -307,7 +308,7 @@ electorrent-bin: new version found - 2.7.2 => 2.7.3
   [1;34m->[;1m checking for update for 'python-future-annotations'[0m
 [32m          [UP-TO-DATE] [python-future-annotations][1.0.0-2] matches upstream version 1.0.0 [0m
   [1;34m->[;1m checking for update for 'python-gbinder'[0m
-[37m             [UNKNOWN] [python-gbinder][1.0.0-1] Failed to obtain GitHub release for erfanoabdi/gbinder-python.git from https://api.github.com/repos/erfanoabdi/gbinder-python.git/releases/latest: No GitHub project found for erfanoabdi/gbinder-python.git on https://api.github.com/repos/erfanoabdi/gbinder-python.git/releases/latest [0m
+[37m             [UNKNOWN] [python-gbinder][1.0.0-2] Failed to obtain GitHub release for erfanoabdi/gbinder-python.git from https://api.github.com/repos/erfanoabdi/gbinder-python.git/releases/latest: No GitHub project found for erfanoabdi/gbinder-python.git on https://api.github.com/repos/erfanoabdi/gbinder-python.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'python-gtts'[0m
 [32m          [UP-TO-DATE] [python-gtts][2.2.3-1] matches upstream version 2.2.3 [0m
   [1;34m->[;1m checking for update for 'python-gtts-token'[0m
@@ -329,7 +330,7 @@ electorrent-bin: new version found - 2.7.2 => 2.7.3
   [1;34m->[;1m checking for update for 'python-simber'[0m
 [32m          [UP-TO-DATE] [python-simber][0.2.3-0] matches upstream version 0.2.3 [0m
   [1;34m->[;1m checking for update for 'python-spotdl'[0m
-[32m          [UP-TO-DATE] [python-spotdl][3.9.0-5] matches upstream version 3.9.0 [0m
+[31m         [OUT-OF-DATE] [python-spotdl][3.9.0-5] should be updated to 3.9.1 [0m
   [1;34m->[;1m checking for update for 'python-spotipy'[0m
 [32m          [UP-TO-DATE] [python-spotipy][2.19.0-2] matches upstream version 2.19.0 [0m
   [1;34m->[;1m checking for update for 'python-srt'[0m
@@ -449,7 +450,7 @@ electorrent-bin: new version found - 2.7.2 => 2.7.3
   [1;34m->[;1m checking for update for 'vrms-arch'[0m
 [37m             [UNKNOWN] [vrms-arch][0.1.0.r25.g802c767-1] Failed to obtain GitHub release for orospakr/vrms-arch.git from https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest: No GitHub project found for orospakr/vrms-arch.git on https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'vscodium-bin'[0m
-[32m          [UP-TO-DATE] [vscodium-bin][1.63.0-1] matches upstream version 1.63.0 [0m
+[32m          [UP-TO-DATE] [vscodium-bin][1.63.1-1] matches upstream version 1.63.1 [0m
   [1;34m->[;1m checking for update for 'waydroid'[0m
 [37m             [UNKNOWN] [waydroid][1.2.0-1] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
