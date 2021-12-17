@@ -36,7 +36,9 @@
  - https://aur.archlinux.org/packages/code-server
  - https://aur.archlinux.org/packages/cointop
  - https://aur.archlinux.org/packages/cointop-bin
+ - https://aur.archlinux.org/packages/csslint
  - https://aur.archlinux.org/packages/ctjs-bin
+ - https://aur.archlinux.org/packages/dart-sass
  - https://aur.archlinux.org/packages/ddd
  - https://aur.archlinux.org/packages/debtap
  - https://aur.archlinux.org/packages/diceware
@@ -51,12 +53,14 @@
  - https://aur.archlinux.org/packages/electorrent-bin
  - https://aur.archlinux.org/packages/electronmail-bin
  - https://aur.archlinux.org/packages/exe-thumbnailer
+ - https://aur.archlinux.org/packages/ezshare
  - https://aur.archlinux.org/packages/fakepkg
  - https://aur.archlinux.org/packages/faq-bin
  - https://aur.archlinux.org/packages/fbrokendesktop
  - https://aur.archlinux.org/packages/ffpb
  - https://aur.archlinux.org/packages/figlet-fonts
  - https://aur.archlinux.org/packages/firefox-esr-bin
+ - https://aur.archlinux.org/packages/flamegraph
  - https://aur.archlinux.org/packages/florence
  - https://aur.archlinux.org/packages/fluent-reader-bin
  - https://aur.archlinux.org/packages/fontpreview
@@ -99,12 +103,16 @@
  - https://aur.archlinux.org/packages/mergerfs-tools-git
  - https://aur.archlinux.org/packages/mkclean
  - https://aur.archlinux.org/packages/mkp224o
+ - https://aur.archlinux.org/packages/mpck
  - https://aur.archlinux.org/packages/msg2
  - https://aur.archlinux.org/packages/mymonero
  - https://aur.archlinux.org/packages/nerd-fonts-source-code-pro
+ - https://aur.archlinux.org/packages/nodejs-autocannon
+ - https://aur.archlinux.org/packages/nodejs-clinic
  - https://aur.archlinux.org/packages/nodejs-csso
  - https://aur.archlinux.org/packages/nodejs-csso-cli
  - https://aur.archlinux.org/packages/nodejs-mapscii
+ - https://aur.archlinux.org/packages/nodejs-nodemon
  - https://aur.archlinux.org/packages/nodejs-npm2arch
  - https://aur.archlinux.org/packages/nodejs-ungit
  - https://aur.archlinux.org/packages/noisetorch
@@ -123,6 +131,7 @@
  - https://aur.archlinux.org/packages/opensnitch-git
  - https://aur.archlinux.org/packages/otf-san-francisco
  - https://aur.archlinux.org/packages/p7zip-gui
+ - https://aur.archlinux.org/packages/parse-torrent
  - https://aur.archlinux.org/packages/paru-bin
  - https://aur.archlinux.org/packages/passivedns-git
  - https://aur.archlinux.org/packages/patat-bin
@@ -133,6 +142,7 @@
  - https://aur.archlinux.org/packages/pkgoutofdate-git
  - https://aur.archlinux.org/packages/plymouth-theme-arch10
  - https://aur.archlinux.org/packages/pm2ml
+ - https://aur.archlinux.org/packages/pnpm
  - https://aur.archlinux.org/packages/popcorntime-bin
  - https://aur.archlinux.org/packages/powerpill
  - https://aur.archlinux.org/packages/python2-twodict-git
@@ -218,6 +228,7 @@
  - https://aur.archlinux.org/packages/tty-clock
  - https://aur.archlinux.org/packages/ttyd
  - https://aur.archlinux.org/packages/typora
+ - https://aur.archlinux.org/packages/uftrace
  - https://aur.archlinux.org/packages/ugrep
  - https://aur.archlinux.org/packages/usbaudio-git
  - https://aur.archlinux.org/packages/vanitygen-git
@@ -227,6 +238,7 @@
  - https://aur.archlinux.org/packages/vscodium-bin
  - https://aur.archlinux.org/packages/waydroid
  - https://aur.archlinux.org/packages/waydroid-image
+ - https://aur.archlinux.org/packages/webtorrent-bittorrent-tracker
  - https://aur.archlinux.org/packages/webtorrent-cli
  - https://aur.archlinux.org/packages/webtorrent-desktop-bin
  - https://aur.archlinux.org/packages/webtty
@@ -239,5 +251,5 @@
  - https://aur.archlinux.org/packages/zoom
 ---
 
-number of packages = 237.
+number of packages = 249.
 
