@@ -1,6 +1,6 @@
 aseprite
-cloudflared-bin
 dry-bin
+mergerfs
 nodejs-csso
 nordic-theme
 pnpm
