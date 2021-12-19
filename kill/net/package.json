@@ -1,6 +1,8 @@
 {
 	"dependencies": {
 		"flat": "^5.0.2",
-		"prettyjson": "^1.2.1"
+		"prettyjson": "^1.2.1",
+		"cli-progress": "^3.9.1",
+		"moment": "^2.29.1"
 	}
 }

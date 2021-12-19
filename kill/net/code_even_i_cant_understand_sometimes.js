@@ -2,6 +2,8 @@ const flatten = require('flat');
 const unflatten = require('flat').unflatten;
 const prettyjson = require('prettyjson');
 const moment = require('moment');
+const cliProgress = require('cli-progress');
+const pbar = new cliProgress.SingleBar({}, cliProgress.Presets.shades_classic);
 const fs = require('fs');
 function freeze(time) {
     const stop = new Date().getTime() + time;
@@ -33,25 +35,10 @@ pkgNames = Array.from(new Set(pkgNames));
 let matches = [];
 PKGS.forEach(pkg => {
     // console.log(pkg);
-    // var reg = new RegExp('ros-indigo');
-    // var reg = new RegExp('ttf-');
-    // var reg = new RegExp('otf-');
-    // var reg = new RegExp('python2-');
-    // var reg = new RegExp('font');
-    // var reg = new RegExp('xorg-server');
-    // var reg = new RegExp('nodejs');
-    // var reg = new RegExp('npm');
-    // var reg = new RegExp('nvidia');
-    // var reg = new RegExp('amd');
-    // var reg = new RegExp('ros-ardent');
-    // var reg = new RegExp('ros-kinetic');
-    // var reg = new RegExp('ros-lunar');
-    // var reg = new RegExp('ros-melodic');
-    // var reg = new RegExp('ros-noetic');
-    // var reg = new RegExp('ros');
-    var reg = new RegExp('');
+    var reg = new RegExp(process.argv[2]);
+    // var reg = new RegExp('');
     if (pkg.Name.toString().match(reg)) {
-        if (pkg.Maintainer == null)
+        // if (pkg.Maintainer == null)
             matches.push(pkg);
     }
 
@@ -181,7 +168,10 @@ function dep_tree(branch, depth) {
 }
 
 var i = 0;
+pbar.start(matches.length, 0);
 matches.forEach(pkg => {
+    i = i + 1;
+    pbar.update(i);
     // console.log(pkg);
     // console.log("\nreport for \'" + pkg.Name + "\':");
     let the_report = [];
@@ -359,8 +349,8 @@ matches.forEach(pkg => {
         console.log(prettyjson.render(infos));
         // console.log(pkg);
     }
-    i = i + 1;
 });
+pbar.stop();
 // console.log(JSON.stringify(info));
 // console.log(info);
 // console.log(JSON.stringify(report));
