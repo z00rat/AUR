@@ -1,6 +1,7 @@
   [1;34m->[;1m number of packags that are 249 tracked[0m
-  [1;34m->[;1m number of packages that are 233 installed[0m
+  [1;34m->[;1m number of packages that are 234 installed[0m
   [1;34m->[;1m packages that are not tracked but installed in the system...[0m
+marktext-bin
 plymouth-theme-black-hud-git
 plymouth-theme-blockchain-git
 plymouth-theme-circle-flow-git
