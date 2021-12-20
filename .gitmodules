@@ -999,3 +999,7 @@
 	path = repos/uftrace
 	url = ssh://aur@aur.archlinux.org/uftrace.git
 	branch = master
+[submodule "repos/marktext-bin"]
+	path = repos/marktext-bin
+	url = ssh://aur@aur.archlinux.org/marktext-bin.git
+	branch = master
