@@ -3,6 +3,7 @@ dry-bin
 mergerfs
 nodejs-csso
 nordic-theme
+python-pysubs2
 python-srt
 uftrace
 vrms-arch
