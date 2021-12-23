@@ -2,22 +2,19 @@
 
   [1;34m->[;1m listing already flaged packages[0m
 aseprite
+cloudflared-bin
 dry-bin
-mergerfs
 nodejs-csso
 nordic-theme
-python-pysubs2
 python-srt
 uftrace
 vrms-arch
 wttr
+xmind
   [1;34m->[;1m running pkgoutofdate[0m
 uftrace: new version found - 0.9.3 => 0.9.4
-ugrep: new version found - 3.3.12 => 3.4.0
-mergerfs: new version found - 2.33.1 => 2.33.2
 grex: new version found - 1.2.0 => 1.3.0
 electorrent-bin: new version found - 2.7.2 => 2.7.3
-dart-sass: new version found - 1.45.0 => 1.45.1
 aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
@@ -92,7 +89,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'ctjs-bin'[0m
 [32m          [UP-TO-DATE] [ctjs-bin][1.7.0-1] matches upstream version 1.7.0 [0m
   [1;34m->[;1m checking for update for 'dart-sass'[0m
-[31m         [OUT-OF-DATE] [dart-sass][1.45.0-1] should be updated to 1.45.1 [0m
+[32m          [UP-TO-DATE] [dart-sass][1.45.1-1] matches upstream version 1.45.1 [0m
   [1;34m->[;1m checking for update for 'ddd'[0m
 [37m             [UNKNOWN] [ddd][3.3.12-12] No release found for http://ftp.gnu.org/gnu/ddd/ddd-3.3.12.tar.gz [0m
   [1;34m->[;1m checking for update for 'debtap'[0m
@@ -108,7 +105,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'downloader-cli'[0m
 [32m          [UP-TO-DATE] [downloader-cli][0.3.2-1] matches upstream version 0.3.2 [0m
   [1;34m->[;1m checking for update for 'drawio-desktop-bin'[0m
-[32m          [UP-TO-DATE] [drawio-desktop-bin][16.0.0-1] matches upstream version 16.0.0 [0m
+[32m          [UP-TO-DATE] [drawio-desktop-bin][16.0.2-1] matches upstream version 16.0.2 [0m
   [1;34m->[;1m checking for update for 'dry-bin'[0m
 [31m         [OUT-OF-DATE] [dry-bin][0.10-1] should be updated to 0.11.1 [0m
   [1;34m->[;1m checking for update for 'ebtables'[0m
@@ -210,7 +207,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'marktext-bin'[0m
 [32m          [UP-TO-DATE] [marktext-bin][0.16.3-2] matches upstream version 0.16.3 [0m
   [1;34m->[;1m checking for update for 'mergerfs'[0m
-[31m         [OUT-OF-DATE] [mergerfs][2.33.1-1] should be updated to 2.33.2 [0m
+[32m          [UP-TO-DATE] [mergerfs][2.33.3-1] matches upstream version 2.33.3 [0m
   [1;34m->[;1m checking for update for 'mergerfs-tools-git'[0m
   [1;34m->[;1m checking for update for 'mkclean'[0m
 [37m             [UNKNOWN] [mkclean][0.9.0-1] No release found for http://sourceforge.net/projects/matroska/files/mkclean/mkclean-0.9.0.tar.bz2 [0m
@@ -251,7 +248,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'obfs4proxy'[0m
 [37m             [UNKNOWN] [obfs4proxy][0.0.11-1] No release found for https://people.torproject.org/~yawning/releases/obfs4proxy/obfs4proxy-0.0.11.tar.xz [0m
   [1;34m->[;1m checking for update for 'obsidian'[0m
-[37m             [UNKNOWN] [obsidian][0.12.19-1] No release found for obsidian [0m
+[37m             [UNKNOWN] [obsidian][0.13.14-1] No release found for obsidian [0m
   [1;34m->[;1m checking for update for 'obs-plugin-input-overlay-bin'[0m
 [32m          [UP-TO-DATE] [obs-plugin-input-overlay-bin][4.8-1] matches upstream version 4.8 [0m
   [1;34m->[;1m checking for update for 'obs-v4l2sink'[0m
@@ -326,9 +323,9 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'python-pynput'[0m
 [32m          [UP-TO-DATE] [python-pynput][1.7.5-1] matches upstream version 1.7.5 [0m
   [1;34m->[;1m checking for update for 'python-pysubs2'[0m
-[31m         [OUT-OF-DATE] [python-pysubs2][1.3.0-0] should be updated to 1.3.1 [0m
+[32m          [UP-TO-DATE] [python-pysubs2][1.3.1-0] matches upstream version 1.3.1 [0m
   [1;34m->[;1m checking for update for 'python-pytube'[0m
-[32m          [UP-TO-DATE] [python-pytube][11.0.1-2] matches upstream version 11.0.1 [0m
+[37m             [UNKNOWN] [python-pytube][11.0.2-1] upstream version is 11.0.1 [0m
   [1;34m->[;1m checking for update for 'python-rapidfuzz'[0m
 [32m          [UP-TO-DATE] [python-rapidfuzz][1.9.1-1] matches upstream version 1.9.1 [0m
   [1;34m->[;1m checking for update for 'python-requests-futures'[0m
@@ -355,7 +352,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'qwinff'[0m
 [37m             [UNKNOWN] [qwinff][0.2.1-1] No release found for http://sourceforge.net/projects/qwinff/files/release/v0.2.1/qwinff_0.2.1.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'rate-mirrors-bin'[0m
-[32m          [UP-TO-DATE] [rate-mirrors-bin][0.6.0-1] matches upstream version 0.6.0 [0m
+[32m          [UP-TO-DATE] [rate-mirrors-bin][0.6.1-1] matches upstream version 0.6.1 [0m
   [1;34m->[;1m checking for update for 'raven-reader'[0m
 [32m          [UP-TO-DATE] [raven-reader][1.0.68-1] matches upstream version 1.0.68 [0m
   [1;34m->[;1m checking for update for 'raven-reader-bin'[0m
@@ -363,7 +360,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'rclone-browser'[0m
 [32m          [UP-TO-DATE] [rclone-browser][1.8.0-2] matches upstream version 1.8.0 [0m
   [1;34m->[;1m checking for update for 'readability-cli'[0m
-[32m          [UP-TO-DATE] [readability-cli][2.3.4-1] matches upstream version 2.3.4 [0m
+[32m          [UP-TO-DATE] [readability-cli][2.3.5-1] matches upstream version 2.3.5 [0m
   [1;34m->[;1m checking for update for 'resvg'[0m
 [32m          [UP-TO-DATE] [resvg][0.19.0-1] matches upstream version 0.19.0 [0m
   [1;34m->[;1m checking for update for 'retroshare'[0m
@@ -424,7 +421,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'tmpwatch'[0m
 [37m             [UNKNOWN] [tmpwatch][2.11-3] No release found for https://releases.pagure.org/tmpwatch/tmpwatch-2.11.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'tor-browser'[0m
-[37m             [UNKNOWN] [tor-browser][11.0.2-1] No release found for tor-browser.desktop.in [0m
+[37m             [UNKNOWN] [tor-browser][11.0.3-1] No release found for tor-browser.desktop.in [0m
   [1;34m->[;1m checking for update for 'tt-bin'[0m
 [32m          [UP-TO-DATE] [tt-bin][0.4.2-1] matches upstream version 0.4.2 [0m
   [1;34m->[;1m checking for update for 'ttf-anka-coder'[0m
@@ -446,7 +443,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'uftrace'[0m
 [37m             [UNKNOWN] [uftrace][0.9.3-3] Failed to obtain GitHub release for namhyung/uftrace from https://api.github.com/repos/namhyung/uftrace/releases/latest: No GitHub project found for namhyung/uftrace on https://api.github.com/repos/namhyung/uftrace/releases/latest [0m
   [1;34m->[;1m checking for update for 'ugrep'[0m
-[31m         [OUT-OF-DATE] [ugrep][3.3.12-1] should be updated to 3.4.0 [0m
+[32m          [UP-TO-DATE] [ugrep][3.4.0-1] matches upstream version 3.4.0 [0m
   [1;34m->[;1m checking for update for 'usbaudio-git'[0m
   [1;34m->[;1m checking for update for 'vanitygen-git'[0m
   [1;34m->[;1m checking for update for 'vimix-cursors'[0m
@@ -456,7 +453,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'vrms-arch'[0m
 [37m             [UNKNOWN] [vrms-arch][0.1.0.r25.g802c767-1] Failed to obtain GitHub release for orospakr/vrms-arch.git from https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest: No GitHub project found for orospakr/vrms-arch.git on https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'vscodium-bin'[0m
-[32m          [UP-TO-DATE] [vscodium-bin][1.63.2-1] matches upstream version 1.63.2 [0m
+[32m          [UP-TO-DATE] [vscodium-bin][1.63.2-2] matches upstream version 1.63.2 [0m
   [1;34m->[;1m checking for update for 'waydroid'[0m
 [37m             [UNKNOWN] [waydroid][1.2.0-1] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
