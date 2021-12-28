@@ -1003,3 +1003,7 @@
 	path = repos/marktext-bin
 	url = ssh://aur@aur.archlinux.org/marktext-bin.git
 	branch = master
+[submodule "repos/thinkfan"]
+	path = repos/thinkfan
+	url = ssh://aur@aur.archlinux.org/thinkfan.git
+	branch = master
