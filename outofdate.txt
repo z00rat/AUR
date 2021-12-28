@@ -2,10 +2,9 @@
 
   [1;34m->[;1m listing already flaged packages[0m
 aseprite
-cloudflared-bin
 dry-bin
 nodejs-csso
-nordic-theme
+pnpm
 python-srt
 uftrace
 vrms-arch
@@ -73,7 +72,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'cava'[0m
 [32m          [UP-TO-DATE] [cava][0.7.4-1] matches upstream version 0.7.4 [0m
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
-[37m             [UNKNOWN] [cloudflared-bin][2021.12.1-1] No release found for https://raw.githubusercontent.com/cloudflare/cloudflared/master/LICENSE [0m
+[37m             [UNKNOWN] [cloudflared-bin][2021.12.3-2] No release found for https://raw.githubusercontent.com/cloudflare/cloudflared/master/LICENSE [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
 [31m         [OUT-OF-DATE] [code-features][1.62.0-1] should be updated to 1.63.2 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
@@ -242,7 +241,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'noisetorch-bin'[0m
 [32m          [UP-TO-DATE] [noisetorch-bin][0.11.4-2] matches upstream version 0.11.4 [0m
   [1;34m->[;1m checking for update for 'nordic-theme'[0m
-[31m         [OUT-OF-DATE] [nordic-theme][2.0.0-1] should be updated to 2.1.0 [0m
+[32m          [UP-TO-DATE] [nordic-theme][2.1.0-1] matches upstream version 2.1.0 [0m
   [1;34m->[;1m checking for update for 'notion-app'[0m
 [37m             [UNKNOWN] [notion-app][2.0.16-14] upstream version is 2.0.16-5 [0m
   [1;34m->[;1m checking for update for 'obfs4proxy'[0m
@@ -284,7 +283,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
 [32m          [UP-TO-DATE] [pipes.sh][1.3.0-1] matches upstream version 1.3.0 [0m
   [1;34m->[;1m checking for update for 'pkgoutofdate-git'[0m
   [1;34m->[;1m checking for update for 'plymouth-theme-arch10'[0m
-[37m             [UNKNOWN] [plymouth-theme-arch10][1-1] Failed to obtain GitHub release for manilarome/plymouth-theme-arch10 from https://api.github.com/repos/manilarome/plymouth-theme-arch10/releases/latest: Get "https://api.github.com/repos/manilarome/plymouth-theme-arch10/releases/latest": dial tcp: lookup api.github.com: Temporary failure in name resolution [0m
+[32m          [UP-TO-DATE] [plymouth-theme-arch10][1-1] matches upstream version 1 [0m
   [1;34m->[;1m checking for update for 'pm2ml'[0m
 [37m             [UNKNOWN] [pm2ml][2021.11.20.1-2] No release found for https://xyne.dev/projects/pm2ml/src/pm2ml-2021.11.20.1.tar.xz [0m
   [1;34m->[;1m checking for update for 'pnpm'[0m
@@ -417,6 +416,8 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'themix-plugin-base16-git'[0m
   [1;34m->[;1m checking for update for 'themix-theme-materia-git'[0m
   [1;34m->[;1m checking for update for 'themix-theme-oomox-git'[0m
+  [1;34m->[;1m checking for update for 'thinkfan'[0m
+[32m          [UP-TO-DATE] [thinkfan][1.3.0-1] matches upstream version 1.3.0 [0m
   [1;34m->[;1m checking for update for 'tlpui-git'[0m
   [1;34m->[;1m checking for update for 'tmpwatch'[0m
 [37m             [UNKNOWN] [tmpwatch][2.11-3] No release found for https://releases.pagure.org/tmpwatch/tmpwatch-2.11.tar.bz2 [0m
@@ -439,7 +440,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'ttyd'[0m
 [32m          [UP-TO-DATE] [ttyd][1.6.3-2] matches upstream version 1.6.3 [0m
   [1;34m->[;1m checking for update for 'typora'[0m
-[37m             [UNKNOWN] [typora][1.0.3-1] No release found for https://typora.io/linux/typora_1.0.3_amd64.deb [0m
+[37m             [UNKNOWN] [typora][1.0.3-2] No release found for https://typora.io/linux/typora_1.0.3_amd64.deb [0m
   [1;34m->[;1m checking for update for 'uftrace'[0m
 [37m             [UNKNOWN] [uftrace][0.9.3-3] Failed to obtain GitHub release for namhyung/uftrace from https://api.github.com/repos/namhyung/uftrace/releases/latest: No GitHub project found for namhyung/uftrace on https://api.github.com/repos/namhyung/uftrace/releases/latest [0m
   [1;34m->[;1m checking for update for 'ugrep'[0m

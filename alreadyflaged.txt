@@ -1,8 +1,7 @@
 aseprite
-cloudflared-bin
 dry-bin
 nodejs-csso
-nordic-theme
+pnpm
 python-srt
 uftrace
 vrms-arch
