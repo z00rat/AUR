@@ -1,8 +1,9 @@
   [1;34m->[;1m checking for out-of-date packages[0m
 
   [1;34m->[;1m listing already flaged packages[0m
-aseprite
 dry-bin
+mymonero
+nodejs-autocannon
 nodejs-csso
 pnpm
 python-srt
@@ -12,9 +13,9 @@ wttr
 xmind
   [1;34m->[;1m running pkgoutofdate[0m
 uftrace: new version found - 0.9.3 => 0.9.4
+mymonero: new version found - 1.2.3 => 1.2.4
 grex: new version found - 1.2.0 => 1.3.0
 electorrent-bin: new version found - 2.7.2 => 2.7.3
-aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
 [32m          [UP-TO-DATE] [activitywatch-bin][0.11.0-3] matches upstream version 0.11.0 [0m
@@ -30,7 +31,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
 [32m          [UP-TO-DATE] [apg][2.2.3-5] matches upstream version 2.2.3 [0m
   [1;34m->[;1m checking for update for 'archiso-git'[0m
   [1;34m->[;1m checking for update for 'aseprite'[0m
-[31m         [OUT-OF-DATE] [aseprite][1.2.27-1] should be updated to 1.3-beta7 [0m
+[31m         [OUT-OF-DATE] [aseprite][1.2.30-1] should be updated to 1.3-beta7 [0m
   [1;34m->[;1m checking for update for 'asp-git'[0m
   [1;34m->[;1m checking for update for 'aur-auto-vote-git'[0m
   [1;34m->[;1m checking for update for 'aur-out-of-date'[0m
@@ -217,7 +218,7 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'msg2'[0m
 [37m             [UNKNOWN] [msg2][1.2.0-2] No release found for https://roboticoverlords.org/msg2/msg2-1.2.0.tar.xz [0m
   [1;34m->[;1m checking for update for 'mymonero'[0m
-[32m          [UP-TO-DATE] [mymonero][1.2.3-1] matches upstream version 1.2.3 [0m
+[31m         [OUT-OF-DATE] [mymonero][1.2.3-1] should be updated to 1.2.4 [0m
   [1;34m->[;1m checking for update for 'nerd-fonts-source-code-pro'[0m
 [32m          [UP-TO-DATE] [nerd-fonts-source-code-pro][2.1.0-2] matches upstream version 2.1.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-autocannon'[0m
@@ -478,5 +479,5 @@ aseprite: new version found - 1.2.27 => 1.2.28
   [1;34m->[;1m checking for update for 'youtube-dl-gui-git'[0m
   [1;34m->[;1m checking for update for 'ytmdl-git'[0m
   [1;34m->[;1m checking for update for 'zoom'[0m
-[37m             [UNKNOWN] [zoom][5.9.0-1] No release found for zoom-5.9.0.1273_orig_x86_64.pkg.tar.xz::https://cdn.zoom.us/prod/5.9.0.1273/zoom_x86_64.pkg.tar.xz [0m
+[37m             [UNKNOWN] [zoom][5.9.1-1] No release found for zoom-5.9.1.1380_orig_x86_64.pkg.tar.xz::https://cdn.zoom.us/prod/5.9.1.1380/zoom_x86_64.pkg.tar.xz [0m
   [1;34m->[;1m done.[0m

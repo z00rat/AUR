@@ -1,5 +1,6 @@
-aseprite
 dry-bin
+mymonero
+nodejs-autocannon
 nodejs-csso
 pnpm
 python-srt
