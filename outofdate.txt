@@ -2,8 +2,6 @@
 
   [1;34m->[;1m listing already flaged packages[0m
 dry-bin
-mymonero
-nodejs-autocannon
 nodejs-csso
 pnpm
 python-srt
@@ -13,7 +11,7 @@ wttr
 xmind
   [1;34m->[;1m running pkgoutofdate[0m
 uftrace: new version found - 0.9.3 => 0.9.4
-mymonero: new version found - 1.2.3 => 1.2.4
+resvg: new version found - 0.19.0 => 0.20.0
 grex: new version found - 1.2.0 => 1.3.0
 electorrent-bin: new version found - 2.7.2 => 2.7.3
   [1;34m->[;1m running aur-out-of-date[0m
@@ -73,7 +71,7 @@ electorrent-bin: new version found - 2.7.2 => 2.7.3
   [1;34m->[;1m checking for update for 'cava'[0m
 [32m          [UP-TO-DATE] [cava][0.7.4-1] matches upstream version 0.7.4 [0m
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
-[37m             [UNKNOWN] [cloudflared-bin][2021.12.3-2] No release found for https://raw.githubusercontent.com/cloudflare/cloudflared/master/LICENSE [0m
+[37m             [UNKNOWN] [cloudflared-bin][2021.12.4-1] No release found for https://raw.githubusercontent.com/cloudflare/cloudflared/master/LICENSE [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
 [31m         [OUT-OF-DATE] [code-features][1.62.0-1] should be updated to 1.63.2 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
@@ -144,7 +142,7 @@ electorrent-bin: new version found - 2.7.2 => 2.7.3
   [1;34m->[;1m checking for update for 'fswatch'[0m
 [32m          [UP-TO-DATE] [fswatch][1.16.0-1] matches upstream version 1.16.0 [0m
   [1;34m->[;1m checking for update for 'gallery-dl'[0m
-[32m          [UP-TO-DATE] [gallery-dl][1.19.3-1] matches upstream version 1.19.3 [0m
+[32m          [UP-TO-DATE] [gallery-dl][1.20.0-1] matches upstream version 1.20.0 [0m
   [1;34m->[;1m checking for update for 'gconf-cleaner'[0m
 [37m             [UNKNOWN] [gconf-cleaner][0.0.3-2] No release found for https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gconf-cleaner/gconf-cleaner-0.0.3.tar.gz [0m
   [1;34m->[;1m checking for update for 'gconf-gtk2'[0m
@@ -218,11 +216,11 @@ electorrent-bin: new version found - 2.7.2 => 2.7.3
   [1;34m->[;1m checking for update for 'msg2'[0m
 [37m             [UNKNOWN] [msg2][1.2.0-2] No release found for https://roboticoverlords.org/msg2/msg2-1.2.0.tar.xz [0m
   [1;34m->[;1m checking for update for 'mymonero'[0m
-[31m         [OUT-OF-DATE] [mymonero][1.2.3-1] should be updated to 1.2.4 [0m
+[32m          [UP-TO-DATE] [mymonero][1.2.4-1] matches upstream version 1.2.4 [0m
   [1;34m->[;1m checking for update for 'nerd-fonts-source-code-pro'[0m
 [32m          [UP-TO-DATE] [nerd-fonts-source-code-pro][2.1.0-2] matches upstream version 2.1.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-autocannon'[0m
-[31m         [OUT-OF-DATE] [nodejs-autocannon][7.5.0-1] should be updated to 7.5.1 [0m
+[32m          [UP-TO-DATE] [nodejs-autocannon][7.5.1-1] matches upstream version 7.5.1 [0m
   [1;34m->[;1m checking for update for 'nodejs-clinic'[0m
 [32m          [UP-TO-DATE] [nodejs-clinic][10.0.0-1] matches upstream version 10.0.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-csso'[0m
@@ -283,12 +281,13 @@ electorrent-bin: new version found - 2.7.2 => 2.7.3
   [1;34m->[;1m checking for update for 'pipes.sh'[0m
 [32m          [UP-TO-DATE] [pipes.sh][1.3.0-1] matches upstream version 1.3.0 [0m
   [1;34m->[;1m checking for update for 'pkgoutofdate-git'[0m
+  [1;34m->[;1m checking for update for 'play-with-mpv-git'[0m
   [1;34m->[;1m checking for update for 'plymouth-theme-arch10'[0m
 [32m          [UP-TO-DATE] [plymouth-theme-arch10][1-1] matches upstream version 1 [0m
   [1;34m->[;1m checking for update for 'pm2ml'[0m
 [37m             [UNKNOWN] [pm2ml][2021.11.20.1-2] No release found for https://xyne.dev/projects/pm2ml/src/pm2ml-2021.11.20.1.tar.xz [0m
   [1;34m->[;1m checking for update for 'pnpm'[0m
-[31m         [OUT-OF-DATE] [pnpm][6.24.2-1] should be updated to 6.24.3 [0m
+[31m         [OUT-OF-DATE] [pnpm][6.24.2-1] should be updated to 6.24.4 [0m
   [1;34m->[;1m checking for update for 'popcorntime-bin'[0m
 [32m          [UP-TO-DATE] [popcorntime-bin][0.4.6-1] matches upstream version 0.4.6 [0m
   [1;34m->[;1m checking for update for 'powerpill'[0m
@@ -352,7 +351,7 @@ electorrent-bin: new version found - 2.7.2 => 2.7.3
   [1;34m->[;1m checking for update for 'qwinff'[0m
 [37m             [UNKNOWN] [qwinff][0.2.1-1] No release found for http://sourceforge.net/projects/qwinff/files/release/v0.2.1/qwinff_0.2.1.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'rate-mirrors-bin'[0m
-[32m          [UP-TO-DATE] [rate-mirrors-bin][0.6.1-1] matches upstream version 0.6.1 [0m
+[32m          [UP-TO-DATE] [rate-mirrors-bin][0.6.3-1] matches upstream version 0.6.3 [0m
   [1;34m->[;1m checking for update for 'raven-reader'[0m
 [32m          [UP-TO-DATE] [raven-reader][1.0.68-1] matches upstream version 1.0.68 [0m
   [1;34m->[;1m checking for update for 'raven-reader-bin'[0m
