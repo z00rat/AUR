@@ -1007,3 +1007,7 @@
 	path = repos/thinkfan
 	url = ssh://aur@aur.archlinux.org/thinkfan.git
 	branch = master
+[submodule "repos/play-with-mpv-git"]
+	path = repos/play-with-mpv-git
+	url = ssh://aur@aur.archlinux.org/play-with-mpv-git.git
+	branch = master
