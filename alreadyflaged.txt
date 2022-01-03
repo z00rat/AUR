@@ -1,7 +1,7 @@
 dry-bin
 nodejs-csso
+obfs4proxy
 pnpm
-python-srt
 uftrace
 vrms-arch
 wttr
