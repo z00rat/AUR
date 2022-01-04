@@ -1,19 +1,14 @@
   [1;34m->[;1m checking for out-of-date packages[0m
 
   [1;34m->[;1m listing already flaged packages[0m
-dry-bin
-nodejs-csso
-obfs4proxy
-pnpm
 uftrace
 vrms-arch
 wttr
 xmind
   [1;34m->[;1m running pkgoutofdate[0m
 uftrace: new version found - 0.9.3 => 0.9.4
-resvg: new version found - 0.19.0 => 0.20.0
-raven-reader: new version found - 1.0.68 => 1.0.69
 raven-reader-bin: new version found - 1.0.68 => 1.0.69
+resvg: new version found - 0.19.0 => 0.20.0
 grex: new version found - 1.2.0 => 1.3.0
 electorrent-bin: new version found - 2.7.2 => 2.7.3
 dart-sass: new version found - 1.45.1 => 1.45.2
@@ -38,7 +33,7 @@ dart-sass: new version found - 1.45.1 => 1.45.2
   [1;34m->[;1m checking for update for 'aur-out-of-date'[0m
 [32m          [UP-TO-DATE] [aur-out-of-date][3.2.0-1] matches upstream version 3.2.0 [0m
   [1;34m->[;1m checking for update for 'aurutils'[0m
-[31m         [OUT-OF-DATE] [aurutils][3.3.0-1] should be updated to 4 [0m
+[32m          [UP-TO-DATE] [aurutils][4-1] matches upstream version 4 [0m
   [1;34m->[;1m checking for update for 'aurvote'[0m
 [32m          [UP-TO-DATE] [aurvote][1.9-3] matches upstream version 1.9 [0m
   [1;34m->[;1m checking for update for 'aurvote-utils'[0m
@@ -108,11 +103,11 @@ dart-sass: new version found - 1.45.1 => 1.45.2
   [1;34m->[;1m checking for update for 'drawio-desktop-bin'[0m
 [32m          [UP-TO-DATE] [drawio-desktop-bin][16.1.2-1] matches upstream version 16.1.2 [0m
   [1;34m->[;1m checking for update for 'dry-bin'[0m
-[31m         [OUT-OF-DATE] [dry-bin][0.10-1] should be updated to 0.11.1 [0m
+[32m          [UP-TO-DATE] [dry-bin][0.11.1-1] matches upstream version 0.11.1 [0m
   [1;34m->[;1m checking for update for 'ebtables'[0m
 [37m             [UNKNOWN] [ebtables][2.0.10_4-8] No release found for https://downloads.sourceforge.net/ebtables/ebtables-v2.0.10-4.tar.gz [0m
   [1;34m->[;1m checking for update for 'edex-ui-bin'[0m
-[32m          [UP-TO-DATE] [edex-ui-bin][2.2.8-1] matches upstream version 2.2.8 [0m
+[37m             [UNKNOWN] [edex-ui-bin][2.2.8-1] No release found for LICENSE::https://raw.githubusercontent.com/GitSquared/edex-ui/v2.2.8/LICENSE [0m
   [1;34m->[;1m checking for update for 'electorrent-bin'[0m
 [31m         [OUT-OF-DATE] [electorrent-bin][2.7.2-1] should be updated to 2.7.3 [0m
   [1;34m->[;1m checking for update for 'electronmail-bin'[0m
@@ -194,7 +189,7 @@ dart-sass: new version found - 1.45.1 => 1.45.2
 [37m             [UNKNOWN] [libva-intel-driver-hybrid][2.4.1-1] Failed to obtain GitHub release for intel/intel-vaapi-driver.git from https://api.github.com/repos/intel/intel-vaapi-driver.git/releases/latest: No GitHub project found for intel/intel-vaapi-driver.git on https://api.github.com/repos/intel/intel-vaapi-driver.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'light-git'[0m
   [1;34m->[;1m checking for update for 'localepurge'[0m
-[32m          [UP-TO-DATE] [localepurge][0.7.3.10-0] matches upstream version 0.7.3.10 [0m
+[37m             [UNKNOWN] [localepurge][0.7.3.10-0] No debian release found for localepurge: Get "https://sources.debian.org/api/src/localepurge/": dial tcp [2607:f8f0:614:1::1274:74]:443: connect: network is unreachable [0m
   [1;34m->[;1m checking for update for 'losslesscut-bin'[0m
 [32m          [UP-TO-DATE] [losslesscut-bin][3.39.0-1] matches upstream version 3.39.0 [0m
   [1;34m->[;1m checking for update for 'lscolors-git'[0m
@@ -225,9 +220,9 @@ dart-sass: new version found - 1.45.1 => 1.45.2
   [1;34m->[;1m checking for update for 'nodejs-autocannon'[0m
 [32m          [UP-TO-DATE] [nodejs-autocannon][7.5.1-1] matches upstream version 7.5.1 [0m
   [1;34m->[;1m checking for update for 'nodejs-clinic'[0m
-[31m         [OUT-OF-DATE] [nodejs-clinic][10.0.0-1] should be updated to 11.0.0 [0m
+[32m          [UP-TO-DATE] [nodejs-clinic][11.0.0-1] matches upstream version 11.0.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-csso'[0m
-[31m         [OUT-OF-DATE] [nodejs-csso][5.0.0-3] should be updated to 5.0.2 [0m
+[32m          [UP-TO-DATE] [nodejs-csso][5.0.2-1] matches upstream version 5.0.2 [0m
   [1;34m->[;1m checking for update for 'nodejs-csso-cli'[0m
 [32m          [UP-TO-DATE] [nodejs-csso-cli][3.0.0-3] matches upstream version 3.0.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-mapscii'[0m
@@ -247,7 +242,7 @@ dart-sass: new version found - 1.45.1 => 1.45.2
   [1;34m->[;1m checking for update for 'notion-app'[0m
 [32m          [UP-TO-DATE] [notion-app][2.0.18-1] matches upstream version 2.0.18-1 [0m
   [1;34m->[;1m checking for update for 'obfs4proxy'[0m
-[37m             [UNKNOWN] [obfs4proxy][0.0.11-1] No release found for https://people.torproject.org/~yawning/releases/obfs4proxy/obfs4proxy-0.0.11.tar.xz [0m
+[37m             [UNKNOWN] [obfs4proxy][0.0.12-1] upstream version is obfs4proxy-0.0.12 [0m
   [1;34m->[;1m checking for update for 'obsidian'[0m
 [37m             [UNKNOWN] [obsidian][0.13.14-1] No release found for obsidian [0m
   [1;34m->[;1m checking for update for 'obs-plugin-input-overlay-bin'[0m
@@ -290,7 +285,7 @@ dart-sass: new version found - 1.45.1 => 1.45.2
   [1;34m->[;1m checking for update for 'pm2ml'[0m
 [37m             [UNKNOWN] [pm2ml][2021.11.20.1-2] No release found for https://xyne.dev/projects/pm2ml/src/pm2ml-2021.11.20.1.tar.xz [0m
   [1;34m->[;1m checking for update for 'pnpm'[0m
-[31m         [OUT-OF-DATE] [pnpm][6.24.2-1] should be updated to 6.24.4 [0m
+[32m          [UP-TO-DATE] [pnpm][6.24.4-1] matches upstream version 6.24.4 [0m
   [1;34m->[;1m checking for update for 'popcorntime-bin'[0m
 [32m          [UP-TO-DATE] [popcorntime-bin][0.4.6-1] matches upstream version 0.4.6 [0m
   [1;34m->[;1m checking for update for 'powerpill'[0m
@@ -335,7 +330,7 @@ dart-sass: new version found - 1.45.1 => 1.45.2
   [1;34m->[;1m checking for update for 'python-simber'[0m
 [32m          [UP-TO-DATE] [python-simber][0.2.3-0] matches upstream version 0.2.3 [0m
   [1;34m->[;1m checking for update for 'python-spotdl'[0m
-[32m          [UP-TO-DATE] [python-spotdl][3.9.1-1] matches upstream version 3.9.1 [0m
+[31m         [OUT-OF-DATE] [python-spotdl][3.9.1-1] should be updated to 3.9.2 [0m
   [1;34m->[;1m checking for update for 'python-spotipy'[0m
 [32m          [UP-TO-DATE] [python-spotipy][2.19.0-2] matches upstream version 2.19.0 [0m
   [1;34m->[;1m checking for update for 'python-srt'[0m
@@ -356,7 +351,7 @@ dart-sass: new version found - 1.45.1 => 1.45.2
   [1;34m->[;1m checking for update for 'rate-mirrors-bin'[0m
 [32m          [UP-TO-DATE] [rate-mirrors-bin][0.7.0-1] matches upstream version 0.7.0 [0m
   [1;34m->[;1m checking for update for 'raven-reader'[0m
-[31m         [OUT-OF-DATE] [raven-reader][1.0.68-1] should be updated to 1.0.69 [0m
+[32m          [UP-TO-DATE] [raven-reader][1.0.69-1] matches upstream version 1.0.69 [0m
   [1;34m->[;1m checking for update for 'raven-reader-bin'[0m
 [31m         [OUT-OF-DATE] [raven-reader-bin][1.0.68-1] should be updated to 1.0.69 [0m
   [1;34m->[;1m checking for update for 'rclone-browser'[0m

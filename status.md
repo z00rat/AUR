@@ -1,6 +1,7 @@
   [1;34m->[;1m number of packags that are 252 tracked[0m
-  [1;34m->[;1m number of packages that are 236 installed[0m
+  [1;34m->[;1m number of packages that are 237 installed[0m
   [1;34m->[;1m packages that are not tracked but installed in the system...[0m
+pkgtop
 plymouth-theme-black-hud-git
 plymouth-theme-blockchain-git
 plymouth-theme-circle-flow-git
@@ -24,6 +25,7 @@ plymouth-theme-seal-2-git
 plymouth-theme-seal-3-git
 plymouth-theme-spin-git
 plymouth-theme-square-hud-git
+trizen
   [1;34m->[;1m packages that are tracked but not installed in the system...[0m
 aurutils
 aurvote-utils
@@ -37,6 +39,7 @@ burpsuite
 code-server
 cointop-bin
 ctjs-bin
+dart-sass
 drawio-desktop-bin
 electorrent-bin
 gitify-bin
