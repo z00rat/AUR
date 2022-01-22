@@ -1011,3 +1011,15 @@
 	path = repos/play-with-mpv-git
 	url = ssh://aur@aur.archlinux.org/play-with-mpv-git.git
 	branch = master
+[submodule "repos/docker-systemctl-replacement-git"]
+	path = repos/docker-systemctl-replacement-git
+	url = ssh://aur@aur.archlinux.org/docker-systemctl-replacement-git.git
+	branch = master
+[submodule "repos/nodejs-git-split-diffs"]
+	path = repos/nodejs-git-split-diffs
+	url = ssh://aur@aur.archlinux.org/nodejs-git-split-diffs.git
+	branch = master
+[submodule "repos/yay-bin"]
+	path = repos/yay-bin
+	url = ssh://aur@aur.archlinux.org/yay-bin.git
+	branch = master

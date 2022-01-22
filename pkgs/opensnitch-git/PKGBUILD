@@ -3,7 +3,7 @@
 # Contributor: lsf
 # Contributor: Adam Hose <adis@blad.is>
 pkgname=opensnitch-git
-pkgver=1.4.0.r20.9ef64da
+pkgver=1.5.0.r37.bb25362
 pkgrel=1
 pkgdesc="A GNU/Linux port of the Little Snitch application firewall"
 arch=('i686' 'x86_64' 'armv6h' 'armv7h' 'aarch64')
@@ -14,7 +14,9 @@ makedepends=('git' 'go' 'python-setuptools'
 depends=('libnetfilter_queue' 'libpcap' 'python-grpcio' 'python-protobuf'
          'python-pyinotify' 'python-slugify' 'python-pyqt5')
 optdepends=('logrotate: for logfile rotation support'
-            'opensnitch-ebpf-module-git: eBPF process monitor method (non-hardened kernel only)')
+            'opensnitch-ebpf-module-git: eBPF process monitor method (non-hardened kernel only)'
+            'python-notify2: desktop notifications'
+            'python-pyasn: display network names')
 provides=("${pkgname%-git}")
 conflicts=("${pkgname%-git}")
 backup=("etc/${pkgname%-git}d/default-config.json")
@@ -33,6 +35,8 @@ prepare() {
 
   cd "$srcdir/${pkgname%-git}"
   sed -i 's|local/bin|bin|g' "daemon/${pkgname%-git}d.service"
+  sed -i 's|/usr/lib/python3/dist-packages/data/|/usr/lib/python3.10/site-packages/pyasn/data/|g' ui/opensnitch/utils.py
+  sed -i 's|/usr/lib/python3/dist-packages/|/usr/lib/python3.10/site-packages/|g' ui/bin/opensnitch-ui
 }
 
 build() {
@@ -45,8 +49,8 @@ build() {
   export CGO_LDFLAGS="${LDFLAGS}"
   export GOFLAGS="-buildmode=pie -trimpath -ldflags=-linkmode=external -mod=mod"
   export PATH=${PATH}:${GOPATH}/bin
-  go install github.com/golang/protobuf/protoc-gen-go@latest
-  go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
+  go install github.com/golang/protobuf/protoc-gen-go
+  go install google.golang.org/grpc/cmd/protoc-gen-go-grpc
   pushd proto
   make
   popd
@@ -73,7 +77,7 @@ build() {
 package() {
   cd "$srcdir/${pkgname%-git}"
   pushd ui
-  export PYTHONHASHSEED=0
+  export PYTHONHASHSEED=0 # to hopefully avoid annoying keychain popups
   python setup.py install --root="$pkgdir/" --optimize=1 --skip-build
   popd
 
@@ -87,4 +91,8 @@ package() {
   install -Dm644 daemon/system-fw.json -t "$pkgdir/etc/${pkgname%-git}d"
   install -Dm644 "debian/${pkgname%-git}.logrotate" \
     "$pkgdir/etc/logrotate.d/${pkgname%-git}"
+
+  # clean up test dir to avoid conflicts with other packages
+  # that also do not clear up the test dir ^^
+  rm -rf "$pkgdir/usr/lib/python3.10/site-packages/tests"
 }

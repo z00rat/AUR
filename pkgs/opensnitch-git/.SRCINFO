@@ -1,6 +1,6 @@
 pkgbase = opensnitch-git
 	pkgdesc = A GNU/Linux port of the Little Snitch application firewall
-	pkgver = 1.4.0.r20.9ef64da
+	pkgver = 1.5.0.r37.bb25362
 	pkgrel = 1
 	url = https://github.com/evilsocket/opensnitch
 	install = opensnitch.install
@@ -24,6 +24,8 @@ pkgbase = opensnitch-git
 	depends = python-pyqt5
 	optdepends = logrotate: for logfile rotation support
 	optdepends = opensnitch-ebpf-module-git: eBPF process monitor method (non-hardened kernel only)
+	optdepends = python-notify2: desktop notifications
+	optdepends = python-pyasn: display network names
 	provides = opensnitch
 	conflicts = opensnitch
 	backup = etc/opensnitchd/default-config.json

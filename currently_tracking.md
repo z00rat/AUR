@@ -45,6 +45,7 @@
  - https://aur.archlinux.org/packages/discord-chat-exporter-cli
  - https://aur.archlinux.org/packages/discord-ptb
  - https://aur.archlinux.org/packages/dive
+ - https://aur.archlinux.org/packages/docker-systemctl-replacement-git
  - https://aur.archlinux.org/packages/downloader-cli
  - https://aur.archlinux.org/packages/drawio-desktop-bin
  - https://aur.archlinux.org/packages/dry-bin
@@ -99,6 +100,7 @@
  - https://aur.archlinux.org/packages/lua-format
  - https://aur.archlinux.org/packages/lynis-git
  - https://aur.archlinux.org/packages/maldet
+ - https://aur.archlinux.org/packages/marktext-bin
  - https://aur.archlinux.org/packages/mergerfs
  - https://aur.archlinux.org/packages/mergerfs-tools-git
  - https://aur.archlinux.org/packages/mkclean
@@ -111,6 +113,7 @@
  - https://aur.archlinux.org/packages/nodejs-clinic
  - https://aur.archlinux.org/packages/nodejs-csso
  - https://aur.archlinux.org/packages/nodejs-csso-cli
+ - https://aur.archlinux.org/packages/nodejs-git-split-diffs
  - https://aur.archlinux.org/packages/nodejs-mapscii
  - https://aur.archlinux.org/packages/nodejs-nodemon
  - https://aur.archlinux.org/packages/nodejs-npm2arch
@@ -140,6 +143,7 @@
  - https://aur.archlinux.org/packages/pikaur
  - https://aur.archlinux.org/packages/pipes.sh
  - https://aur.archlinux.org/packages/pkgoutofdate-git
+ - https://aur.archlinux.org/packages/play-with-mpv-git
  - https://aur.archlinux.org/packages/plymouth-theme-arch10
  - https://aur.archlinux.org/packages/pm2ml
  - https://aur.archlinux.org/packages/pnpm
@@ -216,6 +220,7 @@
  - https://aur.archlinux.org/packages/themix-plugin-base16-git
  - https://aur.archlinux.org/packages/themix-theme-materia-git
  - https://aur.archlinux.org/packages/themix-theme-oomox-git
+ - https://aur.archlinux.org/packages/thinkfan
  - https://aur.archlinux.org/packages/tlpui-git
  - https://aur.archlinux.org/packages/tmpwatch
  - https://aur.archlinux.org/packages/tor-browser
@@ -246,10 +251,11 @@
  - https://aur.archlinux.org/packages/x11docker
  - https://aur.archlinux.org/packages/xinput-gui
  - https://aur.archlinux.org/packages/xmind
+ - https://aur.archlinux.org/packages/yay-bin
  - https://aur.archlinux.org/packages/youtube-dl-gui-git
  - https://aur.archlinux.org/packages/ytmdl-git
  - https://aur.archlinux.org/packages/zoom
 ---
 
-number of packages = 249.
+number of packages = 255.
 

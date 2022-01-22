@@ -1,5 +1,10 @@
 *
-!.gitignore
-!.SRCINFO
-!aseprite.desktop
-!PKGBUILD
+!/.gitignore
+!/.SRCINFO
+!/PKGBUILD
+!/desktop.patch
+!/shared-fmt.patch
+!/shared-libarchive.patch
+!/shared-libwebp.patch
+!/shared-skia-deps.patch
+!/optional-pixman.patch

@@ -1,7 +1,7 @@
 #!/bin/bash
-msg2 "submodule status"
-git submodule status
-echo ""
+# msg2 "submodule status"
+# git submodule status
+# echo ""
 pwd=$(pwd)
 
 for pkgname in $(/usr/bin/ls repos); do
@@ -9,7 +9,8 @@ for pkgname in $(/usr/bin/ls repos); do
 
 #   cd repos/"$pkgname" || exit
    pushd repos/"$pkgname" >/dev/null
-   git pull | grep -v "Already up to date."
+   git checkout master >/dev/null 2>/dev/null
+   git pull  origin master:master | grep -v "Already up to date."
 #   cd "$pwd" || exit
    popd >/dev/null
 

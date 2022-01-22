@@ -1,4 +1,1 @@
-uftrace
-vrms-arch
-wttr
-xmind
+pnpm
