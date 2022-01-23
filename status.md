@@ -1,10 +1,7 @@
-  [1;34m->[;1m number of packags that are 252 tracked[0m
-  [1;34m->[;1m number of packages that are 23 installed[0m
+  [1;34m->[;1m number of packags that are 255 tracked[0m
+  [1;34m->[;1m number of packages that are 24 installed[0m
   [1;34m->[;1m packages that are not tracked but installed in the system...[0m
-docker-systemctl-replacement-git
-nodejs-git-split-diffs
 trizen
-yay-bin
   [1;34m->[;1m packages that are tracked but not installed in the system...[0m
 activitywatch-bin
 advcpmv
@@ -132,7 +129,6 @@ p7zip-gui
 parse-torrent
 passivedns-git
 patat-bin
-pfetch
 picom-ibhagwan-git
 pikaur
 pipes.sh
