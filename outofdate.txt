@@ -3,6 +3,7 @@
   [1;34m->[;1m listing already flaged packages[0m
   [1;34m->[;1m running pkgoutofdate[0m
 uftrace: new version found - 0.9.3 => 0.9.4
+scrcpy: new version found - 1.21 => 1.22
 grex: new version found - 1.2.0 => 1.3.0
 electorrent-bin: new version found - 2.7.2 => 2.7.3
 dart-sass: new version found - 1.45.1 => 1.45.2
@@ -370,7 +371,7 @@ dart-sass: new version found - 1.45.1 => 1.45.2
   [1;34m->[;1m checking for update for 'runjs-bin'[0m
 [32m          [UP-TO-DATE] [runjs-bin][2.2.2-1] matches upstream version 2.2.2 [0m
   [1;34m->[;1m checking for update for 'scrcpy'[0m
-[32m          [UP-TO-DATE] [scrcpy][1.21-1] matches upstream version 1.21 [0m
+[31m         [OUT-OF-DATE] [scrcpy][1.21-1] should be updated to 1.22 [0m
   [1;34m->[;1m checking for update for 'sherlock-git'[0m
   [1;34m->[;1m checking for update for 'siji-git'[0m
   [1;34m->[;1m checking for update for 'simple-mtpfs'[0m
