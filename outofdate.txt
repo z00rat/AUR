@@ -7,6 +7,7 @@ scrcpy: new version found - 1.21 => 1.22
 grex: new version found - 1.2.0 => 1.3.0
 electorrent-bin: new version found - 2.7.2 => 2.7.3
 dart-sass: new version found - 1.45.1 => 1.45.2
+cava: new version found - 0.7.4 => 0.7.5
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
 [32m          [UP-TO-DATE] [activitywatch-bin][0.11.0-3] matches upstream version 0.11.0 [0m
@@ -58,11 +59,11 @@ dart-sass: new version found - 1.45.1 => 1.45.2
   [1;34m->[;1m checking for update for 'broken-link-checker'[0m
 [32m          [UP-TO-DATE] [broken-link-checker][0.7.8-1] matches upstream version 0.7.8 [0m
   [1;34m->[;1m checking for update for 'bubblejail'[0m
-[32m          [UP-TO-DATE] [bubblejail][0.4.4-1] matches upstream version 0.4.4 [0m
+[32m          [UP-TO-DATE] [bubblejail][0.5.0-1] matches upstream version 0.5.0 [0m
   [1;34m->[;1m checking for update for 'burpsuite'[0m
 [37m             [UNKNOWN] [burpsuite][2022.1-1] No release found for burpsuite-2022.1.jar::https://portswigger.net/burp/releases/download?product=community&version=2022.1&type=Jar [0m
   [1;34m->[;1m checking for update for 'cava'[0m
-[32m          [UP-TO-DATE] [cava][0.7.4-1] matches upstream version 0.7.4 [0m
+[31m         [OUT-OF-DATE] [cava][0.7.4-1] should be updated to 0.7.5 [0m
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
 [37m             [UNKNOWN] [cloudflared-bin][2022.1.2-1] No release found for https://raw.githubusercontent.com/cloudflare/cloudflared/master/LICENSE [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
@@ -88,7 +89,7 @@ dart-sass: new version found - 1.45.1 => 1.45.2
   [1;34m->[;1m checking for update for 'diceware'[0m
 [37m             [UNKNOWN] [diceware][0.9.6-2] Failed to obtain GitHub release for ulif/diceware from https://api.github.com/repos/ulif/diceware/releases/latest: No GitHub project found for ulif/diceware on https://api.github.com/repos/ulif/diceware/releases/latest [0m
   [1;34m->[;1m checking for update for 'discord-chat-exporter-cli'[0m
-[31m         [OUT-OF-DATE] [discord-chat-exporter-cli][2.31.1-1] should be updated to 2.32 [0m
+[32m          [UP-TO-DATE] [discord-chat-exporter-cli][2.32-1] matches upstream version 2.32 [0m
   [1;34m->[;1m checking for update for 'discord-ptb'[0m
 [37m             [UNKNOWN] [discord-ptb][0.0.28-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.28/discord-ptb-0.0.28.tar.gz [0m
   [1;34m->[;1m checking for update for 'dive'[0m
@@ -230,7 +231,7 @@ dart-sass: new version found - 1.45.1 => 1.45.2
   [1;34m->[;1m checking for update for 'nodejs-npm2arch'[0m
 [32m          [UP-TO-DATE] [nodejs-npm2arch][2.2.0-1] matches upstream version 2.2.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-ungit'[0m
-[32m          [UP-TO-DATE] [nodejs-ungit][1.5.18-1] matches upstream version 1.5.18 [0m
+[31m         [OUT-OF-DATE] [nodejs-ungit][1.5.18-1] should be updated to 1.5.19 [0m
   [1;34m->[;1m checking for update for 'noisetorch'[0m
 [32m          [UP-TO-DATE] [noisetorch][0.11.4-1] matches upstream version 0.11.4 [0m
   [1;34m->[;1m checking for update for 'noisetorch-bin'[0m
@@ -242,7 +243,7 @@ dart-sass: new version found - 1.45.1 => 1.45.2
   [1;34m->[;1m checking for update for 'obfs4proxy'[0m
 [37m             [UNKNOWN] [obfs4proxy][0.0.12-1] upstream version is obfs4proxy-0.0.12 [0m
   [1;34m->[;1m checking for update for 'obsidian'[0m
-[37m             [UNKNOWN] [obsidian][0.13.19-1] No release found for obsidian [0m
+[37m             [UNKNOWN] [obsidian][0.13.23-1] No release found for obsidian [0m
   [1;34m->[;1m checking for update for 'obs-plugin-input-overlay-bin'[0m
 [32m          [UP-TO-DATE] [obs-plugin-input-overlay-bin][4.8-1] matches upstream version 4.8 [0m
   [1;34m->[;1m checking for update for 'obs-v4l2sink'[0m
@@ -283,7 +284,7 @@ dart-sass: new version found - 1.45.1 => 1.45.2
   [1;34m->[;1m checking for update for 'pm2ml'[0m
 [37m             [UNKNOWN] [pm2ml][2021.11.20.1-2] No release found for https://xyne.dev/projects/pm2ml/src/pm2ml-2021.11.20.1.tar.xz [0m
   [1;34m->[;1m checking for update for 'pnpm'[0m
-[32m          [UP-TO-DATE] [pnpm][6.28.0-0] matches upstream version 6.28.0 [0m
+[31m         [OUT-OF-DATE] [pnpm][6.28.0-0] should be updated to 6.29.1 [0m
   [1;34m->[;1m checking for update for 'popcorntime-bin'[0m
 [32m          [UP-TO-DATE] [popcorntime-bin][0.4.6-1] matches upstream version 0.4.6 [0m
   [1;34m->[;1m checking for update for 'powerpill'[0m
@@ -383,7 +384,7 @@ dart-sass: new version found - 1.45.1 => 1.45.2
   [1;34m->[;1m checking for update for 'speedometer'[0m
 [32m          [UP-TO-DATE] [speedometer][2.8-4] matches upstream version 2.8 [0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
-[32m          [UP-TO-DATE] [spicetify-cli][2.8.4-1] matches upstream version 2.8.4 [0m
+[32m          [UP-TO-DATE] [spicetify-cli][2.8.5-1] matches upstream version 2.8.5 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
 [37m             [UNKNOWN] [spotify][1:1.1.72.439-3] No release found for spotify.protocol [0m
   [1;34m->[;1m checking for update for 'stacer'[0m
