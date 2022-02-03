@@ -1,10 +1,10 @@
   [1;34m->[;1m checking for out-of-date packages[0m
 
   [1;34m->[;1m listing already flaged packages[0m
-pnpm
   [1;34m->[;1m running pkgoutofdate[0m
 uftrace: new version found - 0.9.3 => 0.9.4
 scrcpy: new version found - 1.21 => 1.22
+opensnitch: new version found - 1.4.3 => 1.5.0
 grex: new version found - 1.2.0 => 1.3.0
 electorrent-bin: new version found - 2.7.2 => 2.7.3
 dart-sass: new version found - 1.45.1 => 1.45.2
@@ -197,7 +197,7 @@ cava: new version found - 0.7.4 => 0.7.5
 [32m          [UP-TO-DATE] [lua-format][1.3.6-1] matches upstream version 1.3.6 [0m
   [1;34m->[;1m checking for update for 'lynis-git'[0m
   [1;34m->[;1m checking for update for 'maldet'[0m
-[32m          [UP-TO-DATE] [maldet][1.6.4-7] matches upstream version 1.6.4 [0m
+[32m          [UP-TO-DATE] [maldet][1.6.4-9] matches upstream version 1.6.4 [0m
   [1;34m->[;1m checking for update for 'marktext-bin'[0m
 [32m          [UP-TO-DATE] [marktext-bin][0.16.3-2] matches upstream version 0.16.3 [0m
   [1;34m->[;1m checking for update for 'mergerfs'[0m
@@ -275,7 +275,7 @@ cava: new version found - 0.7.4 => 0.7.5
 [32m          [UP-TO-DATE] [pfetch][0.6.0-3] matches upstream version 0.6.0 [0m
   [1;34m->[;1m checking for update for 'picom-ibhagwan-git'[0m
   [1;34m->[;1m checking for update for 'pikaur'[0m
-[32m          [UP-TO-DATE] [pikaur][1.9-1] matches upstream version 1.9 [0m
+[32m          [UP-TO-DATE] [pikaur][1.10.1-1] matches upstream version 1.10.1 [0m
   [1;34m->[;1m checking for update for 'pipes.sh'[0m
 [32m          [UP-TO-DATE] [pipes.sh][1.3.0-1] matches upstream version 1.3.0 [0m
   [1;34m->[;1m checking for update for 'pkgoutofdate-git'[0m
@@ -285,7 +285,7 @@ cava: new version found - 0.7.4 => 0.7.5
   [1;34m->[;1m checking for update for 'pm2ml'[0m
 [37m             [UNKNOWN] [pm2ml][2021.11.20.1-2] No release found for https://xyne.dev/projects/pm2ml/src/pm2ml-2021.11.20.1.tar.xz [0m
   [1;34m->[;1m checking for update for 'pnpm'[0m
-[31m         [OUT-OF-DATE] [pnpm][6.28.0-0] should be updated to 6.29.1 [0m
+[32m          [UP-TO-DATE] [pnpm][6.29.1-0] matches upstream version 6.29.1 [0m
   [1;34m->[;1m checking for update for 'popcorntime-bin'[0m
 [32m          [UP-TO-DATE] [popcorntime-bin][0.4.6-1] matches upstream version 0.4.6 [0m
   [1;34m->[;1m checking for update for 'powerpill'[0m
