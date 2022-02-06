@@ -5,12 +5,11 @@
 uftrace: new version found - 0.9.3 => 0.9.4
 scrcpy: new version found - 1.21 => 1.22
 obsidian: new version found - 0.13.23 => 0.13.24
-opensnitch: new version found - 1.4.3 => 1.5.0
-obfs4proxy: new version found - 0.0.12 => 0.0.13
 grex: new version found - 1.2.0 => 1.3.0
 electorrent-bin: new version found - 2.7.2 => 2.7.3
 dart-sass: new version found - 1.45.1 => 1.45.2
 cava: new version found - 0.7.4 => 0.7.5
+aurutils: new version found - 4.3 => 4.4
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
 [32m          [UP-TO-DATE] [activitywatch-bin][0.11.0-3] matches upstream version 0.11.0 [0m
@@ -32,7 +31,7 @@ cava: new version found - 0.7.4 => 0.7.5
   [1;34m->[;1m checking for update for 'aur-out-of-date'[0m
 [32m          [UP-TO-DATE] [aur-out-of-date][3.2.0-1] matches upstream version 3.2.0 [0m
   [1;34m->[;1m checking for update for 'aurutils'[0m
-[32m          [UP-TO-DATE] [aurutils][4.3-1] matches upstream version 4.3 [0m
+[31m         [OUT-OF-DATE] [aurutils][4.3-1] should be updated to 4.4 [0m
   [1;34m->[;1m checking for update for 'aurvote'[0m
 [32m          [UP-TO-DATE] [aurvote][1.9-3] matches upstream version 1.9 [0m
   [1;34m->[;1m checking for update for 'aurvote-utils'[0m
@@ -70,7 +69,7 @@ cava: new version found - 0.7.4 => 0.7.5
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
 [37m             [UNKNOWN] [cloudflared-bin][2022.1.2-1] No release found for https://raw.githubusercontent.com/cloudflare/cloudflared/master/LICENSE [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
-[31m         [OUT-OF-DATE] [code-features][1.63.2-1] should be updated to 1.64.0 [0m
+[32m          [UP-TO-DATE] [code-features][1.64.0-1] matches upstream version 1.64.0 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
 [37m             [UNKNOWN] [code-marketplace][1.54.3-4] No release found for code-marketplace.hook [0m
   [1;34m->[;1m checking for update for 'code-server'[0m
@@ -244,7 +243,7 @@ cava: new version found - 0.7.4 => 0.7.5
   [1;34m->[;1m checking for update for 'notion-app'[0m
 [32m          [UP-TO-DATE] [notion-app][2.0.18-1] matches upstream version 2.0.18-1 [0m
   [1;34m->[;1m checking for update for 'obfs4proxy'[0m
-[37m             [UNKNOWN] [obfs4proxy][0.0.12-1] upstream version is obfs4proxy-0.0.13 [0m
+[37m             [UNKNOWN] [obfs4proxy][0.0.13-1] upstream version is obfs4proxy-0.0.13 [0m
   [1;34m->[;1m checking for update for 'obsidian'[0m
 [37m             [UNKNOWN] [obsidian][0.13.23-1] No release found for obsidian [0m
   [1;34m->[;1m checking for update for 'obs-plugin-input-overlay-bin'[0m
@@ -260,7 +259,7 @@ cava: new version found - 0.7.4 => 0.7.5
   [1;34m->[;1m checking for update for 'opencomic-bin'[0m
 [32m          [UP-TO-DATE] [opencomic-bin][0.2.1-3] matches upstream version 0.2.1 [0m
   [1;34m->[;1m checking for update for 'opensnitch'[0m
-[31m         [OUT-OF-DATE] [opensnitch][1.4.3-2] should be updated to 1.5.0 [0m
+[32m          [UP-TO-DATE] [opensnitch][1.5.0-2] matches upstream version 1.5.0 [0m
   [1;34m->[;1m checking for update for 'opensnitch-git'[0m
   [1;34m->[;1m checking for update for 'otf-san-francisco'[0m
 [37m             [UNKNOWN] [otf-san-francisco][1:2-1] No release found for SFPro-1.0.zip::https://developer.apple.com/fonts/downloads/SFPro.zip [0m
@@ -387,7 +386,7 @@ cava: new version found - 0.7.4 => 0.7.5
   [1;34m->[;1m checking for update for 'speedometer'[0m
 [32m          [UP-TO-DATE] [speedometer][2.8-4] matches upstream version 2.8 [0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
-[32m          [UP-TO-DATE] [spicetify-cli][2.8.5-1] matches upstream version 2.8.5 [0m
+[32m          [UP-TO-DATE] [spicetify-cli][2.9.0-1] matches upstream version 2.9.0 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
 [37m             [UNKNOWN] [spotify][1:1.1.72.439-3] No release found for spotify.protocol [0m
   [1;34m->[;1m checking for update for 'stacer'[0m
@@ -417,7 +416,7 @@ cava: new version found - 0.7.4 => 0.7.5
   [1;34m->[;1m checking for update for 'themix-theme-materia-git'[0m
   [1;34m->[;1m checking for update for 'themix-theme-oomox-git'[0m
   [1;34m->[;1m checking for update for 'thinkfan'[0m
-[32m          [UP-TO-DATE] [thinkfan][1.3.0-1] matches upstream version 1.3.0 [0m
+[32m          [UP-TO-DATE] [thinkfan][1.3.1-1] matches upstream version 1.3.1 [0m
   [1;34m->[;1m checking for update for 'tlpui-git'[0m
   [1;34m->[;1m checking for update for 'tmpwatch'[0m
 [37m             [UNKNOWN] [tmpwatch][2.11-3] No release found for https://releases.pagure.org/tmpwatch/tmpwatch-2.11.tar.bz2 [0m
@@ -454,7 +453,7 @@ cava: new version found - 0.7.4 => 0.7.5
   [1;34m->[;1m checking for update for 'vrms-arch'[0m
 [37m             [UNKNOWN] [vrms-arch][0.1.0.r25.g802c767-1] Failed to obtain GitHub release for orospakr/vrms-arch.git from https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest: No GitHub project found for orospakr/vrms-arch.git on https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'vscodium-bin'[0m
-[31m         [OUT-OF-DATE] [vscodium-bin][1.63.2-3] should be updated to 1.64.0 [0m
+[32m          [UP-TO-DATE] [vscodium-bin][1.64.0-1] matches upstream version 1.64.0 [0m
   [1;34m->[;1m checking for update for 'waydroid'[0m
 [37m             [UNKNOWN] [waydroid][1.2.0-1] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
