@@ -8,7 +8,6 @@ obsidian: new version found - 0.13.23 => 0.13.24
 grex: new version found - 1.2.0 => 1.3.0
 electorrent-bin: new version found - 2.7.2 => 2.7.3
 dart-sass: new version found - 1.45.1 => 1.45.2
-cava: new version found - 0.7.4 => 0.7.5
 aurutils: new version found - 4.3 => 4.4
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
@@ -65,7 +64,7 @@ aurutils: new version found - 4.3 => 4.4
   [1;34m->[;1m checking for update for 'burpsuite'[0m
 [37m             [UNKNOWN] [burpsuite][2022.1-1] No release found for burpsuite-2022.1.jar::https://portswigger.net/burp/releases/download?product=community&version=2022.1&type=Jar [0m
   [1;34m->[;1m checking for update for 'cava'[0m
-[31m         [OUT-OF-DATE] [cava][0.7.4-1] should be updated to 0.7.5 [0m
+[32m          [UP-TO-DATE] [cava][0.7.5-1] matches upstream version 0.7.5 [0m
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
 [37m             [UNKNOWN] [cloudflared-bin][2022.1.2-1] No release found for https://raw.githubusercontent.com/cloudflare/cloudflared/master/LICENSE [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
@@ -443,7 +442,7 @@ aurutils: new version found - 4.3 => 4.4
   [1;34m->[;1m checking for update for 'uftrace'[0m
 [37m             [UNKNOWN] [uftrace][0.9.3-3] Failed to obtain GitHub release for namhyung/uftrace from https://api.github.com/repos/namhyung/uftrace/releases/latest: No GitHub project found for namhyung/uftrace on https://api.github.com/repos/namhyung/uftrace/releases/latest [0m
   [1;34m->[;1m checking for update for 'ugrep'[0m
-[32m          [UP-TO-DATE] [ugrep][3.7.1-1] matches upstream version 3.7.1 [0m
+[32m          [UP-TO-DATE] [ugrep][3.7.2-1] matches upstream version 3.7.2 [0m
   [1;34m->[;1m checking for update for 'usbaudio-git'[0m
   [1;34m->[;1m checking for update for 'vanitygen-git'[0m
   [1;34m->[;1m checking for update for 'vimix-cursors'[0m
