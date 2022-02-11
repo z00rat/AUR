@@ -2,6 +2,7 @@
 
   [1;34m->[;1m listing already flaged packages[0m
 python-rapidfuzz
+pnpm
   [1;34m->[;1m running pkgoutofdate[0m
 uftrace: new version found - 0.9.3 => 0.9.4
 scrcpy: new version found - 1.21 => 1.22
@@ -15,7 +16,7 @@ dart-sass: new version found - 1.45.1 => 1.45.2
   [1;34m->[;1m checking for update for 'advcpmv'[0m
 [37m             [UNKNOWN] [advcpmv][9.0-4] No release found for https://ftp.gnu.org/gnu/coreutils/coreutils-9.0.tar.xz [0m
   [1;34m->[;1m checking for update for 'alacritty-themes'[0m
-[32m          [UP-TO-DATE] [alacritty-themes][4.2.0-1] matches upstream version 4.2.0 [0m
+[31m         [OUT-OF-DATE] [alacritty-themes][4.2.0-1] should be updated to 4.3.0 [0m
   [1;34m->[;1m checking for update for 'ansifilter'[0m
 [37m             [UNKNOWN] [ansifilter][2.18-1] No release found for http://www.andre-simon.de/zip/ansifilter-2.18.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'antibody'[0m
@@ -68,7 +69,7 @@ dart-sass: new version found - 1.45.1 => 1.45.2
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
 [37m             [UNKNOWN] [cloudflared-bin][2022.1.2-1] No release found for https://raw.githubusercontent.com/cloudflare/cloudflared/master/LICENSE [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
-[31m         [OUT-OF-DATE] [code-features][1.64.0-1] should be updated to 1.64.1 [0m
+[31m         [OUT-OF-DATE] [code-features][1.64.0-1] should be updated to 1.64.2 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
 [37m             [UNKNOWN] [code-marketplace][1.54.3-4] No release found for code-marketplace.hook [0m
   [1;34m->[;1m checking for update for 'code-server'[0m
@@ -371,7 +372,7 @@ dart-sass: new version found - 1.45.1 => 1.45.2
   [1;34m->[;1m checking for update for 'rtags'[0m
 [32m          [UP-TO-DATE] [rtags][2.38-1] matches upstream version 2.38 [0m
   [1;34m->[;1m checking for update for 'runjs-bin'[0m
-[32m          [UP-TO-DATE] [runjs-bin][2.2.2-1] matches upstream version 2.2.2 [0m
+[31m         [OUT-OF-DATE] [runjs-bin][2.2.2-1] should be updated to 2.3.0 [0m
   [1;34m->[;1m checking for update for 'scrcpy'[0m
 [31m         [OUT-OF-DATE] [scrcpy][1.21-1] should be updated to 1.22 [0m
   [1;34m->[;1m checking for update for 'sherlock-git'[0m
@@ -420,7 +421,7 @@ dart-sass: new version found - 1.45.1 => 1.45.2
   [1;34m->[;1m checking for update for 'tmpwatch'[0m
 [37m             [UNKNOWN] [tmpwatch][2.11-3] No release found for https://releases.pagure.org/tmpwatch/tmpwatch-2.11.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'tor-browser'[0m
-[37m             [UNKNOWN] [tor-browser][11.0.4-1] No release found for tor-browser.desktop.in [0m
+[37m             [UNKNOWN] [tor-browser][11.0.6-1] No release found for tor-browser.desktop.in [0m
   [1;34m->[;1m checking for update for 'tt-bin'[0m
 [32m          [UP-TO-DATE] [tt-bin][0.4.2-1] matches upstream version 0.4.2 [0m
   [1;34m->[;1m checking for update for 'ttf-anka-coder'[0m
@@ -452,7 +453,7 @@ dart-sass: new version found - 1.45.1 => 1.45.2
   [1;34m->[;1m checking for update for 'vrms-arch'[0m
 [37m             [UNKNOWN] [vrms-arch][0.1.0.r25.g802c767-1] Failed to obtain GitHub release for orospakr/vrms-arch.git from https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest: No GitHub project found for orospakr/vrms-arch.git on https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'vscodium-bin'[0m
-[32m          [UP-TO-DATE] [vscodium-bin][1.64.1-1] matches upstream version 1.64.1 [0m
+[32m          [UP-TO-DATE] [vscodium-bin][1.64.2-1] matches upstream version 1.64.2 [0m
   [1;34m->[;1m checking for update for 'waydroid'[0m
 [37m             [UNKNOWN] [waydroid][1.2.0-1] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
