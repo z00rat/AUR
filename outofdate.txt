@@ -1,6 +1,7 @@
   [1;34m->[;1m checking for out-of-date packages[0m
 
   [1;34m->[;1m listing already flaged packages[0m
+pfetch
 python-rapidfuzz
   [1;34m->[;1m running pkgoutofdate[0m
 uftrace: new version found - 0.9.3 => 0.9.4
@@ -89,7 +90,7 @@ dart-sass: new version found - 1.45.1 => 1.45.2
   [1;34m->[;1m checking for update for 'debtap'[0m
 [32m          [UP-TO-DATE] [debtap][3.4.2-1] matches upstream version 3.4.2 [0m
   [1;34m->[;1m checking for update for 'diceware'[0m
-[37m             [UNKNOWN] [diceware][0.9.6-2] Failed to obtain GitHub release for ulif/diceware from https://api.github.com/repos/ulif/diceware/releases/latest: No GitHub project found for ulif/diceware on https://api.github.com/repos/ulif/diceware/releases/latest [0m
+[37m             [UNKNOWN] [diceware][0.10-1] Failed to obtain GitHub release for ulif/diceware from https://api.github.com/repos/ulif/diceware/releases/latest: No GitHub project found for ulif/diceware on https://api.github.com/repos/ulif/diceware/releases/latest [0m
   [1;34m->[;1m checking for update for 'discord-chat-exporter-cli'[0m
 [32m          [UP-TO-DATE] [discord-chat-exporter-cli][2.32-1] matches upstream version 2.32 [0m
   [1;34m->[;1m checking for update for 'discord-ptb'[0m
