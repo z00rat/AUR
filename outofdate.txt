@@ -1,7 +1,6 @@
   [1;34m->[;1m checking for out-of-date packages[0m
 
   [1;34m->[;1m listing already flaged packages[0m
-pfetch
 python-rapidfuzz
   [1;34m->[;1m running pkgoutofdate[0m
 uftrace: new version found - 0.9.3 => 0.9.4
@@ -11,6 +10,7 @@ obsidian: new version found - 0.13.23 => 0.13.24
 grex: new version found - 1.2.0 => 1.3.0
 electorrent-bin: new version found - 2.7.2 => 2.7.3
 dart-sass: new version found - 1.45.1 => 1.45.2
+burpsuite: new version found - 2022.1 => 2022.2
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
 [32m          [UP-TO-DATE] [activitywatch-bin][0.11.0-3] matches upstream version 0.11.0 [0m
@@ -68,7 +68,7 @@ dart-sass: new version found - 1.45.1 => 1.45.2
   [1;34m->[;1m checking for update for 'cava'[0m
 [32m          [UP-TO-DATE] [cava][0.7.5-1] matches upstream version 0.7.5 [0m
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
-[37m             [UNKNOWN] [cloudflared-bin][2022.1.2-1] No release found for https://raw.githubusercontent.com/cloudflare/cloudflared/master/LICENSE [0m
+[37m             [UNKNOWN] [cloudflared-bin][2022.2.0-1] No release found for https://raw.githubusercontent.com/cloudflare/cloudflared/master/LICENSE [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
 [31m         [OUT-OF-DATE] [code-features][1.64.0-1] should be updated to 1.64.2 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
@@ -220,7 +220,7 @@ dart-sass: new version found - 1.45.1 => 1.45.2
   [1;34m->[;1m checking for update for 'nodejs-autocannon'[0m
 [32m          [UP-TO-DATE] [nodejs-autocannon][7.6.0-1] matches upstream version 7.6.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-clinic'[0m
-[32m          [UP-TO-DATE] [nodejs-clinic][11.0.0-1] matches upstream version 11.0.0 [0m
+[31m         [OUT-OF-DATE] [nodejs-clinic][11.0.0-1] should be updated to 11.1.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-csso'[0m
 [32m          [UP-TO-DATE] [nodejs-csso][5.0.2-1] matches upstream version 5.0.2 [0m
   [1;34m->[;1m checking for update for 'nodejs-csso-cli'[0m
