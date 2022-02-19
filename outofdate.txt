@@ -8,7 +8,6 @@ x11docker: new version found - 7.0.1 => 7.1.0
 scrcpy: new version found - 1.21 => 1.22
 obsidian: new version found - 0.13.23 => 0.13.24
 grex: new version found - 1.2.0 => 1.3.0
-electorrent-bin: new version found - 2.7.2 => 2.7.3
 dart-sass: new version found - 1.45.1 => 1.45.2
 burpsuite: new version found - 2022.1 => 2022.2
   [1;34m->[;1m running aur-out-of-date[0m
@@ -32,7 +31,7 @@ burpsuite: new version found - 2022.1 => 2022.2
   [1;34m->[;1m checking for update for 'aur-out-of-date'[0m
 [32m          [UP-TO-DATE] [aur-out-of-date][3.2.0-1] matches upstream version 3.2.0 [0m
   [1;34m->[;1m checking for update for 'aurutils'[0m
-[32m          [UP-TO-DATE] [aurutils][5.2-1] matches upstream version 5.2 [0m
+[32m          [UP-TO-DATE] [aurutils][6.2-1] matches upstream version 6.2 [0m
   [1;34m->[;1m checking for update for 'aurvote'[0m
 [32m          [UP-TO-DATE] [aurvote][1.9-3] matches upstream version 1.9 [0m
   [1;34m->[;1m checking for update for 'aurvote-utils'[0m
@@ -84,7 +83,7 @@ burpsuite: new version found - 2022.1 => 2022.2
   [1;34m->[;1m checking for update for 'ctjs-bin'[0m
 [32m          [UP-TO-DATE] [ctjs-bin][1.7.0-1] matches upstream version 1.7.0 [0m
   [1;34m->[;1m checking for update for 'dart-sass'[0m
-[31m         [OUT-OF-DATE] [dart-sass][1.45.1-1] should be updated to 1.49.7 [0m
+[31m         [OUT-OF-DATE] [dart-sass][1.45.1-1] should be updated to 1.49.8 [0m
   [1;34m->[;1m checking for update for 'ddd'[0m
 [37m             [UNKNOWN] [ddd][3.3.12-12] No release found for http://ftp.gnu.org/gnu/ddd/ddd-3.3.12.tar.gz [0m
   [1;34m->[;1m checking for update for 'debtap'[0m
@@ -94,7 +93,7 @@ burpsuite: new version found - 2022.1 => 2022.2
   [1;34m->[;1m checking for update for 'discord-chat-exporter-cli'[0m
 [32m          [UP-TO-DATE] [discord-chat-exporter-cli][2.32-1] matches upstream version 2.32 [0m
   [1;34m->[;1m checking for update for 'discord-ptb'[0m
-[37m             [UNKNOWN] [discord-ptb][0.0.29-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.29/discord-ptb-0.0.29.tar.gz [0m
+[37m             [UNKNOWN] [discord-ptb][0.0.29-2] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.29/discord-ptb-0.0.29.tar.gz [0m
   [1;34m->[;1m checking for update for 'dive'[0m
 [32m          [UP-TO-DATE] [dive][0.10.0-1] matches upstream version 0.10.0 [0m
   [1;34m->[;1m checking for update for 'docker-systemctl-replacement-git'[0m
@@ -109,9 +108,9 @@ burpsuite: new version found - 2022.1 => 2022.2
   [1;34m->[;1m checking for update for 'edex-ui-bin'[0m
 [32m          [UP-TO-DATE] [edex-ui-bin][2.2.8-1] matches upstream version 2.2.8 [0m
   [1;34m->[;1m checking for update for 'electorrent-bin'[0m
-[31m         [OUT-OF-DATE] [electorrent-bin][2.7.2-1] should be updated to 2.7.3 [0m
+[32m          [UP-TO-DATE] [electorrent-bin][2.7.3-1] matches upstream version 2.7.3 [0m
   [1;34m->[;1m checking for update for 'electronmail-bin'[0m
-[32m          [UP-TO-DATE] [electronmail-bin][4.13.2-1] matches upstream version 4.13.2 [0m
+[32m          [UP-TO-DATE] [electronmail-bin][4.13.3-1] matches upstream version 4.13.3 [0m
   [1;34m->[;1m checking for update for 'exe-thumbnailer'[0m
 [37m             [UNKNOWN] [exe-thumbnailer][0.10.1-1] Failed to obtain GitHub release for exe-thumbnailer/exe-thumbnailer from https://api.github.com/repos/exe-thumbnailer/exe-thumbnailer/releases/latest: No GitHub project found for exe-thumbnailer/exe-thumbnailer on https://api.github.com/repos/exe-thumbnailer/exe-thumbnailer/releases/latest [0m
   [1;34m->[;1m checking for update for 'ezshare'[0m
@@ -189,7 +188,7 @@ burpsuite: new version found - 2022.1 => 2022.2
 [37m             [UNKNOWN] [libva-intel-driver-hybrid][2.4.1-1] Failed to obtain GitHub release for intel/intel-vaapi-driver.git from https://api.github.com/repos/intel/intel-vaapi-driver.git/releases/latest: No GitHub project found for intel/intel-vaapi-driver.git on https://api.github.com/repos/intel/intel-vaapi-driver.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'light-git'[0m
   [1;34m->[;1m checking for update for 'localepurge'[0m
-[32m          [UP-TO-DATE] [localepurge][0.7.3.10-0] matches upstream version 0.7.3.10 [0m
+[37m             [UNKNOWN] [localepurge][0.7.3.10-0] No debian release found for localepurge: Get "https://sources.debian.org/api/src/localepurge/": net/http: TLS handshake timeout [0m
   [1;34m->[;1m checking for update for 'losslesscut-bin'[0m
 [32m          [UP-TO-DATE] [losslesscut-bin][3.42.0-1] matches upstream version 3.42.0 [0m
   [1;34m->[;1m checking for update for 'lscolors-git'[0m
@@ -220,7 +219,7 @@ burpsuite: new version found - 2022.1 => 2022.2
   [1;34m->[;1m checking for update for 'nodejs-autocannon'[0m
 [32m          [UP-TO-DATE] [nodejs-autocannon][7.6.0-1] matches upstream version 7.6.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-clinic'[0m
-[31m         [OUT-OF-DATE] [nodejs-clinic][11.0.0-1] should be updated to 11.1.0 [0m
+[32m          [UP-TO-DATE] [nodejs-clinic][11.1.0-1] matches upstream version 11.1.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-csso'[0m
 [32m          [UP-TO-DATE] [nodejs-csso][5.0.2-1] matches upstream version 5.0.2 [0m
   [1;34m->[;1m checking for update for 'nodejs-csso-cli'[0m
@@ -269,7 +268,7 @@ burpsuite: new version found - 2022.1 => 2022.2
   [1;34m->[;1m checking for update for 'parse-torrent'[0m
 [32m          [UP-TO-DATE] [parse-torrent][9.1.4-2] matches upstream version 9.1.4 [0m
   [1;34m->[;1m checking for update for 'paru-bin'[0m
-[32m          [UP-TO-DATE] [paru-bin][1.9.2-1] matches upstream version 1.9.2 [0m
+[32m          [UP-TO-DATE] [paru-bin][1.9.3-1] matches upstream version 1.9.3 [0m
   [1;34m->[;1m checking for update for 'passivedns-git'[0m
   [1;34m->[;1m checking for update for 'patat-bin'[0m
 [32m          [UP-TO-DATE] [patat-bin][0.8.7.0-1] matches upstream version 0.8.7.0 [0m
@@ -326,7 +325,7 @@ burpsuite: new version found - 2022.1 => 2022.2
   [1;34m->[;1m checking for update for 'python-pytube'[0m
 [37m             [UNKNOWN] [python-pytube][11.0.2-1] upstream version is 11.0.1 [0m
   [1;34m->[;1m checking for update for 'python-rapidfuzz'[0m
-[31m         [OUT-OF-DATE] [python-rapidfuzz][1.9.1-1] should be updated to 2.0.2 [0m
+[31m         [OUT-OF-DATE] [python-rapidfuzz][1.9.1-1] should be updated to 2.0.3 [0m
   [1;34m->[;1m checking for update for 'python-requests-futures'[0m
 [32m          [UP-TO-DATE] [python-requests-futures][1.0.0-3] matches upstream version 1.0.0 [0m
   [1;34m->[;1m checking for update for 'python-simber'[0m
@@ -385,9 +384,9 @@ burpsuite: new version found - 2022.1 => 2022.2
   [1;34m->[;1m checking for update for 'sndcpy-bin'[0m
 [32m          [UP-TO-DATE] [sndcpy-bin][1.1-1] matches upstream version 1.1 [0m
   [1;34m->[;1m checking for update for 'speedometer'[0m
-[32m          [UP-TO-DATE] [speedometer][2.8-4] matches upstream version 2.8 [0m
+[37m             [UNKNOWN] [speedometer][2.8-4] No debian release found for speedometer: Get "https://sources.debian.org/api/src/speedometer/": net/http: TLS handshake timeout [0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
-[32m          [UP-TO-DATE] [spicetify-cli][2.9.0-1] matches upstream version 2.9.0 [0m
+[32m          [UP-TO-DATE] [spicetify-cli][2.9.1-1] matches upstream version 2.9.1 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
 [37m             [UNKNOWN] [spotify][1:1.1.72.439-3] No release found for spotify.protocol [0m
   [1;34m->[;1m checking for update for 'stacer'[0m
@@ -440,7 +439,7 @@ burpsuite: new version found - 2022.1 => 2022.2
   [1;34m->[;1m checking for update for 'ttyd'[0m
 [32m          [UP-TO-DATE] [ttyd][1.6.3-2] matches upstream version 1.6.3 [0m
   [1;34m->[;1m checking for update for 'typora'[0m
-[37m             [UNKNOWN] [typora][1.0.4-1] No release found for https://typora.io/linux/typora_1.0.4_amd64.deb [0m
+[37m             [UNKNOWN] [typora][1.1.3-1] No release found for https://typora.io/linux/typora_1.1.3_amd64.deb [0m
   [1;34m->[;1m checking for update for 'uftrace'[0m
 [37m             [UNKNOWN] [uftrace][0.9.3-3] Failed to obtain GitHub release for namhyung/uftrace from https://api.github.com/repos/namhyung/uftrace/releases/latest: No GitHub project found for namhyung/uftrace on https://api.github.com/repos/namhyung/uftrace/releases/latest [0m
   [1;34m->[;1m checking for update for 'ugrep'[0m
