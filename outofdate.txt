@@ -9,7 +9,6 @@ scrcpy: new version found - 1.21 => 1.22
 obsidian: new version found - 0.13.23 => 0.13.24
 grex: new version found - 1.2.0 => 1.3.0
 dart-sass: new version found - 1.45.1 => 1.45.2
-burpsuite: new version found - 2022.1 => 2022.2
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
 [32m          [UP-TO-DATE] [activitywatch-bin][0.11.0-3] matches upstream version 0.11.0 [0m
@@ -31,7 +30,7 @@ burpsuite: new version found - 2022.1 => 2022.2
   [1;34m->[;1m checking for update for 'aur-out-of-date'[0m
 [32m          [UP-TO-DATE] [aur-out-of-date][3.2.0-1] matches upstream version 3.2.0 [0m
   [1;34m->[;1m checking for update for 'aurutils'[0m
-[32m          [UP-TO-DATE] [aurutils][6.2-1] matches upstream version 6.2 [0m
+[32m          [UP-TO-DATE] [aurutils][6.3-1] matches upstream version 6.3 [0m
   [1;34m->[;1m checking for update for 'aurvote'[0m
 [32m          [UP-TO-DATE] [aurvote][1.9-3] matches upstream version 1.9 [0m
   [1;34m->[;1m checking for update for 'aurvote-utils'[0m
@@ -63,7 +62,7 @@ burpsuite: new version found - 2022.1 => 2022.2
   [1;34m->[;1m checking for update for 'bubblejail'[0m
 [32m          [UP-TO-DATE] [bubblejail][0.5.1-1] matches upstream version 0.5.1 [0m
   [1;34m->[;1m checking for update for 'burpsuite'[0m
-[37m             [UNKNOWN] [burpsuite][2022.1-1] No release found for burpsuite-2022.1.jar::https://portswigger.net/burp/releases/download?product=community&version=2022.1&type=Jar [0m
+[37m             [UNKNOWN] [burpsuite][2022.2-1] No release found for burpsuite-2022.2.jar::https://portswigger.net/burp/releases/download?product=community&version=2022.2&type=Jar [0m
   [1;34m->[;1m checking for update for 'cava'[0m
 [32m          [UP-TO-DATE] [cava][0.7.5-1] matches upstream version 0.7.5 [0m
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
@@ -188,7 +187,7 @@ burpsuite: new version found - 2022.1 => 2022.2
 [37m             [UNKNOWN] [libva-intel-driver-hybrid][2.4.1-1] Failed to obtain GitHub release for intel/intel-vaapi-driver.git from https://api.github.com/repos/intel/intel-vaapi-driver.git/releases/latest: No GitHub project found for intel/intel-vaapi-driver.git on https://api.github.com/repos/intel/intel-vaapi-driver.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'light-git'[0m
   [1;34m->[;1m checking for update for 'localepurge'[0m
-[37m             [UNKNOWN] [localepurge][0.7.3.10-0] No debian release found for localepurge: Get "https://sources.debian.org/api/src/localepurge/": net/http: TLS handshake timeout [0m
+[32m          [UP-TO-DATE] [localepurge][0.7.3.10-0] matches upstream version 0.7.3.10 [0m
   [1;34m->[;1m checking for update for 'losslesscut-bin'[0m
 [32m          [UP-TO-DATE] [losslesscut-bin][3.42.0-1] matches upstream version 3.42.0 [0m
   [1;34m->[;1m checking for update for 'lscolors-git'[0m
@@ -384,7 +383,7 @@ burpsuite: new version found - 2022.1 => 2022.2
   [1;34m->[;1m checking for update for 'sndcpy-bin'[0m
 [32m          [UP-TO-DATE] [sndcpy-bin][1.1-1] matches upstream version 1.1 [0m
   [1;34m->[;1m checking for update for 'speedometer'[0m
-[37m             [UNKNOWN] [speedometer][2.8-4] No debian release found for speedometer: Get "https://sources.debian.org/api/src/speedometer/": net/http: TLS handshake timeout [0m
+[32m          [UP-TO-DATE] [speedometer][2.8-4] matches upstream version 2.8 [0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
 [32m          [UP-TO-DATE] [spicetify-cli][2.9.1-1] matches upstream version 2.9.1 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
@@ -443,7 +442,7 @@ burpsuite: new version found - 2022.1 => 2022.2
   [1;34m->[;1m checking for update for 'uftrace'[0m
 [37m             [UNKNOWN] [uftrace][0.9.3-3] Failed to obtain GitHub release for namhyung/uftrace from https://api.github.com/repos/namhyung/uftrace/releases/latest: No GitHub project found for namhyung/uftrace on https://api.github.com/repos/namhyung/uftrace/releases/latest [0m
   [1;34m->[;1m checking for update for 'ugrep'[0m
-[32m          [UP-TO-DATE] [ugrep][3.7.2-1] matches upstream version 3.7.2 [0m
+[32m          [UP-TO-DATE] [ugrep][3.7.3-1] matches upstream version 3.7.3 [0m
   [1;34m->[;1m checking for update for 'usbaudio-git'[0m
   [1;34m->[;1m checking for update for 'vanitygen-git'[0m
   [1;34m->[;1m checking for update for 'vimix-cursors'[0m
