@@ -6,6 +6,7 @@ python-rapidfuzz
 uftrace: new version found - 0.9.3 => 0.9.4
 x11docker: new version found - 7.0.1 => 7.1.0
 scrcpy: new version found - 1.21 => 1.22
+resvg: new version found - 0.21.0 => 0.22.0
 obsidian: new version found - 0.13.23 => 0.13.24
 grex: new version found - 1.2.0 => 1.3.0
 dart-sass: new version found - 1.45.1 => 1.45.2
@@ -30,7 +31,7 @@ dart-sass: new version found - 1.45.1 => 1.45.2
   [1;34m->[;1m checking for update for 'aur-out-of-date'[0m
 [32m          [UP-TO-DATE] [aur-out-of-date][3.2.0-1] matches upstream version 3.2.0 [0m
   [1;34m->[;1m checking for update for 'aurutils'[0m
-[32m          [UP-TO-DATE] [aurutils][6.3-1] matches upstream version 6.3 [0m
+[32m          [UP-TO-DATE] [aurutils][6.4-1] matches upstream version 6.4 [0m
   [1;34m->[;1m checking for update for 'aurvote'[0m
 [32m          [UP-TO-DATE] [aurvote][1.9-3] matches upstream version 1.9 [0m
   [1;34m->[;1m checking for update for 'aurvote-utils'[0m
@@ -66,7 +67,7 @@ dart-sass: new version found - 1.45.1 => 1.45.2
   [1;34m->[;1m checking for update for 'cava'[0m
 [32m          [UP-TO-DATE] [cava][0.7.5-1] matches upstream version 0.7.5 [0m
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
-[37m             [UNKNOWN] [cloudflared-bin][2022.2.0-1] No release found for https://raw.githubusercontent.com/cloudflare/cloudflared/master/LICENSE [0m
+[37m             [UNKNOWN] [cloudflared-bin][2022.2.1-1] No release found for https://raw.githubusercontent.com/cloudflare/cloudflared/master/LICENSE [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
 [31m         [OUT-OF-DATE] [code-features][1.64.0-1] should be updated to 1.64.2 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
@@ -320,7 +321,7 @@ dart-sass: new version found - 1.45.1 => 1.45.2
   [1;34m->[;1m checking for update for 'python-pynput'[0m
 [32m          [UP-TO-DATE] [python-pynput][1.7.6-1] matches upstream version 1.7.6 [0m
   [1;34m->[;1m checking for update for 'python-pysubs2'[0m
-[32m          [UP-TO-DATE] [python-pysubs2][1.3.1-1] matches upstream version 1.3.1 [0m
+[31m         [OUT-OF-DATE] [python-pysubs2][1.3.1-1] should be updated to 1.4.0 [0m
   [1;34m->[;1m checking for update for 'python-pytube'[0m
 [37m             [UNKNOWN] [python-pytube][11.0.2-1] upstream version is 11.0.1 [0m
   [1;34m->[;1m checking for update for 'python-rapidfuzz'[0m
@@ -359,7 +360,7 @@ dart-sass: new version found - 1.45.1 => 1.45.2
   [1;34m->[;1m checking for update for 'readability-cli'[0m
 [32m          [UP-TO-DATE] [readability-cli][2.3.5-1] matches upstream version 2.3.5 [0m
   [1;34m->[;1m checking for update for 'resvg'[0m
-[32m          [UP-TO-DATE] [resvg][0.21.0-1] matches upstream version 0.21.0 [0m
+[31m         [OUT-OF-DATE] [resvg][0.21.0-1] should be updated to 0.22.0 [0m
   [1;34m->[;1m checking for update for 'retroshare'[0m
 [32m          [UP-TO-DATE] [retroshare][0.6.6-2] matches upstream version 0.6.6 [0m
   [1;34m->[;1m checking for update for 'ricochet'[0m
@@ -438,7 +439,7 @@ dart-sass: new version found - 1.45.1 => 1.45.2
   [1;34m->[;1m checking for update for 'ttyd'[0m
 [32m          [UP-TO-DATE] [ttyd][1.6.3-2] matches upstream version 1.6.3 [0m
   [1;34m->[;1m checking for update for 'typora'[0m
-[37m             [UNKNOWN] [typora][1.1.3-1] No release found for https://typora.io/linux/typora_1.1.3_amd64.deb [0m
+[37m             [UNKNOWN] [typora][1.1.4-1] No release found for https://typora.io/linux/typora_1.1.4_amd64.deb [0m
   [1;34m->[;1m checking for update for 'uftrace'[0m
 [37m             [UNKNOWN] [uftrace][0.9.3-3] Failed to obtain GitHub release for namhyung/uftrace from https://api.github.com/repos/namhyung/uftrace/releases/latest: No GitHub project found for namhyung/uftrace on https://api.github.com/repos/namhyung/uftrace/releases/latest [0m
   [1;34m->[;1m checking for update for 'ugrep'[0m
