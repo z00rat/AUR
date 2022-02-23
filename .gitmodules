@@ -883,10 +883,6 @@
 	path = repos/python-pynput
 	url = ssh://aur@aur.archlinux.org/python-pynput.git
 	branch = master
-[submodule "repos/scrcpy"]
-	path = repos/scrcpy
-	url = ssh://aur@aur.archlinux.org/scrcpy.git
-	branch = master
 [submodule "repos/sndcpy-bin"]
 	path = repos/sndcpy-bin
 	url = ssh://aur@aur.archlinux.org/sndcpy-bin.git
