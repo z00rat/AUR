@@ -227,10 +227,6 @@
 	path = repos/opensnitch-git
 	url = ssh://aur@aur.archlinux.org/opensnitch-git.git
 	branch = master
-[submodule "repos/otf-san-francisco"]
-	path = repos/otf-san-francisco
-	url = ssh://aur@aur.archlinux.org/otf-san-francisco.git
-	branch = master
 [submodule "repos/p7zip-gui"]
 	path = repos/p7zip-gui
 	url = ssh://aur@aur.archlinux.org/p7zip-gui.git
