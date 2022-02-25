@@ -38,7 +38,6 @@
  - https://aur.archlinux.org/packages/cointop-bin
  - https://aur.archlinux.org/packages/csslint
  - https://aur.archlinux.org/packages/ctjs-bin
- - https://aur.archlinux.org/packages/dart-sass
  - https://aur.archlinux.org/packages/ddd
  - https://aur.archlinux.org/packages/debtap
  - https://aur.archlinux.org/packages/diceware
@@ -72,9 +71,7 @@
  - https://aur.archlinux.org/packages/gconf-gtk2
  - https://aur.archlinux.org/packages/gitify-bin
  - https://aur.archlinux.org/packages/gitstatus
- - https://aur.archlinux.org/packages/glow
  - https://aur.archlinux.org/packages/google-chrome
- - https://aur.archlinux.org/packages/grex
  - https://aur.archlinux.org/packages/guiscrcpy
  - https://aur.archlinux.org/packages/hakuneko-desktop
  - https://aur.archlinux.org/packages/heroku-cli-bin
@@ -123,7 +120,6 @@
  - https://aur.archlinux.org/packages/nordic-theme
  - https://aur.archlinux.org/packages/notion-app
  - https://aur.archlinux.org/packages/obfs4proxy
- - https://aur.archlinux.org/packages/obsidian
  - https://aur.archlinux.org/packages/obs-plugin-input-overlay-bin
  - https://aur.archlinux.org/packages/obs-v4l2sink
  - https://aur.archlinux.org/packages/onedrive-abraunegg
@@ -132,7 +128,6 @@
  - https://aur.archlinux.org/packages/opencomic-bin
  - https://aur.archlinux.org/packages/opensnitch
  - https://aur.archlinux.org/packages/opensnitch-git
- - https://aur.archlinux.org/packages/otf-san-francisco
  - https://aur.archlinux.org/packages/p7zip-gui
  - https://aur.archlinux.org/packages/parse-torrent
  - https://aur.archlinux.org/packages/paru-bin
@@ -191,7 +186,6 @@
  - https://aur.archlinux.org/packages/rofi-greenclip
  - https://aur.archlinux.org/packages/rtags
  - https://aur.archlinux.org/packages/runjs-bin
- - https://aur.archlinux.org/packages/scrcpy
  - https://aur.archlinux.org/packages/sherlock-git
  - https://aur.archlinux.org/packages/siji-git
  - https://aur.archlinux.org/packages/simple-mtpfs
@@ -257,5 +251,5 @@
  - https://aur.archlinux.org/packages/zoom
 ---
 
-number of packages = 255.
+number of packages = 249.
 
