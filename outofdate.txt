@@ -5,6 +5,7 @@ python-rapidfuzz
 pnpm
   [1;34m->[;1m running pkgoutofdate[0m
 uftrace: new version found - 0.9.3 => 0.9.4
+raven-reader: new version found - 1.0.70 => 1.0.71
 marktext-bin: new version found - 0.16.3 => 0.17.0
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
@@ -27,7 +28,7 @@ marktext-bin: new version found - 0.16.3 => 0.17.0
   [1;34m->[;1m checking for update for 'aur-out-of-date'[0m
 [32m          [UP-TO-DATE] [aur-out-of-date][3.2.0-1] matches upstream version 3.2.0 [0m
   [1;34m->[;1m checking for update for 'aurutils'[0m
-[32m          [UP-TO-DATE] [aurutils][7-1] matches upstream version 7 [0m
+[32m          [UP-TO-DATE] [aurutils][7.1.1-1] matches upstream version 7.1.1 [0m
   [1;34m->[;1m checking for update for 'aurvote'[0m
 [32m          [UP-TO-DATE] [aurvote][1.9-3] matches upstream version 1.9 [0m
   [1;34m->[;1m checking for update for 'aurvote-utils'[0m
@@ -63,7 +64,7 @@ marktext-bin: new version found - 0.16.3 => 0.17.0
   [1;34m->[;1m checking for update for 'cava'[0m
 [32m          [UP-TO-DATE] [cava][0.7.5-1] matches upstream version 0.7.5 [0m
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
-[37m             [UNKNOWN] [cloudflared-bin][2022.2.1-1] No release found for https://raw.githubusercontent.com/cloudflare/cloudflared/master/LICENSE [0m
+[37m             [UNKNOWN] [cloudflared-bin][2022.2.2-1] No release found for https://raw.githubusercontent.com/cloudflare/cloudflared/master/LICENSE [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
 [31m         [OUT-OF-DATE] [code-features][1.64.0-1] should be updated to 1.64.2 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
@@ -272,7 +273,7 @@ marktext-bin: new version found - 0.16.3 => 0.17.0
   [1;34m->[;1m checking for update for 'pm2ml'[0m
 [37m             [UNKNOWN] [pm2ml][2021.11.20.1-2] No release found for https://xyne.dev/projects/pm2ml/src/pm2ml-2021.11.20.1.tar.xz [0m
   [1;34m->[;1m checking for update for 'pnpm'[0m
-[31m         [OUT-OF-DATE] [pnpm][6.31.0-0] should be updated to 6.32.1 [0m
+[31m         [OUT-OF-DATE] [pnpm][6.31.0-0] should be updated to 6.32.2 [0m
   [1;34m->[;1m checking for update for 'popcorntime-bin'[0m
 [32m          [UP-TO-DATE] [popcorntime-bin][0.4.6-1] matches upstream version 0.4.6 [0m
   [1;34m->[;1m checking for update for 'powerpill'[0m
@@ -328,7 +329,7 @@ marktext-bin: new version found - 0.16.3 => 0.17.0
 [32m          [UP-TO-DATE] [python-webrtcvad][2.0.10-2] matches upstream version 2.0.10 [0m
   [1;34m->[;1m checking for update for 'python-youtube-search-git'[0m
   [1;34m->[;1m checking for update for 'python-ytmusicapi'[0m
-[32m          [UP-TO-DATE] [python-ytmusicapi][0.20.0-1] matches upstream version 0.20.0 [0m
+[32m          [UP-TO-DATE] [python-ytmusicapi][0.21.0-1] matches upstream version 0.21.0 [0m
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
 [32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][0.15.2-1] matches upstream version 0.15.2 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
@@ -338,9 +339,9 @@ marktext-bin: new version found - 0.16.3 => 0.17.0
   [1;34m->[;1m checking for update for 'rate-mirrors-bin'[0m
 [32m          [UP-TO-DATE] [rate-mirrors-bin][0.9.0-1] matches upstream version 0.9.0 [0m
   [1;34m->[;1m checking for update for 'raven-reader'[0m
-[32m          [UP-TO-DATE] [raven-reader][1.0.70-1] matches upstream version 1.0.70 [0m
+[31m         [OUT-OF-DATE] [raven-reader][1.0.70-1] should be updated to 1.0.71 [0m
   [1;34m->[;1m checking for update for 'raven-reader-bin'[0m
-[32m          [UP-TO-DATE] [raven-reader-bin][1.0.70-1] matches upstream version 1.0.70 [0m
+[32m          [UP-TO-DATE] [raven-reader-bin][1.0.71-1] matches upstream version 1.0.71 [0m
   [1;34m->[;1m checking for update for 'rclone-browser'[0m
 [32m          [UP-TO-DATE] [rclone-browser][1.8.0-2] matches upstream version 1.8.0 [0m
   [1;34m->[;1m checking for update for 'readability-cli'[0m
