@@ -4,8 +4,8 @@
 python-rapidfuzz
 pnpm
   [1;34m->[;1m running pkgoutofdate[0m
-x11docker: new version found - 7.1.0 => 7.1.1
 uftrace: new version found - 0.9.3 => 0.9.4
+sirikali: new version found - 1.4.8 => 1.5.0
 marktext-bin: new version found - 0.16.3 => 0.17.0
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
@@ -144,7 +144,7 @@ marktext-bin: new version found - 0.16.3 => 0.17.0
   [1;34m->[;1m checking for update for 'gitstatus'[0m
 [32m          [UP-TO-DATE] [gitstatus][1.5.4-1] matches upstream version 1.5.4 [0m
   [1;34m->[;1m checking for update for 'google-chrome'[0m
-[37m             [UNKNOWN] [google-chrome][98.0.4758.102-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_98.0.4758.102-1_amd64.deb [0m
+[37m             [UNKNOWN] [google-chrome][99.0.4844.51-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_99.0.4844.51-1_amd64.deb [0m
   [1;34m->[;1m checking for update for 'guiscrcpy'[0m
 [37m             [UNKNOWN] [guiscrcpy][4.11.3-1] Failed to obtain GitHub release for srevinsaju/guiscrcpy.git from https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest: No GitHub project found for srevinsaju/guiscrcpy.git on https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'hakuneko-desktop'[0m
@@ -365,7 +365,7 @@ marktext-bin: new version found - 0.16.3 => 0.17.0
   [1;34m->[;1m checking for update for 'simple-mtpfs'[0m
 [37m             [UNKNOWN] [simple-mtpfs][0.4.0-1] Failed to obtain GitHub release for phatina/simple-mtpfs from https://api.github.com/repos/phatina/simple-mtpfs/releases/latest: No GitHub project found for phatina/simple-mtpfs on https://api.github.com/repos/phatina/simple-mtpfs/releases/latest [0m
   [1;34m->[;1m checking for update for 'sirikali'[0m
-[32m          [UP-TO-DATE] [sirikali][1.4.8-1] matches upstream version 1.4.8 [0m
+[31m         [OUT-OF-DATE] [sirikali][1.4.8-1] should be updated to 1.5.0 [0m
   [1;34m->[;1m checking for update for 'sndcpy-bin'[0m
 [32m          [UP-TO-DATE] [sndcpy-bin][1.1-1] matches upstream version 1.1 [0m
   [1;34m->[;1m checking for update for 'speedometer'[0m
@@ -386,7 +386,7 @@ marktext-bin: new version found - 0.16.3 => 0.17.0
   [1;34m->[;1m checking for update for 'svg-term-cli'[0m
 [37m             [UNKNOWN] [svg-term-cli][2.1.1-1] No release found for svg-term-cli: %!w(<nil>) [0m
   [1;34m->[;1m checking for update for 'terser'[0m
-[32m          [UP-TO-DATE] [terser][5.11.0-1] matches upstream version 5.11.0 [0m
+[31m         [OUT-OF-DATE] [terser][5.11.0-1] should be updated to 5.12.0 [0m
   [1;34m->[;1m checking for update for 'themix-export-spotify-git'[0m
   [1;34m->[;1m checking for update for 'themix-full-git'[0m
   [1;34m->[;1m checking for update for 'themix-gui-git'[0m
@@ -422,7 +422,7 @@ marktext-bin: new version found - 0.16.3 => 0.17.0
   [1;34m->[;1m checking for update for 'tty-clock'[0m
 [37m             [UNKNOWN] [tty-clock][2.3-1] Failed to obtain GitHub release for xorg62/tty-clock from https://api.github.com/repos/xorg62/tty-clock/releases/latest: No GitHub project found for xorg62/tty-clock on https://api.github.com/repos/xorg62/tty-clock/releases/latest [0m
   [1;34m->[;1m checking for update for 'ttyd'[0m
-[32m          [UP-TO-DATE] [ttyd][1.6.3-2] matches upstream version 1.6.3 [0m
+[32m          [UP-TO-DATE] [ttyd][1.6.3-3] matches upstream version 1.6.3 [0m
   [1;34m->[;1m checking for update for 'typora'[0m
 [37m             [UNKNOWN] [typora][1.1.5-1] No release found for https://typora.io/linux/typora_1.1.5_amd64.deb [0m
   [1;34m->[;1m checking for update for 'uftrace'[0m
@@ -454,7 +454,7 @@ marktext-bin: new version found - 0.16.3 => 0.17.0
   [1;34m->[;1m checking for update for 'wttr'[0m
 [32m          [UP-TO-DATE] [wttr][1.2.1-2] matches upstream version 1.2.1 [0m
   [1;34m->[;1m checking for update for 'x11docker'[0m
-[31m         [OUT-OF-DATE] [x11docker][7.1.0-1] should be updated to 7.1.1 [0m
+[32m          [UP-TO-DATE] [x11docker][7.1.2-1] matches upstream version 7.1.2 [0m
   [1;34m->[;1m checking for update for 'xinput-gui'[0m
 [32m          [UP-TO-DATE] [xinput-gui][0.3.1-1] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'xmind'[0m
