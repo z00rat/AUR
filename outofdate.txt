@@ -5,8 +5,7 @@ python-rapidfuzz
 pnpm
   [1;34m->[;1m running pkgoutofdate[0m
 uftrace: new version found - 0.9.3 => 0.9.4
-x11docker: new version found - 7.1.2 => 7.1.3
-marktext-bin: new version found - 0.16.3 => 0.17.0
+qrcp: new version found - 0.8.4 => 0.8.5
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
 [32m          [UP-TO-DATE] [activitywatch-bin][0.11.0-3] matches upstream version 0.11.0 [0m
@@ -22,13 +21,13 @@ marktext-bin: new version found - 0.16.3 => 0.17.0
 [32m          [UP-TO-DATE] [apg][2.2.3-5] matches upstream version 2.2.3 [0m
   [1;34m->[;1m checking for update for 'archiso-git'[0m
   [1;34m->[;1m checking for update for 'aseprite'[0m
-[37m             [UNKNOWN] [aseprite][1.2.33-1] Failed to obtain GitHub release for aseprite/aseprite from https://api.github.com/repos/aseprite/aseprite/releases/latest: Get "https://api.github.com/repos/aseprite/aseprite/releases/latest": dial tcp 20.205.243.168:443: i/o timeout [0m
+[32m          [UP-TO-DATE] [aseprite][1.2.33-1] matches upstream version 1.2.33 [0m
   [1;34m->[;1m checking for update for 'asp-git'[0m
   [1;34m->[;1m checking for update for 'aur-auto-vote-git'[0m
   [1;34m->[;1m checking for update for 'aur-out-of-date'[0m
 [32m          [UP-TO-DATE] [aur-out-of-date][3.2.0-1] matches upstream version 3.2.0 [0m
   [1;34m->[;1m checking for update for 'aurutils'[0m
-[31m         [OUT-OF-DATE] [aurutils][7.1.1-1] should be updated to 7.2 [0m
+[32m          [UP-TO-DATE] [aurutils][7.2-1] matches upstream version 7.2 [0m
   [1;34m->[;1m checking for update for 'aurvote'[0m
 [32m          [UP-TO-DATE] [aurvote][1.9-3] matches upstream version 1.9 [0m
   [1;34m->[;1m checking for update for 'aurvote-utils'[0m
@@ -66,11 +65,11 @@ marktext-bin: new version found - 0.16.3 => 0.17.0
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
 [37m             [UNKNOWN] [cloudflared-bin][2022.2.2-2] No release found for https://raw.githubusercontent.com/cloudflare/cloudflared/master/LICENSE [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
-[31m         [OUT-OF-DATE] [code-features][1.64.0-1] should be updated to 1.64.2 [0m
+[31m         [OUT-OF-DATE] [code-features][1.64.0-1] should be updated to 1.65.0 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
 [37m             [UNKNOWN] [code-marketplace][1.54.3-4] No release found for code-marketplace.hook [0m
   [1;34m->[;1m checking for update for 'code-server'[0m
-[37m             [UNKNOWN] [code-server][4.0.2-0] upstream version is 4.0.1 [0m
+[31m         [OUT-OF-DATE] [code-server][4.0.2-0] should be updated to 4.1.0 [0m
   [1;34m->[;1m checking for update for 'cointop'[0m
 [32m          [UP-TO-DATE] [cointop][1.6.10-1] matches upstream version 1.6.10 [0m
   [1;34m->[;1m checking for update for 'cointop-bin'[0m
@@ -101,7 +100,7 @@ marktext-bin: new version found - 0.16.3 => 0.17.0
   [1;34m->[;1m checking for update for 'ebtables'[0m
 [37m             [UNKNOWN] [ebtables][2.0.10_4-8] No release found for https://downloads.sourceforge.net/ebtables/ebtables-v2.0.10-4.tar.gz [0m
   [1;34m->[;1m checking for update for 'edex-ui-bin'[0m
-[37m             [UNKNOWN] [edex-ui-bin][2.2.8-1] No release found for LICENSE::https://raw.githubusercontent.com/GitSquared/edex-ui/v2.2.8/LICENSE [0m
+[32m          [UP-TO-DATE] [edex-ui-bin][2.2.8-1] matches upstream version 2.2.8 [0m
   [1;34m->[;1m checking for update for 'electorrent-bin'[0m
 [32m          [UP-TO-DATE] [electorrent-bin][2.7.3-1] matches upstream version 2.7.3 [0m
   [1;34m->[;1m checking for update for 'electronmail-bin'[0m
@@ -146,7 +145,7 @@ marktext-bin: new version found - 0.16.3 => 0.17.0
   [1;34m->[;1m checking for update for 'google-chrome'[0m
 [37m             [UNKNOWN] [google-chrome][99.0.4844.51-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_99.0.4844.51-1_amd64.deb [0m
   [1;34m->[;1m checking for update for 'guiscrcpy'[0m
-[37m             [UNKNOWN] [guiscrcpy][4.11.3-1] Failed to obtain GitHub release for srevinsaju/guiscrcpy.git from https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest: No GitHub project found for srevinsaju/guiscrcpy.git on https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest [0m
+[37m             [UNKNOWN] [guiscrcpy][4.11.3-2] Failed to obtain GitHub release for srevinsaju/guiscrcpy.git from https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest: No GitHub project found for srevinsaju/guiscrcpy.git on https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'hakuneko-desktop'[0m
 [32m          [UP-TO-DATE] [hakuneko-desktop][6.1.7-1] matches upstream version 6.1.7 [0m
   [1;34m->[;1m checking for update for 'heroku-cli-bin'[0m
@@ -186,12 +185,12 @@ marktext-bin: new version found - 0.16.3 => 0.17.0
   [1;34m->[;1m checking for update for 'lsdesktopf'[0m
 [37m             [UNKNOWN] [lsdesktopf][1.0.7-4] Failed to obtain GitHub release for AndyCrowd/list-desktop-files.git from https://api.github.com/repos/AndyCrowd/list-desktop-files.git/releases/latest: No GitHub project found for AndyCrowd/list-desktop-files.git on https://api.github.com/repos/AndyCrowd/list-desktop-files.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'lua-format'[0m
-[37m             [UNKNOWN] [lua-format][1.3.6-1] Failed to obtain GitHub release for Koihik/LuaFormatter from https://api.github.com/repos/Koihik/LuaFormatter/releases/latest: Get "https://api.github.com/repos/Koihik/LuaFormatter/releases/latest": dial tcp 20.205.243.168:443: connect: connection refused [0m
+[32m          [UP-TO-DATE] [lua-format][1.3.6-1] matches upstream version 1.3.6 [0m
   [1;34m->[;1m checking for update for 'lynis-git'[0m
   [1;34m->[;1m checking for update for 'maldet'[0m
 [32m          [UP-TO-DATE] [maldet][1.6.4-9] matches upstream version 1.6.4 [0m
   [1;34m->[;1m checking for update for 'marktext-bin'[0m
-[31m         [OUT-OF-DATE] [marktext-bin][0.16.3-2] should be updated to 0.17.0 [0m
+[32m          [UP-TO-DATE] [marktext-bin][0.17.0-1] matches upstream version 0.17.0 [0m
   [1;34m->[;1m checking for update for 'mergerfs'[0m
 [32m          [UP-TO-DATE] [mergerfs][2.33.3-1] matches upstream version 2.33.3 [0m
   [1;34m->[;1m checking for update for 'mergerfs-tools-git'[0m
@@ -331,9 +330,9 @@ marktext-bin: new version found - 0.16.3 => 0.17.0
   [1;34m->[;1m checking for update for 'python-ytmusicapi'[0m
 [32m          [UP-TO-DATE] [python-ytmusicapi][0.21.0-1] matches upstream version 0.21.0 [0m
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
-[37m             [UNKNOWN] [qbittorrent-vuetorrent-bin][0.15.3-1] Failed to obtain GitHub release for WDaan/VueTorrent from https://api.github.com/repos/WDaan/VueTorrent/releases/latest: Get "https://api.github.com/repos/WDaan/VueTorrent/releases/latest": dial tcp 20.205.243.168:443: connect: connection refused [0m
+[32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][0.15.3-1] matches upstream version 0.15.3 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
-[32m          [UP-TO-DATE] [qrcp][0.8.4-1] matches upstream version 0.8.4 [0m
+[31m         [OUT-OF-DATE] [qrcp][0.8.4-1] should be updated to 0.8.5 [0m
   [1;34m->[;1m checking for update for 'qwinff'[0m
 [37m             [UNKNOWN] [qwinff][0.2.1-1] No release found for http://sourceforge.net/projects/qwinff/files/release/v0.2.1/qwinff_0.2.1.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'rate-mirrors-bin'[0m
@@ -371,11 +370,11 @@ marktext-bin: new version found - 0.16.3 => 0.17.0
   [1;34m->[;1m checking for update for 'speedometer'[0m
 [32m          [UP-TO-DATE] [speedometer][2.8-4] matches upstream version 2.8 [0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
-[32m          [UP-TO-DATE] [spicetify-cli][2.9.1-1] matches upstream version 2.9.1 [0m
+[32m          [UP-TO-DATE] [spicetify-cli][2.9.2-1] matches upstream version 2.9.2 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
 [37m             [UNKNOWN] [spotify][1:1.1.72.439-3] No release found for spotify.protocol [0m
   [1;34m->[;1m checking for update for 'stacer'[0m
-[37m             [UNKNOWN] [stacer][1.1.0-1] Failed to obtain GitHub release for oguzhaninan/Stacer from https://api.github.com/repos/oguzhaninan/Stacer/releases/latest: Get "https://api.github.com/repos/oguzhaninan/Stacer/releases/latest": dial tcp 20.205.243.168:443: connect: connection refused [0m
+[32m          [UP-TO-DATE] [stacer][1.1.0-1] matches upstream version 1.1.0 [0m
   [1;34m->[;1m checking for update for 'stretchly-bin'[0m
 [32m          [UP-TO-DATE] [stretchly-bin][1.10.0-1] matches upstream version 1.10.0 [0m
   [1;34m->[;1m checking for update for 'subuser'[0m
@@ -416,7 +415,7 @@ marktext-bin: new version found - 0.16.3 => 0.17.0
   [1;34m->[;1m checking for update for 'ttf-twemoji'[0m
 [32m          [UP-TO-DATE] [ttf-twemoji][13.1.0-1] matches upstream version 13.1.0 [0m
   [1;34m->[;1m checking for update for 'ttf-typicons'[0m
-[37m             [UNKNOWN] [ttf-typicons][2.1.2-1] Failed to obtain GitHub release for stephenhutchings/typicons.font from https://api.github.com/repos/stephenhutchings/typicons.font/releases/latest: Get "https://api.github.com/repos/stephenhutchings/typicons.font/releases/latest": dial tcp 20.205.243.168:443: connect: connection refused [0m
+[32m          [UP-TO-DATE] [ttf-typicons][2.1.2-1] matches upstream version 2.1.2 [0m
   [1;34m->[;1m checking for update for 'ttf-vista-fonts'[0m
 [37m             [UNKNOWN] [ttf-vista-fonts][1-11] No release found for ttf-vista-fonts.cab::https://web.archive.org/web/20171225132744/http://download.microsoft.com/download/E/6/7/E675FFFC-2A6D-4AB0-B3EB-27C9F8C8F696/PowerPointViewer.exe [0m
   [1;34m->[;1m checking for update for 'tty-clock'[0m
@@ -438,7 +437,7 @@ marktext-bin: new version found - 0.16.3 => 0.17.0
   [1;34m->[;1m checking for update for 'vrms-arch'[0m
 [37m             [UNKNOWN] [vrms-arch][0.1.0.r25.g802c767-1] Failed to obtain GitHub release for orospakr/vrms-arch.git from https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest: No GitHub project found for orospakr/vrms-arch.git on https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'vscodium-bin'[0m
-[32m          [UP-TO-DATE] [vscodium-bin][1.64.2-1] matches upstream version 1.64.2 [0m
+[32m          [UP-TO-DATE] [vscodium-bin][1.65.0-1] matches upstream version 1.65.0 [0m
   [1;34m->[;1m checking for update for 'waydroid'[0m
 [37m             [UNKNOWN] [waydroid][1.2.0-2] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
@@ -446,15 +445,15 @@ marktext-bin: new version found - 0.16.3 => 0.17.0
   [1;34m->[;1m checking for update for 'webtorrent-bittorrent-tracker'[0m
 [32m          [UP-TO-DATE] [webtorrent-bittorrent-tracker][9.18.3-2] matches upstream version 9.18.3 [0m
   [1;34m->[;1m checking for update for 'webtorrent-cli'[0m
-[37m             [UNKNOWN] [webtorrent-cli][4.0.3-1] Failed to obtain GitHub release for webtorrent/webtorrent-cli from https://api.github.com/repos/webtorrent/webtorrent-cli/releases/latest: Get "https://api.github.com/repos/webtorrent/webtorrent-cli/releases/latest": dial tcp 20.205.243.168:443: connect: connection refused [0m
+[32m          [UP-TO-DATE] [webtorrent-cli][4.0.3-1] matches upstream version 4.0.3 [0m
   [1;34m->[;1m checking for update for 'webtorrent-desktop-bin'[0m
-[37m             [UNKNOWN] [webtorrent-desktop-bin][0.24.0-1] Failed to obtain GitHub release for webtorrent/webtorrent-desktop from https://api.github.com/repos/webtorrent/webtorrent-desktop/releases/latest: Get "https://api.github.com/repos/webtorrent/webtorrent-desktop/releases/latest": dial tcp 20.205.243.168:443: connect: connection refused [0m
+[32m          [UP-TO-DATE] [webtorrent-desktop-bin][0.24.0-1] matches upstream version 0.24.0 [0m
   [1;34m->[;1m checking for update for 'webtty'[0m
 [32m          [UP-TO-DATE] [webtty][0.4.1-1] matches upstream version 0.4.1 [0m
   [1;34m->[;1m checking for update for 'wttr'[0m
 [32m          [UP-TO-DATE] [wttr][1.2.1-2] matches upstream version 1.2.1 [0m
   [1;34m->[;1m checking for update for 'x11docker'[0m
-[31m         [OUT-OF-DATE] [x11docker][7.1.2-1] should be updated to 7.1.3 [0m
+[32m          [UP-TO-DATE] [x11docker][7.1.3-1] matches upstream version 7.1.3 [0m
   [1;34m->[;1m checking for update for 'xinput-gui'[0m
 [32m          [UP-TO-DATE] [xinput-gui][0.3.1-1] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'xmind'[0m
