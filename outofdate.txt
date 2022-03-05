@@ -5,7 +5,6 @@ python-rapidfuzz
 pnpm
   [1;34m->[;1m running pkgoutofdate[0m
 uftrace: new version found - 0.9.3 => 0.9.4
-qrcp: new version found - 0.8.4 => 0.8.5
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
 [32m          [UP-TO-DATE] [activitywatch-bin][0.11.0-3] matches upstream version 0.11.0 [0m
@@ -59,7 +58,7 @@ qrcp: new version found - 0.8.4 => 0.8.5
   [1;34m->[;1m checking for update for 'bubblejail'[0m
 [32m          [UP-TO-DATE] [bubblejail][0.5.1-1] matches upstream version 0.5.1 [0m
   [1;34m->[;1m checking for update for 'burpsuite'[0m
-[37m             [UNKNOWN] [burpsuite][2022.2-1] No release found for burpsuite-2022.2.jar::https://portswigger.net/burp/releases/download?product=community&version=2022.2&type=Jar [0m
+[37m             [UNKNOWN] [burpsuite][2022.2.2-1] No release found for burpsuite-2022.2.2.jar::https://portswigger.net/burp/releases/download?product=community&version=2022.2.2&type=Jar [0m
   [1;34m->[;1m checking for update for 'cava'[0m
 [32m          [UP-TO-DATE] [cava][0.7.5-1] matches upstream version 0.7.5 [0m
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
@@ -69,7 +68,7 @@ qrcp: new version found - 0.8.4 => 0.8.5
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
 [37m             [UNKNOWN] [code-marketplace][1.54.3-4] No release found for code-marketplace.hook [0m
   [1;34m->[;1m checking for update for 'code-server'[0m
-[31m         [OUT-OF-DATE] [code-server][4.0.2-0] should be updated to 4.1.0 [0m
+[32m          [UP-TO-DATE] [code-server][4.1.0-0] matches upstream version 4.1.0 [0m
   [1;34m->[;1m checking for update for 'cointop'[0m
 [32m          [UP-TO-DATE] [cointop][1.6.10-1] matches upstream version 1.6.10 [0m
   [1;34m->[;1m checking for update for 'cointop-bin'[0m
@@ -241,7 +240,7 @@ qrcp: new version found - 0.8.4 => 0.8.5
   [1;34m->[;1m checking for update for 'onedrive-abraunegg'[0m
 [32m          [UP-TO-DATE] [onedrive-abraunegg][2.4.15-1] matches upstream version 2.4.15 [0m
   [1;34m->[;1m checking for update for 'onioncircuits'[0m
-[32m          [UP-TO-DATE] [onioncircuits][0.7-1] matches upstream version 0.7 [0m
+[37m             [UNKNOWN] [onioncircuits][0.7-1] No GitLab release found for gitlab.tails.boum.org/tails/onioncircuits.git#commit=6efeff2e7cdbfbab7d73ea5825a64c002fa8e3b9 on https://gitlab.tails.boum.org/api/v4/projects/tails%2Fonioncircuits.git%23commit=6efeff2e7cdbfbab7d73ea5825a64c002fa8e3b9/repository/tags [0m
   [1;34m->[;1m checking for update for 'oomox'[0m
 [31m         [OUT-OF-DATE] [oomox][1.13.3-1] should be updated to 1.14 [0m
   [1;34m->[;1m checking for update for 'opencomic-bin'[0m
@@ -321,7 +320,7 @@ qrcp: new version found - 0.8.4 => 0.8.5
   [1;34m->[;1m checking for update for 'python-spotipy'[0m
 [32m          [UP-TO-DATE] [python-spotipy][2.19.0-2] matches upstream version 2.19.0 [0m
   [1;34m->[;1m checking for update for 'python-srt'[0m
-[31m         [OUT-OF-DATE] [python-srt][3.5.0-1] should be updated to 3.5.1 [0m
+[31m         [OUT-OF-DATE] [python-srt][3.5.0-1] should be updated to 3.5.2 [0m
   [1;34m->[;1m checking for update for 'python-torrequest'[0m
 [32m          [UP-TO-DATE] [python-torrequest][0.1.0-3] matches upstream version 0.1.0 [0m
   [1;34m->[;1m checking for update for 'python-webrtcvad'[0m
@@ -332,7 +331,7 @@ qrcp: new version found - 0.8.4 => 0.8.5
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
 [32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][0.15.3-1] matches upstream version 0.15.3 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
-[31m         [OUT-OF-DATE] [qrcp][0.8.4-1] should be updated to 0.8.5 [0m
+[32m          [UP-TO-DATE] [qrcp][0.8.5-1] matches upstream version 0.8.5 [0m
   [1;34m->[;1m checking for update for 'qwinff'[0m
 [37m             [UNKNOWN] [qwinff][0.2.1-1] No release found for http://sourceforge.net/projects/qwinff/files/release/v0.2.1/qwinff_0.2.1.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'rate-mirrors-bin'[0m
@@ -372,7 +371,7 @@ qrcp: new version found - 0.8.4 => 0.8.5
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
 [32m          [UP-TO-DATE] [spicetify-cli][2.9.2-1] matches upstream version 2.9.2 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
-[37m             [UNKNOWN] [spotify][1:1.1.72.439-3] No release found for spotify.protocol [0m
+[37m             [UNKNOWN] [spotify][1:1.1.80.699-1] No release found for spotify.protocol [0m
   [1;34m->[;1m checking for update for 'stacer'[0m
 [32m          [UP-TO-DATE] [stacer][1.1.0-1] matches upstream version 1.1.0 [0m
   [1;34m->[;1m checking for update for 'stretchly-bin'[0m
