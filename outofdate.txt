@@ -119,7 +119,7 @@ uftrace: new version found - 0.9.3 => 0.9.4
   [1;34m->[;1m checking for update for 'figlet-fonts'[0m
 [37m             [UNKNOWN] [figlet-fonts][1.0-3] No release found for ours.tar.gz::ftp://ftp.figlet.org/pub/figlet/fonts/ours.tar.gz [0m
   [1;34m->[;1m checking for update for 'firefox-esr-bin'[0m
-[37m             [UNKNOWN] [firefox-esr-bin][91.6.0-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/91.6.0esr/linux-x86_64/en-US/firefox-91.6.0esr.tar.bz2 [0m
+[37m             [UNKNOWN] [firefox-esr-bin][91.6.1-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/91.6.1esr/linux-x86_64/en-US/firefox-91.6.1esr.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'flamegraph'[0m
 [32m          [UP-TO-DATE] [flamegraph][1.0-2] matches upstream version 1.0 [0m
   [1;34m->[;1m checking for update for 'florence'[0m
@@ -442,7 +442,7 @@ uftrace: new version found - 0.9.3 => 0.9.4
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
 [37m             [UNKNOWN] [waydroid-image][17.1_20211021-1] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-17.1-20211021-VANILLA-waydroid_x86_64-system.zip [0m
   [1;34m->[;1m checking for update for 'webtorrent-bittorrent-tracker'[0m
-[32m          [UP-TO-DATE] [webtorrent-bittorrent-tracker][9.18.3-2] matches upstream version 9.18.3 [0m
+[31m         [OUT-OF-DATE] [webtorrent-bittorrent-tracker][9.18.3-2] should be updated to 9.18.4 [0m
   [1;34m->[;1m checking for update for 'webtorrent-cli'[0m
 [32m          [UP-TO-DATE] [webtorrent-cli][4.0.3-1] matches upstream version 4.0.3 [0m
   [1;34m->[;1m checking for update for 'webtorrent-desktop-bin'[0m
