@@ -27,7 +27,7 @@ discord-chat-exporter-cli: new version found - 2.32 => 2.33
   [1;34m->[;1m checking for update for 'aur-out-of-date'[0m
 [32m          [UP-TO-DATE] [aur-out-of-date][3.2.0-1] matches upstream version 3.2.0 [0m
   [1;34m->[;1m checking for update for 'aurutils'[0m
-[32m          [UP-TO-DATE] [aurutils][7.2-1] matches upstream version 7.2 [0m
+[32m          [UP-TO-DATE] [aurutils][8-1] matches upstream version 8 [0m
   [1;34m->[;1m checking for update for 'aurvote'[0m
 [32m          [UP-TO-DATE] [aurvote][1.9-3] matches upstream version 1.9 [0m
   [1;34m->[;1m checking for update for 'aurvote-utils'[0m
@@ -63,7 +63,7 @@ discord-chat-exporter-cli: new version found - 2.32 => 2.33
   [1;34m->[;1m checking for update for 'cava'[0m
 [32m          [UP-TO-DATE] [cava][0.7.5-1] matches upstream version 0.7.5 [0m
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
-[37m             [UNKNOWN] [cloudflared-bin][2022.2.2-2] No release found for https://raw.githubusercontent.com/cloudflare/cloudflared/master/LICENSE [0m
+[37m             [UNKNOWN] [cloudflared-bin][2022.3.0-1] No release found for https://raw.githubusercontent.com/cloudflare/cloudflared/master/LICENSE [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
 [31m         [OUT-OF-DATE] [code-features][1.64.0-1] should be updated to 1.65.0 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
@@ -169,7 +169,7 @@ discord-chat-exporter-cli: new version found - 2.32 => 2.33
   [1;34m->[;1m checking for update for 'lib32-jack'[0m
 [37m             [UNKNOWN] [lib32-jack][0.125.0-4] Failed to obtain GitHub release for jackaudio/jack1.git from https://api.github.com/repos/jackaudio/jack1.git/releases/latest: No GitHub project found for jackaudio/jack1.git on https://api.github.com/repos/jackaudio/jack1.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'libgbinder'[0m
-[37m             [UNKNOWN] [libgbinder][1.1.16-1] Failed to obtain GitHub release for mer-hybris/libgbinder.git from https://api.github.com/repos/mer-hybris/libgbinder.git/releases/latest: No GitHub project found for mer-hybris/libgbinder.git on https://api.github.com/repos/mer-hybris/libgbinder.git/releases/latest [0m
+[37m             [UNKNOWN] [libgbinder][1.1.19-1] Failed to obtain GitHub release for mer-hybris/libgbinder.git from https://api.github.com/repos/mer-hybris/libgbinder.git/releases/latest: No GitHub project found for mer-hybris/libgbinder.git on https://api.github.com/repos/mer-hybris/libgbinder.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'libglibutil'[0m
 [37m             [UNKNOWN] [libglibutil][1.0.61-1] Failed to obtain GitHub release for sailfishos/libglibutil.git from https://api.github.com/repos/sailfishos/libglibutil.git/releases/latest: No GitHub project found for sailfishos/libglibutil.git on https://api.github.com/repos/sailfishos/libglibutil.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'libuiohook'[0m
@@ -190,7 +190,7 @@ discord-chat-exporter-cli: new version found - 2.32 => 2.33
   [1;34m->[;1m checking for update for 'maldet'[0m
 [32m          [UP-TO-DATE] [maldet][1.6.4-9] matches upstream version 1.6.4 [0m
   [1;34m->[;1m checking for update for 'marktext-bin'[0m
-[32m          [UP-TO-DATE] [marktext-bin][0.17.0-1] matches upstream version 0.17.0 [0m
+[32m          [UP-TO-DATE] [marktext-bin][0.17.1-1] matches upstream version 0.17.1 [0m
   [1;34m->[;1m checking for update for 'mergerfs'[0m
 [32m          [UP-TO-DATE] [mergerfs][2.33.3-1] matches upstream version 2.33.3 [0m
   [1;34m->[;1m checking for update for 'mergerfs-tools-git'[0m
@@ -241,7 +241,7 @@ discord-chat-exporter-cli: new version found - 2.32 => 2.33
   [1;34m->[;1m checking for update for 'onedrive-abraunegg'[0m
 [32m          [UP-TO-DATE] [onedrive-abraunegg][2.4.15-1] matches upstream version 2.4.15 [0m
   [1;34m->[;1m checking for update for 'onioncircuits'[0m
-[37m             [UNKNOWN] [onioncircuits][0.7-1] Failed to obtain GitLab tag for gitlab.tails.boum.org/tails/onioncircuits.git#commit=6efeff2e7cdbfbab7d73ea5825a64c002fa8e3b9 from https://gitlab.tails.boum.org/api/v4/projects/tails%2Fonioncircuits.git%23commit=6efeff2e7cdbfbab7d73ea5825a64c002fa8e3b9/repository/tags: invalid character '<' looking for beginning of value [0m
+[32m          [UP-TO-DATE] [onioncircuits][0.7-1] matches upstream version 0.7 [0m
   [1;34m->[;1m checking for update for 'oomox'[0m
 [31m         [OUT-OF-DATE] [oomox][1.13.3-1] should be updated to 1.14 [0m
   [1;34m->[;1m checking for update for 'opencomic-bin'[0m
