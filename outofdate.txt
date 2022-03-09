@@ -2,10 +2,9 @@
 
   [1;34m->[;1m listing already flaged packages[0m
 python-rapidfuzz
-pnpm
   [1;34m->[;1m running pkgoutofdate[0m
 uftrace: new version found - 0.9.3 => 0.9.4
-discord-chat-exporter-cli: new version found - 2.32 => 2.33
+libuiohook: new version found - 1.0.3 => 1.1.0
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
 [32m          [UP-TO-DATE] [activitywatch-bin][0.11.0-3] matches upstream version 0.11.0 [0m
@@ -27,7 +26,7 @@ discord-chat-exporter-cli: new version found - 2.32 => 2.33
   [1;34m->[;1m checking for update for 'aur-out-of-date'[0m
 [32m          [UP-TO-DATE] [aur-out-of-date][3.2.0-1] matches upstream version 3.2.0 [0m
   [1;34m->[;1m checking for update for 'aurutils'[0m
-[32m          [UP-TO-DATE] [aurutils][8-1] matches upstream version 8 [0m
+[31m         [OUT-OF-DATE] [aurutils][8.1-1] should be updated to 8.1.1 [0m
   [1;34m->[;1m checking for update for 'aurvote'[0m
 [32m          [UP-TO-DATE] [aurvote][1.9-3] matches upstream version 1.9 [0m
   [1;34m->[;1m checking for update for 'aurvote-utils'[0m
@@ -65,7 +64,7 @@ discord-chat-exporter-cli: new version found - 2.32 => 2.33
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
 [37m             [UNKNOWN] [cloudflared-bin][2022.3.0-1] No release found for https://raw.githubusercontent.com/cloudflare/cloudflared/master/LICENSE [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
-[31m         [OUT-OF-DATE] [code-features][1.64.0-1] should be updated to 1.65.0 [0m
+[32m          [UP-TO-DATE] [code-features][1.65.1-1] matches upstream version 1.65.1 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
 [37m             [UNKNOWN] [code-marketplace][1.54.3-4] No release found for code-marketplace.hook [0m
   [1;34m->[;1m checking for update for 'code-server'[0m
@@ -85,14 +84,14 @@ discord-chat-exporter-cli: new version found - 2.32 => 2.33
   [1;34m->[;1m checking for update for 'diceware'[0m
 [37m             [UNKNOWN] [diceware][0.10-1] Failed to obtain GitHub release for ulif/diceware from https://api.github.com/repos/ulif/diceware/releases/latest: No GitHub project found for ulif/diceware on https://api.github.com/repos/ulif/diceware/releases/latest [0m
   [1;34m->[;1m checking for update for 'discord-chat-exporter-cli'[0m
-[31m         [OUT-OF-DATE] [discord-chat-exporter-cli][2.32-1] should be updated to 2.33.2 [0m
+[32m          [UP-TO-DATE] [discord-chat-exporter-cli][2.33.2-1] matches upstream version 2.33.2 [0m
   [1;34m->[;1m checking for update for 'discord-ptb'[0m
 [37m             [UNKNOWN] [discord-ptb][0.0.29-2] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.29/discord-ptb-0.0.29.tar.gz [0m
   [1;34m->[;1m checking for update for 'dive'[0m
 [32m          [UP-TO-DATE] [dive][0.10.0-1] matches upstream version 0.10.0 [0m
   [1;34m->[;1m checking for update for 'docker-systemctl-replacement-git'[0m
   [1;34m->[;1m checking for update for 'downloader-cli'[0m
-[32m          [UP-TO-DATE] [downloader-cli][0.3.2-1] matches upstream version 0.3.2 [0m
+[31m         [OUT-OF-DATE] [downloader-cli][0.3.2-1] should be updated to 0.3.3 [0m
   [1;34m->[;1m checking for update for 'drawio-desktop-bin'[0m
 [32m          [UP-TO-DATE] [drawio-desktop-bin][16.5.1-1] matches upstream version 16.5.1 [0m
   [1;34m->[;1m checking for update for 'dry-bin'[0m
@@ -120,7 +119,7 @@ discord-chat-exporter-cli: new version found - 2.32 => 2.33
   [1;34m->[;1m checking for update for 'figlet-fonts'[0m
 [37m             [UNKNOWN] [figlet-fonts][1.0-3] No release found for ours.tar.gz::ftp://ftp.figlet.org/pub/figlet/fonts/ours.tar.gz [0m
   [1;34m->[;1m checking for update for 'firefox-esr-bin'[0m
-[37m             [UNKNOWN] [firefox-esr-bin][91.6.1-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/91.6.1esr/linux-x86_64/en-US/firefox-91.6.1esr.tar.bz2 [0m
+[37m             [UNKNOWN] [firefox-esr-bin][91.7.0-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/91.7.0esr/linux-x86_64/en-US/firefox-91.7.0esr.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'flamegraph'[0m
 [32m          [UP-TO-DATE] [flamegraph][1.0-2] matches upstream version 1.0 [0m
   [1;34m->[;1m checking for update for 'florence'[0m
@@ -211,7 +210,7 @@ discord-chat-exporter-cli: new version found - 2.32 => 2.33
   [1;34m->[;1m checking for update for 'nodejs-clinic'[0m
 [32m          [UP-TO-DATE] [nodejs-clinic][11.1.0-1] matches upstream version 11.1.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-csso'[0m
-[32m          [UP-TO-DATE] [nodejs-csso][5.0.2-1] matches upstream version 5.0.2 [0m
+[31m         [OUT-OF-DATE] [nodejs-csso][5.0.2-1] should be updated to 5.0.3 [0m
   [1;34m->[;1m checking for update for 'nodejs-csso-cli'[0m
 [32m          [UP-TO-DATE] [nodejs-csso-cli][3.0.0-3] matches upstream version 3.0.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-git-split-diffs'[0m
@@ -272,7 +271,7 @@ discord-chat-exporter-cli: new version found - 2.32 => 2.33
   [1;34m->[;1m checking for update for 'pm2ml'[0m
 [37m             [UNKNOWN] [pm2ml][2021.11.20.1-2] No release found for https://xyne.dev/projects/pm2ml/src/pm2ml-2021.11.20.1.tar.xz [0m
   [1;34m->[;1m checking for update for 'pnpm'[0m
-[31m         [OUT-OF-DATE] [pnpm][6.31.0-0] should be updated to 6.32.3 [0m
+[32m          [UP-TO-DATE] [pnpm][6.32.3-0] matches upstream version 6.32.3 [0m
   [1;34m->[;1m checking for update for 'popcorntime-bin'[0m
 [32m          [UP-TO-DATE] [popcorntime-bin][0.4.7-1] matches upstream version 0.4.7 [0m
   [1;34m->[;1m checking for update for 'powerpill'[0m
@@ -437,7 +436,7 @@ discord-chat-exporter-cli: new version found - 2.32 => 2.33
   [1;34m->[;1m checking for update for 'vrms-arch'[0m
 [37m             [UNKNOWN] [vrms-arch][0.1.0.r25.g802c767-1] Failed to obtain GitHub release for orospakr/vrms-arch.git from https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest: No GitHub project found for orospakr/vrms-arch.git on https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'vscodium-bin'[0m
-[32m          [UP-TO-DATE] [vscodium-bin][1.65.0-1] matches upstream version 1.65.0 [0m
+[32m          [UP-TO-DATE] [vscodium-bin][1.65.1-1] matches upstream version 1.65.1 [0m
   [1;34m->[;1m checking for update for 'waydroid'[0m
 [37m             [UNKNOWN] [waydroid][1.2.0-2] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
