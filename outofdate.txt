@@ -4,6 +4,7 @@
 python-rapidfuzz
   [1;34m->[;1m running pkgoutofdate[0m
 uftrace: new version found - 0.9.3 => 0.9.4
+onedrive-abraunegg: new version found - 2.4.15 => 2.4.16
 libuiohook: new version found - 1.0.3 => 1.1.0
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
@@ -26,7 +27,7 @@ libuiohook: new version found - 1.0.3 => 1.1.0
   [1;34m->[;1m checking for update for 'aur-out-of-date'[0m
 [32m          [UP-TO-DATE] [aur-out-of-date][3.2.0-1] matches upstream version 3.2.0 [0m
   [1;34m->[;1m checking for update for 'aurutils'[0m
-[31m         [OUT-OF-DATE] [aurutils][8.1-1] should be updated to 8.1.1 [0m
+[32m          [UP-TO-DATE] [aurutils][8.1.1-1] matches upstream version 8.1.1 [0m
   [1;34m->[;1m checking for update for 'aurvote'[0m
 [32m          [UP-TO-DATE] [aurvote][1.9-3] matches upstream version 1.9 [0m
   [1;34m->[;1m checking for update for 'aurvote-utils'[0m
@@ -91,7 +92,7 @@ libuiohook: new version found - 1.0.3 => 1.1.0
 [32m          [UP-TO-DATE] [dive][0.10.0-1] matches upstream version 0.10.0 [0m
   [1;34m->[;1m checking for update for 'docker-systemctl-replacement-git'[0m
   [1;34m->[;1m checking for update for 'downloader-cli'[0m
-[31m         [OUT-OF-DATE] [downloader-cli][0.3.2-1] should be updated to 0.3.3 [0m
+[32m          [UP-TO-DATE] [downloader-cli][0.3.3-0] matches upstream version 0.3.3 [0m
   [1;34m->[;1m checking for update for 'drawio-desktop-bin'[0m
 [32m          [UP-TO-DATE] [drawio-desktop-bin][16.5.1-1] matches upstream version 16.5.1 [0m
   [1;34m->[;1m checking for update for 'dry-bin'[0m
@@ -179,7 +180,7 @@ libuiohook: new version found - 1.0.3 => 1.1.0
   [1;34m->[;1m checking for update for 'localepurge'[0m
 [32m          [UP-TO-DATE] [localepurge][0.7.3.10-0] matches upstream version 0.7.3.10 [0m
   [1;34m->[;1m checking for update for 'losslesscut-bin'[0m
-[32m          [UP-TO-DATE] [losslesscut-bin][3.43.0-1] matches upstream version 3.43.0 [0m
+[31m         [OUT-OF-DATE] [losslesscut-bin][3.43.0-1] should be updated to 3.44.0 [0m
   [1;34m->[;1m checking for update for 'lscolors-git'[0m
   [1;34m->[;1m checking for update for 'lsdesktopf'[0m
 [37m             [UNKNOWN] [lsdesktopf][1.0.7-4] Failed to obtain GitHub release for AndyCrowd/list-desktop-files.git from https://api.github.com/repos/AndyCrowd/list-desktop-files.git/releases/latest: No GitHub project found for AndyCrowd/list-desktop-files.git on https://api.github.com/repos/AndyCrowd/list-desktop-files.git/releases/latest [0m
@@ -210,7 +211,7 @@ libuiohook: new version found - 1.0.3 => 1.1.0
   [1;34m->[;1m checking for update for 'nodejs-clinic'[0m
 [32m          [UP-TO-DATE] [nodejs-clinic][11.1.0-1] matches upstream version 11.1.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-csso'[0m
-[31m         [OUT-OF-DATE] [nodejs-csso][5.0.2-1] should be updated to 5.0.3 [0m
+[32m          [UP-TO-DATE] [nodejs-csso][5.0.3-1] matches upstream version 5.0.3 [0m
   [1;34m->[;1m checking for update for 'nodejs-csso-cli'[0m
 [32m          [UP-TO-DATE] [nodejs-csso-cli][3.0.0-3] matches upstream version 3.0.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-git-split-diffs'[0m
@@ -238,7 +239,7 @@ libuiohook: new version found - 1.0.3 => 1.1.0
   [1;34m->[;1m checking for update for 'obs-v4l2sink'[0m
 [32m          [UP-TO-DATE] [obs-v4l2sink][0.1.0-23] matches upstream version 0.1.0 [0m
   [1;34m->[;1m checking for update for 'onedrive-abraunegg'[0m
-[32m          [UP-TO-DATE] [onedrive-abraunegg][2.4.15-1] matches upstream version 2.4.15 [0m
+[31m         [OUT-OF-DATE] [onedrive-abraunegg][2.4.15-1] should be updated to 2.4.16 [0m
   [1;34m->[;1m checking for update for 'onioncircuits'[0m
 [32m          [UP-TO-DATE] [onioncircuits][0.7-1] matches upstream version 0.7 [0m
   [1;34m->[;1m checking for update for 'oomox'[0m
@@ -444,7 +445,7 @@ libuiohook: new version found - 1.0.3 => 1.1.0
   [1;34m->[;1m checking for update for 'webtorrent-bittorrent-tracker'[0m
 [32m          [UP-TO-DATE] [webtorrent-bittorrent-tracker][9.18.4-1] matches upstream version 9.18.4 [0m
   [1;34m->[;1m checking for update for 'webtorrent-cli'[0m
-[32m          [UP-TO-DATE] [webtorrent-cli][4.0.3-1] matches upstream version 4.0.3 [0m
+[32m          [UP-TO-DATE] [webtorrent-cli][4.0.4-1] matches upstream version 4.0.4 [0m
   [1;34m->[;1m checking for update for 'webtorrent-desktop-bin'[0m
 [32m          [UP-TO-DATE] [webtorrent-desktop-bin][0.24.0-1] matches upstream version 0.24.0 [0m
   [1;34m->[;1m checking for update for 'webtty'[0m
