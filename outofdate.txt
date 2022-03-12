@@ -4,7 +4,9 @@
 python-rapidfuzz
   [1;34m->[;1m running pkgoutofdate[0m
 uftrace: new version found - 0.9.3 => 0.9.4
+qrcp: new version found - 0.8.5 => 0.8.6
 libuiohook: new version found - 1.0.3 => 1.1.0
+burpsuite: new version found - 2022.2.2 => 2022.2.3
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
 [32m          [UP-TO-DATE] [activitywatch-bin][0.11.0-3] matches upstream version 0.11.0 [0m
@@ -20,7 +22,7 @@ libuiohook: new version found - 1.0.3 => 1.1.0
 [32m          [UP-TO-DATE] [apg][2.2.3-5] matches upstream version 2.2.3 [0m
   [1;34m->[;1m checking for update for 'archiso-git'[0m
   [1;34m->[;1m checking for update for 'aseprite'[0m
-[32m          [UP-TO-DATE] [aseprite][1.2.33-1] matches upstream version 1.2.33 [0m
+[32m          [UP-TO-DATE] [aseprite][1.2.33-2] matches upstream version 1.2.33 [0m
   [1;34m->[;1m checking for update for 'asp-git'[0m
   [1;34m->[;1m checking for update for 'aur-auto-vote-git'[0m
   [1;34m->[;1m checking for update for 'aur-out-of-date'[0m
@@ -62,7 +64,7 @@ libuiohook: new version found - 1.0.3 => 1.1.0
   [1;34m->[;1m checking for update for 'cava'[0m
 [32m          [UP-TO-DATE] [cava][0.7.5-1] matches upstream version 0.7.5 [0m
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
-[37m             [UNKNOWN] [cloudflared-bin][2022.3.0-1] No release found for https://raw.githubusercontent.com/cloudflare/cloudflared/master/LICENSE [0m
+[37m             [UNKNOWN] [cloudflared-bin][2022.3.1-1] No release found for https://raw.githubusercontent.com/cloudflare/cloudflared/master/LICENSE [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
 [31m         [OUT-OF-DATE] [code-features][1.65.1-2] should be updated to 1.65.2 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
@@ -306,7 +308,7 @@ libuiohook: new version found - 1.0.3 => 1.1.0
   [1;34m->[;1m checking for update for 'python-pynput'[0m
 [32m          [UP-TO-DATE] [python-pynput][1.7.6-1] matches upstream version 1.7.6 [0m
   [1;34m->[;1m checking for update for 'python-pysubs2'[0m
-[31m         [OUT-OF-DATE] [python-pysubs2][1.3.1-1] should be updated to 1.4.1 [0m
+[32m          [UP-TO-DATE] [python-pysubs2][1.4.1-0] matches upstream version 1.4.1 [0m
   [1;34m->[;1m checking for update for 'python-pytube'[0m
 [37m             [UNKNOWN] [python-pytube][11.0.2-1] upstream version is 11.0.1 [0m
   [1;34m->[;1m checking for update for 'python-rapidfuzz'[0m
@@ -331,7 +333,7 @@ libuiohook: new version found - 1.0.3 => 1.1.0
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
 [32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][0.15.3-1] matches upstream version 0.15.3 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
-[32m          [UP-TO-DATE] [qrcp][0.8.5-1] matches upstream version 0.8.5 [0m
+[31m         [OUT-OF-DATE] [qrcp][0.8.5-1] should be updated to 0.8.6 [0m
   [1;34m->[;1m checking for update for 'qwinff'[0m
 [37m             [UNKNOWN] [qwinff][0.2.1-1] No release found for http://sourceforge.net/projects/qwinff/files/release/v0.2.1/qwinff_0.2.1.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'rate-mirrors-bin'[0m
