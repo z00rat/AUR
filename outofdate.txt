@@ -4,7 +4,7 @@
   [1;34m->[;1m running pkgoutofdate[0m
 uftrace: new version found - 0.9.3 => 0.9.4
 qrcp: new version found - 0.8.5 => 0.8.6
-raven-reader: new version found - 1.0.71 => 1.0.72
+python-gtts: new version found - 2.2.3 => 2.2.4
 libuiohook: new version found - 1.0.3 => 1.1.0
 burpsuite: new version found - 2022.2.2 => 2022.2.3
   [1;34m->[;1m running aur-out-of-date[0m
@@ -22,7 +22,7 @@ burpsuite: new version found - 2022.2.2 => 2022.2.3
 [32m          [UP-TO-DATE] [apg][2.2.3-5] matches upstream version 2.2.3 [0m
   [1;34m->[;1m checking for update for 'archiso-git'[0m
   [1;34m->[;1m checking for update for 'aseprite'[0m
-[32m          [UP-TO-DATE] [aseprite][1.2.33-2] matches upstream version 1.2.33 [0m
+[31m         [OUT-OF-DATE] [aseprite][1.2.33-2] should be updated to 1.2.34.1 [0m
   [1;34m->[;1m checking for update for 'asp-git'[0m
   [1;34m->[;1m checking for update for 'aur-auto-vote-git'[0m
   [1;34m->[;1m checking for update for 'aur-out-of-date'[0m
@@ -121,7 +121,7 @@ burpsuite: new version found - 2022.2.2 => 2022.2.3
   [1;34m->[;1m checking for update for 'figlet-fonts'[0m
 [37m             [UNKNOWN] [figlet-fonts][1.0-3] No release found for ours.tar.gz::ftp://ftp.figlet.org/pub/figlet/fonts/ours.tar.gz [0m
   [1;34m->[;1m checking for update for 'firefox-esr-bin'[0m
-[37m             [UNKNOWN] [firefox-esr-bin][91.7.0-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/91.7.0esr/linux-x86_64/en-US/firefox-91.7.0esr.tar.bz2 [0m
+[37m             [UNKNOWN] [firefox-esr-bin][91.7.1-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/91.7.1esr/linux-x86_64/en-US/firefox-91.7.1esr.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'flamegraph'[0m
 [32m          [UP-TO-DATE] [flamegraph][1.0-2] matches upstream version 1.0 [0m
   [1;34m->[;1m checking for update for 'florence'[0m
@@ -134,7 +134,7 @@ burpsuite: new version found - 2022.2.2 => 2022.2.3
   [1;34m->[;1m checking for update for 'fswatch'[0m
 [32m          [UP-TO-DATE] [fswatch][1.16.0-1] matches upstream version 1.16.0 [0m
   [1;34m->[;1m checking for update for 'gallery-dl'[0m
-[32m          [UP-TO-DATE] [gallery-dl][1.20.5-1] matches upstream version 1.20.5 [0m
+[32m          [UP-TO-DATE] [gallery-dl][1.21.0-1] matches upstream version 1.21.0 [0m
   [1;34m->[;1m checking for update for 'gconf-cleaner'[0m
 [37m             [UNKNOWN] [gconf-cleaner][0.0.3-2] No release found for https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gconf-cleaner/gconf-cleaner-0.0.3.tar.gz [0m
   [1;34m->[;1m checking for update for 'gconf-gtk2'[0m
@@ -298,7 +298,7 @@ burpsuite: new version found - 2022.2.2 => 2022.2.3
   [1;34m->[;1m checking for update for 'python-gbinder'[0m
 [37m             [UNKNOWN] [python-gbinder][1.0.0-3] Failed to obtain GitHub release for erfanoabdi/gbinder-python.git from https://api.github.com/repos/erfanoabdi/gbinder-python.git/releases/latest: No GitHub project found for erfanoabdi/gbinder-python.git on https://api.github.com/repos/erfanoabdi/gbinder-python.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'python-gtts'[0m
-[32m          [UP-TO-DATE] [python-gtts][2.2.3-1] matches upstream version 2.2.3 [0m
+[31m         [OUT-OF-DATE] [python-gtts][2.2.3-1] should be updated to 2.2.4 [0m
   [1;34m->[;1m checking for update for 'python-gtts-token'[0m
 [32m          [UP-TO-DATE] [python-gtts-token][1.1.4-1] matches upstream version 1.1.4 [0m
   [1;34m->[;1m checking for update for 'python-itunespy'[0m
@@ -333,13 +333,13 @@ burpsuite: new version found - 2022.2.2 => 2022.2.3
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
 [32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][0.15.3-1] matches upstream version 0.15.3 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
-[31m         [OUT-OF-DATE] [qrcp][0.8.5-1] should be updated to 0.9.0 [0m
+[31m         [OUT-OF-DATE] [qrcp][0.8.5-1] should be updated to 0.9.1 [0m
   [1;34m->[;1m checking for update for 'qwinff'[0m
 [37m             [UNKNOWN] [qwinff][0.2.1-1] No release found for http://sourceforge.net/projects/qwinff/files/release/v0.2.1/qwinff_0.2.1.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'rate-mirrors-bin'[0m
-[32m          [UP-TO-DATE] [rate-mirrors-bin][0.9.0-1] matches upstream version 0.9.0 [0m
+[32m          [UP-TO-DATE] [rate-mirrors-bin][0.9.1-2] matches upstream version 0.9.1 [0m
   [1;34m->[;1m checking for update for 'raven-reader'[0m
-[31m         [OUT-OF-DATE] [raven-reader][1.0.71-1] should be updated to 1.0.72 [0m
+[32m          [UP-TO-DATE] [raven-reader][1.0.72-1] matches upstream version 1.0.72 [0m
   [1;34m->[;1m checking for update for 'raven-reader-bin'[0m
 [32m          [UP-TO-DATE] [raven-reader-bin][1.0.72-1] matches upstream version 1.0.72 [0m
   [1;34m->[;1m checking for update for 'rclone-browser'[0m
@@ -386,7 +386,7 @@ burpsuite: new version found - 2022.2.2 => 2022.2.3
   [1;34m->[;1m checking for update for 'svg-term-cli'[0m
 [37m             [UNKNOWN] [svg-term-cli][2.1.1-1] No release found for svg-term-cli: %!w(<nil>) [0m
   [1;34m->[;1m checking for update for 'terser'[0m
-[32m          [UP-TO-DATE] [terser][5.12.0-1] matches upstream version 5.12.0 [0m
+[31m         [OUT-OF-DATE] [terser][5.12.0-1] should be updated to 5.12.1 [0m
   [1;34m->[;1m checking for update for 'themix-export-spotify-git'[0m
   [1;34m->[;1m checking for update for 'themix-full-git'[0m
   [1;34m->[;1m checking for update for 'themix-gui-git'[0m
@@ -406,7 +406,7 @@ burpsuite: new version found - 2022.2.2 => 2022.2.3
   [1;34m->[;1m checking for update for 'tmpwatch'[0m
 [37m             [UNKNOWN] [tmpwatch][2.11-3] No release found for https://releases.pagure.org/tmpwatch/tmpwatch-2.11.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'tor-browser'[0m
-[37m             [UNKNOWN] [tor-browser][11.0.6-1] No release found for tor-browser.desktop.in [0m
+[37m             [UNKNOWN] [tor-browser][11.0.7-1] No release found for tor-browser.desktop.in [0m
   [1;34m->[;1m checking for update for 'tt-bin'[0m
 [32m          [UP-TO-DATE] [tt-bin][0.4.2-1] matches upstream version 0.4.2 [0m
   [1;34m->[;1m checking for update for 'ttf-anka-coder'[0m
