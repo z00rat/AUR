@@ -207,7 +207,7 @@ burpsuite: new version found - 2022.2.2 => 2022.2.3
   [1;34m->[;1m checking for update for 'nerd-fonts-source-code-pro'[0m
 [32m          [UP-TO-DATE] [nerd-fonts-source-code-pro][2.1.0-2] matches upstream version 2.1.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-autocannon'[0m
-[32m          [UP-TO-DATE] [nodejs-autocannon][7.7.0-1] matches upstream version 7.7.0 [0m
+[31m         [OUT-OF-DATE] [nodejs-autocannon][7.7.0-1] should be updated to 7.7.1 [0m
   [1;34m->[;1m checking for update for 'nodejs-clinic'[0m
 [32m          [UP-TO-DATE] [nodejs-clinic][11.1.0-1] matches upstream version 11.1.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-csso'[0m
