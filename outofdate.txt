@@ -51,7 +51,7 @@ burpsuite: new version found - 2022.2.2 => 2022.2.3
   [1;34m->[;1m checking for update for 'bibata-cursor-theme-bin'[0m
 [32m          [UP-TO-DATE] [bibata-cursor-theme-bin][1.1.2-1] matches upstream version 1.1.2 [0m
   [1;34m->[;1m checking for update for 'boundary-bin'[0m
-[37m             [UNKNOWN] [boundary-bin][0.7.5-1] No release found for boundary-controller.service [0m
+[37m             [UNKNOWN] [boundary-bin][0.7.6-1] No release found for boundary-controller.service [0m
   [1;34m->[;1m checking for update for 'brave'[0m
 [37m             [UNKNOWN] [brave][1.29.79-1] Failed to obtain GitHub release for brave/brave-browser.git from https://api.github.com/repos/brave/brave-browser.git/releases/latest: No GitHub project found for brave/brave-browser.git on https://api.github.com/repos/brave/brave-browser.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'broken-link-checker'[0m
@@ -65,7 +65,7 @@ burpsuite: new version found - 2022.2.2 => 2022.2.3
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
 [37m             [UNKNOWN] [cloudflared-bin][2022.3.1-2] No release found for https://raw.githubusercontent.com/cloudflare/cloudflared/2022.3.1/LICENSE [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
-[31m         [OUT-OF-DATE] [code-features][1.65.1-2] should be updated to 1.65.2 [0m
+[32m          [UP-TO-DATE] [code-features][1.65.2-1] matches upstream version 1.65.2 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
 [37m             [UNKNOWN] [code-marketplace][1.54.3-4] No release found for code-marketplace.hook [0m
   [1;34m->[;1m checking for update for 'code-server'[0m
