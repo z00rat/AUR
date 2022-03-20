@@ -207,7 +207,7 @@ burpsuite: new version found - 2022.2.2 => 2022.2.3
   [1;34m->[;1m checking for update for 'nerd-fonts-source-code-pro'[0m
 [32m          [UP-TO-DATE] [nerd-fonts-source-code-pro][2.1.0-2] matches upstream version 2.1.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-autocannon'[0m
-[32m          [UP-TO-DATE] [nodejs-autocannon][7.7.1-1] matches upstream version 7.7.1 [0m
+[32m          [UP-TO-DATE] [nodejs-autocannon][7.7.2-1] matches upstream version 7.7.2 [0m
   [1;34m->[;1m checking for update for 'nodejs-clinic'[0m
 [32m          [UP-TO-DATE] [nodejs-clinic][11.1.0-1] matches upstream version 11.1.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-csso'[0m
@@ -223,7 +223,7 @@ burpsuite: new version found - 2022.2.2 => 2022.2.3
   [1;34m->[;1m checking for update for 'nodejs-npm2arch'[0m
 [32m          [UP-TO-DATE] [nodejs-npm2arch][2.2.0-1] matches upstream version 2.2.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-ungit'[0m
-[32m          [UP-TO-DATE] [nodejs-ungit][1.5.19-1] matches upstream version 1.5.19 [0m
+[31m         [OUT-OF-DATE] [nodejs-ungit][1.5.19-1] should be updated to 1.5.20 [0m
   [1;34m->[;1m checking for update for 'noisetorch'[0m
 [32m          [UP-TO-DATE] [noisetorch][0.11.4-1] matches upstream version 0.11.4 [0m
   [1;34m->[;1m checking for update for 'noisetorch-bin'[0m
@@ -366,7 +366,7 @@ burpsuite: new version found - 2022.2.2 => 2022.2.3
   [1;34m->[;1m checking for update for 'sirikali'[0m
 [32m          [UP-TO-DATE] [sirikali][1.5.0-1] matches upstream version 1.5.0 [0m
   [1;34m->[;1m checking for update for 'sndcpy-bin'[0m
-[32m          [UP-TO-DATE] [sndcpy-bin][1.1-1] matches upstream version 1.1 [0m
+[32m          [UP-TO-DATE] [sndcpy-bin][1.1-2] matches upstream version 1.1 [0m
   [1;34m->[;1m checking for update for 'speedometer'[0m
 [32m          [UP-TO-DATE] [speedometer][2.8-4] matches upstream version 2.8 [0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
@@ -405,7 +405,7 @@ burpsuite: new version found - 2022.2.2 => 2022.2.3
   [1;34m->[;1m checking for update for 'tmpwatch'[0m
 [37m             [UNKNOWN] [tmpwatch][2.11-3] No release found for https://releases.pagure.org/tmpwatch/tmpwatch-2.11.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'tor-browser'[0m
-[37m             [UNKNOWN] [tor-browser][11.0.7-1] No release found for tor-browser.desktop.in [0m
+[37m             [UNKNOWN] [tor-browser][11.0.9-1] No release found for tor-browser.desktop.in [0m
   [1;34m->[;1m checking for update for 'tt-bin'[0m
 [32m          [UP-TO-DATE] [tt-bin][0.4.2-1] matches upstream version 0.4.2 [0m
   [1;34m->[;1m checking for update for 'ttf-anka-coder'[0m
