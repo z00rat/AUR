@@ -3,7 +3,6 @@
   [1;34m->[;1m listing already flaged packages[0m
   [1;34m->[;1m running pkgoutofdate[0m
 uftrace: new version found - 0.9.3 => 0.9.4
-mergerfs: new version found - 2.33.3 => 2.33.4
 libuiohook: new version found - 1.0.3 => 1.1.0
 burpsuite: new version found - 2022.2.2 => 2022.2.3
   [1;34m->[;1m running aur-out-of-date[0m
@@ -192,7 +191,7 @@ burpsuite: new version found - 2022.2.2 => 2022.2.3
   [1;34m->[;1m checking for update for 'marktext-bin'[0m
 [32m          [UP-TO-DATE] [marktext-bin][0.17.1-1] matches upstream version 0.17.1 [0m
   [1;34m->[;1m checking for update for 'mergerfs'[0m
-[32m          [UP-TO-DATE] [mergerfs][2.33.3-1] matches upstream version 2.33.3 [0m
+[37m             [UNKNOWN] [mergerfs][2.33.4-1] upstream version is 2.33.3 [0m
   [1;34m->[;1m checking for update for 'mergerfs-tools-git'[0m
   [1;34m->[;1m checking for update for 'mkclean'[0m
 [37m             [UNKNOWN] [mkclean][0.9.0-1] No release found for http://sourceforge.net/projects/matroska/files/mkclean/mkclean-0.9.0.tar.bz2 [0m
