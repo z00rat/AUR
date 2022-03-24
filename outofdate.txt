@@ -61,13 +61,13 @@ libuiohook: new version found - 1.0.3 => 1.1.0
   [1;34m->[;1m checking for update for 'cava'[0m
 [32m          [UP-TO-DATE] [cava][0.7.5-1] matches upstream version 0.7.5 [0m
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
-[37m             [UNKNOWN] [cloudflared-bin][2022.3.1-2] No release found for https://raw.githubusercontent.com/cloudflare/cloudflared/2022.3.1/LICENSE [0m
+[37m             [UNKNOWN] [cloudflared-bin][2022.3.3-1] No release found for cloudflared-bin-LICENSE::https://raw.githubusercontent.com/cloudflare/cloudflared/2022.3.3/LICENSE [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
 [32m          [UP-TO-DATE] [code-features][1.65.2-1] matches upstream version 1.65.2 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
 [37m             [UNKNOWN] [code-marketplace][1.54.3-4] No release found for code-marketplace.hook [0m
   [1;34m->[;1m checking for update for 'code-server'[0m
-[31m         [OUT-OF-DATE] [code-server][4.1.0-0] should be updated to 4.2.0 [0m
+[32m          [UP-TO-DATE] [code-server][4.2.0-0] matches upstream version 4.2.0 [0m
   [1;34m->[;1m checking for update for 'cointop'[0m
 [32m          [UP-TO-DATE] [cointop][1.6.10-1] matches upstream version 1.6.10 [0m
   [1;34m->[;1m checking for update for 'cointop-bin'[0m
@@ -342,7 +342,7 @@ libuiohook: new version found - 1.0.3 => 1.1.0
   [1;34m->[;1m checking for update for 'rclone-browser'[0m
 [32m          [UP-TO-DATE] [rclone-browser][1.8.0-2] matches upstream version 1.8.0 [0m
   [1;34m->[;1m checking for update for 'readability-cli'[0m
-[32m          [UP-TO-DATE] [readability-cli][2.3.5-1] matches upstream version 2.3.5 [0m
+[31m         [OUT-OF-DATE] [readability-cli][2.3.5-1] should be updated to 2.4.0 [0m
   [1;34m->[;1m checking for update for 'resvg'[0m
 [32m          [UP-TO-DATE] [resvg][0.22.0-1] matches upstream version 0.22.0 [0m
   [1;34m->[;1m checking for update for 'retroshare'[0m
