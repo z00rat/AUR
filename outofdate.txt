@@ -2,7 +2,6 @@
 
   [1;34m->[;1m listing already flaged packages[0m
   [1;34m->[;1m running pkgoutofdate[0m
-x11docker: new version found - 7.1.3 => 7.1.4
 uftrace: new version found - 0.9.3 => 0.9.4
 libuiohook: new version found - 1.0.3 => 1.1.0
   [1;34m->[;1m running aur-out-of-date[0m
@@ -422,7 +421,7 @@ libuiohook: new version found - 1.0.3 => 1.1.0
   [1;34m->[;1m checking for update for 'ttyd'[0m
 [32m          [UP-TO-DATE] [ttyd][1.6.3-3] matches upstream version 1.6.3 [0m
   [1;34m->[;1m checking for update for 'typora'[0m
-[37m             [UNKNOWN] [typora][1.2.3-1] No release found for https://typora.io/linux/typora_1.2.3_amd64.deb [0m
+[37m             [UNKNOWN] [typora][1.2.4-1] No release found for https://typora.io/linux/typora_1.2.4_amd64.deb [0m
   [1;34m->[;1m checking for update for 'uftrace'[0m
 [37m             [UNKNOWN] [uftrace][0.9.3-3] Failed to obtain GitHub release for namhyung/uftrace from https://api.github.com/repos/namhyung/uftrace/releases/latest: No GitHub project found for namhyung/uftrace on https://api.github.com/repos/namhyung/uftrace/releases/latest [0m
   [1;34m->[;1m checking for update for 'ugrep'[0m
@@ -452,7 +451,7 @@ libuiohook: new version found - 1.0.3 => 1.1.0
   [1;34m->[;1m checking for update for 'wttr'[0m
 [32m          [UP-TO-DATE] [wttr][1.2.1-2] matches upstream version 1.2.1 [0m
   [1;34m->[;1m checking for update for 'x11docker'[0m
-[31m         [OUT-OF-DATE] [x11docker][7.1.3-1] should be updated to 7.1.4 [0m
+[32m          [UP-TO-DATE] [x11docker][7.1.4-1] matches upstream version 7.1.4 [0m
   [1;34m->[;1m checking for update for 'xinput-gui'[0m
 [32m          [UP-TO-DATE] [xinput-gui][0.3.1-1] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'xmind'[0m
