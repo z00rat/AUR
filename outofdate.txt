@@ -3,7 +3,9 @@
   [1;34m->[;1m listing already flaged packages[0m
   [1;34m->[;1m running pkgoutofdate[0m
 uftrace: new version found - 0.9.3 => 0.9.4
+qbittorrent-vuetorrent-bin: new version found - 0.15.3 => 0.15.4
 libuiohook: new version found - 1.0.3 => 1.1.0
+burpsuite: new version found - 2022.3.1 => 2022.3.2
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
 [32m          [UP-TO-DATE] [activitywatch-bin][0.11.0-3] matches upstream version 0.11.0 [0m
@@ -141,7 +143,7 @@ libuiohook: new version found - 1.0.3 => 1.1.0
   [1;34m->[;1m checking for update for 'gitstatus'[0m
 [32m          [UP-TO-DATE] [gitstatus][1.5.4-1] matches upstream version 1.5.4 [0m
   [1;34m->[;1m checking for update for 'google-chrome'[0m
-[37m             [UNKNOWN] [google-chrome][100.0.4896.60-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_100.0.4896.60-1_amd64.deb [0m
+[37m             [UNKNOWN] [google-chrome][100.0.4896.75-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_100.0.4896.75-1_amd64.deb [0m
   [1;34m->[;1m checking for update for 'guiscrcpy'[0m
 [37m             [UNKNOWN] [guiscrcpy][4.11.3-2] Failed to obtain GitHub release for srevinsaju/guiscrcpy.git from https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest: No GitHub project found for srevinsaju/guiscrcpy.git on https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'hakuneko-desktop'[0m
@@ -176,7 +178,7 @@ libuiohook: new version found - 1.0.3 => 1.1.0
 [37m             [UNKNOWN] [libva-intel-driver-hybrid][2.4.1-1] Failed to obtain GitHub release for intel/intel-vaapi-driver.git from https://api.github.com/repos/intel/intel-vaapi-driver.git/releases/latest: No GitHub project found for intel/intel-vaapi-driver.git on https://api.github.com/repos/intel/intel-vaapi-driver.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'light-git'[0m
   [1;34m->[;1m checking for update for 'localepurge'[0m
-[32m          [UP-TO-DATE] [localepurge][0.7.3.10-0] matches upstream version 0.7.3.10 [0m
+[37m             [UNKNOWN] [localepurge][0.7.3.10-0] No debian release found for localepurge: Get "https://sources.debian.org/api/src/localepurge/": net/http: TLS handshake timeout [0m
   [1;34m->[;1m checking for update for 'losslesscut-bin'[0m
 [32m          [UP-TO-DATE] [losslesscut-bin][3.44.0-1] matches upstream version 3.44.0 [0m
   [1;34m->[;1m checking for update for 'lscolors-git'[0m
@@ -315,7 +317,7 @@ libuiohook: new version found - 1.0.3 => 1.1.0
   [1;34m->[;1m checking for update for 'python-simber'[0m
 [32m          [UP-TO-DATE] [python-simber][0.2.4-0] matches upstream version 0.2.4 [0m
   [1;34m->[;1m checking for update for 'python-spotdl'[0m
-[31m         [OUT-OF-DATE] [python-spotdl][3.9.3-1] should be updated to 3.9.4 [0m
+[32m          [UP-TO-DATE] [python-spotdl][3.9.4-1] matches upstream version 3.9.4 [0m
   [1;34m->[;1m checking for update for 'python-spotipy'[0m
 [32m          [UP-TO-DATE] [python-spotipy][2.19.0-2] matches upstream version 2.19.0 [0m
   [1;34m->[;1m checking for update for 'python-srt'[0m
@@ -328,7 +330,7 @@ libuiohook: new version found - 1.0.3 => 1.1.0
   [1;34m->[;1m checking for update for 'python-ytmusicapi'[0m
 [32m          [UP-TO-DATE] [python-ytmusicapi][0.21.0-1] matches upstream version 0.21.0 [0m
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
-[32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][0.15.3-1] matches upstream version 0.15.3 [0m
+[31m         [OUT-OF-DATE] [qbittorrent-vuetorrent-bin][0.15.3-1] should be updated to 0.15.4 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
 [32m          [UP-TO-DATE] [qrcp][0.9.1-1] matches upstream version 0.9.1 [0m
   [1;34m->[;1m checking for update for 'qwinff'[0m
