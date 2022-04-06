@@ -27,7 +27,7 @@ burpsuite: new version found - 2022.3.1 => 2022.3.2
   [1;34m->[;1m checking for update for 'aur-out-of-date'[0m
 [32m          [UP-TO-DATE] [aur-out-of-date][3.2.0-1] matches upstream version 3.2.0 [0m
   [1;34m->[;1m checking for update for 'aurutils'[0m
-[31m         [OUT-OF-DATE] [aurutils][9-1] should be updated to 9.1.1 [0m
+[32m          [UP-TO-DATE] [aurutils][9.3-1] matches upstream version 9.3 [0m
   [1;34m->[;1m checking for update for 'aurvote'[0m
 [32m          [UP-TO-DATE] [aurvote][1.9-3] matches upstream version 1.9 [0m
   [1;34m->[;1m checking for update for 'aurvote-utils'[0m
@@ -120,7 +120,7 @@ burpsuite: new version found - 2022.3.1 => 2022.3.2
   [1;34m->[;1m checking for update for 'figlet-fonts'[0m
 [37m             [UNKNOWN] [figlet-fonts][1.0-3] No release found for ours.tar.gz::ftp://ftp.figlet.org/pub/figlet/fonts/ours.tar.gz [0m
   [1;34m->[;1m checking for update for 'firefox-esr-bin'[0m
-[37m             [UNKNOWN] [firefox-esr-bin][91.7.1-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/91.7.1esr/linux-x86_64/en-US/firefox-91.7.1esr.tar.bz2 [0m
+[37m             [UNKNOWN] [firefox-esr-bin][91.8.0-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/91.8.0esr/linux-x86_64/en-US/firefox-91.8.0esr.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'flamegraph'[0m
 [32m          [UP-TO-DATE] [flamegraph][1.0-2] matches upstream version 1.0 [0m
   [1;34m->[;1m checking for update for 'florence'[0m
@@ -178,7 +178,7 @@ burpsuite: new version found - 2022.3.1 => 2022.3.2
 [37m             [UNKNOWN] [libva-intel-driver-hybrid][2.4.1-1] Failed to obtain GitHub release for intel/intel-vaapi-driver.git from https://api.github.com/repos/intel/intel-vaapi-driver.git/releases/latest: No GitHub project found for intel/intel-vaapi-driver.git on https://api.github.com/repos/intel/intel-vaapi-driver.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'light-git'[0m
   [1;34m->[;1m checking for update for 'localepurge'[0m
-[37m             [UNKNOWN] [localepurge][0.7.3.10-0] No debian release found for localepurge: Get "https://sources.debian.org/api/src/localepurge/": net/http: TLS handshake timeout [0m
+[32m          [UP-TO-DATE] [localepurge][0.7.3.10-0] matches upstream version 0.7.3.10 [0m
   [1;34m->[;1m checking for update for 'losslesscut-bin'[0m
 [32m          [UP-TO-DATE] [losslesscut-bin][3.44.0-1] matches upstream version 3.44.0 [0m
   [1;34m->[;1m checking for update for 'lscolors-git'[0m
@@ -427,7 +427,7 @@ burpsuite: new version found - 2022.3.1 => 2022.3.2
   [1;34m->[;1m checking for update for 'uftrace'[0m
 [37m             [UNKNOWN] [uftrace][0.9.3-3] Failed to obtain GitHub release for namhyung/uftrace from https://api.github.com/repos/namhyung/uftrace/releases/latest: No GitHub project found for namhyung/uftrace on https://api.github.com/repos/namhyung/uftrace/releases/latest [0m
   [1;34m->[;1m checking for update for 'ugrep'[0m
-[32m          [UP-TO-DATE] [ugrep][3.7.7-1] matches upstream version 3.7.7 [0m
+[32m          [UP-TO-DATE] [ugrep][3.7.8-1] matches upstream version 3.7.8 [0m
   [1;34m->[;1m checking for update for 'usbaudio-git'[0m
   [1;34m->[;1m checking for update for 'vanitygen-git'[0m
   [1;34m->[;1m checking for update for 'vimix-cursors'[0m
