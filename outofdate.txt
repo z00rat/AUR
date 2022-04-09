@@ -1,8 +1,10 @@
   [1;34m->[;1m checking for out-of-date packages[0m
 
   [1;34m->[;1m listing already flaged packages[0m
+python-rapidfuzz
   [1;34m->[;1m running pkgoutofdate[0m
 uftrace: new version found - 0.9.3 => 0.9.4
+noisetorch-bin: new version found - 0.11.4 => 0.11.5
 libuiohook: new version found - 1.0.3 => 1.1.0
 burpsuite: new version found - 2022.3.1 => 2022.3.2
   [1;34m->[;1m running aur-out-of-date[0m
@@ -26,7 +28,7 @@ burpsuite: new version found - 2022.3.1 => 2022.3.2
   [1;34m->[;1m checking for update for 'aur-out-of-date'[0m
 [32m          [UP-TO-DATE] [aur-out-of-date][3.2.0-1] matches upstream version 3.2.0 [0m
   [1;34m->[;1m checking for update for 'aurutils'[0m
-[32m          [UP-TO-DATE] [aurutils][9.4-1] matches upstream version 9.4 [0m
+[32m          [UP-TO-DATE] [aurutils][9.5-1] matches upstream version 9.5 [0m
   [1;34m->[;1m checking for update for 'aurvote'[0m
 [32m          [UP-TO-DATE] [aurvote][1.9-3] matches upstream version 1.9 [0m
   [1;34m->[;1m checking for update for 'aurvote-utils'[0m
@@ -132,7 +134,7 @@ burpsuite: new version found - 2022.3.1 => 2022.3.2
   [1;34m->[;1m checking for update for 'fswatch'[0m
 [32m          [UP-TO-DATE] [fswatch][1.16.0-1] matches upstream version 1.16.0 [0m
   [1;34m->[;1m checking for update for 'gallery-dl'[0m
-[32m          [UP-TO-DATE] [gallery-dl][1.21.0-1] matches upstream version 1.21.0 [0m
+[32m          [UP-TO-DATE] [gallery-dl][1.21.1-1] matches upstream version 1.21.1 [0m
   [1;34m->[;1m checking for update for 'gconf-cleaner'[0m
 [37m             [UNKNOWN] [gconf-cleaner][0.0.3-2] No release found for https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gconf-cleaner/gconf-cleaner-0.0.3.tar.gz [0m
   [1;34m->[;1m checking for update for 'gconf-gtk2'[0m
@@ -166,7 +168,7 @@ burpsuite: new version found - 2022.3.1 => 2022.3.2
   [1;34m->[;1m checking for update for 'keeweb-desktop-bin'[0m
 [32m          [UP-TO-DATE] [keeweb-desktop-bin][1.18.7-1] matches upstream version 1.18.7 [0m
   [1;34m->[;1m checking for update for 'lib32-jack'[0m
-[37m             [UNKNOWN] [lib32-jack][0.125.0-4] Failed to obtain GitHub release for jackaudio/jack1.git from https://api.github.com/repos/jackaudio/jack1.git/releases/latest: No GitHub project found for jackaudio/jack1.git on https://api.github.com/repos/jackaudio/jack1.git/releases/latest [0m
+[37m             [UNKNOWN] [lib32-jack][0.126.0-1] Failed to obtain GitHub release for jackaudio/jack1.git from https://api.github.com/repos/jackaudio/jack1.git/releases/latest: No GitHub project found for jackaudio/jack1.git on https://api.github.com/repos/jackaudio/jack1.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'libgbinder'[0m
 [37m             [UNKNOWN] [libgbinder][1.1.19-1] Failed to obtain GitHub release for mer-hybris/libgbinder.git from https://api.github.com/repos/mer-hybris/libgbinder.git/releases/latest: No GitHub project found for mer-hybris/libgbinder.git on https://api.github.com/repos/mer-hybris/libgbinder.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'libglibutil'[0m
@@ -224,9 +226,9 @@ burpsuite: new version found - 2022.3.1 => 2022.3.2
   [1;34m->[;1m checking for update for 'nodejs-ungit'[0m
 [32m          [UP-TO-DATE] [nodejs-ungit][1.5.20-1] matches upstream version 1.5.20 [0m
   [1;34m->[;1m checking for update for 'noisetorch'[0m
-[32m          [UP-TO-DATE] [noisetorch][0.11.4-1] matches upstream version 0.11.4 [0m
+[32m          [UP-TO-DATE] [noisetorch][0.11.5-1] matches upstream version 0.11.5 [0m
   [1;34m->[;1m checking for update for 'noisetorch-bin'[0m
-[32m          [UP-TO-DATE] [noisetorch-bin][0.11.4-2] matches upstream version 0.11.4 [0m
+[31m         [OUT-OF-DATE] [noisetorch-bin][0.11.4-2] should be updated to 0.11.5 [0m
   [1;34m->[;1m checking for update for 'nordic-theme'[0m
 [32m          [UP-TO-DATE] [nordic-theme][2.1.0-3] matches upstream version 2.1.0 [0m
   [1;34m->[;1m checking for update for 'notion-app'[0m
@@ -246,7 +248,7 @@ burpsuite: new version found - 2022.3.1 => 2022.3.2
   [1;34m->[;1m checking for update for 'opencomic-bin'[0m
 [32m          [UP-TO-DATE] [opencomic-bin][0.2.1-3] matches upstream version 0.2.1 [0m
   [1;34m->[;1m checking for update for 'opensnitch'[0m
-[32m          [UP-TO-DATE] [opensnitch][1.5.0-5] matches upstream version 1.5.0 [0m
+[32m          [UP-TO-DATE] [opensnitch][1.5.0-7] matches upstream version 1.5.0 [0m
   [1;34m->[;1m checking for update for 'opensnitch-git'[0m
   [1;34m->[;1m checking for update for 'p7zip-gui'[0m
 [37m             [UNKNOWN] [p7zip-gui][16.02-5] No release found for https://downloads.sourceforge.net/project/p7zip/p7zip/16.02/p7zip_16.02_src_all.tar.bz2 [0m
@@ -306,7 +308,7 @@ burpsuite: new version found - 2022.3.1 => 2022.3.2
   [1;34m->[;1m checking for update for 'python-pynput'[0m
 [32m          [UP-TO-DATE] [python-pynput][1.7.6-1] matches upstream version 1.7.6 [0m
   [1;34m->[;1m checking for update for 'python-pysubs2'[0m
-[32m          [UP-TO-DATE] [python-pysubs2][1.4.1-0] matches upstream version 1.4.1 [0m
+[31m         [OUT-OF-DATE] [python-pysubs2][1.4.1-0] should be updated to 1.4.2 [0m
   [1;34m->[;1m checking for update for 'python-pytube'[0m
 [37m             [UNKNOWN] [python-pytube][11.0.2-1] upstream version is 11.0.1 [0m
   [1;34m->[;1m checking for update for 'python-rapidfuzz'[0m
@@ -404,7 +406,7 @@ burpsuite: new version found - 2022.3.1 => 2022.3.2
   [1;34m->[;1m checking for update for 'tmpwatch'[0m
 [37m             [UNKNOWN] [tmpwatch][2.11-3] No release found for https://releases.pagure.org/tmpwatch/tmpwatch-2.11.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'tor-browser'[0m
-[37m             [UNKNOWN] [tor-browser][11.0.9-2] No release found for tor-browser.desktop.in [0m
+[37m             [UNKNOWN] [tor-browser][11.0.10-1] No release found for tor-browser.desktop.in [0m
   [1;34m->[;1m checking for update for 'tt-bin'[0m
 [32m          [UP-TO-DATE] [tt-bin][0.4.2-1] matches upstream version 0.4.2 [0m
   [1;34m->[;1m checking for update for 'ttf-anka-coder'[0m
@@ -440,7 +442,7 @@ burpsuite: new version found - 2022.3.1 => 2022.3.2
   [1;34m->[;1m checking for update for 'waydroid'[0m
 [37m             [UNKNOWN] [waydroid][1.2.0-2] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
-[37m             [UNKNOWN] [waydroid-image][17.1_20211021-1] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-17.1-20211021-VANILLA-waydroid_x86_64-system.zip [0m
+[37m             [UNKNOWN] [waydroid-image][17.1_20220316-1] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-17.1-20220316-VANILLA-waydroid_x86_64-system.zip [0m
   [1;34m->[;1m checking for update for 'webtorrent-bittorrent-tracker'[0m
 [32m          [UP-TO-DATE] [webtorrent-bittorrent-tracker][9.18.5-1] matches upstream version 9.18.5 [0m
   [1;34m->[;1m checking for update for 'webtorrent-cli'[0m
