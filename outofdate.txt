@@ -273,7 +273,7 @@ burpsuite: new version found - 2022.3.1 => 2022.3.2
   [1;34m->[;1m checking for update for 'pm2ml'[0m
 [37m             [UNKNOWN] [pm2ml][2021.11.20.1-2] No release found for https://xyne.dev/projects/pm2ml/src/pm2ml-2021.11.20.1.tar.xz [0m
   [1;34m->[;1m checking for update for 'pnpm'[0m
-[32m          [UP-TO-DATE] [pnpm][6.32.4-0] matches upstream version 6.32.4 [0m
+[31m         [OUT-OF-DATE] [pnpm][6.32.4-0] should be updated to 6.32.6 [0m
   [1;34m->[;1m checking for update for 'popcorntime-bin'[0m
 [32m          [UP-TO-DATE] [popcorntime-bin][0.4.7-1] matches upstream version 0.4.7 [0m
   [1;34m->[;1m checking for update for 'powerpill'[0m
@@ -359,7 +359,7 @@ burpsuite: new version found - 2022.3.1 => 2022.3.2
   [1;34m->[;1m checking for update for 'rtags'[0m
 [32m          [UP-TO-DATE] [rtags][2.38-1] matches upstream version 2.38 [0m
   [1;34m->[;1m checking for update for 'runjs-bin'[0m
-[37m             [UNKNOWN] [runjs-bin][2.3.1-1] upstream version is 2.3.0 [0m
+[32m          [UP-TO-DATE] [runjs-bin][2.3.1-1] matches upstream version 2.3.1 [0m
   [1;34m->[;1m checking for update for 'sherlock-git'[0m
   [1;34m->[;1m checking for update for 'siji-git'[0m
   [1;34m->[;1m checking for update for 'simple-mtpfs'[0m
@@ -458,7 +458,7 @@ burpsuite: new version found - 2022.3.1 => 2022.3.2
   [1;34m->[;1m checking for update for 'xinput-gui'[0m
 [32m          [UP-TO-DATE] [xinput-gui][0.3.1-1] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'xmind'[0m
-[37m             [UNKNOWN] [xmind][3.7.9+8update9-1] No release found for https://www.xmind.net/xmind/downloads/xmind-8-update9-linux.zip [0m
+[37m             [UNKNOWN] [xmind][12.0.1.202203290828-1] No release found for https://dl3.xmind.net/XMind-for-Linux-amd-64bit-12.0.1-202203290828.deb [0m
   [1;34m->[;1m checking for update for 'yay-bin'[0m
 [32m          [UP-TO-DATE] [yay-bin][11.1.2-1] matches upstream version 11.1.2 [0m
   [1;34m->[;1m checking for update for 'youtube-dl-gui-git'[0m
