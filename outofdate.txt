@@ -6,6 +6,7 @@ pnpm
   [1;34m->[;1m running pkgoutofdate[0m
 uftrace: new version found - 0.9.3 => 0.9.4
 noisetorch-bin: new version found - 0.11.4 => 0.11.5
+mymonero: new version found - 1.2.5 => 1.2.6
 libuiohook: new version found - 1.0.3 => 1.1.0
 burpsuite: new version found - 2022.3.1 => 2022.3.2
 cava: new version found - 0.7.5 => 0.8.0
@@ -62,11 +63,11 @@ cava: new version found - 0.7.5 => 0.8.0
   [1;34m->[;1m checking for update for 'bubblejail'[0m
 [32m          [UP-TO-DATE] [bubblejail][0.5.2-1] matches upstream version 0.5.2 [0m
   [1;34m->[;1m checking for update for 'burpsuite'[0m
-[37m             [UNKNOWN] [burpsuite][2022.3.1-2] No release found for burpsuite-2022.3.1.jar::https://portswigger.net/burp/releases/download?product=community&version=2022.3.1&type=Jar [0m
+[37m             [UNKNOWN] [burpsuite][2022.3.1-3] No release found for burpsuite-2022.3.1.jar::https://portswigger.net/burp/releases/download?product=community&version=2022.3.1&type=Jar [0m
   [1;34m->[;1m checking for update for 'cava'[0m
 [31m         [OUT-OF-DATE] [cava][0.7.5-1] should be updated to 0.8.0 [0m
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
-[37m             [UNKNOWN] [cloudflared-bin][2022.3.4-1] No release found for cloudflared-bin-LICENSE::https://raw.githubusercontent.com/cloudflare/cloudflared/2022.3.4/LICENSE [0m
+[37m             [UNKNOWN] [cloudflared-bin][2022.4.0-1] No release found for cloudflared-bin-LICENSE::https://raw.githubusercontent.com/cloudflare/cloudflared/2022.4.0/LICENSE [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
 [31m         [OUT-OF-DATE] [code-features][1.66.0-2] should be updated to 1.66.1 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
@@ -88,7 +89,7 @@ cava: new version found - 0.7.5 => 0.8.0
   [1;34m->[;1m checking for update for 'diceware'[0m
 [37m             [UNKNOWN] [diceware][0.10-1] Failed to obtain GitHub release for ulif/diceware from https://api.github.com/repos/ulif/diceware/releases/latest: No GitHub project found for ulif/diceware on https://api.github.com/repos/ulif/diceware/releases/latest [0m
   [1;34m->[;1m checking for update for 'discord-chat-exporter-cli'[0m
-[31m         [OUT-OF-DATE] [discord-chat-exporter-cli][2.33.2-1] should be updated to 2.34 [0m
+[32m          [UP-TO-DATE] [discord-chat-exporter-cli][2.34-1] matches upstream version 2.34 [0m
   [1;34m->[;1m checking for update for 'discord-ptb'[0m
 [37m             [UNKNOWN] [discord-ptb][0.0.29-2] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.29/discord-ptb-0.0.29.tar.gz [0m
   [1;34m->[;1m checking for update for 'dive'[0m
@@ -97,7 +98,7 @@ cava: new version found - 0.7.5 => 0.8.0
   [1;34m->[;1m checking for update for 'downloader-cli'[0m
 [32m          [UP-TO-DATE] [downloader-cli][0.3.3-0] matches upstream version 0.3.3 [0m
   [1;34m->[;1m checking for update for 'drawio-desktop-bin'[0m
-[32m          [UP-TO-DATE] [drawio-desktop-bin][17.2.4-1] matches upstream version 17.2.4 [0m
+[31m         [OUT-OF-DATE] [drawio-desktop-bin][17.2.4-1] should be updated to 17.4.2 [0m
   [1;34m->[;1m checking for update for 'dry-bin'[0m
 [32m          [UP-TO-DATE] [dry-bin][0.11.1-1] matches upstream version 0.11.1 [0m
   [1;34m->[;1m checking for update for 'ebtables'[0m
@@ -146,7 +147,7 @@ cava: new version found - 0.7.5 => 0.8.0
   [1;34m->[;1m checking for update for 'gitstatus'[0m
 [32m          [UP-TO-DATE] [gitstatus][1.5.4-1] matches upstream version 1.5.4 [0m
   [1;34m->[;1m checking for update for 'google-chrome'[0m
-[37m             [UNKNOWN] [google-chrome][100.0.4896.75-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_100.0.4896.75-1_amd64.deb [0m
+[37m             [UNKNOWN] [google-chrome][100.0.4896.88-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_100.0.4896.88-1_amd64.deb [0m
   [1;34m->[;1m checking for update for 'guiscrcpy'[0m
 [37m             [UNKNOWN] [guiscrcpy][4.11.3-2] Failed to obtain GitHub release for srevinsaju/guiscrcpy.git from https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest: No GitHub project found for srevinsaju/guiscrcpy.git on https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'hakuneko-desktop'[0m
@@ -206,7 +207,7 @@ cava: new version found - 0.7.5 => 0.8.0
   [1;34m->[;1m checking for update for 'msg2'[0m
 [37m             [UNKNOWN] [msg2][1.2.0-2] No release found for https://roboticoverlords.org/msg2/msg2-1.2.0.tar.xz [0m
   [1;34m->[;1m checking for update for 'mymonero'[0m
-[32m          [UP-TO-DATE] [mymonero][1.2.5-1] matches upstream version 1.2.5 [0m
+[31m         [OUT-OF-DATE] [mymonero][1.2.5-1] should be updated to 1.2.6 [0m
   [1;34m->[;1m checking for update for 'nerd-fonts-source-code-pro'[0m
 [32m          [UP-TO-DATE] [nerd-fonts-source-code-pro][2.1.0-2] matches upstream version 2.1.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-autocannon'[0m
@@ -310,7 +311,7 @@ cava: new version found - 0.7.5 => 0.8.0
   [1;34m->[;1m checking for update for 'python-pynput'[0m
 [32m          [UP-TO-DATE] [python-pynput][1.7.6-1] matches upstream version 1.7.6 [0m
   [1;34m->[;1m checking for update for 'python-pysubs2'[0m
-[31m         [OUT-OF-DATE] [python-pysubs2][1.4.1-0] should be updated to 1.4.2 [0m
+[32m          [UP-TO-DATE] [python-pysubs2][1.4.2-0] matches upstream version 1.4.2 [0m
   [1;34m->[;1m checking for update for 'python-pytube'[0m
 [37m             [UNKNOWN] [python-pytube][11.0.2-1] upstream version is 11.0.1 [0m
   [1;34m->[;1m checking for update for 'python-rapidfuzz'[0m
@@ -371,9 +372,9 @@ cava: new version found - 0.7.5 => 0.8.0
   [1;34m->[;1m checking for update for 'sndcpy-bin'[0m
 [32m          [UP-TO-DATE] [sndcpy-bin][1.1-2] matches upstream version 1.1 [0m
   [1;34m->[;1m checking for update for 'speedometer'[0m
-[32m          [UP-TO-DATE] [speedometer][2.8-4] matches upstream version 2.8 [0m
+[37m             [UNKNOWN] [speedometer][2.8-4] No debian release found for speedometer: Get "https://sources.debian.org/api/src/speedometer/": EOF [0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
-[32m          [UP-TO-DATE] [spicetify-cli][2.9.4-1] matches upstream version 2.9.4 [0m
+[32m          [UP-TO-DATE] [spicetify-cli][2.9.5-1] matches upstream version 2.9.5 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
 [37m             [UNKNOWN] [spotify][1:1.1.80.699-1] No release found for spotify.protocol [0m
   [1;34m->[;1m checking for update for 'stacer'[0m
@@ -388,7 +389,7 @@ cava: new version found - 0.7.5 => 0.8.0
   [1;34m->[;1m checking for update for 'svg-term-cli'[0m
 [37m             [UNKNOWN] [svg-term-cli][2.1.1-1] No release found for svg-term-cli: %!w(<nil>) [0m
   [1;34m->[;1m checking for update for 'terser'[0m
-[31m         [OUT-OF-DATE] [terser][5.12.0-1] should be updated to 5.12.1 [0m
+[32m          [UP-TO-DATE] [terser][5.12.1-1] matches upstream version 5.12.1 [0m
   [1;34m->[;1m checking for update for 'themix-export-spotify-git'[0m
   [1;34m->[;1m checking for update for 'themix-full-git'[0m
   [1;34m->[;1m checking for update for 'themix-gui-git'[0m
