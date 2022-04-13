@@ -5,8 +5,8 @@ python-rapidfuzz
 pnpm
   [1;34m->[;1m running pkgoutofdate[0m
 uftrace: new version found - 0.9.3 => 0.9.4
-noisetorch-bin: new version found - 0.11.4 => 0.11.5
-mymonero: new version found - 1.2.5 => 1.2.6
+mymonero: new version found - 1.2.6 => 1.2.7
+mergerfs: new version found - 2.33.4 => 2.33.5
 libuiohook: new version found - 1.0.3 => 1.1.0
 burpsuite: new version found - 2022.3.1 => 2022.3.2
 cava: new version found - 0.7.5 => 0.8.0
@@ -69,7 +69,7 @@ cava: new version found - 0.7.5 => 0.8.0
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
 [37m             [UNKNOWN] [cloudflared-bin][2022.4.0-1] No release found for cloudflared-bin-LICENSE::https://raw.githubusercontent.com/cloudflare/cloudflared/2022.4.0/LICENSE [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
-[31m         [OUT-OF-DATE] [code-features][1.66.0-2] should be updated to 1.66.1 [0m
+[31m         [OUT-OF-DATE] [code-features][1.66.0-2] should be updated to 1.66.2 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
 [37m             [UNKNOWN] [code-marketplace][1.66.0-1] No release found for code-marketplace.hook [0m
   [1;34m->[;1m checking for update for 'code-server'[0m
@@ -98,7 +98,7 @@ cava: new version found - 0.7.5 => 0.8.0
   [1;34m->[;1m checking for update for 'downloader-cli'[0m
 [32m          [UP-TO-DATE] [downloader-cli][0.3.3-0] matches upstream version 0.3.3 [0m
   [1;34m->[;1m checking for update for 'drawio-desktop-bin'[0m
-[31m         [OUT-OF-DATE] [drawio-desktop-bin][17.2.4-1] should be updated to 17.4.2 [0m
+[32m          [UP-TO-DATE] [drawio-desktop-bin][17.4.2-1] matches upstream version 17.4.2 [0m
   [1;34m->[;1m checking for update for 'dry-bin'[0m
 [32m          [UP-TO-DATE] [dry-bin][0.11.1-1] matches upstream version 0.11.1 [0m
   [1;34m->[;1m checking for update for 'ebtables'[0m
@@ -207,7 +207,7 @@ cava: new version found - 0.7.5 => 0.8.0
   [1;34m->[;1m checking for update for 'msg2'[0m
 [37m             [UNKNOWN] [msg2][1.2.0-2] No release found for https://roboticoverlords.org/msg2/msg2-1.2.0.tar.xz [0m
   [1;34m->[;1m checking for update for 'mymonero'[0m
-[31m         [OUT-OF-DATE] [mymonero][1.2.5-1] should be updated to 1.2.6 [0m
+[31m         [OUT-OF-DATE] [mymonero][1.2.6-1] should be updated to 1.2.7 [0m
   [1;34m->[;1m checking for update for 'nerd-fonts-source-code-pro'[0m
 [32m          [UP-TO-DATE] [nerd-fonts-source-code-pro][2.1.0-2] matches upstream version 2.1.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-autocannon'[0m
@@ -231,7 +231,7 @@ cava: new version found - 0.7.5 => 0.8.0
   [1;34m->[;1m checking for update for 'noisetorch'[0m
 [32m          [UP-TO-DATE] [noisetorch][0.11.5-1] matches upstream version 0.11.5 [0m
   [1;34m->[;1m checking for update for 'noisetorch-bin'[0m
-[31m         [OUT-OF-DATE] [noisetorch-bin][0.11.4-2] should be updated to 0.11.5 [0m
+[32m          [UP-TO-DATE] [noisetorch-bin][0.11.5-1] matches upstream version 0.11.5 [0m
   [1;34m->[;1m checking for update for 'nordic-theme'[0m
 [32m          [UP-TO-DATE] [nordic-theme][2.1.0-3] matches upstream version 2.1.0 [0m
   [1;34m->[;1m checking for update for 'notion-app'[0m
@@ -372,7 +372,7 @@ cava: new version found - 0.7.5 => 0.8.0
   [1;34m->[;1m checking for update for 'sndcpy-bin'[0m
 [32m          [UP-TO-DATE] [sndcpy-bin][1.1-2] matches upstream version 1.1 [0m
   [1;34m->[;1m checking for update for 'speedometer'[0m
-[37m             [UNKNOWN] [speedometer][2.8-4] No debian release found for speedometer: Get "https://sources.debian.org/api/src/speedometer/": EOF [0m
+[32m          [UP-TO-DATE] [speedometer][2.8-4] matches upstream version 2.8 [0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
 [32m          [UP-TO-DATE] [spicetify-cli][2.9.5-1] matches upstream version 2.9.5 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
@@ -441,7 +441,7 @@ cava: new version found - 0.7.5 => 0.8.0
   [1;34m->[;1m checking for update for 'vrms-arch'[0m
 [37m             [UNKNOWN] [vrms-arch][0.1.0.r25.g802c767-1] Failed to obtain GitHub release for orospakr/vrms-arch.git from https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest: No GitHub project found for orospakr/vrms-arch.git on https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'vscodium-bin'[0m
-[32m          [UP-TO-DATE] [vscodium-bin][1.66.1-1] matches upstream version 1.66.1 [0m
+[32m          [UP-TO-DATE] [vscodium-bin][1.66.2-1] matches upstream version 1.66.2 [0m
   [1;34m->[;1m checking for update for 'waydroid'[0m
 [37m             [UNKNOWN] [waydroid][1.2.0-2] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
