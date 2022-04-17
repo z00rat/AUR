@@ -5,9 +5,8 @@ pnpm
   [1;34m->[;1m running pkgoutofdate[0m
 opensnitch: new version found - 1.5.0 => 1.5.1
 libuiohook: new version found - 1.0.3 => 1.1.0
-electronmail-bin: new version found - 4.13.6 => 4.14.0
-burpsuite: new version found - 2022.3.1 => 2022.3.2
 cava: new version found - 0.7.5 => 0.8.0
+burpsuite: new version found - 2022.3.1 => 2022.3.2
 advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
@@ -107,7 +106,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'electorrent-bin'[0m
 [32m          [UP-TO-DATE] [electorrent-bin][2.7.3-1] matches upstream version 2.7.3 [0m
   [1;34m->[;1m checking for update for 'electronmail-bin'[0m
-[31m         [OUT-OF-DATE] [electronmail-bin][4.13.6-1] should be updated to 4.14.0 [0m
+[32m          [UP-TO-DATE] [electronmail-bin][4.14.0-1] matches upstream version 4.14.0 [0m
   [1;34m->[;1m checking for update for 'exe-thumbnailer'[0m
 [37m             [UNKNOWN] [exe-thumbnailer][0.10.1-1] Failed to obtain GitHub release for exe-thumbnailer/exe-thumbnailer from https://api.github.com/repos/exe-thumbnailer/exe-thumbnailer/releases/latest: No GitHub project found for exe-thumbnailer/exe-thumbnailer on https://api.github.com/repos/exe-thumbnailer/exe-thumbnailer/releases/latest [0m
   [1;34m->[;1m checking for update for 'ezshare'[0m
@@ -333,7 +332,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'python-ytmusicapi'[0m
 [32m          [UP-TO-DATE] [python-ytmusicapi][0.21.0-1] matches upstream version 0.21.0 [0m
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
-[32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][0.15.4-1] matches upstream version 0.15.4 [0m
+[32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][0.16.0-1] matches upstream version 0.16.0 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
 [32m          [UP-TO-DATE] [qrcp][0.9.1-1] matches upstream version 0.9.1 [0m
   [1;34m->[;1m checking for update for 'qwinff'[0m
