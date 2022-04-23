@@ -105,7 +105,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'electorrent-bin'[0m
 [32m          [UP-TO-DATE] [electorrent-bin][2.7.3-1] matches upstream version 2.7.3 [0m
   [1;34m->[;1m checking for update for 'electronmail-bin'[0m
-[32m          [UP-TO-DATE] [electronmail-bin][4.14.0-1] matches upstream version 4.14.0 [0m
+[32m          [UP-TO-DATE] [electronmail-bin][4.15.0-1] matches upstream version 4.15.0 [0m
   [1;34m->[;1m checking for update for 'exe-thumbnailer'[0m
 [37m             [UNKNOWN] [exe-thumbnailer][0.10.1-1] Failed to obtain GitHub release for exe-thumbnailer/exe-thumbnailer from https://api.github.com/repos/exe-thumbnailer/exe-thumbnailer/releases/latest: No GitHub project found for exe-thumbnailer/exe-thumbnailer on https://api.github.com/repos/exe-thumbnailer/exe-thumbnailer/releases/latest [0m
   [1;34m->[;1m checking for update for 'ezshare'[0m
@@ -371,7 +371,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'speedometer'[0m
 [32m          [UP-TO-DATE] [speedometer][2.8-4] matches upstream version 2.8 [0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
-[32m          [UP-TO-DATE] [spicetify-cli][2.9.5-1] matches upstream version 2.9.5 [0m
+[32m          [UP-TO-DATE] [spicetify-cli][2.9.6-1] matches upstream version 2.9.6 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
 [37m             [UNKNOWN] [spotify][1:1.1.80.699-1] No release found for spotify.protocol [0m
   [1;34m->[;1m checking for update for 'stacer'[0m
