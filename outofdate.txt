@@ -312,7 +312,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'python-pytube'[0m
 [37m             [UNKNOWN] [python-pytube][12.0.0-1] upstream version is 11.0.1 [0m
   [1;34m->[;1m checking for update for 'python-rapidfuzz'[0m
-[31m         [OUT-OF-DATE] [python-rapidfuzz][2.0.9-1] should be updated to 2.0.10 [0m
+[31m         [OUT-OF-DATE] [python-rapidfuzz][2.0.9-1] should be updated to 2.0.11 [0m
   [1;34m->[;1m checking for update for 'python-requests-futures'[0m
 [32m          [UP-TO-DATE] [python-requests-futures][1.0.0-3] matches upstream version 1.0.0 [0m
   [1;34m->[;1m checking for update for 'python-simber'[0m
