@@ -4,8 +4,10 @@
 pnpm
 python-rapidfuzz
   [1;34m->[;1m running pkgoutofdate[0m
+readability-cli: new version found - 2.3.5 => 2.3.6
 libuiohook: new version found - 1.0.3 => 1.1.0
 burpsuite: new version found - 2022.3.1 => 2022.3.2
+cava: new version found - 0.8.1 => 0.8.2
 advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
@@ -62,7 +64,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'burpsuite'[0m
 [37m             [UNKNOWN] [burpsuite][2022.3.1-3] No release found for burpsuite-2022.3.1.jar::https://portswigger.net/burp/releases/download?product=community&version=2022.3.1&type=Jar [0m
   [1;34m->[;1m checking for update for 'cava'[0m
-[32m          [UP-TO-DATE] [cava][0.8.1-2] matches upstream version 0.8.1 [0m
+[31m         [OUT-OF-DATE] [cava][0.8.1-2] should be updated to 0.8.2 [0m
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
 [37m             [UNKNOWN] [cloudflared-bin][2022.4.1-1] No release found for cloudflared-bin-LICENSE::https://raw.githubusercontent.com/cloudflare/cloudflared/2022.4.1/LICENSE [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
@@ -371,7 +373,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'speedometer'[0m
 [32m          [UP-TO-DATE] [speedometer][2.8-4] matches upstream version 2.8 [0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
-[32m          [UP-TO-DATE] [spicetify-cli][2.9.6-1] matches upstream version 2.9.6 [0m
+[32m          [UP-TO-DATE] [spicetify-cli][2.9.7-1] matches upstream version 2.9.7 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
 [37m             [UNKNOWN] [spotify][1:1.1.80.699-1] No release found for spotify.protocol [0m
   [1;34m->[;1m checking for update for 'stacer'[0m
