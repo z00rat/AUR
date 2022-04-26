@@ -4,16 +4,13 @@
 pnpm
 python-rapidfuzz
   [1;34m->[;1m running pkgoutofdate[0m
-readability-cli: new version found - 2.3.5 => 2.3.6
 libuiohook: new version found - 1.0.3 => 1.1.0
-burpsuite: new version found - 2022.3.1 => 2022.3.2
-cava: new version found - 0.8.1 => 0.8.2
 advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
 [32m          [UP-TO-DATE] [activitywatch-bin][0.11.0-3] matches upstream version 0.11.0 [0m
   [1;34m->[;1m checking for update for 'advcpmv'[0m
-[37m             [UNKNOWN] [advcpmv][9.0-4] No release found for https://ftp.gnu.org/gnu/coreutils/coreutils-9.0.tar.xz [0m
+[37m             [UNKNOWN] [advcpmv][9.0-5] No release found for https://ftp.gnu.org/gnu/coreutils/coreutils-9.0.tar.xz [0m
   [1;34m->[;1m checking for update for 'alacritty-themes'[0m
 [32m          [UP-TO-DATE] [alacritty-themes][4.3.0-1] matches upstream version 4.3.0 [0m
   [1;34m->[;1m checking for update for 'ansifilter'[0m
@@ -62,9 +59,9 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'bubblejail'[0m
 [32m          [UP-TO-DATE] [bubblejail][0.5.3-1] matches upstream version 0.5.3 [0m
   [1;34m->[;1m checking for update for 'burpsuite'[0m
-[37m             [UNKNOWN] [burpsuite][2022.3.1-3] No release found for burpsuite-2022.3.1.jar::https://portswigger.net/burp/releases/download?product=community&version=2022.3.1&type=Jar [0m
+[37m             [UNKNOWN] [burpsuite][2022.3.5-1] No release found for burpsuite-2022.3.5.jar::https://portswigger.net/burp/releases/download?product=community&version=2022.3.5&type=Jar [0m
   [1;34m->[;1m checking for update for 'cava'[0m
-[31m         [OUT-OF-DATE] [cava][0.8.1-2] should be updated to 0.8.2 [0m
+[32m          [UP-TO-DATE] [cava][0.8.2-1] matches upstream version 0.8.2 [0m
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
 [37m             [UNKNOWN] [cloudflared-bin][2022.4.1-1] No release found for cloudflared-bin-LICENSE::https://raw.githubusercontent.com/cloudflare/cloudflared/2022.4.1/LICENSE [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
@@ -72,7 +69,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
 [37m             [UNKNOWN] [code-marketplace][1.66.0-1] No release found for code-marketplace.hook [0m
   [1;34m->[;1m checking for update for 'code-server'[0m
-[32m          [UP-TO-DATE] [code-server][4.3.0-0] matches upstream version 4.3.0 [0m
+[32m          [UP-TO-DATE] [code-server][4.3.0-1] matches upstream version 4.3.0 [0m
   [1;34m->[;1m checking for update for 'cointop'[0m
 [32m          [UP-TO-DATE] [cointop][1.6.10-1] matches upstream version 1.6.10 [0m
   [1;34m->[;1m checking for update for 'cointop-bin'[0m
@@ -84,7 +81,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'ddd'[0m
 [37m             [UNKNOWN] [ddd][3.3.12-12] No release found for http://ftp.gnu.org/gnu/ddd/ddd-3.3.12.tar.gz [0m
   [1;34m->[;1m checking for update for 'debtap'[0m
-[32m          [UP-TO-DATE] [debtap][3.4.2-1] matches upstream version 3.4.2 [0m
+[32m          [UP-TO-DATE] [debtap][3.5.1-1] matches upstream version 3.5.1 [0m
   [1;34m->[;1m checking for update for 'diceware'[0m
 [37m             [UNKNOWN] [diceware][0.10-1] Failed to obtain GitHub release for ulif/diceware from https://api.github.com/repos/ulif/diceware/releases/latest: No GitHub project found for ulif/diceware on https://api.github.com/repos/ulif/diceware/releases/latest [0m
   [1;34m->[;1m checking for update for 'discord-chat-exporter-cli'[0m
@@ -275,7 +272,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'pm2ml'[0m
 [37m             [UNKNOWN] [pm2ml][2021.11.20.1-2] No release found for https://xyne.dev/projects/pm2ml/src/pm2ml-2021.11.20.1.tar.xz [0m
   [1;34m->[;1m checking for update for 'pnpm'[0m
-[31m         [OUT-OF-DATE] [pnpm][6.32.4-0] should be updated to 6.32.9 [0m
+[31m         [OUT-OF-DATE] [pnpm][6.32.4-0] should be updated to 6.32.10 [0m
   [1;34m->[;1m checking for update for 'popcorntime-bin'[0m
 [32m          [UP-TO-DATE] [popcorntime-bin][0.4.7-1] matches upstream version 0.4.7 [0m
   [1;34m->[;1m checking for update for 'powerpill'[0m
