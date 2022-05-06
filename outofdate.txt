@@ -5,6 +5,7 @@ pnpm
 python-rapidfuzz
   [1;34m->[;1m running pkgoutofdate[0m
 libuiohook: new version found - 1.0.3 => 1.1.0
+drawio-desktop-bin: new version found - 17.4.2 => 18.0.0
 advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
@@ -65,7 +66,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
 [37m             [UNKNOWN] [cloudflared-bin][2022.4.1-1] No release found for cloudflared-bin-LICENSE::https://raw.githubusercontent.com/cloudflare/cloudflared/2022.4.1/LICENSE [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
-[31m         [OUT-OF-DATE] [code-features][1.66.0-2] should be updated to 1.66.2 [0m
+[31m         [OUT-OF-DATE] [code-features][1.66.0-3] should be updated to 1.67.0 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
 [37m             [UNKNOWN] [code-marketplace][1.66.0-1] No release found for code-marketplace.hook [0m
   [1;34m->[;1m checking for update for 'code-server'[0m
@@ -94,7 +95,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'downloader-cli'[0m
 [32m          [UP-TO-DATE] [downloader-cli][0.3.3-0] matches upstream version 0.3.3 [0m
   [1;34m->[;1m checking for update for 'drawio-desktop-bin'[0m
-[32m          [UP-TO-DATE] [drawio-desktop-bin][17.4.2-1] matches upstream version 17.4.2 [0m
+[31m         [OUT-OF-DATE] [drawio-desktop-bin][17.4.2-1] should be updated to 18.0.1 [0m
   [1;34m->[;1m checking for update for 'dry-bin'[0m
 [32m          [UP-TO-DATE] [dry-bin][0.11.1-1] matches upstream version 0.11.1 [0m
   [1;34m->[;1m checking for update for 'ebtables'[0m
@@ -120,7 +121,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'figlet-fonts'[0m
 [37m             [UNKNOWN] [figlet-fonts][1.0-3] No release found for ours.tar.gz::ftp://ftp.figlet.org/pub/figlet/fonts/ours.tar.gz [0m
   [1;34m->[;1m checking for update for 'firefox-esr-bin'[0m
-[37m             [UNKNOWN] [firefox-esr-bin][91.8.0-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/91.8.0esr/linux-x86_64/en-US/firefox-91.8.0esr.tar.bz2 [0m
+[37m             [UNKNOWN] [firefox-esr-bin][91.9.0-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/91.9.0esr/linux-x86_64/en-US/firefox-91.9.0esr.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'flamegraph'[0m
 [32m          [UP-TO-DATE] [flamegraph][1.0-2] matches upstream version 1.0 [0m
   [1;34m->[;1m checking for update for 'florence'[0m
@@ -207,7 +208,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'nerd-fonts-source-code-pro'[0m
 [32m          [UP-TO-DATE] [nerd-fonts-source-code-pro][2.1.0-2] matches upstream version 2.1.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-autocannon'[0m
-[32m          [UP-TO-DATE] [nodejs-autocannon][7.8.1-1] matches upstream version 7.8.1 [0m
+[31m         [OUT-OF-DATE] [nodejs-autocannon][7.8.1-1] should be updated to 7.9.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-clinic'[0m
 [32m          [UP-TO-DATE] [nodejs-clinic][11.1.0-1] matches upstream version 11.1.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-csso'[0m
@@ -405,7 +406,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'tmpwatch'[0m
 [37m             [UNKNOWN] [tmpwatch][2.11-3] No release found for https://releases.pagure.org/tmpwatch/tmpwatch-2.11.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'tor-browser'[0m
-[37m             [UNKNOWN] [tor-browser][11.0.10-1] No release found for tor-browser.desktop.in [0m
+[37m             [UNKNOWN] [tor-browser][11.0.11-1] No release found for tor-browser.desktop.in [0m
   [1;34m->[;1m checking for update for 'tt-bin'[0m
 [32m          [UP-TO-DATE] [tt-bin][0.4.2-1] matches upstream version 0.4.2 [0m
   [1;34m->[;1m checking for update for 'ttf-anka-coder'[0m
