@@ -4,8 +4,6 @@
 pnpm
 python-rapidfuzz
   [1;34m->[;1m running pkgoutofdate[0m
-libuiohook: new version found - 1.0.3 => 1.1.0
-drawio-desktop-bin: new version found - 17.4.2 => 18.0.0
 advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
@@ -70,7 +68,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
 [37m             [UNKNOWN] [code-marketplace][1.66.0-1] No release found for code-marketplace.hook [0m
   [1;34m->[;1m checking for update for 'code-server'[0m
-[32m          [UP-TO-DATE] [code-server][4.3.0-1] matches upstream version 4.3.0 [0m
+[32m          [UP-TO-DATE] [code-server][4.4.0-1] matches upstream version 4.4.0 [0m
   [1;34m->[;1m checking for update for 'cointop'[0m
 [32m          [UP-TO-DATE] [cointop][1.6.10-1] matches upstream version 1.6.10 [0m
   [1;34m->[;1m checking for update for 'cointop-bin'[0m
@@ -95,7 +93,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'downloader-cli'[0m
 [32m          [UP-TO-DATE] [downloader-cli][0.3.3-0] matches upstream version 0.3.3 [0m
   [1;34m->[;1m checking for update for 'drawio-desktop-bin'[0m
-[31m         [OUT-OF-DATE] [drawio-desktop-bin][17.4.2-1] should be updated to 18.0.1 [0m
+[32m          [UP-TO-DATE] [drawio-desktop-bin][18.0.1-1] matches upstream version 18.0.1 [0m
   [1;34m->[;1m checking for update for 'dry-bin'[0m
 [32m          [UP-TO-DATE] [dry-bin][0.11.1-1] matches upstream version 0.11.1 [0m
   [1;34m->[;1m checking for update for 'ebtables'[0m
@@ -156,7 +154,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'hw-probe'[0m
 [32m          [UP-TO-DATE] [hw-probe][1.6-1] matches upstream version 1.6 [0m
   [1;34m->[;1m checking for update for 'hydroxide'[0m
-[32m          [UP-TO-DATE] [hydroxide][0.2.21-1] matches upstream version 0.2.21 [0m
+[32m          [UP-TO-DATE] [hydroxide][0.2.22-1] matches upstream version 0.2.22 [0m
   [1;34m->[;1m checking for update for 'i3lock-color'[0m
 [32m          [UP-TO-DATE] [i3lock-color][2.13.c.4-1] matches upstream version 2.13.c.4 [0m
   [1;34m->[;1m checking for update for 'ibus-avro-git'[0m
@@ -174,7 +172,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'libglibutil'[0m
 [37m             [UNKNOWN] [libglibutil][1.0.62-1] Failed to obtain GitHub release for sailfishos/libglibutil.git from https://api.github.com/repos/sailfishos/libglibutil.git/releases/latest: No GitHub project found for sailfishos/libglibutil.git on https://api.github.com/repos/sailfishos/libglibutil.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'libuiohook'[0m
-[37m             [UNKNOWN] [libuiohook][1.0.3-5] Failed to obtain GitHub release for kwhat/libuiohook from https://api.github.com/repos/kwhat/libuiohook/releases/latest: No GitHub project found for kwhat/libuiohook on https://api.github.com/repos/kwhat/libuiohook/releases/latest [0m
+[37m             [UNKNOWN] [libuiohook][1.2.2-2] Failed to obtain GitHub release for kwhat/libuiohook from https://api.github.com/repos/kwhat/libuiohook/releases/latest: No GitHub project found for kwhat/libuiohook on https://api.github.com/repos/kwhat/libuiohook/releases/latest [0m
   [1;34m->[;1m checking for update for 'libva-intel-driver-hybrid'[0m
 [37m             [UNKNOWN] [libva-intel-driver-hybrid][2.4.1-1] Failed to obtain GitHub release for intel/intel-vaapi-driver.git from https://api.github.com/repos/intel/intel-vaapi-driver.git/releases/latest: No GitHub project found for intel/intel-vaapi-driver.git on https://api.github.com/repos/intel/intel-vaapi-driver.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'light-git'[0m
@@ -208,7 +206,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'nerd-fonts-source-code-pro'[0m
 [32m          [UP-TO-DATE] [nerd-fonts-source-code-pro][2.1.0-2] matches upstream version 2.1.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-autocannon'[0m
-[31m         [OUT-OF-DATE] [nodejs-autocannon][7.8.1-1] should be updated to 7.9.0 [0m
+[32m          [UP-TO-DATE] [nodejs-autocannon][7.9.0-1] matches upstream version 7.9.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-clinic'[0m
 [32m          [UP-TO-DATE] [nodejs-clinic][11.1.0-1] matches upstream version 11.1.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-csso'[0m
@@ -220,7 +218,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'nodejs-mapscii'[0m
 [32m          [UP-TO-DATE] [nodejs-mapscii][0.3.1-4] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'nodejs-nodemon'[0m
-[31m         [OUT-OF-DATE] [nodejs-nodemon][2.0.15-1] should be updated to 2.0.16 [0m
+[32m          [UP-TO-DATE] [nodejs-nodemon][2.0.16-1] matches upstream version 2.0.16 [0m
   [1;34m->[;1m checking for update for 'nodejs-npm2arch'[0m
 [32m          [UP-TO-DATE] [nodejs-npm2arch][2.2.0-1] matches upstream version 2.2.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-ungit'[0m
