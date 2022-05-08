@@ -2,7 +2,6 @@
 
   [1;34m->[;1m listing already flaged packages[0m
 pnpm
-python-rapidfuzz
   [1;34m->[;1m running pkgoutofdate[0m
 advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m running aur-out-of-date[0m
@@ -144,7 +143,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'google-chrome'[0m
 [37m             [UNKNOWN] [google-chrome][101.0.4951.54-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_101.0.4951.54-1_amd64.deb [0m
   [1;34m->[;1m checking for update for 'guiscrcpy'[0m
-[37m             [UNKNOWN] [guiscrcpy][4.11.3-2] Failed to obtain GitHub release for srevinsaju/guiscrcpy.git from https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest: No GitHub project found for srevinsaju/guiscrcpy.git on https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest [0m
+[37m             [UNKNOWN] [guiscrcpy][4.12.0-2] Failed to obtain GitHub release for srevinsaju/guiscrcpy.git from https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest: No GitHub project found for srevinsaju/guiscrcpy.git on https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'hakuneko-desktop'[0m
 [32m          [UP-TO-DATE] [hakuneko-desktop][6.1.7-2] matches upstream version 6.1.7 [0m
   [1;34m->[;1m checking for update for 'heroku-cli-bin'[0m
@@ -271,7 +270,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'pm2ml'[0m
 [37m             [UNKNOWN] [pm2ml][2021.11.20.1-2] No release found for https://xyne.dev/projects/pm2ml/src/pm2ml-2021.11.20.1.tar.xz [0m
   [1;34m->[;1m checking for update for 'pnpm'[0m
-[31m         [OUT-OF-DATE] [pnpm][6.32.4-0] should be updated to 7.0.0 [0m
+[31m         [OUT-OF-DATE] [pnpm][6.32.4-0] should be updated to 7.0.1 [0m
   [1;34m->[;1m checking for update for 'popcorntime-bin'[0m
 [32m          [UP-TO-DATE] [popcorntime-bin][0.4.7-1] matches upstream version 0.4.7 [0m
   [1;34m->[;1m checking for update for 'powerpill'[0m
@@ -310,7 +309,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'python-pytube'[0m
 [37m             [UNKNOWN] [python-pytube][12.0.0-1] upstream version is 11.0.1 [0m
   [1;34m->[;1m checking for update for 'python-rapidfuzz'[0m
-[31m         [OUT-OF-DATE] [python-rapidfuzz][2.0.9-1] should be updated to 2.0.11 [0m
+[32m          [UP-TO-DATE] [python-rapidfuzz][2.0.11-1] matches upstream version 2.0.11 [0m
   [1;34m->[;1m checking for update for 'python-requests-futures'[0m
 [32m          [UP-TO-DATE] [python-requests-futures][1.0.0-3] matches upstream version 1.0.0 [0m
   [1;34m->[;1m checking for update for 'python-simber'[0m
@@ -436,7 +435,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'vrms-arch'[0m
 [37m             [UNKNOWN] [vrms-arch][0.1.0.r25.g802c767-1] Failed to obtain GitHub release for orospakr/vrms-arch.git from https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest: No GitHub project found for orospakr/vrms-arch.git on https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'vscodium-bin'[0m
-[32m          [UP-TO-DATE] [vscodium-bin][1.66.2-1] matches upstream version 1.66.2 [0m
+[31m         [OUT-OF-DATE] [vscodium-bin][1.66.2-1] should be updated to 1.67.0 [0m
   [1;34m->[;1m checking for update for 'waydroid'[0m
 [37m             [UNKNOWN] [waydroid][1.2.1-1] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
