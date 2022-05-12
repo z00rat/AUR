@@ -1,9 +1,11 @@
   [1;34m->[;1m checking for out-of-date packages[0m
 
   [1;34m->[;1m listing already flaged packages[0m
+python-ytmusicapi
 pnpm
   [1;34m->[;1m running pkgoutofdate[0m
 ugrep: new version found - 3.7.9 => 3.7.10
+burpsuite: new version found - 2022.3.6 => 2022.3.7
 advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
@@ -154,7 +156,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'hw-probe'[0m
 [32m          [UP-TO-DATE] [hw-probe][1.6-1] matches upstream version 1.6 [0m
   [1;34m->[;1m checking for update for 'hydroxide'[0m
-[32m          [UP-TO-DATE] [hydroxide][0.2.22-1] matches upstream version 0.2.22 [0m
+[32m          [UP-TO-DATE] [hydroxide][0.2.23-1] matches upstream version 0.2.23 [0m
   [1;34m->[;1m checking for update for 'i3lock-color'[0m
 [32m          [UP-TO-DATE] [i3lock-color][2.13.c.4-1] matches upstream version 2.13.c.4 [0m
   [1;34m->[;1m checking for update for 'ibus-avro-git'[0m
@@ -316,7 +318,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'python-simber'[0m
 [32m          [UP-TO-DATE] [python-simber][0.2.4-0] matches upstream version 0.2.4 [0m
   [1;34m->[;1m checking for update for 'python-spotdl'[0m
-[32m          [UP-TO-DATE] [python-spotdl][3.9.5-2] matches upstream version 3.9.5 [0m
+[31m         [OUT-OF-DATE] [python-spotdl][3.9.5-2] should be updated to 3.9.6 [0m
   [1;34m->[;1m checking for update for 'python-spotipy'[0m
 [32m          [UP-TO-DATE] [python-spotipy][2.19.0-2] matches upstream version 2.19.0 [0m
   [1;34m->[;1m checking for update for 'python-srt'[0m
@@ -375,7 +377,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'stacer'[0m
 [32m          [UP-TO-DATE] [stacer][1.1.0-1] matches upstream version 1.1.0 [0m
   [1;34m->[;1m checking for update for 'stretchly-bin'[0m
-[37m             [UNKNOWN] [stretchly-bin][1.10.0-1] upstream version is 1.9.0 [0m
+[32m          [UP-TO-DATE] [stretchly-bin][1.10.0-1] matches upstream version 1.10.0 [0m
   [1;34m->[;1m checking for update for 'subuser'[0m
 [37m             [UNKNOWN] [subuser][0.6.2-1] Failed to obtain GitHub release for subuser-security/subuser from https://api.github.com/repos/subuser-security/subuser/releases/latest: No GitHub project found for subuser-security/subuser on https://api.github.com/repos/subuser-security/subuser/releases/latest [0m
   [1;34m->[;1m checking for update for 'surf'[0m
@@ -442,7 +444,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
 [37m             [UNKNOWN] [waydroid-image][17.1_20220316-2] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-17.1-20220316-VANILLA-waydroid_x86_64-system.zip [0m
   [1;34m->[;1m checking for update for 'webtorrent-bittorrent-tracker'[0m
-[31m         [OUT-OF-DATE] [webtorrent-bittorrent-tracker][9.18.5-1] should be updated to 9.18.6 [0m
+[32m          [UP-TO-DATE] [webtorrent-bittorrent-tracker][9.18.6-1] matches upstream version 9.18.6 [0m
   [1;34m->[;1m checking for update for 'webtorrent-cli'[0m
 [32m          [UP-TO-DATE] [webtorrent-cli][4.0.4-1] matches upstream version 4.0.4 [0m
   [1;34m->[;1m checking for update for 'webtorrent-desktop-bin'[0m
