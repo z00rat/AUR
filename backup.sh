@@ -7,14 +7,17 @@ for gitfile in $(tree -fia pkgs | grep -E "\.git$"); do
     rm "$gitfile"
 done
 
+git add pkgs
+
 msg2 "status:"
 git status
 
 # msg2 "file tree:"
 # tree -fia pkgs
 
-msg2 "commting changes in 10s (CTRL+C to exit)"
-sleep 10
+# msg2 "commting changes in 10s (CTRL+C to exit)"
+# sleep 10
+
 echo "commit msg: \"$(date)\""
 git commit -a -s -m "$(date)"
 git push
