@@ -4,16 +4,22 @@
 # echo ""
 pwd=$(pwd)
 
-for pkgname in $(/usr/bin/ls repos); do
-   msg2 "pulling update for '$pkgname' repo"
+msg2 "pulling update for all remote repos..."
 
-#   cd repos/"$pkgname" || exit
-   pushd repos/"$pkgname" >/dev/null
+pull_one() {
+   #   cd repos/"$pkgname" || exit
+   pushd repos/"$1" >/dev/null
+
    git checkout master >/dev/null 2>/dev/null
-   git pull  origin master:master | grep -v "Already up to date."
-#   cd "$pwd" || exit
+   git pull origin master:master | grep -v "Already up to date."
+
+   #   cd "$pwd" || exit
    popd >/dev/null
 
-done
+   msg2 "'$1' done."
+}
+export -f pull_one
+
+/usr/bin/ls repos | parallel -P 8 pull_one {}
 
 msg2 "done cloning."
