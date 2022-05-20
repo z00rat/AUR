@@ -224,7 +224,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'nodejs-ungit'[0m
 [32m          [UP-TO-DATE] [nodejs-ungit][1.5.20-1] matches upstream version 1.5.20 [0m
   [1;34m->[;1m checking for update for 'noisetorch'[0m
-[31m         [OUT-OF-DATE] [noisetorch][0.11.5-1] should be updated to 0.11.6 [0m
+[32m          [UP-TO-DATE] [noisetorch][0.11.6-1] matches upstream version 0.11.6 [0m
   [1;34m->[;1m checking for update for 'noisetorch-bin'[0m
 [31m         [OUT-OF-DATE] [noisetorch-bin][0.11.5-1] should be updated to 0.11.6 [0m
   [1;34m->[;1m checking for update for 'nordic-theme'[0m
@@ -271,7 +271,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'pm2ml'[0m
 [37m             [UNKNOWN] [pm2ml][2021.11.20.1-2] No release found for https://xyne.dev/projects/pm2ml/src/pm2ml-2021.11.20.1.tar.xz [0m
   [1;34m->[;1m checking for update for 'pnpm'[0m
-[31m         [OUT-OF-DATE] [pnpm][6.32.4-0] should be updated to 7.1.0 [0m
+[31m         [OUT-OF-DATE] [pnpm][6.32.4-0] should be updated to 7.1.2 [0m
   [1;34m->[;1m checking for update for 'popcorntime-bin'[0m
 [32m          [UP-TO-DATE] [popcorntime-bin][0.4.7-1] matches upstream version 0.4.7 [0m
   [1;34m->[;1m checking for update for 'powerpill'[0m
@@ -316,7 +316,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'python-simber'[0m
 [32m          [UP-TO-DATE] [python-simber][0.2.4-0] matches upstream version 0.2.4 [0m
   [1;34m->[;1m checking for update for 'python-spotdl'[0m
-[32m          [UP-TO-DATE] [python-spotdl][3.9.6-1] matches upstream version 3.9.6 [0m
+[32m          [UP-TO-DATE] [python-spotdl][3.9.6-2] matches upstream version 3.9.6 [0m
   [1;34m->[;1m checking for update for 'python-spotipy'[0m
 [32m          [UP-TO-DATE] [python-spotipy][2.19.0-2] matches upstream version 2.19.0 [0m
   [1;34m->[;1m checking for update for 'python-srt'[0m
