@@ -4,6 +4,7 @@
 pnpm
   [1;34m->[;1m running pkgoutofdate[0m
 ugrep: new version found - 3.7.9 => 3.7.10
+burpsuite: new version found - 2022.3.7 => 2022.3.8
 advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
@@ -119,7 +120,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'figlet-fonts'[0m
 [37m             [UNKNOWN] [figlet-fonts][1.0-3] No release found for ours.tar.gz::ftp://ftp.figlet.org/pub/figlet/fonts/ours.tar.gz [0m
   [1;34m->[;1m checking for update for 'firefox-esr-bin'[0m
-[37m             [UNKNOWN] [firefox-esr-bin][91.9.0-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/91.9.0esr/linux-x86_64/en-US/firefox-91.9.0esr.tar.bz2 [0m
+[37m             [UNKNOWN] [firefox-esr-bin][91.9.1-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/91.9.1esr/linux-x86_64/en-US/firefox-91.9.1esr.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'flamegraph'[0m
 [32m          [UP-TO-DATE] [flamegraph][1.0-2] matches upstream version 1.0 [0m
   [1;34m->[;1m checking for update for 'florence'[0m
