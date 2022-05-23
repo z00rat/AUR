@@ -370,7 +370,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'speedometer'[0m
 [32m          [UP-TO-DATE] [speedometer][2.8-4] matches upstream version 2.8 [0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
-[32m          [UP-TO-DATE] [spicetify-cli][2.9.8-1] matches upstream version 2.9.8 [0m
+[32m          [UP-TO-DATE] [spicetify-cli][2.9.9-1] matches upstream version 2.9.9 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
 [37m             [UNKNOWN] [spotify][1:1.1.84.716-1] No release found for spotify.protocol [0m
   [1;34m->[;1m checking for update for 'stacer'[0m
