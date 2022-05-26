@@ -133,7 +133,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'fswatch'[0m
 [32m          [UP-TO-DATE] [fswatch][1.16.0-1] matches upstream version 1.16.0 [0m
   [1;34m->[;1m checking for update for 'gallery-dl'[0m
-[32m          [UP-TO-DATE] [gallery-dl][1.21.2-1] matches upstream version 1.21.2 [0m
+[32m          [UP-TO-DATE] [gallery-dl][1.22.0-1] matches upstream version 1.22.0 [0m
   [1;34m->[;1m checking for update for 'gconf-cleaner'[0m
 [37m             [UNKNOWN] [gconf-cleaner][0.0.3-2] No release found for https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gconf-cleaner/gconf-cleaner-0.0.3.tar.gz [0m
   [1;34m->[;1m checking for update for 'gconf-gtk2'[0m
@@ -358,7 +358,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'rtags'[0m
 [32m          [UP-TO-DATE] [rtags][2.38-1] matches upstream version 2.38 [0m
   [1;34m->[;1m checking for update for 'runjs-bin'[0m
-[37m             [UNKNOWN] [runjs-bin][2.4.0-1] upstream version is 2.3.1 [0m
+[37m             [UNKNOWN] [runjs-bin][2.4.1-1] upstream version is 2.3.1 [0m
   [1;34m->[;1m checking for update for 'sherlock-git'[0m
   [1;34m->[;1m checking for update for 'siji-git'[0m
   [1;34m->[;1m checking for update for 'simple-mtpfs'[0m
