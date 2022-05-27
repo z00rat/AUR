@@ -69,7 +69,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
 [37m             [UNKNOWN] [code-marketplace][1.66.0-1] No release found for code-marketplace.hook [0m
   [1;34m->[;1m checking for update for 'code-server'[0m
-[32m          [UP-TO-DATE] [code-server][4.4.0-1] matches upstream version 4.4.0 [0m
+[37m             [UNKNOWN] [code-server][4.4.0-1] No release found for code-server-4.4.0-user.service::https://raw.githubusercontent.com/cdr/code-server/v4.4.0/ci/build/code-server-user.service [0m
   [1;34m->[;1m checking for update for 'cointop'[0m
 [32m          [UP-TO-DATE] [cointop][1.6.10-1] matches upstream version 1.6.10 [0m
   [1;34m->[;1m checking for update for 'cointop-bin'[0m
@@ -225,9 +225,9 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'nodejs-ungit'[0m
 [32m          [UP-TO-DATE] [nodejs-ungit][1.5.20-1] matches upstream version 1.5.20 [0m
   [1;34m->[;1m checking for update for 'noisetorch'[0m
-[32m          [UP-TO-DATE] [noisetorch][0.11.6-1] matches upstream version 0.11.6 [0m
+[37m             [UNKNOWN] [noisetorch][0.11.6-1] Failed to obtain GitHub release for lawl/NoiseTorch from https://api.github.com/repos/lawl/NoiseTorch/releases/latest: No GitHub project found for lawl/NoiseTorch on https://api.github.com/repos/lawl/NoiseTorch/releases/latest [0m
   [1;34m->[;1m checking for update for 'noisetorch-bin'[0m
-[31m         [OUT-OF-DATE] [noisetorch-bin][0.11.5-1] should be updated to 0.11.6 [0m
+[37m             [UNKNOWN] [noisetorch-bin][0.11.5-1] Failed to obtain GitHub release for lawl/NoiseTorch from https://api.github.com/repos/lawl/NoiseTorch/releases/latest: No GitHub project found for lawl/NoiseTorch on https://api.github.com/repos/lawl/NoiseTorch/releases/latest [0m
   [1;34m->[;1m checking for update for 'nordic-theme'[0m
 [32m          [UP-TO-DATE] [nordic-theme][2.1.0-3] matches upstream version 2.1.0 [0m
   [1;34m->[;1m checking for update for 'notion-app'[0m
@@ -272,7 +272,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'pm2ml'[0m
 [37m             [UNKNOWN] [pm2ml][2021.11.20.1-2] No release found for https://xyne.dev/projects/pm2ml/src/pm2ml-2021.11.20.1.tar.xz [0m
   [1;34m->[;1m checking for update for 'pnpm'[0m
-[31m         [OUT-OF-DATE] [pnpm][6.32.4-0] should be updated to 7.1.5 [0m
+[31m         [OUT-OF-DATE] [pnpm][6.32.4-0] should be updated to 7.1.6 [0m
   [1;34m->[;1m checking for update for 'popcorntime-bin'[0m
 [32m          [UP-TO-DATE] [popcorntime-bin][0.4.7-1] matches upstream version 0.4.7 [0m
   [1;34m->[;1m checking for update for 'powerpill'[0m
