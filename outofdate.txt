@@ -5,6 +5,7 @@ pnpm
   [1;34m->[;1m running pkgoutofdate[0m
 ugrep: new version found - 3.7.9 => 3.7.10
 raven-reader: new version found - 1.0.72 => 1.0.73
+qbittorrent-vuetorrent-bin: new version found - 0.16.2 => 0.16.3
 mkp224o: new version found - 1.5.0 => 1.6.0
 advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m running aur-out-of-date[0m
@@ -58,7 +59,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'broken-link-checker'[0m
 [32m          [UP-TO-DATE] [broken-link-checker][0.7.8-1] matches upstream version 0.7.8 [0m
   [1;34m->[;1m checking for update for 'bubblejail'[0m
-[32m          [UP-TO-DATE] [bubblejail][0.6.0-1] matches upstream version 0.6.0 [0m
+[32m          [UP-TO-DATE] [bubblejail][0.6.1-1] matches upstream version 0.6.1 [0m
   [1;34m->[;1m checking for update for 'burpsuite'[0m
 [37m             [UNKNOWN] [burpsuite][2022.3.9-1] No release found for burpsuite-2022.3.9.jar::https://portswigger.net/burp/releases/download?product=community&version=2022.3.9&type=Jar [0m
   [1;34m->[;1m checking for update for 'cava'[0m
@@ -273,7 +274,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'pm2ml'[0m
 [37m             [UNKNOWN] [pm2ml][2021.11.20.1-2] No release found for https://xyne.dev/projects/pm2ml/src/pm2ml-2021.11.20.1.tar.xz [0m
   [1;34m->[;1m checking for update for 'pnpm'[0m
-[31m         [OUT-OF-DATE] [pnpm][6.32.4-0] should be updated to 7.1.8 [0m
+[31m         [OUT-OF-DATE] [pnpm][6.32.4-0] should be updated to 7.1.9 [0m
   [1;34m->[;1m checking for update for 'popcorntime-bin'[0m
 [32m          [UP-TO-DATE] [popcorntime-bin][0.4.7-1] matches upstream version 0.4.7 [0m
   [1;34m->[;1m checking for update for 'powerpill'[0m
@@ -331,7 +332,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'python-ytmusicapi'[0m
 [32m          [UP-TO-DATE] [python-ytmusicapi][0.22.0-1] matches upstream version 0.22.0 [0m
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
-[32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][0.16.2-1] matches upstream version 0.16.2 [0m
+[31m         [OUT-OF-DATE] [qbittorrent-vuetorrent-bin][0.16.2-1] should be updated to 0.17.0 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
 [32m          [UP-TO-DATE] [qrcp][0.9.1-1] matches upstream version 0.9.1 [0m
   [1;34m->[;1m checking for update for 'qwinff'[0m
