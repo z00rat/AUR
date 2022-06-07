@@ -7,6 +7,7 @@ ugrep: new version found - 3.7.9 => 3.7.10
 raven-reader: new version found - 1.0.72 => 1.0.73
 qbittorrent-vuetorrent-bin: new version found - 0.16.2 => 0.16.3
 mkp224o: new version found - 1.5.0 => 1.6.0
+drawio-desktop-bin: new version found - 19.0.0 => 19.0.1
 advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
@@ -96,7 +97,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'downloader-cli'[0m
 [32m          [UP-TO-DATE] [downloader-cli][0.3.3-0] matches upstream version 0.3.3 [0m
   [1;34m->[;1m checking for update for 'drawio-desktop-bin'[0m
-[32m          [UP-TO-DATE] [drawio-desktop-bin][19.0.0-1] matches upstream version 19.0.0 [0m
+[31m         [OUT-OF-DATE] [drawio-desktop-bin][19.0.0-1] should be updated to 19.0.1 [0m
   [1;34m->[;1m checking for update for 'dry-bin'[0m
 [32m          [UP-TO-DATE] [dry-bin][0.11.1-1] matches upstream version 0.11.1 [0m
   [1;34m->[;1m checking for update for 'ebtables'[0m
@@ -429,7 +430,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'uftrace'[0m
 [37m             [UNKNOWN] [uftrace][0.11-1] Failed to obtain GitHub release for namhyung/uftrace from https://api.github.com/repos/namhyung/uftrace/releases/latest: No GitHub project found for namhyung/uftrace on https://api.github.com/repos/namhyung/uftrace/releases/latest [0m
   [1;34m->[;1m checking for update for 'ugrep'[0m
-[31m         [OUT-OF-DATE] [ugrep][3.7.9-1] should be updated to 3.8.0 [0m
+[31m         [OUT-OF-DATE] [ugrep][3.7.9-1] should be updated to 3.8.1 [0m
   [1;34m->[;1m checking for update for 'usbaudio-git'[0m
   [1;34m->[;1m checking for update for 'vanitygen-git'[0m
   [1;34m->[;1m checking for update for 'vimix-cursors'[0m
