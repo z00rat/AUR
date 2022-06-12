@@ -1,12 +1,12 @@
   [1;34m->[;1m checking for out-of-date packages[0m
 
   [1;34m->[;1m listing already flaged packages[0m
+pnpm
   [1;34m->[;1m running pkgoutofdate[0m
-ugrep: new version found - 3.7.9 => 3.7.10
+resvg: new version found - 0.22.0 => 0.23.0
 raven-reader: new version found - 1.0.72 => 1.0.73
 qbittorrent-vuetorrent-bin: new version found - 0.16.2 => 0.16.3
 mkp224o: new version found - 1.5.0 => 1.6.0
-fluent-reader-bin: new version found - 1.1.0 => 1.1.1
 advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
@@ -128,7 +128,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'florence'[0m
 [37m             [UNKNOWN] [florence][0.6.3-2] No release found for http://sourceforge.net/projects/florence/files/florence/0.6.3/florence-0.6.3.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'fluent-reader-bin'[0m
-[31m         [OUT-OF-DATE] [fluent-reader-bin][1.1.0-1] should be updated to 1.1.1 [0m
+[32m          [UP-TO-DATE] [fluent-reader-bin][1.1.1-1] matches upstream version 1.1.1 [0m
   [1;34m->[;1m checking for update for 'fontpreview'[0m
 [37m             [UNKNOWN] [fontpreview][1.0.6-2] Failed to obtain GitHub release for sdushantha/fontpreview from https://api.github.com/repos/sdushantha/fontpreview/releases/latest: No GitHub project found for sdushantha/fontpreview on https://api.github.com/repos/sdushantha/fontpreview/releases/latest [0m
   [1;34m->[;1m checking for update for 'fsearch-git'[0m
@@ -274,7 +274,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'pm2ml'[0m
 [37m             [UNKNOWN] [pm2ml][2021.11.20.1-2] No release found for https://xyne.dev/projects/pm2ml/src/pm2ml-2021.11.20.1.tar.xz [0m
   [1;34m->[;1m checking for update for 'pnpm'[0m
-[32m          [UP-TO-DATE] [pnpm][7.1.9-0] matches upstream version 7.1.9 [0m
+[31m         [OUT-OF-DATE] [pnpm][7.1.9-0] should be updated to 7.2.1 [0m
   [1;34m->[;1m checking for update for 'popcorntime-bin'[0m
 [32m          [UP-TO-DATE] [popcorntime-bin][0.4.7-1] matches upstream version 0.4.7 [0m
   [1;34m->[;1m checking for update for 'powerpill'[0m
@@ -313,7 +313,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'python-pytube'[0m
 [37m             [UNKNOWN] [python-pytube][12.1.0-1] upstream version is 11.0.1 [0m
   [1;34m->[;1m checking for update for 'python-rapidfuzz'[0m
-[32m          [UP-TO-DATE] [python-rapidfuzz][2.0.11-2] matches upstream version 2.0.11 [0m
+[32m          [UP-TO-DATE] [python-rapidfuzz][2.0.11-3] matches upstream version 2.0.11 [0m
   [1;34m->[;1m checking for update for 'python-requests-futures'[0m
 [32m          [UP-TO-DATE] [python-requests-futures][1.0.0-3] matches upstream version 1.0.0 [0m
   [1;34m->[;1m checking for update for 'python-simber'[0m
@@ -332,7 +332,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'python-ytmusicapi'[0m
 [32m          [UP-TO-DATE] [python-ytmusicapi][0.22.0-1] matches upstream version 0.22.0 [0m
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
-[31m         [OUT-OF-DATE] [qbittorrent-vuetorrent-bin][0.16.2-1] should be updated to 0.17.0 [0m
+[31m         [OUT-OF-DATE] [qbittorrent-vuetorrent-bin][0.16.2-1] should be updated to 0.17.1 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
 [32m          [UP-TO-DATE] [qrcp][0.9.1-1] matches upstream version 0.9.1 [0m
   [1;34m->[;1m checking for update for 'qwinff'[0m
@@ -348,7 +348,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'readability-cli'[0m
 [31m         [OUT-OF-DATE] [readability-cli][2.3.5-1] should be updated to 2.4.0 [0m
   [1;34m->[;1m checking for update for 'resvg'[0m
-[32m          [UP-TO-DATE] [resvg][0.22.0-1] matches upstream version 0.22.0 [0m
+[31m         [OUT-OF-DATE] [resvg][0.22.0-1] should be updated to 0.23.0 [0m
   [1;34m->[;1m checking for update for 'retroshare'[0m
 [32m          [UP-TO-DATE] [retroshare][0.6.6-2] matches upstream version 0.6.6 [0m
   [1;34m->[;1m checking for update for 'ricochet'[0m
@@ -387,7 +387,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'svg-term-cli'[0m
 [37m             [UNKNOWN] [svg-term-cli][2.1.1-1] No release found for svg-term-cli: %!w(<nil>) [0m
   [1;34m->[;1m checking for update for 'terser'[0m
-[32m          [UP-TO-DATE] [terser][5.14.0-1] matches upstream version 5.14.0 [0m
+[31m         [OUT-OF-DATE] [terser][5.14.0-1] should be updated to 5.14.1 [0m
   [1;34m->[;1m checking for update for 'themix-export-spotify-git'[0m
   [1;34m->[;1m checking for update for 'themix-full-git'[0m
   [1;34m->[;1m checking for update for 'themix-gui-git'[0m
@@ -428,8 +428,6 @@ advcpmv: new version found - 9.0 => 9.1
 [37m             [UNKNOWN] [typora][1.2.4-1] No release found for https://typora.io/linux/typora_1.2.4_amd64.deb [0m
   [1;34m->[;1m checking for update for 'uftrace'[0m
 [37m             [UNKNOWN] [uftrace][0.11-1] Failed to obtain GitHub release for namhyung/uftrace from https://api.github.com/repos/namhyung/uftrace/releases/latest: No GitHub project found for namhyung/uftrace on https://api.github.com/repos/namhyung/uftrace/releases/latest [0m
-  [1;34m->[;1m checking for update for 'ugrep'[0m
-[31m         [OUT-OF-DATE] [ugrep][3.7.9-1] should be updated to 3.8.1 [0m
   [1;34m->[;1m checking for update for 'usbaudio-git'[0m
   [1;34m->[;1m checking for update for 'vanitygen-git'[0m
   [1;34m->[;1m checking for update for 'vimix-cursors'[0m
