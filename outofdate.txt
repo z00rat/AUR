@@ -1,11 +1,12 @@
   [1;34m->[;1m checking for out-of-date packages[0m
 
   [1;34m->[;1m listing already flaged packages[0m
-pnpm
+youtube-search-python
   [1;34m->[;1m running pkgoutofdate[0m
-resvg: new version found - 0.22.0 => 0.23.0
 raven-reader: new version found - 1.0.72 => 1.0.73
+resvg: new version found - 0.22.0 => 0.23.0
 qbittorrent-vuetorrent-bin: new version found - 0.16.2 => 0.16.3
+noisetorch-bin: new version found - 0.12.0 => 0.12.1
 mkp224o: new version found - 1.5.0 => 1.6.0
 advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m running aur-out-of-date[0m
@@ -59,7 +60,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'broken-link-checker'[0m
 [32m          [UP-TO-DATE] [broken-link-checker][0.7.8-1] matches upstream version 0.7.8 [0m
   [1;34m->[;1m checking for update for 'bubblejail'[0m
-[32m          [UP-TO-DATE] [bubblejail][0.6.1-1] matches upstream version 0.6.1 [0m
+[32m          [UP-TO-DATE] [bubblejail][0.6.2-1] matches upstream version 0.6.2 [0m
   [1;34m->[;1m checking for update for 'burpsuite'[0m
 [37m             [UNKNOWN] [burpsuite][2022.3.9-1] No release found for burpsuite-2022.3.9.jar::https://portswigger.net/burp/releases/download?product=community&version=2022.3.9&type=Jar [0m
   [1;34m->[;1m checking for update for 'cava'[0m
@@ -67,7 +68,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
 [37m             [UNKNOWN] [cloudflared-bin][2022.5.3-1] No release found for cloudflared-bin-LICENSE::https://raw.githubusercontent.com/cloudflare/cloudflared/2022.5.3/LICENSE [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
-[32m          [UP-TO-DATE] [code-features][1.68.0-1] matches upstream version 1.68.0 [0m
+[31m         [OUT-OF-DATE] [code-features][1.68.0-1] should be updated to 1.68.1 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
 [37m             [UNKNOWN] [code-marketplace][1.66.0-1] No release found for code-marketplace.hook [0m
   [1;34m->[;1m checking for update for 'code-server'[0m
@@ -227,9 +228,9 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'nodejs-ungit'[0m
 [32m          [UP-TO-DATE] [nodejs-ungit][1.5.20-1] matches upstream version 1.5.20 [0m
   [1;34m->[;1m checking for update for 'noisetorch'[0m
-[32m          [UP-TO-DATE] [noisetorch][0.12.0-1] matches upstream version 0.12.0 [0m
+[32m          [UP-TO-DATE] [noisetorch][0.12.2-1] matches upstream version 0.12.2 [0m
   [1;34m->[;1m checking for update for 'noisetorch-bin'[0m
-[37m             [UNKNOWN] [noisetorch-bin][0.11.5-1] Failed to obtain GitHub release for lawl/NoiseTorch from https://api.github.com/repos/lawl/NoiseTorch/releases/latest: No GitHub project found for lawl/NoiseTorch on https://api.github.com/repos/lawl/NoiseTorch/releases/latest [0m
+[31m         [OUT-OF-DATE] [noisetorch-bin][0.12.0-1] should be updated to 0.12.2 [0m
   [1;34m->[;1m checking for update for 'nordic-theme'[0m
 [32m          [UP-TO-DATE] [nordic-theme][2.1.0-3] matches upstream version 2.1.0 [0m
   [1;34m->[;1m checking for update for 'notion-app'[0m
@@ -241,7 +242,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'obs-v4l2sink'[0m
 [32m          [UP-TO-DATE] [obs-v4l2sink][0.1.0-23] matches upstream version 0.1.0 [0m
   [1;34m->[;1m checking for update for 'onedrive-abraunegg'[0m
-[32m          [UP-TO-DATE] [onedrive-abraunegg][2.4.18-1] matches upstream version 2.4.18 [0m
+[32m          [UP-TO-DATE] [onedrive-abraunegg][2.4.19-1] matches upstream version 2.4.19 [0m
   [1;34m->[;1m checking for update for 'onioncircuits'[0m
 [32m          [UP-TO-DATE] [onioncircuits][0.7-1] matches upstream version 0.7 [0m
   [1;34m->[;1m checking for update for 'oomox'[0m
@@ -274,7 +275,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'pm2ml'[0m
 [37m             [UNKNOWN] [pm2ml][2021.11.20.1-2] No release found for https://xyne.dev/projects/pm2ml/src/pm2ml-2021.11.20.1.tar.xz [0m
   [1;34m->[;1m checking for update for 'pnpm'[0m
-[31m         [OUT-OF-DATE] [pnpm][7.1.9-0] should be updated to 7.2.1 [0m
+[32m          [UP-TO-DATE] [pnpm][7.2.1-0] matches upstream version 7.2.1 [0m
   [1;34m->[;1m checking for update for 'popcorntime-bin'[0m
 [32m          [UP-TO-DATE] [popcorntime-bin][0.4.7-1] matches upstream version 0.4.7 [0m
   [1;34m->[;1m checking for update for 'powerpill'[0m
@@ -437,7 +438,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'vrms-arch'[0m
 [37m             [UNKNOWN] [vrms-arch][0.1.0.r25.g802c767-1] Failed to obtain GitHub release for orospakr/vrms-arch.git from https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest: No GitHub project found for orospakr/vrms-arch.git on https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'vscodium-bin'[0m
-[32m          [UP-TO-DATE] [vscodium-bin][1.68.0-1] matches upstream version 1.68.0 [0m
+[32m          [UP-TO-DATE] [vscodium-bin][1.68.1-1] matches upstream version 1.68.1 [0m
   [1;34m->[;1m checking for update for 'waydroid'[0m
 [37m             [UNKNOWN] [waydroid][1.2.1-1] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
@@ -459,7 +460,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'xmind'[0m
 [37m             [UNKNOWN] [xmind][12.0.1.202203290828-1] No release found for https://dl3.xmind.net/XMind-for-Linux-amd-64bit-12.0.1-202203290828.deb [0m
   [1;34m->[;1m checking for update for 'yay-bin'[0m
-[32m          [UP-TO-DATE] [yay-bin][11.1.2-1] matches upstream version 11.1.2 [0m
+[32m          [UP-TO-DATE] [yay-bin][11.2.0-1] matches upstream version 11.2.0 [0m
   [1;34m->[;1m checking for update for 'youtube-dl-gui-git'[0m
   [1;34m->[;1m checking for update for 'ytmdl-git'[0m
   [1;34m->[;1m checking for update for 'zoom'[0m

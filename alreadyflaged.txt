@@ -1,1 +1,1 @@
-pnpm
+youtube-search-python
