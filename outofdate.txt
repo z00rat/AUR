@@ -2,20 +2,22 @@
 
   [1;34m->[;1m listing already flaged packages[0m
 youtube-search-python
+paru-bin
   [1;34m->[;1m running pkgoutofdate[0m
+uftrace: new version found - 0.11 => 0.12
+x11docker: new version found - 7.1.4 => 7.2.0
 raven-reader: new version found - 1.0.72 => 1.0.73
 resvg: new version found - 0.22.0 => 0.23.0
-qbittorrent-vuetorrent-bin: new version found - 0.16.2 => 0.16.3
-noisetorch-bin: new version found - 0.12.0 => 0.12.1
-mkp224o: new version found - 1.5.0 => 1.6.0
-advcpmv: new version found - 9.0 => 9.1
+python-spotipy: new version found - 2.19.0 => 2.20.0
+fswatch: new version found - 1.16.0 => 1.17.0
+fluent-reader-bin: new version found - 1.1.1 => 1.1.2
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
 [32m          [UP-TO-DATE] [activitywatch-bin][0.11.0-3] matches upstream version 0.11.0 [0m
   [1;34m->[;1m checking for update for 'advcpmv'[0m
-[37m             [UNKNOWN] [advcpmv][9.0-5] No release found for https://ftp.gnu.org/gnu/coreutils/coreutils-9.0.tar.xz [0m
+[37m             [UNKNOWN] [advcpmv][9.1-1] No release found for https://ftp.gnu.org/gnu/coreutils/coreutils-9.1.tar.xz [0m
   [1;34m->[;1m checking for update for 'alacritty-themes'[0m
-[32m          [UP-TO-DATE] [alacritty-themes][4.3.0-1] matches upstream version 4.3.0 [0m
+[31m         [OUT-OF-DATE] [alacritty-themes][4.3.0-1] should be updated to 4.4.1 [0m
   [1;34m->[;1m checking for update for 'ansifilter'[0m
 [37m             [UNKNOWN] [ansifilter][2.18-1] No release found for http://www.andre-simon.de/zip/ansifilter-2.18.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'antibody'[0m
@@ -54,7 +56,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'bibata-cursor-theme-bin'[0m
 [32m          [UP-TO-DATE] [bibata-cursor-theme-bin][1.1.2-1] matches upstream version 1.1.2 [0m
   [1;34m->[;1m checking for update for 'boundary-bin'[0m
-[37m             [UNKNOWN] [boundary-bin][0.8.1-1] No release found for boundary-controller.service [0m
+[37m             [UNKNOWN] [boundary-bin][0.9.0-1] No release found for boundary-controller.service [0m
   [1;34m->[;1m checking for update for 'brave'[0m
 [37m             [UNKNOWN] [brave][1.29.79-1] Failed to obtain GitHub release for brave/brave-browser.git from https://api.github.com/repos/brave/brave-browser.git/releases/latest: No GitHub project found for brave/brave-browser.git on https://api.github.com/repos/brave/brave-browser.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'broken-link-checker'[0m
@@ -62,11 +64,11 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'bubblejail'[0m
 [32m          [UP-TO-DATE] [bubblejail][0.6.2-1] matches upstream version 0.6.2 [0m
   [1;34m->[;1m checking for update for 'burpsuite'[0m
-[37m             [UNKNOWN] [burpsuite][2022.3.9-1] No release found for burpsuite-2022.3.9.jar::https://portswigger.net/burp/releases/download?product=community&version=2022.3.9&type=Jar [0m
+[37m             [UNKNOWN] [burpsuite][2022.6-1] No release found for burpsuite-2022.6.jar::https://portswigger.net/burp/releases/download?product=community&version=2022.6&type=Jar [0m
   [1;34m->[;1m checking for update for 'cava'[0m
 [32m          [UP-TO-DATE] [cava][0.8.2-1] matches upstream version 0.8.2 [0m
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
-[37m             [UNKNOWN] [cloudflared-bin][2022.5.3-1] No release found for cloudflared-bin-LICENSE::https://raw.githubusercontent.com/cloudflare/cloudflared/2022.5.3/LICENSE [0m
+[37m             [UNKNOWN] [cloudflared-bin][2022.6.2-1] No release found for cloudflared-bin-LICENSE::https://raw.githubusercontent.com/cloudflare/cloudflared/2022.6.2/LICENSE [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
 [31m         [OUT-OF-DATE] [code-features][1.68.0-1] should be updated to 1.68.1 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
@@ -107,7 +109,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'electorrent-bin'[0m
 [32m          [UP-TO-DATE] [electorrent-bin][2.7.3-1] matches upstream version 2.7.3 [0m
   [1;34m->[;1m checking for update for 'electronmail-bin'[0m
-[32m          [UP-TO-DATE] [electronmail-bin][5.0.0-1] matches upstream version 5.0.0 [0m
+[32m          [UP-TO-DATE] [electronmail-bin][5.0.1-1] matches upstream version 5.0.1 [0m
   [1;34m->[;1m checking for update for 'exe-thumbnailer'[0m
 [37m             [UNKNOWN] [exe-thumbnailer][0.10.1-1] Failed to obtain GitHub release for exe-thumbnailer/exe-thumbnailer from https://api.github.com/repos/exe-thumbnailer/exe-thumbnailer/releases/latest: No GitHub project found for exe-thumbnailer/exe-thumbnailer on https://api.github.com/repos/exe-thumbnailer/exe-thumbnailer/releases/latest [0m
   [1;34m->[;1m checking for update for 'ezshare'[0m
@@ -129,12 +131,12 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'florence'[0m
 [37m             [UNKNOWN] [florence][0.6.3-2] No release found for http://sourceforge.net/projects/florence/files/florence/0.6.3/florence-0.6.3.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'fluent-reader-bin'[0m
-[32m          [UP-TO-DATE] [fluent-reader-bin][1.1.1-1] matches upstream version 1.1.1 [0m
+[31m         [OUT-OF-DATE] [fluent-reader-bin][1.1.1-1] should be updated to 1.1.2 [0m
   [1;34m->[;1m checking for update for 'fontpreview'[0m
 [37m             [UNKNOWN] [fontpreview][1.0.6-2] Failed to obtain GitHub release for sdushantha/fontpreview from https://api.github.com/repos/sdushantha/fontpreview/releases/latest: No GitHub project found for sdushantha/fontpreview on https://api.github.com/repos/sdushantha/fontpreview/releases/latest [0m
   [1;34m->[;1m checking for update for 'fsearch-git'[0m
   [1;34m->[;1m checking for update for 'fswatch'[0m
-[32m          [UP-TO-DATE] [fswatch][1.16.0-1] matches upstream version 1.16.0 [0m
+[31m         [OUT-OF-DATE] [fswatch][1.16.0-1] should be updated to 1.17.0 [0m
   [1;34m->[;1m checking for update for 'gallery-dl'[0m
 [32m          [UP-TO-DATE] [gallery-dl][1.22.1-1] matches upstream version 1.22.1 [0m
   [1;34m->[;1m checking for update for 'gconf-cleaner'[0m
@@ -146,17 +148,17 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'gitstatus'[0m
 [32m          [UP-TO-DATE] [gitstatus][1.5.4-1] matches upstream version 1.5.4 [0m
   [1;34m->[;1m checking for update for 'google-chrome'[0m
-[37m             [UNKNOWN] [google-chrome][102.0.5005.115-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_102.0.5005.115-1_amd64.deb [0m
+[37m             [UNKNOWN] [google-chrome][103.0.5060.53-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_103.0.5060.53-1_amd64.deb [0m
   [1;34m->[;1m checking for update for 'guiscrcpy'[0m
 [37m             [UNKNOWN] [guiscrcpy][4.12.0-2] Failed to obtain GitHub release for srevinsaju/guiscrcpy.git from https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest: No GitHub project found for srevinsaju/guiscrcpy.git on https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'hakuneko-desktop'[0m
 [32m          [UP-TO-DATE] [hakuneko-desktop][6.1.7-2] matches upstream version 6.1.7 [0m
   [1;34m->[;1m checking for update for 'heroku-cli-bin'[0m
-[37m             [UNKNOWN] [heroku-cli-bin][7.60.1-1] Failed to obtain GitHub release for SampsonCrowley/heroku-cli-bin from https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest: No GitHub project found for SampsonCrowley/heroku-cli-bin on https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest [0m
+[37m             [UNKNOWN] [heroku-cli-bin][7.60.2-1] Failed to obtain GitHub release for SampsonCrowley/heroku-cli-bin from https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest: No GitHub project found for SampsonCrowley/heroku-cli-bin on https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest [0m
   [1;34m->[;1m checking for update for 'hollywood'[0m
 [37m             [UNKNOWN] [hollywood][1.21-6] No release found for hollywood-1.21.tar.gz::https://launchpad.net/hollywood/trunk/1.21/+download/hollywood_1.21.orig.tar.gz [0m
   [1;34m->[;1m checking for update for 'hw-probe'[0m
-[32m          [UP-TO-DATE] [hw-probe][1.6-1] matches upstream version 1.6 [0m
+[37m             [UNKNOWN] [hw-probe][1.6.4-1] upstream version is 1.6 [0m
   [1;34m->[;1m checking for update for 'hydroxide'[0m
 [32m          [UP-TO-DATE] [hydroxide][0.2.23-3] matches upstream version 0.2.23 [0m
   [1;34m->[;1m checking for update for 'i3lock-color'[0m
@@ -200,7 +202,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'mkclean'[0m
 [37m             [UNKNOWN] [mkclean][0.9.0-1] No release found for http://sourceforge.net/projects/matroska/files/mkclean/mkclean-0.9.0.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'mkp224o'[0m
-[31m         [OUT-OF-DATE] [mkp224o][1.5.0-1] should be updated to 1.6.0 [0m
+[32m          [UP-TO-DATE] [mkp224o][1.6.0-1] matches upstream version 1.6.0 [0m
   [1;34m->[;1m checking for update for 'mpck'[0m
 [37m             [UNKNOWN] [mpck][0.21-2] No release found for https://checkmate.gissen.nl/checkmate-0.21.tar.gz [0m
   [1;34m->[;1m checking for update for 'msg2'[0m
@@ -222,7 +224,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'nodejs-mapscii'[0m
 [32m          [UP-TO-DATE] [nodejs-mapscii][0.3.1-4] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'nodejs-nodemon'[0m
-[32m          [UP-TO-DATE] [nodejs-nodemon][2.0.16-1] matches upstream version 2.0.16 [0m
+[31m         [OUT-OF-DATE] [nodejs-nodemon][2.0.16-1] should be updated to 2.0.18 [0m
   [1;34m->[;1m checking for update for 'nodejs-npm2arch'[0m
 [32m          [UP-TO-DATE] [nodejs-npm2arch][2.2.0-1] matches upstream version 2.2.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-ungit'[0m
@@ -230,9 +232,9 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'noisetorch'[0m
 [32m          [UP-TO-DATE] [noisetorch][0.12.2-1] matches upstream version 0.12.2 [0m
   [1;34m->[;1m checking for update for 'noisetorch-bin'[0m
-[31m         [OUT-OF-DATE] [noisetorch-bin][0.12.0-1] should be updated to 0.12.2 [0m
+[32m          [UP-TO-DATE] [noisetorch-bin][0.12.2-1] matches upstream version 0.12.2 [0m
   [1;34m->[;1m checking for update for 'nordic-theme'[0m
-[32m          [UP-TO-DATE] [nordic-theme][2.1.0-3] matches upstream version 2.1.0 [0m
+[32m          [UP-TO-DATE] [nordic-theme][2.2.0-1] matches upstream version 2.2.0 [0m
   [1;34m->[;1m checking for update for 'notion-app'[0m
 [32m          [UP-TO-DATE] [notion-app][2.0.18-1] matches upstream version 2.0.18-1 [0m
   [1;34m->[;1m checking for update for 'obfs4proxy'[0m
@@ -275,7 +277,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'pm2ml'[0m
 [37m             [UNKNOWN] [pm2ml][2021.11.20.1-2] No release found for https://xyne.dev/projects/pm2ml/src/pm2ml-2021.11.20.1.tar.xz [0m
   [1;34m->[;1m checking for update for 'pnpm'[0m
-[32m          [UP-TO-DATE] [pnpm][7.2.1-0] matches upstream version 7.2.1 [0m
+[31m         [OUT-OF-DATE] [pnpm][7.2.1-0] should be updated to 7.3.0 [0m
   [1;34m->[;1m checking for update for 'popcorntime-bin'[0m
 [32m          [UP-TO-DATE] [popcorntime-bin][0.4.7-1] matches upstream version 0.4.7 [0m
   [1;34m->[;1m checking for update for 'powerpill'[0m
@@ -306,7 +308,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'python-itunespy'[0m
 [32m          [UP-TO-DATE] [python-itunespy][1.6-2] matches upstream version 1.6 [0m
   [1;34m->[;1m checking for update for 'python-pydes'[0m
-[32m          [UP-TO-DATE] [python-pydes][2.0.1-4] matches upstream version 2.0.1 [0m
+[32m          [UP-TO-DATE] [python-pydes][2.0.1-5] matches upstream version 2.0.1 [0m
   [1;34m->[;1m checking for update for 'python-pynput'[0m
 [32m          [UP-TO-DATE] [python-pynput][1.7.6-2] matches upstream version 1.7.6 [0m
   [1;34m->[;1m checking for update for 'python-pysubs2'[0m
@@ -314,15 +316,15 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'python-pytube'[0m
 [37m             [UNKNOWN] [python-pytube][12.1.0-1] upstream version is 11.0.1 [0m
   [1;34m->[;1m checking for update for 'python-rapidfuzz'[0m
-[32m          [UP-TO-DATE] [python-rapidfuzz][2.0.11-4] matches upstream version 2.0.11 [0m
+[32m          [UP-TO-DATE] [python-rapidfuzz][2.0.15-1] matches upstream version 2.0.15 [0m
   [1;34m->[;1m checking for update for 'python-requests-futures'[0m
 [32m          [UP-TO-DATE] [python-requests-futures][1.0.0-3] matches upstream version 1.0.0 [0m
   [1;34m->[;1m checking for update for 'python-simber'[0m
 [32m          [UP-TO-DATE] [python-simber][0.2.4-0] matches upstream version 0.2.4 [0m
   [1;34m->[;1m checking for update for 'python-spotdl'[0m
-[32m          [UP-TO-DATE] [python-spotdl][3.9.6-2] matches upstream version 3.9.6 [0m
+[31m         [OUT-OF-DATE] [python-spotdl][3.9.6-2] should be updated to 4.0.0rc1 [0m
   [1;34m->[;1m checking for update for 'python-spotipy'[0m
-[32m          [UP-TO-DATE] [python-spotipy][2.19.0-2] matches upstream version 2.19.0 [0m
+[31m         [OUT-OF-DATE] [python-spotipy][2.19.0-2] should be updated to 2.20.0 [0m
   [1;34m->[;1m checking for update for 'python-srt'[0m
 [31m         [OUT-OF-DATE] [python-srt][3.5.0-1] should be updated to 3.5.2 [0m
   [1;34m->[;1m checking for update for 'python-torrequest'[0m
@@ -333,7 +335,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'python-ytmusicapi'[0m
 [32m          [UP-TO-DATE] [python-ytmusicapi][0.22.0-1] matches upstream version 0.22.0 [0m
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
-[31m         [OUT-OF-DATE] [qbittorrent-vuetorrent-bin][0.16.2-1] should be updated to 0.17.1 [0m
+[32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][0.17.1-1] matches upstream version 0.17.1 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
 [32m          [UP-TO-DATE] [qrcp][0.9.1-1] matches upstream version 0.9.1 [0m
   [1;34m->[;1m checking for update for 'qwinff'[0m
@@ -361,7 +363,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'rtags'[0m
 [32m          [UP-TO-DATE] [rtags][2.38-1] matches upstream version 2.38 [0m
   [1;34m->[;1m checking for update for 'runjs-bin'[0m
-[32m          [UP-TO-DATE] [runjs-bin][2.4.1-1] matches upstream version 2.4.1 [0m
+[32m          [UP-TO-DATE] [runjs-bin][2.4.1-2] matches upstream version 2.4.1 [0m
   [1;34m->[;1m checking for update for 'sherlock-git'[0m
   [1;34m->[;1m checking for update for 'siji-git'[0m
   [1;34m->[;1m checking for update for 'simple-mtpfs'[0m
@@ -454,7 +456,7 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'wttr'[0m
 [32m          [UP-TO-DATE] [wttr][1.2.1-2] matches upstream version 1.2.1 [0m
   [1;34m->[;1m checking for update for 'x11docker'[0m
-[32m          [UP-TO-DATE] [x11docker][7.1.4-1] matches upstream version 7.1.4 [0m
+[31m         [OUT-OF-DATE] [x11docker][7.1.4-1] should be updated to 7.2.0 [0m
   [1;34m->[;1m checking for update for 'xinput-gui'[0m
 [32m          [UP-TO-DATE] [xinput-gui][0.3.1-1] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'xmind'[0m
@@ -464,5 +466,5 @@ advcpmv: new version found - 9.0 => 9.1
   [1;34m->[;1m checking for update for 'youtube-dl-gui-git'[0m
   [1;34m->[;1m checking for update for 'ytmdl-git'[0m
   [1;34m->[;1m checking for update for 'zoom'[0m
-[37m             [UNKNOWN] [zoom][5.10.7-1] No release found for zoom-5.10.7.3311_orig_x86_64.pkg.tar.xz::https://cdn.zoom.us/prod/5.10.7.3311/zoom_x86_64.pkg.tar.xz [0m
+[37m             [UNKNOWN] [zoom][5.11.0-1] No release found for zoom-5.11.0.3540_orig_x86_64.pkg.tar.xz::https://cdn.zoom.us/prod/5.11.0.3540/zoom_x86_64.pkg.tar.xz [0m
   [1;34m->[;1m done.[0m

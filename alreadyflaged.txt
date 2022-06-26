@@ -1,1 +1,2 @@
 youtube-search-python
+paru-bin

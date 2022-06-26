@@ -1,10 +1,13 @@
 pkgbase = python-rapidfuzz
 	pkgdesc = Rapid fuzzy string matching in Python using various string metrics
-	pkgver = 2.0.11
-	pkgrel = 4
+	pkgver = 2.0.15
+	pkgrel = 1
 	url = https://github.com/maxbachmann/rapidfuzz
 	arch = x86_64
 	license = MIT
+	checkdepends = python-hypothesis
+	checkdepends = python-pandas
+	checkdepends = python-pytest
 	makedepends = cpp-taskflow
 	makedepends = jarowinkler-cpp
 	makedepends = python-numpy
@@ -13,7 +16,7 @@ pkgbase = python-rapidfuzz
 	makedepends = rapidfuzz-cpp
 	depends = python-jarowinkler
 	optdepends = python-numpy
-	source = https://files.pythonhosted.org/packages/source/r/rapidfuzz/rapidfuzz-2.0.11.tar.gz
-	sha256sums = 934b65fea75e3bd310d74903ec69ff3df061b3058ab5b7f49ab772958109bca8
+	source = https://files.pythonhosted.org/packages/source/r/rapidfuzz/rapidfuzz-2.0.15.tar.gz
+	sha256sums = 1761c55109b91824c633eebe7b392eb097c9c7d44d04163708bfd59d3e275a35
 
 pkgname = python-rapidfuzz
