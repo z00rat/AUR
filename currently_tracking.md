@@ -228,7 +228,6 @@
  - https://aur.archlinux.org/packages/ttyd
  - https://aur.archlinux.org/packages/typora
  - https://aur.archlinux.org/packages/uftrace
- - https://aur.archlinux.org/packages/ugrep
  - https://aur.archlinux.org/packages/usbaudio-git
  - https://aur.archlinux.org/packages/vanitygen-git
  - https://aur.archlinux.org/packages/vimix-cursors
@@ -251,5 +250,5 @@
  - https://aur.archlinux.org/packages/zoom
 ---
 
-number of packages = 249.
+number of packages = 248.
 
