@@ -272,9 +272,9 @@ discord-chat-exporter-cli: new version found - 2.34 => 2.35
   [1;34m->[;1m checking for update for 'pm2ml'[0m
 [37m             [UNKNOWN] [pm2ml][2021.11.20.1-4] No release found for https://xyne.dev/projects/pm2ml/src/pm2ml-2021.11.20.1.tar.xz [0m
   [1;34m->[;1m checking for update for 'pnpm'[0m
-[31m         [OUT-OF-DATE] [pnpm][7.5.0-0] should be updated to 7.5.1 [0m
+[31m         [OUT-OF-DATE] [pnpm][7.5.0-0] should be updated to 7.5.2 [0m
   [1;34m->[;1m checking for update for 'popcorntime-bin'[0m
-[32m          [UP-TO-DATE] [popcorntime-bin][0.4.8-1] matches upstream version 0.4.8 [0m
+[32m          [UP-TO-DATE] [popcorntime-bin][0.4.8-3] matches upstream version 0.4.8 [0m
   [1;34m->[;1m checking for update for 'powerpill'[0m
 [37m             [UNKNOWN] [powerpill][2021.11-4] No release found for https://xyne.dev/projects/powerpill/src/powerpill-2021.11.tar.xz [0m
   [1;34m->[;1m checking for update for 'python2-twodict-git'[0m
