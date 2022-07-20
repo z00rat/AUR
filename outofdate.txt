@@ -2,11 +2,11 @@
 
   [1;34m->[;1m listing already flaged packages[0m
 youtube-search-python
-python-spotdl
 pnpm
   [1;34m->[;1m running pkgoutofdate[0m
 x11docker: new version found - 7.3.1 => 7.3.2
 raven-reader: new version found - 1.0.72 => 1.0.73
+onedrive-abraunegg: new version found - 2.4.19 => 2.4.20
 discord-chat-exporter-cli: new version found - 2.34 => 2.35
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
@@ -23,7 +23,7 @@ discord-chat-exporter-cli: new version found - 2.34 => 2.35
 [32m          [UP-TO-DATE] [apg][2.2.3-5] matches upstream version 2.2.3 [0m
   [1;34m->[;1m checking for update for 'archiso-git'[0m
   [1;34m->[;1m checking for update for 'aseprite'[0m
-[31m         [OUT-OF-DATE] [aseprite][1.2.35-1] should be updated to 1.3-beta16 [0m
+[31m         [OUT-OF-DATE] [aseprite][1.2.35-1] should be updated to 1.2.37 [0m
   [1;34m->[;1m checking for update for 'asp-git'[0m
   [1;34m->[;1m checking for update for 'aur-auto-vote-git'[0m
   [1;34m->[;1m checking for update for 'aur-out-of-date'[0m
@@ -71,7 +71,7 @@ discord-chat-exporter-cli: new version found - 2.34 => 2.35
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
 [37m             [UNKNOWN] [code-marketplace][1.66.0-1] No release found for code-marketplace.hook [0m
   [1;34m->[;1m checking for update for 'code-server'[0m
-[32m          [UP-TO-DATE] [code-server][4.5.0-1] matches upstream version 4.5.0 [0m
+[32m          [UP-TO-DATE] [code-server][4.5.1-1] matches upstream version 4.5.1 [0m
   [1;34m->[;1m checking for update for 'cointop'[0m
 [32m          [UP-TO-DATE] [cointop][1.6.10-1] matches upstream version 1.6.10 [0m
   [1;34m->[;1m checking for update for 'cointop-bin'[0m
@@ -89,7 +89,7 @@ discord-chat-exporter-cli: new version found - 2.34 => 2.35
   [1;34m->[;1m checking for update for 'discord-chat-exporter-cli'[0m
 [31m         [OUT-OF-DATE] [discord-chat-exporter-cli][2.34-1] should be updated to 2.35 [0m
   [1;34m->[;1m checking for update for 'discord-ptb'[0m
-[37m             [UNKNOWN] [discord-ptb][0.0.30-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.30/discord-ptb-0.0.30.tar.gz [0m
+[37m             [UNKNOWN] [discord-ptb][0.0.31-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.31/discord-ptb-0.0.31.tar.gz [0m
   [1;34m->[;1m checking for update for 'dive'[0m
 [32m          [UP-TO-DATE] [dive][0.10.0-1] matches upstream version 0.10.0 [0m
   [1;34m->[;1m checking for update for 'docker-systemctl-replacement-git'[0m
@@ -145,7 +145,7 @@ discord-chat-exporter-cli: new version found - 2.34 => 2.35
   [1;34m->[;1m checking for update for 'gitstatus'[0m
 [32m          [UP-TO-DATE] [gitstatus][1.5.4-1] matches upstream version 1.5.4 [0m
   [1;34m->[;1m checking for update for 'google-chrome'[0m
-[37m             [UNKNOWN] [google-chrome][103.0.5060.114-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_103.0.5060.114-1_amd64.deb [0m
+[37m             [UNKNOWN] [google-chrome][103.0.5060.134-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_103.0.5060.134-1_amd64.deb [0m
   [1;34m->[;1m checking for update for 'guiscrcpy'[0m
 [37m             [UNKNOWN] [guiscrcpy][1:2022.6.1-1] Failed to obtain GitHub release for srevinsaju/guiscrcpy.git from https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest: No GitHub project found for srevinsaju/guiscrcpy.git on https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'hakuneko-desktop'[0m
@@ -241,7 +241,7 @@ discord-chat-exporter-cli: new version found - 2.34 => 2.35
   [1;34m->[;1m checking for update for 'obs-v4l2sink'[0m
 [32m          [UP-TO-DATE] [obs-v4l2sink][0.1.0-23] matches upstream version 0.1.0 [0m
   [1;34m->[;1m checking for update for 'onedrive-abraunegg'[0m
-[32m          [UP-TO-DATE] [onedrive-abraunegg][2.4.19-1] matches upstream version 2.4.19 [0m
+[31m         [OUT-OF-DATE] [onedrive-abraunegg][2.4.19-1] should be updated to 2.4.20 [0m
   [1;34m->[;1m checking for update for 'onioncircuits'[0m
 [32m          [UP-TO-DATE] [onioncircuits][0.7-1] matches upstream version 0.7 [0m
   [1;34m->[;1m checking for update for 'oomox'[0m
@@ -313,7 +313,7 @@ discord-chat-exporter-cli: new version found - 2.34 => 2.35
   [1;34m->[;1m checking for update for 'python-pytube'[0m
 [37m             [UNKNOWN] [python-pytube][12.1.0-1] upstream version is 11.0.1 [0m
   [1;34m->[;1m checking for update for 'python-rapidfuzz'[0m
-[32m          [UP-TO-DATE] [python-rapidfuzz][2.1.4-1] matches upstream version 2.1.4 [0m
+[32m          [UP-TO-DATE] [python-rapidfuzz][2.2.0-1] matches upstream version 2.2.0 [0m
   [1;34m->[;1m checking for update for 'python-requests-futures'[0m
 [32m          [UP-TO-DATE] [python-requests-futures][1.0.0-3] matches upstream version 1.0.0 [0m
   [1;34m->[;1m checking for update for 'python-simber'[0m
@@ -463,5 +463,5 @@ discord-chat-exporter-cli: new version found - 2.34 => 2.35
   [1;34m->[;1m checking for update for 'youtube-dl-gui-git'[0m
   [1;34m->[;1m checking for update for 'ytmdl-git'[0m
   [1;34m->[;1m checking for update for 'zoom'[0m
-[37m             [UNKNOWN] [zoom][5.11.1-1] No release found for zoom-5.11.1.3595_orig_x86_64.pkg.tar.xz::https://cdn.zoom.us/prod/5.11.1.3595/zoom_x86_64.pkg.tar.xz [0m
+[37m             [UNKNOWN] [zoom][5.11.3-1] No release found for zoom-5.11.3.3882_orig_x86_64.pkg.tar.xz::https://cdn.zoom.us/prod/5.11.3.3882/zoom_x86_64.pkg.tar.xz [0m
   [1;34m->[;1m done.[0m

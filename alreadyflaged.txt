@@ -1,3 +1,2 @@
 youtube-search-python
-python-spotdl
 pnpm
