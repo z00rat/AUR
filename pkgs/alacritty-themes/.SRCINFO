@@ -1,20 +1,21 @@
 pkgbase = alacritty-themes
 	pkgdesc = A utility for choosing and applying Alacritty terminal themes.
-	pkgver = 4.4.2
+	pkgver = 5.3.0
 	pkgrel = 1
 	url = https://github.com/rajasegar/alacritty-themes
 	arch = any
 	license = MIT
 	makedepends = npm
 	makedepends = jq
+	makedepends = icu
 	depends = nodejs
-	noextract = alacritty-themes-4.4.2.tgz
+	noextract = alacritty-themes-5.3.0.tgz
 	options = strip
 	options = emptydirs
 	options = zipman
-	source = https://registry.npmjs.org/alacritty-themes/-/alacritty-themes-4.4.2.tgz
+	source = https://registry.npmjs.org/alacritty-themes/-/alacritty-themes-5.3.0.tgz
 	source = https://raw.githubusercontent.com/rajasegar/alacritty-themes/master/LICENSE
-	b2sums = 50d0d1d1b8719c144bb3119b9c1e1cb8e3cf18fa66c882091fdc6ae31bcc7f0ed4c860eed889dc17fb94246f7a4609d8fb3bafa32b1948b03d3e490110a53094
+	b2sums = 83a17dd9ef308d7facdedd72f907aaeb2f19c31150b96b65cf56ec40d2a0eb1df5ae3c140e2e2bf32c46bb91c8c0b42c223a1b5daa6f0f9044ff777b573c1a2e
 	b2sums = 7a11e2eeed89bc67e6cef84badf8cccd1bf2de44423c22bd023fe579795b45bc8906c7a2dc3df4c005d0524b99994d2f534410df8e9a52e2d95f97591dd8949c
 
 pkgname = alacritty-themes

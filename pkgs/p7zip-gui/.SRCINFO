@@ -1,7 +1,7 @@
 pkgbase = p7zip-gui
 	pkgdesc = Graphic user interface (alpha quality) for the 7zip file archiver
 	pkgver = 16.02
-	pkgrel = 6
+	pkgrel = 8
 	url = http://p7zip.sourceforge.net
 	install = p7zip-gui.install
 	arch = i686
@@ -13,6 +13,7 @@ pkgbase = p7zip-gui
 	depends = wxwidgets-gtk3
 	optdepends = desktop-file-utils: desktop entries
 	optdepends = kservice: entries in kde context menu
+	conflicts = 7-zip-full
 	source = https://downloads.sourceforge.net/project/p7zip/p7zip/16.02/p7zip_16.02_src_all.tar.bz2
 	source = https://src.fedoraproject.org/rpms/p7zip/raw/rawhide/f/14-Fix-g++-warning.patch
 	source = https://raw.githubusercontent.com/archlinux/svntogit-packages/a82b67f5d36f374afd154e7648bb13ec38a3c497/trunk/CVE-2016-9296.patch
@@ -28,7 +29,7 @@ pkgbase = p7zip-gui
 	sha256sums = 9c92b9060fb0ecc3e754e6440d7773d04bc324d0f998ebcebc263264e5a520df
 	sha256sums = c397eb6ad60bfab8d388ea9b39c0c13ae818f86746210c6435e35b35c786607f
 	sha256sums = f90013d66d3c9865cb56fed2fb0432057a07283d5361e2ae9e98c3d3657f42a1
-	sha256sums = 8cb662ccbacd1badc2c41ff00618c53d1c7fb8bca5472cca4ac7bd7f619acb27
+	sha256sums = ae1f3c95ec40e82f7b74bd039bd9cbfa69136682e161b91a4534b7d9cdedcbd4
 	makedepends_i686 = nasm
 	makedepends_x86_64 = yasm
 

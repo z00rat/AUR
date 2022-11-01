@@ -99,10 +99,6 @@
 	path = repos/edex-ui-bin
 	url = ssh://aur@aur.archlinux.org/edex-ui-bin.git
 	branch = master
-[submodule "repos/exe-thumbnailer"]
-	path = repos/exe-thumbnailer
-	url = ssh://aur@aur.archlinux.org/exe-thumbnailer.git
-	branch = master
 [submodule "repos/fbrokendesktop"]
 	path = repos/fbrokendesktop
 	url = ssh://aur@aur.archlinux.org/fbrokendesktop.git
@@ -199,10 +195,6 @@
 	path = repos/msg2
 	url = ssh://aur@aur.archlinux.org/msg2.git
 	branch = master
-[submodule "repos/nerd-fonts-source-code-pro"]
-	path = repos/nerd-fonts-source-code-pro
-	url = ssh://aur@aur.archlinux.org/nerd-fonts-source-code-pro.git
-	branch = master
 [submodule "repos/nodejs-mapscii"]
 	path = repos/nodejs-mapscii
 	url = ssh://aur@aur.archlinux.org/nodejs-mapscii.git
@@ -218,10 +210,6 @@
 [submodule "repos/obs-v4l2sink"]
 	path = repos/obs-v4l2sink
 	url = ssh://aur@aur.archlinux.org/obs-v4l2sink.git
-	branch = master
-[submodule "repos/oomox"]
-	path = repos/oomox
-	url = ssh://aur@aur.archlinux.org/oomox.git
 	branch = master
 [submodule "repos/opensnitch-git"]
 	path = repos/opensnitch-git
@@ -282,10 +270,6 @@
 [submodule "repos/python-pytube"]
 	path = repos/python-pytube
 	url = ssh://aur@aur.archlinux.org/python-pytube.git
-	branch = master
-[submodule "repos/python-rapidfuzz"]
-	path = repos/python-rapidfuzz
-	url = ssh://aur@aur.archlinux.org/python-rapidfuzz.git
 	branch = master
 [submodule "repos/python-simber"]
 	path = repos/python-simber
@@ -386,10 +370,6 @@
 [submodule "repos/tty-clock"]
 	path = repos/tty-clock
 	url = ssh://aur@aur.archlinux.org/tty-clock.git
-	branch = master
-[submodule "repos/ttyd"]
-	path = repos/ttyd
-	url = ssh://aur@aur.archlinux.org/ttyd.git
 	branch = master
 [submodule "repos/volctl"]
 	path = repos/volctl
@@ -506,10 +486,6 @@
 [submodule "repos/python-fangfrisch"]
 	path = repos/python-fangfrisch
 	url = ssh://aur@aur.archlinux.org/python-fangfrisch.git
-	branch = master
-[submodule "repos/python-requests-futures"]
-	path = repos/python-requests-futures
-	url = ssh://aur@aur.archlinux.org/python-requests-futures.git
 	branch = master
 [submodule "repos/python-torrequest"]
 	path = repos/python-torrequest

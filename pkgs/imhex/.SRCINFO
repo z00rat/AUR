@@ -1,7 +1,7 @@
 pkgbase = imhex
 	pkgdesc = A Hex Editor for Reverse Engineers, Programmers and people that value their eye sight when working at 3 AM
-	pkgver = 1.19.3
-	pkgrel = 1
+	pkgver = 1.24.3
+	pkgrel = 2
 	url = https://imhex.werwolv.net
 	arch = x86_64
 	license = GPL2
@@ -24,41 +24,39 @@ pkgbase = imhex
 	depends = yara
 	optdepends = imhex-patterns-git: ImHex base patterns
 	options = !lto
-	source = imhex::git+https://github.com/WerWolv/ImHex.git#tag=v1.19.3
+	options = !strip
+	source = imhex::git+https://github.com/WerWolv/ImHex.git#tag=v1.24.3
 	source = nativefiledialog::git+https://github.com/btzy/nativefiledialog-extended.git
 	source = xdgpp::git+https://git.sr.ht/~danyspin97/xdgpp
 	source = libromfs::git+https://github.com/WerWolv/libromfs
 	source = capstone::git+https://github.com/capstone-engine/capstone#branch=next
-	source = pattern_language::git+https://github.com/WerWolv/PatternLanguage#tag=ImHex-v1.19.3
-	source = 0001-makepkg-Remove-external-stuff.patch
-	source = 0002-archlinux-compat-Remove-unused-mbedTLS-code-from-lib.patch
-	source = 0003-fix-Deduplicate-resources-directories.patch
-	cksums = SKIP
-	cksums = SKIP
-	cksums = SKIP
-	cksums = SKIP
-	cksums = SKIP
-	cksums = SKIP
-	cksums = 352208527
-	cksums = 2380891546
-	cksums = 187806777
+	source = pattern_language::git+https://github.com/WerWolv/PatternLanguage#tag=ImHex-v1.24.3
+	source = 0001-makepkg-Fix-compiler-check.patch
+	source = 0002-fix-Deduplicate-resources-directories.patch
+	source = 0003-build-Fix-build-with-clang.patch
+	source = pl-0001-Use-C-23-standard.patch
+	source = pl-0002-makepkg-Remove-extraneous-compiler-flags.patch
 	sha256sums = SKIP
 	sha256sums = SKIP
 	sha256sums = SKIP
 	sha256sums = SKIP
 	sha256sums = SKIP
 	sha256sums = SKIP
-	sha256sums = f38410d3b7fbf61cab51d9258c2f554fe04cfa59962bfb1ffa2086970a56bf02
-	sha256sums = a5fc4f0a7a7fa7465ba9ed29e1b49cf0d9cdc0477be93628768d0566309c909b
-	sha256sums = 44f737ed46d529e860084975c2a2a50e439b0baabf41205c2cbe50263b9621d3
+	sha256sums = c2a46722e0169e4d4f95e76ec6a0232ff54e7d7399cb8c2a76dc502268cf9dff
+	sha256sums = 6b0fea58a0b8e501681a0fc90af0bc0d91ebe00096bdd32c4e09e4cac610499f
+	sha256sums = f8a7d20cf5787d823a47e4664dc5b85be73de26aaff2292522e6d8da6a542b14
+	sha256sums = 8502d17aa838a601ba6cf5b613c1613033dd07b73d7b6ca8c0a912f90717f6d6
+	sha256sums = 48fe8ec54aca8eea1bac5a2bf6f4ab79f7f376b52c644d91a97a7dc0412755df
 	b2sums = SKIP
 	b2sums = SKIP
 	b2sums = SKIP
 	b2sums = SKIP
 	b2sums = SKIP
 	b2sums = SKIP
-	b2sums = a0e733be3d9373f572992effa943e4da3d88d35bd634daea1617adb63ff22ef3c07b919671c7ac1a6761e67bc9a703e77882f7bbf947c3271afe36512c8d1c99
-	b2sums = 39f71cc1c09f8d0b5eb70952b017aa0e57907c4dba8cc071fcc1b03b1ba95aed080db6c8de44ac59e92cbf22c58afcaeded424603ddad0e2af0495a7f5bcc38e
-	b2sums = 085b99b69d98256eb0078fe86b62921a1e0a9328e9992805e298a6de9a16d99d33fe0bf239711e1ca27c65cc29d6f733fac3dadc9d914860f128c697bd5e6f22
+	b2sums = bfe7e3b148a82613832aaa686c0ad2a62a04474807c8e05b0df79ce4a47819bd0ec9c63ee112028e4d7cda23233c98b15aa19b3d634f9edd33730011016f3e7d
+	b2sums = 48b2fa8f928aab89a4398bd210103c74fb319a27c2abe099df6f24fe7d18ce6426c733eef893dd6ace9cf263523b5bfee6e65a20b7e9de72f1a0db5070476af5
+	b2sums = 87fb6437af144f839a084c766537102fc7789b0a8287b7315ccf9f830d53fb4fc5276441359ce082b5695c0cfef89f8962806702b2f1f9aa8e3e0a40b79628ac
+	b2sums = 6e87704c3066a8d5dbe3955647eac8193826a46ff3130e505324b158e0276deab04e9ff9766fe5d3ad33448ba2695126efe3339cd1d64dc7926c6eb843253aca
+	b2sums = 266c7c77aadca11302ee6e6742e7a9a0dc05becfdc996353ae51308d7305fabb51377d03dd05708e07b9ffc286b7309554da3d905c90b0d82511194a2911c59c
 
 pkgname = imhex

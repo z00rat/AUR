@@ -2,7 +2,7 @@
 # Maintainer: zoorat <zoorat [at] protonmail [dot] com>
 
 pkgname=raven-reader
-pkgver=1.0.72
+pkgver=1.0.75
 pkgrel=1
 pkgdesc="Simple Desktop RSS Reader made using VueJS"
 url="https://github.com/hello-efficiency-inc/raven-reader"

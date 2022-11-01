@@ -1,7 +1,7 @@
 pkgbase = themix-icons-suru-plus-git
 	pkgdesc = Suru++ icons plugin for Themix GUI designer
 	pkgver = 30.0.r2.g9bd895f32
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/gusbemacbe/suru-plus/
 	arch = x86_64
 	arch = i686
@@ -25,4 +25,3 @@ pkgbase = themix-icons-suru-plus-git
 	md5sums = SKIP
 
 pkgname = themix-icons-suru-plus-git
-

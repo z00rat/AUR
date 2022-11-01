@@ -1,7 +1,7 @@
 pkgbase = themix-icons-papirus-git
 	pkgdesc = Papirus icons plugin for Themix GUI designer
-	pkgver = 20201201.r114.g9d01df775c
-	pkgrel = 1
+	pkgver = 20220910.r12.g11e75c8a6c
+	pkgrel = 2
 	url = https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/
 	arch = x86_64
 	arch = i686
@@ -25,4 +25,3 @@ pkgbase = themix-icons-papirus-git
 	md5sums = SKIP
 
 pkgname = themix-icons-papirus-git
-

@@ -52,7 +52,6 @@
  - https://aur.archlinux.org/packages/edex-ui-bin
  - https://aur.archlinux.org/packages/electorrent-bin
  - https://aur.archlinux.org/packages/electronmail-bin
- - https://aur.archlinux.org/packages/exe-thumbnailer
  - https://aur.archlinux.org/packages/ezshare
  - https://aur.archlinux.org/packages/fakepkg
  - https://aur.archlinux.org/packages/faq-bin
@@ -105,7 +104,6 @@
  - https://aur.archlinux.org/packages/mpck
  - https://aur.archlinux.org/packages/msg2
  - https://aur.archlinux.org/packages/mymonero
- - https://aur.archlinux.org/packages/nerd-fonts-source-code-pro
  - https://aur.archlinux.org/packages/nodejs-autocannon
  - https://aur.archlinux.org/packages/nodejs-clinic
  - https://aur.archlinux.org/packages/nodejs-csso
@@ -124,7 +122,6 @@
  - https://aur.archlinux.org/packages/obs-v4l2sink
  - https://aur.archlinux.org/packages/onedrive-abraunegg
  - https://aur.archlinux.org/packages/onioncircuits
- - https://aur.archlinux.org/packages/oomox
  - https://aur.archlinux.org/packages/opencomic-bin
  - https://aur.archlinux.org/packages/opensnitch
  - https://aur.archlinux.org/packages/opensnitch-git
@@ -161,8 +158,6 @@
  - https://aur.archlinux.org/packages/python-pynput
  - https://aur.archlinux.org/packages/python-pysubs2
  - https://aur.archlinux.org/packages/python-pytube
- - https://aur.archlinux.org/packages/python-rapidfuzz
- - https://aur.archlinux.org/packages/python-requests-futures
  - https://aur.archlinux.org/packages/python-simber
  - https://aur.archlinux.org/packages/python-spotdl
  - https://aur.archlinux.org/packages/python-spotipy
@@ -225,7 +220,6 @@
  - https://aur.archlinux.org/packages/ttf-typicons
  - https://aur.archlinux.org/packages/ttf-vista-fonts
  - https://aur.archlinux.org/packages/tty-clock
- - https://aur.archlinux.org/packages/ttyd
  - https://aur.archlinux.org/packages/typora
  - https://aur.archlinux.org/packages/uftrace
  - https://aur.archlinux.org/packages/usbaudio-git
@@ -250,5 +244,5 @@
  - https://aur.archlinux.org/packages/zoom
 ---
 
-number of packages = 248.
+number of packages = 242.
 
