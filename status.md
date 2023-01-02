@@ -1,11 +1,13 @@
-  [1;34m->[;1m number of packags that are 255 tracked[0m
-  [1;34m->[;1m number of packages that are 24 installed[0m
+  [1;34m->[;1m number of packags that are 242 tracked[0m
+  [1;34m->[;1m number of packages that are 36 installed[0m
   [1;34m->[;1m packages that are not tracked but installed in the system...[0m
+python-bs4
 trizen
+youtube-search-python
+ytmdl
   [1;34m->[;1m packages that are tracked but not installed in the system...[0m
 activitywatch-bin
 advcpmv
-alacritty-themes
 ansifilter
 apg
 archiso-git
@@ -19,7 +21,6 @@ bashmount
 bats
 betterdiscordctl-git
 betterdiscord-installer
-betterdiscord-installer-bin
 betterlockscreen
 bibata-cursor-theme
 bibata-cursor-theme-bin
@@ -37,20 +38,17 @@ cointop
 cointop-bin
 csslint
 ctjs-bin
-dart-sass
 ddd
 debtap
 discord-chat-exporter-cli
 discord-ptb
 dive
-downloader-cli
 drawio-desktop-bin
 dry-bin
 ebtables
 edex-ui-bin
 electorrent-bin
 electronmail-bin
-exe-thumbnailer
 ezshare
 fakepkg
 faq-bin
@@ -67,9 +65,7 @@ fswatch
 gconf-cleaner
 gconf-gtk2
 gitify-bin
-glow
 google-chrome
-grex
 guiscrcpy
 hakuneko-desktop
 heroku-cli-bin
@@ -100,8 +96,6 @@ mergerfs-tools-git
 mkclean
 mkp224o
 mpck
-mymonero
-nerd-fonts-source-code-pro
 nodejs-autocannon
 nodejs-clinic
 nodejs-csso
@@ -115,18 +109,14 @@ noisetorch-bin
 nordic-theme
 notion-app
 obfs4proxy
-obsidian
 obs-plugin-input-overlay-bin
 obs-v4l2sink
 onedrive-abraunegg
 onioncircuits
-oomox
 opencomic-bin
 opensnitch
 opensnitch-git
-otf-san-francisco
 p7zip-gui
-parse-torrent
 passivedns-git
 patat-bin
 picom-ibhagwan-git
@@ -143,18 +133,13 @@ python3-xcgf
 python3-xcpf
 python-auditok
 python-fangfrisch
-python-ffmpeg
 python-ffsubsync
 python-future-annotations
 python-gbinder
 python-gtts
 python-gtts-token
-python-itunespy
-python-pydes
 python-pynput
 python-pysubs2
-python-requests-futures
-python-simber
 python-srt
 python-torrequest
 python-webrtcvad
@@ -173,7 +158,6 @@ robo3t-bin
 rofi-greenclip
 rtags
 runjs-bin
-scrcpy
 sherlock-git
 siji-git
 simple-mtpfs
@@ -213,10 +197,8 @@ ttf-twemoji
 ttf-typicons
 ttf-vista-fonts
 tty-clock
-ttyd
 typora
 uftrace
-ugrep
 usbaudio-git
 vanitygen-git
 vimix-cursors
@@ -225,7 +207,6 @@ vrms-arch
 vscodium-bin
 waydroid
 waydroid-image
-webtorrent-bittorrent-tracker
 webtorrent-desktop-bin
 webtty
 wttr
