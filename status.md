@@ -1,13 +1,17 @@
   [1;34m->[;1m number of packags that are 242 tracked[0m
-  [1;34m->[;1m number of packages that are 36 installed[0m
+  [1;34m->[;1m number of packages that are 38 installed[0m
   [1;34m->[;1m packages that are not tracked but installed in the system...[0m
 python-bs4
+python-jaconv
+python-pykakasi
+python-syncedlyrics
 trizen
 youtube-search-python
 ytmdl
   [1;34m->[;1m packages that are tracked but not installed in the system...[0m
 activitywatch-bin
 advcpmv
+alacritty-themes
 ansifilter
 apg
 archiso-git
@@ -63,7 +67,6 @@ fontpreview
 fsearch-git
 fswatch
 gconf-cleaner
-gconf-gtk2
 gitify-bin
 google-chrome
 guiscrcpy
@@ -96,6 +99,7 @@ mergerfs-tools-git
 mkclean
 mkp224o
 mpck
+mymonero
 nodejs-autocannon
 nodejs-clinic
 nodejs-csso
@@ -144,10 +148,10 @@ python-srt
 python-torrequest
 python-webrtcvad
 python-youtube-search-git
+python-ytmusicapi
 qbittorrent-vuetorrent-bin
 qrcp
 qwinff
-raven-reader
 raven-reader-bin
 rclone-browser
 readability-cli

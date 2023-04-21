@@ -1,36 +1,40 @@
   [1;34m->[;1m checking for out-of-date packages[0m
 
   [1;34m->[;1m listing already flaged packages[0m
-youtube-search-python
+pnpm
   [1;34m->[;1m running pkgoutofdate[0m
-resvg: new version found - 0.23.0 => 0.24.0
 raven-reader: new version found - 1.0.75 => 1.0.76
-qbittorrent-vuetorrent-bin: new version found - 1.0.1 => 1.1.0
-python-gtts: new version found - 2.2.4 => 2.3.0
+resvg: new version found - 0.29.0 => 0.30.0
+qbittorrent-vuetorrent-bin: new version found - 1.5.3 => 1.5.4
+python-srt: new version found - 3.5.2 => 3.5.3
 patat-bin: new version found - 0.8.7.0 => 0.8.8.0
-discord-chat-exporter-cli: new version found - 2.36.2 => 2.36.3
+opensnitch: new version found - 1.5.2 => 1.5.3
+hydroxide: new version found - 0.2.24 => 0.2.25
+burpsuite: new version found - 2023.3.4 => 2023.3.5
+betterdiscord-installer-bin: new version found - 1.2.0 => 1.2.1
+advcpmv: new version found - 9.1 => 9.2
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
-[32m          [UP-TO-DATE] [activitywatch-bin][0.12.1-1] matches upstream version 0.12.1 [0m
+[32m          [UP-TO-DATE] [activitywatch-bin][0.12.2-1] matches upstream version 0.12.2 [0m
   [1;34m->[;1m checking for update for 'advcpmv'[0m
 [37m             [UNKNOWN] [advcpmv][9.1-1] No release found for https://ftp.gnu.org/gnu/coreutils/coreutils-9.1.tar.xz [0m
   [1;34m->[;1m checking for update for 'alacritty-themes'[0m
 [32m          [UP-TO-DATE] [alacritty-themes][5.3.1-1] matches upstream version 5.3.1 [0m
   [1;34m->[;1m checking for update for 'ansifilter'[0m
-[37m             [UNKNOWN] [ansifilter][2.18-1] No release found for http://www.andre-simon.de/zip/ansifilter-2.18.tar.bz2 [0m
+[37m             [UNKNOWN] [ansifilter][2.19-1] No release found for http://www.andre-simon.de/zip/ansifilter-2.19.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'antibody'[0m
 [32m          [UP-TO-DATE] [antibody][6.1.1-1] matches upstream version 6.1.1 [0m
   [1;34m->[;1m checking for update for 'apg'[0m
 [32m          [UP-TO-DATE] [apg][2.2.3-5] matches upstream version 2.2.3 [0m
   [1;34m->[;1m checking for update for 'archiso-git'[0m
   [1;34m->[;1m checking for update for 'aseprite'[0m
-[32m          [UP-TO-DATE] [aseprite][1.2.40-2] matches upstream version 1.2.40 [0m
+[31m         [OUT-OF-DATE] [aseprite][1.2.40-4] should be updated to 1.3-rc2 [0m
   [1;34m->[;1m checking for update for 'asp-git'[0m
   [1;34m->[;1m checking for update for 'aur-auto-vote-git'[0m
   [1;34m->[;1m checking for update for 'aur-out-of-date'[0m
 [32m          [UP-TO-DATE] [aur-out-of-date][3.2.0-1] matches upstream version 3.2.0 [0m
   [1;34m->[;1m checking for update for 'aurutils'[0m
-[32m          [UP-TO-DATE] [aurutils][10b-1] matches upstream version 10b [0m
+[32m          [UP-TO-DATE] [aurutils][13.2-1] matches upstream version 13.2 [0m
   [1;34m->[;1m checking for update for 'aurvote'[0m
 [32m          [UP-TO-DATE] [aurvote][1.9-3] matches upstream version 1.9 [0m
   [1;34m->[;1m checking for update for 'aurvote-utils'[0m
@@ -44,35 +48,35 @@ discord-chat-exporter-cli: new version found - 2.36.2 => 2.36.3
 [37m             [UNKNOWN] [bats][1.2.0-1] Failed to obtain GitHub release for cdown/bats from https://api.github.com/repos/cdown/bats/releases/latest: No GitHub project found for cdown/bats on https://api.github.com/repos/cdown/bats/releases/latest [0m
   [1;34m->[;1m checking for update for 'betterdiscordctl-git'[0m
   [1;34m->[;1m checking for update for 'betterdiscord-installer'[0m
-[32m          [UP-TO-DATE] [betterdiscord-installer][1.2.0-1] matches upstream version 1.2.0 [0m
+[32m          [UP-TO-DATE] [betterdiscord-installer][1.2.1-1] matches upstream version 1.2.1 [0m
   [1;34m->[;1m checking for update for 'betterdiscord-installer-bin'[0m
-[32m          [UP-TO-DATE] [betterdiscord-installer-bin][1.2.0-1] matches upstream version 1.2.0 [0m
+[31m         [OUT-OF-DATE] [betterdiscord-installer-bin][1.2.0-1] should be updated to 1.2.1 [0m
   [1;34m->[;1m checking for update for 'betterlockscreen'[0m
-[32m          [UP-TO-DATE] [betterlockscreen][4.0.4-1] matches upstream version 4.0.4 [0m
+[32m          [UP-TO-DATE] [betterlockscreen][4.0.4-2] matches upstream version 4.0.4 [0m
   [1;34m->[;1m checking for update for 'bibata-cursor-theme'[0m
 [32m          [UP-TO-DATE] [bibata-cursor-theme][2.0.3-1] matches upstream version 2.0.3 [0m
   [1;34m->[;1m checking for update for 'bibata-cursor-theme-bin'[0m
 [32m          [UP-TO-DATE] [bibata-cursor-theme-bin][2.0.3-1] matches upstream version 2.0.3 [0m
   [1;34m->[;1m checking for update for 'boundary-bin'[0m
-[37m             [UNKNOWN] [boundary-bin][0.11.2-1] No release found for boundary-controller.service [0m
+[37m             [UNKNOWN] [boundary-bin][0.12.0-1] No release found for boundary-controller.service [0m
   [1;34m->[;1m checking for update for 'brave'[0m
-[37m             [UNKNOWN] [brave][1.46.144-1] Failed to obtain GitHub release for brave/brave-browser.git from https://api.github.com/repos/brave/brave-browser.git/releases/latest: No GitHub project found for brave/brave-browser.git on https://api.github.com/repos/brave/brave-browser.git/releases/latest [0m
+[37m             [UNKNOWN] [brave][1.49.128-1] Failed to obtain GitHub release for brave/brave-browser.git from https://api.github.com/repos/brave/brave-browser.git/releases/latest: No GitHub project found for brave/brave-browser.git on https://api.github.com/repos/brave/brave-browser.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'broken-link-checker'[0m
 [32m          [UP-TO-DATE] [broken-link-checker][0.7.8-1] matches upstream version 0.7.8 [0m
   [1;34m->[;1m checking for update for 'bubblejail'[0m
-[32m          [UP-TO-DATE] [bubblejail][0.6.2-1] matches upstream version 0.6.2 [0m
+[32m          [UP-TO-DATE] [bubblejail][0.7.0-1] matches upstream version 0.7.0 [0m
   [1;34m->[;1m checking for update for 'burpsuite'[0m
-[37m             [UNKNOWN] [burpsuite][2022.12.5-1] No release found for burpsuite-2022.12.5.jar::https://portswigger.net/burp/releases/download?product=community&version=2022.12.5&type=Jar [0m
+[37m             [UNKNOWN] [burpsuite][2023.3.4-1] No release found for burpsuite-2023.3.4.jar::https://portswigger.net/burp/releases/download?product=community&version=2023.3.4&type=Jar [0m
   [1;34m->[;1m checking for update for 'cava'[0m
 [32m          [UP-TO-DATE] [cava][0.8.3-1] matches upstream version 0.8.3 [0m
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
-[31m         [OUT-OF-DATE] [cloudflared-bin][2022.11.1-1] should be updated to 2022.12.1 [0m
+[31m         [OUT-OF-DATE] [cloudflared-bin][2023.4.0-1] should be updated to 2023.4.1 [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
-[31m         [OUT-OF-DATE] [code-features][1.74.0-1] should be updated to 1.74.2 [0m
+[31m         [OUT-OF-DATE] [code-features][1.76.0-1] should be updated to 1.77.3 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
-[37m             [UNKNOWN] [code-marketplace][1.73.0-1] No release found for code-marketplace.hook [0m
+[37m             [UNKNOWN] [code-marketplace][1.75.1-1] No release found for code-marketplace.hook [0m
   [1;34m->[;1m checking for update for 'code-server'[0m
-[32m          [UP-TO-DATE] [code-server][4.9.1-1] matches upstream version 4.9.1 [0m
+[32m          [UP-TO-DATE] [code-server][4.11.0-1] matches upstream version 4.11.0 [0m
   [1;34m->[;1m checking for update for 'cointop'[0m
 [32m          [UP-TO-DATE] [cointop][1.6.10-1] matches upstream version 1.6.10 [0m
   [1;34m->[;1m checking for update for 'cointop-bin'[0m
@@ -88,16 +92,16 @@ discord-chat-exporter-cli: new version found - 2.36.2 => 2.36.3
   [1;34m->[;1m checking for update for 'diceware'[0m
 [37m             [UNKNOWN] [diceware][0.10-1] Failed to obtain GitHub release for ulif/diceware from https://api.github.com/repos/ulif/diceware/releases/latest: No GitHub project found for ulif/diceware on https://api.github.com/repos/ulif/diceware/releases/latest [0m
   [1;34m->[;1m checking for update for 'discord-chat-exporter-cli'[0m
-[31m         [OUT-OF-DATE] [discord-chat-exporter-cli][2.36.2-1] should be updated to 2.36.4 [0m
+[31m         [OUT-OF-DATE] [discord-chat-exporter-cli][2.39-1] should be updated to 2.39.1 [0m
   [1;34m->[;1m checking for update for 'discord-ptb'[0m
-[37m             [UNKNOWN] [discord-ptb][0.0.38-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.38/discord-ptb-0.0.38.tar.gz [0m
+[37m             [UNKNOWN] [discord-ptb][0.0.41-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.41/discord-ptb-0.0.41.tar.gz [0m
   [1;34m->[;1m checking for update for 'dive'[0m
-[32m          [UP-TO-DATE] [dive][0.10.0-1] matches upstream version 0.10.0 [0m
+[32m          [UP-TO-DATE] [dive][0.10.0-2] matches upstream version 0.10.0 [0m
   [1;34m->[;1m checking for update for 'docker-systemctl-replacement-git'[0m
   [1;34m->[;1m checking for update for 'downloader-cli'[0m
 [32m          [UP-TO-DATE] [downloader-cli][0.3.3-0] matches upstream version 0.3.3 [0m
   [1;34m->[;1m checking for update for 'drawio-desktop-bin'[0m
-[32m          [UP-TO-DATE] [drawio-desktop-bin][20.7.4-1] matches upstream version 20.7.4 [0m
+[31m         [OUT-OF-DATE] [drawio-desktop-bin][21.1.2-1] should be updated to 21.2.1 [0m
   [1;34m->[;1m checking for update for 'dry-bin'[0m
 [32m          [UP-TO-DATE] [dry-bin][0.11.1-1] matches upstream version 0.11.1 [0m
   [1;34m->[;1m checking for update for 'ebtables'[0m
@@ -107,7 +111,7 @@ discord-chat-exporter-cli: new version found - 2.36.2 => 2.36.3
   [1;34m->[;1m checking for update for 'electorrent-bin'[0m
 [32m          [UP-TO-DATE] [electorrent-bin][2.8.3-1] matches upstream version 2.8.3 [0m
   [1;34m->[;1m checking for update for 'electronmail-bin'[0m
-[32m          [UP-TO-DATE] [electronmail-bin][5.1.2-1] matches upstream version 5.1.2 [0m
+[32m          [UP-TO-DATE] [electronmail-bin][5.1.7-1] matches upstream version 5.1.7 [0m
   [1;34m->[;1m checking for update for 'ezshare'[0m
 [32m          [UP-TO-DATE] [ezshare][1.9.0-2] matches upstream version 1.9.0 [0m
   [1;34m->[;1m checking for update for 'fakepkg'[0m
@@ -121,7 +125,7 @@ discord-chat-exporter-cli: new version found - 2.36.2 => 2.36.3
   [1;34m->[;1m checking for update for 'figlet-fonts'[0m
 [37m             [UNKNOWN] [figlet-fonts][1.0-3] No release found for ours.tar.gz::ftp://ftp.figlet.org/pub/figlet/fonts/ours.tar.gz [0m
   [1;34m->[;1m checking for update for 'firefox-esr-bin'[0m
-[37m             [UNKNOWN] [firefox-esr-bin][102.6.0-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/102.6.0esr/linux-x86_64/en-US/firefox-102.6.0esr.tar.bz2 [0m
+[37m             [UNKNOWN] [firefox-esr-bin][102.10.0-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/102.10.0esr/linux-x86_64/en-US/firefox-102.10.0esr.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'flamegraph'[0m
 [32m          [UP-TO-DATE] [flamegraph][1.0-2] matches upstream version 1.0 [0m
   [1;34m->[;1m checking for update for 'florence'[0m
@@ -134,7 +138,7 @@ discord-chat-exporter-cli: new version found - 2.36.2 => 2.36.3
   [1;34m->[;1m checking for update for 'fswatch'[0m
 [32m          [UP-TO-DATE] [fswatch][1.17.1-1] matches upstream version 1.17.1 [0m
   [1;34m->[;1m checking for update for 'gallery-dl'[0m
-[32m          [UP-TO-DATE] [gallery-dl][1.24.2-1] matches upstream version 1.24.2 [0m
+[32m          [UP-TO-DATE] [gallery-dl][1.25.2-2] matches upstream version 1.25.2 [0m
   [1;34m->[;1m checking for update for 'gconf-cleaner'[0m
 [37m             [UNKNOWN] [gconf-cleaner][0.0.3-2] No release found for https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gconf-cleaner/gconf-cleaner-0.0.3.tar.gz [0m
   [1;34m->[;1m checking for update for 'gconf-gtk2'[0m
@@ -144,7 +148,7 @@ discord-chat-exporter-cli: new version found - 2.36.2 => 2.36.3
   [1;34m->[;1m checking for update for 'gitstatus'[0m
 [32m          [UP-TO-DATE] [gitstatus][1.5.4-1] matches upstream version 1.5.4 [0m
   [1;34m->[;1m checking for update for 'google-chrome'[0m
-[37m             [UNKNOWN] [google-chrome][108.0.5359.124-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_108.0.5359.124-1_amd64.deb [0m
+[37m             [UNKNOWN] [google-chrome][112.0.5615.165-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_112.0.5615.165-1_amd64.deb [0m
   [1;34m->[;1m checking for update for 'guiscrcpy'[0m
 [37m             [UNKNOWN] [guiscrcpy][1:2023.1.1-1] Failed to obtain GitHub release for srevinsaju/guiscrcpy.git from https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest: No GitHub project found for srevinsaju/guiscrcpy.git on https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'hakuneko-desktop'[0m
@@ -156,12 +160,12 @@ discord-chat-exporter-cli: new version found - 2.36.2 => 2.36.3
   [1;34m->[;1m checking for update for 'hw-probe'[0m
 [37m             [UNKNOWN] [hw-probe][1.6.5-1] upstream version is 1.6 [0m
   [1;34m->[;1m checking for update for 'hydroxide'[0m
-[32m          [UP-TO-DATE] [hydroxide][0.2.24-4] matches upstream version 0.2.24 [0m
+[31m         [OUT-OF-DATE] [hydroxide][0.2.24-4] should be updated to 0.2.26 [0m
   [1;34m->[;1m checking for update for 'i3lock-color'[0m
 [32m          [UP-TO-DATE] [i3lock-color][2.13.c.4-1] matches upstream version 2.13.c.4 [0m
   [1;34m->[;1m checking for update for 'ibus-avro-git'[0m
   [1;34m->[;1m checking for update for 'imhex'[0m
-[37m             [UNKNOWN] [imhex][1.25.0-1] Failed to obtain GitHub release for WerWolv/ImHex.git from https://api.github.com/repos/WerWolv/ImHex.git/releases/latest: No GitHub project found for WerWolv/ImHex.git on https://api.github.com/repos/WerWolv/ImHex.git/releases/latest [0m
+[37m             [UNKNOWN] [imhex][1.28.0-2] Failed to obtain GitHub release for WerWolv/ImHex.git from https://api.github.com/repos/WerWolv/ImHex.git/releases/latest: No GitHub project found for WerWolv/ImHex.git on https://api.github.com/repos/WerWolv/ImHex.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'jiq-bin'[0m
 [32m          [UP-TO-DATE] [jiq-bin][0.7.2-1] matches upstream version 0.7.2 [0m
   [1;34m->[;1m checking for update for 'jmtpfs'[0m
@@ -171,9 +175,9 @@ discord-chat-exporter-cli: new version found - 2.36.2 => 2.36.3
   [1;34m->[;1m checking for update for 'lib32-jack'[0m
 [37m             [UNKNOWN] [lib32-jack][0.126.0-1] Failed to obtain GitHub release for jackaudio/jack1.git from https://api.github.com/repos/jackaudio/jack1.git/releases/latest: No GitHub project found for jackaudio/jack1.git on https://api.github.com/repos/jackaudio/jack1.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'libgbinder'[0m
-[37m             [UNKNOWN] [libgbinder][1.1.27-1] Failed to obtain GitHub release for mer-hybris/libgbinder.git from https://api.github.com/repos/mer-hybris/libgbinder.git/releases/latest: No GitHub project found for mer-hybris/libgbinder.git on https://api.github.com/repos/mer-hybris/libgbinder.git/releases/latest [0m
+[37m             [UNKNOWN] [libgbinder][1.1.32-1] Failed to obtain GitHub release for mer-hybris/libgbinder.git from https://api.github.com/repos/mer-hybris/libgbinder.git/releases/latest: No GitHub project found for mer-hybris/libgbinder.git on https://api.github.com/repos/mer-hybris/libgbinder.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'libglibutil'[0m
-[37m             [UNKNOWN] [libglibutil][1.0.67-1] Failed to obtain GitHub release for sailfishos/libglibutil.git from https://api.github.com/repos/sailfishos/libglibutil.git/releases/latest: No GitHub project found for sailfishos/libglibutil.git on https://api.github.com/repos/sailfishos/libglibutil.git/releases/latest [0m
+[37m             [UNKNOWN] [libglibutil][1.0.68-1] Failed to obtain GitHub release for sailfishos/libglibutil.git from https://api.github.com/repos/sailfishos/libglibutil.git/releases/latest: No GitHub project found for sailfishos/libglibutil.git on https://api.github.com/repos/sailfishos/libglibutil.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'libuiohook'[0m
 [37m             [UNKNOWN] [libuiohook][1.2.2-2] Failed to obtain GitHub release for kwhat/libuiohook from https://api.github.com/repos/kwhat/libuiohook/releases/latest: No GitHub project found for kwhat/libuiohook on https://api.github.com/repos/kwhat/libuiohook/releases/latest [0m
   [1;34m->[;1m checking for update for 'libva-intel-driver-hybrid'[0m
@@ -182,22 +186,22 @@ discord-chat-exporter-cli: new version found - 2.36.2 => 2.36.3
   [1;34m->[;1m checking for update for 'localepurge'[0m
 [32m          [UP-TO-DATE] [localepurge][0.7.3.10-1] matches upstream version 0.7.3.10 [0m
   [1;34m->[;1m checking for update for 'losslesscut-bin'[0m
-[32m          [UP-TO-DATE] [losslesscut-bin][3.48.2-1] matches upstream version 3.48.2 [0m
+[32m          [UP-TO-DATE] [losslesscut-bin][3.54.0-1] matches upstream version 3.54.0 [0m
   [1;34m->[;1m checking for update for 'lscolors-git'[0m
   [1;34m->[;1m checking for update for 'lsdesktopf'[0m
 [37m             [UNKNOWN] [lsdesktopf][1.0.7-4] Failed to obtain GitHub release for AndyCrowd/list-desktop-files.git from https://api.github.com/repos/AndyCrowd/list-desktop-files.git/releases/latest: No GitHub project found for AndyCrowd/list-desktop-files.git on https://api.github.com/repos/AndyCrowd/list-desktop-files.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'lua-format'[0m
-[32m          [UP-TO-DATE] [lua-format][1.3.6-6] matches upstream version 1.3.6 [0m
+[32m          [UP-TO-DATE] [lua-format][1.3.6-7] matches upstream version 1.3.6 [0m
   [1;34m->[;1m checking for update for 'lynis-git'[0m
   [1;34m->[;1m checking for update for 'maldet'[0m
-[32m          [UP-TO-DATE] [maldet][1.6.4-9] matches upstream version 1.6.4 [0m
+[32m          [UP-TO-DATE] [maldet][1.6.5-1] matches upstream version 1.6.5 [0m
   [1;34m->[;1m checking for update for 'marktext-bin'[0m
 [32m          [UP-TO-DATE] [marktext-bin][0.17.1-1] matches upstream version 0.17.1 [0m
   [1;34m->[;1m checking for update for 'mergerfs'[0m
-[32m          [UP-TO-DATE] [mergerfs][2.34.1-1] matches upstream version 2.34.1 [0m
+[32m          [UP-TO-DATE] [mergerfs][2.35.1-1] matches upstream version 2.35.1 [0m
   [1;34m->[;1m checking for update for 'mergerfs-tools-git'[0m
   [1;34m->[;1m checking for update for 'mkclean'[0m
-[37m             [UNKNOWN] [mkclean][0.9.0-1] No release found for http://sourceforge.net/projects/matroska/files/mkclean/mkclean-0.9.0.tar.bz2 [0m
+[37m             [UNKNOWN] [mkclean][0.9.0-1] No release found for https://sourceforge.net/projects/matroska/files/mkclean/mkclean-0.9.0.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'mkp224o'[0m
 [32m          [UP-TO-DATE] [mkp224o][1.6.1-1] matches upstream version 1.6.1 [0m
   [1;34m->[;1m checking for update for 'mpck'[0m
@@ -209,21 +213,21 @@ discord-chat-exporter-cli: new version found - 2.36.2 => 2.36.3
   [1;34m->[;1m checking for update for 'nodejs-autocannon'[0m
 [32m          [UP-TO-DATE] [nodejs-autocannon][7.10.0-1] matches upstream version 7.10.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-clinic'[0m
-[32m          [UP-TO-DATE] [nodejs-clinic][12.0.0-1] matches upstream version 12.0.0 [0m
+[31m         [OUT-OF-DATE] [nodejs-clinic][12.0.0-1] should be updated to 12.1.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-csso'[0m
 [31m         [OUT-OF-DATE] [nodejs-csso][5.0.3-1] should be updated to 5.0.5 [0m
   [1;34m->[;1m checking for update for 'nodejs-csso-cli'[0m
-[31m         [OUT-OF-DATE] [nodejs-csso-cli][3.0.0-3] should be updated to 4.0.1 [0m
+[31m         [OUT-OF-DATE] [nodejs-csso-cli][3.0.0-3] should be updated to 4.0.2 [0m
   [1;34m->[;1m checking for update for 'nodejs-git-split-diffs'[0m
-[31m         [OUT-OF-DATE] [nodejs-git-split-diffs][0.10.0-4] should be updated to 0.13.0 [0m
+[31m         [OUT-OF-DATE] [nodejs-git-split-diffs][0.10.0-4] should be updated to 0.14.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-mapscii'[0m
 [32m          [UP-TO-DATE] [nodejs-mapscii][0.3.1-4] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'nodejs-nodemon'[0m
-[32m          [UP-TO-DATE] [nodejs-nodemon][2.0.20-1] matches upstream version 2.0.20 [0m
+[32m          [UP-TO-DATE] [nodejs-nodemon][2.0.22-1] matches upstream version 2.0.22 [0m
   [1;34m->[;1m checking for update for 'nodejs-npm2arch'[0m
 [32m          [UP-TO-DATE] [nodejs-npm2arch][2.2.0-1] matches upstream version 2.2.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-ungit'[0m
-[32m          [UP-TO-DATE] [nodejs-ungit][1.5.22-1] matches upstream version 1.5.22 [0m
+[32m          [UP-TO-DATE] [nodejs-ungit][1.5.23-1] matches upstream version 1.5.23 [0m
   [1;34m->[;1m checking for update for 'noisetorch'[0m
 [32m          [UP-TO-DATE] [noisetorch][0.12.2-2] matches upstream version 0.12.2 [0m
   [1;34m->[;1m checking for update for 'noisetorch-bin'[0m
@@ -235,11 +239,11 @@ discord-chat-exporter-cli: new version found - 2.36.2 => 2.36.3
   [1;34m->[;1m checking for update for 'obfs4proxy'[0m
 [37m             [UNKNOWN] [obfs4proxy][0.0.14-1] upstream version is obfs4proxy-0.0.14 [0m
   [1;34m->[;1m checking for update for 'obs-plugin-input-overlay-bin'[0m
-[31m         [OUT-OF-DATE] [obs-plugin-input-overlay-bin][4.8-1] should be updated to 5.0.0 [0m
+[31m         [OUT-OF-DATE] [obs-plugin-input-overlay-bin][4.8-1] should be updated to 5.0.3 [0m
   [1;34m->[;1m checking for update for 'obs-v4l2sink'[0m
 [32m          [UP-TO-DATE] [obs-v4l2sink][0.1.0-23] matches upstream version 0.1.0 [0m
   [1;34m->[;1m checking for update for 'onedrive-abraunegg'[0m
-[32m          [UP-TO-DATE] [onedrive-abraunegg][2.4.22-2] matches upstream version 2.4.22 [0m
+[32m          [UP-TO-DATE] [onedrive-abraunegg][2.4.23-3] matches upstream version 2.4.23 [0m
   [1;34m->[;1m checking for update for 'onioncircuits'[0m
 [32m          [UP-TO-DATE] [onioncircuits][0.7-1] matches upstream version 0.7 [0m
   [1;34m->[;1m checking for update for 'opencomic-bin'[0m
@@ -250,7 +254,7 @@ discord-chat-exporter-cli: new version found - 2.36.2 => 2.36.3
   [1;34m->[;1m checking for update for 'p7zip-gui'[0m
 [37m             [UNKNOWN] [p7zip-gui][16.02-8] No release found for https://downloads.sourceforge.net/project/p7zip/p7zip/16.02/p7zip_16.02_src_all.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'parse-torrent'[0m
-[32m          [UP-TO-DATE] [parse-torrent][10.0.1-1] matches upstream version 10.0.1 [0m
+[31m         [OUT-OF-DATE] [parse-torrent][10.0.1-1] should be updated to 11.0.8 [0m
   [1;34m->[;1m checking for update for 'paru-bin'[0m
 [32m          [UP-TO-DATE] [paru-bin][1.11.2-1] matches upstream version 1.11.2 [0m
   [1;34m->[;1m checking for update for 'passivedns-git'[0m
@@ -260,7 +264,7 @@ discord-chat-exporter-cli: new version found - 2.36.2 => 2.36.3
 [32m          [UP-TO-DATE] [pfetch][0.6.0-3] matches upstream version 0.6.0 [0m
   [1;34m->[;1m checking for update for 'picom-ibhagwan-git'[0m
   [1;34m->[;1m checking for update for 'pikaur'[0m
-[32m          [UP-TO-DATE] [pikaur][1.14.6-1] matches upstream version 1.14.6 [0m
+[32m          [UP-TO-DATE] [pikaur][1.14.7-1] matches upstream version 1.14.7 [0m
   [1;34m->[;1m checking for update for 'pipes.sh'[0m
 [32m          [UP-TO-DATE] [pipes.sh][1.3.0-1] matches upstream version 1.3.0 [0m
   [1;34m->[;1m checking for update for 'pkgoutofdate-git'[0m
@@ -270,7 +274,7 @@ discord-chat-exporter-cli: new version found - 2.36.2 => 2.36.3
   [1;34m->[;1m checking for update for 'pm2ml'[0m
 [37m             [UNKNOWN] [pm2ml][2021.11.20.1-4] No release found for https://xyne.dev/projects/pm2ml/src/pm2ml-2021.11.20.1.tar.xz [0m
   [1;34m->[;1m checking for update for 'pnpm'[0m
-[37m             [UNKNOWN] [pnpm][7.21.0-1] Failed to obtain GitHub release for pnpm/pnpm.git?signed from https://api.github.com/repos/pnpm/pnpm.git?signed/releases/latest: No GitHub project found for pnpm/pnpm.git?signed on https://api.github.com/repos/pnpm/pnpm.git?signed/releases/latest [0m
+[37m             [UNKNOWN] [pnpm][8.2.0-1] Failed to obtain GitHub release for pnpm/pnpm.git?signed from https://api.github.com/repos/pnpm/pnpm.git?signed/releases/latest: No GitHub project found for pnpm/pnpm.git?signed on https://api.github.com/repos/pnpm/pnpm.git?signed/releases/latest [0m
   [1;34m->[;1m checking for update for 'popcorntime-bin'[0m
 [32m          [UP-TO-DATE] [popcorntime-bin][0.4.9-1] matches upstream version 0.4.9 [0m
   [1;34m->[;1m checking for update for 'powerpill'[0m
@@ -285,17 +289,17 @@ discord-chat-exporter-cli: new version found - 2.36.2 => 2.36.3
   [1;34m->[;1m checking for update for 'python-auditok'[0m
 [32m          [UP-TO-DATE] [python-auditok][0.2.0-1] matches upstream version 0.2.0 [0m
   [1;34m->[;1m checking for update for 'python-fangfrisch'[0m
-[32m          [UP-TO-DATE] [python-fangfrisch][1.5.0-1] matches upstream version 1.5.0 [0m
+[32m          [UP-TO-DATE] [python-fangfrisch][1.6.1-1] matches upstream version 1.6.1 [0m
   [1;34m->[;1m checking for update for 'python-ffmpeg'[0m
-[37m             [UNKNOWN] [python-ffmpeg][0.2.0-3] Failed to obtain GitHub release for kkroening/ffmpeg-python from https://api.github.com/repos/kkroening/ffmpeg-python/releases/latest: No GitHub project found for kkroening/ffmpeg-python on https://api.github.com/repos/kkroening/ffmpeg-python/releases/latest [0m
+[37m             [UNKNOWN] [python-ffmpeg][0.2.0-4] Failed to obtain GitHub release for kkroening/ffmpeg-python from https://api.github.com/repos/kkroening/ffmpeg-python/releases/latest: No GitHub project found for kkroening/ffmpeg-python on https://api.github.com/repos/kkroening/ffmpeg-python/releases/latest [0m
   [1;34m->[;1m checking for update for 'python-ffsubsync'[0m
-[31m         [OUT-OF-DATE] [python-ffsubsync][0.4.20-1] should be updated to 0.4.22 [0m
+[37m             [UNKNOWN] [python-ffsubsync][0.4.23-2] upstream version is 0.4.22 [0m
   [1;34m->[;1m checking for update for 'python-future-annotations'[0m
 [32m          [UP-TO-DATE] [python-future-annotations][1.0.0-2] matches upstream version 1.0.0 [0m
   [1;34m->[;1m checking for update for 'python-gbinder'[0m
-[37m             [UNKNOWN] [python-gbinder][1.1.1-1] Failed to obtain GitHub release for erfanoabdi/gbinder-python.git from https://api.github.com/repos/erfanoabdi/gbinder-python.git/releases/latest: No GitHub project found for erfanoabdi/gbinder-python.git on https://api.github.com/repos/erfanoabdi/gbinder-python.git/releases/latest [0m
+[37m             [UNKNOWN] [python-gbinder][1.1.1-2] Failed to obtain GitHub release for erfanoabdi/gbinder-python.git from https://api.github.com/repos/erfanoabdi/gbinder-python.git/releases/latest: No GitHub project found for erfanoabdi/gbinder-python.git on https://api.github.com/repos/erfanoabdi/gbinder-python.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'python-gtts'[0m
-[31m         [OUT-OF-DATE] [python-gtts][2.2.4-1] should be updated to 2.3.0 [0m
+[32m          [UP-TO-DATE] [python-gtts][2.3.1-1] matches upstream version 2.3.1 [0m
   [1;34m->[;1m checking for update for 'python-gtts-token'[0m
 [32m          [UP-TO-DATE] [python-gtts-token][1.1.4-1] matches upstream version 1.1.4 [0m
   [1;34m->[;1m checking for update for 'python-itunespy'[0m
@@ -305,15 +309,15 @@ discord-chat-exporter-cli: new version found - 2.36.2 => 2.36.3
   [1;34m->[;1m checking for update for 'python-pynput'[0m
 [32m          [UP-TO-DATE] [python-pynput][1.7.6-2] matches upstream version 1.7.6 [0m
   [1;34m->[;1m checking for update for 'python-pysubs2'[0m
-[32m          [UP-TO-DATE] [python-pysubs2][1.6.0-2] matches upstream version 1.6.0 [0m
+[32m          [UP-TO-DATE] [python-pysubs2][1.6.1-1] matches upstream version 1.6.1 [0m
   [1;34m->[;1m checking for update for 'python-pytube'[0m
-[37m             [UNKNOWN] [python-pytube][12.1.2-1] upstream version is 11.0.1 [0m
+[37m             [UNKNOWN] [python-pytube][12.1.3-1] upstream version is 11.0.1 [0m
   [1;34m->[;1m checking for update for 'python-simber'[0m
-[32m          [UP-TO-DATE] [python-simber][0.2.5-0] matches upstream version 0.2.5 [0m
+[32m          [UP-TO-DATE] [python-simber][0.2.6-0] matches upstream version 0.2.6 [0m
   [1;34m->[;1m checking for update for 'python-spotdl'[0m
-[32m          [UP-TO-DATE] [python-spotdl][4.0.6-1] matches upstream version 4.0.6 [0m
+[32m          [UP-TO-DATE] [python-spotdl][4.1.6-1] matches upstream version 4.1.6 [0m
   [1;34m->[;1m checking for update for 'python-spotipy'[0m
-[32m          [UP-TO-DATE] [python-spotipy][2.22.0-1] matches upstream version 2.22.0 [0m
+[32m          [UP-TO-DATE] [python-spotipy][2.23.0-1] matches upstream version 2.23.0 [0m
   [1;34m->[;1m checking for update for 'python-srt'[0m
 [37m             [UNKNOWN] [python-srt][3.5.2-1] Failed to obtain GitHub release for cdown/srt from https://api.github.com/repos/cdown/srt/releases/latest: No GitHub project found for cdown/srt on https://api.github.com/repos/cdown/srt/releases/latest [0m
   [1;34m->[;1m checking for update for 'python-torrequest'[0m
@@ -322,25 +326,25 @@ discord-chat-exporter-cli: new version found - 2.36.2 => 2.36.3
 [32m          [UP-TO-DATE] [python-webrtcvad][2.0.10-2] matches upstream version 2.0.10 [0m
   [1;34m->[;1m checking for update for 'python-youtube-search-git'[0m
   [1;34m->[;1m checking for update for 'python-ytmusicapi'[0m
-[32m          [UP-TO-DATE] [python-ytmusicapi][0.24.1-1] matches upstream version 0.24.1 [0m
+[31m         [OUT-OF-DATE] [python-ytmusicapi][0.25.0-1] should be updated to 1.0.1 [0m
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
-[31m         [OUT-OF-DATE] [qbittorrent-vuetorrent-bin][1.0.1-1] should be updated to 1.1.0 [0m
+[31m         [OUT-OF-DATE] [qbittorrent-vuetorrent-bin][1.5.3-1] should be updated to 1.5.4 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
-[32m          [UP-TO-DATE] [qrcp][0.9.1-1] matches upstream version 0.9.1 [0m
+[32m          [UP-TO-DATE] [qrcp][0.10.1-1] matches upstream version 0.10.1 [0m
   [1;34m->[;1m checking for update for 'qwinff'[0m
 [37m             [UNKNOWN] [qwinff][0.2.1-1] No release found for http://sourceforge.net/projects/qwinff/files/release/v0.2.1/qwinff_0.2.1.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'rate-mirrors-bin'[0m
-[32m          [UP-TO-DATE] [rate-mirrors-bin][0.11.1-1] matches upstream version 0.11.1 [0m
+[32m          [UP-TO-DATE] [rate-mirrors-bin][0.15.0-1] matches upstream version 0.15.0 [0m
   [1;34m->[;1m checking for update for 'raven-reader'[0m
-[31m         [OUT-OF-DATE] [raven-reader][1.0.72-1] should be updated to 1.0.78 [0m
+[31m         [OUT-OF-DATE] [raven-reader][1.0.72-1] should be updated to 1.0.79 [0m
   [1;34m->[;1m checking for update for 'raven-reader-bin'[0m
-[32m          [UP-TO-DATE] [raven-reader-bin][1.0.78-1] matches upstream version 1.0.78 [0m
+[32m          [UP-TO-DATE] [raven-reader-bin][1.0.79-1] matches upstream version 1.0.79 [0m
   [1;34m->[;1m checking for update for 'rclone-browser'[0m
 [32m          [UP-TO-DATE] [rclone-browser][1.8.0-3] matches upstream version 1.8.0 [0m
   [1;34m->[;1m checking for update for 'readability-cli'[0m
-[31m         [OUT-OF-DATE] [readability-cli][2.3.5-1] should be updated to 2.4.2 [0m
+[31m         [OUT-OF-DATE] [readability-cli][2.3.5-1] should be updated to 2.4.4 [0m
   [1;34m->[;1m checking for update for 'resvg'[0m
-[31m         [OUT-OF-DATE] [resvg][0.23.0-1] should be updated to 0.28.0 [0m
+[31m         [OUT-OF-DATE] [resvg][0.29.0-1] should be updated to 0.31.0 [0m
   [1;34m->[;1m checking for update for 'retroshare'[0m
 [32m          [UP-TO-DATE] [retroshare][0.6.6-2] matches upstream version 0.6.6 [0m
   [1;34m->[;1m checking for update for 'ricochet'[0m
@@ -352,7 +356,7 @@ discord-chat-exporter-cli: new version found - 2.36.2 => 2.36.3
   [1;34m->[;1m checking for update for 'rtags'[0m
 [32m          [UP-TO-DATE] [rtags][2.38-1] matches upstream version 2.38 [0m
   [1;34m->[;1m checking for update for 'runjs-bin'[0m
-[31m         [OUT-OF-DATE] [runjs-bin][2.7.1-1] should be updated to 2.7.4 [0m
+[31m         [OUT-OF-DATE] [runjs-bin][2.7.5-1] should be updated to 2.9.0 [0m
   [1;34m->[;1m checking for update for 'sherlock-git'[0m
   [1;34m->[;1m checking for update for 'siji-git'[0m
   [1;34m->[;1m checking for update for 'simple-mtpfs'[0m
@@ -362,15 +366,15 @@ discord-chat-exporter-cli: new version found - 2.36.2 => 2.36.3
   [1;34m->[;1m checking for update for 'sndcpy-bin'[0m
 [32m          [UP-TO-DATE] [sndcpy-bin][1.1-2] matches upstream version 1.1 [0m
   [1;34m->[;1m checking for update for 'speedometer'[0m
-[37m             [UNKNOWN] [speedometer][2.9-1] Failed to obtain GitHub release for wardi/speedometer from https://api.github.com/repos/wardi/speedometer/releases/latest: No GitHub project found for wardi/speedometer on https://api.github.com/repos/wardi/speedometer/releases/latest [0m
+[37m             [UNKNOWN] [speedometer][2.9-2] Failed to obtain GitHub release for wardi/speedometer from https://api.github.com/repos/wardi/speedometer/releases/latest: No GitHub project found for wardi/speedometer on https://api.github.com/repos/wardi/speedometer/releases/latest [0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
-[32m          [UP-TO-DATE] [spicetify-cli][2.15.0-1] matches upstream version 2.15.0 [0m
+[32m          [UP-TO-DATE] [spicetify-cli][2.17.2-1] matches upstream version 2.17.2 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
-[37m             [UNKNOWN] [spotify][1:1.1.84.716-3] No release found for spotify.protocol [0m
+[37m             [UNKNOWN] [spotify][1:1.2.8.923-1] No release found for spotify.protocol [0m
   [1;34m->[;1m checking for update for 'stacer'[0m
 [32m          [UP-TO-DATE] [stacer][1.1.0-1] matches upstream version 1.1.0 [0m
   [1;34m->[;1m checking for update for 'stretchly-bin'[0m
-[32m          [UP-TO-DATE] [stretchly-bin][1.13.1-1] matches upstream version 1.13.1 [0m
+[32m          [UP-TO-DATE] [stretchly-bin][1.14.0-1] matches upstream version 1.14.0 [0m
   [1;34m->[;1m checking for update for 'subuser'[0m
 [37m             [UNKNOWN] [subuser][0.6.2-1] Failed to obtain GitHub release for subuser-security/subuser from https://api.github.com/repos/subuser-security/subuser/releases/latest: No GitHub project found for subuser-security/subuser on https://api.github.com/repos/subuser-security/subuser/releases/latest [0m
   [1;34m->[;1m checking for update for 'surf'[0m
@@ -379,7 +383,7 @@ discord-chat-exporter-cli: new version found - 2.36.2 => 2.36.3
   [1;34m->[;1m checking for update for 'svg-term-cli'[0m
 [37m             [UNKNOWN] [svg-term-cli][2.1.1-1] No release found for svg-term-cli: %!w(<nil>) [0m
   [1;34m->[;1m checking for update for 'terser'[0m
-[31m         [OUT-OF-DATE] [terser][5.15.1-1] should be updated to 5.16.1 [0m
+[31m         [OUT-OF-DATE] [terser][5.16.1-1] should be updated to 5.17.1 [0m
   [1;34m->[;1m checking for update for 'themix-export-spotify-git'[0m
   [1;34m->[;1m checking for update for 'themix-full-git'[0m
   [1;34m->[;1m checking for update for 'themix-gui-git'[0m
@@ -399,7 +403,7 @@ discord-chat-exporter-cli: new version found - 2.36.2 => 2.36.3
   [1;34m->[;1m checking for update for 'tmpwatch'[0m
 [37m             [UNKNOWN] [tmpwatch][2.11-3] No release found for https://releases.pagure.org/tmpwatch/tmpwatch-2.11.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'tor-browser'[0m
-[37m             [UNKNOWN] [tor-browser][12.0.1-1] No release found for tor-browser.desktop.in [0m
+[37m             [UNKNOWN] [tor-browser][12.0.4-1] No release found for tor-browser.desktop.in [0m
   [1;34m->[;1m checking for update for 'tt-bin'[0m
 [32m          [UP-TO-DATE] [tt-bin][0.4.2-1] matches upstream version 0.4.2 [0m
   [1;34m->[;1m checking for update for 'ttf-anka-coder'[0m
@@ -415,9 +419,9 @@ discord-chat-exporter-cli: new version found - 2.36.2 => 2.36.3
   [1;34m->[;1m checking for update for 'tty-clock'[0m
 [37m             [UNKNOWN] [tty-clock][2.3-1] Failed to obtain GitHub release for xorg62/tty-clock from https://api.github.com/repos/xorg62/tty-clock/releases/latest: No GitHub project found for xorg62/tty-clock on https://api.github.com/repos/xorg62/tty-clock/releases/latest [0m
   [1;34m->[;1m checking for update for 'typora'[0m
-[37m             [UNKNOWN] [typora][1.4.7-1] No release found for https://typora.io/linux/typora_1.4.7_amd64.deb [0m
+[37m             [UNKNOWN] [typora][1.5.10-1] No release found for https://typora.io/linux/typora_1.5.10_amd64.deb [0m
   [1;34m->[;1m checking for update for 'uftrace'[0m
-[37m             [UNKNOWN] [uftrace][0.12-1] Failed to obtain GitHub release for namhyung/uftrace from https://api.github.com/repos/namhyung/uftrace/releases/latest: No GitHub project found for namhyung/uftrace on https://api.github.com/repos/namhyung/uftrace/releases/latest [0m
+[37m             [UNKNOWN] [uftrace][0.13.1-1] upstream version is 0.13 [0m
   [1;34m->[;1m checking for update for 'usbaudio-git'[0m
   [1;34m->[;1m checking for update for 'vanitygen-git'[0m
   [1;34m->[;1m checking for update for 'vimix-cursors'[0m
@@ -427,13 +431,13 @@ discord-chat-exporter-cli: new version found - 2.36.2 => 2.36.3
   [1;34m->[;1m checking for update for 'vrms-arch'[0m
 [37m             [UNKNOWN] [vrms-arch][0.1.0.r25.g802c767-1] Failed to obtain GitHub release for orospakr/vrms-arch.git from https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest: No GitHub project found for orospakr/vrms-arch.git on https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'vscodium-bin'[0m
-[32m          [UP-TO-DATE] [vscodium-bin][1.74.2.22355-1] matches upstream version 1.74.2.22355 [0m
+[32m          [UP-TO-DATE] [vscodium-bin][1.77.3.23102-1] matches upstream version 1.77.3.23102 [0m
   [1;34m->[;1m checking for update for 'waydroid'[0m
-[37m             [UNKNOWN] [waydroid][1.3.3-1] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
+[37m             [UNKNOWN] [waydroid][1.4.0-2] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
-[37m             [UNKNOWN] [waydroid-image][18.1_20221210-1] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-18.1-20221210-VANILLA-waydroid_x86_64-system.zip [0m
+[37m             [UNKNOWN] [waydroid-image][18.1_20230415-1] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-18.1-20230415-VANILLA-waydroid_x86_64-system.zip [0m
   [1;34m->[;1m checking for update for 'webtorrent-bittorrent-tracker'[0m
-[32m          [UP-TO-DATE] [webtorrent-bittorrent-tracker][10.0.1-1] matches upstream version 10.0.1 [0m
+[31m         [OUT-OF-DATE] [webtorrent-bittorrent-tracker][10.0.1-1] should be updated to 10.0.2 [0m
   [1;34m->[;1m checking for update for 'webtorrent-cli'[0m
 [32m          [UP-TO-DATE] [webtorrent-cli][4.1.0-1] matches upstream version 4.1.0 [0m
   [1;34m->[;1m checking for update for 'webtorrent-desktop-bin'[0m
@@ -441,17 +445,17 @@ discord-chat-exporter-cli: new version found - 2.36.2 => 2.36.3
   [1;34m->[;1m checking for update for 'webtty'[0m
 [32m          [UP-TO-DATE] [webtty][0.5.1-1] matches upstream version 0.5.1 [0m
   [1;34m->[;1m checking for update for 'wttr'[0m
-[32m          [UP-TO-DATE] [wttr][1.2.1-2] matches upstream version 1.2.1 [0m
+[32m          [UP-TO-DATE] [wttr][1.55-2] matches upstream version 1.55 [0m
   [1;34m->[;1m checking for update for 'x11docker'[0m
-[32m          [UP-TO-DATE] [x11docker][7.4.2-1] matches upstream version 7.4.2 [0m
+[32m          [UP-TO-DATE] [x11docker][7.6.0-1] matches upstream version 7.6.0 [0m
   [1;34m->[;1m checking for update for 'xinput-gui'[0m
 [32m          [UP-TO-DATE] [xinput-gui][0.3.1-1] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'xmind'[0m
-[37m             [UNKNOWN] [xmind][22.11.2677-1] No release found for https://dl3.xmind.net/Xmind-for-Linux-amd64bit-22.11.2677.deb [0m
+[37m             [UNKNOWN] [xmind][22.11.3656-1] No release found for https://dl3.xmind.net/Xmind-for-Linux-amd64bit-22.11.3656.deb [0m
   [1;34m->[;1m checking for update for 'yay-bin'[0m
-[32m          [UP-TO-DATE] [yay-bin][11.3.1-1] matches upstream version 11.3.1 [0m
+[32m          [UP-TO-DATE] [yay-bin][12.0.4-1] matches upstream version 12.0.4 [0m
   [1;34m->[;1m checking for update for 'youtube-dl-gui-git'[0m
   [1;34m->[;1m checking for update for 'ytmdl-git'[0m
   [1;34m->[;1m checking for update for 'zoom'[0m
-[37m             [UNKNOWN] [zoom][5.13.3-1] No release found for zoom-5.13.3.651_orig_x86_64.pkg.tar.xz::https://cdn.zoom.us/prod/5.13.3.651/zoom_x86_64.pkg.tar.xz [0m
+[37m             [UNKNOWN] [zoom][5.14.5-1] No release found for zoom-5.14.5.2430_orig_x86_64.pkg.tar.xz::https://cdn.zoom.us/prod/5.14.5.2430/zoom_x86_64.pkg.tar.xz [0m
   [1;34m->[;1m done.[0m

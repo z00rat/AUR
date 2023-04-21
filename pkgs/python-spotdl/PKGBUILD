@@ -1,62 +1,67 @@
 # Maintainer: zoorat <zoorat [at] protonmail [dot] com>
 # Maintainer: Amin Vakil <info AT aminvakil DOT com>
+# Contributor: txtsd <aur.archlinux@ihavea.quest>
 # Contributor: Tim Schumacher <timschumi@gmx.de>
 # Contributor: Felix Yan <felixonmars@archlinux.org>
 # Contributor: Gordian Edenhofer <gordian.edenhofer[at]yahoo[dot]de>
 
 pkgname=python-spotdl
-pkgver=4.0.6
+pkgver=4.1.6
 pkgrel=1
 
-pkgdesc="Download your Spotify playlists and songs along with album art and metadata (from YouTube if a match is found)."
+pkgdesc='Download your Spotify playlists and songs along with album art and metadata (from YouTube if a match is found).'
 arch=('any')
-url="https://github.com/spotDL/spotify-downloader"
+url='https://github.com/spotDL/spotify-downloader'
 license=('MIT')
 
-depends=('python'
+depends=(
 	'ffmpeg'
-	'python-spotipy'
-	'python-pytube'
-	'python-rich'
-	'python-rapidfuzz'
-	'python-mutagen'
-	'python-ytmusicapi'
-	'yt-dlp'
-	'python-tqdm'
+	'python'
 	'python-beautifulsoup4'
-	'python-requests'
-	'python-unidecode'
-	'python-pycryptodomex'
-	'python-websockets'
-	'python-async-timeout'
-	'python-packaging'
-	'python-setuptools'
-	'python-brotli'
-	'python-slugify'
-	'python-nest-asyncio'
 	'python-fastapi'
-	'uvicorn'
+	'python-mutagen'
 	'python-platformdirs'
-	'python-jarowinkler')
-provides=("$pkgname" "spotdl")
+	'python-pydantic'
+	'python-pykakasi'
+	'python-pytube'
+	'python-rapidfuzz'
+	'python-requests'
+	'python-rich'
+	'python-slugify'
+	'python-spotipy'
+	'python-syncedlyrics'
+	'python-typing-extensions'
+	'python-ytmusicapi'
+	'uvicorn'
+	'yt-dlp'
+)
+makedepends=('python-build' 'python-installer' 'python-wheel' 'python-poetry-core')
+checkdepends=('python-pytest-asyncio')
+provides=("$pkgname" 'spotdl')
 options=(strip emptydirs zipman)
 # install="spotdl.install"
 
 source=("https://pypi.io/packages/source/s/spotdl/spotdl-$pkgver.tar.gz")
-b2sums=('af7337437a39dd8bc143809f5d9161713916816d473bbd1aec380584e6e39e6c48e81c6403a155f11768eedeb637e7859ee19dc44736ab3961cbec1225576505')
+# source=("https://github.com/spotDL/spotify-downloader/archive/refs/tags/v$pkgver.zip")
+b2sums=('35c651c78b02c2f38cfc43df80c5d2076a44a106b1ee9ba7bea276a02db8f19c1f11ba11f8942e42656b56f2b1a38874f28014fd5ca238a1b40fcb0a94dc7397')
 
 # Document: https://wiki.archlinux.org/title/Python_package_guidelines
 build() {
 	pushd spotdl-$pkgver
-	python setup.py build
+	# https://github.com/python-poetry/poetry/issues/5547
+	GIT_DIR=. python -m build --wheel --no-isolation
+	popd
+}
+
+check() {
+	pushd spotdl-$pkgver
+	pytest || echo 'Tests failed!'
 	popd
 }
 
 package() {
 	pushd spotdl-$pkgver
-	python setup.py install --root="$pkgdir" --optimize=1
+	python -m installer --destdir="$pkgdir" dist/*.whl
 	install -vDm 644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
-	local site_packages=$(python -c "import site; print(site.getsitepackages()[0])")
-	rm -rf "${pkgdir}${site_packages}/tests/"
 	popd
 }

@@ -10,12 +10,10 @@ url='https://github.com/evilsocket/opensnitch'
 license=('GPL3')
 depends=(
     'libnetfilter_queue'
-    'libpcap'
     'python-grpcio'
     'python-protobuf'
     'python-slugify'
     'python-pyqt5'
-    'abseil-cpp'
     'python-pyinotify'
     'python-notify2'
 )
@@ -86,7 +84,7 @@ build() {
     pushd ui
     make translations
     pyrcc5 -o opensnitch/resources_rc.py opensnitch/res/resources.qrc
-    sed -i 's/^import ui_pb2/from . import ui_pb2/' opensnitch/ui_pb2*
+	sed -i 's/^import ui_pb2/from . import ui_pb2/' opensnitch/ui_pb2*
     python setup.py build
     rm -rf build/lib/tests
     popd
@@ -104,6 +102,6 @@ package() {
     install -Dm644 debian/opensnitch.logrotate "$pkgdir/etc/logrotate.d/opensnitch"
 
     pushd ui
-    python setup.py install --root="$pkgdir/" --optimize=1 --skip-build
+    python setup.py install --root="$pkgdir/" --optimize=2 --skip-build
     popd
 }
