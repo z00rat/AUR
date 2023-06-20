@@ -135,10 +135,6 @@
 	path = repos/google-chrome
 	url = ssh://aur@aur.archlinux.org/google-chrome.git
 	branch = master
-[submodule "repos/hakuneko-desktop"]
-	path = repos/hakuneko-desktop
-	url = ssh://aur@aur.archlinux.org/hakuneko-desktop.git
-	branch = master
 [submodule "repos/heroku-cli-bin"]
 	path = repos/heroku-cli-bin
 	url = ssh://aur@aur.archlinux.org/heroku-cli-bin.git
