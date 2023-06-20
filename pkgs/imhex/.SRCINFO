@@ -1,7 +1,7 @@
 pkgbase = imhex
 	pkgdesc = A Hex Editor for Reverse Engineers, Programmers and people that value their eye sight when working at 3 AM
-	pkgver = 1.28.0
-	pkgrel = 2
+	pkgver = 1.29.0
+	pkgrel = 3
 	url = https://imhex.werwolv.net
 	arch = x86_64
 	license = GPL2
@@ -22,20 +22,20 @@ pkgbase = imhex
 	depends = xdg-desktop-portal
 	depends = fmt
 	depends = yara
-	optdepends = imhex-patterns-git: ImHex base patterns
 	provides = imhex-patterns
 	conflicts = imhex-patterns-git
 	options = !lto
 	options = !strip
-	source = imhex::git+https://github.com/WerWolv/ImHex.git#tag=v1.28.0
-	source = nativefiledialog::git+https://github.com/btzy/nativefiledialog-extended.git
-	source = xdgpp::git+https://git.sr.ht/~danyspin97/xdgpp
-	source = libromfs::git+https://github.com/WerWolv/libromfs
-	source = capstone::git+https://github.com/capstone-engine/capstone#branch=next
-	source = libwolv::git+https://github.com/WerWolv/libwolv
-	source = pattern_language::git+https://github.com/WerWolv/PatternLanguage#tag=ImHex-v1.28.0
-	source = imhex-patterns::git+https://github.com/WerWolv/ImHex-Patterns#tag=ImHex-v1.28.0
+	source = imhex::git+https://github.com/WerWolv/ImHex.git#tag=v1.29.0
+	source = nativefiledialog::git+https://github.com/btzy/nativefiledialog-extended.git#tag=v1.0.3
+	source = xdgpp::git+https://git.sr.ht/~danyspin97/xdgpp#commit=f01f810714443d0f10c333d4d1d9c0383be41375
+	source = libromfs::git+https://github.com/WerWolv/libromfs#commit=80b9adea2003eb01fa4cf2ecb0d77f2d9c0dd32a
+	source = capstone::git+https://github.com/capstone-engine/capstone#commit=e9fd6f4800be1584124e9eee92cf15ab947d33ec
+	source = libwolv::git+https://github.com/WerWolv/libwolv#commit=49489507989d767d131342cf3e2c192288cecf14
+	source = pattern_language::git+https://github.com/WerWolv/PatternLanguage#tag=ImHex-v1.29.0
+	source = imhex-patterns::git+https://github.com/WerWolv/ImHex-Patterns#tag=ImHex-v1.29.0
 	source = 0001-makepkg-Fix-compiler-check.patch
+	source = 0002-fix-Force-entropy-and-type-distribution-graphs-to-al.patch
 	source = pl-0001-Use-C-23-standard.patch
 	source = pl-0002-makepkg-Remove-extraneous-compiler-flags.patch
 	sha256sums = SKIP
@@ -46,9 +46,10 @@ pkgbase = imhex
 	sha256sums = SKIP
 	sha256sums = SKIP
 	sha256sums = SKIP
-	sha256sums = 43bdbbb6edf567201fa52f1c695f77fea9a27dd5c62de615ef74d64a5e676a98
-	sha256sums = 4c3e667d40eabe2a5ea724125c69f73bcb6774c01db9ad97bc6b633e1c284fc5
-	sha256sums = 7a7f17c95bfe9de4cda023aa29dfa019ea2870c29e14fa559c2be8b725649d57
+	sha256sums = 69c53a429d7b6bbe47c1602ff6cfaac6d28d495f96604b5395f0a0d12154c61b
+	sha256sums = 8429bf0b8f2b2631a21baccc094e85d0634941f3d8b818cbb4d75aef7529a2cd
+	sha256sums = 16316b5a6354156bc0ce53a3e81d80ef990af7e3626b7ea4348b866bb339ef13
+	sha256sums = ddbfeda031ccc161d3e3f3918207d6f7132cec72ff554ef82910da70214280ce
 	b2sums = SKIP
 	b2sums = SKIP
 	b2sums = SKIP
@@ -57,8 +58,9 @@ pkgbase = imhex
 	b2sums = SKIP
 	b2sums = SKIP
 	b2sums = SKIP
-	b2sums = 99e8c5fb5dc0ad07039731c3245bec097de25e675be0f5c52c799738d794ee26df6506adf34fac42663dd39f1c84e7e1675aac5b2f47ef4f2d5ebb903ad4b3a3
-	b2sums = ca3779e974709fa15e55255973eb2ff34fb21251c9f8b00c5b2efcfb175add34b503063984589c8d716b650a9543aa19dc2185b2f531ab8d4363635724114199
-	b2sums = cc2c7d42f18bfb5da0c962b1f3a98c19aec541df9464a3a7a4ac118def9f81e41ac38967c95aba1bc17b3b48630dcef5c9c51bbaf8eed4f386c9aa46a21d2d78
+	b2sums = a09884dea7ee74dc75abd9437e2329ee454cdc4cd90dbe388d671d73ed3f6dd56ef9992c4cd0dd2937cc8eb0b67539791bd64ec76c6bb6c25a959691ba1cfb41
+	b2sums = 34a08efbc1d3e78ab6d4babe49f3bb735f8a99ba03c1aa7a208abcd31f84576562f653ecc2057515468600f584d9d1ebc27071976f83fff989a75634b98efccf
+	b2sums = ed86730af8972c6b92408f8e829d0d16ab863b23ffcd51d234371f89ce8e2194083215a1a37b3cd324ddc1c767770a1c43369d90be49fc632b4917df7d542529
+	b2sums = 6ad02f4bcfe406b23ae724e20766dbf4d32b88d63e83663baad191390002907a04c7ccd86c3640a651a46aa6db2f0889e27c5c26f4851730dc2edccf914d2ba2
 
 pkgname = imhex

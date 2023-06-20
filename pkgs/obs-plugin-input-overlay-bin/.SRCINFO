@@ -1,17 +1,19 @@
 pkgbase = obs-plugin-input-overlay-bin
 	pkgdesc = obs-studio plugin to show keyboard, gamepad and mouse input on stream.
-	pkgver = 4.8
+	pkgver = 5.0.4
 	pkgrel = 1
 	url = https://github.com/univrsal/input-overlay
 	arch = x86_64
 	groups = obs-plugins
 	license = GPL
-	makedepends = unzip
-	depends = obs-studio>=19.0.3
+	depends = obs-studio>=28.0.0
 	depends = libuiohook
 	provides = obs-input-overlay
 	conflicts = obs-input-overlay
-	source = https://github.com/univrsal/input-overlay/releases/download/v4.8/input-overlay.v4.8b.linux64.zip
-	sha256sums = cdd1ccdd0580770ec3836b26c7d7f2ac0324ed2ddfdb4008ada0bc9ad8464358
+	noextract = input-overlay-5.0.4-presets.zip
+	source = https://github.com/univrsal/input-overlay/releases/download/v5.0.4/input-overlay-5.0.4-linux-x86_64.zip
+	source = https://github.com/univrsal/input-overlay/releases/download/v5.0.4/input-overlay-5.0.4-presets.zip
+	sha256sums = 556a6cc643f5a242161f9ba71c24fa750d12e7d8e2298c8a89a78d6169a009ec
+	sha256sums = efdc9d65dd9ed8c0670159b5697284b55c8057aea5a508afde634a23c799d698
 
 pkgname = obs-plugin-input-overlay-bin

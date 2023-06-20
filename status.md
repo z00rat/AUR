@@ -1,10 +1,11 @@
   [1;34m->[;1m number of packags that are 242 tracked[0m
-  [1;34m->[;1m number of packages that are 38 installed[0m
+  [1;34m->[;1m number of packages that are 32 installed[0m
   [1;34m->[;1m packages that are not tracked but installed in the system...[0m
 python-bs4
 python-jaconv
+python-jarowinkler
 python-pykakasi
-python-syncedlyrics
+python-rapidfuzz-capi
 trizen
 youtube-search-python
 ytmdl
@@ -25,6 +26,7 @@ bashmount
 bats
 betterdiscordctl-git
 betterdiscord-installer
+betterdiscord-installer-bin
 betterlockscreen
 bibata-cursor-theme
 bibata-cursor-theme-bin
@@ -67,6 +69,7 @@ fontpreview
 fsearch-git
 fswatch
 gconf-cleaner
+gconf-gtk2
 gitify-bin
 google-chrome
 guiscrcpy
@@ -121,6 +124,7 @@ opencomic-bin
 opensnitch
 opensnitch-git
 p7zip-gui
+parse-torrent
 passivedns-git
 patat-bin
 picom-ibhagwan-git
@@ -129,6 +133,7 @@ pipes.sh
 play-with-mpv-git
 plymouth-theme-arch10
 pm2ml
+pnpm
 popcorntime-bin
 powerpill
 python2-twodict-git
@@ -144,6 +149,7 @@ python-gtts
 python-gtts-token
 python-pynput
 python-pysubs2
+python-spotdl
 python-srt
 python-torrequest
 python-webrtcvad
@@ -152,6 +158,7 @@ python-ytmusicapi
 qbittorrent-vuetorrent-bin
 qrcp
 qwinff
+raven-reader
 raven-reader-bin
 rclone-browser
 readability-cli
@@ -211,6 +218,7 @@ vrms-arch
 vscodium-bin
 waydroid
 waydroid-image
+webtorrent-bittorrent-tracker
 webtorrent-desktop-bin
 webtty
 wttr
