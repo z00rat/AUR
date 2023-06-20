@@ -299,10 +299,6 @@
 	path = repos/resvg
 	url = ssh://aur@aur.archlinux.org/resvg.git
 	branch = master
-[submodule "repos/ricochet"]
-	path = repos/ricochet
-	url = ssh://aur@aur.archlinux.org/ricochet.git
-	branch = master
 [submodule "repos/robo3t-bin"]
 	path = repos/robo3t-bin
 	url = ssh://aur@aur.archlinux.org/robo3t-bin.git
