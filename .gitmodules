@@ -547,10 +547,6 @@
 	path = repos/vimix-cursors
 	url = ssh://aur@aur.archlinux.org/vimix-cursors.git
 	branch = master
-[submodule "repos/opensnitch"]
-	path = repos/opensnitch
-	url = ssh://aur@aur.archlinux.org/opensnitch.git
-	branch = master
 [submodule "repos/typora"]
 	path = repos/typora
 	url = ssh://aur@aur.archlinux.org/typora.git
