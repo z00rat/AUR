@@ -279,10 +279,6 @@
 	path = repos/python-youtube-search-git
 	url = ssh://aur@aur.archlinux.org/python-youtube-search-git.git
 	branch = master
-[submodule "repos/python-ytmusicapi"]
-	path = repos/python-ytmusicapi
-	url = ssh://aur@aur.archlinux.org/python-ytmusicapi.git
-	branch = master
 [submodule "repos/python2-twodict-git"]
 	path = repos/python2-twodict-git
 	url = ssh://aur@aur.archlinux.org/python2-twodict-git.git
