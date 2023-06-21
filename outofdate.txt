@@ -3,11 +3,9 @@
   [1;34m->[;1m listing already flaged packages[0m
 ytmdl
   [1;34m->[;1m running pkgoutofdate[0m
-pnpm: new version found - 8.6.0 => 8.6.1
 patat-bin: new version found - 0.8.7.0 => 0.8.8.0
-opensnitch: new version found - 1.5.2 => 1.5.3
+onedrive-abraunegg: new version found - 2.4.24 => 2.4.25
 drawio-desktop-bin: new version found - 21.4.0 => 21.5.0
-betterdiscord-installer-bin: new version found - 1.2.1 => 1.3.0
 advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
@@ -46,7 +44,7 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'betterdiscord-installer'[0m
 [32m          [UP-TO-DATE] [betterdiscord-installer][1.3.0-1] matches upstream version 1.3.0 [0m
   [1;34m->[;1m checking for update for 'betterdiscord-installer-bin'[0m
-[31m         [OUT-OF-DATE] [betterdiscord-installer-bin][1.2.1-1] should be updated to 1.3.0 [0m
+[32m          [UP-TO-DATE] [betterdiscord-installer-bin][1.3.0-1] matches upstream version 1.3.0 [0m
   [1;34m->[;1m checking for update for 'betterlockscreen'[0m
 [32m          [UP-TO-DATE] [betterlockscreen][4.0.4-2] matches upstream version 4.0.4 [0m
   [1;34m->[;1m checking for update for 'bibata-cursor-theme'[0m
@@ -62,17 +60,17 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'bubblejail'[0m
 [32m          [UP-TO-DATE] [bubblejail][0.7.0-1] matches upstream version 0.7.0 [0m
   [1;34m->[;1m checking for update for 'burpsuite'[0m
-[37m             [UNKNOWN] [burpsuite][2023.6-1] No release found for burpsuite-2023.6.jar::https://portswigger.net/burp/releases/download?product=community&version=2023.6&type=Jar [0m
+[37m             [UNKNOWN] [burpsuite][2023.6.1-1] No release found for burpsuite-2023.6.1.jar::https://portswigger.net/burp/releases/download?product=community&version=2023.6.1&type=Jar [0m
   [1;34m->[;1m checking for update for 'cava'[0m
 [32m          [UP-TO-DATE] [cava][0.8.3-1] matches upstream version 0.8.3 [0m
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
-[32m          [UP-TO-DATE] [cloudflared-bin][2023.6.0-1] matches upstream version 2023.6.0 [0m
+[31m         [OUT-OF-DATE] [cloudflared-bin][2023.6.0-1] should be updated to 2023.6.1 [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
 [31m         [OUT-OF-DATE] [code-features][1.79.0-1] should be updated to 1.79.2 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
 [37m             [UNKNOWN] [code-marketplace][1.78.0-1] No release found for code-marketplace.hook [0m
   [1;34m->[;1m checking for update for 'code-server'[0m
-[31m         [OUT-OF-DATE] [code-server][4.13.0-1] should be updated to 4.14.0 [0m
+[32m          [UP-TO-DATE] [code-server][4.14.0-1] matches upstream version 4.14.0 [0m
   [1;34m->[;1m checking for update for 'cointop'[0m
 [32m          [UP-TO-DATE] [cointop][1.6.10-1] matches upstream version 1.6.10 [0m
   [1;34m->[;1m checking for update for 'cointop-bin'[0m
@@ -91,8 +89,6 @@ advcpmv: new version found - 9.2 => 9.3
 [31m         [OUT-OF-DATE] [discord-chat-exporter-cli][2.39.1-1] should be updated to 2.40 [0m
   [1;34m->[;1m checking for update for 'discord-ptb'[0m
 [37m             [UNKNOWN] [discord-ptb][0.0.42-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.42/discord-ptb-0.0.42.tar.gz [0m
-  [1;34m->[;1m checking for update for 'dive'[0m
-[32m          [UP-TO-DATE] [dive][0.10.0-2] matches upstream version 0.10.0 [0m
   [1;34m->[;1m checking for update for 'docker-systemctl-replacement-git'[0m
   [1;34m->[;1m checking for update for 'downloader-cli'[0m
 [32m          [UP-TO-DATE] [downloader-cli][0.3.3-0] matches upstream version 0.3.3 [0m
@@ -147,8 +143,6 @@ advcpmv: new version found - 9.2 => 9.3
 [37m             [UNKNOWN] [google-chrome][114.0.5735.133-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_114.0.5735.133-1_amd64.deb [0m
   [1;34m->[;1m checking for update for 'guiscrcpy'[0m
 [37m             [UNKNOWN] [guiscrcpy][1:2023.1.1-1] Failed to obtain GitHub release for srevinsaju/guiscrcpy.git from https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest: No GitHub project found for srevinsaju/guiscrcpy.git on https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest [0m
-  [1;34m->[;1m checking for update for 'hakuneko-desktop'[0m
-[32m          [UP-TO-DATE] [hakuneko-desktop][6.1.7-2] matches upstream version 6.1.7 [0m
   [1;34m->[;1m checking for update for 'heroku-cli-bin'[0m
 [37m             [UNKNOWN] [heroku-cli-bin][7.62.0-1] Failed to obtain GitHub release for SampsonCrowley/heroku-cli-bin from https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest: No GitHub project found for SampsonCrowley/heroku-cli-bin on https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest [0m
   [1;34m->[;1m checking for update for 'hollywood'[0m
@@ -165,11 +159,11 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'jiq-bin'[0m
 [32m          [UP-TO-DATE] [jiq-bin][0.7.2-1] matches upstream version 0.7.2 [0m
   [1;34m->[;1m checking for update for 'jmtpfs'[0m
-[37m             [UNKNOWN] [jmtpfs][0.5-3] Failed to obtain GitHub release for JasonFerrara/jmtpfs from https://api.github.com/repos/JasonFerrara/jmtpfs/releases/latest: Get "https://api.github.com/repos/JasonFerrara/jmtpfs/releases/latest": net/http: TLS handshake timeout [0m
+[37m             [UNKNOWN] [jmtpfs][0.5-3] Failed to obtain GitHub release for JasonFerrara/jmtpfs from https://api.github.com/repos/JasonFerrara/jmtpfs/releases/latest: No GitHub project found for JasonFerrara/jmtpfs on https://api.github.com/repos/JasonFerrara/jmtpfs/releases/latest [0m
   [1;34m->[;1m checking for update for 'keeweb-desktop-bin'[0m
 [32m          [UP-TO-DATE] [keeweb-desktop-bin][1.18.7-1] matches upstream version 1.18.7 [0m
   [1;34m->[;1m checking for update for 'lib32-jack'[0m
-[37m             [UNKNOWN] [lib32-jack][0.126.0-1] Failed to obtain GitHub release for jackaudio/jack1.git from https://api.github.com/repos/jackaudio/jack1.git/releases/latest: Get "https://api.github.com/repos/jackaudio/jack1.git/releases/latest": net/http: TLS handshake timeout [0m
+[37m             [UNKNOWN] [lib32-jack][0.126.0-1] Failed to obtain GitHub release for jackaudio/jack1.git from https://api.github.com/repos/jackaudio/jack1.git/releases/latest: No GitHub project found for jackaudio/jack1.git on https://api.github.com/repos/jackaudio/jack1.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'libgbinder'[0m
 [37m             [UNKNOWN] [libgbinder][1.1.34-1] Failed to obtain GitHub release for mer-hybris/libgbinder.git from https://api.github.com/repos/mer-hybris/libgbinder.git/releases/latest: No GitHub project found for mer-hybris/libgbinder.git on https://api.github.com/repos/mer-hybris/libgbinder.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'libglibutil'[0m
@@ -205,9 +199,9 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'msg2'[0m
 [37m             [UNKNOWN] [msg2][1.2.0-2] No release found for https://roboticoverlords.org/msg2/msg2-1.2.0.tar.xz [0m
   [1;34m->[;1m checking for update for 'mymonero'[0m
-[37m             [UNKNOWN] [mymonero][1.3.3-1] Failed to obtain GitHub release for mymonero/mymonero-app-js from https://api.github.com/repos/mymonero/mymonero-app-js/releases/latest: Get "https://api.github.com/repos/mymonero/mymonero-app-js/releases/latest": net/http: TLS handshake timeout [0m
+[32m          [UP-TO-DATE] [mymonero][1.3.3-1] matches upstream version 1.3.3 [0m
   [1;34m->[;1m checking for update for 'nodejs-autocannon'[0m
-[31m         [OUT-OF-DATE] [nodejs-autocannon][7.10.0-1] should be updated to 7.11.0 [0m
+[32m          [UP-TO-DATE] [nodejs-autocannon][7.11.0-1] matches upstream version 7.11.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-clinic'[0m
 [32m          [UP-TO-DATE] [nodejs-clinic][12.1.0-1] matches upstream version 12.1.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-csso'[0m
@@ -219,7 +213,7 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'nodejs-mapscii'[0m
 [32m          [UP-TO-DATE] [nodejs-mapscii][0.3.1-4] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'nodejs-nodemon'[0m
-[37m             [UNKNOWN] [nodejs-nodemon][2.0.22-1] No npm release found for nodemon: Get "https://registry.npmjs.org/-/package/nodemon/dist-tags": net/http: TLS handshake timeout [0m
+[32m          [UP-TO-DATE] [nodejs-nodemon][2.0.22-1] matches upstream version 2.0.22 [0m
   [1;34m->[;1m checking for update for 'nodejs-npm2arch'[0m
 [32m          [UP-TO-DATE] [nodejs-npm2arch][2.2.0-1] matches upstream version 2.2.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-ungit'[0m
@@ -239,18 +233,16 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'obs-v4l2sink'[0m
 [32m          [UP-TO-DATE] [obs-v4l2sink][0.1.0-23] matches upstream version 0.1.0 [0m
   [1;34m->[;1m checking for update for 'onedrive-abraunegg'[0m
-[32m          [UP-TO-DATE] [onedrive-abraunegg][2.4.24-2] matches upstream version 2.4.24 [0m
+[31m         [OUT-OF-DATE] [onedrive-abraunegg][2.4.24-2] should be updated to 2.4.25 [0m
   [1;34m->[;1m checking for update for 'onioncircuits'[0m
 [32m          [UP-TO-DATE] [onioncircuits][0.7-1] matches upstream version 0.7 [0m
   [1;34m->[;1m checking for update for 'opencomic-bin'[0m
 [32m          [UP-TO-DATE] [opencomic-bin][0.2.1-3] matches upstream version 0.2.1 [0m
-  [1;34m->[;1m checking for update for 'opensnitch'[0m
-[32m          [UP-TO-DATE] [opensnitch][1.5.2-1] matches upstream version 1.5.2 [0m
   [1;34m->[;1m checking for update for 'opensnitch-git'[0m
   [1;34m->[;1m checking for update for 'p7zip-gui'[0m
 [37m             [UNKNOWN] [p7zip-gui][16.02-8] No release found for https://downloads.sourceforge.net/project/p7zip/p7zip/16.02/p7zip_16.02_src_all.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'parse-torrent'[0m
-[31m         [OUT-OF-DATE] [parse-torrent][11.0.8-1] should be updated to 11.0.12 [0m
+[32m          [UP-TO-DATE] [parse-torrent][11.0.12-1] matches upstream version 11.0.12 [0m
   [1;34m->[;1m checking for update for 'paru-bin'[0m
 [32m          [UP-TO-DATE] [paru-bin][1.11.2-1] matches upstream version 1.11.2 [0m
   [1;34m->[;1m checking for update for 'passivedns-git'[0m
@@ -269,8 +261,6 @@ advcpmv: new version found - 9.2 => 9.3
 [32m          [UP-TO-DATE] [plymouth-theme-arch10][1-1] matches upstream version 1 [0m
   [1;34m->[;1m checking for update for 'pm2ml'[0m
 [37m             [UNKNOWN] [pm2ml][2021.11.20.1-4] No release found for https://xyne.dev/projects/pm2ml/src/pm2ml-2021.11.20.1.tar.xz [0m
-  [1;34m->[;1m checking for update for 'pnpm'[0m
-[31m         [OUT-OF-DATE] [pnpm][8.6.0-1] should be updated to 8.6.3 [0m
   [1;34m->[;1m checking for update for 'popcorntime-bin'[0m
 [32m          [UP-TO-DATE] [popcorntime-bin][0.4.9-1] matches upstream version 0.4.9 [0m
   [1;34m->[;1m checking for update for 'powerpill'[0m
@@ -286,8 +276,6 @@ advcpmv: new version found - 9.2 => 9.3
 [32m          [UP-TO-DATE] [python-auditok][0.2.0-1] matches upstream version 0.2.0 [0m
   [1;34m->[;1m checking for update for 'python-fangfrisch'[0m
 [32m          [UP-TO-DATE] [python-fangfrisch][1.6.1-2] matches upstream version 1.6.1 [0m
-  [1;34m->[;1m checking for update for 'python-ffmpeg'[0m
-[37m             [UNKNOWN] [python-ffmpeg][0.2.0-6] No release found for python-ffmpeg: %!w(<nil>) [0m
   [1;34m->[;1m checking for update for 'python-ffsubsync'[0m
 [37m             [UNKNOWN] [python-ffsubsync][0.4.23-2] upstream version is 0.4.22 [0m
   [1;34m->[;1m checking for update for 'python-future-annotations'[0m
@@ -318,13 +306,9 @@ advcpmv: new version found - 9.2 => 9.3
 [37m             [UNKNOWN] [python-srt][3.5.3-1] Failed to obtain GitHub release for cdown/srt from https://api.github.com/repos/cdown/srt/releases/latest: No GitHub project found for cdown/srt on https://api.github.com/repos/cdown/srt/releases/latest [0m
   [1;34m->[;1m checking for update for 'python-torrequest'[0m
 [32m          [UP-TO-DATE] [python-torrequest][0.1.0-3] matches upstream version 0.1.0 [0m
-  [1;34m->[;1m checking for update for 'python-webrtcvad'[0m
-[32m          [UP-TO-DATE] [python-webrtcvad][2.0.10-2] matches upstream version 2.0.10 [0m
   [1;34m->[;1m checking for update for 'python-youtube-search-git'[0m
-  [1;34m->[;1m checking for update for 'python-ytmusicapi'[0m
-[31m         [OUT-OF-DATE] [python-ytmusicapi][0.25.0-1] should be updated to 1.1.0 [0m
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
-[32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][1.5.10-1] matches upstream version 1.5.10 [0m
+[32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][1.5.11-1] matches upstream version 1.5.11 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
 [32m          [UP-TO-DATE] [qrcp][0.10.1-1] matches upstream version 0.10.1 [0m
   [1;34m->[;1m checking for update for 'qwinff'[0m
@@ -337,14 +321,10 @@ advcpmv: new version found - 9.2 => 9.3
 [32m          [UP-TO-DATE] [raven-reader-bin][1.0.80-1] matches upstream version 1.0.80 [0m
   [1;34m->[;1m checking for update for 'rclone-browser'[0m
 [32m          [UP-TO-DATE] [rclone-browser][1.8.0-3] matches upstream version 1.8.0 [0m
-  [1;34m->[;1m checking for update for 'readability-cli'[0m
-[31m         [OUT-OF-DATE] [readability-cli][2.3.5-1] should be updated to 2.4.4 [0m
   [1;34m->[;1m checking for update for 'resvg'[0m
 [32m          [UP-TO-DATE] [resvg][0.34.1-1] matches upstream version 0.34.1 [0m
   [1;34m->[;1m checking for update for 'retroshare'[0m
 [32m          [UP-TO-DATE] [retroshare][0.6.6-2] matches upstream version 0.6.6 [0m
-  [1;34m->[;1m checking for update for 'ricochet'[0m
-[37m             [UNKNOWN] [ricochet][1.1.4-2] No release found for https://ricochet.im/releases/1.1.4/ricochet-1.1.4-src.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'robo3t-bin'[0m
 [32m          [UP-TO-DATE] [robo3t-bin][1.4.4-1] matches upstream version 1.4.4 [0m
   [1;34m->[;1m checking for update for 'rofi-greenclip'[0m
@@ -359,14 +339,12 @@ advcpmv: new version found - 9.2 => 9.3
 [37m             [UNKNOWN] [simple-mtpfs][0.4.0-1] Failed to obtain GitHub release for phatina/simple-mtpfs from https://api.github.com/repos/phatina/simple-mtpfs/releases/latest: No GitHub project found for phatina/simple-mtpfs on https://api.github.com/repos/phatina/simple-mtpfs/releases/latest [0m
   [1;34m->[;1m checking for update for 'sirikali'[0m
 [32m          [UP-TO-DATE] [sirikali][1.5.0-1] matches upstream version 1.5.0 [0m
-  [1;34m->[;1m checking for update for 'sndcpy-bin'[0m
-[32m          [UP-TO-DATE] [sndcpy-bin][1.1-2] matches upstream version 1.1 [0m
   [1;34m->[;1m checking for update for 'speedometer'[0m
 [37m             [UNKNOWN] [speedometer][2.9-2] Failed to obtain GitHub release for wardi/speedometer from https://api.github.com/repos/wardi/speedometer/releases/latest: No GitHub project found for wardi/speedometer on https://api.github.com/repos/wardi/speedometer/releases/latest [0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
 [32m          [UP-TO-DATE] [spicetify-cli][2.20.1-1] matches upstream version 2.20.1 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
-[37m             [UNKNOWN] [spotify][1:1.2.9.743-1] No release found for spotify.protocol [0m
+[37m             [UNKNOWN] [spotify][1:1.2.13.661-1] No release found for spotify.protocol [0m
   [1;34m->[;1m checking for update for 'stacer'[0m
 [32m          [UP-TO-DATE] [stacer][1.1.0-1] matches upstream version 1.1.0 [0m
   [1;34m->[;1m checking for update for 'stretchly-bin'[0m
@@ -379,7 +357,7 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'svg-term-cli'[0m
 [37m             [UNKNOWN] [svg-term-cli][2.1.1-1] No release found for svg-term-cli: %!w(<nil>) [0m
   [1;34m->[;1m checking for update for 'terser'[0m
-[31m         [OUT-OF-DATE] [terser][5.18.0-1] should be updated to 5.18.1 [0m
+[32m          [UP-TO-DATE] [terser][5.18.1-1] matches upstream version 5.18.1 [0m
   [1;34m->[;1m checking for update for 'themix-export-spotify-git'[0m
   [1;34m->[;1m checking for update for 'themix-full-git'[0m
   [1;34m->[;1m checking for update for 'themix-gui-git'[0m
@@ -417,7 +395,7 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'typora'[0m
 [37m             [UNKNOWN] [typora][1.6.6-1] No release found for https://typora.io/linux/typora_1.6.6_amd64.deb [0m
   [1;34m->[;1m checking for update for 'uftrace'[0m
-[31m         [OUT-OF-DATE] [uftrace][0.13.1-1] should be updated to 0.14 [0m
+[32m          [UP-TO-DATE] [uftrace][0.14-1] matches upstream version 0.14 [0m
   [1;34m->[;1m checking for update for 'usbaudio-git'[0m
   [1;34m->[;1m checking for update for 'vanitygen-git'[0m
   [1;34m->[;1m checking for update for 'vimix-cursors'[0m
@@ -425,15 +403,15 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'volctl'[0m
 [37m             [UNKNOWN] [volctl][0.9.4-1] Failed to obtain GitHub release for buzz/volctl.git from https://api.github.com/repos/buzz/volctl.git/releases/latest: No GitHub project found for buzz/volctl.git on https://api.github.com/repos/buzz/volctl.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'vrms-arch'[0m
-[37m             [UNKNOWN] [vrms-arch][0.1.0.r25.g802c767-1] Failed to obtain GitHub release for orospakr/vrms-arch.git from https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest: Get "https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest": net/http: TLS handshake timeout [0m
+[37m             [UNKNOWN] [vrms-arch][0.1.0.r25.g802c767-1] Failed to obtain GitHub release for orospakr/vrms-arch.git from https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest: No GitHub project found for orospakr/vrms-arch.git on https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'vscodium-bin'[0m
-[37m             [UNKNOWN] [vscodium-bin][1.79.2.23166-1] No release found for vscodium-bin.desktop [0m
+[32m          [UP-TO-DATE] [vscodium-bin][1.79.2.23166-1] matches upstream version 1.79.2.23166 [0m
   [1;34m->[;1m checking for update for 'waydroid'[0m
-[37m             [UNKNOWN] [waydroid][1.4.1-1] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: Get "https://api.github.com/repos/waydroid/waydroid.git/releases/latest": net/http: TLS handshake timeout [0m
+[37m             [UNKNOWN] [waydroid][1.4.1-1] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
 [37m             [UNKNOWN] [waydroid-image][18.1_20230422-1] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-18.1-20230422-VANILLA-waydroid_x86_64-system.zip [0m
   [1;34m->[;1m checking for update for 'webtorrent-bittorrent-tracker'[0m
-[31m         [OUT-OF-DATE] [webtorrent-bittorrent-tracker][10.0.2-1] should be updated to 10.0.10 [0m
+[32m          [UP-TO-DATE] [webtorrent-bittorrent-tracker][10.0.10-1] matches upstream version 10.0.10 [0m
   [1;34m->[;1m checking for update for 'webtorrent-cli'[0m
 [32m          [UP-TO-DATE] [webtorrent-cli][4.1.0-1] matches upstream version 4.1.0 [0m
   [1;34m->[;1m checking for update for 'webtorrent-desktop-bin'[0m

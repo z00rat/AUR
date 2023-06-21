@@ -1,7 +1,8 @@
-  [1;34m->[;1m number of packags that are 242 tracked[0m
+  [1;34m->[;1m number of packags that are 232 tracked[0m
   [1;34m->[;1m number of packages that are 32 installed[0m
   [1;34m->[;1m packages that are not tracked but installed in the system...[0m
 python-bs4
+python-ffmpeg
 python-jaconv
 python-jarowinkler
 python-pykakasi
@@ -48,7 +49,6 @@ ddd
 debtap
 discord-chat-exporter-cli
 discord-ptb
-dive
 drawio-desktop-bin
 dry-bin
 ebtables
@@ -73,7 +73,6 @@ gconf-gtk2
 gitify-bin
 google-chrome
 guiscrcpy
-hakuneko-desktop
 heroku-cli-bin
 hollywood
 hw-probe
@@ -121,7 +120,6 @@ obs-v4l2sink
 onedrive-abraunegg
 onioncircuits
 opencomic-bin
-opensnitch
 opensnitch-git
 p7zip-gui
 parse-torrent
@@ -133,7 +131,6 @@ pipes.sh
 play-with-mpv-git
 plymouth-theme-arch10
 pm2ml
-pnpm
 popcorntime-bin
 powerpill
 python2-twodict-git
@@ -152,19 +149,15 @@ python-pysubs2
 python-spotdl
 python-srt
 python-torrequest
-python-webrtcvad
 python-youtube-search-git
-python-ytmusicapi
 qbittorrent-vuetorrent-bin
 qrcp
 qwinff
 raven-reader
 raven-reader-bin
 rclone-browser
-readability-cli
 resvg
 retroshare
-ricochet
 robo3t-bin
 rofi-greenclip
 rtags
@@ -173,7 +166,6 @@ sherlock-git
 siji-git
 simple-mtpfs
 sirikali
-sndcpy-bin
 speedometer
 spicetify-cli
 spotify

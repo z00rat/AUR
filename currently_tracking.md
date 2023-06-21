@@ -43,7 +43,6 @@
  - https://aur.archlinux.org/packages/diceware
  - https://aur.archlinux.org/packages/discord-chat-exporter-cli
  - https://aur.archlinux.org/packages/discord-ptb
- - https://aur.archlinux.org/packages/dive
  - https://aur.archlinux.org/packages/docker-systemctl-replacement-git
  - https://aur.archlinux.org/packages/downloader-cli
  - https://aur.archlinux.org/packages/drawio-desktop-bin
@@ -72,7 +71,6 @@
  - https://aur.archlinux.org/packages/gitstatus
  - https://aur.archlinux.org/packages/google-chrome
  - https://aur.archlinux.org/packages/guiscrcpy
- - https://aur.archlinux.org/packages/hakuneko-desktop
  - https://aur.archlinux.org/packages/heroku-cli-bin
  - https://aur.archlinux.org/packages/hollywood
  - https://aur.archlinux.org/packages/hw-probe
@@ -123,7 +121,6 @@
  - https://aur.archlinux.org/packages/onedrive-abraunegg
  - https://aur.archlinux.org/packages/onioncircuits
  - https://aur.archlinux.org/packages/opencomic-bin
- - https://aur.archlinux.org/packages/opensnitch
  - https://aur.archlinux.org/packages/opensnitch-git
  - https://aur.archlinux.org/packages/p7zip-gui
  - https://aur.archlinux.org/packages/parse-torrent
@@ -138,7 +135,6 @@
  - https://aur.archlinux.org/packages/play-with-mpv-git
  - https://aur.archlinux.org/packages/plymouth-theme-arch10
  - https://aur.archlinux.org/packages/pm2ml
- - https://aur.archlinux.org/packages/pnpm
  - https://aur.archlinux.org/packages/popcorntime-bin
  - https://aur.archlinux.org/packages/powerpill
  - https://aur.archlinux.org/packages/python2-twodict-git
@@ -147,7 +143,6 @@
  - https://aur.archlinux.org/packages/python3-xcpf
  - https://aur.archlinux.org/packages/python-auditok
  - https://aur.archlinux.org/packages/python-fangfrisch
- - https://aur.archlinux.org/packages/python-ffmpeg
  - https://aur.archlinux.org/packages/python-ffsubsync
  - https://aur.archlinux.org/packages/python-future-annotations
  - https://aur.archlinux.org/packages/python-gbinder
@@ -163,9 +158,7 @@
  - https://aur.archlinux.org/packages/python-spotipy
  - https://aur.archlinux.org/packages/python-srt
  - https://aur.archlinux.org/packages/python-torrequest
- - https://aur.archlinux.org/packages/python-webrtcvad
  - https://aur.archlinux.org/packages/python-youtube-search-git
- - https://aur.archlinux.org/packages/python-ytmusicapi
  - https://aur.archlinux.org/packages/qbittorrent-vuetorrent-bin
  - https://aur.archlinux.org/packages/qrcp
  - https://aur.archlinux.org/packages/qwinff
@@ -173,10 +166,8 @@
  - https://aur.archlinux.org/packages/raven-reader
  - https://aur.archlinux.org/packages/raven-reader-bin
  - https://aur.archlinux.org/packages/rclone-browser
- - https://aur.archlinux.org/packages/readability-cli
  - https://aur.archlinux.org/packages/resvg
  - https://aur.archlinux.org/packages/retroshare
- - https://aur.archlinux.org/packages/ricochet
  - https://aur.archlinux.org/packages/robo3t-bin
  - https://aur.archlinux.org/packages/rofi-greenclip
  - https://aur.archlinux.org/packages/rtags
@@ -185,7 +176,6 @@
  - https://aur.archlinux.org/packages/siji-git
  - https://aur.archlinux.org/packages/simple-mtpfs
  - https://aur.archlinux.org/packages/sirikali
- - https://aur.archlinux.org/packages/sndcpy-bin
  - https://aur.archlinux.org/packages/speedometer
  - https://aur.archlinux.org/packages/spicetify-cli
  - https://aur.archlinux.org/packages/spotify
@@ -244,5 +234,5 @@
  - https://aur.archlinux.org/packages/zoom
 ---
 
-number of packages = 242.
+number of packages = 232.
 
