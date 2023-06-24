@@ -297,7 +297,7 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'python-simber'[0m
 [32m          [UP-TO-DATE] [python-simber][0.2.6-0] matches upstream version 0.2.6 [0m
   [1;34m->[;1m checking for update for 'python-spotdl'[0m
-[31m         [OUT-OF-DATE] [python-spotdl][4.1.6-1] should be updated to 4.1.11 [0m
+[32m          [UP-TO-DATE] [python-spotdl][4.1.11-1] matches upstream version 4.1.11 [0m
   [1;34m->[;1m checking for update for 'python-spotipy'[0m
 [32m          [UP-TO-DATE] [python-spotipy][2.23.0-1] matches upstream version 2.23.0 [0m
   [1;34m->[;1m checking for update for 'python-srt'[0m
@@ -425,7 +425,7 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'xmind'[0m
 [37m             [UNKNOWN] [xmind][23.05.1745-1] No release found for https://dl3.xmind.net/Xmind-for-Linux-amd64bit-23.05.1745.deb [0m
   [1;34m->[;1m checking for update for 'yay-bin'[0m
-[32m          [UP-TO-DATE] [yay-bin][12.0.5-1] matches upstream version 12.0.5 [0m
+[32m          [UP-TO-DATE] [yay-bin][12.1.0-1] matches upstream version 12.1.0 [0m
   [1;34m->[;1m checking for update for 'youtube-dl-gui-git'[0m
   [1;34m->[;1m checking for update for 'ytmdl-git'[0m
   [1;34m->[;1m checking for update for 'zoom'[0m

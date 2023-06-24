@@ -24,10 +24,9 @@ b2sums=('a46df8031c223da4158bb0b88003675c87644ccddd0e1725b8e8455da99dab607b1d8c4
 package() {
 	# Install using Using npm
 	npm install -s -g \
+		--cache "${srcdir}/npm-cache" \
 		--prefix "${pkgdir}/usr" \
-		"${srcdir}/${_npmname}-${pkgver}.tgz" \
-		--loglevel verbose
-		# --cache "${srcdir}/npm-cache" \
+		"${srcdir}/${_npmname}-${pkgver}.tgz"
 
 	# Fix ownership of ALL FILES
 	find "${pkgdir}/usr" -type d -exec chmod 755 {} +
@@ -42,12 +41,10 @@ package() {
 	mv "$tmppackage" "$pkgjson"
 	chmod 644 "$pkgjson"
 
-echo "lol"
-
-	# find "$pkgdir" -type f -name package.json | while read pkgjson; do
-	# 	local tmppackage="$(mktemp)"
-	# 	jq 'del(.man)' "$pkgjson" >"$tmppackage"
-	# 	mv "$tmppackage" "$pkgjson"
-	# 	chmod 644 "$pkgjson"
-	# done
+	find "$pkgdir" -type f -name package.json | while read pkgjson; do
+		local tmppackage="$(mktemp)"
+		jq 'del(.man)' "$pkgjson" >"$tmppackage"
+		mv "$tmppackage" "$pkgjson"
+		chmod 644 "$pkgjson"
+	done
 }
