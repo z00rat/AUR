@@ -3,6 +3,7 @@
   [1;34m->[;1m listing already flaged packages[0m
 ytmdl
   [1;34m->[;1m running pkgoutofdate[0m
+spicetify-cli: new version found - 2.20.1 => 2.20.2
 patat-bin: new version found - 0.8.7.0 => 0.8.8.0
 advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m running aur-out-of-date[0m
@@ -26,7 +27,7 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'aur-out-of-date'[0m
 [32m          [UP-TO-DATE] [aur-out-of-date][3.2.0-1] matches upstream version 3.2.0 [0m
   [1;34m->[;1m checking for update for 'aurutils'[0m
-[32m          [UP-TO-DATE] [aurutils][16.5-1] matches upstream version 16.5 [0m
+[32m          [UP-TO-DATE] [aurutils][17-1] matches upstream version 17 [0m
   [1;34m->[;1m checking for update for 'aurvote'[0m
 [32m          [UP-TO-DATE] [aurvote][1.9-3] matches upstream version 1.9 [0m
   [1;34m->[;1m checking for update for 'aurvote-utils'[0m
@@ -68,7 +69,7 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
 [37m             [UNKNOWN] [code-marketplace][1.78.0-1] No release found for code-marketplace.hook [0m
   [1;34m->[;1m checking for update for 'code-server'[0m
-[32m          [UP-TO-DATE] [code-server][4.14.0-1] matches upstream version 4.14.0 [0m
+[32m          [UP-TO-DATE] [code-server][4.14.1-1] matches upstream version 4.14.1 [0m
   [1;34m->[;1m checking for update for 'cointop'[0m
 [32m          [UP-TO-DATE] [cointop][1.6.10-1] matches upstream version 1.6.10 [0m
   [1;34m->[;1m checking for update for 'cointop-bin'[0m
@@ -138,7 +139,7 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'gitstatus'[0m
 [32m          [UP-TO-DATE] [gitstatus][1.5.4-1] matches upstream version 1.5.4 [0m
   [1;34m->[;1m checking for update for 'google-chrome'[0m
-[37m             [UNKNOWN] [google-chrome][114.0.5735.133-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_114.0.5735.133-1_amd64.deb [0m
+[37m             [UNKNOWN] [google-chrome][114.0.5735.198-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_114.0.5735.198-1_amd64.deb [0m
   [1;34m->[;1m checking for update for 'guiscrcpy'[0m
 [37m             [UNKNOWN] [guiscrcpy][1:2023.1.1-1] Failed to obtain GitHub release for srevinsaju/guiscrcpy.git from https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest: No GitHub project found for srevinsaju/guiscrcpy.git on https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'heroku-cli-bin'[0m
@@ -153,7 +154,7 @@ advcpmv: new version found - 9.2 => 9.3
 [32m          [UP-TO-DATE] [i3lock-color][2.13.c.4-1] matches upstream version 2.13.c.4 [0m
   [1;34m->[;1m checking for update for 'ibus-avro-git'[0m
   [1;34m->[;1m checking for update for 'imhex'[0m
-[37m             [UNKNOWN] [imhex][1.29.0-3] Failed to obtain GitHub release for WerWolv/ImHex.git from https://api.github.com/repos/WerWolv/ImHex.git/releases/latest: No GitHub project found for WerWolv/ImHex.git on https://api.github.com/repos/WerWolv/ImHex.git/releases/latest [0m
+[37m             [UNKNOWN] [imhex][1.30.1-1] Failed to obtain GitHub release for WerWolv/ImHex.git from https://api.github.com/repos/WerWolv/ImHex.git/releases/latest: No GitHub project found for WerWolv/ImHex.git on https://api.github.com/repos/WerWolv/ImHex.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'jiq-bin'[0m
 [32m          [UP-TO-DATE] [jiq-bin][0.7.2-1] matches upstream version 0.7.2 [0m
   [1;34m->[;1m checking for update for 'jmtpfs'[0m
@@ -245,7 +246,7 @@ advcpmv: new version found - 9.2 => 9.3
 [32m          [UP-TO-DATE] [paru-bin][1.11.2-1] matches upstream version 1.11.2 [0m
   [1;34m->[;1m checking for update for 'passivedns-git'[0m
   [1;34m->[;1m checking for update for 'patat-bin'[0m
-[31m         [OUT-OF-DATE] [patat-bin][0.8.7.0-1] should be updated to 0.8.8.0 [0m
+[31m         [OUT-OF-DATE] [patat-bin][0.8.7.0-1] should be updated to 0.8.9.0 [0m
   [1;34m->[;1m checking for update for 'pfetch'[0m
 [32m          [UP-TO-DATE] [pfetch][0.6.0-3] matches upstream version 0.6.0 [0m
   [1;34m->[;1m checking for update for 'picom-ibhagwan-git'[0m
@@ -258,18 +259,18 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'plymouth-theme-arch10'[0m
 [32m          [UP-TO-DATE] [plymouth-theme-arch10][1-1] matches upstream version 1 [0m
   [1;34m->[;1m checking for update for 'pm2ml'[0m
-[37m             [UNKNOWN] [pm2ml][2021.11.20.1-4] No release found for https://xyne.dev/projects/pm2ml/src/pm2ml-2021.11.20.1.tar.xz [0m
+[37m             [UNKNOWN] [pm2ml][2021.11.20.1-14] No release found for https://xyne.dev/projects/pm2ml/src/pm2ml-2021.11.20.1.tar.xz [0m
   [1;34m->[;1m checking for update for 'popcorntime-bin'[0m
 [32m          [UP-TO-DATE] [popcorntime-bin][0.4.9-1] matches upstream version 0.4.9 [0m
   [1;34m->[;1m checking for update for 'powerpill'[0m
-[37m             [UNKNOWN] [powerpill][2021.11-4] No release found for https://xyne.dev/projects/powerpill/src/powerpill-2021.11.tar.xz [0m
+[37m             [UNKNOWN] [powerpill][2021.11-14] No release found for https://xyne.dev/projects/powerpill/src/powerpill-2021.11.tar.xz [0m
   [1;34m->[;1m checking for update for 'python2-twodict-git'[0m
   [1;34m->[;1m checking for update for 'python3-memoizedb'[0m
-[37m             [UNKNOWN] [python3-memoizedb][2021-4] No release found for https://xyne.dev/projects/python3-memoizedb/src/python3-memoizedb-2021.tar.xz [0m
+[37m             [UNKNOWN] [python3-memoizedb][2021-14] No release found for https://xyne.dev/projects/python3-memoizedb/src/python3-memoizedb-2021.tar.xz [0m
   [1;34m->[;1m checking for update for 'python3-xcgf'[0m
-[37m             [UNKNOWN] [python3-xcgf][2021-4] No release found for https://xyne.dev/projects/python3-xcgf/src/python3-xcgf-2021.tar.xz [0m
+[37m             [UNKNOWN] [python3-xcgf][2021-14] No release found for https://xyne.dev/projects/python3-xcgf/src/python3-xcgf-2021.tar.xz [0m
   [1;34m->[;1m checking for update for 'python3-xcpf'[0m
-[37m             [UNKNOWN] [python3-xcpf][2021.12-3] No release found for https://xyne.dev/projects/python3-xcpf/src/python3-xcpf-2021.12.tar.xz [0m
+[37m             [UNKNOWN] [python3-xcpf][2021.12-13] No release found for https://xyne.dev/projects/python3-xcpf/src/python3-xcpf-2021.12.tar.xz [0m
   [1;34m->[;1m checking for update for 'python-auditok'[0m
 [32m          [UP-TO-DATE] [python-auditok][0.2.0-1] matches upstream version 0.2.0 [0m
   [1;34m->[;1m checking for update for 'python-fangfrisch'[0m
@@ -293,7 +294,7 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'python-pysubs2'[0m
 [32m          [UP-TO-DATE] [python-pysubs2][1.6.1-1] matches upstream version 1.6.1 [0m
   [1;34m->[;1m checking for update for 'python-pytube'[0m
-[37m             [UNKNOWN] [python-pytube][15.0.0-1] upstream version is 11.0.1 [0m
+[32m          [UP-TO-DATE] [python-pytube][15.0.0-1] matches upstream version 15.0.0 [0m
   [1;34m->[;1m checking for update for 'python-simber'[0m
 [32m          [UP-TO-DATE] [python-simber][0.2.6-0] matches upstream version 0.2.6 [0m
   [1;34m->[;1m checking for update for 'python-spotdl'[0m
@@ -306,7 +307,7 @@ advcpmv: new version found - 9.2 => 9.3
 [32m          [UP-TO-DATE] [python-torrequest][0.1.0-3] matches upstream version 0.1.0 [0m
   [1;34m->[;1m checking for update for 'python-youtube-search-git'[0m
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
-[32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][1.5.11-1] matches upstream version 1.5.11 [0m
+[32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][1.5.12-1] matches upstream version 1.5.12 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
 [32m          [UP-TO-DATE] [qrcp][0.10.1-1] matches upstream version 0.10.1 [0m
   [1;34m->[;1m checking for update for 'qwinff'[0m
@@ -340,7 +341,7 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'speedometer'[0m
 [37m             [UNKNOWN] [speedometer][2.9-2] Failed to obtain GitHub release for wardi/speedometer from https://api.github.com/repos/wardi/speedometer/releases/latest: No GitHub project found for wardi/speedometer on https://api.github.com/repos/wardi/speedometer/releases/latest [0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
-[32m          [UP-TO-DATE] [spicetify-cli][2.20.1-1] matches upstream version 2.20.1 [0m
+[31m         [OUT-OF-DATE] [spicetify-cli][2.20.1-1] should be updated to 2.20.2 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
 [37m             [UNKNOWN] [spotify][1:1.2.13.661-1] No release found for spotify.protocol [0m
   [1;34m->[;1m checking for update for 'stacer'[0m
@@ -375,7 +376,7 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'tmpwatch'[0m
 [37m             [UNKNOWN] [tmpwatch][2.11-3] No release found for https://releases.pagure.org/tmpwatch/tmpwatch-2.11.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'tor-browser'[0m
-[37m             [UNKNOWN] [tor-browser][12.0.7-1] No release found for tor-browser.desktop.in [0m
+[37m             [UNKNOWN] [tor-browser][12.5-1] No release found for tor-browser.desktop.in [0m
   [1;34m->[;1m checking for update for 'tt-bin'[0m
 [32m          [UP-TO-DATE] [tt-bin][0.4.2-1] matches upstream version 0.4.2 [0m
   [1;34m->[;1m checking for update for 'ttf-anka-coder'[0m
