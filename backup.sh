@@ -3,9 +3,10 @@ msg2 "copying eveything from ./repos to ./pkgs"
 cp -vr repos/* pkgs
 
 msg2 "deleting .git files"
-for gitfile in $(tree -fia pkgs | grep -E "\.git$"); do
-    rm -v "$gitfile"
-done
+tree -fia pkgs | grep -E "\.git$" | parallel -P 16 rm -v {}
+#for gitfile in $(tree -fia pkgs | grep -E "\.git$"); do
+#    rm -v "$gitfile"
+#done
 
 msg2 "adding ./pkgs"
 git add pkgs

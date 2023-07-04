@@ -4,8 +4,8 @@
 ytmdl
   [1;34m->[;1m running pkgoutofdate[0m
 resvg: new version found - 0.34.1 => 0.35.0
+qbittorrent-vuetorrent-bin: new version found - 1.5.12 => 1.6.0
 patat-bin: new version found - 0.8.7.0 => 0.8.8.0
-drawio-desktop-bin: new version found - 21.5.0 => 21.5.1
 advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
@@ -28,7 +28,7 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'aur-out-of-date'[0m
 [32m          [UP-TO-DATE] [aur-out-of-date][3.2.0-1] matches upstream version 3.2.0 [0m
   [1;34m->[;1m checking for update for 'aurutils'[0m
-[32m          [UP-TO-DATE] [aurutils][17.1b-1] matches upstream version 17.1b [0m
+[32m          [UP-TO-DATE] [aurutils][17.2-1] matches upstream version 17.2 [0m
   [1;34m->[;1m checking for update for 'aurvote'[0m
 [32m          [UP-TO-DATE] [aurvote][1.9-3] matches upstream version 1.9 [0m
   [1;34m->[;1m checking for update for 'aurvote-utils'[0m
@@ -54,7 +54,7 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'boundary-bin'[0m
 [37m             [UNKNOWN] [boundary-bin][0.13.0-1] No release found for boundary-controller.service [0m
   [1;34m->[;1m checking for update for 'brave'[0m
-[37m             [UNKNOWN] [brave][1.52.129-1] Failed to obtain GitHub release for brave/brave-browser.git from https://api.github.com/repos/brave/brave-browser.git/releases/latest: Get "https://api.github.com/repos/brave/brave-browser.git/releases/latest": net/http: TLS handshake timeout [0m
+[37m             [UNKNOWN] [brave][1.52.129-1] Failed to obtain GitHub release for brave/brave-browser.git from https://api.github.com/repos/brave/brave-browser.git/releases/latest: No GitHub project found for brave/brave-browser.git on https://api.github.com/repos/brave/brave-browser.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'broken-link-checker'[0m
 [32m          [UP-TO-DATE] [broken-link-checker][0.7.8-1] matches upstream version 0.7.8 [0m
   [1;34m->[;1m checking for update for 'bubblejail'[0m
@@ -93,7 +93,7 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'downloader-cli'[0m
 [32m          [UP-TO-DATE] [downloader-cli][0.3.3-0] matches upstream version 0.3.3 [0m
   [1;34m->[;1m checking for update for 'drawio-desktop-bin'[0m
-[31m         [OUT-OF-DATE] [drawio-desktop-bin][21.5.0-1] should be updated to 21.5.1 [0m
+[32m          [UP-TO-DATE] [drawio-desktop-bin][21.5.1-1] matches upstream version 21.5.1 [0m
   [1;34m->[;1m checking for update for 'dry-bin'[0m
 [32m          [UP-TO-DATE] [dry-bin][0.11.1-1] matches upstream version 0.11.1 [0m
   [1;34m->[;1m checking for update for 'ebtables'[0m
@@ -130,7 +130,7 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'fswatch'[0m
 [32m          [UP-TO-DATE] [fswatch][1.17.1-1] matches upstream version 1.17.1 [0m
   [1;34m->[;1m checking for update for 'gallery-dl'[0m
-[32m          [UP-TO-DATE] [gallery-dl][1.25.6-1] matches upstream version 1.25.6 [0m
+[32m          [UP-TO-DATE] [gallery-dl][1.25.7-1] matches upstream version 1.25.7 [0m
   [1;34m->[;1m checking for update for 'gconf-cleaner'[0m
 [37m             [UNKNOWN] [gconf-cleaner][0.0.3-2] No release found for https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gconf-cleaner/gconf-cleaner-0.0.3.tar.gz [0m
   [1;34m->[;1m checking for update for 'gconf-gtk2'[0m
@@ -142,9 +142,9 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'google-chrome'[0m
 [37m             [UNKNOWN] [google-chrome][114.0.5735.198-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_114.0.5735.198-1_amd64.deb [0m
   [1;34m->[;1m checking for update for 'guiscrcpy'[0m
-[37m             [UNKNOWN] [guiscrcpy][1:2023.1.1-1] Failed to obtain GitHub release for srevinsaju/guiscrcpy.git from https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest: Get "https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest": net/http: TLS handshake timeout [0m
+[37m             [UNKNOWN] [guiscrcpy][1:2023.1.1-1] Failed to obtain GitHub release for srevinsaju/guiscrcpy.git from https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest: No GitHub project found for srevinsaju/guiscrcpy.git on https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'heroku-cli-bin'[0m
-[37m             [UNKNOWN] [heroku-cli-bin][7.62.0-1] Failed to obtain GitHub release for SampsonCrowley/heroku-cli-bin from https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest: Get "https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest": net/http: TLS handshake timeout [0m
+[37m             [UNKNOWN] [heroku-cli-bin][7.62.0-1] Failed to obtain GitHub release for SampsonCrowley/heroku-cli-bin from https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest: No GitHub project found for SampsonCrowley/heroku-cli-bin on https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest [0m
   [1;34m->[;1m checking for update for 'hollywood'[0m
 [37m             [UNKNOWN] [hollywood][1.21-7] No release found for hollywood-1.21.tar.gz::https://launchpad.net/hollywood/trunk/1.21/+download/hollywood_1.21.orig.tar.gz [0m
   [1;34m->[;1m checking for update for 'hw-probe'[0m
@@ -163,7 +163,7 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'keeweb-desktop-bin'[0m
 [32m          [UP-TO-DATE] [keeweb-desktop-bin][1.18.7-1] matches upstream version 1.18.7 [0m
   [1;34m->[;1m checking for update for 'lib32-jack'[0m
-[37m             [UNKNOWN] [lib32-jack][0.126.0-1] Failed to obtain GitHub release for jackaudio/jack1.git from https://api.github.com/repos/jackaudio/jack1.git/releases/latest: Get "https://api.github.com/repos/jackaudio/jack1.git/releases/latest": net/http: TLS handshake timeout [0m
+[37m             [UNKNOWN] [lib32-jack][0.126.0-1] Failed to obtain GitHub release for jackaudio/jack1.git from https://api.github.com/repos/jackaudio/jack1.git/releases/latest: No GitHub project found for jackaudio/jack1.git on https://api.github.com/repos/jackaudio/jack1.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'libgbinder'[0m
 [37m             [UNKNOWN] [libgbinder][1.1.34-1] Failed to obtain GitHub release for mer-hybris/libgbinder.git from https://api.github.com/repos/mer-hybris/libgbinder.git/releases/latest: No GitHub project found for mer-hybris/libgbinder.git on https://api.github.com/repos/mer-hybris/libgbinder.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'libglibutil'[0m
@@ -171,10 +171,10 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'libuiohook'[0m
 [37m             [UNKNOWN] [libuiohook][1.2.2-2] Failed to obtain GitHub release for kwhat/libuiohook from https://api.github.com/repos/kwhat/libuiohook/releases/latest: No GitHub project found for kwhat/libuiohook on https://api.github.com/repos/kwhat/libuiohook/releases/latest [0m
   [1;34m->[;1m checking for update for 'libva-intel-driver-hybrid'[0m
-[37m             [UNKNOWN] [libva-intel-driver-hybrid][2.4.1-2] Failed to obtain GitHub release for intel/intel-vaapi-driver.git from https://api.github.com/repos/intel/intel-vaapi-driver.git/releases/latest: Get "https://api.github.com/repos/intel/intel-vaapi-driver.git/releases/latest": net/http: TLS handshake timeout [0m
+[37m             [UNKNOWN] [libva-intel-driver-hybrid][2.4.1-2] Failed to obtain GitHub release for intel/intel-vaapi-driver.git from https://api.github.com/repos/intel/intel-vaapi-driver.git/releases/latest: No GitHub project found for intel/intel-vaapi-driver.git on https://api.github.com/repos/intel/intel-vaapi-driver.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'light-git'[0m
   [1;34m->[;1m checking for update for 'localepurge'[0m
-[37m             [UNKNOWN] [localepurge][0.7.3.10-1] No debian release found for localepurge: Get "https://sources.debian.org/api/src/localepurge/": net/http: TLS handshake timeout [0m
+[32m          [UP-TO-DATE] [localepurge][0.7.3.10-1] matches upstream version 0.7.3.10 [0m
   [1;34m->[;1m checking for update for 'losslesscut-bin'[0m
 [32m          [UP-TO-DATE] [losslesscut-bin][3.54.0-1] matches upstream version 3.54.0 [0m
   [1;34m->[;1m checking for update for 'lscolors-git'[0m
@@ -289,7 +289,7 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'python-itunespy'[0m
 [32m          [UP-TO-DATE] [python-itunespy][1.6-2] matches upstream version 1.6 [0m
   [1;34m->[;1m checking for update for 'python-pydes'[0m
-[37m             [UNKNOWN] [python-pydes][2.0.1-3] No PyPI release found for pyDes: Get "https://pypi.org/pypi/pyDes/json": net/http: TLS handshake timeout [0m
+[32m          [UP-TO-DATE] [python-pydes][2.0.1-3] matches upstream version 2.0.1 [0m
   [1;34m->[;1m checking for update for 'python-pynput'[0m
 [32m          [UP-TO-DATE] [python-pynput][1.7.6-2] matches upstream version 1.7.6 [0m
   [1;34m->[;1m checking for update for 'python-pysubs2'[0m
@@ -308,7 +308,7 @@ advcpmv: new version found - 9.2 => 9.3
 [32m          [UP-TO-DATE] [python-torrequest][0.1.0-3] matches upstream version 0.1.0 [0m
   [1;34m->[;1m checking for update for 'python-youtube-search-git'[0m
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
-[32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][1.5.12-1] matches upstream version 1.5.12 [0m
+[31m         [OUT-OF-DATE] [qbittorrent-vuetorrent-bin][1.5.12-1] should be updated to 1.6.0 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
 [32m          [UP-TO-DATE] [qrcp][0.10.1-1] matches upstream version 0.10.1 [0m
   [1;34m->[;1m checking for update for 'qwinff'[0m
@@ -326,7 +326,7 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'retroshare'[0m
 [32m          [UP-TO-DATE] [retroshare][0.6.6-2] matches upstream version 0.6.6 [0m
   [1;34m->[;1m checking for update for 'robo3t-bin'[0m
-[32m          [UP-TO-DATE] [robo3t-bin][1.4.4-1] matches upstream version 1.4.4 [0m
+[37m             [UNKNOWN] [robo3t-bin][1.4.4-1] Failed to obtain GitHub release for Studio3T/robomongo from https://api.github.com/repos/Studio3T/robomongo/releases/latest: Get "https://api.github.com/repos/Studio3T/robomongo/releases/latest": net/http: TLS handshake timeout [0m
   [1;34m->[;1m checking for update for 'rofi-greenclip'[0m
 [32m          [UP-TO-DATE] [rofi-greenclip][4.2-2] matches upstream version 4.2 [0m
   [1;34m->[;1m checking for update for 'rtags'[0m
@@ -340,7 +340,7 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'sirikali'[0m
 [32m          [UP-TO-DATE] [sirikali][1.5.0-1] matches upstream version 1.5.0 [0m
   [1;34m->[;1m checking for update for 'speedometer'[0m
-[37m             [UNKNOWN] [speedometer][2.9-2] Failed to obtain GitHub release for wardi/speedometer from https://api.github.com/repos/wardi/speedometer/releases/latest: No GitHub project found for wardi/speedometer on https://api.github.com/repos/wardi/speedometer/releases/latest [0m
+[37m             [UNKNOWN] [speedometer][2.9-2] Failed to obtain GitHub release for wardi/speedometer from https://api.github.com/repos/wardi/speedometer/releases/latest: Get "https://api.github.com/repos/wardi/speedometer/releases/latest": net/http: TLS handshake timeout [0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
 [32m          [UP-TO-DATE] [spicetify-cli][2.20.3-1] matches upstream version 2.20.3 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
@@ -348,9 +348,9 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'stacer'[0m
 [32m          [UP-TO-DATE] [stacer][1.1.0-1] matches upstream version 1.1.0 [0m
   [1;34m->[;1m checking for update for 'stretchly-bin'[0m
-[32m          [UP-TO-DATE] [stretchly-bin][1.14.1-1] matches upstream version 1.14.1 [0m
+[37m             [UNKNOWN] [stretchly-bin][1.14.1-1] No release found for LICENSE::https://raw.githubusercontent.com/hovancik/stretchly/v1.14.1/LICENSE [0m
   [1;34m->[;1m checking for update for 'subuser'[0m
-[37m             [UNKNOWN] [subuser][0.6.2-1] Failed to obtain GitHub release for subuser-security/subuser from https://api.github.com/repos/subuser-security/subuser/releases/latest: No GitHub project found for subuser-security/subuser on https://api.github.com/repos/subuser-security/subuser/releases/latest [0m
+[37m             [UNKNOWN] [subuser][0.6.2-1] Failed to obtain GitHub release for subuser-security/subuser from https://api.github.com/repos/subuser-security/subuser/releases/latest: Get "https://api.github.com/repos/subuser-security/subuser/releases/latest": net/http: TLS handshake timeout [0m
   [1;34m->[;1m checking for update for 'surf'[0m
 [37m             [UNKNOWN] [surf][2.1-6] No release found for https://dl.suckless.org/surf/surf-2.1.tar.gz [0m
   [1;34m->[;1m checking for update for 'surf-git'[0m
@@ -405,9 +405,9 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'vrms-arch'[0m
 [37m             [UNKNOWN] [vrms-arch][0.1.0.r25.g802c767-1] Failed to obtain GitHub release for orospakr/vrms-arch.git from https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest: No GitHub project found for orospakr/vrms-arch.git on https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'vscodium-bin'[0m
-[37m             [UNKNOWN] [vscodium-bin][1.79.2.23166-1] No release found for vscodium-bin.desktop [0m
+[32m          [UP-TO-DATE] [vscodium-bin][1.79.2.23166-1] matches upstream version 1.79.2.23166 [0m
   [1;34m->[;1m checking for update for 'waydroid'[0m
-[37m             [UNKNOWN] [waydroid][1.4.1-1] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: Get "https://api.github.com/repos/waydroid/waydroid.git/releases/latest": net/http: TLS handshake timeout [0m
+[37m             [UNKNOWN] [waydroid][1.4.1-1] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
 [37m             [UNKNOWN] [waydroid-image][18.1_20230422-1] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-18.1-20230422-VANILLA-waydroid_x86_64-system.zip [0m
   [1;34m->[;1m checking for update for 'webtorrent-bittorrent-tracker'[0m
