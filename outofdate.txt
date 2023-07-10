@@ -3,15 +3,12 @@
   [1;34m->[;1m listing already flaged packages[0m
 ytmdl
   [1;34m->[;1m running pkgoutofdate[0m
-resvg: new version found - 0.34.1 => 0.35.0
-qbittorrent-vuetorrent-bin: new version found - 1.5.12 => 1.6.0
 patat-bin: new version found - 0.8.7.0 => 0.8.8.0
-advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
 [32m          [UP-TO-DATE] [activitywatch-bin][0.12.2-1] matches upstream version 0.12.2 [0m
   [1;34m->[;1m checking for update for 'advcpmv'[0m
-[37m             [UNKNOWN] [advcpmv][9.2-2] No release found for https://ftp.gnu.org/gnu/coreutils/coreutils-9.2.tar.xz [0m
+[37m             [UNKNOWN] [advcpmv][9.3-2] No release found for https://ftp.gnu.org/gnu/coreutils/coreutils-9.3.tar.xz [0m
   [1;34m->[;1m checking for update for 'alacritty-themes'[0m
 [32m          [UP-TO-DATE] [alacritty-themes][5.3.1-1] matches upstream version 5.3.1 [0m
   [1;34m->[;1m checking for update for 'ansifilter'[0m
@@ -66,7 +63,7 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
 [32m          [UP-TO-DATE] [cloudflared-bin][2023.6.1-1] matches upstream version 2023.6.1 [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
-[31m         [OUT-OF-DATE] [code-features][1.79.0-1] should be updated to 1.79.2 [0m
+[31m         [OUT-OF-DATE] [code-features][1.79.0-1] should be updated to 1.80.0 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
 [37m             [UNKNOWN] [code-marketplace][1.78.0-1] No release found for code-marketplace.hook [0m
   [1;34m->[;1m checking for update for 'code-server'[0m
@@ -88,12 +85,12 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'discord-chat-exporter-cli'[0m
 [32m          [UP-TO-DATE] [discord-chat-exporter-cli][2.40-1] matches upstream version 2.40 [0m
   [1;34m->[;1m checking for update for 'discord-ptb'[0m
-[37m             [UNKNOWN] [discord-ptb][0.0.43-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.43/discord-ptb-0.0.43.tar.gz [0m
+[37m             [UNKNOWN] [discord-ptb][0.0.44-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.44/discord-ptb-0.0.44.tar.gz [0m
   [1;34m->[;1m checking for update for 'docker-systemctl-replacement-git'[0m
   [1;34m->[;1m checking for update for 'downloader-cli'[0m
 [32m          [UP-TO-DATE] [downloader-cli][0.3.3-0] matches upstream version 0.3.3 [0m
   [1;34m->[;1m checking for update for 'drawio-desktop-bin'[0m
-[32m          [UP-TO-DATE] [drawio-desktop-bin][21.5.1-1] matches upstream version 21.5.1 [0m
+[32m          [UP-TO-DATE] [drawio-desktop-bin][21.6.1-1] matches upstream version 21.6.1 [0m
   [1;34m->[;1m checking for update for 'dry-bin'[0m
 [32m          [UP-TO-DATE] [dry-bin][0.11.1-1] matches upstream version 0.11.1 [0m
   [1;34m->[;1m checking for update for 'ebtables'[0m
@@ -117,7 +114,7 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'figlet-fonts'[0m
 [37m             [UNKNOWN] [figlet-fonts][1.0-3] No release found for ours.tar.gz::ftp://ftp.figlet.org/pub/figlet/fonts/ours.tar.gz [0m
   [1;34m->[;1m checking for update for 'firefox-esr-bin'[0m
-[37m             [UNKNOWN] [firefox-esr-bin][115.0-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/115.0esr/linux-x86_64/en-US/firefox-115.0esr.tar.bz2 [0m
+[37m             [UNKNOWN] [firefox-esr-bin][115.0.1-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/115.0.1esr/linux-x86_64/en-US/firefox-115.0.1esr.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'flamegraph'[0m
 [32m          [UP-TO-DATE] [flamegraph][1.0-2] matches upstream version 1.0 [0m
   [1;34m->[;1m checking for update for 'florence'[0m
@@ -213,7 +210,7 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'nodejs-mapscii'[0m
 [32m          [UP-TO-DATE] [nodejs-mapscii][0.3.1-4] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'nodejs-nodemon'[0m
-[32m          [UP-TO-DATE] [nodejs-nodemon][2.0.22-1] matches upstream version 2.0.22 [0m
+[31m         [OUT-OF-DATE] [nodejs-nodemon][2.0.22-1] should be updated to 3.0.1 [0m
   [1;34m->[;1m checking for update for 'nodejs-npm2arch'[0m
 [32m          [UP-TO-DATE] [nodejs-npm2arch][2.2.0-1] matches upstream version 2.2.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-ungit'[0m
@@ -308,13 +305,13 @@ advcpmv: new version found - 9.2 => 9.3
 [32m          [UP-TO-DATE] [python-torrequest][0.1.0-3] matches upstream version 0.1.0 [0m
   [1;34m->[;1m checking for update for 'python-youtube-search-git'[0m
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
-[31m         [OUT-OF-DATE] [qbittorrent-vuetorrent-bin][1.5.12-1] should be updated to 1.6.0 [0m
+[32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][1.6.0-1] matches upstream version 1.6.0 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
 [32m          [UP-TO-DATE] [qrcp][0.10.1-1] matches upstream version 0.10.1 [0m
   [1;34m->[;1m checking for update for 'qwinff'[0m
 [37m             [UNKNOWN] [qwinff][0.2.1-1] No release found for http://sourceforge.net/projects/qwinff/files/release/v0.2.1/qwinff_0.2.1.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'rate-mirrors-bin'[0m
-[32m          [UP-TO-DATE] [rate-mirrors-bin][0.15.2-1] matches upstream version 0.15.2 [0m
+[32m          [UP-TO-DATE] [rate-mirrors-bin][0.15.3-1] matches upstream version 0.15.3 [0m
   [1;34m->[;1m checking for update for 'raven-reader'[0m
 [32m          [UP-TO-DATE] [raven-reader][1.0.80-1] matches upstream version 1.0.80 [0m
   [1;34m->[;1m checking for update for 'raven-reader-bin'[0m
@@ -322,11 +319,11 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'rclone-browser'[0m
 [32m          [UP-TO-DATE] [rclone-browser][1.8.0-3] matches upstream version 1.8.0 [0m
   [1;34m->[;1m checking for update for 'resvg'[0m
-[31m         [OUT-OF-DATE] [resvg][0.34.1-1] should be updated to 0.35.0 [0m
+[32m          [UP-TO-DATE] [resvg][0.35.0-1] matches upstream version 0.35.0 [0m
   [1;34m->[;1m checking for update for 'retroshare'[0m
 [32m          [UP-TO-DATE] [retroshare][0.6.6-2] matches upstream version 0.6.6 [0m
   [1;34m->[;1m checking for update for 'robo3t-bin'[0m
-[37m             [UNKNOWN] [robo3t-bin][1.4.4-1] Failed to obtain GitHub release for Studio3T/robomongo from https://api.github.com/repos/Studio3T/robomongo/releases/latest: Get "https://api.github.com/repos/Studio3T/robomongo/releases/latest": net/http: TLS handshake timeout [0m
+[32m          [UP-TO-DATE] [robo3t-bin][1.4.4-1] matches upstream version 1.4.4 [0m
   [1;34m->[;1m checking for update for 'rofi-greenclip'[0m
 [32m          [UP-TO-DATE] [rofi-greenclip][4.2-2] matches upstream version 4.2 [0m
   [1;34m->[;1m checking for update for 'rtags'[0m
@@ -340,7 +337,7 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'sirikali'[0m
 [32m          [UP-TO-DATE] [sirikali][1.5.0-1] matches upstream version 1.5.0 [0m
   [1;34m->[;1m checking for update for 'speedometer'[0m
-[37m             [UNKNOWN] [speedometer][2.9-2] Failed to obtain GitHub release for wardi/speedometer from https://api.github.com/repos/wardi/speedometer/releases/latest: Get "https://api.github.com/repos/wardi/speedometer/releases/latest": net/http: TLS handshake timeout [0m
+[37m             [UNKNOWN] [speedometer][2.9-2] Failed to obtain GitHub release for wardi/speedometer from https://api.github.com/repos/wardi/speedometer/releases/latest: No GitHub project found for wardi/speedometer on https://api.github.com/repos/wardi/speedometer/releases/latest [0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
 [32m          [UP-TO-DATE] [spicetify-cli][2.20.3-1] matches upstream version 2.20.3 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
@@ -348,9 +345,9 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'stacer'[0m
 [32m          [UP-TO-DATE] [stacer][1.1.0-1] matches upstream version 1.1.0 [0m
   [1;34m->[;1m checking for update for 'stretchly-bin'[0m
-[37m             [UNKNOWN] [stretchly-bin][1.14.1-1] No release found for LICENSE::https://raw.githubusercontent.com/hovancik/stretchly/v1.14.1/LICENSE [0m
+[32m          [UP-TO-DATE] [stretchly-bin][1.14.1-1] matches upstream version 1.14.1 [0m
   [1;34m->[;1m checking for update for 'subuser'[0m
-[37m             [UNKNOWN] [subuser][0.6.2-1] Failed to obtain GitHub release for subuser-security/subuser from https://api.github.com/repos/subuser-security/subuser/releases/latest: Get "https://api.github.com/repos/subuser-security/subuser/releases/latest": net/http: TLS handshake timeout [0m
+[37m             [UNKNOWN] [subuser][0.6.2-1] Failed to obtain GitHub release for subuser-security/subuser from https://api.github.com/repos/subuser-security/subuser/releases/latest: No GitHub project found for subuser-security/subuser on https://api.github.com/repos/subuser-security/subuser/releases/latest [0m
   [1;34m->[;1m checking for update for 'surf'[0m
 [37m             [UNKNOWN] [surf][2.1-6] No release found for https://dl.suckless.org/surf/surf-2.1.tar.gz [0m
   [1;34m->[;1m checking for update for 'surf-git'[0m
@@ -377,7 +374,7 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'tmpwatch'[0m
 [37m             [UNKNOWN] [tmpwatch][2.11-3] No release found for https://releases.pagure.org/tmpwatch/tmpwatch-2.11.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'tor-browser'[0m
-[37m             [UNKNOWN] [tor-browser][12.5-1] No release found for tor-browser.desktop.in [0m
+[37m             [UNKNOWN] [tor-browser][12.5.1-1] No release found for tor-browser.desktop.in [0m
   [1;34m->[;1m checking for update for 'tt-bin'[0m
 [32m          [UP-TO-DATE] [tt-bin][0.4.2-1] matches upstream version 0.4.2 [0m
   [1;34m->[;1m checking for update for 'ttf-anka-coder'[0m
@@ -405,7 +402,7 @@ advcpmv: new version found - 9.2 => 9.3
   [1;34m->[;1m checking for update for 'vrms-arch'[0m
 [37m             [UNKNOWN] [vrms-arch][0.1.0.r25.g802c767-1] Failed to obtain GitHub release for orospakr/vrms-arch.git from https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest: No GitHub project found for orospakr/vrms-arch.git on https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'vscodium-bin'[0m
-[32m          [UP-TO-DATE] [vscodium-bin][1.79.2.23166-1] matches upstream version 1.79.2.23166 [0m
+[32m          [UP-TO-DATE] [vscodium-bin][1.80.0.23188-1] matches upstream version 1.80.0.23188 [0m
   [1;34m->[;1m checking for update for 'waydroid'[0m
 [37m             [UNKNOWN] [waydroid][1.4.1-1] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
