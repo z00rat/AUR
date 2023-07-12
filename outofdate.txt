@@ -1,8 +1,10 @@
   [1;34m->[;1m checking for out-of-date packages[0m
 
   [1;34m->[;1m listing already flaged packages[0m
+aurvote
 ytmdl
   [1;34m->[;1m running pkgoutofdate[0m
+sirikali: new version found - 1.5.0 => 1.5.1
 patat-bin: new version found - 0.8.7.0 => 0.8.8.0
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
@@ -61,7 +63,7 @@ patat-bin: new version found - 0.8.7.0 => 0.8.8.0
   [1;34m->[;1m checking for update for 'cava'[0m
 [32m          [UP-TO-DATE] [cava][0.8.3-1] matches upstream version 0.8.3 [0m
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
-[32m          [UP-TO-DATE] [cloudflared-bin][2023.6.1-1] matches upstream version 2023.6.1 [0m
+[31m         [OUT-OF-DATE] [cloudflared-bin][2023.6.1-1] should be updated to 2023.7.0 [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
 [31m         [OUT-OF-DATE] [code-features][1.79.0-1] should be updated to 1.80.0 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
@@ -114,7 +116,7 @@ patat-bin: new version found - 0.8.7.0 => 0.8.8.0
   [1;34m->[;1m checking for update for 'figlet-fonts'[0m
 [37m             [UNKNOWN] [figlet-fonts][1.0-3] No release found for ours.tar.gz::ftp://ftp.figlet.org/pub/figlet/fonts/ours.tar.gz [0m
   [1;34m->[;1m checking for update for 'firefox-esr-bin'[0m
-[37m             [UNKNOWN] [firefox-esr-bin][115.0.1-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/115.0.1esr/linux-x86_64/en-US/firefox-115.0.1esr.tar.bz2 [0m
+[37m             [UNKNOWN] [firefox-esr-bin][115.0.2-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/115.0.2esr/linux-x86_64/en-US/firefox-115.0.2esr.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'flamegraph'[0m
 [32m          [UP-TO-DATE] [flamegraph][1.0-2] matches upstream version 1.0 [0m
   [1;34m->[;1m checking for update for 'florence'[0m
@@ -296,7 +298,7 @@ patat-bin: new version found - 0.8.7.0 => 0.8.8.0
   [1;34m->[;1m checking for update for 'python-simber'[0m
 [32m          [UP-TO-DATE] [python-simber][0.2.6-0] matches upstream version 0.2.6 [0m
   [1;34m->[;1m checking for update for 'python-spotdl'[0m
-[32m          [UP-TO-DATE] [python-spotdl][4.1.11-1] matches upstream version 4.1.11 [0m
+[31m         [OUT-OF-DATE] [python-spotdl][4.1.11-1] should be updated to 4.2.0 [0m
   [1;34m->[;1m checking for update for 'python-spotipy'[0m
 [32m          [UP-TO-DATE] [python-spotipy][2.23.0-1] matches upstream version 2.23.0 [0m
   [1;34m->[;1m checking for update for 'python-srt'[0m
@@ -335,7 +337,7 @@ patat-bin: new version found - 0.8.7.0 => 0.8.8.0
   [1;34m->[;1m checking for update for 'simple-mtpfs'[0m
 [37m             [UNKNOWN] [simple-mtpfs][0.4.0-1] Failed to obtain GitHub release for phatina/simple-mtpfs from https://api.github.com/repos/phatina/simple-mtpfs/releases/latest: No GitHub project found for phatina/simple-mtpfs on https://api.github.com/repos/phatina/simple-mtpfs/releases/latest [0m
   [1;34m->[;1m checking for update for 'sirikali'[0m
-[32m          [UP-TO-DATE] [sirikali][1.5.0-1] matches upstream version 1.5.0 [0m
+[31m         [OUT-OF-DATE] [sirikali][1.5.0-1] should be updated to 1.5.1 [0m
   [1;34m->[;1m checking for update for 'speedometer'[0m
 [37m             [UNKNOWN] [speedometer][2.9-2] Failed to obtain GitHub release for wardi/speedometer from https://api.github.com/repos/wardi/speedometer/releases/latest: No GitHub project found for wardi/speedometer on https://api.github.com/repos/wardi/speedometer/releases/latest [0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
@@ -354,7 +356,7 @@ patat-bin: new version found - 0.8.7.0 => 0.8.8.0
   [1;34m->[;1m checking for update for 'svg-term-cli'[0m
 [37m             [UNKNOWN] [svg-term-cli][2.1.1-1] No release found for svg-term-cli: %!w(<nil>) [0m
   [1;34m->[;1m checking for update for 'terser'[0m
-[32m          [UP-TO-DATE] [terser][5.18.2-1] matches upstream version 5.18.2 [0m
+[31m         [OUT-OF-DATE] [terser][5.18.2-1] should be updated to 5.19.0 [0m
   [1;34m->[;1m checking for update for 'themix-export-spotify-git'[0m
   [1;34m->[;1m checking for update for 'themix-full-git'[0m
   [1;34m->[;1m checking for update for 'themix-gui-git'[0m
@@ -428,5 +430,5 @@ patat-bin: new version found - 0.8.7.0 => 0.8.8.0
   [1;34m->[;1m checking for update for 'youtube-dl-gui-git'[0m
   [1;34m->[;1m checking for update for 'ytmdl-git'[0m
   [1;34m->[;1m checking for update for 'zoom'[0m
-[37m             [UNKNOWN] [zoom][5.15.2-1] No release found for zoom-5.15.2.4260_orig_x86_64.pkg.tar.xz::https://cdn.zoom.us/prod/5.15.2.4260/zoom_x86_64.pkg.tar.xz [0m
+[37m             [UNKNOWN] [zoom][5.15.3-1] No release found for zoom-5.15.3.4839_orig_x86_64.pkg.tar.xz::https://cdn.zoom.us/prod/5.15.3.4839/zoom_x86_64.pkg.tar.xz [0m
   [1;34m->[;1m done.[0m
