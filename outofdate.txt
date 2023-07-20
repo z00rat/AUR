@@ -1,11 +1,10 @@
   [1;34m->[;1m checking for out-of-date packages[0m
 
   [1;34m->[;1m listing already flaged packages[0m
-aurvote
-ytmdl
   [1;34m->[;1m running pkgoutofdate[0m
+spicetify-cli: new version found - 2.20.3 => 2.21.0
+qbittorrent-vuetorrent-bin: new version found - 1.6.0 => 1.6.1
 patat-bin: new version found - 0.8.7.0 => 0.8.8.0
-mergerfs: new version found - 2.35.1 => 2.36.0
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
 [32m          [UP-TO-DATE] [activitywatch-bin][0.12.2-1] matches upstream version 0.12.2 [0m
@@ -16,12 +15,12 @@ mergerfs: new version found - 2.35.1 => 2.36.0
   [1;34m->[;1m checking for update for 'ansifilter'[0m
 [37m             [UNKNOWN] [ansifilter][2.20-1] No release found for http://www.andre-simon.de/zip/ansifilter-2.20.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'antibody'[0m
-[32m          [UP-TO-DATE] [antibody][6.1.1-1] matches upstream version 6.1.1 [0m
+[37m             [UNKNOWN] [antibody][6.1.1-1] Failed to obtain GitHub release for getantibody/antibody from https://api.github.com/repos/getantibody/antibody/releases/latest: Get "https://api.github.com/repos/getantibody/antibody/releases/latest": net/http: TLS handshake timeout [0m
   [1;34m->[;1m checking for update for 'apg'[0m
 [32m          [UP-TO-DATE] [apg][2.2.3-5] matches upstream version 2.2.3 [0m
   [1;34m->[;1m checking for update for 'archiso-git'[0m
   [1;34m->[;1m checking for update for 'aseprite'[0m
-[31m         [OUT-OF-DATE] [aseprite][1.2.40-8] should be updated to 1.3-rc4 [0m
+[31m         [OUT-OF-DATE] [aseprite][1.2.40-8] should be updated to 1.3-rc5 [0m
   [1;34m->[;1m checking for update for 'asp-git'[0m
   [1;34m->[;1m checking for update for 'aur-auto-vote-git'[0m
   [1;34m->[;1m checking for update for 'aur-out-of-date'[0m
@@ -51,9 +50,9 @@ mergerfs: new version found - 2.35.1 => 2.36.0
   [1;34m->[;1m checking for update for 'bibata-cursor-theme-bin'[0m
 [32m          [UP-TO-DATE] [bibata-cursor-theme-bin][2.0.3-1] matches upstream version 2.0.3 [0m
   [1;34m->[;1m checking for update for 'boundary-bin'[0m
-[37m             [UNKNOWN] [boundary-bin][0.13.0-1] No release found for boundary-controller.service [0m
+[37m             [UNKNOWN] [boundary-bin][0.13.1-1] No release found for boundary-controller.service [0m
   [1;34m->[;1m checking for update for 'brave'[0m
-[37m             [UNKNOWN] [brave][1.52.129-1] Failed to obtain GitHub release for brave/brave-browser.git from https://api.github.com/repos/brave/brave-browser.git/releases/latest: No GitHub project found for brave/brave-browser.git on https://api.github.com/repos/brave/brave-browser.git/releases/latest [0m
+[37m             [UNKNOWN] [brave][1.52.129-1] Failed to obtain GitHub release for brave/brave-browser.git from https://api.github.com/repos/brave/brave-browser.git/releases/latest: Get "https://api.github.com/repos/brave/brave-browser.git/releases/latest": net/http: TLS handshake timeout [0m
   [1;34m->[;1m checking for update for 'broken-link-checker'[0m
 [32m          [UP-TO-DATE] [broken-link-checker][0.7.8-1] matches upstream version 0.7.8 [0m
   [1;34m->[;1m checking for update for 'bubblejail'[0m
@@ -63,7 +62,7 @@ mergerfs: new version found - 2.35.1 => 2.36.0
   [1;34m->[;1m checking for update for 'cava'[0m
 [32m          [UP-TO-DATE] [cava][0.8.3-1] matches upstream version 0.8.3 [0m
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
-[32m          [UP-TO-DATE] [cloudflared-bin][2023.7.0-1] matches upstream version 2023.7.0 [0m
+[31m         [OUT-OF-DATE] [cloudflared-bin][2023.7.0-1] should be updated to 2023.7.1 [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
 [31m         [OUT-OF-DATE] [code-features][1.79.0-1] should be updated to 1.80.1 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
@@ -77,7 +76,7 @@ mergerfs: new version found - 2.35.1 => 2.36.0
   [1;34m->[;1m checking for update for 'csslint'[0m
 [37m             [UNKNOWN] [csslint][1.0.5-2] upstream version is 1.0.3 [0m
   [1;34m->[;1m checking for update for 'ctjs-bin'[0m
-[31m         [OUT-OF-DATE] [ctjs-bin][1.7.0-1] should be updated to 3.2.0 [0m
+[37m             [UNKNOWN] [ctjs-bin][1.7.0-1] Failed to obtain GitHub release for ct-js/ct-js from https://api.github.com/repos/ct-js/ct-js/releases/latest: Get "https://api.github.com/repos/ct-js/ct-js/releases/latest": net/http: TLS handshake timeout [0m
   [1;34m->[;1m checking for update for 'ddd'[0m
 [37m             [UNKNOWN] [ddd][3.4.0-12] No release found for http://ftp.gnu.org/gnu/ddd/ddd-3.4.0.tar.gz [0m
   [1;34m->[;1m checking for update for 'debtap'[0m
@@ -116,7 +115,7 @@ mergerfs: new version found - 2.35.1 => 2.36.0
   [1;34m->[;1m checking for update for 'figlet-fonts'[0m
 [37m             [UNKNOWN] [figlet-fonts][1.0-3] No release found for ours.tar.gz::ftp://ftp.figlet.org/pub/figlet/fonts/ours.tar.gz [0m
   [1;34m->[;1m checking for update for 'firefox-esr-bin'[0m
-[37m             [UNKNOWN] [firefox-esr-bin][115.0.2-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/115.0.2esr/linux-x86_64/en-US/firefox-115.0.2esr.tar.bz2 [0m
+[37m             [UNKNOWN] [firefox-esr-bin][115.0.3-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/115.0.3esr/linux-x86_64/en-US/firefox-115.0.3esr.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'flamegraph'[0m
 [32m          [UP-TO-DATE] [flamegraph][1.0-2] matches upstream version 1.0 [0m
   [1;34m->[;1m checking for update for 'florence'[0m
@@ -129,7 +128,7 @@ mergerfs: new version found - 2.35.1 => 2.36.0
   [1;34m->[;1m checking for update for 'fswatch'[0m
 [32m          [UP-TO-DATE] [fswatch][1.17.1-1] matches upstream version 1.17.1 [0m
   [1;34m->[;1m checking for update for 'gallery-dl'[0m
-[32m          [UP-TO-DATE] [gallery-dl][1.25.7-1] matches upstream version 1.25.7 [0m
+[32m          [UP-TO-DATE] [gallery-dl][1.25.8-1] matches upstream version 1.25.8 [0m
   [1;34m->[;1m checking for update for 'gconf-cleaner'[0m
 [37m             [UNKNOWN] [gconf-cleaner][0.0.3-2] No release found for https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gconf-cleaner/gconf-cleaner-0.0.3.tar.gz [0m
   [1;34m->[;1m checking for update for 'gconf-gtk2'[0m
@@ -139,11 +138,11 @@ mergerfs: new version found - 2.35.1 => 2.36.0
   [1;34m->[;1m checking for update for 'gitstatus'[0m
 [32m          [UP-TO-DATE] [gitstatus][1.5.4-1] matches upstream version 1.5.4 [0m
   [1;34m->[;1m checking for update for 'google-chrome'[0m
-[37m             [UNKNOWN] [google-chrome][114.0.5735.198-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_114.0.5735.198-1_amd64.deb [0m
+[37m             [UNKNOWN] [google-chrome][115.0.5790.98-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_115.0.5790.98-1_amd64.deb [0m
   [1;34m->[;1m checking for update for 'guiscrcpy'[0m
 [37m             [UNKNOWN] [guiscrcpy][1:2023.1.1-1] Failed to obtain GitHub release for srevinsaju/guiscrcpy.git from https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest: No GitHub project found for srevinsaju/guiscrcpy.git on https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'heroku-cli-bin'[0m
-[37m             [UNKNOWN] [heroku-cli-bin][7.62.0-1] Failed to obtain GitHub release for SampsonCrowley/heroku-cli-bin from https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest: No GitHub project found for SampsonCrowley/heroku-cli-bin on https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest [0m
+[37m             [UNKNOWN] [heroku-cli-bin][7.62.0-1] Failed to obtain GitHub release for SampsonCrowley/heroku-cli-bin from https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest: Get "https://api.github.com/repos/SampsonCrowley/heroku-cli-bin/releases/latest": net/http: TLS handshake timeout [0m
   [1;34m->[;1m checking for update for 'hollywood'[0m
 [37m             [UNKNOWN] [hollywood][1.21-7] No release found for hollywood-1.21.tar.gz::https://launchpad.net/hollywood/trunk/1.21/+download/hollywood_1.21.orig.tar.gz [0m
   [1;34m->[;1m checking for update for 'hw-probe'[0m
@@ -154,7 +153,7 @@ mergerfs: new version found - 2.35.1 => 2.36.0
 [32m          [UP-TO-DATE] [i3lock-color][2.13.c.4-1] matches upstream version 2.13.c.4 [0m
   [1;34m->[;1m checking for update for 'ibus-avro-git'[0m
   [1;34m->[;1m checking for update for 'imhex'[0m
-[37m             [UNKNOWN] [imhex][1.30.1-1] Failed to obtain GitHub release for WerWolv/ImHex.git from https://api.github.com/repos/WerWolv/ImHex.git/releases/latest: No GitHub project found for WerWolv/ImHex.git on https://api.github.com/repos/WerWolv/ImHex.git/releases/latest [0m
+[37m             [UNKNOWN] [imhex][1.30.1-2] Failed to obtain GitHub release for WerWolv/ImHex.git from https://api.github.com/repos/WerWolv/ImHex.git/releases/latest: No GitHub project found for WerWolv/ImHex.git on https://api.github.com/repos/WerWolv/ImHex.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'jiq-bin'[0m
 [32m          [UP-TO-DATE] [jiq-bin][0.7.2-1] matches upstream version 0.7.2 [0m
   [1;34m->[;1m checking for update for 'jmtpfs'[0m
@@ -166,7 +165,7 @@ mergerfs: new version found - 2.35.1 => 2.36.0
   [1;34m->[;1m checking for update for 'libgbinder'[0m
 [37m             [UNKNOWN] [libgbinder][1.1.34-1] Failed to obtain GitHub release for mer-hybris/libgbinder.git from https://api.github.com/repos/mer-hybris/libgbinder.git/releases/latest: No GitHub project found for mer-hybris/libgbinder.git on https://api.github.com/repos/mer-hybris/libgbinder.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'libglibutil'[0m
-[37m             [UNKNOWN] [libglibutil][1.0.69-1] Failed to obtain GitHub release for sailfishos/libglibutil.git from https://api.github.com/repos/sailfishos/libglibutil.git/releases/latest: No GitHub project found for sailfishos/libglibutil.git on https://api.github.com/repos/sailfishos/libglibutil.git/releases/latest [0m
+[37m             [UNKNOWN] [libglibutil][1.0.71-1] Failed to obtain GitHub release for sailfishos/libglibutil.git from https://api.github.com/repos/sailfishos/libglibutil.git/releases/latest: No GitHub project found for sailfishos/libglibutil.git on https://api.github.com/repos/sailfishos/libglibutil.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'libuiohook'[0m
 [37m             [UNKNOWN] [libuiohook][1.2.2-2] Failed to obtain GitHub release for kwhat/libuiohook from https://api.github.com/repos/kwhat/libuiohook/releases/latest: No GitHub project found for kwhat/libuiohook on https://api.github.com/repos/kwhat/libuiohook/releases/latest [0m
   [1;34m->[;1m checking for update for 'libva-intel-driver-hybrid'[0m
@@ -187,7 +186,7 @@ mergerfs: new version found - 2.35.1 => 2.36.0
   [1;34m->[;1m checking for update for 'marktext-bin'[0m
 [32m          [UP-TO-DATE] [marktext-bin][0.17.1-1] matches upstream version 0.17.1 [0m
   [1;34m->[;1m checking for update for 'mergerfs'[0m
-[32m          [UP-TO-DATE] [mergerfs][2.35.1-1] matches upstream version 2.35.1 [0m
+[32m          [UP-TO-DATE] [mergerfs][2.36.0-1] matches upstream version 2.36.0 [0m
   [1;34m->[;1m checking for update for 'mergerfs-tools-git'[0m
   [1;34m->[;1m checking for update for 'mkclean'[0m
 [37m             [UNKNOWN] [mkclean][0.9.0-1] No release found for https://sourceforge.net/projects/matroska/files/mkclean/mkclean-0.9.0.tar.bz2 [0m
@@ -212,7 +211,7 @@ mergerfs: new version found - 2.35.1 => 2.36.0
   [1;34m->[;1m checking for update for 'nodejs-mapscii'[0m
 [32m          [UP-TO-DATE] [nodejs-mapscii][0.3.1-4] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'nodejs-nodemon'[0m
-[31m         [OUT-OF-DATE] [nodejs-nodemon][2.0.22-1] should be updated to 3.0.1 [0m
+[37m             [UNKNOWN] [nodejs-nodemon][3.0.1-1] No npm release found for nodemon: Get "https://registry.npmjs.org/-/package/nodemon/dist-tags": net/http: TLS handshake timeout [0m
   [1;34m->[;1m checking for update for 'nodejs-npm2arch'[0m
 [32m          [UP-TO-DATE] [nodejs-npm2arch][2.2.0-1] matches upstream version 2.2.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-ungit'[0m
@@ -251,7 +250,7 @@ mergerfs: new version found - 2.35.1 => 2.36.0
 [32m          [UP-TO-DATE] [pfetch][0.6.0-3] matches upstream version 0.6.0 [0m
   [1;34m->[;1m checking for update for 'picom-ibhagwan-git'[0m
   [1;34m->[;1m checking for update for 'pikaur'[0m
-[37m             [UNKNOWN] [pikaur][1.16.1-1] upstream version is 1.15.2 [0m
+[32m          [UP-TO-DATE] [pikaur][1.17-1] matches upstream version 1.17 [0m
   [1;34m->[;1m checking for update for 'pipes.sh'[0m
 [32m          [UP-TO-DATE] [pipes.sh][1.3.0-1] matches upstream version 1.3.0 [0m
   [1;34m->[;1m checking for update for 'pkgoutofdate-git'[0m
@@ -276,7 +275,7 @@ mergerfs: new version found - 2.35.1 => 2.36.0
   [1;34m->[;1m checking for update for 'python-fangfrisch'[0m
 [32m          [UP-TO-DATE] [python-fangfrisch][1.6.1-2] matches upstream version 1.6.1 [0m
   [1;34m->[;1m checking for update for 'python-ffsubsync'[0m
-[37m             [UNKNOWN] [python-ffsubsync][0.4.23-2] upstream version is 0.4.22 [0m
+[37m             [UNKNOWN] [python-ffsubsync][0.4.25-2] upstream version is 0.4.22 [0m
   [1;34m->[;1m checking for update for 'python-future-annotations'[0m
 [32m          [UP-TO-DATE] [python-future-annotations][1.0.0-2] matches upstream version 1.0.0 [0m
   [1;34m->[;1m checking for update for 'python-gbinder'[0m
@@ -294,7 +293,7 @@ mergerfs: new version found - 2.35.1 => 2.36.0
   [1;34m->[;1m checking for update for 'python-pysubs2'[0m
 [32m          [UP-TO-DATE] [python-pysubs2][1.6.1-1] matches upstream version 1.6.1 [0m
   [1;34m->[;1m checking for update for 'python-pytube'[0m
-[37m             [UNKNOWN] [python-pytube][15.0.0-1] upstream version is 11.0.1 [0m
+[32m          [UP-TO-DATE] [python-pytube][15.0.0-1] matches upstream version 15.0.0 [0m
   [1;34m->[;1m checking for update for 'python-simber'[0m
 [32m          [UP-TO-DATE] [python-simber][0.2.6-0] matches upstream version 0.2.6 [0m
   [1;34m->[;1m checking for update for 'python-spotdl'[0m
@@ -307,13 +306,13 @@ mergerfs: new version found - 2.35.1 => 2.36.0
 [32m          [UP-TO-DATE] [python-torrequest][0.1.0-3] matches upstream version 0.1.0 [0m
   [1;34m->[;1m checking for update for 'python-youtube-search-git'[0m
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
-[32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][1.6.0-1] matches upstream version 1.6.0 [0m
+[31m         [OUT-OF-DATE] [qbittorrent-vuetorrent-bin][1.6.0-1] should be updated to 1.6.1 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
 [32m          [UP-TO-DATE] [qrcp][0.10.1-1] matches upstream version 0.10.1 [0m
   [1;34m->[;1m checking for update for 'qwinff'[0m
 [37m             [UNKNOWN] [qwinff][0.2.1-1] No release found for http://sourceforge.net/projects/qwinff/files/release/v0.2.1/qwinff_0.2.1.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'rate-mirrors-bin'[0m
-[32m          [UP-TO-DATE] [rate-mirrors-bin][0.15.3-1] matches upstream version 0.15.3 [0m
+[32m          [UP-TO-DATE] [rate-mirrors-bin][0.16.2-1] matches upstream version 0.16.2 [0m
   [1;34m->[;1m checking for update for 'raven-reader'[0m
 [32m          [UP-TO-DATE] [raven-reader][1.0.80-1] matches upstream version 1.0.80 [0m
   [1;34m->[;1m checking for update for 'raven-reader-bin'[0m
@@ -341,7 +340,7 @@ mergerfs: new version found - 2.35.1 => 2.36.0
   [1;34m->[;1m checking for update for 'speedometer'[0m
 [37m             [UNKNOWN] [speedometer][2.9-2] Failed to obtain GitHub release for wardi/speedometer from https://api.github.com/repos/wardi/speedometer/releases/latest: No GitHub project found for wardi/speedometer on https://api.github.com/repos/wardi/speedometer/releases/latest [0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
-[32m          [UP-TO-DATE] [spicetify-cli][2.20.3-1] matches upstream version 2.20.3 [0m
+[31m         [OUT-OF-DATE] [spicetify-cli][2.20.3-1] should be updated to 2.21.0 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
 [37m             [UNKNOWN] [spotify][1:1.2.13.661-1] No release found for spotify.protocol [0m
   [1;34m->[;1m checking for update for 'stacer'[0m
@@ -356,7 +355,7 @@ mergerfs: new version found - 2.35.1 => 2.36.0
   [1;34m->[;1m checking for update for 'svg-term-cli'[0m
 [37m             [UNKNOWN] [svg-term-cli][2.1.1-1] No release found for svg-term-cli: %!w(<nil>) [0m
   [1;34m->[;1m checking for update for 'terser'[0m
-[32m          [UP-TO-DATE] [terser][5.19.0-1] matches upstream version 5.19.0 [0m
+[32m          [UP-TO-DATE] [terser][5.19.1-1] matches upstream version 5.19.1 [0m
   [1;34m->[;1m checking for update for 'themix-export-spotify-git'[0m
   [1;34m->[;1m checking for update for 'themix-full-git'[0m
   [1;34m->[;1m checking for update for 'themix-gui-git'[0m
