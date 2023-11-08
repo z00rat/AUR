@@ -991,3 +991,7 @@
 	path = repos/pacdiff-pacman-hook-git
 	url = ssh://aur@aur.archlinux.org/pacdiff-pacman-hook-git.git
 	branch = master
+[submodule "repos/pacman-hook-list-systemd-units"]
+	path = repos/pacman-hook-list-systemd-units
+	url = ssh://aur@aur.archlinux.org/pacman-hook-list-systemd-units.git
+	branch = master
