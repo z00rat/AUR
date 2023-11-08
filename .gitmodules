@@ -1051,3 +1051,7 @@
 	path = repos/ast-firmware
 	url = ssh://aur@aur.archlinux.org/ast-firmware.git
 	branch = master
+[submodule "repos/wd719x-firmware"]
+	path = repos/wd719x-firmware
+	url = ssh://aur@aur.archlinux.org/wd719x-firmware.git
+	branch = master
