@@ -999,3 +999,7 @@
 	path = repos/pacman-pstatus
 	url = ssh://aur@aur.archlinux.org/pacman-pstatus.git
 	branch = master
+[submodule "repos/pacman-systemd-inhibit"]
+	path = repos/pacman-systemd-inhibit
+	url = ssh://aur@aur.archlinux.org/pacman-systemd-inhibit.git
+	branch = master
