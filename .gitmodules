@@ -1027,3 +1027,7 @@
 	path = repos/python-x256
 	url = ssh://aur@aur.archlinux.org/python-x256.git
 	branch = master
+[submodule "repos/reboot-arch-btw"]
+	path = repos/reboot-arch-btw
+	url = ssh://aur@aur.archlinux.org/reboot-arch-btw.git
+	branch = master
