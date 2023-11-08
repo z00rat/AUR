@@ -927,3 +927,7 @@
 	path = repos/mkinitcpio-firmware
 	url = ssh://aur@aur.archlinux.org/mkinitcpio-firmware.git
 	branch = master
+[submodule "repos/mkinitcpio-numlock"]
+	path = repos/mkinitcpio-numlock
+	url = ssh://aur@aur.archlinux.org/mkinitcpio-numlock.git
+	branch = master
