@@ -1047,3 +1047,7 @@
 	path = repos/aic94xx-firmware
 	url = ssh://aur@aur.archlinux.org/aic94xx-firmware.git
 	branch = master
+[submodule "repos/ast-firmware"]
+	path = repos/ast-firmware
+	url = ssh://aur@aur.archlinux.org/ast-firmware.git
+	branch = master
