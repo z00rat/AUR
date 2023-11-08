@@ -915,3 +915,7 @@
 	path = repos/dragon-drop
 	url = ssh://aur@aur.archlinux.org/dragon-drop.git
 	branch = master
+[submodule "repos/hibernator"]
+	path = repos/hibernator
+	url = ssh://aur@aur.archlinux.org/hibernator.git
+	branch = master
