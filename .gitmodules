@@ -919,3 +919,7 @@
 	path = repos/hibernator
 	url = ssh://aur@aur.archlinux.org/hibernator.git
 	branch = master
+[submodule "repos/mkinitcpio-archlogo"]
+	path = repos/mkinitcpio-archlogo
+	url = ssh://aur@aur.archlinux.org/mkinitcpio-archlogo.git
+	branch = master
