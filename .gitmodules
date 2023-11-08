@@ -1007,3 +1007,7 @@
 	path = repos/check-broken-packages-pacman-hook-git
 	url = ssh://aur@aur.archlinux.org/check-broken-packages-pacman-hook-git.git
 	branch = master
+[submodule "repos/gocryptfs-ui"]
+	path = repos/gocryptfs-ui
+	url = ssh://aur@aur.archlinux.org/gocryptfs-ui.git
+	branch = master
