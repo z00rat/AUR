@@ -1011,3 +1011,7 @@
 	path = repos/gocryptfs-ui
 	url = ssh://aur@aur.archlinux.org/gocryptfs-ui.git
 	branch = master
+[submodule "repos/localsend-bin"]
+	path = repos/localsend-bin
+	url = ssh://aur@aur.archlinux.org/localsend-bin.git
+	branch = master
