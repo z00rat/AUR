@@ -1023,3 +1023,7 @@
 	path = repos/python-uni-curses
 	url = ssh://aur@aur.archlinux.org/python-uni-curses.git
 	branch = master
+[submodule "repos/python-x256"]
+	path = repos/python-x256
+	url = ssh://aur@aur.archlinux.org/python-x256.git
+	branch = master
