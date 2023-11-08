@@ -923,3 +923,7 @@
 	path = repos/mkinitcpio-archlogo
 	url = ssh://aur@aur.archlinux.org/mkinitcpio-archlogo.git
 	branch = master
+[submodule "repos/mkinitcpio-firmware"]
+	path = repos/mkinitcpio-firmware
+	url = ssh://aur@aur.archlinux.org/mkinitcpio-firmware.git
+	branch = master
