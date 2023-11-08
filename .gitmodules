@@ -215,10 +215,6 @@
 	path = repos/patat-bin
 	url = ssh://aur@aur.archlinux.org/patat-bin.git
 	branch = master
-[submodule "repos/picom-ibhagwan-git"]
-	path = repos/picom-ibhagwan-git
-	url = ssh://aur@aur.archlinux.org/picom-ibhagwan-git.git
-	branch = master
 [submodule "repos/pipes.sh"]
 	path = repos/pipes.sh
 	url = ssh://aur@aur.archlinux.org/pipes.sh.git
