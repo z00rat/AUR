@@ -979,3 +979,7 @@
 	path = repos/tuifimanager
 	url = ssh://aur@aur.archlinux.org/tuifimanager.git
 	branch = master
+[submodule "repos/xdg-ninja-git"]
+	path = repos/xdg-ninja-git
+	url = ssh://aur@aur.archlinux.org/xdg-ninja-git.git
+	branch = master
