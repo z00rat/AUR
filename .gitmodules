@@ -1055,3 +1055,7 @@
 	path = repos/wd719x-firmware
 	url = ssh://aur@aur.archlinux.org/wd719x-firmware.git
 	branch = master
+[submodule "repos/upd72020x-fw"]
+	path = repos/upd72020x-fw
+	url = ssh://aur@aur.archlinux.org/upd72020x-fw.git
+	branch = master
