@@ -1039,3 +1039,7 @@
 	path = repos/selectdefaultapplication-git
 	url = ssh://aur@aur.archlinux.org/selectdefaultapplication-git.git
 	branch = master
+[submodule "repos/speedread-git"]
+	path = repos/speedread-git
+	url = ssh://aur@aur.archlinux.org/speedread-git.git
+	branch = master
