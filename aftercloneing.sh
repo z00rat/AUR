@@ -15,4 +15,6 @@ msg2 "submodule update --init --recursive"
 git submodule update --init --recursive
 msg2 "pull --recurse-submodules"
 git pull --recurse-submodules
+msg2 "git submodule foreach \"git checkout master\""
+git submodule foreach "git checkout master"
 msg2 "done."

@@ -8,7 +8,10 @@ In here all AUR packages that are either I **use** or I **maintain** or I **like
 
 #### run: `cp ./trizen.conf ~/.config/trizen/trizen.conf`
 
-#### add env var `GITHUB_TOKEN=<githubTokenHere>`, then restart your shell
+#### add env var GITHUB_TOKEN, then restart your shell
+```bash
+export GITHUB_TOKEN=github_pat_<...>
+```
 
 ### folder info:
 
@@ -52,7 +55,7 @@ ssh-add ~/.ssh/aur
 #### git diff with beauty
 
 ```sh
-git diff . | git-split-diffs
+git diff . | delta --side-by-side
 ```
 
 #### pull update of all

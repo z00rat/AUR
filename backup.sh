@@ -20,8 +20,8 @@ git status
 msg2 "commting changes in 10s (CTRL+C to exit)"
 sleep 10
 
-msg2 "commit msg: \"$(date)\""
-git commit -a -s -m "$(date)"
+msg2 "commit msg: \"$(date +%F--%X)\""
+git commit -a -s -m "$(date +%F--%X)"
 msg2 "pushing new commit"
 git push
 
