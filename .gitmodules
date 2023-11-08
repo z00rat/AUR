@@ -967,3 +967,7 @@
 	path = repos/tor-browser-bin
 	url = ssh://aur@aur.archlinux.org/tor-browser-bin.git
 	branch = master
+[submodule "repos/trizen"]
+	path = repos/trizen
+	url = ssh://aur@aur.archlinux.org/trizen.git
+	branch = master
