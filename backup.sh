@@ -1,5 +1,6 @@
 #!/bin/bash
 msg2 "copying eveything from ./repos to ./pkgs"
+rm -rv pkg/
 cp -vr repos/* pkgs
 
 msg2 "deleting .git files"
