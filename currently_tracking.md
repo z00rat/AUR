@@ -2,25 +2,26 @@
 ---
  - https://aur.archlinux.org/packages/activitywatch-bin
  - https://aur.archlinux.org/packages/advcpmv
+ - https://aur.archlinux.org/packages/aic94xx-firmware
  - https://aur.archlinux.org/packages/alacritty-themes
  - https://aur.archlinux.org/packages/ansifilter
  - https://aur.archlinux.org/packages/antibody
  - https://aur.archlinux.org/packages/apg
+ - https://aur.archlinux.org/packages/apparmor.d-git
  - https://aur.archlinux.org/packages/archiso-git
  - https://aur.archlinux.org/packages/aseprite
- - https://aur.archlinux.org/packages/asp-git
+ - https://aur.archlinux.org/packages/ast-firmware
  - https://aur.archlinux.org/packages/aur-auto-vote-git
  - https://aur.archlinux.org/packages/aur-out-of-date
  - https://aur.archlinux.org/packages/aurutils
- - https://aur.archlinux.org/packages/aurvote
  - https://aur.archlinux.org/packages/aurvote-utils
  - https://aur.archlinux.org/packages/awesome-git
  - https://aur.archlinux.org/packages/awmtt
  - https://aur.archlinux.org/packages/bashmount
  - https://aur.archlinux.org/packages/bats
- - https://aur.archlinux.org/packages/betterdiscordctl-git
  - https://aur.archlinux.org/packages/betterdiscord-installer
  - https://aur.archlinux.org/packages/betterdiscord-installer-bin
+ - https://aur.archlinux.org/packages/betterdiscordctl-git
  - https://aur.archlinux.org/packages/betterlockscreen
  - https://aur.archlinux.org/packages/bibata-cursor-theme
  - https://aur.archlinux.org/packages/bibata-cursor-theme-bin
@@ -30,6 +31,7 @@
  - https://aur.archlinux.org/packages/bubblejail
  - https://aur.archlinux.org/packages/burpsuite
  - https://aur.archlinux.org/packages/cava
+ - https://aur.archlinux.org/packages/check-broken-packages-pacman-hook-git
  - https://aur.archlinux.org/packages/cloudflared-bin
  - https://aur.archlinux.org/packages/code-features
  - https://aur.archlinux.org/packages/code-marketplace
@@ -38,6 +40,7 @@
  - https://aur.archlinux.org/packages/cointop-bin
  - https://aur.archlinux.org/packages/csslint
  - https://aur.archlinux.org/packages/ctjs-bin
+ - https://aur.archlinux.org/packages/dasel-bin
  - https://aur.archlinux.org/packages/ddd
  - https://aur.archlinux.org/packages/debtap
  - https://aur.archlinux.org/packages/diceware
@@ -45,9 +48,9 @@
  - https://aur.archlinux.org/packages/discord-ptb
  - https://aur.archlinux.org/packages/docker-systemctl-replacement-git
  - https://aur.archlinux.org/packages/downloader-cli
+ - https://aur.archlinux.org/packages/dragon-drop
  - https://aur.archlinux.org/packages/drawio-desktop-bin
  - https://aur.archlinux.org/packages/dry-bin
- - https://aur.archlinux.org/packages/ebtables
  - https://aur.archlinux.org/packages/edex-ui-bin
  - https://aur.archlinux.org/packages/electorrent-bin
  - https://aur.archlinux.org/packages/electronmail-bin
@@ -69,9 +72,11 @@
  - https://aur.archlinux.org/packages/gconf-gtk2
  - https://aur.archlinux.org/packages/gitify-bin
  - https://aur.archlinux.org/packages/gitstatus
+ - https://aur.archlinux.org/packages/gocryptfs-ui
  - https://aur.archlinux.org/packages/google-chrome
  - https://aur.archlinux.org/packages/guiscrcpy
  - https://aur.archlinux.org/packages/heroku-cli-bin
+ - https://aur.archlinux.org/packages/hibernator
  - https://aur.archlinux.org/packages/hollywood
  - https://aur.archlinux.org/packages/hw-probe
  - https://aur.archlinux.org/packages/hydroxide
@@ -88,6 +93,7 @@
  - https://aur.archlinux.org/packages/libva-intel-driver-hybrid
  - https://aur.archlinux.org/packages/light-git
  - https://aur.archlinux.org/packages/localepurge
+ - https://aur.archlinux.org/packages/localsend-bin
  - https://aur.archlinux.org/packages/losslesscut-bin
  - https://aur.archlinux.org/packages/lscolors-git
  - https://aur.archlinux.org/packages/lsdesktopf
@@ -98,7 +104,11 @@
  - https://aur.archlinux.org/packages/mergerfs
  - https://aur.archlinux.org/packages/mergerfs-tools-git
  - https://aur.archlinux.org/packages/mkclean
+ - https://aur.archlinux.org/packages/mkinitcpio-archlogo
+ - https://aur.archlinux.org/packages/mkinitcpio-firmware
+ - https://aur.archlinux.org/packages/mkinitcpio-numlock
  - https://aur.archlinux.org/packages/mkp224o
+ - https://aur.archlinux.org/packages/motrix-bin
  - https://aur.archlinux.org/packages/mpck
  - https://aur.archlinux.org/packages/msg2
  - https://aur.archlinux.org/packages/mymonero
@@ -117,30 +127,32 @@
  - https://aur.archlinux.org/packages/notion-app
  - https://aur.archlinux.org/packages/obfs4proxy
  - https://aur.archlinux.org/packages/obs-plugin-input-overlay-bin
- - https://aur.archlinux.org/packages/obs-v4l2sink
  - https://aur.archlinux.org/packages/onedrive-abraunegg
  - https://aur.archlinux.org/packages/onioncircuits
  - https://aur.archlinux.org/packages/opencomic-bin
  - https://aur.archlinux.org/packages/opensnitch-git
  - https://aur.archlinux.org/packages/p7zip-gui
+ - https://aur.archlinux.org/packages/pacdiff-pacman-hook-git
+ - https://aur.archlinux.org/packages/pacman-cleanup-hook
+ - https://aur.archlinux.org/packages/pacman-hook-list-systemd-units
+ - https://aur.archlinux.org/packages/pacman-log-orphans-hook
+ - https://aur.archlinux.org/packages/pacman-pstatus
+ - https://aur.archlinux.org/packages/pacman-static
+ - https://aur.archlinux.org/packages/pacman-systemd-inhibit
  - https://aur.archlinux.org/packages/parse-torrent
  - https://aur.archlinux.org/packages/paru-bin
  - https://aur.archlinux.org/packages/passivedns-git
  - https://aur.archlinux.org/packages/patat-bin
  - https://aur.archlinux.org/packages/pfetch
- - https://aur.archlinux.org/packages/picom-ibhagwan-git
  - https://aur.archlinux.org/packages/pikaur
  - https://aur.archlinux.org/packages/pipes.sh
+ - https://aur.archlinux.org/packages/pkgbrowser
  - https://aur.archlinux.org/packages/pkgoutofdate-git
  - https://aur.archlinux.org/packages/play-with-mpv-git
  - https://aur.archlinux.org/packages/plymouth-theme-arch10
  - https://aur.archlinux.org/packages/pm2ml
  - https://aur.archlinux.org/packages/popcorntime-bin
  - https://aur.archlinux.org/packages/powerpill
- - https://aur.archlinux.org/packages/python2-twodict-git
- - https://aur.archlinux.org/packages/python3-memoizedb
- - https://aur.archlinux.org/packages/python3-xcgf
- - https://aur.archlinux.org/packages/python3-xcpf
  - https://aur.archlinux.org/packages/python-auditok
  - https://aur.archlinux.org/packages/python-fangfrisch
  - https://aur.archlinux.org/packages/python-ffsubsync
@@ -158,7 +170,13 @@
  - https://aur.archlinux.org/packages/python-spotipy
  - https://aur.archlinux.org/packages/python-srt
  - https://aur.archlinux.org/packages/python-torrequest
+ - https://aur.archlinux.org/packages/python-uni-curses
+ - https://aur.archlinux.org/packages/python-x256
  - https://aur.archlinux.org/packages/python-youtube-search-git
+ - https://aur.archlinux.org/packages/python2-twodict-git
+ - https://aur.archlinux.org/packages/python3-memoizedb
+ - https://aur.archlinux.org/packages/python3-xcgf
+ - https://aur.archlinux.org/packages/python3-xcpf
  - https://aur.archlinux.org/packages/qbittorrent-vuetorrent-bin
  - https://aur.archlinux.org/packages/qrcp
  - https://aur.archlinux.org/packages/qwinff
@@ -166,25 +184,34 @@
  - https://aur.archlinux.org/packages/raven-reader
  - https://aur.archlinux.org/packages/raven-reader-bin
  - https://aur.archlinux.org/packages/rclone-browser
+ - https://aur.archlinux.org/packages/reboot-arch-btw
+ - https://aur.archlinux.org/packages/rescached-git
  - https://aur.archlinux.org/packages/resvg
  - https://aur.archlinux.org/packages/retroshare
  - https://aur.archlinux.org/packages/robo3t-bin
  - https://aur.archlinux.org/packages/rofi-greenclip
  - https://aur.archlinux.org/packages/rtags
  - https://aur.archlinux.org/packages/runjs-bin
+ - https://aur.archlinux.org/packages/selectdefaultapplication-git
  - https://aur.archlinux.org/packages/sherlock-git
  - https://aur.archlinux.org/packages/siji-git
  - https://aur.archlinux.org/packages/simple-mtpfs
  - https://aur.archlinux.org/packages/sirikali
  - https://aur.archlinux.org/packages/speedometer
+ - https://aur.archlinux.org/packages/speedread-git
  - https://aur.archlinux.org/packages/spicetify-cli
  - https://aur.archlinux.org/packages/spotify
  - https://aur.archlinux.org/packages/stacer
  - https://aur.archlinux.org/packages/stretchly-bin
+ - https://aur.archlinux.org/packages/sublime-text-4
  - https://aur.archlinux.org/packages/subuser
  - https://aur.archlinux.org/packages/surf
  - https://aur.archlinux.org/packages/surf-git
  - https://aur.archlinux.org/packages/svg-term-cli
+ - https://aur.archlinux.org/packages/systemd-boot-pacman-hook
+ - https://aur.archlinux.org/packages/systemd-cleanup-pacman-hook
+ - https://aur.archlinux.org/packages/systemd-numlockontty
+ - https://aur.archlinux.org/packages/sysz
  - https://aur.archlinux.org/packages/terser
  - https://aur.archlinux.org/packages/themix-export-spotify-git
  - https://aur.archlinux.org/packages/themix-full-git
@@ -202,16 +229,20 @@
  - https://aur.archlinux.org/packages/thinkfan
  - https://aur.archlinux.org/packages/tlpui-git
  - https://aur.archlinux.org/packages/tmpwatch
- - https://aur.archlinux.org/packages/tor-browser
+ - https://aur.archlinux.org/packages/tor-browser-bin
+ - https://aur.archlinux.org/packages/trizen
  - https://aur.archlinux.org/packages/tt-bin
  - https://aur.archlinux.org/packages/ttf-anka-coder
+ - https://aur.archlinux.org/packages/ttf-meslo-nerd-font-powerlevel10k
  - https://aur.archlinux.org/packages/ttf-ms-fonts
  - https://aur.archlinux.org/packages/ttf-twemoji
  - https://aur.archlinux.org/packages/ttf-typicons
  - https://aur.archlinux.org/packages/ttf-vista-fonts
  - https://aur.archlinux.org/packages/tty-clock
+ - https://aur.archlinux.org/packages/tuifimanager
  - https://aur.archlinux.org/packages/typora
  - https://aur.archlinux.org/packages/uftrace
+ - https://aur.archlinux.org/packages/upd72020x-fw
  - https://aur.archlinux.org/packages/usbaudio-git
  - https://aur.archlinux.org/packages/vanitygen-git
  - https://aur.archlinux.org/packages/vimix-cursors
@@ -220,19 +251,20 @@
  - https://aur.archlinux.org/packages/vscodium-bin
  - https://aur.archlinux.org/packages/waydroid
  - https://aur.archlinux.org/packages/waydroid-image
+ - https://aur.archlinux.org/packages/wd719x-firmware
  - https://aur.archlinux.org/packages/webtorrent-bittorrent-tracker
  - https://aur.archlinux.org/packages/webtorrent-cli
  - https://aur.archlinux.org/packages/webtorrent-desktop-bin
  - https://aur.archlinux.org/packages/webtty
  - https://aur.archlinux.org/packages/wttr
  - https://aur.archlinux.org/packages/x11docker
+ - https://aur.archlinux.org/packages/xdg-ninja-git
  - https://aur.archlinux.org/packages/xinput-gui
  - https://aur.archlinux.org/packages/xmind
  - https://aur.archlinux.org/packages/yay-bin
- - https://aur.archlinux.org/packages/youtube-dl-gui-git
  - https://aur.archlinux.org/packages/ytmdl-git
  - https://aur.archlinux.org/packages/zoom
 ---
 
-number of packages = 232.
+number of packages = 264.
 

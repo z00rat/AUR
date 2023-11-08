@@ -1,5 +1,0 @@
-*
-!.gitignore
-!PKGBUILD
-!.SRCINFO
-!disable-ASAN-by-default-for-release-builds.patch

@@ -1,6 +1,0 @@
-pkg/
-src/
-*.tar.gz
-*.zst
-*.log
-./update.sh

@@ -1,0 +1,7 @@
+libvos/
+pkg/
+rescached-git/
+src/
+*.tar
+*.xz
+*.zst

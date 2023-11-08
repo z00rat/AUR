@@ -1,20 +1,20 @@
-# Maintainer: NicoHood <archlinux {cat} nicohood {dog} de>
 # Maintainer: Christian Heusel <christian@heusel.eu>
-# PGP ID: 97312D5EB9D7AE7D0BD4307351DAE9B7C1AE9161
+# Maintainer: Robin Candau <antiz@archlinux.org>
+# Contributor: NicoHood <archlinux {cat} nicohood {dog} de>
 # Contributor: TobFromme < TobFromme {hat} pm {dont} me >
 # Contributor: Ashley Whetter <(firstname) @ awhetter.co.uk>
 # Contributor: Eothred <yngve.levinsen@gmail.com>
 
 pkgname=spotify
-pkgver='1.2.13.661'
+pkgver='1.2.22.982'
 epoch=1
-_commit=ga588f749
-pkgrel=1
+_commit=g794acc0a
+pkgrel=3
 pkgdesc='A proprietary music streaming service'
 arch=('x86_64')
 license=('custom')
 url='https://www.spotify.com'
-depends=('alsa-lib>=1.0.14' 'gtk3' 'libxss' 'desktop-file-utils' 'openssl' 'nss' 'at-spi2-atk' 'libcurl-gnutls' 'libsm')
+depends=('alsa-lib>=1.0.14' 'gtk3' 'libxss' 'desktop-file-utils' 'openssl' 'nss' 'at-spi2-atk' 'libcurl-gnutls' 'libsm' 'libayatana-appindicator')
 optdepends=('ffmpeg4.4: Adds support for playback of local files'
             'zenity: Adds support for importing local files'
             'libnotify: Desktop notifications')
@@ -26,16 +26,18 @@ options=('!strip')
 # http://repository.spotify.com/dists/testing/Release
 # http://repository.spotify.com/dists/testing/non-free/binary-amd64/Packages
 # http://repository.spotify.com/dists/testing/Release.gpg
-source=('spotify.protocol'
-        'LICENSE'
-        "${pkgname}-${pkgver}-${_commit}-x86_64.deb::http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_${pkgver}.${_commit}_amd64.deb"
+source=("${pkgname}-${pkgver}-${_commit}-x86_64.deb::http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_${pkgver}.${_commit}_amd64.deb"
+        "spotify.sh"
+        "spotify.protocol"
+        "LICENSE"
         # GPG signature check
         "${pkgname}-${pkgver}-${pkgrel}-Release::http://repository.spotify.com/dists/testing/Release"
         "${pkgname}-${pkgver}-${pkgrel}-Release.sig::http://repository.spotify.com/dists/testing/Release.gpg"
         "${pkgname}-${pkgver}-${pkgrel}-x86_64-Packages::http://repository.spotify.com/dists/testing/non-free/binary-amd64/Packages")
-sha512sums=('999abe46766a4101e27477f5c9f69394a4bb5c097e2e048ec2c6cb93dfa1743eb436bde3768af6ba1b90eaac78ea8589d82e621f9cbe7d9ab3f41acee6e8ca20'
+sha512sums=('fa30eb268fb52a2b5a697b39c4e93e4b625ecef596beb93cdf3509fb798ec16722b5f1aa2592041d7f7209df1e6262891aa451f79f9807d3a89725ba31b79140'
+            'da48b628a4ea925dd8521133ebf364b261b11aed252d264dde6605d915cdb631919ffe672c58534bcdb60869e5d87a49a60a8198780b99517123f0031e83fdb1'
+            '999abe46766a4101e27477f5c9f69394a4bb5c097e2e048ec2c6cb93dfa1743eb436bde3768af6ba1b90eaac78ea8589d82e621f9cbe7d9ab3f41acee6e8ca20'
             '2e16f7c7b09e9ecefaa11ab38eb7a792c62ae6f33d95ab1ff46d68995316324d8c5287b0d9ce142d1cf15158e61f594e930260abb8155467af8bc25779960615'
-            '5ccac37274ca587414a9f4c5c427fd5d4b93bbde0b39efb94ccf79a1b5947df4a00a79e00686e59a4ccd097eca0bad88e6f030f2e236d86a82c37d8e011217e9'
             'SKIP'
             'SKIP'
             'SKIP')
@@ -61,30 +63,28 @@ prepare() {
 }
 
 package() {
-    cd "${srcdir}"
-
     tar -xzf data.tar.gz --no-same-owner -C "${pkgdir}"
 
     # Enable spotify to open URLs from the webapp
-    sed -i 's/^Exec=.*/Exec=spotify --uri=%U/' "${pkgdir}"/usr/share/spotify/spotify.desktop
+    sed -i 's/^Exec=.*/Exec=spotify --uri=%U/' "${pkgdir}/usr/share/spotify/spotify.desktop"
 
-    install -Dm644 "${pkgdir}"/usr/share/spotify/spotify.desktop "${pkgdir}"/usr/share/applications/spotify.desktop
-    install -Dm644 "${pkgdir}"/usr/share/spotify/icons/spotify-linux-512.png "${pkgdir}"/usr/share/pixmaps/spotify-client.png
+    install -Dm 644 "${pkgdir}/usr/share/spotify/spotify.desktop" "${pkgdir}/usr/share/applications/spotify.desktop"
+    install -Dm 644 "${pkgdir}/usr/share/spotify/icons/spotify-linux-512.png" "${pkgdir}/usr/share/pixmaps/spotify-client.png"
 
     for size in 22 24 32 48 64 128 256 512; do
-        install -Dm644 "${pkgdir}/usr/share/spotify/icons/spotify-linux-$size.png" \
+        install -Dm 644 "${pkgdir}/usr/share/spotify/icons/spotify-linux-${size}.png" \
             "${pkgdir}/usr/share/icons/hicolor/${size}x${size}/apps/spotify.png"
     done
 
     # Move spotify binary to its proper location
-    mkdir -p "${pkgdir}"/opt/spotify
+    mkdir -p "${pkgdir}/opt/spotify"
     mv "${pkgdir}/usr/share/spotify" "${pkgdir}/opt/"
 
-    # Symlink spotify binary which is located in /opt
-    ln -sf /opt/spotify/spotify "${pkgdir}/usr/bin/spotify"
+    # Copy launch script which allows the use of custom flags
+    install -Dm 755 spotify.sh "${pkgdir}/usr/bin/spotify"
 
     # Copy protocol file for KDE
-    install -Dm644 "${srcdir}/spotify.protocol" "${pkgdir}/usr/share/kservices5/spotify.protocol"
+    install -Dm 644 spotify.protocol "${pkgdir}/usr/share/kservices5/spotify.protocol"
 
     # Install license
     # https://www.spotify.com/legal/end-user-agreement

@@ -1,0 +1,14 @@
+pkgbase = check-broken-packages-pacman-hook-git
+	pkgdesc = Pacman hook to check for broken packages
+	pkgver = r87.eec94bd
+	pkgrel = 1
+	url = https://github.com/desbma/pacman-hooks
+	arch = x86_64
+	license = GPL
+	makedepends = git
+	makedepends = rust
+	conflicts = pacman-hooks-desbma-git
+	source = git+https://github.com/desbma/pacman-hooks
+	md5sums = SKIP
+
+pkgname = check-broken-packages-pacman-hook-git
