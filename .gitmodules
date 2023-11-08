@@ -935,3 +935,7 @@
 	path = repos/pacman-cleanup-hook
 	url = ssh://aur@aur.archlinux.org/pacman-cleanup-hook.git
 	branch = master
+[submodule "repos/pacman-log-orphans-hook"]
+	path = repos/pacman-log-orphans-hook
+	url = ssh://aur@aur.archlinux.org/pacman-log-orphans-hook.git
+	branch = master
