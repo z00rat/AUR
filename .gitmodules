@@ -951,3 +951,7 @@
 	path = repos/systemd-boot-pacman-hook
 	url = ssh://aur@aur.archlinux.org/systemd-boot-pacman-hook.git
 	branch = master
+[submodule "repos/systemd-cleanup-pacman-hook"]
+	path = repos/systemd-cleanup-pacman-hook
+	url = ssh://aur@aur.archlinux.org/systemd-cleanup-pacman-hook.git
+	branch = master
