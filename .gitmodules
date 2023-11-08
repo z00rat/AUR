@@ -963,3 +963,7 @@
 	path = repos/sysz
 	url = ssh://aur@aur.archlinux.org/sysz.git
 	branch = master
+[submodule "repos/tor-browser-bin"]
+	path = repos/tor-browser-bin
+	url = ssh://aur@aur.archlinux.org/tor-browser-bin.git
+	branch = master
