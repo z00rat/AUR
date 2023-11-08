@@ -1059,3 +1059,7 @@
 	path = repos/upd72020x-fw
 	url = ssh://aur@aur.archlinux.org/upd72020x-fw.git
 	branch = master
+[submodule "repos/ttf-mononoki"]
+	path = repos/ttf-mononoki
+	url = ssh://aur@aur.archlinux.org/ttf-mononoki.git
+	branch = master
