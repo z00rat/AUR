@@ -971,3 +971,7 @@
 	path = repos/trizen
 	url = ssh://aur@aur.archlinux.org/trizen.git
 	branch = master
+[submodule "repos/ttf-meslo-nerd-font-powerlevel10k"]
+	path = repos/ttf-meslo-nerd-font-powerlevel10k
+	url = ssh://aur@aur.archlinux.org/ttf-meslo-nerd-font-powerlevel10k.git
+	branch = master
