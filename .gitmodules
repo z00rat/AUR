@@ -995,3 +995,7 @@
 	path = repos/pacman-hook-list-systemd-units
 	url = ssh://aur@aur.archlinux.org/pacman-hook-list-systemd-units.git
 	branch = master
+[submodule "repos/pacman-pstatus"]
+	path = repos/pacman-pstatus
+	url = ssh://aur@aur.archlinux.org/pacman-pstatus.git
+	branch = master
