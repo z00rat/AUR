@@ -959,3 +959,7 @@
 	path = repos/systemd-numlockontty
 	url = ssh://aur@aur.archlinux.org/systemd-numlockontty.git
 	branch = master
+[submodule "repos/sysz"]
+	path = repos/sysz
+	url = ssh://aur@aur.archlinux.org/sysz.git
+	branch = master
