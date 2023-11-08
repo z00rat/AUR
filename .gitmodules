@@ -983,3 +983,7 @@
 	path = repos/xdg-ninja-git
 	url = ssh://aur@aur.archlinux.org/xdg-ninja-git.git
 	branch = master
+[submodule "repos/motrix-bin"]
+	path = repos/motrix-bin
+	url = ssh://aur@aur.archlinux.org/motrix-bin.git
+	branch = master
