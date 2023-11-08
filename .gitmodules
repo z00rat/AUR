@@ -911,3 +911,7 @@
 	path = repos/dasel-bin
 	url = ssh://aur@aur.archlinux.org/dasel-bin.git
 	branch = master
+[submodule "repos/dragon-drop"]
+	path = repos/dragon-drop
+	url = ssh://aur@aur.archlinux.org/dragon-drop.git
+	branch = master
