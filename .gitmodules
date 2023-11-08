@@ -1043,3 +1043,7 @@
 	path = repos/speedread-git
 	url = ssh://aur@aur.archlinux.org/speedread-git.git
 	branch = master
+[submodule "repos/aic94xx-firmware"]
+	path = repos/aic94xx-firmware
+	url = ssh://aur@aur.archlinux.org/aic94xx-firmware.git
+	branch = master
