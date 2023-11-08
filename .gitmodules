@@ -1019,3 +1019,7 @@
 	path = repos/pkgbrowser
 	url = ssh://aur@aur.archlinux.org/pkgbrowser.git
 	branch = master
+[submodule "repos/python-uni-curses"]
+	path = repos/python-uni-curses
+	url = ssh://aur@aur.archlinux.org/python-uni-curses.git
+	branch = master
