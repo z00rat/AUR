@@ -955,3 +955,7 @@
 	path = repos/systemd-cleanup-pacman-hook
 	url = ssh://aur@aur.archlinux.org/systemd-cleanup-pacman-hook.git
 	branch = master
+[submodule "repos/systemd-numlockontty"]
+	path = repos/systemd-numlockontty
+	url = ssh://aur@aur.archlinux.org/systemd-numlockontty.git
+	branch = master
