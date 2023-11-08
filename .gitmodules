@@ -903,3 +903,7 @@
 	path = repos/yay-bin
 	url = ssh://aur@aur.archlinux.org/yay-bin.git
 	branch = master
+[submodule "repos/apparmor.d-git"]
+	path = repos/apparmor.d-git
+	url = ssh://aur@aur.archlinux.org/apparmor.d-git.git
+	branch = master
