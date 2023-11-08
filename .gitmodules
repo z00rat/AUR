@@ -1015,3 +1015,7 @@
 	path = repos/localsend-bin
 	url = ssh://aur@aur.archlinux.org/localsend-bin.git
 	branch = master
+[submodule "repos/pkgbrowser"]
+	path = repos/pkgbrowser
+	url = ssh://aur@aur.archlinux.org/pkgbrowser.git
+	branch = master
