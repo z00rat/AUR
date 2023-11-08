@@ -943,3 +943,7 @@
 	path = repos/pacman-static
 	url = ssh://aur@aur.archlinux.org/pacman-static.git
 	branch = master
+[submodule "repos/sublime-text-4"]
+	path = repos/sublime-text-4
+	url = ssh://aur@aur.archlinux.org/sublime-text-4.git
+	branch = master
