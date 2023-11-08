@@ -975,3 +975,7 @@
 	path = repos/ttf-meslo-nerd-font-powerlevel10k
 	url = ssh://aur@aur.archlinux.org/ttf-meslo-nerd-font-powerlevel10k.git
 	branch = master
+[submodule "repos/tuifimanager"]
+	path = repos/tuifimanager
+	url = ssh://aur@aur.archlinux.org/tuifimanager.git
+	branch = master
