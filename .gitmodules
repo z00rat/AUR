@@ -907,3 +907,7 @@
 	path = repos/apparmor.d-git
 	url = ssh://aur@aur.archlinux.org/apparmor.d-git.git
 	branch = master
+[submodule "repos/dasel-bin"]
+	path = repos/dasel-bin
+	url = ssh://aur@aur.archlinux.org/dasel-bin.git
+	branch = master
