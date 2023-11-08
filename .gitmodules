@@ -987,3 +987,7 @@
 	path = repos/motrix-bin
 	url = ssh://aur@aur.archlinux.org/motrix-bin.git
 	branch = master
+[submodule "repos/pacdiff-pacman-hook-git"]
+	path = repos/pacdiff-pacman-hook-git
+	url = ssh://aur@aur.archlinux.org/pacdiff-pacman-hook-git.git
+	branch = master
