@@ -6,3 +6,5 @@ kill/var-cache-pacman-pkg
 kill/pre-build-aur-pkgs
 kill/aur-gits/webpage/
 kill/aur-gits/packages/
+
+.env

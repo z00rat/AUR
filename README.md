@@ -8,7 +8,7 @@ In here all AUR packages that are either I **use** or I **maintain** or I **like
 
 #### run: `cp ./trizen.conf ~/.config/trizen/trizen.conf`
 
-#### add env var GITHUB_TOKEN, then restart your shell
+#### add a `.env` file with
 ```bash
 export GITHUB_TOKEN=github_pat_<...>
 ```

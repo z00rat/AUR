@@ -9,6 +9,9 @@ trizen -Su 2>&1 >/dev/null | grep "has been flagged" | awk '{print $2}' | tee al
 msg2 "running pkgoutofdate"
 pkgoutofdate -d repos/ #--threads_num 1
 
+msg2 "sourcing .env"
+source ".env"
+
 msg2 "running aur-out-of-date"
 
 for pkgname in $(/usr/bin/ls repos); do
