@@ -939,3 +939,7 @@
 	path = repos/pacman-log-orphans-hook
 	url = ssh://aur@aur.archlinux.org/pacman-log-orphans-hook.git
 	branch = master
+[submodule "repos/pacman-static"]
+	path = repos/pacman-static
+	url = ssh://aur@aur.archlinux.org/pacman-static.git
+	branch = master
