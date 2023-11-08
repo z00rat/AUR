@@ -1035,3 +1035,7 @@
 	path = repos/rescached-git
 	url = ssh://aur@aur.archlinux.org/rescached-git.git
 	branch = master
+[submodule "repos/selectdefaultapplication-git"]
+	path = repos/selectdefaultapplication-git
+	url = ssh://aur@aur.archlinux.org/selectdefaultapplication-git.git
+	branch = master
