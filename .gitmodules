@@ -199,10 +199,6 @@
 	path = repos/obfs4proxy
 	url = ssh://aur@aur.archlinux.org/obfs4proxy.git
 	branch = master
-[submodule "repos/obs-v4l2sink"]
-	path = repos/obs-v4l2sink
-	url = ssh://aur@aur.archlinux.org/obs-v4l2sink.git
-	branch = master
 [submodule "repos/opensnitch-git"]
 	path = repos/opensnitch-git
 	url = ssh://aur@aur.archlinux.org/opensnitch-git.git
