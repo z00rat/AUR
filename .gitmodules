@@ -1003,3 +1003,7 @@
 	path = repos/pacman-systemd-inhibit
 	url = ssh://aur@aur.archlinux.org/pacman-systemd-inhibit.git
 	branch = master
+[submodule "repos/check-broken-packages-pacman-hook-git"]
+	path = repos/check-broken-packages-pacman-hook-git
+	url = ssh://aur@aur.archlinux.org/check-broken-packages-pacman-hook-git.git
+	branch = master
