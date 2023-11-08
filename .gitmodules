@@ -931,3 +931,7 @@
 	path = repos/mkinitcpio-numlock
 	url = ssh://aur@aur.archlinux.org/mkinitcpio-numlock.git
 	branch = master
+[submodule "repos/pacman-cleanup-hook"]
+	path = repos/pacman-cleanup-hook
+	url = ssh://aur@aur.archlinux.org/pacman-cleanup-hook.git
+	branch = master
