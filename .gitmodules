@@ -947,3 +947,7 @@
 	path = repos/sublime-text-4
 	url = ssh://aur@aur.archlinux.org/sublime-text-4.git
 	branch = master
+[submodule "repos/systemd-boot-pacman-hook"]
+	path = repos/systemd-boot-pacman-hook
+	url = ssh://aur@aur.archlinux.org/systemd-boot-pacman-hook.git
+	branch = master
