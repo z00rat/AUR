@@ -1031,3 +1031,7 @@
 	path = repos/reboot-arch-btw
 	url = ssh://aur@aur.archlinux.org/reboot-arch-btw.git
 	branch = master
+[submodule "repos/rescached-git"]
+	path = repos/rescached-git
+	url = ssh://aur@aur.archlinux.org/rescached-git.git
+	branch = master
