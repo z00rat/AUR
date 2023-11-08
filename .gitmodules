@@ -683,10 +683,6 @@
 	path = repos/mymonero
 	url = ssh://aur@aur.archlinux.org/mymonero.git
 	branch = master
-[submodule "repos/asp-git"]
-	path = repos/asp-git
-	url = ssh://aur@aur.archlinux.org/asp-git.git
-	branch = master
 [submodule "repos/pikaur"]
 	path = repos/pikaur
 	url = ssh://aur@aur.archlinux.org/pikaur.git
