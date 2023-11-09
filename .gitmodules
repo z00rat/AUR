@@ -1063,3 +1063,7 @@
 	path = repos/ttf-mononoki
 	url = ssh://aur@aur.archlinux.org/ttf-mononoki.git
 	branch = master
+[submodule "repos/ttf-twemoji-color"]
+	path = repos/ttf-twemoji-color
+	url = ssh://aur@aur.archlinux.org/ttf-twemoji-color.git
+	branch = master
