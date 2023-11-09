@@ -234,6 +234,7 @@
  - https://aur.archlinux.org/packages/tt-bin
  - https://aur.archlinux.org/packages/ttf-anka-coder
  - https://aur.archlinux.org/packages/ttf-meslo-nerd-font-powerlevel10k
+ - https://aur.archlinux.org/packages/ttf-mononoki
  - https://aur.archlinux.org/packages/ttf-ms-fonts
  - https://aur.archlinux.org/packages/ttf-twemoji
  - https://aur.archlinux.org/packages/ttf-typicons
@@ -266,5 +267,5 @@
  - https://aur.archlinux.org/packages/zoom
 ---
 
-number of packages = 264.
+number of packages = 265.
 

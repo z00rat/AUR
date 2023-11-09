@@ -12,6 +12,12 @@ tree -fia pkgs | grep -E "\.git$" | parallel -P 16 rm -v {}
 msg2 "adding ./pkgs"
 git add pkgs
 
+msg2 "adding ./repos"
+git add repos
+
+msg2 "adding some files"
+git add alreadyflaged.txt currently_tracking.md outofdate.txt status.md 
+
 msg2 "git status:"
 git status
 

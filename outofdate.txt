@@ -6,6 +6,7 @@ ttf-twemoji
 qbittorrent-vuetorrent-bin: new version found - 1.8.0 => 2.0.0
 mergerfs: new version found - 2.38.0 => 2.38.1
 discord-ptb: new version found - 0.0.53 => 0.0.54
+  [1;34m->[;1m sourcing .env[0m
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
 [37m             [UNKNOWN] [activitywatch-bin][0.12.3b12-2] upstream version is 0.12.2 [0m
@@ -66,7 +67,7 @@ discord-ptb: new version found - 0.0.53 => 0.0.54
 [32m          [UP-TO-DATE] [cava][0.9.1-1] matches upstream version 0.9.1 [0m
   [1;34m->[;1m checking for update for 'check-broken-packages-pacman-hook-git'[0m
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
-[31m         [OUT-OF-DATE] [cloudflared-bin][2023.8.2-1] should be updated to 2023.10.0 [0m
+[32m          [UP-TO-DATE] [cloudflared-bin][2023.10.0-1] matches upstream version 2023.10.0 [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
 [31m         [OUT-OF-DATE] [code-features][1.83.0-1] should be updated to 1.84.1 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
@@ -271,7 +272,7 @@ discord-ptb: new version found - 0.0.53 => 0.0.54
   [1;34m->[;1m checking for update for 'pacman-systemd-inhibit'[0m
 [32m          [UP-TO-DATE] [pacman-systemd-inhibit][1.0-3] matches upstream version 1.0 [0m
   [1;34m->[;1m checking for update for 'parse-torrent'[0m
-[31m         [OUT-OF-DATE] [parse-torrent][11.0.12-1] should be updated to 11.0.14 [0m
+[32m          [UP-TO-DATE] [parse-torrent][11.0.14-1] matches upstream version 11.0.14 [0m
   [1;34m->[;1m checking for update for 'paru-bin'[0m
 [32m          [UP-TO-DATE] [paru-bin][1.11.2-1] matches upstream version 1.11.2 [0m
   [1;34m->[;1m checking for update for 'passivedns-git'[0m
@@ -342,7 +343,7 @@ discord-ptb: new version found - 0.0.53 => 0.0.54
   [1;34m->[;1m checking for update for 'python3-xcpf'[0m
 [37m             [UNKNOWN] [python3-xcpf][2021.12-13] No release found for https://xyne.dev/projects/python3-xcpf/src/python3-xcpf-2021.12.tar.xz [0m
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
-[31m         [OUT-OF-DATE] [qbittorrent-vuetorrent-bin][1.8.0-1] should be updated to 2.0.1 [0m
+[31m         [OUT-OF-DATE] [qbittorrent-vuetorrent-bin][1.8.0-1] should be updated to 2.1.0 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
 [32m          [UP-TO-DATE] [qrcp][0.10.1-1] matches upstream version 0.10.1 [0m
   [1;34m->[;1m checking for update for 'qwinff'[0m
@@ -381,7 +382,7 @@ discord-ptb: new version found - 0.0.53 => 0.0.54
 [37m             [UNKNOWN] [speedometer][2.9-2] Failed to obtain GitHub release for wardi/speedometer from https://api.github.com/repos/wardi/speedometer/releases/latest: No GitHub project found for wardi/speedometer on https://api.github.com/repos/wardi/speedometer/releases/latest [0m
   [1;34m->[;1m checking for update for 'speedread-git'[0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
-[32m          [UP-TO-DATE] [spicetify-cli][2.26.0-1] matches upstream version 2.26.0 [0m
+[32m          [UP-TO-DATE] [spicetify-cli][2.27.0-1] matches upstream version 2.27.0 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
 [37m             [UNKNOWN] [spotify][1:1.2.22.982-3] No release found for spotify-1.2.22.982-g794acc0a-x86_64.deb::http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.2.22.982.g794acc0a_amd64.deb [0m
   [1;34m->[;1m checking for update for 'stacer'[0m
@@ -406,7 +407,7 @@ discord-ptb: new version found - 0.0.53 => 0.0.54
   [1;34m->[;1m checking for update for 'sysz'[0m
 [32m          [UP-TO-DATE] [sysz][1.4.3-1] matches upstream version 1.4.3 [0m
   [1;34m->[;1m checking for update for 'terser'[0m
-[31m         [OUT-OF-DATE] [terser][5.19.4-1] should be updated to 5.24.0 [0m
+[32m          [UP-TO-DATE] [terser][5.24.0-1] matches upstream version 5.24.0 [0m
   [1;34m->[;1m checking for update for 'themix-export-spotify-git'[0m
   [1;34m->[;1m checking for update for 'themix-full-git'[0m
   [1;34m->[;1m checking for update for 'themix-gui-git'[0m
@@ -435,6 +436,8 @@ discord-ptb: new version found - 0.0.53 => 0.0.54
 [37m             [UNKNOWN] [ttf-anka-coder][1.100-1] No release found for https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/anka-coder-fonts/AnkaCoder.zip [0m
   [1;34m->[;1m checking for update for 'ttf-meslo-nerd-font-powerlevel10k'[0m
 [37m             [UNKNOWN] [ttf-meslo-nerd-font-powerlevel10k][2.3.3-1] Failed to obtain GitHub release for romkatv/powerlevel10k-media from https://api.github.com/repos/romkatv/powerlevel10k-media/releases/latest: No GitHub project found for romkatv/powerlevel10k-media on https://api.github.com/repos/romkatv/powerlevel10k-media/releases/latest [0m
+  [1;34m->[;1m checking for update for 'ttf-mononoki'[0m
+[32m          [UP-TO-DATE] [ttf-mononoki][1.6-1] matches upstream version 1.6 [0m
   [1;34m->[;1m checking for update for 'ttf-ms-fonts'[0m
 [37m             [UNKNOWN] [ttf-ms-fonts][2.0-12] No release found for https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/andale32.exe [0m
   [1;34m->[;1m checking for update for 'ttf-twemoji'[0m
@@ -470,7 +473,7 @@ discord-ptb: new version found - 0.0.53 => 0.0.54
   [1;34m->[;1m checking for update for 'wd719x-firmware'[0m
 [32m          [UP-TO-DATE] [wd719x-firmware][1-7] matches upstream version 1-7 [0m
   [1;34m->[;1m checking for update for 'webtorrent-bittorrent-tracker'[0m
-[31m         [OUT-OF-DATE] [webtorrent-bittorrent-tracker][10.0.10-1] should be updated to 11.0.0 [0m
+[32m          [UP-TO-DATE] [webtorrent-bittorrent-tracker][11.0.0-1] matches upstream version 11.0.0 [0m
   [1;34m->[;1m checking for update for 'webtorrent-cli'[0m
 [32m          [UP-TO-DATE] [webtorrent-cli][4.1.0-1] matches upstream version 4.1.0 [0m
   [1;34m->[;1m checking for update for 'webtorrent-desktop-bin'[0m

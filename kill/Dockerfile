@@ -1,9 +1,9 @@
 # https://dev.to/cloudx/testing-our-package-build-in-the-docker-world-34p0
 FROM archlinux
 
-COPY ./mirrorlist /etc/pacman.d/mirrorlist
-COPY ./pacman.conf /etc/pacman.conf
-COPY ./makepkg.conf /etc/makepkg.conf
+COPY /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist
+COPY /etc/pacman.conf /etc/pacman.conf
+COPY /etc/makepkg.conf /etc/makepkg.conf
 COPY ./checkurl /usr/bin/checkurl
 
 RUN useradd builduser -m # Create the builduser
