@@ -1071,3 +1071,7 @@
 	path = repos/xcursor-human
 	url = ssh://aur@aur.archlinux.org/xcursor-human.git
 	branch = master
+[submodule "repos/mawk"]
+	path = repos/mawk
+	url = ssh://aur@aur.archlinux.org/mawk.git
+	branch = master
