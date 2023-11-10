@@ -1067,3 +1067,7 @@
 	path = repos/ttf-twemoji-color
 	url = ssh://aur@aur.archlinux.org/ttf-twemoji-color.git
 	branch = master
+[submodule "repos/xcursor-human"]
+	path = repos/xcursor-human
+	url = ssh://aur@aur.archlinux.org/xcursor-human.git
+	branch = master
