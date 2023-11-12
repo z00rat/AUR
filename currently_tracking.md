@@ -101,6 +101,7 @@
  - https://aur.archlinux.org/packages/lynis-git
  - https://aur.archlinux.org/packages/maldet
  - https://aur.archlinux.org/packages/marktext-bin
+ - https://aur.archlinux.org/packages/mawk
  - https://aur.archlinux.org/packages/mergerfs
  - https://aur.archlinux.org/packages/mergerfs-tools-git
  - https://aur.archlinux.org/packages/mkclean
@@ -237,6 +238,7 @@
  - https://aur.archlinux.org/packages/ttf-mononoki
  - https://aur.archlinux.org/packages/ttf-ms-fonts
  - https://aur.archlinux.org/packages/ttf-twemoji
+ - https://aur.archlinux.org/packages/ttf-twemoji-color
  - https://aur.archlinux.org/packages/ttf-typicons
  - https://aur.archlinux.org/packages/ttf-vista-fonts
  - https://aur.archlinux.org/packages/tty-clock
@@ -259,6 +261,7 @@
  - https://aur.archlinux.org/packages/webtty
  - https://aur.archlinux.org/packages/wttr
  - https://aur.archlinux.org/packages/x11docker
+ - https://aur.archlinux.org/packages/xcursor-human
  - https://aur.archlinux.org/packages/xdg-ninja-git
  - https://aur.archlinux.org/packages/xinput-gui
  - https://aur.archlinux.org/packages/xmind
@@ -267,5 +270,5 @@
  - https://aur.archlinux.org/packages/zoom
 ---
 
-number of packages = 265.
+number of packages = 268.
 

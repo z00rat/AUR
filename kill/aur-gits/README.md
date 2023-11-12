@@ -12,17 +12,7 @@
 
 #### download webpages of a list of package
 ```sh
-./download_webpage.sh something.names
-```
-
-#### `man git-gc` all packages inside **packages/**
-```sh
-./gc.sh
-```
-
-#### download all packages you want to test
-```sh
-./gpull.sh something.names
+./download_webpage.sh something
 ```
 
 #### to generate something.names from a AUR search result's wgeted html file
@@ -30,7 +20,17 @@
 ./parse.sh something
 ```
 
-#### generate a **report.md** from a list using **dummy_report.txt**
+#### download all packages you want to test
 ```sh
-./reportgen.sh something.names
+./gpull.sh something
+```
+
+#### `man git-gc` all packages inside **packages/**
+```sh
+./gc.sh
+```
+
+#### generate a **report.md** from a ./packages/ using **dummy_report.txt**
+```sh
+./reportgen.sh
 ```

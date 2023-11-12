@@ -1,4 +1,5 @@
 #!/bin/bash
-trash packages webpage report.md
-mkdir webpage
-mkdir packages
+trash -v packages webpage report.md
+mkdir -vp webpage
+mkdir -vp packages
+mkdir -vp webpage/pages/

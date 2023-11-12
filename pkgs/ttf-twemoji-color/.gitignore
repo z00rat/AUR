@@ -1,0 +1,7 @@
+*
+!.gitignore
+!Makefile
+!PKGBUILD
+!.SRCINFO
+!changelog.md
+!ttf-twemoji-color.install

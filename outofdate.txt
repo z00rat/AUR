@@ -3,9 +3,10 @@
   [1;34m->[;1m listing already flaged packages[0m
 ttf-twemoji
   [1;34m->[;1m running pkgoutofdate[0m
-qbittorrent-vuetorrent-bin: new version found - 1.8.0 => 2.0.0
+qbittorrent-vuetorrent-bin: new version found - 2.1.0 => 2.1.1
 mergerfs: new version found - 2.38.0 => 2.38.1
-discord-ptb: new version found - 0.0.53 => 0.0.54
+burpsuite: new version found - 2023.10.3.3 => 2023.10.3.4
+aurutils: new version found - 18.3 => 18.4
   [1;34m->[;1m sourcing .env[0m
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
@@ -15,7 +16,7 @@ discord-ptb: new version found - 0.0.53 => 0.0.54
   [1;34m->[;1m checking for update for 'aic94xx-firmware'[0m
 [37m             [UNKNOWN] [aic94xx-firmware][30-10] No release found for aic94xx-seq-30-1.tar.gz::https://download.adaptec.com/scsi/linux/aic94xx-seq-30-1.tar.gz [0m
   [1;34m->[;1m checking for update for 'alacritty-themes'[0m
-[32m          [UP-TO-DATE] [alacritty-themes][5.3.1-1] matches upstream version 5.3.1 [0m
+[32m          [UP-TO-DATE] [alacritty-themes][5.3.1-2] matches upstream version 5.3.1 [0m
   [1;34m->[;1m checking for update for 'ansifilter'[0m
 [37m             [UNKNOWN] [ansifilter][2.20-1] No release found for http://www.andre-simon.de/zip/ansifilter-2.20.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'antibody'[0m
@@ -32,7 +33,7 @@ discord-ptb: new version found - 0.0.53 => 0.0.54
   [1;34m->[;1m checking for update for 'aur-out-of-date'[0m
 [32m          [UP-TO-DATE] [aur-out-of-date][3.2.0-1] matches upstream version 3.2.0 [0m
   [1;34m->[;1m checking for update for 'aurutils'[0m
-[32m          [UP-TO-DATE] [aurutils][18.3-1] matches upstream version 18.3 [0m
+[31m         [OUT-OF-DATE] [aurutils][18.3-1] should be updated to 18.5 [0m
   [1;34m->[;1m checking for update for 'aurvote-utils'[0m
 [32m          [UP-TO-DATE] [aurvote-utils][1.1.0-1] matches upstream version 1.1.0 [0m
   [1;34m->[;1m checking for update for 'awesome-git'[0m
@@ -45,7 +46,7 @@ discord-ptb: new version found - 0.0.53 => 0.0.54
   [1;34m->[;1m checking for update for 'betterdiscord-installer'[0m
 [32m          [UP-TO-DATE] [betterdiscord-installer][1.3.0-1] matches upstream version 1.3.0 [0m
   [1;34m->[;1m checking for update for 'betterdiscord-installer-bin'[0m
-[32m          [UP-TO-DATE] [betterdiscord-installer-bin][1.3.0-1] matches upstream version 1.3.0 [0m
+[32m          [UP-TO-DATE] [betterdiscord-installer-bin][1.3.0-2] matches upstream version 1.3.0 [0m
   [1;34m->[;1m checking for update for 'betterdiscordctl-git'[0m
   [1;34m->[;1m checking for update for 'betterlockscreen'[0m
 [32m          [UP-TO-DATE] [betterlockscreen][4.2.0-1] matches upstream version 4.2.0 [0m
@@ -69,7 +70,7 @@ discord-ptb: new version found - 0.0.53 => 0.0.54
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
 [32m          [UP-TO-DATE] [cloudflared-bin][2023.10.0-1] matches upstream version 2023.10.0 [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
-[31m         [OUT-OF-DATE] [code-features][1.83.0-1] should be updated to 1.84.1 [0m
+[31m         [OUT-OF-DATE] [code-features][1.83.0-1] should be updated to 1.84.2 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
 [37m             [UNKNOWN] [code-marketplace][1.83.0-1] No release found for code-marketplace.hook [0m
   [1;34m->[;1m checking for update for 'code-server'[0m
@@ -91,9 +92,9 @@ discord-ptb: new version found - 0.0.53 => 0.0.54
   [1;34m->[;1m checking for update for 'diceware'[0m
 [37m             [UNKNOWN] [diceware][0.10-1] Failed to obtain GitHub release for ulif/diceware from https://api.github.com/repos/ulif/diceware/releases/latest: No GitHub project found for ulif/diceware on https://api.github.com/repos/ulif/diceware/releases/latest [0m
   [1;34m->[;1m checking for update for 'discord-chat-exporter-cli'[0m
-[31m         [OUT-OF-DATE] [discord-chat-exporter-cli][2.40.4-1] should be updated to 2.42.2 [0m
+[31m         [OUT-OF-DATE] [discord-chat-exporter-cli][2.40.4-1] should be updated to 2.42.3 [0m
   [1;34m->[;1m checking for update for 'discord-ptb'[0m
-[37m             [UNKNOWN] [discord-ptb][0.0.53-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.53/discord-ptb-0.0.53.tar.gz [0m
+[37m             [UNKNOWN] [discord-ptb][0.0.55-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.55/discord-ptb-0.0.55.tar.gz [0m
   [1;34m->[;1m checking for update for 'docker-systemctl-replacement-git'[0m
   [1;34m->[;1m checking for update for 'downloader-cli'[0m
 [32m          [UP-TO-DATE] [downloader-cli][0.3.3-0] matches upstream version 0.3.3 [0m
@@ -110,11 +111,11 @@ discord-ptb: new version found - 0.0.53 => 0.0.54
   [1;34m->[;1m checking for update for 'electronmail-bin'[0m
 [32m          [UP-TO-DATE] [electronmail-bin][5.2.1-1] matches upstream version 5.2.1 [0m
   [1;34m->[;1m checking for update for 'ezshare'[0m
-[32m          [UP-TO-DATE] [ezshare][1.9.0-2] matches upstream version 1.9.0 [0m
+[32m          [UP-TO-DATE] [ezshare][1.9.0-4] matches upstream version 1.9.0 [0m
   [1;34m->[;1m checking for update for 'fakepkg'[0m
 [37m             [UNKNOWN] [fakepkg][1.42.2-1] Failed to obtain GitHub release for Edenhofer/fakepkg from https://api.github.com/repos/Edenhofer/fakepkg/releases/latest: No GitHub project found for Edenhofer/fakepkg on https://api.github.com/repos/Edenhofer/fakepkg/releases/latest [0m
   [1;34m->[;1m checking for update for 'faq-bin'[0m
-[37m             [UNKNOWN] [faq-bin][0.0.7-1] Failed to obtain GitHub release for jzelinskie/faq from https://api.github.com/repos/jzelinskie/faq/releases/latest: No GitHub project found for jzelinskie/faq on https://api.github.com/repos/jzelinskie/faq/releases/latest [0m
+[37m             [UNKNOWN] [faq-bin][0.0.7-2] No release found for https://raw.githubusercontent.com/jzelinskie/faq/main/README.md [0m
   [1;34m->[;1m checking for update for 'fbrokendesktop'[0m
 [37m             [UNKNOWN] [fbrokendesktop][1.0.3-1] Failed to obtain GitHub release for AndyCrowd/fbrokendesktop.git from https://api.github.com/repos/AndyCrowd/fbrokendesktop.git/releases/latest: No GitHub project found for AndyCrowd/fbrokendesktop.git on https://api.github.com/repos/AndyCrowd/fbrokendesktop.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'ffpb'[0m
@@ -128,7 +129,7 @@ discord-ptb: new version found - 0.0.53 => 0.0.54
   [1;34m->[;1m checking for update for 'florence'[0m
 [37m             [UNKNOWN] [florence][0.6.3-3] No release found for http://sourceforge.net/projects/florence/files/florence/0.6.3/florence-0.6.3.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'fluent-reader-bin'[0m
-[32m          [UP-TO-DATE] [fluent-reader-bin][1.1.4-1] matches upstream version 1.1.4 [0m
+[32m          [UP-TO-DATE] [fluent-reader-bin][1.1.4-2] matches upstream version 1.1.4 [0m
   [1;34m->[;1m checking for update for 'fontpreview'[0m
 [37m             [UNKNOWN] [fontpreview][1.0.6-2] Failed to obtain GitHub release for sdushantha/fontpreview from https://api.github.com/repos/sdushantha/fontpreview/releases/latest: No GitHub project found for sdushantha/fontpreview on https://api.github.com/repos/sdushantha/fontpreview/releases/latest [0m
   [1;34m->[;1m checking for update for 'fsearch-git'[0m
@@ -166,7 +167,7 @@ discord-ptb: new version found - 0.0.53 => 0.0.54
   [1;34m->[;1m checking for update for 'imhex'[0m
 [37m             [UNKNOWN] [imhex][1.31.0-3] Failed to obtain GitHub release for WerWolv/ImHex.git from https://api.github.com/repos/WerWolv/ImHex.git/releases/latest: No GitHub project found for WerWolv/ImHex.git on https://api.github.com/repos/WerWolv/ImHex.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'jiq-bin'[0m
-[32m          [UP-TO-DATE] [jiq-bin][0.7.2-1] matches upstream version 0.7.2 [0m
+[32m          [UP-TO-DATE] [jiq-bin][0.7.2-2] matches upstream version 0.7.2 [0m
   [1;34m->[;1m checking for update for 'jmtpfs'[0m
 [37m             [UNKNOWN] [jmtpfs][0.5-3] Failed to obtain GitHub release for JasonFerrara/jmtpfs from https://api.github.com/repos/JasonFerrara/jmtpfs/releases/latest: No GitHub project found for JasonFerrara/jmtpfs on https://api.github.com/repos/JasonFerrara/jmtpfs/releases/latest [0m
   [1;34m->[;1m checking for update for 'keeweb-desktop-bin'[0m
@@ -198,6 +199,8 @@ discord-ptb: new version found - 0.0.53 => 0.0.54
 [32m          [UP-TO-DATE] [maldet][1.6.5-2] matches upstream version 1.6.5 [0m
   [1;34m->[;1m checking for update for 'marktext-bin'[0m
 [32m          [UP-TO-DATE] [marktext-bin][0.17.1-2] matches upstream version 0.17.1 [0m
+  [1;34m->[;1m checking for update for 'mawk'[0m
+[37m             [UNKNOWN] [mawk][1.3.4_20231102-2] No release found for https://invisible-island.net/archives/mawk/mawk-1.3.4-20231102.tgz [0m
   [1;34m->[;1m checking for update for 'mergerfs'[0m
 [32m          [UP-TO-DATE] [mergerfs][2.38.0-1] matches upstream version 2.38.0 [0m
   [1;34m->[;1m checking for update for 'mergerfs-tools-git'[0m
@@ -218,11 +221,11 @@ discord-ptb: new version found - 0.0.53 => 0.0.54
   [1;34m->[;1m checking for update for 'msg2'[0m
 [37m             [UNKNOWN] [msg2][1.2.0-2] No release found for https://roboticoverlords.org/msg2/msg2-1.2.0.tar.xz [0m
   [1;34m->[;1m checking for update for 'mymonero'[0m
-[32m          [UP-TO-DATE] [mymonero][1.3.3-1] matches upstream version 1.3.3 [0m
+[32m          [UP-TO-DATE] [mymonero][1.3.3-2] matches upstream version 1.3.3 [0m
   [1;34m->[;1m checking for update for 'nodejs-autocannon'[0m
-[32m          [UP-TO-DATE] [nodejs-autocannon][7.12.0-1] matches upstream version 7.12.0 [0m
+[32m          [UP-TO-DATE] [nodejs-autocannon][7.12.0-2] matches upstream version 7.12.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-clinic'[0m
-[32m          [UP-TO-DATE] [nodejs-clinic][13.0.0-1] matches upstream version 13.0.0 [0m
+[32m          [UP-TO-DATE] [nodejs-clinic][13.0.0-3] matches upstream version 13.0.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-csso'[0m
 [32m          [UP-TO-DATE] [nodejs-csso][5.0.5-1] matches upstream version 5.0.5 [0m
   [1;34m->[;1m checking for update for 'nodejs-csso-cli'[0m
@@ -236,7 +239,7 @@ discord-ptb: new version found - 0.0.53 => 0.0.54
   [1;34m->[;1m checking for update for 'nodejs-npm2arch'[0m
 [32m          [UP-TO-DATE] [nodejs-npm2arch][2.2.0-1] matches upstream version 2.2.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-ungit'[0m
-[31m         [OUT-OF-DATE] [nodejs-ungit][1.5.23-1] should be updated to 1.5.24 [0m
+[32m          [UP-TO-DATE] [nodejs-ungit][1.5.24-1] matches upstream version 1.5.24 [0m
   [1;34m->[;1m checking for update for 'noisetorch'[0m
 [32m          [UP-TO-DATE] [noisetorch][0.12.2-2] matches upstream version 0.12.2 [0m
   [1;34m->[;1m checking for update for 'noisetorch-bin'[0m
@@ -254,7 +257,7 @@ discord-ptb: new version found - 0.0.53 => 0.0.54
   [1;34m->[;1m checking for update for 'onioncircuits'[0m
 [32m          [UP-TO-DATE] [onioncircuits][0.8-1] matches upstream version 0.8 [0m
   [1;34m->[;1m checking for update for 'opencomic-bin'[0m
-[32m          [UP-TO-DATE] [opencomic-bin][0.2.1-3] matches upstream version 0.2.1 [0m
+[32m          [UP-TO-DATE] [opencomic-bin][0.2.1-4] matches upstream version 0.2.1 [0m
   [1;34m->[;1m checking for update for 'opensnitch-git'[0m
   [1;34m->[;1m checking for update for 'p7zip-gui'[0m
 [37m             [UNKNOWN] [p7zip-gui][16.02-8] No release found for https://downloads.sourceforge.net/project/p7zip/p7zip/16.02/p7zip_16.02_src_all.tar.bz2 [0m
@@ -272,7 +275,7 @@ discord-ptb: new version found - 0.0.53 => 0.0.54
   [1;34m->[;1m checking for update for 'pacman-systemd-inhibit'[0m
 [32m          [UP-TO-DATE] [pacman-systemd-inhibit][1.0-3] matches upstream version 1.0 [0m
   [1;34m->[;1m checking for update for 'parse-torrent'[0m
-[32m          [UP-TO-DATE] [parse-torrent][11.0.14-1] matches upstream version 11.0.14 [0m
+[32m          [UP-TO-DATE] [parse-torrent][11.0.14-2] matches upstream version 11.0.14 [0m
   [1;34m->[;1m checking for update for 'paru-bin'[0m
 [32m          [UP-TO-DATE] [paru-bin][1.11.2-1] matches upstream version 1.11.2 [0m
   [1;34m->[;1m checking for update for 'passivedns-git'[0m
@@ -323,13 +326,13 @@ discord-ptb: new version found - 0.0.53 => 0.0.54
   [1;34m->[;1m checking for update for 'python-simber'[0m
 [32m          [UP-TO-DATE] [python-simber][0.2.6-0] matches upstream version 0.2.6 [0m
   [1;34m->[;1m checking for update for 'python-spotdl'[0m
-[32m          [UP-TO-DATE] [python-spotdl][4.2.1-1] matches upstream version 4.2.1 [0m
+[32m          [UP-TO-DATE] [python-spotdl][4.2.1-2] matches upstream version 4.2.1 [0m
   [1;34m->[;1m checking for update for 'python-spotipy'[0m
 [32m          [UP-TO-DATE] [python-spotipy][2.23.0-1] matches upstream version 2.23.0 [0m
   [1;34m->[;1m checking for update for 'python-srt'[0m
 [37m             [UNKNOWN] [python-srt][3.5.3-1] Failed to obtain GitHub release for cdown/srt from https://api.github.com/repos/cdown/srt/releases/latest: No GitHub project found for cdown/srt on https://api.github.com/repos/cdown/srt/releases/latest [0m
   [1;34m->[;1m checking for update for 'python-torrequest'[0m
-[32m          [UP-TO-DATE] [python-torrequest][0.1.0-3] matches upstream version 0.1.0 [0m
+[32m          [UP-TO-DATE] [python-torrequest][0.1.0-4] matches upstream version 0.1.0 [0m
   [1;34m->[;1m checking for update for 'python-uni-curses'[0m
 [37m             [UNKNOWN] [python-uni-curses][2.1.3-1] Failed to parse upstream version: invalid version format: .2.1.3 [0m
   [1;34m->[;1m checking for update for 'python-x256'[0m
@@ -343,13 +346,13 @@ discord-ptb: new version found - 0.0.53 => 0.0.54
   [1;34m->[;1m checking for update for 'python3-xcpf'[0m
 [37m             [UNKNOWN] [python3-xcpf][2021.12-13] No release found for https://xyne.dev/projects/python3-xcpf/src/python3-xcpf-2021.12.tar.xz [0m
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
-[31m         [OUT-OF-DATE] [qbittorrent-vuetorrent-bin][1.8.0-1] should be updated to 2.1.0 [0m
+[31m         [OUT-OF-DATE] [qbittorrent-vuetorrent-bin][2.1.0-1] should be updated to 2.1.1 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
 [32m          [UP-TO-DATE] [qrcp][0.10.1-1] matches upstream version 0.10.1 [0m
   [1;34m->[;1m checking for update for 'qwinff'[0m
 [37m             [UNKNOWN] [qwinff][0.2.1-1] No release found for http://sourceforge.net/projects/qwinff/files/release/v0.2.1/qwinff_0.2.1.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'rate-mirrors-bin'[0m
-[32m          [UP-TO-DATE] [rate-mirrors-bin][0.16.4-2] matches upstream version 0.16.4 [0m
+[32m          [UP-TO-DATE] [rate-mirrors-bin][0.17.0-1] matches upstream version 0.17.0 [0m
   [1;34m->[;1m checking for update for 'raven-reader'[0m
 [32m          [UP-TO-DATE] [raven-reader][1.0.80-1] matches upstream version 1.0.80 [0m
   [1;34m->[;1m checking for update for 'raven-reader-bin'[0m
@@ -388,7 +391,7 @@ discord-ptb: new version found - 0.0.53 => 0.0.54
   [1;34m->[;1m checking for update for 'stacer'[0m
 [32m          [UP-TO-DATE] [stacer][1.1.0-1] matches upstream version 1.1.0 [0m
   [1;34m->[;1m checking for update for 'stretchly-bin'[0m
-[32m          [UP-TO-DATE] [stretchly-bin][1.14.1-1] matches upstream version 1.14.1 [0m
+[32m          [UP-TO-DATE] [stretchly-bin][1.15.0-1] matches upstream version 1.15.0 [0m
   [1;34m->[;1m checking for update for 'sublime-text-4'[0m
 [37m             [UNKNOWN] [sublime-text-4][4.4152-2] No release found for sublime_text_4_4_4152_2_x64.tar.xz::https://download.sublimetext.com/sublime_text_build_4152_x64.tar.xz [0m
   [1;34m->[;1m checking for update for 'subuser'[0m
@@ -437,11 +440,13 @@ discord-ptb: new version found - 0.0.53 => 0.0.54
   [1;34m->[;1m checking for update for 'ttf-meslo-nerd-font-powerlevel10k'[0m
 [37m             [UNKNOWN] [ttf-meslo-nerd-font-powerlevel10k][2.3.3-1] Failed to obtain GitHub release for romkatv/powerlevel10k-media from https://api.github.com/repos/romkatv/powerlevel10k-media/releases/latest: No GitHub project found for romkatv/powerlevel10k-media on https://api.github.com/repos/romkatv/powerlevel10k-media/releases/latest [0m
   [1;34m->[;1m checking for update for 'ttf-mononoki'[0m
-[32m          [UP-TO-DATE] [ttf-mononoki][1.6-1] matches upstream version 1.6 [0m
+[32m          [UP-TO-DATE] [ttf-mononoki][1.6-2] matches upstream version 1.6 [0m
   [1;34m->[;1m checking for update for 'ttf-ms-fonts'[0m
 [37m             [UNKNOWN] [ttf-ms-fonts][2.0-12] No release found for https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/andale32.exe [0m
   [1;34m->[;1m checking for update for 'ttf-twemoji'[0m
 [32m          [UP-TO-DATE] [ttf-twemoji][14.0.2-2] matches upstream version 14.0.2 [0m
+  [1;34m->[;1m checking for update for 'ttf-twemoji-color'[0m
+[32m          [UP-TO-DATE] [ttf-twemoji-color][14.0.2-2] matches upstream version 14.0.2 [0m
   [1;34m->[;1m checking for update for 'ttf-typicons'[0m
 [32m          [UP-TO-DATE] [ttf-typicons][2.1.2-1] matches upstream version 2.1.2 [0m
   [1;34m->[;1m checking for update for 'ttf-vista-fonts'[0m
@@ -465,7 +470,7 @@ discord-ptb: new version found - 0.0.53 => 0.0.54
   [1;34m->[;1m checking for update for 'vrms-arch'[0m
 [37m             [UNKNOWN] [vrms-arch][0.1.0.r25.g802c767-1] Failed to obtain GitHub release for orospakr/vrms-arch.git from https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest: No GitHub project found for orospakr/vrms-arch.git on https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'vscodium-bin'[0m
-[32m          [UP-TO-DATE] [vscodium-bin][1.84.1.23311-1] matches upstream version 1.84.1.23311 [0m
+[32m          [UP-TO-DATE] [vscodium-bin][1.84.2.23314-1] matches upstream version 1.84.2.23314 [0m
   [1;34m->[;1m checking for update for 'waydroid'[0m
 [37m             [UNKNOWN] [waydroid][1.4.2-1] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
@@ -473,7 +478,7 @@ discord-ptb: new version found - 0.0.53 => 0.0.54
   [1;34m->[;1m checking for update for 'wd719x-firmware'[0m
 [32m          [UP-TO-DATE] [wd719x-firmware][1-7] matches upstream version 1-7 [0m
   [1;34m->[;1m checking for update for 'webtorrent-bittorrent-tracker'[0m
-[32m          [UP-TO-DATE] [webtorrent-bittorrent-tracker][11.0.0-1] matches upstream version 11.0.0 [0m
+[32m          [UP-TO-DATE] [webtorrent-bittorrent-tracker][11.0.0-2] matches upstream version 11.0.0 [0m
   [1;34m->[;1m checking for update for 'webtorrent-cli'[0m
 [32m          [UP-TO-DATE] [webtorrent-cli][4.1.0-1] matches upstream version 4.1.0 [0m
   [1;34m->[;1m checking for update for 'webtorrent-desktop-bin'[0m
@@ -484,6 +489,8 @@ discord-ptb: new version found - 0.0.53 => 0.0.54
 [32m          [UP-TO-DATE] [wttr][1.55-2] matches upstream version 1.55 [0m
   [1;34m->[;1m checking for update for 'x11docker'[0m
 [32m          [UP-TO-DATE] [x11docker][7.6.0-1] matches upstream version 7.6.0 [0m
+  [1;34m->[;1m checking for update for 'xcursor-human'[0m
+[37m             [UNKNOWN] [xcursor-human][0.6-5] No release found for https://launchpad.net/ubuntu/+archive/primary/+files/human-cursors-theme_0.6.tar.gz [0m
   [1;34m->[;1m checking for update for 'xdg-ninja-git'[0m
   [1;34m->[;1m checking for update for 'xinput-gui'[0m
 [32m          [UP-TO-DATE] [xinput-gui][0.3.1-1] matches upstream version 0.3.1 [0m

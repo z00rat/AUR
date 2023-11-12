@@ -369,6 +369,8 @@ alias gwch='git whatchanged -p --abbrev-commit --pretty=medium'
 ###
 alias '$'=''
 alias -='cd -'
+alias cd..='cd ..'
+alias ..='cd ..'
 alias ...=../..
 alias ....=../../..
 alias .....=../../../..
@@ -382,16 +384,17 @@ alias 6='cd -6'
 alias 7='cd -7'
 alias 8='cd -8'
 alias 9='cd -9'
+alias mkdir='mkdir -pv'
+alias M='makepkg -sif'
+alias P='paru -S --noconfirm'
 ###
 alias CA='2>&1 | cat -A'
 alias G='| grep'
 alias H='| head'
 alias L='| less'
 alias LL='2>&1 | less'
-alias M='| most'
 alias NE='2> /dev/null'
 alias NUL='> /dev/null 2>&1'
-alias P='2>&1| pygmentize -l pytb'
 alias T='| tail'
 alias _='sudo '
 ###

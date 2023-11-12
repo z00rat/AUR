@@ -4,6 +4,7 @@ pkgs/*/*.tar.zst
 
 kill/var-cache-pacman-pkg
 kill/pre-build-aur-pkgs
+kill/mirrorlist
 kill/aur-gits/webpage/
 kill/aur-gits/packages/
 
