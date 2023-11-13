@@ -1079,3 +1079,7 @@
 	path = repos/libsvg
 	url = ssh://aur@aur.archlinux.org/libsvg.git
 	branch = master
+[submodule "repos/libsvg-cairo"]
+	path = repos/libsvg-cairo
+	url = ssh://aur@aur.archlinux.org/libsvg-cairo.git
+	branch = master
