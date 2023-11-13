@@ -3,7 +3,6 @@
   [1;34m->[;1m listing already flaged packages[0m
 ttf-twemoji
   [1;34m->[;1m running pkgoutofdate[0m
-qbittorrent-vuetorrent-bin: new version found - 2.1.0 => 2.1.1
 mergerfs: new version found - 2.38.0 => 2.38.1
 burpsuite: new version found - 2023.10.3.3 => 2023.10.3.4
 aurutils: new version found - 18.3 => 18.4
@@ -178,6 +177,10 @@ aurutils: new version found - 18.3 => 18.4
 [37m             [UNKNOWN] [libgbinder][1.1.34-2] Failed to obtain GitHub release for mer-hybris/libgbinder from https://api.github.com/repos/mer-hybris/libgbinder/releases/latest: No GitHub project found for mer-hybris/libgbinder on https://api.github.com/repos/mer-hybris/libgbinder/releases/latest [0m
   [1;34m->[;1m checking for update for 'libglibutil'[0m
 [37m             [UNKNOWN] [libglibutil][1.0.74-1] Failed to obtain GitHub release for sailfishos/libglibutil from https://api.github.com/repos/sailfishos/libglibutil/releases/latest: No GitHub project found for sailfishos/libglibutil on https://api.github.com/repos/sailfishos/libglibutil/releases/latest [0m
+  [1;34m->[;1m checking for update for 'libsvg'[0m
+[37m             [UNKNOWN] [libsvg][0.1.4-7] No release found for https://cairographics.org/snapshots/libsvg-0.1.4.tar.gz [0m
+  [1;34m->[;1m checking for update for 'libsvg-cairo'[0m
+[37m             [UNKNOWN] [libsvg-cairo][0.1.6-12] No release found for https://cairographics.org/snapshots/libsvg-cairo-0.1.6.tar.gz [0m
   [1;34m->[;1m checking for update for 'libuiohook'[0m
 [37m             [UNKNOWN] [libuiohook][1.2.2-2] Failed to obtain GitHub release for kwhat/libuiohook from https://api.github.com/repos/kwhat/libuiohook/releases/latest: No GitHub project found for kwhat/libuiohook on https://api.github.com/repos/kwhat/libuiohook/releases/latest [0m
   [1;34m->[;1m checking for update for 'libva-intel-driver-hybrid'[0m
@@ -326,7 +329,7 @@ aurutils: new version found - 18.3 => 18.4
   [1;34m->[;1m checking for update for 'python-simber'[0m
 [32m          [UP-TO-DATE] [python-simber][0.2.6-0] matches upstream version 0.2.6 [0m
   [1;34m->[;1m checking for update for 'python-spotdl'[0m
-[32m          [UP-TO-DATE] [python-spotdl][4.2.1-2] matches upstream version 4.2.1 [0m
+[32m          [UP-TO-DATE] [python-spotdl][4.2.1-4] matches upstream version 4.2.1 [0m
   [1;34m->[;1m checking for update for 'python-spotipy'[0m
 [32m          [UP-TO-DATE] [python-spotipy][2.23.0-1] matches upstream version 2.23.0 [0m
   [1;34m->[;1m checking for update for 'python-srt'[0m
@@ -346,7 +349,7 @@ aurutils: new version found - 18.3 => 18.4
   [1;34m->[;1m checking for update for 'python3-xcpf'[0m
 [37m             [UNKNOWN] [python3-xcpf][2021.12-13] No release found for https://xyne.dev/projects/python3-xcpf/src/python3-xcpf-2021.12.tar.xz [0m
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
-[31m         [OUT-OF-DATE] [qbittorrent-vuetorrent-bin][2.1.0-1] should be updated to 2.1.1 [0m
+[32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][2.1.1-1] matches upstream version 2.1.1 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
 [32m          [UP-TO-DATE] [qrcp][0.10.1-1] matches upstream version 0.10.1 [0m
   [1;34m->[;1m checking for update for 'qwinff'[0m
@@ -365,7 +368,7 @@ aurutils: new version found - 18.3 => 18.4
   [1;34m->[;1m checking for update for 'resvg'[0m
 [32m          [UP-TO-DATE] [resvg][0.36.0-1] matches upstream version 0.36.0 [0m
   [1;34m->[;1m checking for update for 'retroshare'[0m
-[37m             [UNKNOWN] [retroshare][0.6.7RC2.47-1] upstream version is 0.6.6 [0m
+[37m             [UNKNOWN] [retroshare][0.6.7-1] upstream version is 0.6.6 [0m
   [1;34m->[;1m checking for update for 'robo3t-bin'[0m
 [32m          [UP-TO-DATE] [robo3t-bin][1.4.4-1] matches upstream version 1.4.4 [0m
   [1;34m->[;1m checking for update for 'rofi-greenclip'[0m
@@ -391,7 +394,7 @@ aurutils: new version found - 18.3 => 18.4
   [1;34m->[;1m checking for update for 'stacer'[0m
 [32m          [UP-TO-DATE] [stacer][1.1.0-1] matches upstream version 1.1.0 [0m
   [1;34m->[;1m checking for update for 'stretchly-bin'[0m
-[32m          [UP-TO-DATE] [stretchly-bin][1.15.0-1] matches upstream version 1.15.0 [0m
+[32m          [UP-TO-DATE] [stretchly-bin][1.15.0-2] matches upstream version 1.15.0 [0m
   [1;34m->[;1m checking for update for 'sublime-text-4'[0m
 [37m             [UNKNOWN] [sublime-text-4][4.4152-2] No release found for sublime_text_4_4_4152_2_x64.tar.xz::https://download.sublimetext.com/sublime_text_build_4152_x64.tar.xz [0m
   [1;34m->[;1m checking for update for 'subuser'[0m
@@ -446,7 +449,7 @@ aurutils: new version found - 18.3 => 18.4
   [1;34m->[;1m checking for update for 'ttf-twemoji'[0m
 [32m          [UP-TO-DATE] [ttf-twemoji][14.0.2-2] matches upstream version 14.0.2 [0m
   [1;34m->[;1m checking for update for 'ttf-twemoji-color'[0m
-[32m          [UP-TO-DATE] [ttf-twemoji-color][14.0.2-2] matches upstream version 14.0.2 [0m
+[32m          [UP-TO-DATE] [ttf-twemoji-color][14.0.2-3] matches upstream version 14.0.2 [0m
   [1;34m->[;1m checking for update for 'ttf-typicons'[0m
 [32m          [UP-TO-DATE] [ttf-typicons][2.1.2-1] matches upstream version 2.1.2 [0m
   [1;34m->[;1m checking for update for 'ttf-vista-fonts'[0m
