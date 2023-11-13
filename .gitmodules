@@ -1075,3 +1075,7 @@
 	path = repos/mawk
 	url = ssh://aur@aur.archlinux.org/mawk.git
 	branch = master
+[submodule "repos/libsvg"]
+	path = repos/libsvg
+	url = ssh://aur@aur.archlinux.org/libsvg.git
+	branch = master
