@@ -5,5 +5,5 @@ echo ""
 echo "docker run -it aur_tester"
 echo ""
 
-docker run -v "$(pwd)"/var-cache-pacman-pkg:/var/cache/pacman/pkg/ -v "$(pwd)"/:/home/builduser/kill/ -v "$(pwd)"/pre-build-aur-pkgs/:/AUR/ -it --rm aur_tester
+docker run -v "$(pwd)"/var-cache-pacman-pkg:/var/cache/pacman/pkg/ -v "$(pwd)"/pre-build-aur-pkgs/:/AUR/ -it --rm aur_tester
 
