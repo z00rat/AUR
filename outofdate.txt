@@ -1,9 +1,9 @@
   [1;34m->[;1m checking for out-of-date packages[0m
 
   [1;34m->[;1m listing already flaged packages[0m
-ttf-twemoji
   [1;34m->[;1m running pkgoutofdate[0m
 mergerfs: new version found - 2.38.0 => 2.38.1
+discord-ptb: new version found - 0.0.55 => 0.0.56
 aurutils: new version found - 18.3 => 18.4
   [1;34m->[;1m sourcing .env[0m
   [1;34m->[;1m running aur-out-of-date[0m
@@ -24,7 +24,7 @@ aurutils: new version found - 18.3 => 18.4
   [1;34m->[;1m checking for update for 'apparmor.d-git'[0m
   [1;34m->[;1m checking for update for 'archiso-git'[0m
   [1;34m->[;1m checking for update for 'aseprite'[0m
-[31m         [OUT-OF-DATE] [aseprite][1.2.40-9] should be updated to 1.3-rc7 [0m
+[31m         [OUT-OF-DATE] [aseprite][1.2.40-9] should be updated to 1.3-rc8 [0m
   [1;34m->[;1m checking for update for 'ast-firmware'[0m
 [37m             [UNKNOWN] [ast-firmware][501-1] Failed to obtain GitHub release for Labaman/ast-firmware from https://api.github.com/repos/Labaman/ast-firmware/releases/latest: No GitHub project found for Labaman/ast-firmware on https://api.github.com/repos/Labaman/ast-firmware/releases/latest [0m
   [1;34m->[;1m checking for update for 'aur-auto-vote-git'[0m
@@ -61,7 +61,7 @@ aurutils: new version found - 18.3 => 18.4
   [1;34m->[;1m checking for update for 'bubblejail'[0m
 [32m          [UP-TO-DATE] [bubblejail][0.8.2-1] matches upstream version 0.8.2 [0m
   [1;34m->[;1m checking for update for 'burpsuite'[0m
-[37m             [UNKNOWN] [burpsuite][2023.10.3.4-1] No release found for burpsuite-2023.10.3.4.jar::https://portswigger.net/burp/releases/download?product=community&version=2023.10.3.4&type=Jar [0m
+[37m             [UNKNOWN] [burpsuite][2023.11.1-1] No release found for burpsuite-2023.11.1.jar::https://portswigger.net/burp/releases/download?product=community&version=2023.11.1&type=Jar [0m
   [1;34m->[;1m checking for update for 'cava'[0m
 [32m          [UP-TO-DATE] [cava][0.9.1-1] matches upstream version 0.9.1 [0m
   [1;34m->[;1m checking for update for 'check-broken-packages-pacman-hook-git'[0m
@@ -99,7 +99,7 @@ aurutils: new version found - 18.3 => 18.4
   [1;34m->[;1m checking for update for 'dragon-drop'[0m
 [32m          [UP-TO-DATE] [dragon-drop][1.2.0-2] matches upstream version 1.2.0 [0m
   [1;34m->[;1m checking for update for 'drawio-desktop-bin'[0m
-[32m          [UP-TO-DATE] [drawio-desktop-bin][22.0.3-1] matches upstream version 22.0.3 [0m
+[32m          [UP-TO-DATE] [drawio-desktop-bin][22.1.2-1] matches upstream version 22.1.2 [0m
   [1;34m->[;1m checking for update for 'dry-bin'[0m
 [32m          [UP-TO-DATE] [dry-bin][0.11.1-1] matches upstream version 0.11.1 [0m
   [1;34m->[;1m checking for update for 'edex-ui-bin'[0m
@@ -107,7 +107,7 @@ aurutils: new version found - 18.3 => 18.4
   [1;34m->[;1m checking for update for 'electorrent-bin'[0m
 [32m          [UP-TO-DATE] [electorrent-bin][2.8.3-1] matches upstream version 2.8.3 [0m
   [1;34m->[;1m checking for update for 'electronmail-bin'[0m
-[32m          [UP-TO-DATE] [electronmail-bin][5.2.1-1] matches upstream version 5.2.1 [0m
+[32m          [UP-TO-DATE] [electronmail-bin][5.2.2-1] matches upstream version 5.2.2 [0m
   [1;34m->[;1m checking for update for 'ezshare'[0m
 [32m          [UP-TO-DATE] [ezshare][1.9.0-4] matches upstream version 1.9.0 [0m
   [1;34m->[;1m checking for update for 'fakepkg'[0m
@@ -273,7 +273,7 @@ aurutils: new version found - 18.3 => 18.4
   [1;34m->[;1m checking for update for 'pacman-pstatus'[0m
 [32m          [UP-TO-DATE] [pacman-pstatus][0.3.1-1] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'pacman-static'[0m
-[37m             [UNKNOWN] [pacman-static][6.0.2-9] No release found for https://sources.archlinux.org/other/pacman/pacman-6.0.2.tar.xz [0m
+[37m             [UNKNOWN] [pacman-static][6.0.2-10] No release found for https://sources.archlinux.org/other/pacman/pacman-6.0.2.tar.xz [0m
   [1;34m->[;1m checking for update for 'pacman-systemd-inhibit'[0m
 [32m          [UP-TO-DATE] [pacman-systemd-inhibit][1.0-3] matches upstream version 1.0 [0m
   [1;34m->[;1m checking for update for 'parse-torrent'[0m
