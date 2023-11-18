@@ -1,13 +1,20 @@
-  [1;34m->[;1m number of packags that are 264 tracked[0m
-  [1;34m->[;1m number of packages that are 76 installed[0m
+  [1;34m->[;1m number of packags that are 279 tracked[0m
+  [1;34m->[;1m number of packages that are 106 installed[0m
   [1;34m->[;1m packages that are not tracked but installed in the system...[0m
-alass-git
-lua51-inspect
+git-cola
 openbangla-keyboard
+python-bandcamp-api
+python-dacite
+python-demjson3
+python-jaconv
+python-polib
+python-pykakasi
+python-soundcloud-v2
+python-syncedlyrics
+toilet-fonts
   [1;34m->[;1m packages that are tracked but not installed in the system...[0m
 activitywatch-bin
 advcpmv
-alacritty-themes
 ansifilter
 antibody
 apg
@@ -16,8 +23,6 @@ aseprite
 aur-auto-vote-git
 aurutils
 aurvote-utils
-awesome-git
-awmtt
 bats
 betterdiscord-installer
 betterdiscord-installer-bin
@@ -53,7 +58,6 @@ fakepkg
 faq-bin
 fbrokendesktop
 ffpb
-figlet-fonts
 firefox-esr-bin
 flamegraph
 fsearch-git
@@ -75,6 +79,7 @@ keeweb-desktop-bin
 lib32-jack
 libgbinder
 libglibutil
+libsvg-cairo
 libuiohook
 libva-intel-driver-hybrid
 light-git
@@ -91,7 +96,6 @@ mkclean
 mkp224o
 mpck
 mymonero
-nodejs-clinic
 nodejs-csso
 nodejs-csso-cli
 nodejs-git-split-diffs
@@ -113,7 +117,6 @@ p7zip-gui
 parse-torrent
 patat-bin
 pikaur
-pipes.sh
 play-with-mpv-git
 plymouth-theme-arch10
 python-auditok
@@ -127,10 +130,7 @@ python-itunespy
 python-pydes
 python-pynput
 python-pysubs2
-python-pytube
 python-simber
-python-spotdl
-python-spotipy
 python-srt
 python-torrequest
 python-youtube-search-git
@@ -178,8 +178,8 @@ tlpui-git
 tmpwatch
 tt-bin
 ttf-anka-coder
+ttf-twemoji-color
 ttf-typicons
-tty-clock
 typora
 uftrace
 usbaudio-git
@@ -193,6 +193,7 @@ waydroid-image
 webtorrent-bittorrent-tracker
 webtty
 x11docker
+xcursor-human
 xinput-gui
 xmind
 ytmdl-git
