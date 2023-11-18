@@ -1083,3 +1083,7 @@
 	path = repos/libsvg-cairo
 	url = ssh://aur@aur.archlinux.org/libsvg-cairo.git
 	branch = master
+[submodule "repos/fortune-mod-archlinux"]
+	path = repos/fortune-mod-archlinux
+	url = ssh://aur@aur.archlinux.org/fortune-mod-archlinux.git
+	branch = master
