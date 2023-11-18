@@ -1087,3 +1087,7 @@
 	path = repos/fortune-mod-archlinux
 	url = ssh://aur@aur.archlinux.org/fortune-mod-archlinux.git
 	branch = master
+[submodule "repos/arttime-git"]
+	path = repos/arttime-git
+	url = ssh://aur@aur.archlinux.org/arttime-git.git
+	branch = master
