@@ -1095,3 +1095,7 @@
 	path = repos/ascii-rain-git
 	url = ssh://aur@aur.archlinux.org/ascii-rain-git.git
 	branch = master
+[submodule "repos/bash-pipes"]
+	path = repos/bash-pipes
+	url = ssh://aur@aur.archlinux.org/bash-pipes.git
+	branch = master
