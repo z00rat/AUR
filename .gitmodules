@@ -1099,3 +1099,7 @@
 	path = repos/bash-pipes
 	url = ssh://aur@aur.archlinux.org/bash-pipes.git
 	branch = master
+[submodule "repos/boxes"]
+	path = repos/boxes
+	url = ssh://aur@aur.archlinux.org/boxes.git
+	branch = master
