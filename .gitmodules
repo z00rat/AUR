@@ -1103,3 +1103,7 @@
 	path = repos/boxes
 	url = ssh://aur@aur.archlinux.org/boxes.git
 	branch = master
+[submodule "repos/cbonsai"]
+	path = repos/cbonsai
+	url = ssh://aur@aur.archlinux.org/cbonsai.git
+	branch = master
