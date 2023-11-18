@@ -1107,3 +1107,7 @@
 	path = repos/cbonsai
 	url = ssh://aur@aur.archlinux.org/cbonsai.git
 	branch = master
+[submodule "repos/lua-inspect"]
+	path = repos/lua-inspect
+	url = ssh://aur@aur.archlinux.org/lua-inspect.git
+	branch = master
