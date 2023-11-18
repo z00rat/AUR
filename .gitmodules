@@ -1111,3 +1111,7 @@
 	path = repos/lua-inspect
 	url = ssh://aur@aur.archlinux.org/lua-inspect.git
 	branch = master
+[submodule "repos/neo-matrix"]
+	path = repos/neo-matrix
+	url = ssh://aur@aur.archlinux.org/neo-matrix.git
+	branch = master
