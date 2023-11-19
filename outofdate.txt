@@ -1,6 +1,8 @@
   [1;34m->[;1m checking for out-of-date packages[0m
 
   [1;34m->[;1m listing already flaged packages[0m
+awmtt
+ttf-twemoji
   [1;34m->[;1m running pkgoutofdate[0m
 mergerfs: new version found - 2.38.0 => 2.38.1
 aurutils: new version found - 18.3 => 18.4
@@ -22,6 +24,8 @@ aurutils: new version found - 18.3 => 18.4
 [32m          [UP-TO-DATE] [apg][2.2.3-5] matches upstream version 2.2.3 [0m
   [1;34m->[;1m checking for update for 'apparmor.d-git'[0m
   [1;34m->[;1m checking for update for 'archiso-git'[0m
+  [1;34m->[;1m checking for update for 'arttime-git'[0m
+  [1;34m->[;1m checking for update for 'ascii-rain-git'[0m
   [1;34m->[;1m checking for update for 'aseprite'[0m
 [31m         [OUT-OF-DATE] [aseprite][1.2.40-9] should be updated to 1.3-rc8 [0m
   [1;34m->[;1m checking for update for 'ast-firmware'[0m
@@ -36,6 +40,8 @@ aurutils: new version found - 18.3 => 18.4
   [1;34m->[;1m checking for update for 'awesome-git'[0m
   [1;34m->[;1m checking for update for 'awmtt'[0m
 [37m             [UNKNOWN] [awmtt][0.5-1] Failed to obtain GitHub release for mikar/awmtt.git from https://api.github.com/repos/mikar/awmtt.git/releases/latest: No GitHub project found for mikar/awmtt.git on https://api.github.com/repos/mikar/awmtt.git/releases/latest [0m
+  [1;34m->[;1m checking for update for 'bash-pipes'[0m
+[32m          [UP-TO-DATE] [bash-pipes][1.3.0-9] matches upstream version 1.3.0 [0m
   [1;34m->[;1m checking for update for 'bashmount'[0m
 [32m          [UP-TO-DATE] [bashmount][4.3.2-2] matches upstream version 4.3.2 [0m
   [1;34m->[;1m checking for update for 'bats'[0m
@@ -53,6 +59,8 @@ aurutils: new version found - 18.3 => 18.4
 [32m          [UP-TO-DATE] [bibata-cursor-theme-bin][2.0.4-1] matches upstream version 2.0.4 [0m
   [1;34m->[;1m checking for update for 'boundary-bin'[0m
 [37m             [UNKNOWN] [boundary-bin][0.14.2-1] No release found for boundary-controller.service [0m
+  [1;34m->[;1m checking for update for 'boxes'[0m
+[32m          [UP-TO-DATE] [boxes][2.2.1-1] matches upstream version 2.2.1 [0m
   [1;34m->[;1m checking for update for 'brave'[0m
 [37m             [UNKNOWN] [brave][1.52.129-1] Failed to obtain GitHub release for brave/brave-browser.git from https://api.github.com/repos/brave/brave-browser.git/releases/latest: No GitHub project found for brave/brave-browser.git on https://api.github.com/repos/brave/brave-browser.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'broken-link-checker'[0m
@@ -63,6 +71,8 @@ aurutils: new version found - 18.3 => 18.4
 [37m             [UNKNOWN] [burpsuite][2023.11.1-1] No release found for burpsuite-2023.11.1.jar::https://portswigger.net/burp/releases/download?product=community&version=2023.11.1&type=Jar [0m
   [1;34m->[;1m checking for update for 'cava'[0m
 [32m          [UP-TO-DATE] [cava][0.9.1-1] matches upstream version 0.9.1 [0m
+  [1;34m->[;1m checking for update for 'cbonsai'[0m
+[32m          [UP-TO-DATE] [cbonsai][1.3.1-3] matches upstream version 1.3.1 [0m
   [1;34m->[;1m checking for update for 'check-broken-packages-pacman-hook-git'[0m
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
 [32m          [UP-TO-DATE] [cloudflared-bin][2023.10.0-1] matches upstream version 2023.10.0 [0m
@@ -71,7 +81,7 @@ aurutils: new version found - 18.3 => 18.4
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
 [37m             [UNKNOWN] [code-marketplace][1.83.0-1] No release found for code-marketplace.hook [0m
   [1;34m->[;1m checking for update for 'code-server'[0m
-[32m          [UP-TO-DATE] [code-server][4.18.0-1] matches upstream version 4.18.0 [0m
+[31m         [OUT-OF-DATE] [code-server][4.18.0-1] should be updated to 4.19.0 [0m
   [1;34m->[;1m checking for update for 'cointop'[0m
 [32m          [UP-TO-DATE] [cointop][1.6.10-1] matches upstream version 1.6.10 [0m
   [1;34m->[;1m checking for update for 'cointop-bin'[0m
@@ -129,6 +139,8 @@ aurutils: new version found - 18.3 => 18.4
 [32m          [UP-TO-DATE] [fluent-reader-bin][1.1.4-2] matches upstream version 1.1.4 [0m
   [1;34m->[;1m checking for update for 'fontpreview'[0m
 [37m             [UNKNOWN] [fontpreview][1.0.6-2] Failed to obtain GitHub release for sdushantha/fontpreview from https://api.github.com/repos/sdushantha/fontpreview/releases/latest: No GitHub project found for sdushantha/fontpreview on https://api.github.com/repos/sdushantha/fontpreview/releases/latest [0m
+  [1;34m->[;1m checking for update for 'fortune-mod-archlinux'[0m
+[37m             [UNKNOWN] [fortune-mod-archlinux][1-3] No release found for archlinux [0m
   [1;34m->[;1m checking for update for 'fsearch-git'[0m
   [1;34m->[;1m checking for update for 'fswatch'[0m
 [32m          [UP-TO-DATE] [fswatch][1.17.1-1] matches upstream version 1.17.1 [0m
@@ -195,6 +207,9 @@ aurutils: new version found - 18.3 => 18.4
 [37m             [UNKNOWN] [lsdesktopf][1.0.7-4] Failed to obtain GitHub release for AndyCrowd/list-desktop-files.git from https://api.github.com/repos/AndyCrowd/list-desktop-files.git/releases/latest: No GitHub project found for AndyCrowd/list-desktop-files.git on https://api.github.com/repos/AndyCrowd/list-desktop-files.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'lua-format'[0m
 [32m          [UP-TO-DATE] [lua-format][1.3.6-8] matches upstream version 1.3.6 [0m
+  [1;34m->[;1m checking for update for 'lua-inspect'[0m
+[37m             [UNKNOWN] [lua-inspect][3.1.3-1] Failed to obtain GitHub release for kikito/inspect.lua from https://api.github.com/repos/kikito/inspect.lua/releases/latest: No GitHub project found for kikito/inspect.lua on https://api.github.com/repos/kikito/inspect.lua/releases/latest [0m
+  [1;34m->[;1m checking for update for 'lua51-inspect'[0m
   [1;34m->[;1m checking for update for 'lynis-git'[0m
   [1;34m->[;1m checking for update for 'maldet'[0m
 [32m          [UP-TO-DATE] [maldet][1.6.5-2] matches upstream version 1.6.5 [0m
@@ -223,6 +238,8 @@ aurutils: new version found - 18.3 => 18.4
 [37m             [UNKNOWN] [msg2][1.2.0-2] No release found for https://roboticoverlords.org/msg2/msg2-1.2.0.tar.xz [0m
   [1;34m->[;1m checking for update for 'mymonero'[0m
 [32m          [UP-TO-DATE] [mymonero][1.3.3-2] matches upstream version 1.3.3 [0m
+  [1;34m->[;1m checking for update for 'neo-matrix'[0m
+[32m          [UP-TO-DATE] [neo-matrix][0.6.1-2] matches upstream version 0.6.1 [0m
   [1;34m->[;1m checking for update for 'nodejs-autocannon'[0m
 [32m          [UP-TO-DATE] [nodejs-autocannon][7.12.0-2] matches upstream version 7.12.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-clinic'[0m
@@ -327,7 +344,7 @@ aurutils: new version found - 18.3 => 18.4
   [1;34m->[;1m checking for update for 'python-simber'[0m
 [32m          [UP-TO-DATE] [python-simber][0.2.6-0] matches upstream version 0.2.6 [0m
   [1;34m->[;1m checking for update for 'python-spotdl'[0m
-[32m          [UP-TO-DATE] [python-spotdl][4.2.1-4] matches upstream version 4.2.1 [0m
+[32m          [UP-TO-DATE] [python-spotdl][4.2.2-1] matches upstream version 4.2.2 [0m
   [1;34m->[;1m checking for update for 'python-spotipy'[0m
 [32m          [UP-TO-DATE] [python-spotipy][2.23.0-1] matches upstream version 2.23.0 [0m
   [1;34m->[;1m checking for update for 'python-srt'[0m

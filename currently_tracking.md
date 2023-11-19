@@ -9,6 +9,8 @@
  - https://aur.archlinux.org/packages/apg
  - https://aur.archlinux.org/packages/apparmor.d-git
  - https://aur.archlinux.org/packages/archiso-git
+ - https://aur.archlinux.org/packages/arttime-git
+ - https://aur.archlinux.org/packages/ascii-rain-git
  - https://aur.archlinux.org/packages/aseprite
  - https://aur.archlinux.org/packages/ast-firmware
  - https://aur.archlinux.org/packages/aur-auto-vote-git
@@ -17,6 +19,7 @@
  - https://aur.archlinux.org/packages/aurvote-utils
  - https://aur.archlinux.org/packages/awesome-git
  - https://aur.archlinux.org/packages/awmtt
+ - https://aur.archlinux.org/packages/bash-pipes
  - https://aur.archlinux.org/packages/bashmount
  - https://aur.archlinux.org/packages/bats
  - https://aur.archlinux.org/packages/betterdiscord-installer
@@ -26,11 +29,13 @@
  - https://aur.archlinux.org/packages/bibata-cursor-theme
  - https://aur.archlinux.org/packages/bibata-cursor-theme-bin
  - https://aur.archlinux.org/packages/boundary-bin
+ - https://aur.archlinux.org/packages/boxes
  - https://aur.archlinux.org/packages/brave
  - https://aur.archlinux.org/packages/broken-link-checker
  - https://aur.archlinux.org/packages/bubblejail
  - https://aur.archlinux.org/packages/burpsuite
  - https://aur.archlinux.org/packages/cava
+ - https://aur.archlinux.org/packages/cbonsai
  - https://aur.archlinux.org/packages/check-broken-packages-pacman-hook-git
  - https://aur.archlinux.org/packages/cloudflared-bin
  - https://aur.archlinux.org/packages/code-features
@@ -65,6 +70,7 @@
  - https://aur.archlinux.org/packages/florence
  - https://aur.archlinux.org/packages/fluent-reader-bin
  - https://aur.archlinux.org/packages/fontpreview
+ - https://aur.archlinux.org/packages/fortune-mod-archlinux
  - https://aur.archlinux.org/packages/fsearch-git
  - https://aur.archlinux.org/packages/fswatch
  - https://aur.archlinux.org/packages/gallery-dl
@@ -89,6 +95,8 @@
  - https://aur.archlinux.org/packages/lib32-jack
  - https://aur.archlinux.org/packages/libgbinder
  - https://aur.archlinux.org/packages/libglibutil
+ - https://aur.archlinux.org/packages/libsvg
+ - https://aur.archlinux.org/packages/libsvg-cairo
  - https://aur.archlinux.org/packages/libuiohook
  - https://aur.archlinux.org/packages/libva-intel-driver-hybrid
  - https://aur.archlinux.org/packages/light-git
@@ -98,6 +106,8 @@
  - https://aur.archlinux.org/packages/lscolors-git
  - https://aur.archlinux.org/packages/lsdesktopf
  - https://aur.archlinux.org/packages/lua-format
+ - https://aur.archlinux.org/packages/lua-inspect
+ - https://aur.archlinux.org/packages/lua51-inspect
  - https://aur.archlinux.org/packages/lynis-git
  - https://aur.archlinux.org/packages/maldet
  - https://aur.archlinux.org/packages/marktext-bin
@@ -113,6 +123,7 @@
  - https://aur.archlinux.org/packages/mpck
  - https://aur.archlinux.org/packages/msg2
  - https://aur.archlinux.org/packages/mymonero
+ - https://aur.archlinux.org/packages/neo-matrix
  - https://aur.archlinux.org/packages/nodejs-autocannon
  - https://aur.archlinux.org/packages/nodejs-clinic
  - https://aur.archlinux.org/packages/nodejs-csso
@@ -270,5 +281,5 @@
  - https://aur.archlinux.org/packages/zoom
 ---
 
-number of packages = 268.
+number of packages = 279.
 
