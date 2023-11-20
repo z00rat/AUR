@@ -209,7 +209,6 @@ aurutils: new version found - 18.3 => 18.4
 [32m          [UP-TO-DATE] [lua-format][1.3.6-8] matches upstream version 1.3.6 [0m
   [1;34m->[;1m checking for update for 'lua-inspect'[0m
 [37m             [UNKNOWN] [lua-inspect][3.1.3-1] Failed to obtain GitHub release for kikito/inspect.lua from https://api.github.com/repos/kikito/inspect.lua/releases/latest: No GitHub project found for kikito/inspect.lua on https://api.github.com/repos/kikito/inspect.lua/releases/latest [0m
-  [1;34m->[;1m checking for update for 'lua51-inspect'[0m
   [1;34m->[;1m checking for update for 'lynis-git'[0m
   [1;34m->[;1m checking for update for 'maldet'[0m
 [32m          [UP-TO-DATE] [maldet][1.6.5-2] matches upstream version 1.6.5 [0m
@@ -273,7 +272,7 @@ aurutils: new version found - 18.3 => 18.4
   [1;34m->[;1m checking for update for 'onedrive-abraunegg'[0m
 [32m          [UP-TO-DATE] [onedrive-abraunegg][2.4.25-1] matches upstream version 2.4.25 [0m
   [1;34m->[;1m checking for update for 'onioncircuits'[0m
-[32m          [UP-TO-DATE] [onioncircuits][0.8-1] matches upstream version 0.8 [0m
+[37m             [UNKNOWN] [onioncircuits][0.8-1] No GitLab release found for gitlab.tails.boum.org/tails/onioncircuits.git#commit=ca2cfc399ca72446258c85300ad0ff975c5e213c on https://gitlab.tails.boum.org/api/v4/projects/tails%2Fonioncircuits.git%23commit=ca2cfc399ca72446258c85300ad0ff975c5e213c/repository/tags [0m
   [1;34m->[;1m checking for update for 'opencomic-bin'[0m
 [32m          [UP-TO-DATE] [opencomic-bin][0.2.1-4] matches upstream version 0.2.1 [0m
   [1;34m->[;1m checking for update for 'opensnitch-git'[0m
@@ -409,7 +408,7 @@ aurutils: new version found - 18.3 => 18.4
   [1;34m->[;1m checking for update for 'stacer'[0m
 [32m          [UP-TO-DATE] [stacer][1.1.0-1] matches upstream version 1.1.0 [0m
   [1;34m->[;1m checking for update for 'stretchly-bin'[0m
-[32m          [UP-TO-DATE] [stretchly-bin][1.15.0-2] matches upstream version 1.15.0 [0m
+[32m          [UP-TO-DATE] [stretchly-bin][1.15.1-1] matches upstream version 1.15.1 [0m
   [1;34m->[;1m checking for update for 'sublime-text-4'[0m
 [37m             [UNKNOWN] [sublime-text-4][4.4152-2] No release found for sublime_text_4_4_4152_2_x64.tar.xz::https://download.sublimetext.com/sublime_text_build_4152_x64.tar.xz [0m
   [1;34m->[;1m checking for update for 'subuser'[0m
@@ -492,7 +491,7 @@ aurutils: new version found - 18.3 => 18.4
   [1;34m->[;1m checking for update for 'waydroid'[0m
 [37m             [UNKNOWN] [waydroid][1.4.2-1] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
-[37m             [UNKNOWN] [waydroid-image][18.1_20231028-1] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-18.1-20231028-VANILLA-waydroid_x86_64-system.zip [0m
+[37m             [UNKNOWN] [waydroid-image][18.1_20231118-1] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-18.1-20231118-VANILLA-waydroid_x86_64-system.zip [0m
   [1;34m->[;1m checking for update for 'wd719x-firmware'[0m
 [32m          [UP-TO-DATE] [wd719x-firmware][1-7] matches upstream version 1-7 [0m
   [1;34m->[;1m checking for update for 'webtorrent-bittorrent-tracker'[0m
