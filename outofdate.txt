@@ -4,6 +4,7 @@
 awmtt
 ttf-twemoji
   [1;34m->[;1m running pkgoutofdate[0m
+qbittorrent-vuetorrent-bin: new version found - 2.1.1 => 2.2.0
 mergerfs: new version found - 2.38.0 => 2.38.1
 aurutils: new version found - 18.3 => 18.4
   [1;34m->[;1m sourcing .env[0m
@@ -81,7 +82,7 @@ aurutils: new version found - 18.3 => 18.4
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
 [37m             [UNKNOWN] [code-marketplace][1.83.0-1] No release found for code-marketplace.hook [0m
   [1;34m->[;1m checking for update for 'code-server'[0m
-[31m         [OUT-OF-DATE] [code-server][4.18.0-1] should be updated to 4.19.0 [0m
+[32m          [UP-TO-DATE] [code-server][4.19.0-1] matches upstream version 4.19.0 [0m
   [1;34m->[;1m checking for update for 'cointop'[0m
 [32m          [UP-TO-DATE] [cointop][1.6.10-1] matches upstream version 1.6.10 [0m
   [1;34m->[;1m checking for update for 'cointop-bin'[0m
@@ -104,7 +105,7 @@ aurutils: new version found - 18.3 => 18.4
 [37m             [UNKNOWN] [discord-ptb][0.0.56-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.56/discord-ptb-0.0.56.tar.gz [0m
   [1;34m->[;1m checking for update for 'docker-systemctl-replacement-git'[0m
   [1;34m->[;1m checking for update for 'downloader-cli'[0m
-[32m          [UP-TO-DATE] [downloader-cli][0.3.3-0] matches upstream version 0.3.3 [0m
+[31m         [OUT-OF-DATE] [downloader-cli][0.3.3-0] should be updated to 0.3.4 [0m
   [1;34m->[;1m checking for update for 'dragon-drop'[0m
 [32m          [UP-TO-DATE] [dragon-drop][1.2.0-2] matches upstream version 1.2.0 [0m
   [1;34m->[;1m checking for update for 'drawio-desktop-bin'[0m
@@ -272,7 +273,7 @@ aurutils: new version found - 18.3 => 18.4
   [1;34m->[;1m checking for update for 'onedrive-abraunegg'[0m
 [32m          [UP-TO-DATE] [onedrive-abraunegg][2.4.25-1] matches upstream version 2.4.25 [0m
   [1;34m->[;1m checking for update for 'onioncircuits'[0m
-[37m             [UNKNOWN] [onioncircuits][0.8-1] No GitLab release found for gitlab.tails.boum.org/tails/onioncircuits.git#commit=ca2cfc399ca72446258c85300ad0ff975c5e213c on https://gitlab.tails.boum.org/api/v4/projects/tails%2Fonioncircuits.git%23commit=ca2cfc399ca72446258c85300ad0ff975c5e213c/repository/tags [0m
+[32m          [UP-TO-DATE] [onioncircuits][0.8-1] matches upstream version 0.8 [0m
   [1;34m->[;1m checking for update for 'opencomic-bin'[0m
 [32m          [UP-TO-DATE] [opencomic-bin][0.2.1-4] matches upstream version 0.2.1 [0m
   [1;34m->[;1m checking for update for 'opensnitch-git'[0m
@@ -363,7 +364,7 @@ aurutils: new version found - 18.3 => 18.4
   [1;34m->[;1m checking for update for 'python3-xcpf'[0m
 [37m             [UNKNOWN] [python3-xcpf][2021.12-13] No release found for https://xyne.dev/projects/python3-xcpf/src/python3-xcpf-2021.12.tar.xz [0m
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
-[32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][2.1.1-1] matches upstream version 2.1.1 [0m
+[31m         [OUT-OF-DATE] [qbittorrent-vuetorrent-bin][2.1.1-1] should be updated to 2.2.0 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
 [32m          [UP-TO-DATE] [qrcp][0.10.1-1] matches upstream version 0.10.1 [0m
   [1;34m->[;1m checking for update for 'qwinff'[0m
@@ -404,13 +405,13 @@ aurutils: new version found - 18.3 => 18.4
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
 [32m          [UP-TO-DATE] [spicetify-cli][2.27.1-1] matches upstream version 2.27.1 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
-[37m             [UNKNOWN] [spotify][1:1.2.22.982-3] No release found for spotify-1.2.22.982-g794acc0a-x86_64.deb::http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.2.22.982.g794acc0a_amd64.deb [0m
+[37m             [UNKNOWN] [spotify][1:1.2.25.1009-1] No release found for spotify-1.2.25.1009-g075ce884-x86_64.deb::http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.2.25.1009.g075ce884_amd64.deb [0m
   [1;34m->[;1m checking for update for 'stacer'[0m
 [32m          [UP-TO-DATE] [stacer][1.1.0-1] matches upstream version 1.1.0 [0m
   [1;34m->[;1m checking for update for 'stretchly-bin'[0m
 [32m          [UP-TO-DATE] [stretchly-bin][1.15.1-1] matches upstream version 1.15.1 [0m
   [1;34m->[;1m checking for update for 'sublime-text-4'[0m
-[37m             [UNKNOWN] [sublime-text-4][4.4152-2] No release found for sublime_text_4_4_4152_2_x64.tar.xz::https://download.sublimetext.com/sublime_text_build_4152_x64.tar.xz [0m
+[37m             [UNKNOWN] [sublime-text-4][4.4166-1] No release found for sublime_text_4_4_4166_1_x64.tar.xz::https://download.sublimetext.com/sublime_text_build_4166_x64.tar.xz [0m
   [1;34m->[;1m checking for update for 'subuser'[0m
 [37m             [UNKNOWN] [subuser][0.6.2-1] Failed to obtain GitHub release for subuser-security/subuser from https://api.github.com/repos/subuser-security/subuser/releases/latest: No GitHub project found for subuser-security/subuser on https://api.github.com/repos/subuser-security/subuser/releases/latest [0m
   [1;34m->[;1m checking for update for 'surf'[0m
@@ -517,5 +518,5 @@ aurutils: new version found - 18.3 => 18.4
 [32m          [UP-TO-DATE] [yay-bin][12.1.3-1] matches upstream version 12.1.3 [0m
   [1;34m->[;1m checking for update for 'ytmdl-git'[0m
   [1;34m->[;1m checking for update for 'zoom'[0m
-[37m             [UNKNOWN] [zoom][5.16.6-1] No release found for zoom-5.16.6.382_orig_x86_64.pkg.tar.xz::https://cdn.zoom.us/prod/5.16.6.382/zoom_x86_64.pkg.tar.xz [0m
+[37m             [UNKNOWN] [zoom][5.16.10-1] No release found for zoom-5.16.10.668_orig_x86_64.pkg.tar.xz::https://cdn.zoom.us/prod/5.16.10.668/zoom_x86_64.pkg.tar.xz [0m
   [1;34m->[;1m done.[0m
