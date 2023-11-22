@@ -1,2 +1,4 @@
+aurutils
 awmtt
+tor-browser-bin
 ttf-twemoji
