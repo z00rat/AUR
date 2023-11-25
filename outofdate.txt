@@ -1,17 +1,19 @@
   [1;34m->[;1m checking for out-of-date packages[0m
 
   [1;34m->[;1m listing already flaged packages[0m
-aurutils
 awmtt
+discord-ptb
 tor-browser-bin
 ttf-twemoji
   [1;34m->[;1m running pkgoutofdate[0m
 mergerfs: new version found - 2.38.0 => 2.38.1
+libgbinder: new version found - 1.1.34 => 1.1.35
+discord-ptb: new version found - 0.0.56 => 0.0.57
 discord-chat-exporter-cli: new version found - 2.42.3 => 2.42.4
   [1;34m->[;1m sourcing .env[0m
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
-[37m             [UNKNOWN] [activitywatch-bin][0.12.3b12-2] upstream version is 0.12.2 [0m
+[37m             [UNKNOWN] [activitywatch-bin][0.12.3b15-1] upstream version is 0.12.2 [0m
   [1;34m->[;1m checking for update for 'advcpmv'[0m
 [37m             [UNKNOWN] [advcpmv][9.4-1] No release found for https://ftp.gnu.org/gnu/coreutils/coreutils-9.4.tar.xz [0m
   [1;34m->[;1m checking for update for 'aic94xx-firmware'[0m
@@ -29,7 +31,7 @@ discord-chat-exporter-cli: new version found - 2.42.3 => 2.42.4
   [1;34m->[;1m checking for update for 'arttime-git'[0m
   [1;34m->[;1m checking for update for 'ascii-rain-git'[0m
   [1;34m->[;1m checking for update for 'aseprite'[0m
-[31m         [OUT-OF-DATE] [aseprite][1.2.40-9] should be updated to 1.3-rc8 [0m
+[31m         [OUT-OF-DATE] [aseprite][1.2.40-9] should be updated to 1.3-rc9 [0m
   [1;34m->[;1m checking for update for 'ast-firmware'[0m
 [37m             [UNKNOWN] [ast-firmware][501-1] Failed to obtain GitHub release for Labaman/ast-firmware from https://api.github.com/repos/Labaman/ast-firmware/releases/latest: No GitHub project found for Labaman/ast-firmware on https://api.github.com/repos/Labaman/ast-firmware/releases/latest [0m
   [1;34m->[;1m checking for update for 'aur-auto-vote-git'[0m
@@ -101,7 +103,7 @@ discord-chat-exporter-cli: new version found - 2.42.3 => 2.42.4
   [1;34m->[;1m checking for update for 'diceware'[0m
 [37m             [UNKNOWN] [diceware][0.10-1] Failed to obtain GitHub release for ulif/diceware from https://api.github.com/repos/ulif/diceware/releases/latest: No GitHub project found for ulif/diceware on https://api.github.com/repos/ulif/diceware/releases/latest [0m
   [1;34m->[;1m checking for update for 'discord-chat-exporter-cli'[0m
-[31m         [OUT-OF-DATE] [discord-chat-exporter-cli][2.42.3-1] should be updated to 2.42.4 [0m
+[31m         [OUT-OF-DATE] [discord-chat-exporter-cli][2.42.3-2] should be updated to 2.42.5 [0m
   [1;34m->[;1m checking for update for 'discord-ptb'[0m
 [37m             [UNKNOWN] [discord-ptb][0.0.56-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.56/discord-ptb-0.0.56.tar.gz [0m
   [1;34m->[;1m checking for update for 'docker-systemctl-replacement-git'[0m
@@ -242,7 +244,7 @@ discord-chat-exporter-cli: new version found - 2.42.3 => 2.42.4
   [1;34m->[;1m checking for update for 'neo-matrix'[0m
 [32m          [UP-TO-DATE] [neo-matrix][0.6.1-2] matches upstream version 0.6.1 [0m
   [1;34m->[;1m checking for update for 'nodejs-autocannon'[0m
-[32m          [UP-TO-DATE] [nodejs-autocannon][7.12.0-2] matches upstream version 7.12.0 [0m
+[31m         [OUT-OF-DATE] [nodejs-autocannon][7.12.0-2] should be updated to 7.14.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-clinic'[0m
 [32m          [UP-TO-DATE] [nodejs-clinic][13.0.0-3] matches upstream version 13.0.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-csso'[0m
@@ -404,15 +406,15 @@ discord-chat-exporter-cli: new version found - 2.42.3 => 2.42.4
 [37m             [UNKNOWN] [speedometer][2.9-2] Failed to obtain GitHub release for wardi/speedometer from https://api.github.com/repos/wardi/speedometer/releases/latest: No GitHub project found for wardi/speedometer on https://api.github.com/repos/wardi/speedometer/releases/latest [0m
   [1;34m->[;1m checking for update for 'speedread-git'[0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
-[32m          [UP-TO-DATE] [spicetify-cli][2.27.1-1] matches upstream version 2.27.1 [0m
+[32m          [UP-TO-DATE] [spicetify-cli][2.27.2-1] matches upstream version 2.27.2 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
-[37m             [UNKNOWN] [spotify][1:1.2.25.1009-1] No release found for spotify-1.2.25.1009-g075ce884-x86_64.deb::http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.2.25.1009.g075ce884_amd64.deb [0m
+[37m             [UNKNOWN] [spotify][1:1.2.25.1011-1] No release found for spotify-1.2.25.1011-g0348b2ea-x86_64.deb::http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.2.25.1011.g0348b2ea_amd64.deb [0m
   [1;34m->[;1m checking for update for 'stacer'[0m
 [32m          [UP-TO-DATE] [stacer][1.1.0-1] matches upstream version 1.1.0 [0m
   [1;34m->[;1m checking for update for 'stretchly-bin'[0m
 [32m          [UP-TO-DATE] [stretchly-bin][1.15.1-1] matches upstream version 1.15.1 [0m
   [1;34m->[;1m checking for update for 'sublime-text-4'[0m
-[37m             [UNKNOWN] [sublime-text-4][4.4166-1] No release found for sublime_text_4_4_4166_1_x64.tar.xz::https://download.sublimetext.com/sublime_text_build_4166_x64.tar.xz [0m
+[37m             [UNKNOWN] [sublime-text-4][4.4169-1] No release found for sublime_text_4_4_4169_1_x64.tar.xz::https://download.sublimetext.com/sublime_text_build_4169_x64.tar.xz [0m
   [1;34m->[;1m checking for update for 'subuser'[0m
 [37m             [UNKNOWN] [subuser][0.6.2-1] Failed to obtain GitHub release for subuser-security/subuser from https://api.github.com/repos/subuser-security/subuser/releases/latest: No GitHub project found for subuser-security/subuser on https://api.github.com/repos/subuser-security/subuser/releases/latest [0m
   [1;34m->[;1m checking for update for 'surf'[0m
@@ -449,7 +451,7 @@ discord-chat-exporter-cli: new version found - 2.42.3 => 2.42.4
   [1;34m->[;1m checking for update for 'tmpwatch'[0m
 [37m             [UNKNOWN] [tmpwatch][2.11-3] No release found for https://releases.pagure.org/tmpwatch/tmpwatch-2.11.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'tor-browser-bin'[0m
-[37m             [UNKNOWN] [tor-browser-bin][13.0.1-1] No release found for tor-browser.desktop.in [0m
+[37m             [UNKNOWN] [tor-browser-bin][13.0.4-1] No release found for tor-browser.desktop.in [0m
   [1;34m->[;1m checking for update for 'trizen'[0m
 [32m          [UP-TO-DATE] [trizen][1:1.68-1] matches upstream version 1.68 [0m
   [1;34m->[;1m checking for update for 'tt-bin'[0m
