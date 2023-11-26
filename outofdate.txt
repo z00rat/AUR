@@ -108,7 +108,7 @@ discord-chat-exporter-cli: new version found - 2.42.3 => 2.42.4
 [37m             [UNKNOWN] [discord-ptb][0.0.56-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.56/discord-ptb-0.0.56.tar.gz [0m
   [1;34m->[;1m checking for update for 'docker-systemctl-replacement-git'[0m
   [1;34m->[;1m checking for update for 'downloader-cli'[0m
-[31m         [OUT-OF-DATE] [downloader-cli][0.3.3-0] should be updated to 0.3.4 [0m
+[32m          [UP-TO-DATE] [downloader-cli][0.3.4-0] matches upstream version 0.3.4 [0m
   [1;34m->[;1m checking for update for 'dragon-drop'[0m
 [32m          [UP-TO-DATE] [dragon-drop][1.2.0-2] matches upstream version 1.2.0 [0m
   [1;34m->[;1m checking for update for 'drawio-desktop-bin'[0m
@@ -244,7 +244,7 @@ discord-chat-exporter-cli: new version found - 2.42.3 => 2.42.4
   [1;34m->[;1m checking for update for 'neo-matrix'[0m
 [32m          [UP-TO-DATE] [neo-matrix][0.6.1-2] matches upstream version 0.6.1 [0m
   [1;34m->[;1m checking for update for 'nodejs-autocannon'[0m
-[31m         [OUT-OF-DATE] [nodejs-autocannon][7.12.0-2] should be updated to 7.14.0 [0m
+[32m          [UP-TO-DATE] [nodejs-autocannon][7.14.0-1] matches upstream version 7.14.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-clinic'[0m
 [32m          [UP-TO-DATE] [nodejs-clinic][13.0.0-3] matches upstream version 13.0.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-csso'[0m
@@ -301,7 +301,7 @@ discord-chat-exporter-cli: new version found - 2.42.3 => 2.42.4
 [32m          [UP-TO-DATE] [paru-bin][1.11.2-1] matches upstream version 1.11.2 [0m
   [1;34m->[;1m checking for update for 'passivedns-git'[0m
   [1;34m->[;1m checking for update for 'patat-bin'[0m
-[32m          [UP-TO-DATE] [patat-bin][0.10.1.1-1] matches upstream version 0.10.1.1 [0m
+[32m          [UP-TO-DATE] [patat-bin][0.10.2.0-1] matches upstream version 0.10.2.0 [0m
   [1;34m->[;1m checking for update for 'pfetch'[0m
 [32m          [UP-TO-DATE] [pfetch][0.6.0-3] matches upstream version 0.6.0 [0m
   [1;34m->[;1m checking for update for 'pikaur'[0m
