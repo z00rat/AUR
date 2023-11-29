@@ -1127,3 +1127,7 @@
 	path = repos/session-desktop-bin
 	url = ssh://aur@aur.archlinux.org/session-desktop-bin.git
 	branch = master
+[submodule "repos/toilet-fonts"]
+	path = repos/toilet-fonts
+	url = ssh://aur@aur.archlinux.org/toilet-fonts.git
+	branch = master
