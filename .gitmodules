@@ -1131,3 +1131,7 @@
 	path = repos/toilet-fonts
 	url = ssh://aur@aur.archlinux.org/toilet-fonts.git
 	branch = master
+[submodule "repos/zsh-theme-powerlevel10k-git"]
+	path = repos/zsh-theme-powerlevel10k-git
+	url = ssh://aur@aur.archlinux.org/zsh-theme-powerlevel10k-git.git
+	branch = master
