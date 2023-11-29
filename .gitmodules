@@ -1171,3 +1171,7 @@
 	path = repos/openbangla-keyboard
 	url = ssh://aur@aur.archlinux.org/openbangla-keyboard.git
 	branch = master
+[submodule "repos/ibus-autostart"]
+	path = repos/ibus-autostart
+	url = ssh://aur@aur.archlinux.org/ibus-autostart.git
+	branch = master
