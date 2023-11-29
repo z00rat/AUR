@@ -1175,3 +1175,7 @@
 	path = repos/ibus-autostart
 	url = ssh://aur@aur.archlinux.org/ibus-autostart.git
 	branch = master
+[submodule "repos/git-cola"]
+	path = repos/git-cola
+	url = ssh://aur@aur.archlinux.org/git-cola.git
+	branch = master
