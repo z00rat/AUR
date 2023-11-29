@@ -1151,3 +1151,7 @@
 	path = repos/python-jaconv
 	url = ssh://aur@aur.archlinux.org/python-jaconv.git
 	branch = master
+[submodule "repos/python-polib"]
+	path = repos/python-polib
+	url = ssh://aur@aur.archlinux.org/python-polib.git
+	branch = master
