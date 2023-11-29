@@ -1123,3 +1123,7 @@
 	path = repos/briar-desktop-bin
 	url = ssh://aur@aur.archlinux.org/briar-desktop-bin.git
 	branch = master
+[submodule "repos/session-desktop-bin"]
+	path = repos/session-desktop-bin
+	url = ssh://aur@aur.archlinux.org/session-desktop-bin.git
+	branch = master
