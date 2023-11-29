@@ -1143,3 +1143,7 @@
 	path = repos/python-dacite
 	url = ssh://aur@aur.archlinux.org/python-dacite.git
 	branch = master
+[submodule "repos/python-demjson3"]
+	path = repos/python-demjson3
+	url = ssh://aur@aur.archlinux.org/python-demjson3.git
+	branch = master
