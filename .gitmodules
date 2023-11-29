@@ -1139,3 +1139,7 @@
 	path = repos/python-bandcamp-api
 	url = ssh://aur@aur.archlinux.org/python-bandcamp-api.git
 	branch = master
+[submodule "repos/python-dacite"]
+	path = repos/python-dacite
+	url = ssh://aur@aur.archlinux.org/python-dacite.git
+	branch = master
