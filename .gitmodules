@@ -1147,3 +1147,7 @@
 	path = repos/python-demjson3
 	url = ssh://aur@aur.archlinux.org/python-demjson3.git
 	branch = master
+[submodule "repos/python-jaconv"]
+	path = repos/python-jaconv
+	url = ssh://aur@aur.archlinux.org/python-jaconv.git
+	branch = master
