@@ -1135,3 +1135,7 @@
 	path = repos/zsh-theme-powerlevel10k-git
 	url = ssh://aur@aur.archlinux.org/zsh-theme-powerlevel10k-git.git
 	branch = master
+[submodule "repos/python-bandcamp-api"]
+	path = repos/python-bandcamp-api
+	url = ssh://aur@aur.archlinux.org/python-bandcamp-api.git
+	branch = master
