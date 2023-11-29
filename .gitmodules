@@ -1119,3 +1119,7 @@
 	path = repos/funny-manpages
 	url = ssh://aur@aur.archlinux.org/funny-manpages.git
 	branch = master
+[submodule "repos/briar-desktop-bin"]
+	path = repos/briar-desktop-bin
+	url = ssh://aur@aur.archlinux.org/briar-desktop-bin.git
+	branch = master
