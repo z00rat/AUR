@@ -1,5 +1,4 @@
 awmtt
+dasel-bin
 discord-ptb
-mawk
-tor-browser-bin
 ttf-twemoji

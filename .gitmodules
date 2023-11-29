@@ -1115,3 +1115,7 @@
 	path = repos/neo-matrix
 	url = ssh://aur@aur.archlinux.org/neo-matrix.git
 	branch = master
+[submodule "repos/funny-manpages"]
+	path = repos/funny-manpages
+	url = ssh://aur@aur.archlinux.org/funny-manpages.git
+	branch = master
