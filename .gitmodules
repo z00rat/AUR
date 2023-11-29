@@ -1167,3 +1167,7 @@
 	path = repos/python-syncedlyrics
 	url = ssh://aur@aur.archlinux.org/python-syncedlyrics.git
 	branch = master
+[submodule "repos/openbangla-keyboard"]
+	path = repos/openbangla-keyboard
+	url = ssh://aur@aur.archlinux.org/openbangla-keyboard.git
+	branch = master
