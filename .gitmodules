@@ -1155,3 +1155,7 @@
 	path = repos/python-polib
 	url = ssh://aur@aur.archlinux.org/python-polib.git
 	branch = master
+[submodule "repos/python-pykakasi"]
+	path = repos/python-pykakasi
+	url = ssh://aur@aur.archlinux.org/python-pykakasi.git
+	branch = master
