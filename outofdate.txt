@@ -68,6 +68,8 @@ dasel-bin: new version found - 2.4.1 => 2.5.0
 [32m          [UP-TO-DATE] [boxes][2.2.1-1] matches upstream version 2.2.1 [0m
   [1;34m->[;1m checking for update for 'brave'[0m
 [37m             [UNKNOWN] [brave][1.52.129-1] Failed to obtain GitHub release for brave/brave-browser.git from https://api.github.com/repos/brave/brave-browser.git/releases/latest: No GitHub project found for brave/brave-browser.git on https://api.github.com/repos/brave/brave-browser.git/releases/latest [0m
+  [1;34m->[;1m checking for update for 'briar-desktop-bin'[0m
+[37m             [UNKNOWN] [briar-desktop-bin][0.5.0.beta-1] No release found for https://desktop.briarproject.org/jars/linux/0.5.0-beta/briar-desktop-linux-0.5.0-beta.jar [0m
   [1;34m->[;1m checking for update for 'broken-link-checker'[0m
 [32m          [UP-TO-DATE] [broken-link-checker][0.7.8-1] matches upstream version 0.7.8 [0m
   [1;34m->[;1m checking for update for 'bubblejail'[0m
@@ -149,12 +151,16 @@ dasel-bin: new version found - 2.4.1 => 2.5.0
   [1;34m->[;1m checking for update for 'fsearch-git'[0m
   [1;34m->[;1m checking for update for 'fswatch'[0m
 [32m          [UP-TO-DATE] [fswatch][1.17.1-1] matches upstream version 1.17.1 [0m
+  [1;34m->[;1m checking for update for 'funny-manpages'[0m
+[32m          [UP-TO-DATE] [funny-manpages][2.3-1] matches upstream version 2.3 [0m
   [1;34m->[;1m checking for update for 'gallery-dl'[0m
 [32m          [UP-TO-DATE] [gallery-dl][1.26.3-1] matches upstream version 1.26.3 [0m
   [1;34m->[;1m checking for update for 'gconf-cleaner'[0m
 [37m             [UNKNOWN] [gconf-cleaner][0.0.3-2] No release found for https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gconf-cleaner/gconf-cleaner-0.0.3.tar.gz [0m
   [1;34m->[;1m checking for update for 'gconf-gtk2'[0m
 [37m             [UNKNOWN] [gconf-gtk2][3.2.6-5] No release found for https://download.gnome.org/sources/GConf/3.2/GConf-3.2.6.tar.xz [0m
+  [1;34m->[;1m checking for update for 'git-cola'[0m
+[32m          [UP-TO-DATE] [git-cola][4.4.1-1] matches upstream version 4.4.1 [0m
   [1;34m->[;1m checking for update for 'gitify-bin'[0m
 [32m          [UP-TO-DATE] [gitify-bin][4.4.0-1] matches upstream version 4.4.0 [0m
   [1;34m->[;1m checking for update for 'gitstatus'[0m
@@ -177,6 +183,8 @@ dasel-bin: new version found - 2.4.1 => 2.5.0
 [32m          [UP-TO-DATE] [hydroxide][0.2.28-4] matches upstream version 0.2.28 [0m
   [1;34m->[;1m checking for update for 'i3lock-color'[0m
 [32m          [UP-TO-DATE] [i3lock-color][2.13.c.5-1] matches upstream version 2.13.c.5 [0m
+  [1;34m->[;1m checking for update for 'ibus-autostart'[0m
+[37m             [UNKNOWN] [ibus-autostart][1.3-1] No release found for ibus-autostart: %!w(<nil>) [0m
   [1;34m->[;1m checking for update for 'ibus-avro-git'[0m
   [1;34m->[;1m checking for update for 'imhex'[0m
 [37m             [UNKNOWN] [imhex][1.31.0-3] Failed to obtain GitHub release for WerWolv/ImHex.git from https://api.github.com/repos/WerWolv/ImHex.git/releases/latest: No GitHub project found for WerWolv/ImHex.git on https://api.github.com/repos/WerWolv/ImHex.git/releases/latest [0m
@@ -278,6 +286,8 @@ dasel-bin: new version found - 2.4.1 => 2.5.0
 [32m          [UP-TO-DATE] [onedrive-abraunegg][2.4.25-1] matches upstream version 2.4.25 [0m
   [1;34m->[;1m checking for update for 'onioncircuits'[0m
 [32m          [UP-TO-DATE] [onioncircuits][0.8-1] matches upstream version 0.8 [0m
+  [1;34m->[;1m checking for update for 'openbangla-keyboard'[0m
+[37m             [UNKNOWN] [openbangla-keyboard][2.0.0-7] Failed to obtain GitHub release for OpenBangla/OpenBangla-keyboard.git from https://api.github.com/repos/OpenBangla/OpenBangla-keyboard.git/releases/latest: No GitHub project found for OpenBangla/OpenBangla-keyboard.git on https://api.github.com/repos/OpenBangla/OpenBangla-keyboard.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'opencomic-bin'[0m
 [32m          [UP-TO-DATE] [opencomic-bin][0.2.1-4] matches upstream version 0.2.1 [0m
   [1;34m->[;1m checking for update for 'opensnitch-git'[0m
@@ -323,6 +333,12 @@ dasel-bin: new version found - 2.4.1 => 2.5.0
 [37m             [UNKNOWN] [powerpill][2021.11-14] No release found for https://xyne.dev/projects/powerpill/src/powerpill-2021.11.tar.xz [0m
   [1;34m->[;1m checking for update for 'python-auditok'[0m
 [32m          [UP-TO-DATE] [python-auditok][0.2.0-1] matches upstream version 0.2.0 [0m
+  [1;34m->[;1m checking for update for 'python-bandcamp-api'[0m
+[32m          [UP-TO-DATE] [python-bandcamp-api][0.2.3-1] matches upstream version 0.2.3 [0m
+  [1;34m->[;1m checking for update for 'python-dacite'[0m
+[32m          [UP-TO-DATE] [python-dacite][1.8.1-2] matches upstream version 1.8.1 [0m
+  [1;34m->[;1m checking for update for 'python-demjson3'[0m
+[37m             [UNKNOWN] [python-demjson3][3.0.6-1] Failed to parse upstream version: invalid version format: -3.0.5 [0m
   [1;34m->[;1m checking for update for 'python-fangfrisch'[0m
 [32m          [UP-TO-DATE] [python-fangfrisch][1.6.1-4] matches upstream version 1.6.1 [0m
   [1;34m->[;1m checking for update for 'python-ffsubsync'[0m
@@ -337,8 +353,14 @@ dasel-bin: new version found - 2.4.1 => 2.5.0
 [32m          [UP-TO-DATE] [python-gtts-token][1.1.4-1] matches upstream version 1.1.4 [0m
   [1;34m->[;1m checking for update for 'python-itunespy'[0m
 [32m          [UP-TO-DATE] [python-itunespy][1.6-2] matches upstream version 1.6 [0m
+  [1;34m->[;1m checking for update for 'python-jaconv'[0m
+[32m          [UP-TO-DATE] [python-jaconv][0.3.4-2] matches upstream version 0.3.4 [0m
+  [1;34m->[;1m checking for update for 'python-polib'[0m
+[32m          [UP-TO-DATE] [python-polib][1.2.0-1] matches upstream version 1.2.0 [0m
   [1;34m->[;1m checking for update for 'python-pydes'[0m
 [32m          [UP-TO-DATE] [python-pydes][2.0.1-3] matches upstream version 2.0.1 [0m
+  [1;34m->[;1m checking for update for 'python-pykakasi'[0m
+[32m          [UP-TO-DATE] [python-pykakasi][2.2.1-5] matches upstream version 2.2.1 [0m
   [1;34m->[;1m checking for update for 'python-pynput'[0m
 [32m          [UP-TO-DATE] [python-pynput][1.7.6-2] matches upstream version 1.7.6 [0m
   [1;34m->[;1m checking for update for 'python-pysubs2'[0m
@@ -347,12 +369,16 @@ dasel-bin: new version found - 2.4.1 => 2.5.0
 [37m             [UNKNOWN] [python-pytube][15.0.0-1] upstream version is 11.0.1 [0m
   [1;34m->[;1m checking for update for 'python-simber'[0m
 [32m          [UP-TO-DATE] [python-simber][0.2.6-0] matches upstream version 0.2.6 [0m
+  [1;34m->[;1m checking for update for 'python-soundcloud-v2'[0m
+[32m          [UP-TO-DATE] [python-soundcloud-v2][1.3.1-1] matches upstream version 1.3.1 [0m
   [1;34m->[;1m checking for update for 'python-spotdl'[0m
 [32m          [UP-TO-DATE] [python-spotdl][4.2.2-1] matches upstream version 4.2.2 [0m
   [1;34m->[;1m checking for update for 'python-spotipy'[0m
 [32m          [UP-TO-DATE] [python-spotipy][2.23.0-1] matches upstream version 2.23.0 [0m
   [1;34m->[;1m checking for update for 'python-srt'[0m
 [37m             [UNKNOWN] [python-srt][3.5.3-1] Failed to obtain GitHub release for cdown/srt from https://api.github.com/repos/cdown/srt/releases/latest: No GitHub project found for cdown/srt on https://api.github.com/repos/cdown/srt/releases/latest [0m
+  [1;34m->[;1m checking for update for 'python-syncedlyrics'[0m
+[32m          [UP-TO-DATE] [python-syncedlyrics][0.6.1-2] matches upstream version 0.6.1 [0m
   [1;34m->[;1m checking for update for 'python-torrequest'[0m
 [32m          [UP-TO-DATE] [python-torrequest][0.1.0-4] matches upstream version 0.1.0 [0m
   [1;34m->[;1m checking for update for 'python-uni-curses'[0m
@@ -397,6 +423,8 @@ dasel-bin: new version found - 2.4.1 => 2.5.0
   [1;34m->[;1m checking for update for 'runjs-bin'[0m
 [32m          [UP-TO-DATE] [runjs-bin][2.9.0-1] matches upstream version 2.9.0 [0m
   [1;34m->[;1m checking for update for 'selectdefaultapplication-git'[0m
+  [1;34m->[;1m checking for update for 'session-desktop-bin'[0m
+[32m          [UP-TO-DATE] [session-desktop-bin][1.11.4-1] matches upstream version 1.11.4 [0m
   [1;34m->[;1m checking for update for 'sherlock-git'[0m
   [1;34m->[;1m checking for update for 'siji-git'[0m
   [1;34m->[;1m checking for update for 'simple-mtpfs'[0m
@@ -451,6 +479,8 @@ dasel-bin: new version found - 2.4.1 => 2.5.0
   [1;34m->[;1m checking for update for 'tlpui-git'[0m
   [1;34m->[;1m checking for update for 'tmpwatch'[0m
 [37m             [UNKNOWN] [tmpwatch][2.11-3] No release found for https://releases.pagure.org/tmpwatch/tmpwatch-2.11.tar.bz2 [0m
+  [1;34m->[;1m checking for update for 'toilet-fonts'[0m
+[37m             [UNKNOWN] [toilet-fonts][1.0-2] No release found for ftp://ftp.figlet.org/pub/figlet/fonts/ours.tar.gz [0m
   [1;34m->[;1m checking for update for 'tor-browser-bin'[0m
 [37m             [UNKNOWN] [tor-browser-bin][13.0.5-1] No release found for tor-browser.desktop.in [0m
   [1;34m->[;1m checking for update for 'trizen'[0m
@@ -523,4 +553,5 @@ dasel-bin: new version found - 2.4.1 => 2.5.0
   [1;34m->[;1m checking for update for 'ytmdl-git'[0m
   [1;34m->[;1m checking for update for 'zoom'[0m
 [37m             [UNKNOWN] [zoom][5.16.10-1] No release found for zoom-5.16.10.668_orig_x86_64.pkg.tar.xz::https://cdn.zoom.us/prod/5.16.10.668/zoom_x86_64.pkg.tar.xz [0m
+  [1;34m->[;1m checking for update for 'zsh-theme-powerlevel10k-git'[0m
   [1;34m->[;1m done.[0m

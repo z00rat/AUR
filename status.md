@@ -1,17 +1,8 @@
-  [1;34m->[;1m number of packags that are 279 tracked[0m
-  [1;34m->[;1m number of packages that are 106 installed[0m
+  [1;34m->[;1m number of packags that are 294 tracked[0m
+  [1;34m->[;1m number of packages that are 115 installed[0m
   [1;34m->[;1m packages that are not tracked but installed in the system...[0m
-git-cola
-openbangla-keyboard
-python-bandcamp-api
-python-dacite
-python-demjson3
-python-jaconv
-python-polib
-python-pykakasi
-python-soundcloud-v2
-python-syncedlyrics
-toilet-fonts
+lua51-inspect
+nvim-lazy
   [1;34m->[;1m packages that are tracked but not installed in the system...[0m
 activitywatch-bin
 advcpmv
@@ -21,7 +12,6 @@ apg
 archiso-git
 aseprite
 aur-auto-vote-git
-aurutils
 aurvote-utils
 bats
 betterdiscord-installer
@@ -53,7 +43,6 @@ drawio-desktop-bin
 dry-bin
 electorrent-bin
 electronmail-bin
-ezshare
 fakepkg
 faq-bin
 fbrokendesktop
@@ -71,7 +60,6 @@ guiscrcpy
 heroku-cli-bin
 hollywood
 hw-probe
-ibus-avro-git
 imhex
 jiq-bin
 jmtpfs
