@@ -3,13 +3,12 @@
   [1;34m->[;1m listing already flaged packages[0m
 awmtt
 dasel-bin
-discord-ptb
 ttf-twemoji
   [1;34m->[;1m running pkgoutofdate[0m
-qbittorrent-vuetorrent-bin: new version found - 2.2.0 => 2.3.0
 mergerfs: new version found - 2.38.0 => 2.38.1
-discord-ptb: new version found - 0.0.56 => 0.0.57
+libglibutil: new version found - 1.0.74 => 1.0.75
 discord-chat-exporter-cli: new version found - 2.42.3 => 2.42.4
+discord-ptb: new version found - 0.0.57 => 0.0.58
 dasel-bin: new version found - 2.4.1 => 2.5.0
   [1;34m->[;1m sourcing .env[0m
   [1;34m->[;1m running aur-out-of-date[0m
@@ -108,7 +107,7 @@ dasel-bin: new version found - 2.4.1 => 2.5.0
   [1;34m->[;1m checking for update for 'discord-chat-exporter-cli'[0m
 [31m         [OUT-OF-DATE] [discord-chat-exporter-cli][2.42.3-2] should be updated to 2.42.6 [0m
   [1;34m->[;1m checking for update for 'discord-ptb'[0m
-[37m             [UNKNOWN] [discord-ptb][0.0.56-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.56/discord-ptb-0.0.56.tar.gz [0m
+[37m             [UNKNOWN] [discord-ptb][0.0.57-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.57/discord-ptb-0.0.57.tar.gz [0m
   [1;34m->[;1m checking for update for 'docker-systemctl-replacement-git'[0m
   [1;34m->[;1m checking for update for 'downloader-cli'[0m
 [32m          [UP-TO-DATE] [downloader-cli][0.3.4-0] matches upstream version 0.3.4 [0m
@@ -162,7 +161,7 @@ dasel-bin: new version found - 2.4.1 => 2.5.0
   [1;34m->[;1m checking for update for 'git-cola'[0m
 [32m          [UP-TO-DATE] [git-cola][4.4.1-1] matches upstream version 4.4.1 [0m
   [1;34m->[;1m checking for update for 'gitify-bin'[0m
-[31m         [OUT-OF-DATE] [gitify-bin][4.4.0-1] should be updated to 4.5.0 [0m
+[31m         [OUT-OF-DATE] [gitify-bin][4.4.0-1] should be updated to 4.5.1 [0m
   [1;34m->[;1m checking for update for 'gitstatus'[0m
 [32m          [UP-TO-DATE] [gitstatus][1.5.4-1] matches upstream version 1.5.4 [0m
   [1;34m->[;1m checking for update for 'gocryptfs-ui'[0m
@@ -394,7 +393,7 @@ dasel-bin: new version found - 2.4.1 => 2.5.0
   [1;34m->[;1m checking for update for 'python3-xcpf'[0m
 [37m             [UNKNOWN] [python3-xcpf][2021.12-13] No release found for https://xyne.dev/projects/python3-xcpf/src/python3-xcpf-2021.12.tar.xz [0m
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
-[31m         [OUT-OF-DATE] [qbittorrent-vuetorrent-bin][2.2.0-1] should be updated to 2.3.0 [0m
+[32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][2.3.0-1] matches upstream version 2.3.0 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
 [32m          [UP-TO-DATE] [qrcp][0.10.1-1] matches upstream version 0.10.1 [0m
   [1;34m->[;1m checking for update for 'qwinff'[0m
@@ -413,7 +412,7 @@ dasel-bin: new version found - 2.4.1 => 2.5.0
   [1;34m->[;1m checking for update for 'resvg'[0m
 [32m          [UP-TO-DATE] [resvg][0.36.0-1] matches upstream version 0.36.0 [0m
   [1;34m->[;1m checking for update for 'retroshare'[0m
-[37m             [UNKNOWN] [retroshare][0.6.7.1-1] upstream version is 0.6.6 [0m
+[31m         [OUT-OF-DATE] [retroshare][0.6.7.1-1] should be updated to 0.6.7.2 [0m
   [1;34m->[;1m checking for update for 'robo3t-bin'[0m
 [32m          [UP-TO-DATE] [robo3t-bin][1.4.4-1] matches upstream version 1.4.4 [0m
   [1;34m->[;1m checking for update for 'rofi-greenclip'[0m
