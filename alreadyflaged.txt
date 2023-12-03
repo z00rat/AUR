@@ -1,4 +1,3 @@
 awmtt
-dasel-bin
 discord-ptb
 ttf-twemoji
