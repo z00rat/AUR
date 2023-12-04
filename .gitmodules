@@ -1179,3 +1179,7 @@
 	path = repos/git-cola
 	url = ssh://aur@aur.archlinux.org/git-cola.git
 	branch = master
+[submodule "repos/rxfetch"]
+	path = repos/rxfetch
+	url = ssh://aur@aur.archlinux.org/rxfetch.git
+	branch = master
