@@ -1,0 +1,13 @@
+pkgbase = rxfetch
+	pkgdesc = A minimal but geeky fetch utility
+	pkgver = 1.0
+	pkgrel = 2
+	url = https://github.com/mangeshrex/rxfetch
+	arch = any
+	license = GPL3
+	makedepends = git
+	depends = bash
+	source = git+https://github.com/mangeshrex/rxfetch
+	b2sums = SKIP
+
+pkgname = rxfetch

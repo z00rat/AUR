@@ -1,3 +1,2 @@
 awmtt
-discord-ptb
 ttf-twemoji
