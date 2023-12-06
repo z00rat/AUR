@@ -4,10 +4,11 @@
 awmtt
 ttf-twemoji
   [1;34m->[;1m running pkgoutofdate[0m
-python-syncedlyrics: new version found - 0.6.1 => 0.7.0
 mergerfs: new version found - 2.38.0 => 2.38.1
+localsend-bin: new version found - 1.12.0 => 1.13.0
 libglibutil: new version found - 1.0.74 => 1.0.75
 discord-chat-exporter-cli: new version found - 2.42.3 => 2.42.4
+burpsuite: new version found - 2023.11.1.1 => 2023.11.1.2
   [1;34m->[;1m sourcing .env[0m
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
@@ -159,13 +160,13 @@ discord-chat-exporter-cli: new version found - 2.42.3 => 2.42.4
   [1;34m->[;1m checking for update for 'git-cola'[0m
 [32m          [UP-TO-DATE] [git-cola][4.4.1-1] matches upstream version 4.4.1 [0m
   [1;34m->[;1m checking for update for 'gitify-bin'[0m
-[31m         [OUT-OF-DATE] [gitify-bin][4.4.0-1] should be updated to 4.5.1 [0m
+[32m          [UP-TO-DATE] [gitify-bin][4.5.1-1] matches upstream version 4.5.1 [0m
   [1;34m->[;1m checking for update for 'gitstatus'[0m
 [32m          [UP-TO-DATE] [gitstatus][1.5.4-1] matches upstream version 1.5.4 [0m
   [1;34m->[;1m checking for update for 'gocryptfs-ui'[0m
 [37m             [UNKNOWN] [gocryptfs-ui][1.2-1] Failed to obtain GitHub release for bulletmark/gocryptfs-ui from https://api.github.com/repos/bulletmark/gocryptfs-ui/releases/latest: No GitHub project found for bulletmark/gocryptfs-ui on https://api.github.com/repos/bulletmark/gocryptfs-ui/releases/latest [0m
   [1;34m->[;1m checking for update for 'google-chrome'[0m
-[37m             [UNKNOWN] [google-chrome][119.0.6045.199-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_119.0.6045.199-1_amd64.deb [0m
+[37m             [UNKNOWN] [google-chrome][120.0.6099.62-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_120.0.6099.62-1_amd64.deb [0m
   [1;34m->[;1m checking for update for 'guiscrcpy'[0m
 [37m             [UNKNOWN] [guiscrcpy][1:2023.1.1-4] Failed to obtain GitHub release for srevinsaju/guiscrcpy.git from https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest: No GitHub project found for srevinsaju/guiscrcpy.git on https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'heroku-cli-bin'[0m
@@ -209,7 +210,7 @@ discord-chat-exporter-cli: new version found - 2.42.3 => 2.42.4
   [1;34m->[;1m checking for update for 'localepurge'[0m
 [32m          [UP-TO-DATE] [localepurge][0.7.3.10-1] matches upstream version 0.7.3.10 [0m
   [1;34m->[;1m checking for update for 'localsend-bin'[0m
-[32m          [UP-TO-DATE] [localsend-bin][1.12.0-1] matches upstream version 1.12.0 [0m
+[31m         [OUT-OF-DATE] [localsend-bin][1.12.0-1] should be updated to 1.13.0 [0m
   [1;34m->[;1m checking for update for 'losslesscut-bin'[0m
 [32m          [UP-TO-DATE] [losslesscut-bin][3.58.0-1] matches upstream version 3.58.0 [0m
   [1;34m->[;1m checking for update for 'lscolors-git'[0m
@@ -375,7 +376,7 @@ discord-chat-exporter-cli: new version found - 2.42.3 => 2.42.4
   [1;34m->[;1m checking for update for 'python-srt'[0m
 [37m             [UNKNOWN] [python-srt][3.5.3-1] Failed to obtain GitHub release for cdown/srt from https://api.github.com/repos/cdown/srt/releases/latest: No GitHub project found for cdown/srt on https://api.github.com/repos/cdown/srt/releases/latest [0m
   [1;34m->[;1m checking for update for 'python-syncedlyrics'[0m
-[31m         [OUT-OF-DATE] [python-syncedlyrics][0.6.1-2] should be updated to 0.7.0 [0m
+[32m          [UP-TO-DATE] [python-syncedlyrics][0.7.0-1] matches upstream version 0.7.0 [0m
   [1;34m->[;1m checking for update for 'python-torrequest'[0m
 [32m          [UP-TO-DATE] [python-torrequest][0.1.0-4] matches upstream version 0.1.0 [0m
   [1;34m->[;1m checking for update for 'python-uni-curses'[0m
@@ -419,6 +420,8 @@ discord-chat-exporter-cli: new version found - 2.42.3 => 2.42.4
 [32m          [UP-TO-DATE] [rtags][2.38-1] matches upstream version 2.38 [0m
   [1;34m->[;1m checking for update for 'runjs-bin'[0m
 [32m          [UP-TO-DATE] [runjs-bin][2.9.0-1] matches upstream version 2.9.0 [0m
+  [1;34m->[;1m checking for update for 'rxfetch'[0m
+[37m             [UNKNOWN] [rxfetch][1.0-2] Failed to obtain GitHub release for mangeshrex/rxfetch from https://api.github.com/repos/mangeshrex/rxfetch/releases/latest: No GitHub project found for mangeshrex/rxfetch on https://api.github.com/repos/mangeshrex/rxfetch/releases/latest [0m
   [1;34m->[;1m checking for update for 'selectdefaultapplication-git'[0m
   [1;34m->[;1m checking for update for 'session-desktop-bin'[0m
 [32m          [UP-TO-DATE] [session-desktop-bin][1.11.4-1] matches upstream version 1.11.4 [0m
@@ -432,7 +435,7 @@ discord-chat-exporter-cli: new version found - 2.42.3 => 2.42.4
 [37m             [UNKNOWN] [speedometer][2.9-2] Failed to obtain GitHub release for wardi/speedometer from https://api.github.com/repos/wardi/speedometer/releases/latest: No GitHub project found for wardi/speedometer on https://api.github.com/repos/wardi/speedometer/releases/latest [0m
   [1;34m->[;1m checking for update for 'speedread-git'[0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
-[32m          [UP-TO-DATE] [spicetify-cli][2.27.2-1] matches upstream version 2.27.2 [0m
+[32m          [UP-TO-DATE] [spicetify-cli][2.28.0-1] matches upstream version 2.28.0 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
 [37m             [UNKNOWN] [spotify][1:1.2.25.1011-1] No release found for spotify-1.2.25.1011-g0348b2ea-x86_64.deb::http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.2.25.1011.g0348b2ea_amd64.deb [0m
   [1;34m->[;1m checking for update for 'stacer'[0m
@@ -457,7 +460,7 @@ discord-chat-exporter-cli: new version found - 2.42.3 => 2.42.4
   [1;34m->[;1m checking for update for 'sysz'[0m
 [32m          [UP-TO-DATE] [sysz][1.4.3-1] matches upstream version 1.4.3 [0m
   [1;34m->[;1m checking for update for 'terser'[0m
-[32m          [UP-TO-DATE] [terser][5.24.0-1] matches upstream version 5.24.0 [0m
+[31m         [OUT-OF-DATE] [terser][5.24.0-1] should be updated to 5.25.0 [0m
   [1;34m->[;1m checking for update for 'themix-export-spotify-git'[0m
   [1;34m->[;1m checking for update for 'themix-full-git'[0m
   [1;34m->[;1m checking for update for 'themix-gui-git'[0m
@@ -479,7 +482,7 @@ discord-chat-exporter-cli: new version found - 2.42.3 => 2.42.4
   [1;34m->[;1m checking for update for 'toilet-fonts'[0m
 [37m             [UNKNOWN] [toilet-fonts][1.0-2] No release found for ftp://ftp.figlet.org/pub/figlet/fonts/ours.tar.gz [0m
   [1;34m->[;1m checking for update for 'tor-browser-bin'[0m
-[37m             [UNKNOWN] [tor-browser-bin][13.0.5-1] No release found for tor-browser.desktop.in [0m
+[37m             [UNKNOWN] [tor-browser-bin][13.0.6-1] No release found for tor-browser.desktop.in [0m
   [1;34m->[;1m checking for update for 'trizen'[0m
 [32m          [UP-TO-DATE] [trizen][1:1.68-1] matches upstream version 1.68 [0m
   [1;34m->[;1m checking for update for 'tt-bin'[0m
@@ -495,7 +498,7 @@ discord-chat-exporter-cli: new version found - 2.42.3 => 2.42.4
   [1;34m->[;1m checking for update for 'ttf-twemoji'[0m
 [32m          [UP-TO-DATE] [ttf-twemoji][14.0.2-2] matches upstream version 14.0.2 [0m
   [1;34m->[;1m checking for update for 'ttf-twemoji-color'[0m
-[32m          [UP-TO-DATE] [ttf-twemoji-color][14.0.2-3] matches upstream version 14.0.2 [0m
+[32m          [UP-TO-DATE] [ttf-twemoji-color][14.0.2-4] matches upstream version 14.0.2 [0m
   [1;34m->[;1m checking for update for 'ttf-typicons'[0m
 [32m          [UP-TO-DATE] [ttf-typicons][2.1.2-1] matches upstream version 2.1.2 [0m
   [1;34m->[;1m checking for update for 'ttf-vista-fonts'[0m
@@ -523,7 +526,7 @@ discord-chat-exporter-cli: new version found - 2.42.3 => 2.42.4
   [1;34m->[;1m checking for update for 'waydroid'[0m
 [37m             [UNKNOWN] [waydroid][1.4.2-1] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
-[37m             [UNKNOWN] [waydroid-image][18.1_20231125-1] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-18.1-20231125-VANILLA-waydroid_x86_64-system.zip [0m
+[37m             [UNKNOWN] [waydroid-image][18.1_20231202-1] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-18.1-20231202-VANILLA-waydroid_x86_64-system.zip [0m
   [1;34m->[;1m checking for update for 'wd719x-firmware'[0m
 [32m          [UP-TO-DATE] [wd719x-firmware][1-7] matches upstream version 1-7 [0m
   [1;34m->[;1m checking for update for 'webtorrent-bittorrent-tracker'[0m
