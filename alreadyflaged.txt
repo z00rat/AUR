@@ -1,2 +1,2 @@
 awmtt
-ttf-twemoji
+localsend-bin

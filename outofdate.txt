@@ -2,8 +2,9 @@
 
   [1;34m->[;1m listing already flaged packages[0m
 awmtt
-ttf-twemoji
+localsend-bin
   [1;34m->[;1m running pkgoutofdate[0m
+qrcp: new version found - 0.10.1 => 0.11.0
 mergerfs: new version found - 2.38.0 => 2.38.1
 localsend-bin: new version found - 1.12.0 => 1.13.0
 libglibutil: new version found - 1.0.74 => 1.0.75
@@ -166,7 +167,7 @@ burpsuite: new version found - 2023.11.1.1 => 2023.11.1.2
   [1;34m->[;1m checking for update for 'gocryptfs-ui'[0m
 [37m             [UNKNOWN] [gocryptfs-ui][1.2-1] Failed to obtain GitHub release for bulletmark/gocryptfs-ui from https://api.github.com/repos/bulletmark/gocryptfs-ui/releases/latest: No GitHub project found for bulletmark/gocryptfs-ui on https://api.github.com/repos/bulletmark/gocryptfs-ui/releases/latest [0m
   [1;34m->[;1m checking for update for 'google-chrome'[0m
-[37m             [UNKNOWN] [google-chrome][120.0.6099.62-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_120.0.6099.62-1_amd64.deb [0m
+[37m             [UNKNOWN] [google-chrome][120.0.6099.71-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_120.0.6099.71-1_amd64.deb [0m
   [1;34m->[;1m checking for update for 'guiscrcpy'[0m
 [37m             [UNKNOWN] [guiscrcpy][1:2023.1.1-4] Failed to obtain GitHub release for srevinsaju/guiscrcpy.git from https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest: No GitHub project found for srevinsaju/guiscrcpy.git on https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'heroku-cli-bin'[0m
@@ -437,7 +438,7 @@ burpsuite: new version found - 2023.11.1.1 => 2023.11.1.2
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
 [32m          [UP-TO-DATE] [spicetify-cli][2.28.0-1] matches upstream version 2.28.0 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
-[37m             [UNKNOWN] [spotify][1:1.2.25.1011-1] No release found for spotify-1.2.25.1011-g0348b2ea-x86_64.deb::http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.2.25.1011.g0348b2ea_amd64.deb [0m
+[37m             [UNKNOWN] [spotify][1:1.2.26.1187-1] No release found for spotify-1.2.26.1187-g36b715a1-x86_64.deb::http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.2.26.1187.g36b715a1_amd64.deb [0m
   [1;34m->[;1m checking for update for 'stacer'[0m
 [32m          [UP-TO-DATE] [stacer][1.1.0-1] matches upstream version 1.1.0 [0m
   [1;34m->[;1m checking for update for 'stretchly-bin'[0m
@@ -496,7 +497,7 @@ burpsuite: new version found - 2023.11.1.1 => 2023.11.1.2
   [1;34m->[;1m checking for update for 'ttf-ms-fonts'[0m
 [37m             [UNKNOWN] [ttf-ms-fonts][2.0-12] No release found for https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/andale32.exe [0m
   [1;34m->[;1m checking for update for 'ttf-twemoji'[0m
-[32m          [UP-TO-DATE] [ttf-twemoji][14.0.2-2] matches upstream version 14.0.2 [0m
+[37m             [UNKNOWN] [ttf-twemoji][15.0.2-1] No release found for https://artefacts.whynothugo.nl/twemoji.ttf/2023-12-05_16-23/Twemoji-15.0.2.ttf [0m
   [1;34m->[;1m checking for update for 'ttf-twemoji-color'[0m
 [32m          [UP-TO-DATE] [ttf-twemoji-color][14.0.2-4] matches upstream version 14.0.2 [0m
   [1;34m->[;1m checking for update for 'ttf-typicons'[0m
