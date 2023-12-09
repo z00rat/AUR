@@ -1,3 +1,2 @@
 awmtt
-localsend-bin
 python-polib

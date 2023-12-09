@@ -2,13 +2,12 @@
 
   [1;34m->[;1m listing already flaged packages[0m
 awmtt
-localsend-bin
 python-polib
   [1;34m->[;1m running pkgoutofdate[0m
 qrcp: new version found - 0.10.1 => 0.11.0
 mergerfs: new version found - 2.38.0 => 2.38.1
-localsend-bin: new version found - 1.12.0 => 1.13.0
 libglibutil: new version found - 1.0.74 => 1.0.75
+discord-ptb: new version found - 0.0.58 => 0.0.59
 burpsuite: new version found - 2023.11.1.1 => 2023.11.1.2
   [1;34m->[;1m sourcing .env[0m
   [1;34m->[;1m running aur-out-of-date[0m
@@ -211,7 +210,7 @@ burpsuite: new version found - 2023.11.1.1 => 2023.11.1.2
   [1;34m->[;1m checking for update for 'localepurge'[0m
 [32m          [UP-TO-DATE] [localepurge][0.7.3.10-1] matches upstream version 0.7.3.10 [0m
   [1;34m->[;1m checking for update for 'localsend-bin'[0m
-[31m         [OUT-OF-DATE] [localsend-bin][1.12.0-1] should be updated to 1.13.1 [0m
+[32m          [UP-TO-DATE] [localsend-bin][1.13.1-1] matches upstream version 1.13.1 [0m
   [1;34m->[;1m checking for update for 'losslesscut-bin'[0m
 [32m          [UP-TO-DATE] [losslesscut-bin][3.58.0-1] matches upstream version 3.58.0 [0m
   [1;34m->[;1m checking for update for 'lscolors-git'[0m
@@ -284,7 +283,7 @@ burpsuite: new version found - 2023.11.1.1 => 2023.11.1.2
   [1;34m->[;1m checking for update for 'onedrive-abraunegg'[0m
 [32m          [UP-TO-DATE] [onedrive-abraunegg][2.4.25-1] matches upstream version 2.4.25 [0m
   [1;34m->[;1m checking for update for 'onioncircuits'[0m
-[31m         [OUT-OF-DATE] [onioncircuits][0.8-1] should be updated to 0.8.1 [0m
+[37m             [UNKNOWN] [onioncircuits][0.8.1-1] Failed to obtain GitLab tag for gitlab.tails.boum.org/tails/onioncircuits.git#commit=e195c046fd20ad0c21ec5b626ee87ab71501b88d from https://gitlab.tails.boum.org/api/v4/projects/tails%2Fonioncircuits.git%23commit=e195c046fd20ad0c21ec5b626ee87ab71501b88d/repository/tags: Get "https://gitlab.tails.boum.org/api/v4/projects/tails%2Fonioncircuits.git%23commit=e195c046fd20ad0c21ec5b626ee87ab71501b88d/repository/tags": read tcp 10.10.237.252:34778->93.190.126.75:443: read: connection reset by peer [0m
   [1;34m->[;1m checking for update for 'openbangla-keyboard'[0m
 [37m             [UNKNOWN] [openbangla-keyboard][2.0.0-7] Failed to obtain GitHub release for OpenBangla/OpenBangla-keyboard.git from https://api.github.com/repos/OpenBangla/OpenBangla-keyboard.git/releases/latest: No GitHub project found for OpenBangla/OpenBangla-keyboard.git on https://api.github.com/repos/OpenBangla/OpenBangla-keyboard.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'opencomic-bin'[0m
@@ -363,7 +362,7 @@ burpsuite: new version found - 2023.11.1.1 => 2023.11.1.2
   [1;34m->[;1m checking for update for 'python-pynput'[0m
 [32m          [UP-TO-DATE] [python-pynput][1.7.6-2] matches upstream version 1.7.6 [0m
   [1;34m->[;1m checking for update for 'python-pysubs2'[0m
-[32m          [UP-TO-DATE] [python-pysubs2][1.6.1-1] matches upstream version 1.6.1 [0m
+[37m             [UNKNOWN] [python-pysubs2][1.6.1-1] No PyPI release found for pysubs2: Get "https://pypi.org/pypi/pysubs2/json": net/http: TLS handshake timeout [0m
   [1;34m->[;1m checking for update for 'python-pytube'[0m
 [37m             [UNKNOWN] [python-pytube][15.0.0-1] upstream version is 11.0.1 [0m
   [1;34m->[;1m checking for update for 'python-simber'[0m
@@ -395,7 +394,7 @@ burpsuite: new version found - 2023.11.1.1 => 2023.11.1.2
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
 [32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][2.3.0-1] matches upstream version 2.3.0 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
-[32m          [UP-TO-DATE] [qrcp][0.10.1-1] matches upstream version 0.10.1 [0m
+[31m         [OUT-OF-DATE] [qrcp][0.10.1-1] should be updated to 0.11.0 [0m
   [1;34m->[;1m checking for update for 'qwinff'[0m
 [37m             [UNKNOWN] [qwinff][0.2.1-1] No release found for http://sourceforge.net/projects/qwinff/files/release/v0.2.1/qwinff_0.2.1.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'rate-mirrors-bin'[0m
@@ -461,7 +460,7 @@ burpsuite: new version found - 2023.11.1.1 => 2023.11.1.2
   [1;34m->[;1m checking for update for 'sysz'[0m
 [32m          [UP-TO-DATE] [sysz][1.4.3-1] matches upstream version 1.4.3 [0m
   [1;34m->[;1m checking for update for 'terser'[0m
-[31m         [OUT-OF-DATE] [terser][5.24.0-1] should be updated to 5.26.0 [0m
+[32m          [UP-TO-DATE] [terser][5.26.0-1] matches upstream version 5.26.0 [0m
   [1;34m->[;1m checking for update for 'themix-export-spotify-git'[0m
   [1;34m->[;1m checking for update for 'themix-full-git'[0m
   [1;34m->[;1m checking for update for 'themix-gui-git'[0m
