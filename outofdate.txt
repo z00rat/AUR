@@ -4,6 +4,7 @@
 awmtt
 python-polib
   [1;34m->[;1m running pkgoutofdate[0m
+qbittorrent-vuetorrent-bin: new version found - 2.3.0 => 2.4.0
 qrcp: new version found - 0.10.1 => 0.11.0
 mergerfs: new version found - 2.38.0 => 2.38.1
 libglibutil: new version found - 1.0.74 => 1.0.75
@@ -82,9 +83,9 @@ burpsuite: new version found - 2023.11.1.1 => 2023.11.1.2
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
 [32m          [UP-TO-DATE] [cloudflared-bin][2023.10.0-1] matches upstream version 2023.10.0 [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
-[31m         [OUT-OF-DATE] [code-features][1.83.0-1] should be updated to 1.85.0 [0m
+[32m          [UP-TO-DATE] [code-features][1.85.0-1] matches upstream version 1.85.0 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
-[37m             [UNKNOWN] [code-marketplace][1.83.0-1] No release found for code-marketplace.hook [0m
+[37m             [UNKNOWN] [code-marketplace][1.85.0-1] No release found for code-marketplace.hook [0m
   [1;34m->[;1m checking for update for 'code-server'[0m
 [32m          [UP-TO-DATE] [code-server][4.19.1-1] matches upstream version 4.19.1 [0m
   [1;34m->[;1m checking for update for 'cointop'[0m
@@ -263,7 +264,7 @@ burpsuite: new version found - 2023.11.1.1 => 2023.11.1.2
   [1;34m->[;1m checking for update for 'nodejs-mapscii'[0m
 [32m          [UP-TO-DATE] [nodejs-mapscii][0.3.1-4] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'nodejs-nodemon'[0m
-[31m         [OUT-OF-DATE] [nodejs-nodemon][3.0.1-1] should be updated to 3.0.2 [0m
+[32m          [UP-TO-DATE] [nodejs-nodemon][3.0.2-1] matches upstream version 3.0.2 [0m
   [1;34m->[;1m checking for update for 'nodejs-npm2arch'[0m
 [32m          [UP-TO-DATE] [nodejs-npm2arch][2.2.0-1] matches upstream version 2.2.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-ungit'[0m
@@ -283,11 +284,11 @@ burpsuite: new version found - 2023.11.1.1 => 2023.11.1.2
   [1;34m->[;1m checking for update for 'onedrive-abraunegg'[0m
 [32m          [UP-TO-DATE] [onedrive-abraunegg][2.4.25-1] matches upstream version 2.4.25 [0m
   [1;34m->[;1m checking for update for 'onioncircuits'[0m
-[37m             [UNKNOWN] [onioncircuits][0.8.1-1] Failed to obtain GitLab tag for gitlab.tails.boum.org/tails/onioncircuits.git#commit=e195c046fd20ad0c21ec5b626ee87ab71501b88d from https://gitlab.tails.boum.org/api/v4/projects/tails%2Fonioncircuits.git%23commit=e195c046fd20ad0c21ec5b626ee87ab71501b88d/repository/tags: Get "https://gitlab.tails.boum.org/api/v4/projects/tails%2Fonioncircuits.git%23commit=e195c046fd20ad0c21ec5b626ee87ab71501b88d/repository/tags": read tcp 10.10.237.252:34778->93.190.126.75:443: read: connection reset by peer [0m
+[32m          [UP-TO-DATE] [onioncircuits][0.8.1-1] matches upstream version 0.8.1 [0m
   [1;34m->[;1m checking for update for 'openbangla-keyboard'[0m
 [37m             [UNKNOWN] [openbangla-keyboard][2.0.0-7] Failed to obtain GitHub release for OpenBangla/OpenBangla-keyboard.git from https://api.github.com/repos/OpenBangla/OpenBangla-keyboard.git/releases/latest: No GitHub project found for OpenBangla/OpenBangla-keyboard.git on https://api.github.com/repos/OpenBangla/OpenBangla-keyboard.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'opencomic-bin'[0m
-[32m          [UP-TO-DATE] [opencomic-bin][0.2.1-4] matches upstream version 0.2.1 [0m
+[32m          [UP-TO-DATE] [opencomic-bin][1.0.0-4] matches upstream version 1.0.0 [0m
   [1;34m->[;1m checking for update for 'opensnitch-git'[0m
   [1;34m->[;1m checking for update for 'p7zip-gui'[0m
 [37m             [UNKNOWN] [p7zip-gui][16.02-8] No release found for https://downloads.sourceforge.net/project/p7zip/p7zip/16.02/p7zip_16.02_src_all.tar.bz2 [0m
@@ -301,7 +302,7 @@ burpsuite: new version found - 2023.11.1.1 => 2023.11.1.2
   [1;34m->[;1m checking for update for 'pacman-pstatus'[0m
 [32m          [UP-TO-DATE] [pacman-pstatus][0.3.1-1] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'pacman-static'[0m
-[37m             [UNKNOWN] [pacman-static][6.0.2-11] No release found for https://sources.archlinux.org/other/pacman/pacman-6.0.2.tar.xz [0m
+[37m             [UNKNOWN] [pacman-static][6.0.2-12] No release found for https://sources.archlinux.org/other/pacman/pacman-6.0.2.tar.xz [0m
   [1;34m->[;1m checking for update for 'pacman-systemd-inhibit'[0m
 [32m          [UP-TO-DATE] [pacman-systemd-inhibit][1.0-3] matches upstream version 1.0 [0m
   [1;34m->[;1m checking for update for 'parse-torrent'[0m
@@ -362,7 +363,7 @@ burpsuite: new version found - 2023.11.1.1 => 2023.11.1.2
   [1;34m->[;1m checking for update for 'python-pynput'[0m
 [32m          [UP-TO-DATE] [python-pynput][1.7.6-2] matches upstream version 1.7.6 [0m
   [1;34m->[;1m checking for update for 'python-pysubs2'[0m
-[37m             [UNKNOWN] [python-pysubs2][1.6.1-1] No PyPI release found for pysubs2: Get "https://pypi.org/pypi/pysubs2/json": net/http: TLS handshake timeout [0m
+[32m          [UP-TO-DATE] [python-pysubs2][1.6.1-1] matches upstream version 1.6.1 [0m
   [1;34m->[;1m checking for update for 'python-pytube'[0m
 [37m             [UNKNOWN] [python-pytube][15.0.0-1] upstream version is 11.0.1 [0m
   [1;34m->[;1m checking for update for 'python-simber'[0m
@@ -392,7 +393,7 @@ burpsuite: new version found - 2023.11.1.1 => 2023.11.1.2
   [1;34m->[;1m checking for update for 'python3-xcpf'[0m
 [37m             [UNKNOWN] [python3-xcpf][2021.12-13] No release found for https://xyne.dev/projects/python3-xcpf/src/python3-xcpf-2021.12.tar.xz [0m
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
-[32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][2.3.0-1] matches upstream version 2.3.0 [0m
+[31m         [OUT-OF-DATE] [qbittorrent-vuetorrent-bin][2.3.0-1] should be updated to 2.4.0 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
 [31m         [OUT-OF-DATE] [qrcp][0.10.1-1] should be updated to 0.11.0 [0m
   [1;34m->[;1m checking for update for 'qwinff'[0m
@@ -435,13 +436,13 @@ burpsuite: new version found - 2023.11.1.1 => 2023.11.1.2
 [37m             [UNKNOWN] [speedometer][2.9-2] Failed to obtain GitHub release for wardi/speedometer from https://api.github.com/repos/wardi/speedometer/releases/latest: No GitHub project found for wardi/speedometer on https://api.github.com/repos/wardi/speedometer/releases/latest [0m
   [1;34m->[;1m checking for update for 'speedread-git'[0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
-[32m          [UP-TO-DATE] [spicetify-cli][2.28.0-1] matches upstream version 2.28.0 [0m
+[32m          [UP-TO-DATE] [spicetify-cli][2.28.1-1] matches upstream version 2.28.1 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
 [37m             [UNKNOWN] [spotify][1:1.2.26.1187-1] No release found for spotify-1.2.26.1187-g36b715a1-x86_64.deb::http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.2.26.1187.g36b715a1_amd64.deb [0m
   [1;34m->[;1m checking for update for 'stacer'[0m
 [32m          [UP-TO-DATE] [stacer][1.1.0-1] matches upstream version 1.1.0 [0m
   [1;34m->[;1m checking for update for 'stretchly-bin'[0m
-[32m          [UP-TO-DATE] [stretchly-bin][1.15.1-1] matches upstream version 1.15.1 [0m
+[32m          [UP-TO-DATE] [stretchly-bin][1.15.1-2] matches upstream version 1.15.1 [0m
   [1;34m->[;1m checking for update for 'sublime-text-4'[0m
 [37m             [UNKNOWN] [sublime-text-4][4.4169-1] No release found for sublime_text_4_4_4169_1_x64.tar.xz::https://download.sublimetext.com/sublime_text_build_4169_x64.tar.xz [0m
   [1;34m->[;1m checking for update for 'subuser'[0m
@@ -522,7 +523,7 @@ burpsuite: new version found - 2023.11.1.1 => 2023.11.1.2
   [1;34m->[;1m checking for update for 'vrms-arch'[0m
 [37m             [UNKNOWN] [vrms-arch][0.1.0.r25.g802c767-1] Failed to obtain GitHub release for orospakr/vrms-arch.git from https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest: No GitHub project found for orospakr/vrms-arch.git on https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'vscodium-bin'[0m
-[32m          [UP-TO-DATE] [vscodium-bin][1.84.2.23319-1] matches upstream version 1.84.2.23319 [0m
+[32m          [UP-TO-DATE] [vscodium-bin][1.85.0.23343-1] matches upstream version 1.85.0.23343 [0m
   [1;34m->[;1m checking for update for 'waydroid'[0m
 [37m             [UNKNOWN] [waydroid][1.4.2-1] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
