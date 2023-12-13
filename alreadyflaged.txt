@@ -1,2 +1,4 @@
 awmtt
+discord-ptb
 python-polib
+session-desktop-bin
