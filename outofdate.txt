@@ -3,10 +3,7 @@
   [1;34m->[;1m listing already flaged packages[0m
 awmtt
 discord-ptb
-python-polib
-session-desktop-bin
   [1;34m->[;1m running pkgoutofdate[0m
-session-desktop-bin: new version found - 1.11.4 => 1.11.5
 qrcp: new version found - 0.10.1 => 0.11.0
 mergerfs: new version found - 2.38.0 => 2.38.1
 libglibutil: new version found - 1.0.74 => 1.0.75
@@ -63,7 +60,7 @@ discord-ptb: new version found - 0.0.58 => 0.0.59
   [1;34m->[;1m checking for update for 'bibata-cursor-theme-bin'[0m
 [32m          [UP-TO-DATE] [bibata-cursor-theme-bin][2.0.4-1] matches upstream version 2.0.4 [0m
   [1;34m->[;1m checking for update for 'boundary-bin'[0m
-[37m             [UNKNOWN] [boundary-bin][0.14.2-1] No release found for boundary-controller.service [0m
+[37m             [UNKNOWN] [boundary-bin][0.14.3-1] No release found for boundary-controller.service [0m
   [1;34m->[;1m checking for update for 'boxes'[0m
 [32m          [UP-TO-DATE] [boxes][2.2.1-1] matches upstream version 2.2.1 [0m
   [1;34m->[;1m checking for update for 'brave'[0m
@@ -84,7 +81,7 @@ discord-ptb: new version found - 0.0.58 => 0.0.59
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
 [32m          [UP-TO-DATE] [cloudflared-bin][2023.10.0-1] matches upstream version 2023.10.0 [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
-[32m          [UP-TO-DATE] [code-features][1.85.0-1] matches upstream version 1.85.0 [0m
+[31m         [OUT-OF-DATE] [code-features][1.85.0-1] should be updated to 1.85.1 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
 [37m             [UNKNOWN] [code-marketplace][1.85.0-1] No release found for code-marketplace.hook [0m
   [1;34m->[;1m checking for update for 'code-server'[0m
@@ -96,7 +93,7 @@ discord-ptb: new version found - 0.0.58 => 0.0.59
   [1;34m->[;1m checking for update for 'csslint'[0m
 [37m             [UNKNOWN] [csslint][1.0.5-2] upstream version is 1.0.3 [0m
   [1;34m->[;1m checking for update for 'ctjs-bin'[0m
-[31m         [OUT-OF-DATE] [ctjs-bin][1.7.0-1] should be updated to 3.2.0 [0m
+[31m         [OUT-OF-DATE] [ctjs-bin][1.7.0-1] should be updated to 3.3.0 [0m
   [1;34m->[;1m checking for update for 'dasel-bin'[0m
 [32m          [UP-TO-DATE] [dasel-bin][2.5.0-1] matches upstream version 2.5.0 [0m
   [1;34m->[;1m checking for update for 'ddd'[0m
@@ -426,7 +423,7 @@ discord-ptb: new version found - 0.0.58 => 0.0.59
 [37m             [UNKNOWN] [rxfetch][1.0-2] Failed to obtain GitHub release for mangeshrex/rxfetch from https://api.github.com/repos/mangeshrex/rxfetch/releases/latest: No GitHub project found for mangeshrex/rxfetch on https://api.github.com/repos/mangeshrex/rxfetch/releases/latest [0m
   [1;34m->[;1m checking for update for 'selectdefaultapplication-git'[0m
   [1;34m->[;1m checking for update for 'session-desktop-bin'[0m
-[31m         [OUT-OF-DATE] [session-desktop-bin][1.11.4-1] should be updated to 1.11.5 [0m
+[32m          [UP-TO-DATE] [session-desktop-bin][1.11.5-1] matches upstream version 1.11.5 [0m
   [1;34m->[;1m checking for update for 'sherlock-git'[0m
   [1;34m->[;1m checking for update for 'siji-git'[0m
   [1;34m->[;1m checking for update for 'simple-mtpfs'[0m
