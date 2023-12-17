@@ -2,12 +2,10 @@
 
   [1;34m->[;1m listing already flaged packages[0m
 awmtt
-discord-ptb
   [1;34m->[;1m running pkgoutofdate[0m
-qrcp: new version found - 0.10.1 => 0.11.0
+resvg: new version found - 0.36.0 => 0.37.0
 mergerfs: new version found - 2.38.0 => 2.38.1
 libglibutil: new version found - 1.0.74 => 1.0.75
-discord-ptb: new version found - 0.0.58 => 0.0.59
   [1;34m->[;1m sourcing .env[0m
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
@@ -105,7 +103,7 @@ discord-ptb: new version found - 0.0.58 => 0.0.59
   [1;34m->[;1m checking for update for 'discord-chat-exporter-cli'[0m
 [32m          [UP-TO-DATE] [discord-chat-exporter-cli][2.42.6-1] matches upstream version 2.42.6 [0m
   [1;34m->[;1m checking for update for 'discord-ptb'[0m
-[37m             [UNKNOWN] [discord-ptb][0.0.58-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.58/discord-ptb-0.0.58.tar.gz [0m
+[37m             [UNKNOWN] [discord-ptb][0.0.62-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.62/discord-ptb-0.0.62.tar.gz [0m
   [1;34m->[;1m checking for update for 'docker-systemctl-replacement-git'[0m
   [1;34m->[;1m checking for update for 'downloader-cli'[0m
 [32m          [UP-TO-DATE] [downloader-cli][0.3.4-0] matches upstream version 0.3.4 [0m
@@ -163,7 +161,7 @@ discord-ptb: new version found - 0.0.58 => 0.0.59
   [1;34m->[;1m checking for update for 'gitstatus'[0m
 [32m          [UP-TO-DATE] [gitstatus][1.5.4-1] matches upstream version 1.5.4 [0m
   [1;34m->[;1m checking for update for 'gocryptfs-ui'[0m
-[37m             [UNKNOWN] [gocryptfs-ui][1.2-1] Failed to obtain GitHub release for bulletmark/gocryptfs-ui from https://api.github.com/repos/bulletmark/gocryptfs-ui/releases/latest: No GitHub project found for bulletmark/gocryptfs-ui on https://api.github.com/repos/bulletmark/gocryptfs-ui/releases/latest [0m
+[37m             [UNKNOWN] [gocryptfs-ui][1.3-1] Failed to obtain GitHub release for bulletmark/gocryptfs-ui from https://api.github.com/repos/bulletmark/gocryptfs-ui/releases/latest: No GitHub project found for bulletmark/gocryptfs-ui on https://api.github.com/repos/bulletmark/gocryptfs-ui/releases/latest [0m
   [1;34m->[;1m checking for update for 'google-chrome'[0m
 [37m             [UNKNOWN] [google-chrome][120.0.6099.109-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_120.0.6099.109-1_amd64.deb [0m
   [1;34m->[;1m checking for update for 'guiscrcpy'[0m
@@ -393,7 +391,7 @@ discord-ptb: new version found - 0.0.58 => 0.0.59
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
 [32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][2.4.0-1] matches upstream version 2.4.0 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
-[31m         [OUT-OF-DATE] [qrcp][0.10.1-1] should be updated to 0.11.0 [0m
+[32m          [UP-TO-DATE] [qrcp][0.11.0-1] matches upstream version 0.11.0 [0m
   [1;34m->[;1m checking for update for 'qwinff'[0m
 [37m             [UNKNOWN] [qwinff][0.2.1-1] No release found for http://sourceforge.net/projects/qwinff/files/release/v0.2.1/qwinff_0.2.1.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'rate-mirrors-bin'[0m
@@ -408,7 +406,7 @@ discord-ptb: new version found - 0.0.58 => 0.0.59
 [37m             [UNKNOWN] [reboot-arch-btw][0.5.7-1] No release found for reboot-arch-btw-0.5.7.tar.gz::https://static.crates.io/crates/reboot-arch-btw/reboot-arch-btw-0.5.7.crate [0m
   [1;34m->[;1m checking for update for 'rescached-git'[0m
   [1;34m->[;1m checking for update for 'resvg'[0m
-[32m          [UP-TO-DATE] [resvg][0.36.0-1] matches upstream version 0.36.0 [0m
+[31m         [OUT-OF-DATE] [resvg][0.36.0-1] should be updated to 0.37.0 [0m
   [1;34m->[;1m checking for update for 'retroshare'[0m
 [32m          [UP-TO-DATE] [retroshare][0.6.7.2-1] matches upstream version 0.6.7.2 [0m
   [1;34m->[;1m checking for update for 'robo3t-bin'[0m
@@ -521,11 +519,11 @@ discord-ptb: new version found - 0.0.58 => 0.0.59
   [1;34m->[;1m checking for update for 'vrms-arch'[0m
 [37m             [UNKNOWN] [vrms-arch][0.1.0.r25.g802c767-1] Failed to obtain GitHub release for orospakr/vrms-arch.git from https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest: No GitHub project found for orospakr/vrms-arch.git on https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'vscodium-bin'[0m
-[32m          [UP-TO-DATE] [vscodium-bin][1.85.0.23343-1] matches upstream version 1.85.0.23343 [0m
+[32m          [UP-TO-DATE] [vscodium-bin][1.85.1.23348-1] matches upstream version 1.85.1.23348 [0m
   [1;34m->[;1m checking for update for 'waydroid'[0m
 [37m             [UNKNOWN] [waydroid][1.4.2-1] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
-[37m             [UNKNOWN] [waydroid-image][18.1_20231202-1] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-18.1-20231202-VANILLA-waydroid_x86_64-system.zip [0m
+[37m             [UNKNOWN] [waydroid-image][18.1_20231209-1] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-18.1-20231209-VANILLA-waydroid_x86_64-system.zip [0m
   [1;34m->[;1m checking for update for 'wd719x-firmware'[0m
 [32m          [UP-TO-DATE] [wd719x-firmware][1-7] matches upstream version 1-7 [0m
   [1;34m->[;1m checking for update for 'webtorrent-bittorrent-tracker'[0m
