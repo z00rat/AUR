@@ -2,8 +2,8 @@
 
   [1;34m->[;1m listing already flaged packages[0m
 awmtt
+hibernator
   [1;34m->[;1m running pkgoutofdate[0m
-resvg: new version found - 0.36.0 => 0.37.0
 mergerfs: new version found - 2.38.0 => 2.38.1
 libglibutil: new version found - 1.0.74 => 1.0.75
   [1;34m->[;1m sourcing .env[0m
@@ -110,7 +110,7 @@ libglibutil: new version found - 1.0.74 => 1.0.75
   [1;34m->[;1m checking for update for 'dragon-drop'[0m
 [32m          [UP-TO-DATE] [dragon-drop][1.2.0-2] matches upstream version 1.2.0 [0m
   [1;34m->[;1m checking for update for 'drawio-desktop-bin'[0m
-[32m          [UP-TO-DATE] [drawio-desktop-bin][22.1.2-1] matches upstream version 22.1.2 [0m
+[31m         [OUT-OF-DATE] [drawio-desktop-bin][22.1.2-1] should be updated to 22.1.11 [0m
   [1;34m->[;1m checking for update for 'dry-bin'[0m
 [32m          [UP-TO-DATE] [dry-bin][0.11.1-1] matches upstream version 0.11.1 [0m
   [1;34m->[;1m checking for update for 'edex-ui-bin'[0m
@@ -406,7 +406,7 @@ libglibutil: new version found - 1.0.74 => 1.0.75
 [37m             [UNKNOWN] [reboot-arch-btw][0.5.7-1] No release found for reboot-arch-btw-0.5.7.tar.gz::https://static.crates.io/crates/reboot-arch-btw/reboot-arch-btw-0.5.7.crate [0m
   [1;34m->[;1m checking for update for 'rescached-git'[0m
   [1;34m->[;1m checking for update for 'resvg'[0m
-[31m         [OUT-OF-DATE] [resvg][0.36.0-1] should be updated to 0.37.0 [0m
+[32m          [UP-TO-DATE] [resvg][0.37.0-1] matches upstream version 0.37.0 [0m
   [1;34m->[;1m checking for update for 'retroshare'[0m
 [32m          [UP-TO-DATE] [retroshare][0.6.7.2-1] matches upstream version 0.6.7.2 [0m
   [1;34m->[;1m checking for update for 'robo3t-bin'[0m
@@ -549,6 +549,6 @@ libglibutil: new version found - 1.0.74 => 1.0.75
 [32m          [UP-TO-DATE] [yay-bin][12.2.0-1] matches upstream version 12.2.0 [0m
   [1;34m->[;1m checking for update for 'ytmdl-git'[0m
   [1;34m->[;1m checking for update for 'zoom'[0m
-[37m             [UNKNOWN] [zoom][5.16.10-1] No release found for zoom-5.16.10.668_orig_x86_64.pkg.tar.xz::https://cdn.zoom.us/prod/5.16.10.668/zoom_x86_64.pkg.tar.xz [0m
+[37m             [UNKNOWN] [zoom][5.17.0-1] No release found for zoom-5.17.0.1682_orig_x86_64.pkg.tar.xz::https://cdn.zoom.us/prod/5.17.0.1682/zoom_x86_64.pkg.tar.xz [0m
   [1;34m->[;1m checking for update for 'zsh-theme-powerlevel10k-git'[0m
   [1;34m->[;1m done.[0m
