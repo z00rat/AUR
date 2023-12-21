@@ -3,7 +3,9 @@
   [1;34m->[;1m listing already flaged packages[0m
 awmtt
 hibernator
+ttf-twemoji
   [1;34m->[;1m running pkgoutofdate[0m
+qrcp: new version found - 0.11.0 => 0.11.1
 mergerfs: new version found - 2.38.0 => 2.38.1
 libglibutil: new version found - 1.0.74 => 1.0.75
   [1;34m->[;1m sourcing .env[0m
@@ -70,7 +72,7 @@ libglibutil: new version found - 1.0.74 => 1.0.75
   [1;34m->[;1m checking for update for 'bubblejail'[0m
 [32m          [UP-TO-DATE] [bubblejail][0.8.2-1] matches upstream version 0.8.2 [0m
   [1;34m->[;1m checking for update for 'burpsuite'[0m
-[37m             [UNKNOWN] [burpsuite][2023.11.1.3-1] No release found for burpsuite-2023.11.1.3.jar::https://portswigger.net/burp/releases/download?product=community&version=2023.11.1.3&type=Jar [0m
+[37m             [UNKNOWN] [burpsuite][2023.12.1-1] No release found for burpsuite-2023.12.1.jar::https://portswigger.net/burp/releases/download?product=community&version=2023.12.1&type=Jar [0m
   [1;34m->[;1m checking for update for 'cava'[0m
 [32m          [UP-TO-DATE] [cava][0.9.1-1] matches upstream version 0.9.1 [0m
   [1;34m->[;1m checking for update for 'cbonsai'[0m
@@ -132,7 +134,7 @@ libglibutil: new version found - 1.0.74 => 1.0.75
   [1;34m->[;1m checking for update for 'figlet-fonts'[0m
 [37m             [UNKNOWN] [figlet-fonts][1.0-3] No release found for ours.tar.gz::ftp://ftp.figlet.org/pub/figlet/fonts/ours.tar.gz [0m
   [1;34m->[;1m checking for update for 'firefox-esr-bin'[0m
-[37m             [UNKNOWN] [firefox-esr-bin][115.5.0-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/115.5.0esr/linux-x86_64/en-US/firefox-115.5.0esr.tar.bz2 [0m
+[37m             [UNKNOWN] [firefox-esr-bin][115.6.0-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/115.6.0esr/linux-x86_64/en-US/firefox-115.6.0esr.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'flamegraph'[0m
 [32m          [UP-TO-DATE] [flamegraph][1.0-2] matches upstream version 1.0 [0m
   [1;34m->[;1m checking for update for 'florence'[0m
@@ -163,7 +165,7 @@ libglibutil: new version found - 1.0.74 => 1.0.75
   [1;34m->[;1m checking for update for 'gocryptfs-ui'[0m
 [37m             [UNKNOWN] [gocryptfs-ui][1.3-1] Failed to obtain GitHub release for bulletmark/gocryptfs-ui from https://api.github.com/repos/bulletmark/gocryptfs-ui/releases/latest: No GitHub project found for bulletmark/gocryptfs-ui on https://api.github.com/repos/bulletmark/gocryptfs-ui/releases/latest [0m
   [1;34m->[;1m checking for update for 'google-chrome'[0m
-[37m             [UNKNOWN] [google-chrome][120.0.6099.109-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_120.0.6099.109-1_amd64.deb [0m
+[37m             [UNKNOWN] [google-chrome][120.0.6099.129-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_120.0.6099.129-1_amd64.deb [0m
   [1;34m->[;1m checking for update for 'guiscrcpy'[0m
 [37m             [UNKNOWN] [guiscrcpy][1:2023.1.1-4] Failed to obtain GitHub release for srevinsaju/guiscrcpy.git from https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest: No GitHub project found for srevinsaju/guiscrcpy.git on https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'heroku-cli-bin'[0m
@@ -298,7 +300,7 @@ libglibutil: new version found - 1.0.74 => 1.0.75
   [1;34m->[;1m checking for update for 'pacman-pstatus'[0m
 [32m          [UP-TO-DATE] [pacman-pstatus][0.3.1-1] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'pacman-static'[0m
-[37m             [UNKNOWN] [pacman-static][6.0.2-12] No release found for https://sources.archlinux.org/other/pacman/pacman-6.0.2.tar.xz [0m
+[37m             [UNKNOWN] [pacman-static][6.0.2-13] No release found for https://sources.archlinux.org/other/pacman/pacman-6.0.2.tar.xz [0m
   [1;34m->[;1m checking for update for 'pacman-systemd-inhibit'[0m
 [32m          [UP-TO-DATE] [pacman-systemd-inhibit][1.0-3] matches upstream version 1.0 [0m
   [1;34m->[;1m checking for update for 'parse-torrent'[0m
@@ -343,7 +345,7 @@ libglibutil: new version found - 1.0.74 => 1.0.75
   [1;34m->[;1m checking for update for 'python-gbinder'[0m
 [37m             [UNKNOWN] [python-gbinder][1.1.2-1] Failed to obtain GitHub release for erfanoabdi/gbinder-python.git from https://api.github.com/repos/erfanoabdi/gbinder-python.git/releases/latest: No GitHub project found for erfanoabdi/gbinder-python.git on https://api.github.com/repos/erfanoabdi/gbinder-python.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'python-gtts'[0m
-[32m          [UP-TO-DATE] [python-gtts][2.4.0-1] matches upstream version 2.4.0 [0m
+[32m          [UP-TO-DATE] [python-gtts][2.5.0-1] matches upstream version 2.5.0 [0m
   [1;34m->[;1m checking for update for 'python-gtts-token'[0m
 [32m          [UP-TO-DATE] [python-gtts-token][1.1.4-1] matches upstream version 1.1.4 [0m
   [1;34m->[;1m checking for update for 'python-itunespy'[0m
@@ -391,7 +393,7 @@ libglibutil: new version found - 1.0.74 => 1.0.75
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
 [32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][2.4.0-1] matches upstream version 2.4.0 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
-[32m          [UP-TO-DATE] [qrcp][0.11.0-1] matches upstream version 0.11.0 [0m
+[31m         [OUT-OF-DATE] [qrcp][0.11.0-1] should be updated to 0.11.1 [0m
   [1;34m->[;1m checking for update for 'qwinff'[0m
 [37m             [UNKNOWN] [qwinff][0.2.1-1] No release found for http://sourceforge.net/projects/qwinff/files/release/v0.2.1/qwinff_0.2.1.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'rate-mirrors-bin'[0m
@@ -416,7 +418,7 @@ libglibutil: new version found - 1.0.74 => 1.0.75
   [1;34m->[;1m checking for update for 'rtags'[0m
 [32m          [UP-TO-DATE] [rtags][2.38-1] matches upstream version 2.38 [0m
   [1;34m->[;1m checking for update for 'runjs-bin'[0m
-[32m          [UP-TO-DATE] [runjs-bin][2.9.0-1] matches upstream version 2.9.0 [0m
+[32m          [UP-TO-DATE] [runjs-bin][2.10.1-1] matches upstream version 2.10.1 [0m
   [1;34m->[;1m checking for update for 'rxfetch'[0m
 [37m             [UNKNOWN] [rxfetch][1.0-2] Failed to obtain GitHub release for mangeshrex/rxfetch from https://api.github.com/repos/mangeshrex/rxfetch/releases/latest: No GitHub project found for mangeshrex/rxfetch on https://api.github.com/repos/mangeshrex/rxfetch/releases/latest [0m
   [1;34m->[;1m checking for update for 'selectdefaultapplication-git'[0m
@@ -479,7 +481,7 @@ libglibutil: new version found - 1.0.74 => 1.0.75
   [1;34m->[;1m checking for update for 'toilet-fonts'[0m
 [37m             [UNKNOWN] [toilet-fonts][1.0-2] No release found for ftp://ftp.figlet.org/pub/figlet/fonts/ours.tar.gz [0m
   [1;34m->[;1m checking for update for 'tor-browser-bin'[0m
-[37m             [UNKNOWN] [tor-browser-bin][13.0.6-1] No release found for tor-browser.desktop.in [0m
+[37m             [UNKNOWN] [tor-browser-bin][13.0.7-1] No release found for tor-browser.desktop.in [0m
   [1;34m->[;1m checking for update for 'trizen'[0m
 [32m          [UP-TO-DATE] [trizen][1:1.68-1] matches upstream version 1.68 [0m
   [1;34m->[;1m checking for update for 'tt-bin'[0m
@@ -523,7 +525,7 @@ libglibutil: new version found - 1.0.74 => 1.0.75
   [1;34m->[;1m checking for update for 'waydroid'[0m
 [37m             [UNKNOWN] [waydroid][1.4.2-1] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
-[37m             [UNKNOWN] [waydroid-image][18.1_20231209-1] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-18.1-20231209-VANILLA-waydroid_x86_64-system.zip [0m
+[37m             [UNKNOWN] [waydroid-image][18.1_20231216-1] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-18.1-20231216-VANILLA-waydroid_x86_64-system.zip [0m
   [1;34m->[;1m checking for update for 'wd719x-firmware'[0m
 [32m          [UP-TO-DATE] [wd719x-firmware][1-7] matches upstream version 1-7 [0m
   [1;34m->[;1m checking for update for 'webtorrent-bittorrent-tracker'[0m
