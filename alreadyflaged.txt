@@ -1,3 +1,5 @@
 awmtt
 hibernator
+losslesscut-bin
+tor-browser-bin
 ttf-twemoji
