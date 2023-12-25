@@ -4,8 +4,6 @@
 awmtt
 hibernator
 losslesscut-bin
-tor-browser-bin
-ttf-twemoji
   [1;34m->[;1m running pkgoutofdate[0m
 mergerfs: new version found - 2.38.0 => 2.38.1
 libglibutil: new version found - 1.0.74 => 1.0.75
@@ -152,7 +150,7 @@ libglibutil: new version found - 1.0.74 => 1.0.75
   [1;34m->[;1m checking for update for 'funny-manpages'[0m
 [32m          [UP-TO-DATE] [funny-manpages][2.3-1] matches upstream version 2.3 [0m
   [1;34m->[;1m checking for update for 'gallery-dl'[0m
-[32m          [UP-TO-DATE] [gallery-dl][1.26.4-1] matches upstream version 1.26.4 [0m
+[32m          [UP-TO-DATE] [gallery-dl][1.26.5-1] matches upstream version 1.26.5 [0m
   [1;34m->[;1m checking for update for 'gconf-cleaner'[0m
 [37m             [UNKNOWN] [gconf-cleaner][0.0.3-2] No release found for https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gconf-cleaner/gconf-cleaner-0.0.3.tar.gz [0m
   [1;34m->[;1m checking for update for 'gconf-gtk2'[0m
@@ -482,7 +480,7 @@ libglibutil: new version found - 1.0.74 => 1.0.75
   [1;34m->[;1m checking for update for 'toilet-fonts'[0m
 [37m             [UNKNOWN] [toilet-fonts][1.0-2] No release found for ftp://ftp.figlet.org/pub/figlet/fonts/ours.tar.gz [0m
   [1;34m->[;1m checking for update for 'tor-browser-bin'[0m
-[37m             [UNKNOWN] [tor-browser-bin][13.0.7-1] No release found for tor-browser.desktop.in [0m
+[37m             [UNKNOWN] [tor-browser-bin][13.0.8-1] No release found for tor-browser.desktop.in [0m
   [1;34m->[;1m checking for update for 'trizen'[0m
 [32m          [UP-TO-DATE] [trizen][1:1.68-1] matches upstream version 1.68 [0m
   [1;34m->[;1m checking for update for 'tt-bin'[0m
@@ -496,7 +494,7 @@ libglibutil: new version found - 1.0.74 => 1.0.75
   [1;34m->[;1m checking for update for 'ttf-ms-fonts'[0m
 [37m             [UNKNOWN] [ttf-ms-fonts][2.0-12] No release found for https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/andale32.exe [0m
   [1;34m->[;1m checking for update for 'ttf-twemoji'[0m
-[37m             [UNKNOWN] [ttf-twemoji][15.0.2-1] No release found for https://artefacts.whynothugo.nl/twemoji.ttf/2023-12-05_16-23/Twemoji-15.0.2.ttf [0m
+[32m          [UP-TO-DATE] [ttf-twemoji][15.0.3-1] matches upstream version 15.0.3 [0m
   [1;34m->[;1m checking for update for 'ttf-twemoji-color'[0m
 [32m          [UP-TO-DATE] [ttf-twemoji-color][14.0.2-4] matches upstream version 14.0.2 [0m
   [1;34m->[;1m checking for update for 'ttf-typicons'[0m
