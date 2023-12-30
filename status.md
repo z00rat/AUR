@@ -1,8 +1,16 @@
-  [1;34m->[;1m number of packags that are 294 tracked[0m
-  [1;34m->[;1m number of packages that are 115 installed[0m
+  [1;34m->[;1m number of packags that are 295 tracked[0m
+  [1;34m->[;1m number of packages that are 123 installed[0m
   [1;34m->[;1m packages that are not tracked but installed in the system...[0m
+act-bin
+charm-pop-bin
+downgrade
+invoice-bin
 lua51-inspect
-nvim-lazy
+mods-bin
+nordlayer
+ookla-speedtest-bin
+slack-desktop
+tgpt-bin
   [1;34m->[;1m packages that are tracked but not installed in the system...[0m
 activitywatch-bin
 advcpmv
@@ -34,7 +42,6 @@ cointop-bin
 csslint
 ctjs-bin
 ddd
-debtap
 diceware
 discord-chat-exporter-cli
 docker-systemctl-replacement-git
@@ -81,6 +88,7 @@ marktext-bin
 mergerfs
 mergerfs-tools-git
 mkclean
+mkinitcpio-numlock
 mkp224o
 mpck
 mymonero
@@ -147,6 +155,7 @@ subuser
 surf
 surf-git
 svg-term-cli
+systemd-numlockontty
 terser
 themix-export-spotify-git
 themix-full-git

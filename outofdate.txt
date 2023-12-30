@@ -8,6 +8,7 @@ zoom
   [1;34m->[;1m running pkgoutofdate[0m
 mergerfs: new version found - 2.38.0 => 2.38.1
 libglibutil: new version found - 1.0.74 => 1.0.75
+drawio-desktop-bin: new version found - 22.1.15 => 22.1.16
   [1;34m->[;1m sourcing .env[0m
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
@@ -112,7 +113,7 @@ libglibutil: new version found - 1.0.74 => 1.0.75
   [1;34m->[;1m checking for update for 'dragon-drop'[0m
 [32m          [UP-TO-DATE] [dragon-drop][1.2.0-2] matches upstream version 1.2.0 [0m
   [1;34m->[;1m checking for update for 'drawio-desktop-bin'[0m
-[31m         [OUT-OF-DATE] [drawio-desktop-bin][22.1.11-1] should be updated to 22.1.15 [0m
+[31m         [OUT-OF-DATE] [drawio-desktop-bin][22.1.15-1] should be updated to 22.1.16 [0m
   [1;34m->[;1m checking for update for 'dry-bin'[0m
 [32m          [UP-TO-DATE] [dry-bin][0.11.1-1] matches upstream version 0.11.1 [0m
   [1;34m->[;1m checking for update for 'edex-ui-bin'[0m
@@ -258,7 +259,7 @@ libglibutil: new version found - 1.0.74 => 1.0.75
   [1;34m->[;1m checking for update for 'nodejs-csso-cli'[0m
 [32m          [UP-TO-DATE] [nodejs-csso-cli][4.0.2-1] matches upstream version 4.0.2 [0m
   [1;34m->[;1m checking for update for 'nodejs-git-split-diffs'[0m
-[32m          [UP-TO-DATE] [nodejs-git-split-diffs][0.17.0-1] matches upstream version 0.17.0 [0m
+[32m          [UP-TO-DATE] [nodejs-git-split-diffs][1.0.1-1] matches upstream version 1.0.1 [0m
   [1;34m->[;1m checking for update for 'nodejs-mapscii'[0m
 [32m          [UP-TO-DATE] [nodejs-mapscii][0.3.1-4] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'nodejs-nodemon'[0m
@@ -525,7 +526,7 @@ libglibutil: new version found - 1.0.74 => 1.0.75
   [1;34m->[;1m checking for update for 'waydroid'[0m
 [37m             [UNKNOWN] [waydroid][1.4.2-1] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
-[37m             [UNKNOWN] [waydroid-image][18.1_20231216-1] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-18.1-20231216-VANILLA-waydroid_x86_64-system.zip [0m
+[37m             [UNKNOWN] [waydroid-image][18.1_20231223-1] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-18.1-20231223-VANILLA-waydroid_x86_64-system.zip [0m
   [1;34m->[;1m checking for update for 'wd719x-firmware'[0m
 [32m          [UP-TO-DATE] [wd719x-firmware][1-7] matches upstream version 1-7 [0m
   [1;34m->[;1m checking for update for 'webtorrent-bittorrent-tracker'[0m

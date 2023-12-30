@@ -31,6 +31,7 @@
  - https://aur.archlinux.org/packages/boundary-bin
  - https://aur.archlinux.org/packages/boxes
  - https://aur.archlinux.org/packages/brave
+ - https://aur.archlinux.org/packages/briar-desktop-bin
  - https://aur.archlinux.org/packages/broken-link-checker
  - https://aur.archlinux.org/packages/bubblejail
  - https://aur.archlinux.org/packages/burpsuite
@@ -73,9 +74,11 @@
  - https://aur.archlinux.org/packages/fortune-mod-archlinux
  - https://aur.archlinux.org/packages/fsearch-git
  - https://aur.archlinux.org/packages/fswatch
+ - https://aur.archlinux.org/packages/funny-manpages
  - https://aur.archlinux.org/packages/gallery-dl
  - https://aur.archlinux.org/packages/gconf-cleaner
  - https://aur.archlinux.org/packages/gconf-gtk2
+ - https://aur.archlinux.org/packages/git-cola
  - https://aur.archlinux.org/packages/gitify-bin
  - https://aur.archlinux.org/packages/gitstatus
  - https://aur.archlinux.org/packages/gocryptfs-ui
@@ -87,6 +90,7 @@
  - https://aur.archlinux.org/packages/hw-probe
  - https://aur.archlinux.org/packages/hydroxide
  - https://aur.archlinux.org/packages/i3lock-color
+ - https://aur.archlinux.org/packages/ibus-autostart
  - https://aur.archlinux.org/packages/ibus-avro-git
  - https://aur.archlinux.org/packages/imhex
  - https://aur.archlinux.org/packages/jiq-bin
@@ -107,7 +111,6 @@
  - https://aur.archlinux.org/packages/lsdesktopf
  - https://aur.archlinux.org/packages/lua-format
  - https://aur.archlinux.org/packages/lua-inspect
- - https://aur.archlinux.org/packages/lua51-inspect
  - https://aur.archlinux.org/packages/lynis-git
  - https://aur.archlinux.org/packages/maldet
  - https://aur.archlinux.org/packages/marktext-bin
@@ -141,6 +144,7 @@
  - https://aur.archlinux.org/packages/obs-plugin-input-overlay-bin
  - https://aur.archlinux.org/packages/onedrive-abraunegg
  - https://aur.archlinux.org/packages/onioncircuits
+ - https://aur.archlinux.org/packages/openbangla-keyboard
  - https://aur.archlinux.org/packages/opencomic-bin
  - https://aur.archlinux.org/packages/opensnitch-git
  - https://aur.archlinux.org/packages/p7zip-gui
@@ -166,6 +170,9 @@
  - https://aur.archlinux.org/packages/popcorntime-bin
  - https://aur.archlinux.org/packages/powerpill
  - https://aur.archlinux.org/packages/python-auditok
+ - https://aur.archlinux.org/packages/python-bandcamp-api
+ - https://aur.archlinux.org/packages/python-dacite
+ - https://aur.archlinux.org/packages/python-demjson3
  - https://aur.archlinux.org/packages/python-fangfrisch
  - https://aur.archlinux.org/packages/python-ffsubsync
  - https://aur.archlinux.org/packages/python-future-annotations
@@ -173,14 +180,19 @@
  - https://aur.archlinux.org/packages/python-gtts
  - https://aur.archlinux.org/packages/python-gtts-token
  - https://aur.archlinux.org/packages/python-itunespy
+ - https://aur.archlinux.org/packages/python-jaconv
+ - https://aur.archlinux.org/packages/python-polib
  - https://aur.archlinux.org/packages/python-pydes
+ - https://aur.archlinux.org/packages/python-pykakasi
  - https://aur.archlinux.org/packages/python-pynput
  - https://aur.archlinux.org/packages/python-pysubs2
  - https://aur.archlinux.org/packages/python-pytube
  - https://aur.archlinux.org/packages/python-simber
+ - https://aur.archlinux.org/packages/python-soundcloud-v2
  - https://aur.archlinux.org/packages/python-spotdl
  - https://aur.archlinux.org/packages/python-spotipy
  - https://aur.archlinux.org/packages/python-srt
+ - https://aur.archlinux.org/packages/python-syncedlyrics
  - https://aur.archlinux.org/packages/python-torrequest
  - https://aur.archlinux.org/packages/python-uni-curses
  - https://aur.archlinux.org/packages/python-x256
@@ -204,7 +216,9 @@
  - https://aur.archlinux.org/packages/rofi-greenclip
  - https://aur.archlinux.org/packages/rtags
  - https://aur.archlinux.org/packages/runjs-bin
+ - https://aur.archlinux.org/packages/rxfetch
  - https://aur.archlinux.org/packages/selectdefaultapplication-git
+ - https://aur.archlinux.org/packages/session-desktop-bin
  - https://aur.archlinux.org/packages/sherlock-git
  - https://aur.archlinux.org/packages/siji-git
  - https://aur.archlinux.org/packages/simple-mtpfs
@@ -241,6 +255,7 @@
  - https://aur.archlinux.org/packages/thinkfan
  - https://aur.archlinux.org/packages/tlpui-git
  - https://aur.archlinux.org/packages/tmpwatch
+ - https://aur.archlinux.org/packages/toilet-fonts
  - https://aur.archlinux.org/packages/tor-browser-bin
  - https://aur.archlinux.org/packages/trizen
  - https://aur.archlinux.org/packages/tt-bin
@@ -279,7 +294,8 @@
  - https://aur.archlinux.org/packages/yay-bin
  - https://aur.archlinux.org/packages/ytmdl-git
  - https://aur.archlinux.org/packages/zoom
+ - https://aur.archlinux.org/packages/zsh-theme-powerlevel10k-git
 ---
 
-number of packages = 279.
+number of packages = 295.
 
