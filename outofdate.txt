@@ -4,11 +4,9 @@
 awmtt
 hibernator
 losslesscut-bin
-zoom
   [1;34m->[;1m running pkgoutofdate[0m
 mergerfs: new version found - 2.38.0 => 2.38.1
 libglibutil: new version found - 1.0.74 => 1.0.75
-drawio-desktop-bin: new version found - 22.1.15 => 22.1.16
   [1;34m->[;1m sourcing .env[0m
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
@@ -57,9 +55,9 @@ drawio-desktop-bin: new version found - 22.1.15 => 22.1.16
   [1;34m->[;1m checking for update for 'betterlockscreen'[0m
 [32m          [UP-TO-DATE] [betterlockscreen][4.2.0-1] matches upstream version 4.2.0 [0m
   [1;34m->[;1m checking for update for 'bibata-cursor-theme'[0m
-[32m          [UP-TO-DATE] [bibata-cursor-theme][2.0.4-1] matches upstream version 2.0.4 [0m
+[32m          [UP-TO-DATE] [bibata-cursor-theme][2.0.5-1] matches upstream version 2.0.5 [0m
   [1;34m->[;1m checking for update for 'bibata-cursor-theme-bin'[0m
-[32m          [UP-TO-DATE] [bibata-cursor-theme-bin][2.0.4-1] matches upstream version 2.0.4 [0m
+[32m          [UP-TO-DATE] [bibata-cursor-theme-bin][2.0.5-1] matches upstream version 2.0.5 [0m
   [1;34m->[;1m checking for update for 'boundary-bin'[0m
 [37m             [UNKNOWN] [boundary-bin][0.14.3-1] No release found for boundary-controller.service [0m
   [1;34m->[;1m checking for update for 'boxes'[0m
@@ -67,7 +65,7 @@ drawio-desktop-bin: new version found - 22.1.15 => 22.1.16
   [1;34m->[;1m checking for update for 'brave'[0m
 [37m             [UNKNOWN] [brave][1.52.129-1] Failed to obtain GitHub release for brave/brave-browser.git from https://api.github.com/repos/brave/brave-browser.git/releases/latest: No GitHub project found for brave/brave-browser.git on https://api.github.com/repos/brave/brave-browser.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'briar-desktop-bin'[0m
-[37m             [UNKNOWN] [briar-desktop-bin][0.6.0.beta-1] No release found for https://desktop.briarproject.org/jars/linux/0.6.0-beta/briar-desktop-linux-0.6.0-beta.jar [0m
+[37m             [UNKNOWN] [briar-desktop-bin][0.6.0.beta-2] No release found for https://desktop.briarproject.org/jars/linux/0.6.0-beta/briar-desktop-linux-0.6.0-beta.jar [0m
   [1;34m->[;1m checking for update for 'broken-link-checker'[0m
 [32m          [UP-TO-DATE] [broken-link-checker][0.7.8-1] matches upstream version 0.7.8 [0m
   [1;34m->[;1m checking for update for 'bubblejail'[0m
@@ -113,7 +111,7 @@ drawio-desktop-bin: new version found - 22.1.15 => 22.1.16
   [1;34m->[;1m checking for update for 'dragon-drop'[0m
 [32m          [UP-TO-DATE] [dragon-drop][1.2.0-2] matches upstream version 1.2.0 [0m
   [1;34m->[;1m checking for update for 'drawio-desktop-bin'[0m
-[31m         [OUT-OF-DATE] [drawio-desktop-bin][22.1.15-1] should be updated to 22.1.16 [0m
+[32m          [UP-TO-DATE] [drawio-desktop-bin][22.1.16-1] matches upstream version 22.1.16 [0m
   [1;34m->[;1m checking for update for 'dry-bin'[0m
 [32m          [UP-TO-DATE] [dry-bin][0.11.1-1] matches upstream version 0.11.1 [0m
   [1;34m->[;1m checking for update for 'edex-ui-bin'[0m
@@ -168,9 +166,9 @@ drawio-desktop-bin: new version found - 22.1.15 => 22.1.16
   [1;34m->[;1m checking for update for 'google-chrome'[0m
 [37m             [UNKNOWN] [google-chrome][120.0.6099.129-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_120.0.6099.129-1_amd64.deb [0m
   [1;34m->[;1m checking for update for 'guiscrcpy'[0m
-[37m             [UNKNOWN] [guiscrcpy][1:2023.1.1-4] Failed to obtain GitHub release for srevinsaju/guiscrcpy.git from https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest: No GitHub project found for srevinsaju/guiscrcpy.git on https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest [0m
+[37m             [UNKNOWN] [guiscrcpy][1:2023.1.1-5] Failed to obtain GitHub release for srevinsaju/guiscrcpy.git from https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest: No GitHub project found for srevinsaju/guiscrcpy.git on https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'heroku-cli-bin'[0m
-[37m             [UNKNOWN] [heroku-cli-bin][8.5.0-1] Failed to obtain GitHub release for ChloeColman/heroku-cli-bin from https://api.github.com/repos/ChloeColman/heroku-cli-bin/releases/latest: No GitHub project found for ChloeColman/heroku-cli-bin on https://api.github.com/repos/ChloeColman/heroku-cli-bin/releases/latest [0m
+[37m             [UNKNOWN] [heroku-cli-bin][8.7.1-1] Failed to obtain GitHub release for ChloeColman/heroku-cli-bin from https://api.github.com/repos/ChloeColman/heroku-cli-bin/releases/latest: No GitHub project found for ChloeColman/heroku-cli-bin on https://api.github.com/repos/ChloeColman/heroku-cli-bin/releases/latest [0m
   [1;34m->[;1m checking for update for 'hibernator'[0m
 [37m             [UNKNOWN] [hibernator][0.1-1] Failed to obtain GitHub release for Chrysostomus/hibernator from https://api.github.com/repos/Chrysostomus/hibernator/releases/latest: No GitHub project found for Chrysostomus/hibernator on https://api.github.com/repos/Chrysostomus/hibernator/releases/latest [0m
   [1;34m->[;1m checking for update for 'hollywood'[0m
@@ -185,7 +183,7 @@ drawio-desktop-bin: new version found - 22.1.15 => 22.1.16
 [37m             [UNKNOWN] [ibus-autostart][1.3-1] No release found for ibus-autostart: %!w(<nil>) [0m
   [1;34m->[;1m checking for update for 'ibus-avro-git'[0m
   [1;34m->[;1m checking for update for 'imhex'[0m
-[37m             [UNKNOWN] [imhex][1.31.0-3] Failed to obtain GitHub release for WerWolv/ImHex.git from https://api.github.com/repos/WerWolv/ImHex.git/releases/latest: No GitHub project found for WerWolv/ImHex.git on https://api.github.com/repos/WerWolv/ImHex.git/releases/latest [0m
+[37m             [UNKNOWN] [imhex][1.32.1-1] Failed to obtain GitHub release for WerWolv/ImHex.git from https://api.github.com/repos/WerWolv/ImHex.git/releases/latest: No GitHub project found for WerWolv/ImHex.git on https://api.github.com/repos/WerWolv/ImHex.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'jiq-bin'[0m
 [32m          [UP-TO-DATE] [jiq-bin][0.7.2-2] matches upstream version 0.7.2 [0m
   [1;34m->[;1m checking for update for 'jmtpfs'[0m
@@ -435,7 +433,7 @@ drawio-desktop-bin: new version found - 22.1.15 => 22.1.16
 [37m             [UNKNOWN] [speedometer][2.9-2] Failed to obtain GitHub release for wardi/speedometer from https://api.github.com/repos/wardi/speedometer/releases/latest: No GitHub project found for wardi/speedometer on https://api.github.com/repos/wardi/speedometer/releases/latest [0m
   [1;34m->[;1m checking for update for 'speedread-git'[0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
-[32m          [UP-TO-DATE] [spicetify-cli][2.28.1-1] matches upstream version 2.28.1 [0m
+[32m          [UP-TO-DATE] [spicetify-cli][2.29.1-1] matches upstream version 2.29.1 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
 [37m             [UNKNOWN] [spotify][1:1.2.26.1187-1] No release found for spotify-1.2.26.1187-g36b715a1-x86_64.deb::http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.2.26.1187.g36b715a1_amd64.deb [0m
   [1;34m->[;1m checking for update for 'stacer'[0m
@@ -552,6 +550,6 @@ drawio-desktop-bin: new version found - 22.1.15 => 22.1.16
 [32m          [UP-TO-DATE] [yay-bin][12.2.0-1] matches upstream version 12.2.0 [0m
   [1;34m->[;1m checking for update for 'ytmdl-git'[0m
   [1;34m->[;1m checking for update for 'zoom'[0m
-[37m             [UNKNOWN] [zoom][5.17.0-1] No release found for zoom-5.17.0.1682_orig_x86_64.pkg.tar.xz::https://cdn.zoom.us/prod/5.17.0.1682/zoom_x86_64.pkg.tar.xz [0m
+[37m             [UNKNOWN] [zoom][5.17.1-1] No release found for zoom-5.17.1.1840_orig_x86_64.pkg.tar.xz::https://cdn.zoom.us/prod/5.17.1.1840/zoom_x86_64.pkg.tar.xz [0m
   [1;34m->[;1m checking for update for 'zsh-theme-powerlevel10k-git'[0m
   [1;34m->[;1m done.[0m
