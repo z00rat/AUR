@@ -1,3 +1,4 @@
 awmtt
 hibernator
 losslesscut-bin
+qrcp-bin

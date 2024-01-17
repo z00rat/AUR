@@ -2,7 +2,7 @@
 
 pkgname=rofi-greenclip
 pkgver=4.2
-pkgrel=2
+pkgrel=3
 pkgdesc="Clipboard manager to use with rofi - Image support and blacklist"
 arch=('x86_64')
 url="https://github.com/erebe/greenclip"
@@ -14,8 +14,6 @@ makedepends=()
 checkdepends=()
 optdepends=('rofi' 'fzf' 'dmenu')
 provides=("greenclip")
-conflicts=("rofi-greenclip-beta")
-replaces=("rofi-greenclip-beta")
 backup=()
 options=('!strip')
 source=("https://github.com/erebe/greenclip/releases/download/v4.2/greenclip-v4.2"

@@ -4,9 +4,10 @@
 awmtt
 hibernator
 losslesscut-bin
+qrcp-bin
   [1;34m->[;1m running pkgoutofdate[0m
 mergerfs: new version found - 2.38.0 => 2.38.1
-libglibutil: new version found - 1.0.74 => 1.0.75
+cava: new version found - 0.9.1 => 0.10.0
   [1;34m->[;1m sourcing .env[0m
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
@@ -73,18 +74,18 @@ libglibutil: new version found - 1.0.74 => 1.0.75
   [1;34m->[;1m checking for update for 'burpsuite'[0m
 [37m             [UNKNOWN] [burpsuite][2023.12.1-1] No release found for burpsuite-2023.12.1.jar::https://portswigger.net/burp/releases/download?product=community&version=2023.12.1&type=Jar [0m
   [1;34m->[;1m checking for update for 'cava'[0m
-[32m          [UP-TO-DATE] [cava][0.9.1-1] matches upstream version 0.9.1 [0m
+[31m         [OUT-OF-DATE] [cava][0.9.1-1] should be updated to 0.10.0 [0m
   [1;34m->[;1m checking for update for 'cbonsai'[0m
 [32m          [UP-TO-DATE] [cbonsai][1.3.1-3] matches upstream version 1.3.1 [0m
   [1;34m->[;1m checking for update for 'check-broken-packages-pacman-hook-git'[0m
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
-[32m          [UP-TO-DATE] [cloudflared-bin][2023.10.0-1] matches upstream version 2023.10.0 [0m
+[32m          [UP-TO-DATE] [cloudflared-bin][2024.1.2-1] matches upstream version 2024.1.2 [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
 [31m         [OUT-OF-DATE] [code-features][1.85.0-1] should be updated to 1.85.1 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
 [37m             [UNKNOWN] [code-marketplace][1.85.0-1] No release found for code-marketplace.hook [0m
   [1;34m->[;1m checking for update for 'code-server'[0m
-[31m         [OUT-OF-DATE] [code-server][4.19.1-1] should be updated to 4.20.0 [0m
+[32m          [UP-TO-DATE] [code-server][4.20.0-1] matches upstream version 4.20.0 [0m
   [1;34m->[;1m checking for update for 'cointop'[0m
 [32m          [UP-TO-DATE] [cointop][1.6.10-1] matches upstream version 1.6.10 [0m
   [1;34m->[;1m checking for update for 'cointop-bin'[0m
@@ -104,14 +105,14 @@ libglibutil: new version found - 1.0.74 => 1.0.75
   [1;34m->[;1m checking for update for 'discord-chat-exporter-cli'[0m
 [32m          [UP-TO-DATE] [discord-chat-exporter-cli][2.42.6-1] matches upstream version 2.42.6 [0m
   [1;34m->[;1m checking for update for 'discord-ptb'[0m
-[37m             [UNKNOWN] [discord-ptb][0.0.63-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.63/discord-ptb-0.0.63.tar.gz [0m
+[37m             [UNKNOWN] [discord-ptb][0.0.64-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.64/discord-ptb-0.0.64.tar.gz [0m
   [1;34m->[;1m checking for update for 'docker-systemctl-replacement-git'[0m
   [1;34m->[;1m checking for update for 'downloader-cli'[0m
 [32m          [UP-TO-DATE] [downloader-cli][0.3.4-0] matches upstream version 0.3.4 [0m
   [1;34m->[;1m checking for update for 'dragon-drop'[0m
 [32m          [UP-TO-DATE] [dragon-drop][1.2.0-2] matches upstream version 1.2.0 [0m
   [1;34m->[;1m checking for update for 'drawio-desktop-bin'[0m
-[32m          [UP-TO-DATE] [drawio-desktop-bin][22.1.16-1] matches upstream version 22.1.16 [0m
+[32m          [UP-TO-DATE] [drawio-desktop-bin][22.1.18-1] matches upstream version 22.1.18 [0m
   [1;34m->[;1m checking for update for 'dry-bin'[0m
 [32m          [UP-TO-DATE] [dry-bin][0.11.1-1] matches upstream version 0.11.1 [0m
   [1;34m->[;1m checking for update for 'edex-ui-bin'[0m
@@ -150,7 +151,7 @@ libglibutil: new version found - 1.0.74 => 1.0.75
   [1;34m->[;1m checking for update for 'funny-manpages'[0m
 [32m          [UP-TO-DATE] [funny-manpages][2.3-1] matches upstream version 2.3 [0m
   [1;34m->[;1m checking for update for 'gallery-dl'[0m
-[32m          [UP-TO-DATE] [gallery-dl][1.26.5-1] matches upstream version 1.26.5 [0m
+[32m          [UP-TO-DATE] [gallery-dl][1.26.6-1] matches upstream version 1.26.6 [0m
   [1;34m->[;1m checking for update for 'gconf-cleaner'[0m
 [37m             [UNKNOWN] [gconf-cleaner][0.0.3-2] No release found for https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gconf-cleaner/gconf-cleaner-0.0.3.tar.gz [0m
   [1;34m->[;1m checking for update for 'gconf-gtk2'[0m
@@ -164,7 +165,7 @@ libglibutil: new version found - 1.0.74 => 1.0.75
   [1;34m->[;1m checking for update for 'gocryptfs-ui'[0m
 [37m             [UNKNOWN] [gocryptfs-ui][1.3-1] Failed to obtain GitHub release for bulletmark/gocryptfs-ui from https://api.github.com/repos/bulletmark/gocryptfs-ui/releases/latest: No GitHub project found for bulletmark/gocryptfs-ui on https://api.github.com/repos/bulletmark/gocryptfs-ui/releases/latest [0m
   [1;34m->[;1m checking for update for 'google-chrome'[0m
-[37m             [UNKNOWN] [google-chrome][120.0.6099.129-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_120.0.6099.129-1_amd64.deb [0m
+[37m             [UNKNOWN] [google-chrome][120.0.6099.224-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_120.0.6099.224-1_amd64.deb [0m
   [1;34m->[;1m checking for update for 'guiscrcpy'[0m
 [37m             [UNKNOWN] [guiscrcpy][1:2023.1.1-5] Failed to obtain GitHub release for srevinsaju/guiscrcpy.git from https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest: No GitHub project found for srevinsaju/guiscrcpy.git on https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'heroku-cli-bin'[0m
@@ -183,7 +184,7 @@ libglibutil: new version found - 1.0.74 => 1.0.75
 [37m             [UNKNOWN] [ibus-autostart][1.3-1] No release found for ibus-autostart: %!w(<nil>) [0m
   [1;34m->[;1m checking for update for 'ibus-avro-git'[0m
   [1;34m->[;1m checking for update for 'imhex'[0m
-[37m             [UNKNOWN] [imhex][1.32.1-1] Failed to obtain GitHub release for WerWolv/ImHex.git from https://api.github.com/repos/WerWolv/ImHex.git/releases/latest: No GitHub project found for WerWolv/ImHex.git on https://api.github.com/repos/WerWolv/ImHex.git/releases/latest [0m
+[37m             [UNKNOWN] [imhex][1.32.2-1] Failed to obtain GitHub release for WerWolv/ImHex.git from https://api.github.com/repos/WerWolv/ImHex.git/releases/latest: No GitHub project found for WerWolv/ImHex.git on https://api.github.com/repos/WerWolv/ImHex.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'jiq-bin'[0m
 [32m          [UP-TO-DATE] [jiq-bin][0.7.2-2] matches upstream version 0.7.2 [0m
   [1;34m->[;1m checking for update for 'jmtpfs'[0m
@@ -195,7 +196,7 @@ libglibutil: new version found - 1.0.74 => 1.0.75
   [1;34m->[;1m checking for update for 'libgbinder'[0m
 [37m             [UNKNOWN] [libgbinder][1.1.35-1] Failed to obtain GitHub release for mer-hybris/libgbinder from https://api.github.com/repos/mer-hybris/libgbinder/releases/latest: No GitHub project found for mer-hybris/libgbinder on https://api.github.com/repos/mer-hybris/libgbinder/releases/latest [0m
   [1;34m->[;1m checking for update for 'libglibutil'[0m
-[37m             [UNKNOWN] [libglibutil][1.0.74-1] Failed to obtain GitHub release for sailfishos/libglibutil from https://api.github.com/repos/sailfishos/libglibutil/releases/latest: No GitHub project found for sailfishos/libglibutil on https://api.github.com/repos/sailfishos/libglibutil/releases/latest [0m
+[37m             [UNKNOWN] [libglibutil][1.0.75-1] Failed to obtain GitHub release for sailfishos/libglibutil from https://api.github.com/repos/sailfishos/libglibutil/releases/latest: No GitHub project found for sailfishos/libglibutil on https://api.github.com/repos/sailfishos/libglibutil/releases/latest [0m
   [1;34m->[;1m checking for update for 'libsvg'[0m
 [37m             [UNKNOWN] [libsvg][0.1.4-7] No release found for https://cairographics.org/snapshots/libsvg-0.1.4.tar.gz [0m
   [1;34m->[;1m checking for update for 'libsvg-cairo'[0m
@@ -249,7 +250,7 @@ libglibutil: new version found - 1.0.74 => 1.0.75
   [1;34m->[;1m checking for update for 'neo-matrix'[0m
 [32m          [UP-TO-DATE] [neo-matrix][0.6.1-2] matches upstream version 0.6.1 [0m
   [1;34m->[;1m checking for update for 'nodejs-autocannon'[0m
-[32m          [UP-TO-DATE] [nodejs-autocannon][7.14.0-1] matches upstream version 7.14.0 [0m
+[31m         [OUT-OF-DATE] [nodejs-autocannon][7.14.0-1] should be updated to 7.15.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-clinic'[0m
 [32m          [UP-TO-DATE] [nodejs-clinic][13.0.0-3] matches upstream version 13.0.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-csso'[0m
@@ -257,15 +258,15 @@ libglibutil: new version found - 1.0.74 => 1.0.75
   [1;34m->[;1m checking for update for 'nodejs-csso-cli'[0m
 [32m          [UP-TO-DATE] [nodejs-csso-cli][4.0.2-1] matches upstream version 4.0.2 [0m
   [1;34m->[;1m checking for update for 'nodejs-git-split-diffs'[0m
-[32m          [UP-TO-DATE] [nodejs-git-split-diffs][1.0.1-1] matches upstream version 1.0.1 [0m
+[32m          [UP-TO-DATE] [nodejs-git-split-diffs][1.1.0-1] matches upstream version 1.1.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-mapscii'[0m
 [32m          [UP-TO-DATE] [nodejs-mapscii][0.3.1-4] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'nodejs-nodemon'[0m
-[32m          [UP-TO-DATE] [nodejs-nodemon][3.0.2-1] matches upstream version 3.0.2 [0m
+[31m         [OUT-OF-DATE] [nodejs-nodemon][3.0.2-1] should be updated to 3.0.3 [0m
   [1;34m->[;1m checking for update for 'nodejs-npm2arch'[0m
 [32m          [UP-TO-DATE] [nodejs-npm2arch][2.2.0-1] matches upstream version 2.2.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-ungit'[0m
-[32m          [UP-TO-DATE] [nodejs-ungit][1.5.24-1] matches upstream version 1.5.24 [0m
+[31m         [OUT-OF-DATE] [nodejs-ungit][1.5.24-1] should be updated to 1.5.25 [0m
   [1;34m->[;1m checking for update for 'noisetorch'[0m
 [32m          [UP-TO-DATE] [noisetorch][0.12.2-2] matches upstream version 0.12.2 [0m
   [1;34m->[;1m checking for update for 'noisetorch-bin'[0m
@@ -285,7 +286,7 @@ libglibutil: new version found - 1.0.74 => 1.0.75
   [1;34m->[;1m checking for update for 'openbangla-keyboard'[0m
 [37m             [UNKNOWN] [openbangla-keyboard][2.0.0-7] Failed to obtain GitHub release for OpenBangla/OpenBangla-keyboard.git from https://api.github.com/repos/OpenBangla/OpenBangla-keyboard.git/releases/latest: No GitHub project found for OpenBangla/OpenBangla-keyboard.git on https://api.github.com/repos/OpenBangla/OpenBangla-keyboard.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'opencomic-bin'[0m
-[32m          [UP-TO-DATE] [opencomic-bin][1.0.0-4] matches upstream version 1.0.0 [0m
+[31m         [OUT-OF-DATE] [opencomic-bin][1.0.0-4] should be updated to 1.1.0 [0m
   [1;34m->[;1m checking for update for 'opensnitch-git'[0m
   [1;34m->[;1m checking for update for 'p7zip-gui'[0m
 [37m             [UNKNOWN] [p7zip-gui][16.02-8] No release found for https://downloads.sourceforge.net/project/p7zip/p7zip/16.02/p7zip_16.02_src_all.tar.bz2 [0m
@@ -299,11 +300,11 @@ libglibutil: new version found - 1.0.74 => 1.0.75
   [1;34m->[;1m checking for update for 'pacman-pstatus'[0m
 [32m          [UP-TO-DATE] [pacman-pstatus][0.3.1-1] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'pacman-static'[0m
-[37m             [UNKNOWN] [pacman-static][6.0.2-13] No release found for https://sources.archlinux.org/other/pacman/pacman-6.0.2.tar.xz [0m
+[37m             [UNKNOWN] [pacman-static][6.0.2-14] No release found for https://sources.archlinux.org/other/pacman/pacman-6.0.2.tar.xz [0m
   [1;34m->[;1m checking for update for 'pacman-systemd-inhibit'[0m
 [32m          [UP-TO-DATE] [pacman-systemd-inhibit][1.0-3] matches upstream version 1.0 [0m
   [1;34m->[;1m checking for update for 'parse-torrent'[0m
-[32m          [UP-TO-DATE] [parse-torrent][11.0.14-2] matches upstream version 11.0.14 [0m
+[31m         [OUT-OF-DATE] [parse-torrent][11.0.14-2] should be updated to 11.0.16 [0m
   [1;34m->[;1m checking for update for 'paru-bin'[0m
 [32m          [UP-TO-DATE] [paru-bin][2.0.1-1] matches upstream version 2.0.1 [0m
   [1;34m->[;1m checking for update for 'passivedns-git'[0m
@@ -374,7 +375,7 @@ libglibutil: new version found - 1.0.74 => 1.0.75
   [1;34m->[;1m checking for update for 'python-srt'[0m
 [37m             [UNKNOWN] [python-srt][3.5.3-1] Failed to obtain GitHub release for cdown/srt from https://api.github.com/repos/cdown/srt/releases/latest: No GitHub project found for cdown/srt on https://api.github.com/repos/cdown/srt/releases/latest [0m
   [1;34m->[;1m checking for update for 'python-syncedlyrics'[0m
-[32m          [UP-TO-DATE] [python-syncedlyrics][0.7.0-1] matches upstream version 0.7.0 [0m
+[32m          [UP-TO-DATE] [python-syncedlyrics][0.8.0-1] matches upstream version 0.8.0 [0m
   [1;34m->[;1m checking for update for 'python-torrequest'[0m
 [32m          [UP-TO-DATE] [python-torrequest][0.1.0-4] matches upstream version 0.1.0 [0m
   [1;34m->[;1m checking for update for 'python-uni-curses'[0m
@@ -390,7 +391,7 @@ libglibutil: new version found - 1.0.74 => 1.0.75
   [1;34m->[;1m checking for update for 'python3-xcpf'[0m
 [37m             [UNKNOWN] [python3-xcpf][2021.12-13] No release found for https://xyne.dev/projects/python3-xcpf/src/python3-xcpf-2021.12.tar.xz [0m
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
-[32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][2.4.0-1] matches upstream version 2.4.0 [0m
+[32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][2.5.0-1] matches upstream version 2.5.0 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
 [32m          [UP-TO-DATE] [qrcp][0.11.1-1] matches upstream version 0.11.1 [0m
   [1;34m->[;1m checking for update for 'qwinff'[0m
@@ -413,7 +414,7 @@ libglibutil: new version found - 1.0.74 => 1.0.75
   [1;34m->[;1m checking for update for 'robo3t-bin'[0m
 [32m          [UP-TO-DATE] [robo3t-bin][1.4.4-1] matches upstream version 1.4.4 [0m
   [1;34m->[;1m checking for update for 'rofi-greenclip'[0m
-[32m          [UP-TO-DATE] [rofi-greenclip][4.2-2] matches upstream version 4.2 [0m
+[32m          [UP-TO-DATE] [rofi-greenclip][4.2-3] matches upstream version 4.2 [0m
   [1;34m->[;1m checking for update for 'rtags'[0m
 [32m          [UP-TO-DATE] [rtags][2.38-1] matches upstream version 2.38 [0m
   [1;34m->[;1m checking for update for 'runjs-bin'[0m
@@ -433,7 +434,7 @@ libglibutil: new version found - 1.0.74 => 1.0.75
 [37m             [UNKNOWN] [speedometer][2.9-2] Failed to obtain GitHub release for wardi/speedometer from https://api.github.com/repos/wardi/speedometer/releases/latest: No GitHub project found for wardi/speedometer on https://api.github.com/repos/wardi/speedometer/releases/latest [0m
   [1;34m->[;1m checking for update for 'speedread-git'[0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
-[32m          [UP-TO-DATE] [spicetify-cli][2.29.1-1] matches upstream version 2.29.1 [0m
+[32m          [UP-TO-DATE] [spicetify-cli][2.30.0-1] matches upstream version 2.30.0 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
 [37m             [UNKNOWN] [spotify][1:1.2.26.1187-1] No release found for spotify-1.2.26.1187-g36b715a1-x86_64.deb::http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.2.26.1187.g36b715a1_amd64.deb [0m
   [1;34m->[;1m checking for update for 'stacer'[0m
@@ -452,7 +453,7 @@ libglibutil: new version found - 1.0.74 => 1.0.75
   [1;34m->[;1m checking for update for 'systemd-boot-pacman-hook'[0m
 [37m             [UNKNOWN] [systemd-boot-pacman-hook][3-1] No release found for systemd-boot.hook [0m
   [1;34m->[;1m checking for update for 'systemd-cleanup-pacman-hook'[0m
-[37m             [UNKNOWN] [systemd-cleanup-pacman-hook][8-1] Failed to obtain GitHub release for YHNdnzj/systemd-cleanup-pacman-hook from https://api.github.com/repos/YHNdnzj/systemd-cleanup-pacman-hook/releases/latest: No GitHub project found for YHNdnzj/systemd-cleanup-pacman-hook on https://api.github.com/repos/YHNdnzj/systemd-cleanup-pacman-hook/releases/latest [0m
+[37m             [UNKNOWN] [systemd-cleanup-pacman-hook][8.1-2] Failed to obtain GitHub release for YHNdnzj/systemd-cleanup-pacman-hook from https://api.github.com/repos/YHNdnzj/systemd-cleanup-pacman-hook/releases/latest: No GitHub project found for YHNdnzj/systemd-cleanup-pacman-hook on https://api.github.com/repos/YHNdnzj/systemd-cleanup-pacman-hook/releases/latest [0m
   [1;34m->[;1m checking for update for 'systemd-numlockontty'[0m
 [32m          [UP-TO-DATE] [systemd-numlockontty][0.1-14] matches upstream version 0.1-14 [0m
   [1;34m->[;1m checking for update for 'sysz'[0m
@@ -508,7 +509,7 @@ libglibutil: new version found - 1.0.74 => 1.0.75
   [1;34m->[;1m checking for update for 'typora'[0m
 [37m             [UNKNOWN] [typora][1.7.6-2] No release found for https://typora.io/linux/typora_1.7.6_amd64.deb [0m
   [1;34m->[;1m checking for update for 'uftrace'[0m
-[32m          [UP-TO-DATE] [uftrace][0.14-1] matches upstream version 0.14 [0m
+[32m          [UP-TO-DATE] [uftrace][0.15-1] matches upstream version 0.15 [0m
   [1;34m->[;1m checking for update for 'upd72020x-fw'[0m
 [32m          [UP-TO-DATE] [upd72020x-fw][1:1.0.0-2] matches upstream version 1.0.0 [0m
   [1;34m->[;1m checking for update for 'usbaudio-git'[0m
@@ -524,11 +525,11 @@ libglibutil: new version found - 1.0.74 => 1.0.75
   [1;34m->[;1m checking for update for 'waydroid'[0m
 [37m             [UNKNOWN] [waydroid][1.4.2-1] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
-[37m             [UNKNOWN] [waydroid-image][18.1_20231223-1] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-18.1-20231223-VANILLA-waydroid_x86_64-system.zip [0m
+[37m             [UNKNOWN] [waydroid-image][18.1_20240113-1] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-18.1-20240113-VANILLA-waydroid_x86_64-system.zip [0m
   [1;34m->[;1m checking for update for 'wd719x-firmware'[0m
 [32m          [UP-TO-DATE] [wd719x-firmware][1-7] matches upstream version 1-7 [0m
   [1;34m->[;1m checking for update for 'webtorrent-bittorrent-tracker'[0m
-[32m          [UP-TO-DATE] [webtorrent-bittorrent-tracker][11.0.0-2] matches upstream version 11.0.0 [0m
+[31m         [OUT-OF-DATE] [webtorrent-bittorrent-tracker][11.0.0-2] should be updated to 11.0.1 [0m
   [1;34m->[;1m checking for update for 'webtorrent-cli'[0m
 [32m          [UP-TO-DATE] [webtorrent-cli][4.1.0-1] matches upstream version 4.1.0 [0m
   [1;34m->[;1m checking for update for 'webtorrent-desktop-bin'[0m
