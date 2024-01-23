@@ -6,8 +6,10 @@ hibernator
 losslesscut-bin
 qrcp-bin
   [1;34m->[;1m running pkgoutofdate[0m
+resvg: new version found - 0.37.0 => 0.38.0
+mkp224o: new version found - 1.6.1 => 1.7.0
 mergerfs: new version found - 2.38.0 => 2.38.1
-cava: new version found - 0.9.1 => 0.10.0
+git-cola: new version found - 4.4.1 => 4.5.0
   [1;34m->[;1m sourcing .env[0m
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
@@ -29,7 +31,7 @@ cava: new version found - 0.9.1 => 0.10.0
   [1;34m->[;1m checking for update for 'arttime-git'[0m
   [1;34m->[;1m checking for update for 'ascii-rain-git'[0m
   [1;34m->[;1m checking for update for 'aseprite'[0m
-[32m          [UP-TO-DATE] [aseprite][1.3.2-1] matches upstream version 1.3.2 [0m
+[32m          [UP-TO-DATE] [aseprite][1.3.2-2] matches upstream version 1.3.2 [0m
   [1;34m->[;1m checking for update for 'ast-firmware'[0m
 [37m             [UNKNOWN] [ast-firmware][501-1] Failed to obtain GitHub release for Labaman/ast-firmware from https://api.github.com/repos/Labaman/ast-firmware/releases/latest: No GitHub project found for Labaman/ast-firmware on https://api.github.com/repos/Labaman/ast-firmware/releases/latest [0m
   [1;34m->[;1m checking for update for 'aur-auto-vote-git'[0m
@@ -74,18 +76,18 @@ cava: new version found - 0.9.1 => 0.10.0
   [1;34m->[;1m checking for update for 'burpsuite'[0m
 [37m             [UNKNOWN] [burpsuite][2023.12.1-1] No release found for burpsuite-2023.12.1.jar::https://portswigger.net/burp/releases/download?product=community&version=2023.12.1&type=Jar [0m
   [1;34m->[;1m checking for update for 'cava'[0m
-[31m         [OUT-OF-DATE] [cava][0.9.1-1] should be updated to 0.10.0 [0m
+[32m          [UP-TO-DATE] [cava][0.10.0-1] matches upstream version 0.10.0 [0m
   [1;34m->[;1m checking for update for 'cbonsai'[0m
 [32m          [UP-TO-DATE] [cbonsai][1.3.1-3] matches upstream version 1.3.1 [0m
   [1;34m->[;1m checking for update for 'check-broken-packages-pacman-hook-git'[0m
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
-[32m          [UP-TO-DATE] [cloudflared-bin][2024.1.2-1] matches upstream version 2024.1.2 [0m
+[32m          [UP-TO-DATE] [cloudflared-bin][2024.1.4-1] matches upstream version 2024.1.4 [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
-[31m         [OUT-OF-DATE] [code-features][1.85.0-1] should be updated to 1.85.1 [0m
+[31m         [OUT-OF-DATE] [code-features][1.85.0-1] should be updated to 1.85.2 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
 [37m             [UNKNOWN] [code-marketplace][1.85.0-1] No release found for code-marketplace.hook [0m
   [1;34m->[;1m checking for update for 'code-server'[0m
-[32m          [UP-TO-DATE] [code-server][4.20.0-1] matches upstream version 4.20.0 [0m
+[32m          [UP-TO-DATE] [code-server][4.20.1-1] matches upstream version 4.20.1 [0m
   [1;34m->[;1m checking for update for 'cointop'[0m
 [32m          [UP-TO-DATE] [cointop][1.6.10-1] matches upstream version 1.6.10 [0m
   [1;34m->[;1m checking for update for 'cointop-bin'[0m
@@ -103,16 +105,16 @@ cava: new version found - 0.9.1 => 0.10.0
   [1;34m->[;1m checking for update for 'diceware'[0m
 [37m             [UNKNOWN] [diceware][0.10-1] Failed to obtain GitHub release for ulif/diceware from https://api.github.com/repos/ulif/diceware/releases/latest: No GitHub project found for ulif/diceware on https://api.github.com/repos/ulif/diceware/releases/latest [0m
   [1;34m->[;1m checking for update for 'discord-chat-exporter-cli'[0m
-[32m          [UP-TO-DATE] [discord-chat-exporter-cli][2.42.6-1] matches upstream version 2.42.6 [0m
+[32m          [UP-TO-DATE] [discord-chat-exporter-cli][2.42.7-1] matches upstream version 2.42.7 [0m
   [1;34m->[;1m checking for update for 'discord-ptb'[0m
-[37m             [UNKNOWN] [discord-ptb][0.0.64-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.64/discord-ptb-0.0.64.tar.gz [0m
+[37m             [UNKNOWN] [discord-ptb][0.0.65-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.65/discord-ptb-0.0.65.tar.gz [0m
   [1;34m->[;1m checking for update for 'docker-systemctl-replacement-git'[0m
   [1;34m->[;1m checking for update for 'downloader-cli'[0m
 [32m          [UP-TO-DATE] [downloader-cli][0.3.4-0] matches upstream version 0.3.4 [0m
   [1;34m->[;1m checking for update for 'dragon-drop'[0m
 [32m          [UP-TO-DATE] [dragon-drop][1.2.0-2] matches upstream version 1.2.0 [0m
   [1;34m->[;1m checking for update for 'drawio-desktop-bin'[0m
-[32m          [UP-TO-DATE] [drawio-desktop-bin][22.1.18-1] matches upstream version 22.1.18 [0m
+[32m          [UP-TO-DATE] [drawio-desktop-bin][22.1.21-1] matches upstream version 22.1.21 [0m
   [1;34m->[;1m checking for update for 'dry-bin'[0m
 [32m          [UP-TO-DATE] [dry-bin][0.11.1-1] matches upstream version 0.11.1 [0m
   [1;34m->[;1m checking for update for 'edex-ui-bin'[0m
@@ -151,15 +153,15 @@ cava: new version found - 0.9.1 => 0.10.0
   [1;34m->[;1m checking for update for 'funny-manpages'[0m
 [32m          [UP-TO-DATE] [funny-manpages][2.3-1] matches upstream version 2.3 [0m
   [1;34m->[;1m checking for update for 'gallery-dl'[0m
-[32m          [UP-TO-DATE] [gallery-dl][1.26.6-1] matches upstream version 1.26.6 [0m
+[32m          [UP-TO-DATE] [gallery-dl][1.26.7-1] matches upstream version 1.26.7 [0m
   [1;34m->[;1m checking for update for 'gconf-cleaner'[0m
 [37m             [UNKNOWN] [gconf-cleaner][0.0.3-2] No release found for https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gconf-cleaner/gconf-cleaner-0.0.3.tar.gz [0m
   [1;34m->[;1m checking for update for 'gconf-gtk2'[0m
 [37m             [UNKNOWN] [gconf-gtk2][3.2.6-5] No release found for https://download.gnome.org/sources/GConf/3.2/GConf-3.2.6.tar.xz [0m
   [1;34m->[;1m checking for update for 'git-cola'[0m
-[32m          [UP-TO-DATE] [git-cola][4.4.1-1] matches upstream version 4.4.1 [0m
+[31m         [OUT-OF-DATE] [git-cola][4.4.1-1] should be updated to 4.5.0 [0m
   [1;34m->[;1m checking for update for 'gitify-bin'[0m
-[32m          [UP-TO-DATE] [gitify-bin][4.5.1-1] matches upstream version 4.5.1 [0m
+[31m         [OUT-OF-DATE] [gitify-bin][4.5.1-1] should be updated to 4.6.1 [0m
   [1;34m->[;1m checking for update for 'gitstatus'[0m
 [32m          [UP-TO-DATE] [gitstatus][1.5.4-1] matches upstream version 1.5.4 [0m
   [1;34m->[;1m checking for update for 'gocryptfs-ui'[0m
@@ -238,7 +240,7 @@ cava: new version found - 0.9.1 => 0.10.0
   [1;34m->[;1m checking for update for 'mkinitcpio-numlock'[0m
 [37m             [UNKNOWN] [mkinitcpio-numlock][1.0.3-1] No release found for numlock_hook [0m
   [1;34m->[;1m checking for update for 'mkp224o'[0m
-[32m          [UP-TO-DATE] [mkp224o][1.6.1-1] matches upstream version 1.6.1 [0m
+[31m         [OUT-OF-DATE] [mkp224o][1.6.1-1] should be updated to 1.7.0 [0m
   [1;34m->[;1m checking for update for 'motrix-bin'[0m
 [32m          [UP-TO-DATE] [motrix-bin][1.8.19-1] matches upstream version 1.8.19 [0m
   [1;34m->[;1m checking for update for 'mpck'[0m
@@ -262,7 +264,7 @@ cava: new version found - 0.9.1 => 0.10.0
   [1;34m->[;1m checking for update for 'nodejs-mapscii'[0m
 [32m          [UP-TO-DATE] [nodejs-mapscii][0.3.1-4] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'nodejs-nodemon'[0m
-[31m         [OUT-OF-DATE] [nodejs-nodemon][3.0.2-1] should be updated to 3.0.3 [0m
+[32m          [UP-TO-DATE] [nodejs-nodemon][3.0.3-1] matches upstream version 3.0.3 [0m
   [1;34m->[;1m checking for update for 'nodejs-npm2arch'[0m
 [32m          [UP-TO-DATE] [nodejs-npm2arch][2.2.0-1] matches upstream version 2.2.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-ungit'[0m
@@ -286,7 +288,7 @@ cava: new version found - 0.9.1 => 0.10.0
   [1;34m->[;1m checking for update for 'openbangla-keyboard'[0m
 [37m             [UNKNOWN] [openbangla-keyboard][2.0.0-7] Failed to obtain GitHub release for OpenBangla/OpenBangla-keyboard.git from https://api.github.com/repos/OpenBangla/OpenBangla-keyboard.git/releases/latest: No GitHub project found for OpenBangla/OpenBangla-keyboard.git on https://api.github.com/repos/OpenBangla/OpenBangla-keyboard.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'opencomic-bin'[0m
-[31m         [OUT-OF-DATE] [opencomic-bin][1.0.0-4] should be updated to 1.1.0 [0m
+[32m          [UP-TO-DATE] [opencomic-bin][1.1.0-4] matches upstream version 1.1.0 [0m
   [1;34m->[;1m checking for update for 'opensnitch-git'[0m
   [1;34m->[;1m checking for update for 'p7zip-gui'[0m
 [37m             [UNKNOWN] [p7zip-gui][16.02-8] No release found for https://downloads.sourceforge.net/project/p7zip/p7zip/16.02/p7zip_16.02_src_all.tar.bz2 [0m
@@ -304,7 +306,7 @@ cava: new version found - 0.9.1 => 0.10.0
   [1;34m->[;1m checking for update for 'pacman-systemd-inhibit'[0m
 [32m          [UP-TO-DATE] [pacman-systemd-inhibit][1.0-3] matches upstream version 1.0 [0m
   [1;34m->[;1m checking for update for 'parse-torrent'[0m
-[31m         [OUT-OF-DATE] [parse-torrent][11.0.14-2] should be updated to 11.0.16 [0m
+[32m          [UP-TO-DATE] [parse-torrent][11.0.16-1] matches upstream version 11.0.16 [0m
   [1;34m->[;1m checking for update for 'paru-bin'[0m
 [32m          [UP-TO-DATE] [paru-bin][2.0.1-1] matches upstream version 2.0.1 [0m
   [1;34m->[;1m checking for update for 'passivedns-git'[0m
@@ -405,10 +407,10 @@ cava: new version found - 0.9.1 => 0.10.0
   [1;34m->[;1m checking for update for 'rclone-browser'[0m
 [32m          [UP-TO-DATE] [rclone-browser][1.8.0-3] matches upstream version 1.8.0 [0m
   [1;34m->[;1m checking for update for 'reboot-arch-btw'[0m
-[37m             [UNKNOWN] [reboot-arch-btw][0.5.7-1] No release found for reboot-arch-btw-0.5.7.tar.gz::https://static.crates.io/crates/reboot-arch-btw/reboot-arch-btw-0.5.7.crate [0m
+[37m             [UNKNOWN] [reboot-arch-btw][0.6.0-1] No release found for reboot-arch-btw-0.6.0.tar.gz::https://static.crates.io/crates/reboot-arch-btw/reboot-arch-btw-0.6.0.crate [0m
   [1;34m->[;1m checking for update for 'rescached-git'[0m
   [1;34m->[;1m checking for update for 'resvg'[0m
-[32m          [UP-TO-DATE] [resvg][0.37.0-1] matches upstream version 0.37.0 [0m
+[31m         [OUT-OF-DATE] [resvg][0.37.0-1] should be updated to 0.38.0 [0m
   [1;34m->[;1m checking for update for 'retroshare'[0m
 [32m          [UP-TO-DATE] [retroshare][0.6.7.2-1] matches upstream version 0.6.7.2 [0m
   [1;34m->[;1m checking for update for 'robo3t-bin'[0m
@@ -459,7 +461,7 @@ cava: new version found - 0.9.1 => 0.10.0
   [1;34m->[;1m checking for update for 'sysz'[0m
 [32m          [UP-TO-DATE] [sysz][1.4.3-1] matches upstream version 1.4.3 [0m
   [1;34m->[;1m checking for update for 'terser'[0m
-[32m          [UP-TO-DATE] [terser][5.26.0-1] matches upstream version 5.26.0 [0m
+[31m         [OUT-OF-DATE] [terser][5.26.0-1] should be updated to 5.27.0 [0m
   [1;34m->[;1m checking for update for 'themix-export-spotify-git'[0m
   [1;34m->[;1m checking for update for 'themix-full-git'[0m
   [1;34m->[;1m checking for update for 'themix-gui-git'[0m
@@ -521,7 +523,7 @@ cava: new version found - 0.9.1 => 0.10.0
   [1;34m->[;1m checking for update for 'vrms-arch'[0m
 [37m             [UNKNOWN] [vrms-arch][0.1.0.r25.g802c767-1] Failed to obtain GitHub release for orospakr/vrms-arch.git from https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest: No GitHub project found for orospakr/vrms-arch.git on https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'vscodium-bin'[0m
-[32m          [UP-TO-DATE] [vscodium-bin][1.85.1.23348-1] matches upstream version 1.85.1.23348 [0m
+[32m          [UP-TO-DATE] [vscodium-bin][1.85.2.24019-1] matches upstream version 1.85.2.24019 [0m
   [1;34m->[;1m checking for update for 'waydroid'[0m
 [37m             [UNKNOWN] [waydroid][1.4.2-1] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
@@ -529,7 +531,7 @@ cava: new version found - 0.9.1 => 0.10.0
   [1;34m->[;1m checking for update for 'wd719x-firmware'[0m
 [32m          [UP-TO-DATE] [wd719x-firmware][1-7] matches upstream version 1-7 [0m
   [1;34m->[;1m checking for update for 'webtorrent-bittorrent-tracker'[0m
-[31m         [OUT-OF-DATE] [webtorrent-bittorrent-tracker][11.0.0-2] should be updated to 11.0.1 [0m
+[32m          [UP-TO-DATE] [webtorrent-bittorrent-tracker][11.0.1-1] matches upstream version 11.0.1 [0m
   [1;34m->[;1m checking for update for 'webtorrent-cli'[0m
 [32m          [UP-TO-DATE] [webtorrent-cli][4.1.0-1] matches upstream version 4.1.0 [0m
   [1;34m->[;1m checking for update for 'webtorrent-desktop-bin'[0m
@@ -546,11 +548,11 @@ cava: new version found - 0.9.1 => 0.10.0
   [1;34m->[;1m checking for update for 'xinput-gui'[0m
 [32m          [UP-TO-DATE] [xinput-gui][0.3.1-1] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'xmind'[0m
-[37m             [UNKNOWN] [xmind][23.11.04336.202311170212-1] No release found for https://dl3.xmind.net/Xmind-for-Linux-amd64bit-23.11.04336-202311170212.deb [0m
+[37m             [UNKNOWN] [xmind][24.01.09392.202401101753-1] No release found for https://dl3.xmind.net/Xmind-for-Linux-amd64bit-24.01.09392-202401101753.deb [0m
   [1;34m->[;1m checking for update for 'yay-bin'[0m
 [32m          [UP-TO-DATE] [yay-bin][12.2.0-1] matches upstream version 12.2.0 [0m
   [1;34m->[;1m checking for update for 'ytmdl-git'[0m
   [1;34m->[;1m checking for update for 'zoom'[0m
-[37m             [UNKNOWN] [zoom][5.17.1-1] No release found for zoom-5.17.1.1840_orig_x86_64.pkg.tar.xz::https://cdn.zoom.us/prod/5.17.1.1840/zoom_x86_64.pkg.tar.xz [0m
+[37m             [UNKNOWN] [zoom][5.17.5-1] No release found for zoom-5.17.5.2543_orig_x86_64.pkg.tar.xz::https://cdn.zoom.us/prod/5.17.5.2543/zoom_x86_64.pkg.tar.xz [0m
   [1;34m->[;1m checking for update for 'zsh-theme-powerlevel10k-git'[0m
   [1;34m->[;1m done.[0m
