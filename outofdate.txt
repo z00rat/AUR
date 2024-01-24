@@ -5,11 +5,9 @@ awmtt
 hibernator
 losslesscut-bin
 qrcp-bin
+ventoy-bin
   [1;34m->[;1m running pkgoutofdate[0m
-resvg: new version found - 0.37.0 => 0.38.0
-mkp224o: new version found - 1.6.1 => 1.7.0
 mergerfs: new version found - 2.38.0 => 2.38.1
-git-cola: new version found - 4.4.1 => 4.5.0
   [1;34m->[;1m sourcing .env[0m
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
@@ -136,7 +134,7 @@ git-cola: new version found - 4.4.1 => 4.5.0
   [1;34m->[;1m checking for update for 'figlet-fonts'[0m
 [37m             [UNKNOWN] [figlet-fonts][1.0-3] No release found for ours.tar.gz::ftp://ftp.figlet.org/pub/figlet/fonts/ours.tar.gz [0m
   [1;34m->[;1m checking for update for 'firefox-esr-bin'[0m
-[37m             [UNKNOWN] [firefox-esr-bin][115.6.0-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/115.6.0esr/linux-x86_64/en-US/firefox-115.6.0esr.tar.bz2 [0m
+[37m             [UNKNOWN] [firefox-esr-bin][115.7.0-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/115.7.0esr/linux-x86_64/en-US/firefox-115.7.0esr.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'flamegraph'[0m
 [32m          [UP-TO-DATE] [flamegraph][1.0-2] matches upstream version 1.0 [0m
   [1;34m->[;1m checking for update for 'florence'[0m
@@ -159,15 +157,15 @@ git-cola: new version found - 4.4.1 => 4.5.0
   [1;34m->[;1m checking for update for 'gconf-gtk2'[0m
 [37m             [UNKNOWN] [gconf-gtk2][3.2.6-5] No release found for https://download.gnome.org/sources/GConf/3.2/GConf-3.2.6.tar.xz [0m
   [1;34m->[;1m checking for update for 'git-cola'[0m
-[31m         [OUT-OF-DATE] [git-cola][4.4.1-1] should be updated to 4.5.0 [0m
+[32m          [UP-TO-DATE] [git-cola][4.5.0-1] matches upstream version 4.5.0 [0m
   [1;34m->[;1m checking for update for 'gitify-bin'[0m
-[31m         [OUT-OF-DATE] [gitify-bin][4.5.1-1] should be updated to 4.6.1 [0m
+[32m          [UP-TO-DATE] [gitify-bin][4.6.1-1] matches upstream version 4.6.1 [0m
   [1;34m->[;1m checking for update for 'gitstatus'[0m
 [32m          [UP-TO-DATE] [gitstatus][1.5.4-1] matches upstream version 1.5.4 [0m
   [1;34m->[;1m checking for update for 'gocryptfs-ui'[0m
 [37m             [UNKNOWN] [gocryptfs-ui][1.3-1] Failed to obtain GitHub release for bulletmark/gocryptfs-ui from https://api.github.com/repos/bulletmark/gocryptfs-ui/releases/latest: No GitHub project found for bulletmark/gocryptfs-ui on https://api.github.com/repos/bulletmark/gocryptfs-ui/releases/latest [0m
   [1;34m->[;1m checking for update for 'google-chrome'[0m
-[37m             [UNKNOWN] [google-chrome][120.0.6099.224-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_120.0.6099.224-1_amd64.deb [0m
+[37m             [UNKNOWN] [google-chrome][121.0.6167.85-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_121.0.6167.85-1_amd64.deb [0m
   [1;34m->[;1m checking for update for 'guiscrcpy'[0m
 [37m             [UNKNOWN] [guiscrcpy][1:2023.1.1-5] Failed to obtain GitHub release for srevinsaju/guiscrcpy.git from https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest: No GitHub project found for srevinsaju/guiscrcpy.git on https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'heroku-cli-bin'[0m
@@ -240,7 +238,7 @@ git-cola: new version found - 4.4.1 => 4.5.0
   [1;34m->[;1m checking for update for 'mkinitcpio-numlock'[0m
 [37m             [UNKNOWN] [mkinitcpio-numlock][1.0.3-1] No release found for numlock_hook [0m
   [1;34m->[;1m checking for update for 'mkp224o'[0m
-[31m         [OUT-OF-DATE] [mkp224o][1.6.1-1] should be updated to 1.7.0 [0m
+[32m          [UP-TO-DATE] [mkp224o][1.7.0-1] matches upstream version 1.7.0 [0m
   [1;34m->[;1m checking for update for 'motrix-bin'[0m
 [32m          [UP-TO-DATE] [motrix-bin][1.8.19-1] matches upstream version 1.8.19 [0m
   [1;34m->[;1m checking for update for 'mpck'[0m
@@ -399,7 +397,7 @@ git-cola: new version found - 4.4.1 => 4.5.0
   [1;34m->[;1m checking for update for 'qwinff'[0m
 [37m             [UNKNOWN] [qwinff][0.2.1-1] No release found for http://sourceforge.net/projects/qwinff/files/release/v0.2.1/qwinff_0.2.1.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'rate-mirrors-bin'[0m
-[32m          [UP-TO-DATE] [rate-mirrors-bin][0.17.0-1] matches upstream version 0.17.0 [0m
+[32m          [UP-TO-DATE] [rate-mirrors-bin][0.17.1-1] matches upstream version 0.17.1 [0m
   [1;34m->[;1m checking for update for 'raven-reader'[0m
 [32m          [UP-TO-DATE] [raven-reader][1.0.80-1] matches upstream version 1.0.80 [0m
   [1;34m->[;1m checking for update for 'raven-reader-bin'[0m
@@ -410,7 +408,7 @@ git-cola: new version found - 4.4.1 => 4.5.0
 [37m             [UNKNOWN] [reboot-arch-btw][0.6.0-1] No release found for reboot-arch-btw-0.6.0.tar.gz::https://static.crates.io/crates/reboot-arch-btw/reboot-arch-btw-0.6.0.crate [0m
   [1;34m->[;1m checking for update for 'rescached-git'[0m
   [1;34m->[;1m checking for update for 'resvg'[0m
-[31m         [OUT-OF-DATE] [resvg][0.37.0-1] should be updated to 0.38.0 [0m
+[32m          [UP-TO-DATE] [resvg][0.38.0-1] matches upstream version 0.38.0 [0m
   [1;34m->[;1m checking for update for 'retroshare'[0m
 [32m          [UP-TO-DATE] [retroshare][0.6.7.2-1] matches upstream version 0.6.7.2 [0m
   [1;34m->[;1m checking for update for 'robo3t-bin'[0m
@@ -461,7 +459,7 @@ git-cola: new version found - 4.4.1 => 4.5.0
   [1;34m->[;1m checking for update for 'sysz'[0m
 [32m          [UP-TO-DATE] [sysz][1.4.3-1] matches upstream version 1.4.3 [0m
   [1;34m->[;1m checking for update for 'terser'[0m
-[31m         [OUT-OF-DATE] [terser][5.26.0-1] should be updated to 5.27.0 [0m
+[32m          [UP-TO-DATE] [terser][5.27.0-1] matches upstream version 5.27.0 [0m
   [1;34m->[;1m checking for update for 'themix-export-spotify-git'[0m
   [1;34m->[;1m checking for update for 'themix-full-git'[0m
   [1;34m->[;1m checking for update for 'themix-gui-git'[0m
@@ -483,7 +481,7 @@ git-cola: new version found - 4.4.1 => 4.5.0
   [1;34m->[;1m checking for update for 'toilet-fonts'[0m
 [37m             [UNKNOWN] [toilet-fonts][1.0-2] No release found for ftp://ftp.figlet.org/pub/figlet/fonts/ours.tar.gz [0m
   [1;34m->[;1m checking for update for 'tor-browser-bin'[0m
-[37m             [UNKNOWN] [tor-browser-bin][13.0.8-1] No release found for tor-browser.desktop.in [0m
+[37m             [UNKNOWN] [tor-browser-bin][13.0.9-1] No release found for tor-browser.desktop.in [0m
   [1;34m->[;1m checking for update for 'trizen'[0m
 [32m          [UP-TO-DATE] [trizen][1:1.68-1] matches upstream version 1.68 [0m
   [1;34m->[;1m checking for update for 'tt-bin'[0m
@@ -509,7 +507,7 @@ git-cola: new version found - 4.4.1 => 4.5.0
   [1;34m->[;1m checking for update for 'tuifimanager'[0m
 [37m             [UNKNOWN] [tuifimanager][3.3.5-1] Failed to parse upstream version: invalid version format: .3.3.5 [0m
   [1;34m->[;1m checking for update for 'typora'[0m
-[37m             [UNKNOWN] [typora][1.7.6-2] No release found for https://typora.io/linux/typora_1.7.6_amd64.deb [0m
+[37m             [UNKNOWN] [typora][1.8.5-1] No release found for https://typora.io/linux/typora_1.8.5_amd64.deb [0m
   [1;34m->[;1m checking for update for 'uftrace'[0m
 [32m          [UP-TO-DATE] [uftrace][0.15-1] matches upstream version 0.15 [0m
   [1;34m->[;1m checking for update for 'upd72020x-fw'[0m
@@ -527,7 +525,7 @@ git-cola: new version found - 4.4.1 => 4.5.0
   [1;34m->[;1m checking for update for 'waydroid'[0m
 [37m             [UNKNOWN] [waydroid][1.4.2-1] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
-[37m             [UNKNOWN] [waydroid-image][18.1_20240113-1] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-18.1-20240113-VANILLA-waydroid_x86_64-system.zip [0m
+[37m             [UNKNOWN] [waydroid-image][18.1_20240120-1] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-18.1-20240120-VANILLA-waydroid_x86_64-system.zip [0m
   [1;34m->[;1m checking for update for 'wd719x-firmware'[0m
 [32m          [UP-TO-DATE] [wd719x-firmware][1-7] matches upstream version 1-7 [0m
   [1;34m->[;1m checking for update for 'webtorrent-bittorrent-tracker'[0m
