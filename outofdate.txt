@@ -5,9 +5,9 @@ awmtt
 hibernator
 losslesscut-bin
 qrcp-bin
-ventoy-bin
   [1;34m->[;1m running pkgoutofdate[0m
-mergerfs: new version found - 2.38.0 => 2.38.1
+qbittorrent-vuetorrent-bin: new version found - 2.5.0 => 2.6.0
+libglibutil: new version found - 1.0.75 => 1.0.76
   [1;34m->[;1m sourcing .env[0m
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
@@ -56,11 +56,11 @@ mergerfs: new version found - 2.38.0 => 2.38.1
   [1;34m->[;1m checking for update for 'betterlockscreen'[0m
 [32m          [UP-TO-DATE] [betterlockscreen][4.2.0-1] matches upstream version 4.2.0 [0m
   [1;34m->[;1m checking for update for 'bibata-cursor-theme'[0m
-[32m          [UP-TO-DATE] [bibata-cursor-theme][2.0.5-1] matches upstream version 2.0.5 [0m
+[32m          [UP-TO-DATE] [bibata-cursor-theme][2.0.6-1] matches upstream version 2.0.6 [0m
   [1;34m->[;1m checking for update for 'bibata-cursor-theme-bin'[0m
-[32m          [UP-TO-DATE] [bibata-cursor-theme-bin][2.0.5-1] matches upstream version 2.0.5 [0m
+[32m          [UP-TO-DATE] [bibata-cursor-theme-bin][2.0.6-1] matches upstream version 2.0.6 [0m
   [1;34m->[;1m checking for update for 'boundary-bin'[0m
-[37m             [UNKNOWN] [boundary-bin][0.14.3-1] No release found for boundary-controller.service [0m
+[37m             [UNKNOWN] [boundary-bin][0.15.0-1] No release found for boundary-controller.service [0m
   [1;34m->[;1m checking for update for 'boxes'[0m
 [32m          [UP-TO-DATE] [boxes][2.2.1-1] matches upstream version 2.2.1 [0m
   [1;34m->[;1m checking for update for 'brave'[0m
@@ -79,7 +79,7 @@ mergerfs: new version found - 2.38.0 => 2.38.1
 [32m          [UP-TO-DATE] [cbonsai][1.3.1-3] matches upstream version 1.3.1 [0m
   [1;34m->[;1m checking for update for 'check-broken-packages-pacman-hook-git'[0m
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
-[32m          [UP-TO-DATE] [cloudflared-bin][2024.1.4-1] matches upstream version 2024.1.4 [0m
+[31m         [OUT-OF-DATE] [cloudflared-bin][2024.1.4-1] should be updated to 2024.1.5 [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
 [31m         [OUT-OF-DATE] [code-features][1.85.0-1] should be updated to 1.85.2 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
@@ -105,14 +105,14 @@ mergerfs: new version found - 2.38.0 => 2.38.1
   [1;34m->[;1m checking for update for 'discord-chat-exporter-cli'[0m
 [32m          [UP-TO-DATE] [discord-chat-exporter-cli][2.42.7-1] matches upstream version 2.42.7 [0m
   [1;34m->[;1m checking for update for 'discord-ptb'[0m
-[37m             [UNKNOWN] [discord-ptb][0.0.65-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.65/discord-ptb-0.0.65.tar.gz [0m
+[37m             [UNKNOWN] [discord-ptb][0.0.66-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.66/discord-ptb-0.0.66.tar.gz [0m
   [1;34m->[;1m checking for update for 'docker-systemctl-replacement-git'[0m
   [1;34m->[;1m checking for update for 'downloader-cli'[0m
 [32m          [UP-TO-DATE] [downloader-cli][0.3.4-0] matches upstream version 0.3.4 [0m
   [1;34m->[;1m checking for update for 'dragon-drop'[0m
 [32m          [UP-TO-DATE] [dragon-drop][1.2.0-2] matches upstream version 1.2.0 [0m
   [1;34m->[;1m checking for update for 'drawio-desktop-bin'[0m
-[32m          [UP-TO-DATE] [drawio-desktop-bin][22.1.21-1] matches upstream version 22.1.21 [0m
+[32m          [UP-TO-DATE] [drawio-desktop-bin][23.0.2-1] matches upstream version 23.0.2 [0m
   [1;34m->[;1m checking for update for 'dry-bin'[0m
 [32m          [UP-TO-DATE] [dry-bin][0.11.1-1] matches upstream version 0.11.1 [0m
   [1;34m->[;1m checking for update for 'edex-ui-bin'[0m
@@ -165,7 +165,7 @@ mergerfs: new version found - 2.38.0 => 2.38.1
   [1;34m->[;1m checking for update for 'gocryptfs-ui'[0m
 [37m             [UNKNOWN] [gocryptfs-ui][1.3-1] Failed to obtain GitHub release for bulletmark/gocryptfs-ui from https://api.github.com/repos/bulletmark/gocryptfs-ui/releases/latest: No GitHub project found for bulletmark/gocryptfs-ui on https://api.github.com/repos/bulletmark/gocryptfs-ui/releases/latest [0m
   [1;34m->[;1m checking for update for 'google-chrome'[0m
-[37m             [UNKNOWN] [google-chrome][121.0.6167.85-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_121.0.6167.85-1_amd64.deb [0m
+[37m             [UNKNOWN] [google-chrome][121.0.6167.139-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_121.0.6167.139-1_amd64.deb [0m
   [1;34m->[;1m checking for update for 'guiscrcpy'[0m
 [37m             [UNKNOWN] [guiscrcpy][1:2023.1.1-5] Failed to obtain GitHub release for srevinsaju/guiscrcpy.git from https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest: No GitHub project found for srevinsaju/guiscrcpy.git on https://api.github.com/repos/srevinsaju/guiscrcpy.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'heroku-cli-bin'[0m
@@ -184,7 +184,7 @@ mergerfs: new version found - 2.38.0 => 2.38.1
 [37m             [UNKNOWN] [ibus-autostart][1.3-1] No release found for ibus-autostart: %!w(<nil>) [0m
   [1;34m->[;1m checking for update for 'ibus-avro-git'[0m
   [1;34m->[;1m checking for update for 'imhex'[0m
-[37m             [UNKNOWN] [imhex][1.32.2-1] Failed to obtain GitHub release for WerWolv/ImHex.git from https://api.github.com/repos/WerWolv/ImHex.git/releases/latest: No GitHub project found for WerWolv/ImHex.git on https://api.github.com/repos/WerWolv/ImHex.git/releases/latest [0m
+[32m          [UP-TO-DATE] [imhex][1.32.2-2] matches upstream version 1.32.2 [0m
   [1;34m->[;1m checking for update for 'jiq-bin'[0m
 [32m          [UP-TO-DATE] [jiq-bin][0.7.2-2] matches upstream version 0.7.2 [0m
   [1;34m->[;1m checking for update for 'jmtpfs'[0m
@@ -227,7 +227,7 @@ mergerfs: new version found - 2.38.0 => 2.38.1
   [1;34m->[;1m checking for update for 'mawk'[0m
 [37m             [UNKNOWN] [mawk][1.3.4_20231126-3] No release found for https://invisible-island.net/archives/mawk/mawk-1.3.4-20231126.tgz [0m
   [1;34m->[;1m checking for update for 'mergerfs'[0m
-[32m          [UP-TO-DATE] [mergerfs][2.38.0-1] matches upstream version 2.38.0 [0m
+[32m          [UP-TO-DATE] [mergerfs][2.39.0-1] matches upstream version 2.39.0 [0m
   [1;34m->[;1m checking for update for 'mergerfs-tools-git'[0m
   [1;34m->[;1m checking for update for 'mkclean'[0m
 [37m             [UNKNOWN] [mkclean][0.9.0-1] No release found for https://sourceforge.net/projects/matroska/files/mkclean/mkclean-0.9.0.tar.bz2 [0m
@@ -300,7 +300,7 @@ mergerfs: new version found - 2.38.0 => 2.38.1
   [1;34m->[;1m checking for update for 'pacman-pstatus'[0m
 [32m          [UP-TO-DATE] [pacman-pstatus][0.3.1-1] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'pacman-static'[0m
-[37m             [UNKNOWN] [pacman-static][6.0.2-14] No release found for https://sources.archlinux.org/other/pacman/pacman-6.0.2.tar.xz [0m
+[37m             [UNKNOWN] [pacman-static][6.0.2-15] No release found for https://sources.archlinux.org/other/pacman/pacman-6.0.2.tar.xz [0m
   [1;34m->[;1m checking for update for 'pacman-systemd-inhibit'[0m
 [32m          [UP-TO-DATE] [pacman-systemd-inhibit][1.0-3] matches upstream version 1.0 [0m
   [1;34m->[;1m checking for update for 'parse-torrent'[0m
@@ -345,7 +345,7 @@ mergerfs: new version found - 2.38.0 => 2.38.1
   [1;34m->[;1m checking for update for 'python-gbinder'[0m
 [37m             [UNKNOWN] [python-gbinder][1.1.2-1] Failed to obtain GitHub release for erfanoabdi/gbinder-python.git from https://api.github.com/repos/erfanoabdi/gbinder-python.git/releases/latest: No GitHub project found for erfanoabdi/gbinder-python.git on https://api.github.com/repos/erfanoabdi/gbinder-python.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'python-gtts'[0m
-[32m          [UP-TO-DATE] [python-gtts][2.5.0-1] matches upstream version 2.5.0 [0m
+[32m          [UP-TO-DATE] [python-gtts][2.5.1-1] matches upstream version 2.5.1 [0m
   [1;34m->[;1m checking for update for 'python-gtts-token'[0m
 [32m          [UP-TO-DATE] [python-gtts-token][1.1.4-1] matches upstream version 1.1.4 [0m
   [1;34m->[;1m checking for update for 'python-itunespy'[0m
@@ -391,7 +391,7 @@ mergerfs: new version found - 2.38.0 => 2.38.1
   [1;34m->[;1m checking for update for 'python3-xcpf'[0m
 [37m             [UNKNOWN] [python3-xcpf][2021.12-13] No release found for https://xyne.dev/projects/python3-xcpf/src/python3-xcpf-2021.12.tar.xz [0m
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
-[32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][2.5.0-1] matches upstream version 2.5.0 [0m
+[31m         [OUT-OF-DATE] [qbittorrent-vuetorrent-bin][2.5.0-1] should be updated to 2.6.0 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
 [32m          [UP-TO-DATE] [qrcp][0.11.1-1] matches upstream version 0.11.1 [0m
   [1;34m->[;1m checking for update for 'qwinff'[0m
@@ -507,7 +507,7 @@ mergerfs: new version found - 2.38.0 => 2.38.1
   [1;34m->[;1m checking for update for 'tuifimanager'[0m
 [37m             [UNKNOWN] [tuifimanager][3.3.5-1] Failed to parse upstream version: invalid version format: .3.3.5 [0m
   [1;34m->[;1m checking for update for 'typora'[0m
-[37m             [UNKNOWN] [typora][1.8.5-1] No release found for https://typora.io/linux/typora_1.8.5_amd64.deb [0m
+[37m             [UNKNOWN] [typora][1.8.9-1] No release found for https://typora.io/linux/typora_1.8.9_amd64.deb [0m
   [1;34m->[;1m checking for update for 'uftrace'[0m
 [32m          [UP-TO-DATE] [uftrace][0.15-1] matches upstream version 0.15 [0m
   [1;34m->[;1m checking for update for 'upd72020x-fw'[0m
