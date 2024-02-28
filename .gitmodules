@@ -1231,3 +1231,7 @@
 	path = repos/ventoy-bin
 	url = ssh://aur@aur.archlinux.org/ventoy-bin.git
 	branch = master
+[submodule "repos/ccache-ext"]
+	path = repos/ccache-ext
+	url = ssh://aur@aur.archlinux.org/ccache-ext.git
+	branch = master
