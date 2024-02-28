@@ -1239,3 +1239,7 @@
 	path = repos/tgpt-bin
 	url = ssh://aur@aur.archlinux.org/tgpt-bin.git
 	branch = master
+[submodule "repos/teams"]
+	path = repos/teams
+	url = ssh://aur@aur.archlinux.org/teams.git
+	branch = master
