@@ -1,0 +1,17 @@
+pkgbase = adbfs-rootless-git
+	pkgdesc = fuse filesystem over adb tool for android devices, no device root required
+	pkgver = r101.c1a2c9b
+	pkgrel = 1
+	url = https://github.com/spion/adbfs-rootless
+	arch = i686
+	arch = x86_64
+	license = BSD
+	makedepends = git
+	depends = fuse
+	depends = android-tools
+	conflicts = adbfs-git
+	source = git+https://github.com/spion/adbfs-rootless
+	sha1sums = SKIP
+
+pkgname = adbfs-rootless-git
+

@@ -1,0 +1,48 @@
+--- Makefile.orig	2017-10-24 13:38:53.179171635 +0200
++++ Makefile	2017-10-24 13:40:58.242422264 +0200
+@@ -1,20 +1,21 @@
+-prefix=/usr/local
++prefix=/usr
+ bindir=$(prefix)/bin
+ datarootdir=$(prefix)/share
+ 
+ all:
+-	gcc pacman.c     -o pacman     -DDATAROOTDIR=\"$(datarootdir)\" $(CPPFLAGS) $(CFLAGS) $(LDFLAGS) -lncurses
+-	gcc pacmanedit.c -o pacmanedit -DDATAROOTDIR=\"$(datarootdir)\" $(CPPFLAGS) $(CFLAGS) $(LDFLAGS) -lncurses
++	gcc pacman.c     -o pacman4console     -DDATAROOTDIR=\"$(datarootdir)\" $(CPPFLAGS) $(CFLAGS) $(LDFLAGS) -lncurses -ltinfo
++	gcc pacmanedit.c -o pacman4consoleedit -DDATAROOTDIR=\"$(datarootdir)\" $(CPPFLAGS) $(CFLAGS) $(LDFLAGS) -lncurses -ltinfo
+ 
+ install:    all
+ 	mkdir -p $(DESTDIR)$(bindir)
+-	mkdir -p $(DESTDIR)$(datarootdir)/pacman
+-	cp -fR Levels/ $(DESTDIR)$(datarootdir)/pacman/
+-	-chown root:games $(DESTDIR)$(bindir)/pacman
+-	-chown root:games $(DESTDIR)$(datarootdir)/pacman -R
+-	chmod 750 $(DESTDIR)$(bindir)/pacman
+-	chmod 750 $(DESTDIR)$(bindir)/pacmanedit
+-	chmod 750 $(DESTDIR)$(datarootdir)/pacman/ -R
++	cp -f pacman4console pacman4consoleedit $(DESTDIR)$(bindir)/
++	mkdir -p $(DESTDIR)$(datarootdir)/pacman4console
++	cp -fR Levels/ $(DESTDIR)$(datarootdir)/pacman4console/
++	-chown root:games $(DESTDIR)$(bindir)/pacman4console
++	-chown root:games $(DESTDIR)$(datarootdir)/pacman4console -R
++	chmod 755 $(DESTDIR)$(bindir)/pacman4console
++	chmod 755 $(DESTDIR)$(bindir)/pacman4consoleedit
++	chmod 755 $(DESTDIR)$(datarootdir)/pacman4console -R
+ 
+ uninstall:
+ 	rm -f $(DESTDIR)$(bindir)/pacman
+
+--- pacman.h	2017-10-24 12:57:25.090817016 +0200
++++ pacman.h	2017-10-24 13:00:11.154040534 +0200
+@@ -1,7 +1,7 @@
+ // Some variables that you may want to change
+ 
+ #ifndef DATAROOTDIR
+-#    define DATAROOTDIR "/usr/local/share"
++#    define DATAROOTDIR "/usr/share/pacman4console"
+ #endif
+-#define LEVELS_FILE DATAROOTDIR "/pacman/Levels/level__.dat"
++#define LEVELS_FILE DATAROOTDIR "/pacman4console/Levels/level__.dat"
+ char LevelFile[] = LEVELS_FILE;     //Locations of default levels
+

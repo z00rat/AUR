@@ -1,0 +1,18 @@
+pkgbase = mons
+	pkgdesc = POSIX Shell script to quickly manage 2-monitors display.
+	pkgver = 0.8.2
+	pkgrel = 1
+	url = https://github.com/Ventto/mons.git
+	arch = any
+	license = MIT
+	makedepends = help2man
+	depends = xorg-xrandr
+	provides = mons
+	conflicts = mons
+	source = https://github.com/Ventto/mons/archive/v0.8.2.tar.gz
+	source = https://github.com/Ventto/libshlist/archive/v1.1.tar.gz
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = mons
+

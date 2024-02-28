@@ -1,16 +1,15 @@
-  [1;34m->[;1m number of packags that are 295 tracked[0m
-  [1;34m->[;1m number of packages that are 123 installed[0m
+  [1;34m->[;1m number of packags that are 313 tracked[0m
+  [1;34m->[;1m number of packages that are 134 installed[0m
   [1;34m->[;1m packages that are not tracked but installed in the system...[0m
-act-bin
-charm-pop-bin
-downgrade
-invoice-bin
+cpu-x
+libratbag-git
+lssecret-git
 lua51-inspect
-mods-bin
+mandb-ondemand
 nordlayer
 ookla-speedtest-bin
-slack-desktop
-tgpt-bin
+picom-git
+rofi-git
   [1;34m->[;1m packages that are tracked but not installed in the system...[0m
 activitywatch-bin
 advcpmv
@@ -56,6 +55,7 @@ fbrokendesktop
 ffpb
 firefox-esr-bin
 flamegraph
+fontpreview
 fsearch-git
 fswatch
 gallery-dl
@@ -67,6 +67,8 @@ guiscrcpy
 heroku-cli-bin
 hollywood
 hw-probe
+ibus-autostart
+ibus-avro-git
 imhex
 jiq-bin
 jmtpfs
@@ -99,7 +101,6 @@ nodejs-mapscii
 nodejs-nodemon
 nodejs-npm2arch
 nodejs-ungit
-noisetorch
 noisetorch-bin
 nordic-theme
 notion-app
@@ -107,14 +108,17 @@ obfs4proxy
 obs-plugin-input-overlay-bin
 onedrive-abraunegg
 onioncircuits
+openbangla-keyboard
 opencomic-bin
 opensnitch-git
 p7zip-gui
 parse-torrent
+passivedns-git
 patat-bin
 pikaur
 play-with-mpv-git
 plymouth-theme-arch10
+popcorntime-bin
 python-auditok
 python-fangfrisch
 python-ffsubsync
@@ -126,6 +130,7 @@ python-itunespy
 python-pydes
 python-pynput
 python-pysubs2
+python-pytube
 python-simber
 python-srt
 python-torrequest
@@ -147,6 +152,7 @@ sherlock-git
 siji-git
 sirikali
 speedometer
+speedread-git
 spicetify-cli
 spotify
 stacer
@@ -155,8 +161,8 @@ subuser
 surf
 surf-git
 svg-term-cli
+systemd-boot-pacman-hook
 systemd-numlockontty
-terser
 themix-export-spotify-git
 themix-full-git
 themix-gui-git
@@ -190,7 +196,6 @@ waydroid-image
 webtorrent-bittorrent-tracker
 webtty
 x11docker
-xcursor-human
 xinput-gui
 xmind
 ytmdl-git

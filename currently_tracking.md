@@ -1,6 +1,7 @@
 # aur link of packages that i am tracking...
 ---
  - https://aur.archlinux.org/packages/activitywatch-bin
+ - https://aur.archlinux.org/packages/adbfs-rootless-git
  - https://aur.archlinux.org/packages/advcpmv
  - https://aur.archlinux.org/packages/aic94xx-firmware
  - https://aur.archlinux.org/packages/alacritty-themes
@@ -28,6 +29,7 @@
  - https://aur.archlinux.org/packages/betterlockscreen
  - https://aur.archlinux.org/packages/bibata-cursor-theme
  - https://aur.archlinux.org/packages/bibata-cursor-theme-bin
+ - https://aur.archlinux.org/packages/boot-to-windows
  - https://aur.archlinux.org/packages/boundary-bin
  - https://aur.archlinux.org/packages/boxes
  - https://aur.archlinux.org/packages/brave
@@ -37,6 +39,7 @@
  - https://aur.archlinux.org/packages/burpsuite
  - https://aur.archlinux.org/packages/cava
  - https://aur.archlinux.org/packages/cbonsai
+ - https://aur.archlinux.org/packages/ccache-ext
  - https://aur.archlinux.org/packages/check-broken-packages-pacman-hook-git
  - https://aur.archlinux.org/packages/cloudflared-bin
  - https://aur.archlinux.org/packages/code-features
@@ -53,6 +56,7 @@
  - https://aur.archlinux.org/packages/discord-chat-exporter-cli
  - https://aur.archlinux.org/packages/discord-ptb
  - https://aur.archlinux.org/packages/docker-systemctl-replacement-git
+ - https://aur.archlinux.org/packages/downgrade
  - https://aur.archlinux.org/packages/downloader-cli
  - https://aur.archlinux.org/packages/dragon-drop
  - https://aur.archlinux.org/packages/drawio-desktop-bin
@@ -60,6 +64,7 @@
  - https://aur.archlinux.org/packages/edex-ui-bin
  - https://aur.archlinux.org/packages/electorrent-bin
  - https://aur.archlinux.org/packages/electronmail-bin
+ - https://aur.archlinux.org/packages/envycontrol
  - https://aur.archlinux.org/packages/ezshare
  - https://aur.archlinux.org/packages/fakepkg
  - https://aur.archlinux.org/packages/faq-bin
@@ -83,6 +88,8 @@
  - https://aur.archlinux.org/packages/gitstatus
  - https://aur.archlinux.org/packages/gocryptfs-ui
  - https://aur.archlinux.org/packages/google-chrome
+ - https://aur.archlinux.org/packages/grub-hook
+ - https://aur.archlinux.org/packages/grub-reboot-poweroff
  - https://aur.archlinux.org/packages/guiscrcpy
  - https://aur.archlinux.org/packages/heroku-cli-bin
  - https://aur.archlinux.org/packages/hibernator
@@ -122,6 +129,7 @@
  - https://aur.archlinux.org/packages/mkinitcpio-firmware
  - https://aur.archlinux.org/packages/mkinitcpio-numlock
  - https://aur.archlinux.org/packages/mkp224o
+ - https://aur.archlinux.org/packages/mons
  - https://aur.archlinux.org/packages/motrix-bin
  - https://aur.archlinux.org/packages/mpck
  - https://aur.archlinux.org/packages/msg2
@@ -149,18 +157,22 @@
  - https://aur.archlinux.org/packages/opensnitch-git
  - https://aur.archlinux.org/packages/p7zip-gui
  - https://aur.archlinux.org/packages/pacdiff-pacman-hook-git
+ - https://aur.archlinux.org/packages/paclast
+ - https://aur.archlinux.org/packages/pacman-boot-backup-hook
  - https://aur.archlinux.org/packages/pacman-cleanup-hook
  - https://aur.archlinux.org/packages/pacman-hook-list-systemd-units
  - https://aur.archlinux.org/packages/pacman-log-orphans-hook
  - https://aur.archlinux.org/packages/pacman-pstatus
  - https://aur.archlinux.org/packages/pacman-static
  - https://aur.archlinux.org/packages/pacman-systemd-inhibit
+ - https://aur.archlinux.org/packages/pacman4console
  - https://aur.archlinux.org/packages/parse-torrent
  - https://aur.archlinux.org/packages/paru-bin
  - https://aur.archlinux.org/packages/passivedns-git
  - https://aur.archlinux.org/packages/patat-bin
  - https://aur.archlinux.org/packages/pfetch
  - https://aur.archlinux.org/packages/pikaur
+ - https://aur.archlinux.org/packages/piper-git
  - https://aur.archlinux.org/packages/pipes.sh
  - https://aur.archlinux.org/packages/pkgbrowser
  - https://aur.archlinux.org/packages/pkgoutofdate-git
@@ -203,6 +215,7 @@
  - https://aur.archlinux.org/packages/python3-xcpf
  - https://aur.archlinux.org/packages/qbittorrent-vuetorrent-bin
  - https://aur.archlinux.org/packages/qrcp
+ - https://aur.archlinux.org/packages/qrcp-bin
  - https://aur.archlinux.org/packages/qwinff
  - https://aur.archlinux.org/packages/rate-mirrors-bin
  - https://aur.archlinux.org/packages/raven-reader
@@ -238,7 +251,9 @@
  - https://aur.archlinux.org/packages/systemd-cleanup-pacman-hook
  - https://aur.archlinux.org/packages/systemd-numlockontty
  - https://aur.archlinux.org/packages/sysz
+ - https://aur.archlinux.org/packages/teams
  - https://aur.archlinux.org/packages/terser
+ - https://aur.archlinux.org/packages/tgpt-bin
  - https://aur.archlinux.org/packages/themix-export-spotify-git
  - https://aur.archlinux.org/packages/themix-full-git
  - https://aur.archlinux.org/packages/themix-gui-git
@@ -269,11 +284,14 @@
  - https://aur.archlinux.org/packages/ttf-vista-fonts
  - https://aur.archlinux.org/packages/tty-clock
  - https://aur.archlinux.org/packages/tuifimanager
+ - https://aur.archlinux.org/packages/tutanota-desktop-bin
  - https://aur.archlinux.org/packages/typora
  - https://aur.archlinux.org/packages/uftrace
  - https://aur.archlinux.org/packages/upd72020x-fw
+ - https://aur.archlinux.org/packages/update-grub
  - https://aur.archlinux.org/packages/usbaudio-git
  - https://aur.archlinux.org/packages/vanitygen-git
+ - https://aur.archlinux.org/packages/ventoy-bin
  - https://aur.archlinux.org/packages/vimix-cursors
  - https://aur.archlinux.org/packages/volctl
  - https://aur.archlinux.org/packages/vrms-arch
@@ -297,5 +315,5 @@
  - https://aur.archlinux.org/packages/zsh-theme-powerlevel10k-git
 ---
 
-number of packages = 295.
+number of packages = 313.
 
