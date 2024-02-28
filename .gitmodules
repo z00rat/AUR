@@ -1187,3 +1187,7 @@
 	path = repos/boot-to-windows
 	url = ssh://aur@aur.archlinux.org/boot-to-windows.git
 	branch = master
+[submodule "repos/adbfs-rootless-git"]
+	path = repos/adbfs-rootless-git
+	url = ssh://aur@aur.archlinux.org/adbfs-rootless-git.git
+	branch = master
