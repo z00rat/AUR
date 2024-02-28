@@ -1235,3 +1235,7 @@
 	path = repos/ccache-ext
 	url = ssh://aur@aur.archlinux.org/ccache-ext.git
 	branch = master
+[submodule "repos/tgpt-bin"]
+	path = repos/tgpt-bin
+	url = ssh://aur@aur.archlinux.org/tgpt-bin.git
+	branch = master
