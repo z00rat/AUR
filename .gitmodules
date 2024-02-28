@@ -1243,3 +1243,7 @@
 	path = repos/teams
 	url = ssh://aur@aur.archlinux.org/teams.git
 	branch = master
+[submodule "repos/paclast"]
+	path = repos/paclast
+	url = ssh://aur@aur.archlinux.org/paclast.git
+	branch = master
