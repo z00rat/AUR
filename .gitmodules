@@ -1207,3 +1207,7 @@
 	path = repos/grub-reboot-poweroff
 	url = ssh://aur@aur.archlinux.org/grub-reboot-poweroff.git
 	branch = master
+[submodule "repos/mons"]
+	path = repos/mons
+	url = ssh://aur@aur.archlinux.org/mons.git
+	branch = master
