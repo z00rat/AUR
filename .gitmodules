@@ -1227,3 +1227,7 @@
 	path = repos/update-grub
 	url = ssh://aur@aur.archlinux.org/update-grub.git
 	branch = master
+[submodule "repos/ventoy-bin"]
+	path = repos/ventoy-bin
+	url = ssh://aur@aur.archlinux.org/ventoy-bin.git
+	branch = master
