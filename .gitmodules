@@ -1211,3 +1211,7 @@
 	path = repos/mons
 	url = ssh://aur@aur.archlinux.org/mons.git
 	branch = master
+[submodule "repos/pacman-boot-backup-hook"]
+	path = repos/pacman-boot-backup-hook
+	url = ssh://aur@aur.archlinux.org/pacman-boot-backup-hook.git
+	branch = master
