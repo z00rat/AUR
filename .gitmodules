@@ -1251,3 +1251,7 @@
 	path = repos/tutanota-desktop-bin
 	url = ssh://aur@aur.archlinux.org/tutanota-desktop-bin.git
 	branch = master
+[submodule "repos/piper-git"]
+	path = repos/piper-git
+	url = ssh://aur@aur.archlinux.org/piper-git.git
+	branch = master
