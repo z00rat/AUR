@@ -1219,3 +1219,7 @@
 	path = repos/pacman4console
 	url = ssh://aur@aur.archlinux.org/pacman4console.git
 	branch = master
+[submodule "repos/qrcp-bin"]
+	path = repos/qrcp-bin
+	url = ssh://aur@aur.archlinux.org/qrcp-bin.git
+	branch = master
