@@ -1247,3 +1247,7 @@
 	path = repos/paclast
 	url = ssh://aur@aur.archlinux.org/paclast.git
 	branch = master
+[submodule "repos/tutanota-desktop-bin"]
+	path = repos/tutanota-desktop-bin
+	url = ssh://aur@aur.archlinux.org/tutanota-desktop-bin.git
+	branch = master
