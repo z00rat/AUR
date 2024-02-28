@@ -1223,3 +1223,7 @@
 	path = repos/qrcp-bin
 	url = ssh://aur@aur.archlinux.org/qrcp-bin.git
 	branch = master
+[submodule "repos/update-grub"]
+	path = repos/update-grub
+	url = ssh://aur@aur.archlinux.org/update-grub.git
+	branch = master
