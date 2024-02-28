@@ -1199,3 +1199,7 @@
 	path = repos/envycontrol
 	url = ssh://aur@aur.archlinux.org/envycontrol.git
 	branch = master
+[submodule "repos/grub-hook"]
+	path = repos/grub-hook
+	url = ssh://aur@aur.archlinux.org/grub-hook.git
+	branch = master
