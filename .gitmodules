@@ -1195,3 +1195,7 @@
 	path = repos/downgrade
 	url = ssh://aur@aur.archlinux.org/downgrade.git
 	branch = master
+[submodule "repos/envycontrol"]
+	path = repos/envycontrol
+	url = ssh://aur@aur.archlinux.org/envycontrol.git
+	branch = master
