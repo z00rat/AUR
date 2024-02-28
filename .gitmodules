@@ -1191,3 +1191,7 @@
 	path = repos/adbfs-rootless-git
 	url = ssh://aur@aur.archlinux.org/adbfs-rootless-git.git
 	branch = master
+[submodule "repos/downgrade"]
+	path = repos/downgrade
+	url = ssh://aur@aur.archlinux.org/downgrade.git
+	branch = master
