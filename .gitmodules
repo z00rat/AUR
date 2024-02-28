@@ -1203,3 +1203,7 @@
 	path = repos/grub-hook
 	url = ssh://aur@aur.archlinux.org/grub-hook.git
 	branch = master
+[submodule "repos/grub-reboot-poweroff"]
+	path = repos/grub-reboot-poweroff
+	url = ssh://aur@aur.archlinux.org/grub-reboot-poweroff.git
+	branch = master
