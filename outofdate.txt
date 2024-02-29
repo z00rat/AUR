@@ -2,14 +2,17 @@
 
   [1;34m->[;1m listing already flaged packages[0m
 awmtt
+fsearch-git
 hibernator
 localsend-bin
+python-ffmpy
 qrcp-bin
+session-desktop-bin
+zotify-git
   [1;34m->[;1m running pkgoutofdate[0m
-qbittorrent-vuetorrent-bin: new version found - 2.7.0 => 2.7.1
+session-desktop-bin: new version found - 1.11.5 => 1.12.0
 localsend-bin: new version found - 1.13.1 => 1.14.0
 libgbinder: new version found - 1.1.36 => 1.1.37
-burpsuite: new version found - 2024.1.1.2 => 2024.1.1.3
 aseprite: new version found - 1.3.4 => 1.3.5
   [1;34m->[;1m sourcing .env[0m
   [1;34m->[;1m running aur-out-of-date[0m
@@ -78,7 +81,7 @@ aseprite: new version found - 1.3.4 => 1.3.5
   [1;34m->[;1m checking for update for 'bubblejail'[0m
 [32m          [UP-TO-DATE] [bubblejail][0.8.2-1] matches upstream version 0.8.2 [0m
   [1;34m->[;1m checking for update for 'burpsuite'[0m
-[37m             [UNKNOWN] [burpsuite][2024.1.1.2-1] No release found for burpsuite-2024.1.1.2.jar::https://portswigger.net/burp/releases/download?product=community&version=2024.1.1.2&type=Jar [0m
+[37m             [UNKNOWN] [burpsuite][2024.1.1.3-1] No release found for burpsuite-2024.1.1.3.jar::https://portswigger.net/burp/releases/download?product=community&version=2024.1.1.3&type=Jar [0m
   [1;34m->[;1m checking for update for 'cava'[0m
 [32m          [UP-TO-DATE] [cava][0.10.1-1] matches upstream version 0.10.1 [0m
   [1;34m->[;1m checking for update for 'cbonsai'[0m
@@ -89,11 +92,11 @@ aseprite: new version found - 1.3.4 => 1.3.5
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
 [32m          [UP-TO-DATE] [cloudflared-bin][2024.2.1-1] matches upstream version 2024.2.1 [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
-[31m         [OUT-OF-DATE] [code-features][1.85.0-1] should be updated to 1.86.2 [0m
+[31m         [OUT-OF-DATE] [code-features][1.85.0-1] should be updated to 1.87.0 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
 [37m             [UNKNOWN] [code-marketplace][1.85.0-1] No release found for code-marketplace.hook [0m
   [1;34m->[;1m checking for update for 'code-server'[0m
-[31m         [OUT-OF-DATE] [code-server][4.21.0-1] should be updated to 4.21.1 [0m
+[31m         [OUT-OF-DATE] [code-server][4.21.0-1] should be updated to 4.21.2 [0m
   [1;34m->[;1m checking for update for 'cointop'[0m
 [32m          [UP-TO-DATE] [cointop][1.6.10-1] matches upstream version 1.6.10 [0m
   [1;34m->[;1m checking for update for 'cointop-bin'[0m
@@ -124,7 +127,7 @@ aseprite: new version found - 1.3.4 => 1.3.5
   [1;34m->[;1m checking for update for 'drawio-desktop-bin'[0m
 [32m          [UP-TO-DATE] [drawio-desktop-bin][23.1.5-1] matches upstream version 23.1.5 [0m
   [1;34m->[;1m checking for update for 'dry-bin'[0m
-[32m          [UP-TO-DATE] [dry-bin][0.11.1-1] matches upstream version 0.11.1 [0m
+[31m         [OUT-OF-DATE] [dry-bin][0.11.1-1] should be updated to 0.11.2 [0m
   [1;34m->[;1m checking for update for 'edex-ui-bin'[0m
 [32m          [UP-TO-DATE] [edex-ui-bin][2.2.8-1] matches upstream version 2.2.8 [0m
   [1;34m->[;1m checking for update for 'electorrent-bin'[0m
@@ -268,7 +271,7 @@ aseprite: new version found - 1.3.4 => 1.3.5
   [1;34m->[;1m checking for update for 'neo-matrix'[0m
 [32m          [UP-TO-DATE] [neo-matrix][0.6.1-2] matches upstream version 0.6.1 [0m
   [1;34m->[;1m checking for update for 'nodejs-autocannon'[0m
-[31m         [OUT-OF-DATE] [nodejs-autocannon][7.14.0-1] should be updated to 7.15.0 [0m
+[32m          [UP-TO-DATE] [nodejs-autocannon][7.15.0-1] matches upstream version 7.15.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-clinic'[0m
 [32m          [UP-TO-DATE] [nodejs-clinic][13.0.0-3] matches upstream version 13.0.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-csso'[0m
@@ -416,7 +419,7 @@ aseprite: new version found - 1.3.4 => 1.3.5
   [1;34m->[;1m checking for update for 'python3-xcpf'[0m
 [37m             [UNKNOWN] [python3-xcpf][2021.12-13] No release found for https://xyne.dev/projects/python3-xcpf/src/python3-xcpf-2021.12.tar.xz [0m
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
-[31m         [OUT-OF-DATE] [qbittorrent-vuetorrent-bin][2.7.0-1] should be updated to 2.7.1 [0m
+[32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][2.7.1-1] matches upstream version 2.7.1 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
 [32m          [UP-TO-DATE] [qrcp][0.11.2-1] matches upstream version 0.11.2 [0m
   [1;34m->[;1m checking for update for 'qrcp-bin'[0m
@@ -450,7 +453,7 @@ aseprite: new version found - 1.3.4 => 1.3.5
 [37m             [UNKNOWN] [rxfetch][1.0-2] Failed to obtain GitHub release for mangeshrex/rxfetch from https://api.github.com/repos/mangeshrex/rxfetch/releases/latest: No GitHub project found for mangeshrex/rxfetch on https://api.github.com/repos/mangeshrex/rxfetch/releases/latest [0m
   [1;34m->[;1m checking for update for 'selectdefaultapplication-git'[0m
   [1;34m->[;1m checking for update for 'session-desktop-bin'[0m
-[32m          [UP-TO-DATE] [session-desktop-bin][1.11.5-1] matches upstream version 1.11.5 [0m
+[31m         [OUT-OF-DATE] [session-desktop-bin][1.11.5-1] should be updated to 1.12.0 [0m
   [1;34m->[;1m checking for update for 'sherlock-git'[0m
   [1;34m->[;1m checking for update for 'siji-git'[0m
   [1;34m->[;1m checking for update for 'simple-mtpfs'[0m
@@ -461,7 +464,7 @@ aseprite: new version found - 1.3.4 => 1.3.5
 [37m             [UNKNOWN] [speedometer][2.9-2] Failed to obtain GitHub release for wardi/speedometer from https://api.github.com/repos/wardi/speedometer/releases/latest: No GitHub project found for wardi/speedometer on https://api.github.com/repos/wardi/speedometer/releases/latest [0m
   [1;34m->[;1m checking for update for 'speedread-git'[0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
-[32m          [UP-TO-DATE] [spicetify-cli][2.33.0-1] matches upstream version 2.33.0 [0m
+[32m          [UP-TO-DATE] [spicetify-cli][2.33.1-1] matches upstream version 2.33.1 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
 [37m             [UNKNOWN] [spotify][1:1.2.31.1205-2] No release found for spotify-1.2.31.1205-g4d59ad7c-x86_64.deb::http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.2.31.1205.g4d59ad7c_amd64.deb [0m
   [1;34m->[;1m checking for update for 'stacer'[0m
@@ -488,7 +491,7 @@ aseprite: new version found - 1.3.4 => 1.3.5
   [1;34m->[;1m checking for update for 'teams'[0m
 [37m             [UNKNOWN] [teams][1.5.00.23861-1] No release found for https://web.archive.org/web/20221130115842if_/https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.5.00.23861_amd64.deb [0m
   [1;34m->[;1m checking for update for 'terser'[0m
-[31m         [OUT-OF-DATE] [terser][5.27.1-1] should be updated to 5.28.1 [0m
+[32m          [UP-TO-DATE] [terser][5.28.1-1] matches upstream version 5.28.1 [0m
   [1;34m->[;1m checking for update for 'tgpt-bin'[0m
 [32m          [UP-TO-DATE] [tgpt-bin][2.7.1-1] matches upstream version 2.7.1 [0m
   [1;34m->[;1m checking for update for 'themix-export-spotify-git'[0m
@@ -538,7 +541,7 @@ aseprite: new version found - 1.3.4 => 1.3.5
   [1;34m->[;1m checking for update for 'tuifimanager'[0m
 [37m             [UNKNOWN] [tuifimanager][3.3.5-1] Failed to parse upstream version: invalid version format: .3.3.5 [0m
   [1;34m->[;1m checking for update for 'tutanota-desktop-bin'[0m
-[37m             [UNKNOWN] [tutanota-desktop-bin][218.240219.0-1] No release found for tutanota-desktop-218.240219.0.AppImage::https://app.tuta.com/desktop/tutanota-desktop-linux.AppImage [0m
+[37m             [UNKNOWN] [tutanota-desktop-bin][218.240227.0-1] No release found for tutanota-desktop-218.240227.0.AppImage::https://app.tuta.com/desktop/tutanota-desktop-linux.AppImage [0m
   [1;34m->[;1m checking for update for 'typora'[0m
 [37m             [UNKNOWN] [typora][1.8.10-1] No release found for https://typora.io/linux/typora_1.8.10_amd64.deb [0m
   [1;34m->[;1m checking for update for 'uftrace'[0m

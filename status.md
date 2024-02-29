@@ -1,5 +1,5 @@
   [1;34m->[;1m number of packags that are 313 tracked[0m
-  [1;34m->[;1m number of packages that are 134 installed[0m
+  [1;34m->[;1m number of packages that are 164 installed[0m
   [1;34m->[;1m packages that are not tracked but installed in the system...[0m
 cpu-x
 libratbag-git
@@ -9,29 +9,31 @@ mandb-ondemand
 nordlayer
 ookla-speedtest-bin
 picom-git
+python-ffmpy
+python-librespot
+python-music-tag
+python-pulsectl
+python-pwinput
+python-pyogg
 rofi-git
+zotify-git
   [1;34m->[;1m packages that are tracked but not installed in the system...[0m
 activitywatch-bin
 advcpmv
 ansifilter
 antibody
-apg
 archiso-git
 aseprite
-aur-auto-vote-git
 aurvote-utils
 bats
 betterdiscord-installer
-betterdiscord-installer-bin
 betterdiscordctl-git
 bibata-cursor-theme
-bibata-cursor-theme-bin
 boundary-bin
 brave
 broken-link-checker
 bubblejail
 burpsuite
-cava
 cloudflared-bin
 code-features
 code-marketplace
@@ -41,36 +43,27 @@ cointop-bin
 csslint
 ctjs-bin
 ddd
-diceware
-discord-chat-exporter-cli
 docker-systemctl-replacement-git
 downloader-cli
 drawio-desktop-bin
-dry-bin
 electorrent-bin
 electronmail-bin
-fakepkg
 faq-bin
 fbrokendesktop
 ffpb
 firefox-esr-bin
 flamegraph
 fontpreview
-fsearch-git
-fswatch
-gallery-dl
 gconf-cleaner
 gconf-gtk2
 gitify-bin
 gitstatus
 guiscrcpy
 heroku-cli-bin
-hollywood
 hw-probe
 ibus-autostart
 ibus-avro-git
 imhex
-jiq-bin
 jmtpfs
 keeweb-desktop-bin
 lib32-jack
@@ -82,8 +75,6 @@ libva-intel-driver-hybrid
 light-git
 localepurge
 lscolors-git
-lsdesktopf
-lua-format
 lynis-git
 maldet
 marktext-bin
@@ -101,15 +92,13 @@ nodejs-mapscii
 nodejs-nodemon
 nodejs-npm2arch
 nodejs-ungit
-noisetorch-bin
+noisetorch
 nordic-theme
 notion-app
 obfs4proxy
 obs-plugin-input-overlay-bin
 onedrive-abraunegg
-onioncircuits
 openbangla-keyboard
-opencomic-bin
 opensnitch-git
 p7zip-gui
 parse-torrent
@@ -118,7 +107,6 @@ patat-bin
 pikaur
 play-with-mpv-git
 plymouth-theme-arch10
-popcorntime-bin
 python-auditok
 python-fangfrisch
 python-ffsubsync
@@ -151,14 +139,11 @@ runjs-bin
 sherlock-git
 siji-git
 sirikali
-speedometer
 speedread-git
 spicetify-cli
 spotify
 stacer
-stretchly-bin
 subuser
-surf
 surf-git
 svg-term-cli
 systemd-boot-pacman-hook
@@ -188,7 +173,6 @@ uftrace
 usbaudio-git
 vanitygen-git
 vimix-cursors
-volctl
 vrms-arch
 vscodium-bin
 waydroid
