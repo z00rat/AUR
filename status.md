@@ -1,12 +1,14 @@
   [1;34m->[;1m number of packags that are 313 tracked[0m
-  [1;34m->[;1m number of packages that are 164 installed[0m
+  [1;34m->[;1m number of packages that are 167 installed[0m
   [1;34m->[;1m packages that are not tracked but installed in the system...[0m
+cf-tool
 cpu-x
+leetgo-bin
 libratbag-git
 lssecret-git
 lua51-inspect
 mandb-ondemand
-nordlayer
+nordvpn-bin
 ookla-speedtest-bin
 picom-git
 python-ffmpy
@@ -97,7 +99,6 @@ nordic-theme
 notion-app
 obfs4proxy
 obs-plugin-input-overlay-bin
-onedrive-abraunegg
 openbangla-keyboard
 opensnitch-git
 p7zip-gui

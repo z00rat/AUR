@@ -1,8 +1,5 @@
 awmtt
 fsearch-git
 hibernator
-localsend-bin
 python-ffmpy
 qrcp-bin
-session-desktop-bin
-zotify-git
