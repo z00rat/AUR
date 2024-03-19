@@ -1259,3 +1259,7 @@
 	path = repos/invoice-bin
 	url = ssh://aur@aur.archlinux.org/invoice-bin.git
 	branch = master
+[submodule "repos/zotify-git"]
+	path = repos/zotify-git
+	url = ssh://aur@aur.archlinux.org/zotify-git.git
+	branch = master
