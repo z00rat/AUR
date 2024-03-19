@@ -1,15 +1,12 @@
-  [1;34m->[;1m number of packags that are 313 tracked[0m
+  [1;34m->[;1m number of packags that are 318 tracked[0m
   [1;34m->[;1m number of packages that are 167 installed[0m
   [1;34m->[;1m packages that are not tracked but installed in the system...[0m
 cf-tool
-cpu-x
 leetgo-bin
 libratbag-git
 lssecret-git
 lua51-inspect
 mandb-ondemand
-nordvpn-bin
-ookla-speedtest-bin
 picom-git
 python-ffmpy
 python-librespot
@@ -18,7 +15,6 @@ python-pulsectl
 python-pwinput
 python-pyogg
 rofi-git
-zotify-git
   [1;34m->[;1m packages that are tracked but not installed in the system...[0m
 activitywatch-bin
 advcpmv
@@ -106,6 +102,7 @@ parse-torrent
 passivedns-git
 patat-bin
 pikaur
+pkgbrowser
 play-with-mpv-git
 plymouth-theme-arch10
 python-auditok

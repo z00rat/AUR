@@ -47,6 +47,7 @@
  - https://aur.archlinux.org/packages/code-server
  - https://aur.archlinux.org/packages/cointop
  - https://aur.archlinux.org/packages/cointop-bin
+ - https://aur.archlinux.org/packages/cpu-x
  - https://aur.archlinux.org/packages/csslint
  - https://aur.archlinux.org/packages/ctjs-bin
  - https://aur.archlinux.org/packages/dasel-bin
@@ -100,6 +101,7 @@
  - https://aur.archlinux.org/packages/ibus-autostart
  - https://aur.archlinux.org/packages/ibus-avro-git
  - https://aur.archlinux.org/packages/imhex
+ - https://aur.archlinux.org/packages/invoice-bin
  - https://aur.archlinux.org/packages/jiq-bin
  - https://aur.archlinux.org/packages/jmtpfs
  - https://aur.archlinux.org/packages/keeweb-desktop-bin
@@ -147,11 +149,13 @@
  - https://aur.archlinux.org/packages/noisetorch
  - https://aur.archlinux.org/packages/noisetorch-bin
  - https://aur.archlinux.org/packages/nordic-theme
+ - https://aur.archlinux.org/packages/nordvpn-bin
  - https://aur.archlinux.org/packages/notion-app
  - https://aur.archlinux.org/packages/obfs4proxy
  - https://aur.archlinux.org/packages/obs-plugin-input-overlay-bin
  - https://aur.archlinux.org/packages/onedrive-abraunegg
  - https://aur.archlinux.org/packages/onioncircuits
+ - https://aur.archlinux.org/packages/ookla-speedtest-bin
  - https://aur.archlinux.org/packages/openbangla-keyboard
  - https://aur.archlinux.org/packages/opencomic-bin
  - https://aur.archlinux.org/packages/opensnitch-git
@@ -312,8 +316,9 @@
  - https://aur.archlinux.org/packages/yay-bin
  - https://aur.archlinux.org/packages/ytmdl-git
  - https://aur.archlinux.org/packages/zoom
+ - https://aur.archlinux.org/packages/zotify-git
  - https://aur.archlinux.org/packages/zsh-theme-powerlevel10k-git
 ---
 
-number of packages = 313.
+number of packages = 318.
 
