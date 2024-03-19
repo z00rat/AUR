@@ -1267,3 +1267,7 @@
 	path = repos/ookla-speedtest-bin
 	url = ssh://aur@aur.archlinux.org/ookla-speedtest-bin.git
 	branch = master
+[submodule "repos/nordvpn-bin"]
+	path = repos/nordvpn-bin
+	url = ssh://aur@aur.archlinux.org/nordvpn-bin.git
+	branch = master
