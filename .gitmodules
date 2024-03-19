@@ -1255,3 +1255,7 @@
 	path = repos/piper-git
 	url = ssh://aur@aur.archlinux.org/piper-git.git
 	branch = master
+[submodule "repos/invoice-bin"]
+	path = repos/invoice-bin
+	url = ssh://aur@aur.archlinux.org/invoice-bin.git
+	branch = master
