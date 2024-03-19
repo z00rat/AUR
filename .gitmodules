@@ -1271,3 +1271,7 @@
 	path = repos/nordvpn-bin
 	url = ssh://aur@aur.archlinux.org/nordvpn-bin.git
 	branch = master
+[submodule "repos/cpu-x"]
+	path = repos/cpu-x
+	url = ssh://aur@aur.archlinux.org/cpu-x.git
+	branch = master
