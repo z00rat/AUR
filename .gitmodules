@@ -1263,3 +1263,7 @@
 	path = repos/zotify-git
 	url = ssh://aur@aur.archlinux.org/zotify-git.git
 	branch = master
+[submodule "repos/ookla-speedtest-bin"]
+	path = repos/ookla-speedtest-bin
+	url = ssh://aur@aur.archlinux.org/ookla-speedtest-bin.git
+	branch = master
