@@ -2,14 +2,14 @@
 
   [1;34m->[;1m listing already flaged packages[0m
 awmtt
+discord-chat-exporter-cli
 fsearch-git
 hibernator
 python-ffmpy
 qrcp-bin
   [1;34m->[;1m running pkgoutofdate[0m
-qbittorrent-vuetorrent-bin: new version found - 2.7.1 => 2.7.2
+drawio-desktop-bin: new version found - 24.0.4 => 24.1.0
 discord-chat-exporter-cli: new version found - 2.42.8 => 2.42.9
-dasel-bin: new version found - 2.6.0 => 2.7.0
   [1;34m->[;1m sourcing .env[0m
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
@@ -32,14 +32,14 @@ dasel-bin: new version found - 2.6.0 => 2.7.0
   [1;34m->[;1m checking for update for 'arttime-git'[0m
   [1;34m->[;1m checking for update for 'ascii-rain-git'[0m
   [1;34m->[;1m checking for update for 'aseprite'[0m
-[32m          [UP-TO-DATE] [aseprite][1.3.5-1] matches upstream version 1.3.5 [0m
+[32m          [UP-TO-DATE] [aseprite][1.3.5-2] matches upstream version 1.3.5 [0m
   [1;34m->[;1m checking for update for 'ast-firmware'[0m
 [37m             [UNKNOWN] [ast-firmware][501-1] Failed to obtain GitHub release for Labaman/ast-firmware from https://api.github.com/repos/Labaman/ast-firmware/releases/latest: No GitHub project found for Labaman/ast-firmware on https://api.github.com/repos/Labaman/ast-firmware/releases/latest [0m
   [1;34m->[;1m checking for update for 'aur-auto-vote-git'[0m
   [1;34m->[;1m checking for update for 'aur-out-of-date'[0m
 [32m          [UP-TO-DATE] [aur-out-of-date][3.2.0-1] matches upstream version 3.2.0 [0m
   [1;34m->[;1m checking for update for 'aurutils'[0m
-[32m          [UP-TO-DATE] [aurutils][19-1] matches upstream version 19 [0m
+[32m          [UP-TO-DATE] [aurutils][19.1-1] matches upstream version 19.1 [0m
   [1;34m->[;1m checking for update for 'aurvote-utils'[0m
 [32m          [UP-TO-DATE] [aurvote-utils][1.1.0-1] matches upstream version 1.1.0 [0m
   [1;34m->[;1m checking for update for 'awesome-git'[0m
@@ -65,7 +65,7 @@ dasel-bin: new version found - 2.6.0 => 2.7.0
   [1;34m->[;1m checking for update for 'boot-to-windows'[0m
 [37m             [UNKNOWN] [boot-to-windows][1.0.2-1] No release found for boot-to-windows.desktop [0m
   [1;34m->[;1m checking for update for 'boundary-bin'[0m
-[37m             [UNKNOWN] [boundary-bin][0.15.2-1] No release found for boundary-controller.service [0m
+[37m             [UNKNOWN] [boundary-bin][0.15.3-1] No release found for boundary-controller.service [0m
   [1;34m->[;1m checking for update for 'boxes'[0m
 [32m          [UP-TO-DATE] [boxes][2.3.0-1] matches upstream version 2.3.0 [0m
   [1;34m->[;1m checking for update for 'brave'[0m
@@ -86,7 +86,7 @@ dasel-bin: new version found - 2.6.0 => 2.7.0
 [37m             [UNKNOWN] [ccache-ext][3-1] No release found for update-ccache-links.sh [0m
   [1;34m->[;1m checking for update for 'check-broken-packages-pacman-hook-git'[0m
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
-[32m          [UP-TO-DATE] [cloudflared-bin][2024.2.1-1] matches upstream version 2024.2.1 [0m
+[32m          [UP-TO-DATE] [cloudflared-bin][2024.3.0-1] matches upstream version 2024.3.0 [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
 [31m         [OUT-OF-DATE] [code-features][1.87.0-2] should be updated to 1.87.2 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
@@ -97,12 +97,14 @@ dasel-bin: new version found - 2.6.0 => 2.7.0
 [32m          [UP-TO-DATE] [cointop][1.6.10-1] matches upstream version 1.6.10 [0m
   [1;34m->[;1m checking for update for 'cointop-bin'[0m
 [32m          [UP-TO-DATE] [cointop-bin][1.6.10-1] matches upstream version 1.6.10 [0m
+  [1;34m->[;1m checking for update for 'cpu-x'[0m
+[32m          [UP-TO-DATE] [cpu-x][5.0.3-1] matches upstream version 5.0.3 [0m
   [1;34m->[;1m checking for update for 'csslint'[0m
 [37m             [UNKNOWN] [csslint][1.0.5-2] upstream version is 1.0.3 [0m
   [1;34m->[;1m checking for update for 'ctjs-bin'[0m
 [31m         [OUT-OF-DATE] [ctjs-bin][1.7.0-1] should be updated to 4.0.2 [0m
   [1;34m->[;1m checking for update for 'dasel-bin'[0m
-[31m         [OUT-OF-DATE] [dasel-bin][2.6.0-1] should be updated to 2.7.0 [0m
+[32m          [UP-TO-DATE] [dasel-bin][2.7.0-1] matches upstream version 2.7.0 [0m
   [1;34m->[;1m checking for update for 'ddd'[0m
 [37m             [UNKNOWN] [ddd][3.4.0-12] No release found for http://ftp.gnu.org/gnu/ddd/ddd-3.4.0.tar.gz [0m
   [1;34m->[;1m checking for update for 'debtap'[0m
@@ -112,7 +114,7 @@ dasel-bin: new version found - 2.6.0 => 2.7.0
   [1;34m->[;1m checking for update for 'discord-chat-exporter-cli'[0m
 [31m         [OUT-OF-DATE] [discord-chat-exporter-cli][2.42.8-1] should be updated to 2.42.9 [0m
   [1;34m->[;1m checking for update for 'discord-ptb'[0m
-[37m             [UNKNOWN] [discord-ptb][0.0.75-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.75/discord-ptb-0.0.75.tar.gz [0m
+[37m             [UNKNOWN] [discord-ptb][0.0.76-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.76/discord-ptb-0.0.76.tar.gz [0m
   [1;34m->[;1m checking for update for 'docker-systemctl-replacement-git'[0m
   [1;34m->[;1m checking for update for 'downgrade'[0m
 [37m             [UNKNOWN] [downgrade][11.3.0-1] Failed to obtain GitHub release for archlinux-downgrade/downgrade from https://api.github.com/repos/archlinux-downgrade/downgrade/releases/latest: No GitHub project found for archlinux-downgrade/downgrade on https://api.github.com/repos/archlinux-downgrade/downgrade/releases/latest [0m
@@ -121,7 +123,7 @@ dasel-bin: new version found - 2.6.0 => 2.7.0
   [1;34m->[;1m checking for update for 'dragon-drop'[0m
 [32m          [UP-TO-DATE] [dragon-drop][1.2.0-2] matches upstream version 1.2.0 [0m
   [1;34m->[;1m checking for update for 'drawio-desktop-bin'[0m
-[32m          [UP-TO-DATE] [drawio-desktop-bin][24.0.4-1] matches upstream version 24.0.4 [0m
+[31m         [OUT-OF-DATE] [drawio-desktop-bin][24.0.4-1] should be updated to 24.1.0 [0m
   [1;34m->[;1m checking for update for 'dry-bin'[0m
 [32m          [UP-TO-DATE] [dry-bin][0.11.2-1] matches upstream version 0.11.2 [0m
   [1;34m->[;1m checking for update for 'edex-ui-bin'[0m
@@ -133,7 +135,7 @@ dasel-bin: new version found - 2.6.0 => 2.7.0
   [1;34m->[;1m checking for update for 'envycontrol'[0m
 [32m          [UP-TO-DATE] [envycontrol][3.4.0-1] matches upstream version 3.4.0 [0m
   [1;34m->[;1m checking for update for 'ezshare'[0m
-[31m         [OUT-OF-DATE] [ezshare][1.9.0-4] should be updated to 1.10.0 [0m
+[32m          [UP-TO-DATE] [ezshare][1.10.0-1] matches upstream version 1.10.0 [0m
   [1;34m->[;1m checking for update for 'fakepkg'[0m
 [37m             [UNKNOWN] [fakepkg][1.42.2-1] Failed to obtain GitHub release for Edenhofer/fakepkg from https://api.github.com/repos/Edenhofer/fakepkg/releases/latest: No GitHub project found for Edenhofer/fakepkg on https://api.github.com/repos/Edenhofer/fakepkg/releases/latest [0m
   [1;34m->[;1m checking for update for 'faq-bin'[0m
@@ -145,7 +147,7 @@ dasel-bin: new version found - 2.6.0 => 2.7.0
   [1;34m->[;1m checking for update for 'figlet-fonts'[0m
 [37m             [UNKNOWN] [figlet-fonts][1.0-3] No release found for ours.tar.gz::ftp://ftp.figlet.org/pub/figlet/fonts/ours.tar.gz [0m
   [1;34m->[;1m checking for update for 'firefox-esr-bin'[0m
-[37m             [UNKNOWN] [firefox-esr-bin][115.8.0-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/115.8.0esr/linux-x86_64/en-US/firefox-115.8.0esr.tar.bz2 [0m
+[37m             [UNKNOWN] [firefox-esr-bin][115.9.1-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/115.9.1esr/linux-x86_64/en-US/firefox-115.9.1esr.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'flamegraph'[0m
 [32m          [UP-TO-DATE] [flamegraph][1.0-2] matches upstream version 1.0 [0m
   [1;34m->[;1m checking for update for 'florence'[0m
@@ -162,7 +164,7 @@ dasel-bin: new version found - 2.6.0 => 2.7.0
   [1;34m->[;1m checking for update for 'funny-manpages'[0m
 [32m          [UP-TO-DATE] [funny-manpages][2.3-1] matches upstream version 2.3 [0m
   [1;34m->[;1m checking for update for 'gallery-dl'[0m
-[32m          [UP-TO-DATE] [gallery-dl][1.26.8-1] matches upstream version 1.26.8 [0m
+[32m          [UP-TO-DATE] [gallery-dl][1.26.9-1] matches upstream version 1.26.9 [0m
   [1;34m->[;1m checking for update for 'gconf-cleaner'[0m
 [37m             [UNKNOWN] [gconf-cleaner][0.0.3-2] No release found for https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gconf-cleaner/gconf-cleaner-0.0.3.tar.gz [0m
   [1;34m->[;1m checking for update for 'gconf-gtk2'[0m
@@ -170,13 +172,13 @@ dasel-bin: new version found - 2.6.0 => 2.7.0
   [1;34m->[;1m checking for update for 'git-cola'[0m
 [32m          [UP-TO-DATE] [git-cola][4.6.1-1] matches upstream version 4.6.1 [0m
   [1;34m->[;1m checking for update for 'gitify-bin'[0m
-[32m          [UP-TO-DATE] [gitify-bin][4.6.1-1] matches upstream version 4.6.1 [0m
+[32m          [UP-TO-DATE] [gitify-bin][5.0.0-1] matches upstream version 5.0.0 [0m
   [1;34m->[;1m checking for update for 'gitstatus'[0m
 [32m          [UP-TO-DATE] [gitstatus][1.5.4-1] matches upstream version 1.5.4 [0m
   [1;34m->[;1m checking for update for 'gocryptfs-ui'[0m
 [37m             [UNKNOWN] [gocryptfs-ui][1.3-1] Failed to obtain GitHub release for bulletmark/gocryptfs-ui from https://api.github.com/repos/bulletmark/gocryptfs-ui/releases/latest: No GitHub project found for bulletmark/gocryptfs-ui on https://api.github.com/repos/bulletmark/gocryptfs-ui/releases/latest [0m
   [1;34m->[;1m checking for update for 'google-chrome'[0m
-[37m             [UNKNOWN] [google-chrome][122.0.6261.128-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_122.0.6261.128-1_amd64.deb [0m
+[37m             [UNKNOWN] [google-chrome][123.0.6312.86-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_123.0.6312.86-1_amd64.deb [0m
   [1;34m->[;1m checking for update for 'grub-hook'[0m
 [37m             [UNKNOWN] [grub-hook][2.1-1] No release found for grub.hook [0m
   [1;34m->[;1m checking for update for 'grub-reboot-poweroff'[0m
@@ -199,7 +201,9 @@ dasel-bin: new version found - 2.6.0 => 2.7.0
 [37m             [UNKNOWN] [ibus-autostart][1.3-1] No release found for ibus-autostart: %!w(<nil>) [0m
   [1;34m->[;1m checking for update for 'ibus-avro-git'[0m
   [1;34m->[;1m checking for update for 'imhex'[0m
-[32m          [UP-TO-DATE] [imhex][1.33.1-1] matches upstream version 1.33.1 [0m
+[32m          [UP-TO-DATE] [imhex][1.33.2-1] matches upstream version 1.33.2 [0m
+  [1;34m->[;1m checking for update for 'invoice-bin'[0m
+[32m          [UP-TO-DATE] [invoice-bin][0.1.0-1] matches upstream version 0.1.0 [0m
   [1;34m->[;1m checking for update for 'jiq-bin'[0m
 [32m          [UP-TO-DATE] [jiq-bin][0.7.2-2] matches upstream version 0.7.2 [0m
   [1;34m->[;1m checking for update for 'jmtpfs'[0m
@@ -224,9 +228,9 @@ dasel-bin: new version found - 2.6.0 => 2.7.0
   [1;34m->[;1m checking for update for 'localepurge'[0m
 [32m          [UP-TO-DATE] [localepurge][0.7.3.10-1] matches upstream version 0.7.3.10 [0m
   [1;34m->[;1m checking for update for 'localsend-bin'[0m
-[32m          [UP-TO-DATE] [localsend-bin][1.14.0-2] matches upstream version 1.14.0 [0m
+[32m          [UP-TO-DATE] [localsend-bin][1.14.0-3] matches upstream version 1.14.0 [0m
   [1;34m->[;1m checking for update for 'losslesscut-bin'[0m
-[32m          [UP-TO-DATE] [losslesscut-bin][3.59.1-1] matches upstream version 3.59.1 [0m
+[32m          [UP-TO-DATE] [losslesscut-bin][3.59.1-4] matches upstream version 3.59.1 [0m
   [1;34m->[;1m checking for update for 'lscolors-git'[0m
   [1;34m->[;1m checking for update for 'lsdesktopf'[0m
 [37m             [UNKNOWN] [lsdesktopf][1.0.7-4] Failed to obtain GitHub release for AndyCrowd/list-desktop-files.git from https://api.github.com/repos/AndyCrowd/list-desktop-files.git/releases/latest: No GitHub project found for AndyCrowd/list-desktop-files.git on https://api.github.com/repos/AndyCrowd/list-desktop-files.git/releases/latest [0m
@@ -290,6 +294,8 @@ dasel-bin: new version found - 2.6.0 => 2.7.0
 [32m          [UP-TO-DATE] [noisetorch-bin][0.12.2-1] matches upstream version 0.12.2 [0m
   [1;34m->[;1m checking for update for 'nordic-theme'[0m
 [32m          [UP-TO-DATE] [nordic-theme][2.2.0-1] matches upstream version 2.2.0 [0m
+  [1;34m->[;1m checking for update for 'nordvpn-bin'[0m
+[37m             [UNKNOWN] [nordvpn-bin][3.17.2-1] No release found for https://repo.nordvpn.com/deb/nordvpn/debian/pool/main/nordvpn_3.17.2_amd64.deb [0m
   [1;34m->[;1m checking for update for 'notion-app'[0m
 [32m          [UP-TO-DATE] [notion-app][2.0.18-1] matches upstream version 2.0.18-1 [0m
   [1;34m->[;1m checking for update for 'obfs4proxy'[0m
@@ -300,6 +306,8 @@ dasel-bin: new version found - 2.6.0 => 2.7.0
 [32m          [UP-TO-DATE] [onedrive-abraunegg][2.4.25-1] matches upstream version 2.4.25 [0m
   [1;34m->[;1m checking for update for 'onioncircuits'[0m
 [32m          [UP-TO-DATE] [onioncircuits][0.8.1-1] matches upstream version 0.8.1 [0m
+  [1;34m->[;1m checking for update for 'ookla-speedtest-bin'[0m
+[37m             [UNKNOWN] [ookla-speedtest-bin][1.2.0-1] No release found for https://install.speedtest.net/app/cli/ookla-speedtest-1.2.0-linux-x86_64.tgz [0m
   [1;34m->[;1m checking for update for 'openbangla-keyboard'[0m
 [37m             [UNKNOWN] [openbangla-keyboard][2.0.0-7] Failed to obtain GitHub release for OpenBangla/OpenBangla-keyboard.git from https://api.github.com/repos/OpenBangla/OpenBangla-keyboard.git/releases/latest: No GitHub project found for OpenBangla/OpenBangla-keyboard.git on https://api.github.com/repos/OpenBangla/OpenBangla-keyboard.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'opencomic-bin'[0m
@@ -391,7 +399,7 @@ dasel-bin: new version found - 2.6.0 => 2.7.0
   [1;34m->[;1m checking for update for 'python-simber'[0m
 [32m          [UP-TO-DATE] [python-simber][0.2.6-0] matches upstream version 0.2.6 [0m
   [1;34m->[;1m checking for update for 'python-soundcloud-v2'[0m
-[32m          [UP-TO-DATE] [python-soundcloud-v2][1.3.1-1] matches upstream version 1.3.1 [0m
+[32m          [UP-TO-DATE] [python-soundcloud-v2][1.3.7-1] matches upstream version 1.3.7 [0m
   [1;34m->[;1m checking for update for 'python-spotdl'[0m
 [32m          [UP-TO-DATE] [python-spotdl][4.2.4-1] matches upstream version 4.2.4 [0m
   [1;34m->[;1m checking for update for 'python-spotipy'[0m
@@ -399,11 +407,11 @@ dasel-bin: new version found - 2.6.0 => 2.7.0
   [1;34m->[;1m checking for update for 'python-srt'[0m
 [37m             [UNKNOWN] [python-srt][3.5.3-1] Failed to obtain GitHub release for cdown/srt from https://api.github.com/repos/cdown/srt/releases/latest: No GitHub project found for cdown/srt on https://api.github.com/repos/cdown/srt/releases/latest [0m
   [1;34m->[;1m checking for update for 'python-syncedlyrics'[0m
-[32m          [UP-TO-DATE] [python-syncedlyrics][0.8.0-3] matches upstream version 0.8.0 [0m
+[32m          [UP-TO-DATE] [python-syncedlyrics][0.9.0-1] matches upstream version 0.9.0 [0m
   [1;34m->[;1m checking for update for 'python-torrequest'[0m
 [32m          [UP-TO-DATE] [python-torrequest][0.1.0-4] matches upstream version 0.1.0 [0m
   [1;34m->[;1m checking for update for 'python-uni-curses'[0m
-[37m             [UNKNOWN] [python-uni-curses][2.1.7-1] Failed to parse upstream version: invalid version format: .2.1.7 [0m
+[37m             [UNKNOWN] [python-uni-curses][3.0.0-1] Failed to parse upstream version: invalid version format: .3.0.0 [0m
   [1;34m->[;1m checking for update for 'python-x256'[0m
 [32m          [UP-TO-DATE] [python-x256][0.0.3-1] matches upstream version 0.0.3 [0m
   [1;34m->[;1m checking for update for 'python-youtube-search-git'[0m
@@ -415,7 +423,7 @@ dasel-bin: new version found - 2.6.0 => 2.7.0
   [1;34m->[;1m checking for update for 'python3-xcpf'[0m
 [37m             [UNKNOWN] [python3-xcpf][2021.12-13] No release found for https://xyne.dev/projects/python3-xcpf/src/python3-xcpf-2021.12.tar.xz [0m
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
-[31m         [OUT-OF-DATE] [qbittorrent-vuetorrent-bin][2.7.1-1] should be updated to 2.7.2 [0m
+[32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][2.7.2-1] matches upstream version 2.7.2 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
 [32m          [UP-TO-DATE] [qrcp][0.11.2-1] matches upstream version 0.11.2 [0m
   [1;34m->[;1m checking for update for 'qrcp-bin'[0m
@@ -460,7 +468,7 @@ dasel-bin: new version found - 2.6.0 => 2.7.0
 [37m             [UNKNOWN] [speedometer][2.9-2] Failed to obtain GitHub release for wardi/speedometer from https://api.github.com/repos/wardi/speedometer/releases/latest: No GitHub project found for wardi/speedometer on https://api.github.com/repos/wardi/speedometer/releases/latest [0m
   [1;34m->[;1m checking for update for 'speedread-git'[0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
-[32m          [UP-TO-DATE] [spicetify-cli][2.34.1-1] matches upstream version 2.34.1 [0m
+[32m          [UP-TO-DATE] [spicetify-cli][2.36.0-1] matches upstream version 2.36.0 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
 [37m             [UNKNOWN] [spotify][1:1.2.31.1205-2] No release found for spotify-1.2.31.1205-g4d59ad7c-x86_64.deb::http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.2.31.1205.g4d59ad7c_amd64.deb [0m
   [1;34m->[;1m checking for update for 'stacer'[0m
@@ -487,7 +495,7 @@ dasel-bin: new version found - 2.6.0 => 2.7.0
   [1;34m->[;1m checking for update for 'teams'[0m
 [37m             [UNKNOWN] [teams][1.5.00.23861-1] No release found for https://web.archive.org/web/20221130115842if_/https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.5.00.23861_amd64.deb [0m
   [1;34m->[;1m checking for update for 'terser'[0m
-[31m         [OUT-OF-DATE] [terser][5.29.1-1] should be updated to 5.29.2 [0m
+[31m         [OUT-OF-DATE] [terser][5.29.2-1] should be updated to 5.30.0 [0m
   [1;34m->[;1m checking for update for 'tgpt-bin'[0m
 [32m          [UP-TO-DATE] [tgpt-bin][2.7.2-1] matches upstream version 2.7.2 [0m
   [1;34m->[;1m checking for update for 'themix-export-spotify-git'[0m
@@ -511,7 +519,7 @@ dasel-bin: new version found - 2.6.0 => 2.7.0
   [1;34m->[;1m checking for update for 'toilet-fonts'[0m
 [37m             [UNKNOWN] [toilet-fonts][1.0-2] No release found for ftp://ftp.figlet.org/pub/figlet/fonts/ours.tar.gz [0m
   [1;34m->[;1m checking for update for 'tor-browser-bin'[0m
-[37m             [UNKNOWN] [tor-browser-bin][13.0.11-1] No release found for tor-browser.desktop.in [0m
+[37m             [UNKNOWN] [tor-browser-bin][13.0.13-1] No release found for tor-browser.desktop.in [0m
   [1;34m->[;1m checking for update for 'trizen'[0m
 [32m          [UP-TO-DATE] [trizen][1:1.68-1] matches upstream version 1.68 [0m
   [1;34m->[;1m checking for update for 'tt-bin'[0m
@@ -537,7 +545,7 @@ dasel-bin: new version found - 2.6.0 => 2.7.0
   [1;34m->[;1m checking for update for 'tuifimanager'[0m
 [37m             [UNKNOWN] [tuifimanager][3.3.5-1] Failed to parse upstream version: invalid version format: .3.3.5 [0m
   [1;34m->[;1m checking for update for 'tutanota-desktop-bin'[0m
-[37m             [UNKNOWN] [tutanota-desktop-bin][218.240307.1-1] No release found for tutanota-desktop-218.240307.1.AppImage::https://app.tuta.com/desktop/tutanota-desktop-linux.AppImage [0m
+[37m             [UNKNOWN] [tutanota-desktop-bin][220.240319.1-1] No release found for tutanota-desktop-220.240319.1.AppImage::https://app.tuta.com/desktop/tutanota-desktop-linux.AppImage [0m
   [1;34m->[;1m checking for update for 'typora'[0m
 [37m             [UNKNOWN] [typora][1.8.10-1] No release found for https://typora.io/linux/typora_1.8.10_amd64.deb [0m
   [1;34m->[;1m checking for update for 'uftrace'[0m
@@ -561,11 +569,11 @@ dasel-bin: new version found - 2.6.0 => 2.7.0
   [1;34m->[;1m checking for update for 'waydroid'[0m
 [37m             [UNKNOWN] [waydroid][1.4.2-1] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
-[37m             [UNKNOWN] [waydroid-image][18.1_20240309-1] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-18.1-20240309-VANILLA-waydroid_x86_64-system.zip [0m
+[37m             [UNKNOWN] [waydroid-image][18.1_20240323-1] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-18.1-20240323-VANILLA-waydroid_x86_64-system.zip [0m
   [1;34m->[;1m checking for update for 'wd719x-firmware'[0m
 [32m          [UP-TO-DATE] [wd719x-firmware][1-7] matches upstream version 1-7 [0m
   [1;34m->[;1m checking for update for 'webtorrent-bittorrent-tracker'[0m
-[31m         [OUT-OF-DATE] [webtorrent-bittorrent-tracker][11.0.1-1] should be updated to 11.0.2 [0m
+[32m          [UP-TO-DATE] [webtorrent-bittorrent-tracker][11.0.2-1] matches upstream version 11.0.2 [0m
   [1;34m->[;1m checking for update for 'webtorrent-cli'[0m
 [32m          [UP-TO-DATE] [webtorrent-cli][4.1.0-1] matches upstream version 4.1.0 [0m
   [1;34m->[;1m checking for update for 'webtorrent-desktop-bin'[0m
@@ -584,9 +592,10 @@ dasel-bin: new version found - 2.6.0 => 2.7.0
   [1;34m->[;1m checking for update for 'xmind'[0m
 [37m             [UNKNOWN] [xmind][24.01.14361.202403131929-1] No release found for https://dl3.xmind.net/Xmind-for-Linux-amd64bit-24.01.14361-202403131929.deb [0m
   [1;34m->[;1m checking for update for 'yay-bin'[0m
-[32m          [UP-TO-DATE] [yay-bin][12.3.4-1] matches upstream version 12.3.4 [0m
+[32m          [UP-TO-DATE] [yay-bin][12.3.5-1] matches upstream version 12.3.5 [0m
   [1;34m->[;1m checking for update for 'ytmdl-git'[0m
   [1;34m->[;1m checking for update for 'zoom'[0m
 [37m             [UNKNOWN] [zoom][5.17.11-1] No release found for zoom-5.17.11.3835_orig_x86_64.pkg.tar.xz::https://zoom.us/client/5.17.11.3835/zoom_x86_64.pkg.tar.xz [0m
+  [1;34m->[;1m checking for update for 'zotify-git'[0m
   [1;34m->[;1m checking for update for 'zsh-theme-powerlevel10k-git'[0m
   [1;34m->[;1m done.[0m

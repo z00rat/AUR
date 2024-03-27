@@ -1,4 +1,5 @@
 awmtt
+discord-chat-exporter-cli
 fsearch-git
 hibernator
 python-ffmpy
