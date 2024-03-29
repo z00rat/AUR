@@ -5,11 +5,14 @@ awmtt
 discord-chat-exporter-cli
 fsearch-git
 hibernator
+nordvpn-bin
 python-ffmpy
 qrcp-bin
   [1;34m->[;1m running pkgoutofdate[0m
-drawio-desktop-bin: new version found - 24.0.4 => 24.1.0
 discord-chat-exporter-cli: new version found - 2.42.8 => 2.42.9
+drawio-desktop-bin: new version found - 24.0.4 => 24.1.0
+aurutils: new version found - 19.1 => 19.2
+advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m sourcing .env[0m
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
@@ -39,7 +42,7 @@ discord-chat-exporter-cli: new version found - 2.42.8 => 2.42.9
   [1;34m->[;1m checking for update for 'aur-out-of-date'[0m
 [32m          [UP-TO-DATE] [aur-out-of-date][3.2.0-1] matches upstream version 3.2.0 [0m
   [1;34m->[;1m checking for update for 'aurutils'[0m
-[32m          [UP-TO-DATE] [aurutils][19.1-1] matches upstream version 19.1 [0m
+[31m         [OUT-OF-DATE] [aurutils][19.1-1] should be updated to 19.2 [0m
   [1;34m->[;1m checking for update for 'aurvote-utils'[0m
 [32m          [UP-TO-DATE] [aurvote-utils][1.1.0-1] matches upstream version 1.1.0 [0m
   [1;34m->[;1m checking for update for 'awesome-git'[0m
@@ -172,7 +175,7 @@ discord-chat-exporter-cli: new version found - 2.42.8 => 2.42.9
   [1;34m->[;1m checking for update for 'git-cola'[0m
 [32m          [UP-TO-DATE] [git-cola][4.6.1-1] matches upstream version 4.6.1 [0m
   [1;34m->[;1m checking for update for 'gitify-bin'[0m
-[32m          [UP-TO-DATE] [gitify-bin][5.0.0-1] matches upstream version 5.0.0 [0m
+[31m         [OUT-OF-DATE] [gitify-bin][5.0.0-1] should be updated to 5.1.0 [0m
   [1;34m->[;1m checking for update for 'gitstatus'[0m
 [32m          [UP-TO-DATE] [gitstatus][1.5.4-1] matches upstream version 1.5.4 [0m
   [1;34m->[;1m checking for update for 'gocryptfs-ui'[0m
@@ -401,7 +404,7 @@ discord-chat-exporter-cli: new version found - 2.42.8 => 2.42.9
   [1;34m->[;1m checking for update for 'python-soundcloud-v2'[0m
 [32m          [UP-TO-DATE] [python-soundcloud-v2][1.3.7-1] matches upstream version 1.3.7 [0m
   [1;34m->[;1m checking for update for 'python-spotdl'[0m
-[32m          [UP-TO-DATE] [python-spotdl][4.2.4-1] matches upstream version 4.2.4 [0m
+[32m          [UP-TO-DATE] [python-spotdl][4.2.5-1] matches upstream version 4.2.5 [0m
   [1;34m->[;1m checking for update for 'python-spotipy'[0m
 [32m          [UP-TO-DATE] [python-spotipy][2.23.0-1] matches upstream version 2.23.0 [0m
   [1;34m->[;1m checking for update for 'python-srt'[0m
@@ -468,7 +471,7 @@ discord-chat-exporter-cli: new version found - 2.42.8 => 2.42.9
 [37m             [UNKNOWN] [speedometer][2.9-2] Failed to obtain GitHub release for wardi/speedometer from https://api.github.com/repos/wardi/speedometer/releases/latest: No GitHub project found for wardi/speedometer on https://api.github.com/repos/wardi/speedometer/releases/latest [0m
   [1;34m->[;1m checking for update for 'speedread-git'[0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
-[32m          [UP-TO-DATE] [spicetify-cli][2.36.0-1] matches upstream version 2.36.0 [0m
+[32m          [UP-TO-DATE] [spicetify-cli][2.36.1-1] matches upstream version 2.36.1 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
 [37m             [UNKNOWN] [spotify][1:1.2.31.1205-2] No release found for spotify-1.2.31.1205-g4d59ad7c-x86_64.deb::http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.2.31.1205.g4d59ad7c_amd64.deb [0m
   [1;34m->[;1m checking for update for 'stacer'[0m
@@ -495,7 +498,7 @@ discord-chat-exporter-cli: new version found - 2.42.8 => 2.42.9
   [1;34m->[;1m checking for update for 'teams'[0m
 [37m             [UNKNOWN] [teams][1.5.00.23861-1] No release found for https://web.archive.org/web/20221130115842if_/https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.5.00.23861_amd64.deb [0m
   [1;34m->[;1m checking for update for 'terser'[0m
-[31m         [OUT-OF-DATE] [terser][5.29.2-1] should be updated to 5.30.0 [0m
+[32m          [UP-TO-DATE] [terser][5.30.0-1] matches upstream version 5.30.0 [0m
   [1;34m->[;1m checking for update for 'tgpt-bin'[0m
 [32m          [UP-TO-DATE] [tgpt-bin][2.7.2-1] matches upstream version 2.7.2 [0m
   [1;34m->[;1m checking for update for 'themix-export-spotify-git'[0m
@@ -533,7 +536,7 @@ discord-chat-exporter-cli: new version found - 2.42.8 => 2.42.9
   [1;34m->[;1m checking for update for 'ttf-ms-fonts'[0m
 [37m             [UNKNOWN] [ttf-ms-fonts][2.0-12] No release found for https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/andale32.exe [0m
   [1;34m->[;1m checking for update for 'ttf-twemoji'[0m
-[32m          [UP-TO-DATE] [ttf-twemoji][15.0.3-1] matches upstream version 15.0.3 [0m
+[32m          [UP-TO-DATE] [ttf-twemoji][15.1.0-1] matches upstream version 15.1.0 [0m
   [1;34m->[;1m checking for update for 'ttf-twemoji-color'[0m
 [32m          [UP-TO-DATE] [ttf-twemoji-color][14.0.2-4] matches upstream version 14.0.2 [0m
   [1;34m->[;1m checking for update for 'ttf-typicons'[0m
