@@ -3,15 +3,12 @@
   [1;34m->[;1m listing already flaged packages[0m
 awmtt
 discord-chat-exporter-cli
-fsearch-git
 hibernator
-nordvpn-bin
 python-ffmpy
 qrcp-bin
   [1;34m->[;1m running pkgoutofdate[0m
 discord-chat-exporter-cli: new version found - 2.42.8 => 2.42.9
 drawio-desktop-bin: new version found - 24.0.4 => 24.1.0
-aurutils: new version found - 19.1 => 19.2
 advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m sourcing .env[0m
   [1;34m->[;1m running aur-out-of-date[0m
@@ -42,7 +39,7 @@ advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m checking for update for 'aur-out-of-date'[0m
 [32m          [UP-TO-DATE] [aur-out-of-date][3.2.0-1] matches upstream version 3.2.0 [0m
   [1;34m->[;1m checking for update for 'aurutils'[0m
-[31m         [OUT-OF-DATE] [aurutils][19.1-1] should be updated to 19.2 [0m
+[32m          [UP-TO-DATE] [aurutils][19.3-1] matches upstream version 19.3 [0m
   [1;34m->[;1m checking for update for 'aurvote-utils'[0m
 [32m          [UP-TO-DATE] [aurvote-utils][1.1.0-1] matches upstream version 1.1.0 [0m
   [1;34m->[;1m checking for update for 'awesome-git'[0m
@@ -167,7 +164,7 @@ advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m checking for update for 'funny-manpages'[0m
 [32m          [UP-TO-DATE] [funny-manpages][2.3-1] matches upstream version 2.3 [0m
   [1;34m->[;1m checking for update for 'gallery-dl'[0m
-[32m          [UP-TO-DATE] [gallery-dl][1.26.9-1] matches upstream version 1.26.9 [0m
+[32m          [UP-TO-DATE] [gallery-dl][1.26.9-2] matches upstream version 1.26.9 [0m
   [1;34m->[;1m checking for update for 'gconf-cleaner'[0m
 [37m             [UNKNOWN] [gconf-cleaner][0.0.3-2] No release found for https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gconf-cleaner/gconf-cleaner-0.0.3.tar.gz [0m
   [1;34m->[;1m checking for update for 'gconf-gtk2'[0m
@@ -177,7 +174,7 @@ advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m checking for update for 'gitify-bin'[0m
 [31m         [OUT-OF-DATE] [gitify-bin][5.0.0-1] should be updated to 5.1.0 [0m
   [1;34m->[;1m checking for update for 'gitstatus'[0m
-[32m          [UP-TO-DATE] [gitstatus][1.5.4-1] matches upstream version 1.5.4 [0m
+[32m          [UP-TO-DATE] [gitstatus][1.5.5-1] matches upstream version 1.5.5 [0m
   [1;34m->[;1m checking for update for 'gocryptfs-ui'[0m
 [37m             [UNKNOWN] [gocryptfs-ui][1.3-1] Failed to obtain GitHub release for bulletmark/gocryptfs-ui from https://api.github.com/repos/bulletmark/gocryptfs-ui/releases/latest: No GitHub project found for bulletmark/gocryptfs-ui on https://api.github.com/repos/bulletmark/gocryptfs-ui/releases/latest [0m
   [1;34m->[;1m checking for update for 'google-chrome'[0m
@@ -298,7 +295,7 @@ advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m checking for update for 'nordic-theme'[0m
 [32m          [UP-TO-DATE] [nordic-theme][2.2.0-1] matches upstream version 2.2.0 [0m
   [1;34m->[;1m checking for update for 'nordvpn-bin'[0m
-[37m             [UNKNOWN] [nordvpn-bin][3.17.2-1] No release found for https://repo.nordvpn.com/deb/nordvpn/debian/pool/main/nordvpn_3.17.2_amd64.deb [0m
+[37m             [UNKNOWN] [nordvpn-bin][3.17.3-1] No release found for https://repo.nordvpn.com/deb/nordvpn/debian/pool/main/nordvpn_3.17.3_amd64.deb [0m
   [1;34m->[;1m checking for update for 'notion-app'[0m
 [32m          [UP-TO-DATE] [notion-app][2.0.18-1] matches upstream version 2.0.18-1 [0m
   [1;34m->[;1m checking for update for 'obfs4proxy'[0m
@@ -314,7 +311,7 @@ advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m checking for update for 'openbangla-keyboard'[0m
 [37m             [UNKNOWN] [openbangla-keyboard][2.0.0-7] Failed to obtain GitHub release for OpenBangla/OpenBangla-keyboard.git from https://api.github.com/repos/OpenBangla/OpenBangla-keyboard.git/releases/latest: No GitHub project found for OpenBangla/OpenBangla-keyboard.git on https://api.github.com/repos/OpenBangla/OpenBangla-keyboard.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'opencomic-bin'[0m
-[32m          [UP-TO-DATE] [opencomic-bin][1.1.0-4] matches upstream version 1.1.0 [0m
+[32m          [UP-TO-DATE] [opencomic-bin][1.2.0-1] matches upstream version 1.2.0 [0m
   [1;34m->[;1m checking for update for 'opensnitch-git'[0m
   [1;34m->[;1m checking for update for 'p7zip-gui'[0m
 [37m             [UNKNOWN] [p7zip-gui][16.02-8] No release found for https://downloads.sourceforge.net/project/p7zip/p7zip/16.02/p7zip_16.02_src_all.tar.bz2 [0m
@@ -332,7 +329,7 @@ advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m checking for update for 'pacman-pstatus'[0m
 [32m          [UP-TO-DATE] [pacman-pstatus][0.3.1-1] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'pacman-static'[0m
-[32m          [UP-TO-DATE] [pacman-static][6.1.0-1] matches upstream version 6.1.0 [0m
+[32m          [UP-TO-DATE] [pacman-static][6.1.0-6] matches upstream version 6.1.0 [0m
   [1;34m->[;1m checking for update for 'pacman-systemd-inhibit'[0m
 [32m          [UP-TO-DATE] [pacman-systemd-inhibit][1.0-3] matches upstream version 1.0 [0m
   [1;34m->[;1m checking for update for 'pacman4console'[0m
@@ -404,7 +401,7 @@ advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m checking for update for 'python-soundcloud-v2'[0m
 [32m          [UP-TO-DATE] [python-soundcloud-v2][1.3.7-1] matches upstream version 1.3.7 [0m
   [1;34m->[;1m checking for update for 'python-spotdl'[0m
-[32m          [UP-TO-DATE] [python-spotdl][4.2.5-1] matches upstream version 4.2.5 [0m
+[32m          [UP-TO-DATE] [python-spotdl][4.2.5-2] matches upstream version 4.2.5 [0m
   [1;34m->[;1m checking for update for 'python-spotipy'[0m
 [32m          [UP-TO-DATE] [python-spotipy][2.23.0-1] matches upstream version 2.23.0 [0m
   [1;34m->[;1m checking for update for 'python-srt'[0m
@@ -500,7 +497,7 @@ advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m checking for update for 'terser'[0m
 [32m          [UP-TO-DATE] [terser][5.30.0-1] matches upstream version 5.30.0 [0m
   [1;34m->[;1m checking for update for 'tgpt-bin'[0m
-[32m          [UP-TO-DATE] [tgpt-bin][2.7.2-1] matches upstream version 2.7.2 [0m
+[32m          [UP-TO-DATE] [tgpt-bin][2.7.3-1] matches upstream version 2.7.3 [0m
   [1;34m->[;1m checking for update for 'themix-export-spotify-git'[0m
   [1;34m->[;1m checking for update for 'themix-full-git'[0m
   [1;34m->[;1m checking for update for 'themix-gui-git'[0m

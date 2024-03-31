@@ -1,7 +1,5 @@
 awmtt
 discord-chat-exporter-cli
-fsearch-git
 hibernator
-nordvpn-bin
 python-ffmpy
 qrcp-bin
