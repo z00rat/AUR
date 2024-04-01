@@ -1275,3 +1275,7 @@
 	path = repos/cpu-x
 	url = ssh://aur@aur.archlinux.org/cpu-x.git
 	branch = master
+[submodule "repos/spotdl"]
+	path = repos/spotdl
+	url = ssh://aur@aur.archlinux.org/spotdl.git
+	branch = master
