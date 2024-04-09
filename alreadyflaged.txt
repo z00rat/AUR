@@ -1,5 +1,6 @@
 awmtt
 discord-chat-exporter-cli
 hibernator
+libratbag-git
 python-ffmpy
 qrcp-bin
