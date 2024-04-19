@@ -1303,3 +1303,7 @@
 	path = repos/nomacs
 	url = ssh://aur@aur.archlinux.org/nomacs.git
 	branch = master
+[submodule "repos/nyaa-bin"]
+	path = repos/nyaa-bin
+	url = ssh://aur@aur.archlinux.org/nyaa-bin.git
+	branch = master
