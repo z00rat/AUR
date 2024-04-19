@@ -1311,3 +1311,7 @@
 	path = repos/qogir-icon-theme
 	url = ssh://aur@aur.archlinux.org/qogir-icon-theme.git
 	branch = master
+[submodule "repos/we10x-icon-theme-git"]
+	path = repos/we10x-icon-theme-git
+	url = ssh://aur@aur.archlinux.org/we10x-icon-theme-git.git
+	branch = master
