@@ -1319,3 +1319,7 @@
 	path = repos/whitesur-icon-theme
 	url = ssh://aur@aur.archlinux.org/whitesur-icon-theme.git
 	branch = master
+[submodule "repos/zuki-themes"]
+	path = repos/zuki-themes
+	url = ssh://aur@aur.archlinux.org/zuki-themes.git
+	branch = master
