@@ -1291,3 +1291,7 @@
 	path = repos/kora-icon-theme
 	url = ssh://aur@aur.archlinux.org/kora-icon-theme.git
 	branch = master
+[submodule "repos/megacmd"]
+	path = repos/megacmd
+	url = ssh://aur@aur.archlinux.org/megacmd.git
+	branch = master
