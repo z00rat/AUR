@@ -1315,3 +1315,7 @@
 	path = repos/we10x-icon-theme-git
 	url = ssh://aur@aur.archlinux.org/we10x-icon-theme-git.git
 	branch = master
+[submodule "repos/whitesur-icon-theme"]
+	path = repos/whitesur-icon-theme
+	url = ssh://aur@aur.archlinux.org/whitesur-icon-theme.git
+	branch = master
