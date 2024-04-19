@@ -3,6 +3,7 @@
  - https://aur.archlinux.org/packages/activitywatch-bin
  - https://aur.archlinux.org/packages/adbfs-rootless-git
  - https://aur.archlinux.org/packages/advcpmv
+ - https://aur.archlinux.org/packages/adwaita-qt-git
  - https://aur.archlinux.org/packages/aic94xx-firmware
  - https://aur.archlinux.org/packages/alacritty-themes
  - https://aur.archlinux.org/packages/ansifilter
@@ -37,6 +38,7 @@
  - https://aur.archlinux.org/packages/broken-link-checker
  - https://aur.archlinux.org/packages/bubblejail
  - https://aur.archlinux.org/packages/burpsuite
+ - https://aur.archlinux.org/packages/candy-icons-git
  - https://aur.archlinux.org/packages/cava
  - https://aur.archlinux.org/packages/cbonsai
  - https://aur.archlinux.org/packages/ccache-ext
@@ -105,6 +107,7 @@
  - https://aur.archlinux.org/packages/jiq-bin
  - https://aur.archlinux.org/packages/jmtpfs
  - https://aur.archlinux.org/packages/keeweb-desktop-bin
+ - https://aur.archlinux.org/packages/kora-icon-theme
  - https://aur.archlinux.org/packages/lib32-jack
  - https://aur.archlinux.org/packages/libgbinder
  - https://aur.archlinux.org/packages/libglibutil
@@ -124,6 +127,8 @@
  - https://aur.archlinux.org/packages/maldet
  - https://aur.archlinux.org/packages/marktext-bin
  - https://aur.archlinux.org/packages/mawk
+ - https://aur.archlinux.org/packages/megacmd
+ - https://aur.archlinux.org/packages/megatools-bin
  - https://aur.archlinux.org/packages/mergerfs
  - https://aur.archlinux.org/packages/mergerfs-tools-git
  - https://aur.archlinux.org/packages/mkclean
@@ -148,9 +153,11 @@
  - https://aur.archlinux.org/packages/nodejs-ungit
  - https://aur.archlinux.org/packages/noisetorch
  - https://aur.archlinux.org/packages/noisetorch-bin
+ - https://aur.archlinux.org/packages/nomacs
  - https://aur.archlinux.org/packages/nordic-theme
  - https://aur.archlinux.org/packages/nordvpn-bin
  - https://aur.archlinux.org/packages/notion-app
+ - https://aur.archlinux.org/packages/nyaa-bin
  - https://aur.archlinux.org/packages/obfs4proxy
  - https://aur.archlinux.org/packages/obs-plugin-input-overlay-bin
  - https://aur.archlinux.org/packages/onedrive-abraunegg
@@ -218,6 +225,7 @@
  - https://aur.archlinux.org/packages/python3-xcgf
  - https://aur.archlinux.org/packages/python3-xcpf
  - https://aur.archlinux.org/packages/qbittorrent-vuetorrent-bin
+ - https://aur.archlinux.org/packages/qogir-icon-theme
  - https://aur.archlinux.org/packages/qrcp
  - https://aur.archlinux.org/packages/qrcp-bin
  - https://aur.archlinux.org/packages/qwinff
@@ -243,6 +251,7 @@
  - https://aur.archlinux.org/packages/speedometer
  - https://aur.archlinux.org/packages/speedread-git
  - https://aur.archlinux.org/packages/spicetify-cli
+ - https://aur.archlinux.org/packages/spotdl
  - https://aur.archlinux.org/packages/spotify
  - https://aur.archlinux.org/packages/stacer
  - https://aur.archlinux.org/packages/stretchly-bin
@@ -303,22 +312,26 @@
  - https://aur.archlinux.org/packages/waydroid
  - https://aur.archlinux.org/packages/waydroid-image
  - https://aur.archlinux.org/packages/wd719x-firmware
+ - https://aur.archlinux.org/packages/we10x-icon-theme-git
  - https://aur.archlinux.org/packages/webtorrent-bittorrent-tracker
  - https://aur.archlinux.org/packages/webtorrent-cli
  - https://aur.archlinux.org/packages/webtorrent-desktop-bin
  - https://aur.archlinux.org/packages/webtty
+ - https://aur.archlinux.org/packages/whitesur-icon-theme
  - https://aur.archlinux.org/packages/wttr
  - https://aur.archlinux.org/packages/x11docker
  - https://aur.archlinux.org/packages/xcursor-human
  - https://aur.archlinux.org/packages/xdg-ninja-git
  - https://aur.archlinux.org/packages/xinput-gui
  - https://aur.archlinux.org/packages/xmind
+ - https://aur.archlinux.org/packages/yaru-icon-theme
  - https://aur.archlinux.org/packages/yay-bin
  - https://aur.archlinux.org/packages/ytmdl-git
  - https://aur.archlinux.org/packages/zoom
  - https://aur.archlinux.org/packages/zotify-git
  - https://aur.archlinux.org/packages/zsh-theme-powerlevel10k-git
+ - https://aur.archlinux.org/packages/zuki-themes
 ---
 
-number of packages = 318.
+number of packages = 331.
 

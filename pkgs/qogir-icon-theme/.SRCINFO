@@ -1,0 +1,14 @@
+pkgbase = qogir-icon-theme
+	pkgdesc = A colorful design icon theme for linux desktops
+	pkgver = 2023.06.05
+	pkgrel = 1
+	url = https://www.pling.com/p/1296407
+	arch = any
+	license = GPL3
+	depends = hicolor-icon-theme
+	depends = gtk-update-icon-cache
+	options = !strip
+	source = qogir-icon-theme-2023.06.05.tar.gz::https://github.com/vinceliuice/Qogir-icon-theme/archive/2023-06-05.tar.gz
+	sha256sums = 618768d3592238f0d11379b4a0261434c332bb63c30d3ea85ea26f80bf199043
+
+pkgname = qogir-icon-theme

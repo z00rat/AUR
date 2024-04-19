@@ -1,6 +1,8 @@
-  [1;34m->[;1m number of packags that are 318 tracked[0m
-  [1;34m->[;1m number of packages that are 168 installed[0m
+  [1;34m->[;1m number of packags that are 330 tracked[0m
+  [1;34m->[;1m number of packages that are 195 installed[0m
   [1;34m->[;1m packages that are not tracked but installed in the system...[0m
+adwaita-qt5-git
+adwaita-qt6-git
 cf-tool
 firefox-profile-switcher-connector-bin
 leetgo-bin
@@ -9,6 +11,7 @@ lssecret-git
 lua51-inspect
 mandb-ondemand
 mimeo
+numix-icon-theme-git
 picom-git
 python-ffmpy
 python-librespot
@@ -17,9 +20,11 @@ python-pulsectl
 python-pwinput
 python-pyogg
 rofi-git
+yaru-icon-theme
   [1;34m->[;1m packages that are tracked but not installed in the system...[0m
 activitywatch-bin
 advcpmv
+adwaita-qt-git
 ansifilter
 antibody
 archiso-git
@@ -105,7 +110,6 @@ parse-torrent
 passivedns-git
 patat-bin
 pikaur
-pkgbrowser
 play-with-mpv-git
 plymouth-theme-arch10
 python-auditok
@@ -121,6 +125,7 @@ python-pynput
 python-pysubs2
 python-pytube
 python-simber
+python-spotdl
 python-srt
 python-torrequest
 python-youtube-search-git
@@ -149,19 +154,7 @@ surf-git
 svg-term-cli
 systemd-boot-pacman-hook
 systemd-numlockontty
-themix-export-spotify-git
-themix-full-git
-themix-gui-git
-themix-icons-archdroid-git
-themix-icons-gnome-colors-git
-themix-icons-numix-git
-themix-icons-papirus-git
-themix-icons-suru-plus-aspromauros-git
-themix-icons-suru-plus-git
-themix-import-images-git
-themix-plugin-base16-git
 themix-theme-materia-git
-themix-theme-oomox-git
 thinkfan
 tlpui-git
 tmpwatch

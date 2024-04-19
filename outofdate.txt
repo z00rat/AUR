@@ -8,10 +8,12 @@ libratbag-git
 python-ffmpy
 qrcp-bin
   [1;34m->[;1m running pkgoutofdate[0m
+session-desktop-bin: new version found - 1.12.1 => 1.12.2
 resvg: new version found - 0.40.0 => 0.41.0
-qbittorrent-vuetorrent-bin: new version found - 2.7.2 => 2.7.3
+libglibutil: new version found - 1.0.76 => 1.0.77
 discord-chat-exporter-cli: new version found - 2.42.8 => 2.42.9
-aseprite: new version found - 1.3.5 => 1.3.6
+discord-ptb: new version found - 0.0.79 => 0.0.80
+burpsuite: new version found - 2024.3.1.1 => 2024.3.1.2
 advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m sourcing .env[0m
   [1;34m->[;1m running aur-out-of-date[0m
@@ -20,6 +22,7 @@ advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m checking for update for 'adbfs-rootless-git'[0m
   [1;34m->[;1m checking for update for 'advcpmv'[0m
 [37m             [UNKNOWN] [advcpmv][9.4-1] No release found for https://ftp.gnu.org/gnu/coreutils/coreutils-9.4.tar.xz [0m
+  [1;34m->[;1m checking for update for 'adwaita-qt-git'[0m
   [1;34m->[;1m checking for update for 'aic94xx-firmware'[0m
 [37m             [UNKNOWN] [aic94xx-firmware][30-10] No release found for aic94xx-seq-30-1.tar.gz::https://download.adaptec.com/scsi/linux/aic94xx-seq-30-1.tar.gz [0m
   [1;34m->[;1m checking for update for 'alacritty-themes'[0m
@@ -35,7 +38,7 @@ advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m checking for update for 'arttime-git'[0m
   [1;34m->[;1m checking for update for 'ascii-rain-git'[0m
   [1;34m->[;1m checking for update for 'aseprite'[0m
-[31m         [OUT-OF-DATE] [aseprite][1.3.5-2] should be updated to 1.3.6 [0m
+[32m          [UP-TO-DATE] [aseprite][1.3.6-1] matches upstream version 1.3.6 [0m
   [1;34m->[;1m checking for update for 'ast-firmware'[0m
 [37m             [UNKNOWN] [ast-firmware][501-1] Failed to obtain GitHub release for Labaman/ast-firmware from https://api.github.com/repos/Labaman/ast-firmware/releases/latest: No GitHub project found for Labaman/ast-firmware on https://api.github.com/repos/Labaman/ast-firmware/releases/latest [0m
   [1;34m->[;1m checking for update for 'aur-auto-vote-git'[0m
@@ -68,7 +71,7 @@ advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m checking for update for 'boot-to-windows'[0m
 [37m             [UNKNOWN] [boot-to-windows][1.0.2-1] No release found for boot-to-windows.desktop [0m
   [1;34m->[;1m checking for update for 'boundary-bin'[0m
-[37m             [UNKNOWN] [boundary-bin][0.15.3-1] No release found for boundary-controller.service [0m
+[37m             [UNKNOWN] [boundary-bin][0.15.4-1] No release found for boundary-controller.service [0m
   [1;34m->[;1m checking for update for 'boxes'[0m
 [32m          [UP-TO-DATE] [boxes][2.3.0-1] matches upstream version 2.3.0 [0m
   [1;34m->[;1m checking for update for 'brave'[0m
@@ -80,7 +83,8 @@ advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m checking for update for 'bubblejail'[0m
 [32m          [UP-TO-DATE] [bubblejail][0.8.3-1] matches upstream version 0.8.3 [0m
   [1;34m->[;1m checking for update for 'burpsuite'[0m
-[37m             [UNKNOWN] [burpsuite][2024.3.1-1] No release found for burpsuite-2024.3.1.jar::https://portswigger.net/burp/releases/download?product=community&version=2024.3.1&type=Jar [0m
+[37m             [UNKNOWN] [burpsuite][2024.3.1.1-1] No release found for burpsuite-2024.3.1.1.jar::https://portswigger.net/burp/releases/download?product=community&version=2024.3.1.1&type=Jar [0m
+  [1;34m->[;1m checking for update for 'candy-icons-git'[0m
   [1;34m->[;1m checking for update for 'cava'[0m
 [32m          [UP-TO-DATE] [cava][0.10.1-1] matches upstream version 0.10.1 [0m
   [1;34m->[;1m checking for update for 'cbonsai'[0m
@@ -89,13 +93,13 @@ advcpmv: new version found - 9.4 => 9.5
 [37m             [UNKNOWN] [ccache-ext][3-1] No release found for update-ccache-links.sh [0m
   [1;34m->[;1m checking for update for 'check-broken-packages-pacman-hook-git'[0m
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
-[32m          [UP-TO-DATE] [cloudflared-bin][2024.3.0-1] matches upstream version 2024.3.0 [0m
+[32m          [UP-TO-DATE] [cloudflared-bin][2024.4.0-1] matches upstream version 2024.4.0 [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
-[31m         [OUT-OF-DATE] [code-features][1.87.0-2] should be updated to 1.88.0 [0m
+[31m         [OUT-OF-DATE] [code-features][1.88.0-1] should be updated to 1.88.1 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
 [37m             [UNKNOWN] [code-marketplace][1.87.0-2] No release found for code-marketplace.hook [0m
   [1;34m->[;1m checking for update for 'code-server'[0m
-[32m          [UP-TO-DATE] [code-server][4.23.0-1] matches upstream version 4.23.0 [0m
+[32m          [UP-TO-DATE] [code-server][4.23.1-1] matches upstream version 4.23.1 [0m
   [1;34m->[;1m checking for update for 'cointop'[0m
 [32m          [UP-TO-DATE] [cointop][1.6.10-1] matches upstream version 1.6.10 [0m
   [1;34m->[;1m checking for update for 'cointop-bin'[0m
@@ -117,7 +121,7 @@ advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m checking for update for 'discord-chat-exporter-cli'[0m
 [31m         [OUT-OF-DATE] [discord-chat-exporter-cli][2.42.8-1] should be updated to 2.42.9 [0m
   [1;34m->[;1m checking for update for 'discord-ptb'[0m
-[37m             [UNKNOWN] [discord-ptb][0.0.78-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.78/discord-ptb-0.0.78.tar.gz [0m
+[37m             [UNKNOWN] [discord-ptb][0.0.79-2] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.79/discord-ptb-0.0.79.tar.gz [0m
   [1;34m->[;1m checking for update for 'docker-systemctl-replacement-git'[0m
   [1;34m->[;1m checking for update for 'downgrade'[0m
 [37m             [UNKNOWN] [downgrade][11.3.0-1] Failed to obtain GitHub release for archlinux-downgrade/downgrade from https://api.github.com/repos/archlinux-downgrade/downgrade/releases/latest: No GitHub project found for archlinux-downgrade/downgrade on https://api.github.com/repos/archlinux-downgrade/downgrade/releases/latest [0m
@@ -126,7 +130,7 @@ advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m checking for update for 'dragon-drop'[0m
 [32m          [UP-TO-DATE] [dragon-drop][1.2.0-2] matches upstream version 1.2.0 [0m
   [1;34m->[;1m checking for update for 'drawio-desktop-bin'[0m
-[32m          [UP-TO-DATE] [drawio-desktop-bin][24.1.0-1] matches upstream version 24.1.0 [0m
+[32m          [UP-TO-DATE] [drawio-desktop-bin][24.2.5-1] matches upstream version 24.2.5 [0m
   [1;34m->[;1m checking for update for 'dry-bin'[0m
 [32m          [UP-TO-DATE] [dry-bin][0.11.2-1] matches upstream version 0.11.2 [0m
   [1;34m->[;1m checking for update for 'edex-ui-bin'[0m
@@ -138,7 +142,7 @@ advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m checking for update for 'envycontrol'[0m
 [32m          [UP-TO-DATE] [envycontrol][3.4.0-1] matches upstream version 3.4.0 [0m
   [1;34m->[;1m checking for update for 'ezshare'[0m
-[32m          [UP-TO-DATE] [ezshare][1.10.0-1] matches upstream version 1.10.0 [0m
+[31m         [OUT-OF-DATE] [ezshare][1.10.0-1] should be updated to 1.10.2 [0m
   [1;34m->[;1m checking for update for 'fakepkg'[0m
 [37m             [UNKNOWN] [fakepkg][1.42.2-1] Failed to obtain GitHub release for Edenhofer/fakepkg from https://api.github.com/repos/Edenhofer/fakepkg/releases/latest: No GitHub project found for Edenhofer/fakepkg on https://api.github.com/repos/Edenhofer/fakepkg/releases/latest [0m
   [1;34m->[;1m checking for update for 'faq-bin'[0m
@@ -150,7 +154,7 @@ advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m checking for update for 'figlet-fonts'[0m
 [37m             [UNKNOWN] [figlet-fonts][1.0-3] No release found for ours.tar.gz::ftp://ftp.figlet.org/pub/figlet/fonts/ours.tar.gz [0m
   [1;34m->[;1m checking for update for 'firefox-esr-bin'[0m
-[37m             [UNKNOWN] [firefox-esr-bin][115.9.1-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/115.9.1esr/linux-x86_64/en-US/firefox-115.9.1esr.tar.bz2 [0m
+[37m             [UNKNOWN] [firefox-esr-bin][115.10.0-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/115.10.0esr/linux-x86_64/en-US/firefox-115.10.0esr.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'flamegraph'[0m
 [32m          [UP-TO-DATE] [flamegraph][1.0-2] matches upstream version 1.0 [0m
   [1;34m->[;1m checking for update for 'florence'[0m
@@ -175,13 +179,13 @@ advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m checking for update for 'git-cola'[0m
 [32m          [UP-TO-DATE] [git-cola][4.6.1-1] matches upstream version 4.6.1 [0m
   [1;34m->[;1m checking for update for 'gitify-bin'[0m
-[32m          [UP-TO-DATE] [gitify-bin][5.2.0-1] matches upstream version 5.2.0 [0m
+[31m         [OUT-OF-DATE] [gitify-bin][5.3.0-1] should be updated to 5.4.0 [0m
   [1;34m->[;1m checking for update for 'gitstatus'[0m
 [32m          [UP-TO-DATE] [gitstatus][1.5.5-1] matches upstream version 1.5.5 [0m
   [1;34m->[;1m checking for update for 'gocryptfs-ui'[0m
 [37m             [UNKNOWN] [gocryptfs-ui][1.3-1] Failed to obtain GitHub release for bulletmark/gocryptfs-ui from https://api.github.com/repos/bulletmark/gocryptfs-ui/releases/latest: No GitHub project found for bulletmark/gocryptfs-ui on https://api.github.com/repos/bulletmark/gocryptfs-ui/releases/latest [0m
   [1;34m->[;1m checking for update for 'google-chrome'[0m
-[37m             [UNKNOWN] [google-chrome][123.0.6312.105-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_123.0.6312.105-1_amd64.deb [0m
+[37m             [UNKNOWN] [google-chrome][124.0.6367.60-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_124.0.6367.60-1_amd64.deb [0m
   [1;34m->[;1m checking for update for 'grub-hook'[0m
 [37m             [UNKNOWN] [grub-hook][2.1-1] No release found for grub.hook [0m
   [1;34m->[;1m checking for update for 'grub-reboot-poweroff'[0m
@@ -213,6 +217,8 @@ advcpmv: new version found - 9.4 => 9.5
 [37m             [UNKNOWN] [jmtpfs][0.5-3] Failed to obtain GitHub release for JasonFerrara/jmtpfs from https://api.github.com/repos/JasonFerrara/jmtpfs/releases/latest: No GitHub project found for JasonFerrara/jmtpfs on https://api.github.com/repos/JasonFerrara/jmtpfs/releases/latest [0m
   [1;34m->[;1m checking for update for 'keeweb-desktop-bin'[0m
 [32m          [UP-TO-DATE] [keeweb-desktop-bin][1.18.7-1] matches upstream version 1.18.7 [0m
+  [1;34m->[;1m checking for update for 'kora-icon-theme'[0m
+[32m          [UP-TO-DATE] [kora-icon-theme][1.6.0-1] matches upstream version 1.6.0 [0m
   [1;34m->[;1m checking for update for 'lib32-jack'[0m
 [37m             [UNKNOWN] [lib32-jack][0.126.0-1] Failed to obtain GitHub release for jackaudio/jack1.git from https://api.github.com/repos/jackaudio/jack1.git/releases/latest: No GitHub project found for jackaudio/jack1.git on https://api.github.com/repos/jackaudio/jack1.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'libgbinder'[0m
@@ -248,6 +254,10 @@ advcpmv: new version found - 9.4 => 9.5
 [32m          [UP-TO-DATE] [marktext-bin][0.17.1-2] matches upstream version 0.17.1 [0m
   [1;34m->[;1m checking for update for 'mawk'[0m
 [37m             [UNKNOWN] [mawk][1.3.4_20240123-1] No release found for https://invisible-island.net/archives/mawk/mawk-1.3.4-20240123.tgz [0m
+  [1;34m->[;1m checking for update for 'megacmd'[0m
+[37m             [UNKNOWN] [megacmd][1.6.3-1] Failed to obtain GitHub release for meganz/MEGAcmd from https://api.github.com/repos/meganz/MEGAcmd/releases/latest: No GitHub project found for meganz/MEGAcmd on https://api.github.com/repos/meganz/MEGAcmd/releases/latest [0m
+  [1;34m->[;1m checking for update for 'megatools-bin'[0m
+[37m             [UNKNOWN] [megatools-bin][1.11.1.20230212-1] No release found for https://megatools.megous.com/builds/builds/megatools-1.11.1.20230212-linux-x86_64.tar.gz [0m
   [1;34m->[;1m checking for update for 'mergerfs'[0m
 [32m          [UP-TO-DATE] [mergerfs][2.40.2-1] matches upstream version 2.40.2 [0m
   [1;34m->[;1m checking for update for 'mergerfs-tools-git'[0m
@@ -295,12 +305,16 @@ advcpmv: new version found - 9.4 => 9.5
 [32m          [UP-TO-DATE] [noisetorch][0.12.2-2] matches upstream version 0.12.2 [0m
   [1;34m->[;1m checking for update for 'noisetorch-bin'[0m
 [32m          [UP-TO-DATE] [noisetorch-bin][0.12.2-1] matches upstream version 0.12.2 [0m
+  [1;34m->[;1m checking for update for 'nomacs'[0m
+[37m             [UNKNOWN] [nomacs][1:3.17.2295-3] upstream version is 3.16.224 [0m
   [1;34m->[;1m checking for update for 'nordic-theme'[0m
 [32m          [UP-TO-DATE] [nordic-theme][2.2.0-1] matches upstream version 2.2.0 [0m
   [1;34m->[;1m checking for update for 'nordvpn-bin'[0m
 [37m             [UNKNOWN] [nordvpn-bin][3.17.4-1] No release found for https://repo.nordvpn.com/deb/nordvpn/debian/pool/main/nordvpn_3.17.4_amd64.deb [0m
   [1;34m->[;1m checking for update for 'notion-app'[0m
 [32m          [UP-TO-DATE] [notion-app][2.0.18-1] matches upstream version 2.0.18-1 [0m
+  [1;34m->[;1m checking for update for 'nyaa-bin'[0m
+[32m          [UP-TO-DATE] [nyaa-bin][0.8.0-1] matches upstream version 0.8.0 [0m
   [1;34m->[;1m checking for update for 'obfs4proxy'[0m
 [37m             [UNKNOWN] [obfs4proxy][0.0.14-1] upstream version is obfs4proxy-0.0.14 [0m
   [1;34m->[;1m checking for update for 'obs-plugin-input-overlay-bin'[0m
@@ -360,7 +374,7 @@ advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m checking for update for 'pm2ml'[0m
 [37m             [UNKNOWN] [pm2ml][2021.11.20.1-14] No release found for https://xyne.dev/projects/pm2ml/src/pm2ml-2021.11.20.1.tar.xz [0m
   [1;34m->[;1m checking for update for 'popcorntime-bin'[0m
-[32m          [UP-TO-DATE] [popcorntime-bin][0.5.0-1] matches upstream version 0.5.0 [0m
+[32m          [UP-TO-DATE] [popcorntime-bin][0.5.1-2] matches upstream version 0.5.1 [0m
   [1;34m->[;1m checking for update for 'powerpill'[0m
 [37m             [UNKNOWN] [powerpill][2021.11-14] No release found for https://xyne.dev/projects/powerpill/src/powerpill-2021.11.tar.xz [0m
   [1;34m->[;1m checking for update for 'python-auditok'[0m
@@ -426,7 +440,9 @@ advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m checking for update for 'python3-xcpf'[0m
 [37m             [UNKNOWN] [python3-xcpf][2021.12-13] No release found for https://xyne.dev/projects/python3-xcpf/src/python3-xcpf-2021.12.tar.xz [0m
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
-[31m         [OUT-OF-DATE] [qbittorrent-vuetorrent-bin][2.7.2-1] should be updated to 2.7.3 [0m
+[32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][2.7.3-1] matches upstream version 2.7.3 [0m
+  [1;34m->[;1m checking for update for 'qogir-icon-theme'[0m
+[37m             [UNKNOWN] [qogir-icon-theme][2023.06.05-1] Failed to parse upstream version: invalid version format: 2023-06-05 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
 [32m          [UP-TO-DATE] [qrcp][0.11.2-1] matches upstream version 0.11.2 [0m
   [1;34m->[;1m checking for update for 'qrcp-bin'[0m
@@ -460,7 +476,7 @@ advcpmv: new version found - 9.4 => 9.5
 [37m             [UNKNOWN] [rxfetch][1.0-2] Failed to obtain GitHub release for mangeshrex/rxfetch from https://api.github.com/repos/mangeshrex/rxfetch/releases/latest: No GitHub project found for mangeshrex/rxfetch on https://api.github.com/repos/mangeshrex/rxfetch/releases/latest [0m
   [1;34m->[;1m checking for update for 'selectdefaultapplication-git'[0m
   [1;34m->[;1m checking for update for 'session-desktop-bin'[0m
-[32m          [UP-TO-DATE] [session-desktop-bin][1.12.1-1] matches upstream version 1.12.1 [0m
+[31m         [OUT-OF-DATE] [session-desktop-bin][1.12.1-1] should be updated to 1.12.2 [0m
   [1;34m->[;1m checking for update for 'sherlock-git'[0m
   [1;34m->[;1m checking for update for 'siji-git'[0m
   [1;34m->[;1m checking for update for 'simple-mtpfs'[0m
@@ -471,7 +487,7 @@ advcpmv: new version found - 9.4 => 9.5
 [37m             [UNKNOWN] [speedometer][2.9-2] Failed to obtain GitHub release for wardi/speedometer from https://api.github.com/repos/wardi/speedometer/releases/latest: No GitHub project found for wardi/speedometer on https://api.github.com/repos/wardi/speedometer/releases/latest [0m
   [1;34m->[;1m checking for update for 'speedread-git'[0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
-[32m          [UP-TO-DATE] [spicetify-cli][2.36.4-1] matches upstream version 2.36.4 [0m
+[32m          [UP-TO-DATE] [spicetify-cli][2.36.5-1] matches upstream version 2.36.5 [0m
   [1;34m->[;1m checking for update for 'spotdl'[0m
 [32m          [UP-TO-DATE] [spotdl][4.2.5-4] matches upstream version 4.2.5 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
@@ -500,7 +516,7 @@ advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m checking for update for 'teams'[0m
 [37m             [UNKNOWN] [teams][1.5.00.23861-1] No release found for https://web.archive.org/web/20221130115842if_/https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.5.00.23861_amd64.deb [0m
   [1;34m->[;1m checking for update for 'terser'[0m
-[31m         [OUT-OF-DATE] [terser][5.30.0-1] should be updated to 5.30.3 [0m
+[32m          [UP-TO-DATE] [terser][5.30.3-1] matches upstream version 5.30.3 [0m
   [1;34m->[;1m checking for update for 'tgpt-bin'[0m
 [32m          [UP-TO-DATE] [tgpt-bin][2.7.3-1] matches upstream version 2.7.3 [0m
   [1;34m->[;1m checking for update for 'themix-export-spotify-git'[0m
@@ -524,7 +540,7 @@ advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m checking for update for 'toilet-fonts'[0m
 [37m             [UNKNOWN] [toilet-fonts][1.0-2] No release found for ftp://ftp.figlet.org/pub/figlet/fonts/ours.tar.gz [0m
   [1;34m->[;1m checking for update for 'tor-browser-bin'[0m
-[37m             [UNKNOWN] [tor-browser-bin][13.0.13-1] No release found for tor-browser.desktop.in [0m
+[37m             [UNKNOWN] [tor-browser-bin][13.0.14-1] No release found for tor-browser.desktop.in [0m
   [1;34m->[;1m checking for update for 'trizen'[0m
 [32m          [UP-TO-DATE] [trizen][1:1.68-1] matches upstream version 1.68 [0m
   [1;34m->[;1m checking for update for 'tt-bin'[0m
@@ -550,7 +566,7 @@ advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m checking for update for 'tuifimanager'[0m
 [37m             [UNKNOWN] [tuifimanager][3.3.5-1] Failed to parse upstream version: invalid version format: .3.3.5 [0m
   [1;34m->[;1m checking for update for 'tutanota-desktop-bin'[0m
-[37m             [UNKNOWN] [tutanota-desktop-bin][220.240408.0-1] No release found for tutanota-desktop-220.240408.0.AppImage::https://app.tuta.com/desktop/tutanota-desktop-linux.AppImage [0m
+[37m             [UNKNOWN] [tutanota-desktop-bin][220.240411.0-1] No release found for tutanota-desktop-220.240411.0.AppImage::https://app.tuta.com/desktop/tutanota-desktop-linux.AppImage [0m
   [1;34m->[;1m checking for update for 'typora'[0m
 [37m             [UNKNOWN] [typora][1.8.10-1] No release found for https://typora.io/linux/typora_1.8.10_amd64.deb [0m
   [1;34m->[;1m checking for update for 'uftrace'[0m
@@ -570,13 +586,14 @@ advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m checking for update for 'vrms-arch'[0m
 [37m             [UNKNOWN] [vrms-arch][0.1.0.r25.g802c767-1] Failed to obtain GitHub release for orospakr/vrms-arch.git from https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest: No GitHub project found for orospakr/vrms-arch.git on https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'vscodium-bin'[0m
-[32m          [UP-TO-DATE] [vscodium-bin][1.88.0.24096-1] matches upstream version 1.88.0.24096 [0m
+[32m          [UP-TO-DATE] [vscodium-bin][1.88.1.24104-1] matches upstream version 1.88.1.24104 [0m
   [1;34m->[;1m checking for update for 'waydroid'[0m
 [37m             [UNKNOWN] [waydroid][1.4.2-1] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
-[37m             [UNKNOWN] [waydroid-image][18.1_20240323-1] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-18.1-20240323-VANILLA-waydroid_x86_64-system.zip [0m
+[37m             [UNKNOWN] [waydroid-image][18.1_20240413-1] No release found for https://sourceforge.net/projects/waydroid/files/images/system/lineage/waydroid_x86_64/lineage-18.1-20240413-VANILLA-waydroid_x86_64-system.zip [0m
   [1;34m->[;1m checking for update for 'wd719x-firmware'[0m
 [32m          [UP-TO-DATE] [wd719x-firmware][1-7] matches upstream version 1-7 [0m
+  [1;34m->[;1m checking for update for 'we10x-icon-theme-git'[0m
   [1;34m->[;1m checking for update for 'webtorrent-bittorrent-tracker'[0m
 [32m          [UP-TO-DATE] [webtorrent-bittorrent-tracker][11.0.2-1] matches upstream version 11.0.2 [0m
   [1;34m->[;1m checking for update for 'webtorrent-cli'[0m
@@ -585,6 +602,8 @@ advcpmv: new version found - 9.4 => 9.5
 [32m          [UP-TO-DATE] [webtorrent-desktop-bin][0.24.0-1] matches upstream version 0.24.0 [0m
   [1;34m->[;1m checking for update for 'webtty'[0m
 [32m          [UP-TO-DATE] [webtty][0.5.1-1] matches upstream version 0.5.1 [0m
+  [1;34m->[;1m checking for update for 'whitesur-icon-theme'[0m
+[32m          [UP-TO-DATE] [whitesur-icon-theme][2024.04.08-1] matches upstream version 2024.04.08 [0m
   [1;34m->[;1m checking for update for 'wttr'[0m
 [32m          [UP-TO-DATE] [wttr][1.55-2] matches upstream version 1.55 [0m
   [1;34m->[;1m checking for update for 'x11docker'[0m
@@ -596,11 +615,14 @@ advcpmv: new version found - 9.4 => 9.5
 [32m          [UP-TO-DATE] [xinput-gui][0.3.1-1] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'xmind'[0m
 [37m             [UNKNOWN] [xmind][24.01.14361.202403131929-1] No release found for https://dl3.xmind.net/Xmind-for-Linux-amd64bit-24.01.14361-202403131929.deb [0m
+  [1;34m->[;1m checking for update for 'yaru-icon-theme'[0m
   [1;34m->[;1m checking for update for 'yay-bin'[0m
 [32m          [UP-TO-DATE] [yay-bin][12.3.5-1] matches upstream version 12.3.5 [0m
   [1;34m->[;1m checking for update for 'ytmdl-git'[0m
   [1;34m->[;1m checking for update for 'zoom'[0m
-[37m             [UNKNOWN] [zoom][5.17.11-1] No release found for zoom-5.17.11.3835_orig_x86_64.pkg.tar.xz::https://zoom.us/client/5.17.11.3835/zoom_x86_64.pkg.tar.xz [0m
+[37m             [UNKNOWN] [zoom][6.0.0-1] No release found for zoom-6.0.0.4563_orig_x86_64.pkg.tar.xz::https://zoom.us/client/6.0.0.4563/zoom_x86_64.pkg.tar.xz [0m
   [1;34m->[;1m checking for update for 'zotify-git'[0m
   [1;34m->[;1m checking for update for 'zsh-theme-powerlevel10k-git'[0m
+  [1;34m->[;1m checking for update for 'zuki-themes'[0m
+[32m          [UP-TO-DATE] [zuki-themes][4.0-1] matches upstream version 4.0 [0m
   [1;34m->[;1m done.[0m
