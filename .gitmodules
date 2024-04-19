@@ -1283,3 +1283,7 @@
 	path = repos/adwaita-qt-git
 	url = ssh://aur@aur.archlinux.org/adwaita-qt-git.git
 	branch = master
+[submodule "repos/candy-icons-git"]
+	path = repos/candy-icons-git
+	url = ssh://aur@aur.archlinux.org/candy-icons-git.git
+	branch = master
