@@ -1295,3 +1295,7 @@
 	path = repos/megacmd
 	url = ssh://aur@aur.archlinux.org/megacmd.git
 	branch = master
+[submodule "repos/megatools-bin"]
+	path = repos/megatools-bin
+	url = ssh://aur@aur.archlinux.org/megatools-bin.git
+	branch = master
