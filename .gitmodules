@@ -1307,3 +1307,7 @@
 	path = repos/nyaa-bin
 	url = ssh://aur@aur.archlinux.org/nyaa-bin.git
 	branch = master
+[submodule "repos/qogir-icon-theme"]
+	path = repos/qogir-icon-theme
+	url = ssh://aur@aur.archlinux.org/qogir-icon-theme.git
+	branch = master
