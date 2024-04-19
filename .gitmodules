@@ -1279,3 +1279,7 @@
 	path = repos/spotdl
 	url = ssh://aur@aur.archlinux.org/spotdl.git
 	branch = master
+[submodule "repos/adwaita-qt-git"]
+	path = repos/adwaita-qt-git
+	url = ssh://aur@aur.archlinux.org/adwaita-qt-git.git
+	branch = master
