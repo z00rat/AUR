@@ -1287,3 +1287,7 @@
 	path = repos/candy-icons-git
 	url = ssh://aur@aur.archlinux.org/candy-icons-git.git
 	branch = master
+[submodule "repos/kora-icon-theme"]
+	path = repos/kora-icon-theme
+	url = ssh://aur@aur.archlinux.org/kora-icon-theme.git
+	branch = master
