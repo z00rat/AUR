@@ -1299,3 +1299,7 @@
 	path = repos/megatools-bin
 	url = ssh://aur@aur.archlinux.org/megatools-bin.git
 	branch = master
+[submodule "repos/nomacs"]
+	path = repos/nomacs
+	url = ssh://aur@aur.archlinux.org/nomacs.git
+	branch = master
