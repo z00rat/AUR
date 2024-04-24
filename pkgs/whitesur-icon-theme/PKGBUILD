@@ -4,8 +4,8 @@
 
 pkgname=whitesur-icon-theme
 _pkgname=WhiteSur-icon-theme
-pkgver=2024.04.08
-_pkgver=$pkgver
+pkgver=2024.04.22
+_pkgver="${pkgver//./-}"
 pkgrel=1
 pkgdesc="MacOS Big Sur like icon theme for linux desktops"
 arch=('any')
@@ -20,7 +20,7 @@ license=('GPL-3.0-only')
 url="https://github.com/vinceliuice/WhiteSur-icon-theme"
 options=('!strip')
 source=("${_pkgname}-${_pkgver}.tar.gz"::"${url}/archive/${_pkgver}.tar.gz")
-sha256sums=('d44bbb8b6f0ded630267d0ce324d2b8eb78d04323a309ceed8ecc28f331f527a')
+sha256sums=('8ca875adcb8aefa58239b5faeab9c9cb645758c590fae8f83391f7e50fcca6cc')
 
 package() {
 	cd "${srcdir}/${_pkgname}-${_pkgver}"

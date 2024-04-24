@@ -8,12 +8,9 @@ libratbag-git
 python-ffmpy
 qrcp-bin
   [1;34m->[;1m running pkgoutofdate[0m
-session-desktop-bin: new version found - 1.12.1 => 1.12.2
 resvg: new version found - 0.40.0 => 0.41.0
 libglibutil: new version found - 1.0.76 => 1.0.77
 discord-chat-exporter-cli: new version found - 2.42.8 => 2.42.9
-discord-ptb: new version found - 0.0.79 => 0.0.80
-burpsuite: new version found - 2024.3.1.1 => 2024.3.1.2
 advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m sourcing .env[0m
   [1;34m->[;1m running aur-out-of-date[0m
@@ -83,7 +80,7 @@ advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m checking for update for 'bubblejail'[0m
 [32m          [UP-TO-DATE] [bubblejail][0.8.3-1] matches upstream version 0.8.3 [0m
   [1;34m->[;1m checking for update for 'burpsuite'[0m
-[37m             [UNKNOWN] [burpsuite][2024.3.1.1-1] No release found for burpsuite-2024.3.1.1.jar::https://portswigger.net/burp/releases/download?product=community&version=2024.3.1.1&type=Jar [0m
+[37m             [UNKNOWN] [burpsuite][2024.3.1.2-1] No release found for burpsuite-2024.3.1.2.jar::https://portswigger.net/burp/releases/download?product=community&version=2024.3.1.2&type=Jar [0m
   [1;34m->[;1m checking for update for 'candy-icons-git'[0m
   [1;34m->[;1m checking for update for 'cava'[0m
 [32m          [UP-TO-DATE] [cava][0.10.1-1] matches upstream version 0.10.1 [0m
@@ -93,7 +90,7 @@ advcpmv: new version found - 9.4 => 9.5
 [37m             [UNKNOWN] [ccache-ext][3-1] No release found for update-ccache-links.sh [0m
   [1;34m->[;1m checking for update for 'check-broken-packages-pacman-hook-git'[0m
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
-[32m          [UP-TO-DATE] [cloudflared-bin][2024.4.0-1] matches upstream version 2024.4.0 [0m
+[31m         [OUT-OF-DATE] [cloudflared-bin][2024.4.0-1] should be updated to 2024.4.1 [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
 [31m         [OUT-OF-DATE] [code-features][1.88.0-1] should be updated to 1.88.1 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
@@ -121,7 +118,7 @@ advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m checking for update for 'discord-chat-exporter-cli'[0m
 [31m         [OUT-OF-DATE] [discord-chat-exporter-cli][2.42.8-1] should be updated to 2.42.9 [0m
   [1;34m->[;1m checking for update for 'discord-ptb'[0m
-[37m             [UNKNOWN] [discord-ptb][0.0.79-2] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.79/discord-ptb-0.0.79.tar.gz [0m
+[37m             [UNKNOWN] [discord-ptb][0.0.80-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.80/discord-ptb-0.0.80.tar.gz [0m
   [1;34m->[;1m checking for update for 'docker-systemctl-replacement-git'[0m
   [1;34m->[;1m checking for update for 'downgrade'[0m
 [37m             [UNKNOWN] [downgrade][11.3.0-1] Failed to obtain GitHub release for archlinux-downgrade/downgrade from https://api.github.com/repos/archlinux-downgrade/downgrade/releases/latest: No GitHub project found for archlinux-downgrade/downgrade on https://api.github.com/repos/archlinux-downgrade/downgrade/releases/latest [0m
@@ -142,7 +139,7 @@ advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m checking for update for 'envycontrol'[0m
 [32m          [UP-TO-DATE] [envycontrol][3.4.0-1] matches upstream version 3.4.0 [0m
   [1;34m->[;1m checking for update for 'ezshare'[0m
-[31m         [OUT-OF-DATE] [ezshare][1.10.0-1] should be updated to 1.10.2 [0m
+[32m          [UP-TO-DATE] [ezshare][1.10.2-1] matches upstream version 1.10.2 [0m
   [1;34m->[;1m checking for update for 'fakepkg'[0m
 [37m             [UNKNOWN] [fakepkg][1.42.2-1] Failed to obtain GitHub release for Edenhofer/fakepkg from https://api.github.com/repos/Edenhofer/fakepkg/releases/latest: No GitHub project found for Edenhofer/fakepkg on https://api.github.com/repos/Edenhofer/fakepkg/releases/latest [0m
   [1;34m->[;1m checking for update for 'faq-bin'[0m
@@ -179,13 +176,13 @@ advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m checking for update for 'git-cola'[0m
 [32m          [UP-TO-DATE] [git-cola][4.6.1-1] matches upstream version 4.6.1 [0m
   [1;34m->[;1m checking for update for 'gitify-bin'[0m
-[31m         [OUT-OF-DATE] [gitify-bin][5.3.0-1] should be updated to 5.4.0 [0m
+[32m          [UP-TO-DATE] [gitify-bin][5.4.0-1] matches upstream version 5.4.0 [0m
   [1;34m->[;1m checking for update for 'gitstatus'[0m
 [32m          [UP-TO-DATE] [gitstatus][1.5.5-1] matches upstream version 1.5.5 [0m
   [1;34m->[;1m checking for update for 'gocryptfs-ui'[0m
 [37m             [UNKNOWN] [gocryptfs-ui][1.3-1] Failed to obtain GitHub release for bulletmark/gocryptfs-ui from https://api.github.com/repos/bulletmark/gocryptfs-ui/releases/latest: No GitHub project found for bulletmark/gocryptfs-ui on https://api.github.com/repos/bulletmark/gocryptfs-ui/releases/latest [0m
   [1;34m->[;1m checking for update for 'google-chrome'[0m
-[37m             [UNKNOWN] [google-chrome][124.0.6367.60-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_124.0.6367.60-1_amd64.deb [0m
+[37m             [UNKNOWN] [google-chrome][124.0.6367.78-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_124.0.6367.78-1_amd64.deb [0m
   [1;34m->[;1m checking for update for 'grub-hook'[0m
 [37m             [UNKNOWN] [grub-hook][2.1-1] No release found for grub.hook [0m
   [1;34m->[;1m checking for update for 'grub-reboot-poweroff'[0m
@@ -440,7 +437,7 @@ advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m checking for update for 'python3-xcpf'[0m
 [37m             [UNKNOWN] [python3-xcpf][2021.12-13] No release found for https://xyne.dev/projects/python3-xcpf/src/python3-xcpf-2021.12.tar.xz [0m
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
-[32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][2.7.3-1] matches upstream version 2.7.3 [0m
+[32m          [UP-TO-DATE] [qbittorrent-vuetorrent-bin][2.8.0-1] matches upstream version 2.8.0 [0m
   [1;34m->[;1m checking for update for 'qogir-icon-theme'[0m
 [37m             [UNKNOWN] [qogir-icon-theme][2023.06.05-1] Failed to parse upstream version: invalid version format: 2023-06-05 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
@@ -471,12 +468,12 @@ advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m checking for update for 'rtags'[0m
 [32m          [UP-TO-DATE] [rtags][2.38-1] matches upstream version 2.38 [0m
   [1;34m->[;1m checking for update for 'runjs-bin'[0m
-[32m          [UP-TO-DATE] [runjs-bin][2.11.0-1] matches upstream version 2.11.0 [0m
+[31m         [OUT-OF-DATE] [runjs-bin][2.11.0-1] should be updated to 2.12.0 [0m
   [1;34m->[;1m checking for update for 'rxfetch'[0m
 [37m             [UNKNOWN] [rxfetch][1.0-2] Failed to obtain GitHub release for mangeshrex/rxfetch from https://api.github.com/repos/mangeshrex/rxfetch/releases/latest: No GitHub project found for mangeshrex/rxfetch on https://api.github.com/repos/mangeshrex/rxfetch/releases/latest [0m
   [1;34m->[;1m checking for update for 'selectdefaultapplication-git'[0m
   [1;34m->[;1m checking for update for 'session-desktop-bin'[0m
-[31m         [OUT-OF-DATE] [session-desktop-bin][1.12.1-1] should be updated to 1.12.2 [0m
+[32m          [UP-TO-DATE] [session-desktop-bin][1.12.2-1] matches upstream version 1.12.2 [0m
   [1;34m->[;1m checking for update for 'sherlock-git'[0m
   [1;34m->[;1m checking for update for 'siji-git'[0m
   [1;34m->[;1m checking for update for 'simple-mtpfs'[0m
@@ -487,7 +484,7 @@ advcpmv: new version found - 9.4 => 9.5
 [37m             [UNKNOWN] [speedometer][2.9-2] Failed to obtain GitHub release for wardi/speedometer from https://api.github.com/repos/wardi/speedometer/releases/latest: No GitHub project found for wardi/speedometer on https://api.github.com/repos/wardi/speedometer/releases/latest [0m
   [1;34m->[;1m checking for update for 'speedread-git'[0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
-[32m          [UP-TO-DATE] [spicetify-cli][2.36.5-1] matches upstream version 2.36.5 [0m
+[32m          [UP-TO-DATE] [spicetify-cli][2.36.8-1] matches upstream version 2.36.8 [0m
   [1;34m->[;1m checking for update for 'spotdl'[0m
 [32m          [UP-TO-DATE] [spotdl][4.2.5-4] matches upstream version 4.2.5 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
@@ -516,7 +513,7 @@ advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m checking for update for 'teams'[0m
 [37m             [UNKNOWN] [teams][1.5.00.23861-1] No release found for https://web.archive.org/web/20221130115842if_/https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.5.00.23861_amd64.deb [0m
   [1;34m->[;1m checking for update for 'terser'[0m
-[32m          [UP-TO-DATE] [terser][5.30.3-1] matches upstream version 5.30.3 [0m
+[31m         [OUT-OF-DATE] [terser][5.30.3-1] should be updated to 5.30.4 [0m
   [1;34m->[;1m checking for update for 'tgpt-bin'[0m
 [32m          [UP-TO-DATE] [tgpt-bin][2.7.3-1] matches upstream version 2.7.3 [0m
   [1;34m->[;1m checking for update for 'themix-export-spotify-git'[0m
@@ -564,7 +561,7 @@ advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m checking for update for 'tty-clock'[0m
 [37m             [UNKNOWN] [tty-clock][2.3-2] Failed to obtain GitHub release for xorg62/tty-clock from https://api.github.com/repos/xorg62/tty-clock/releases/latest: No GitHub project found for xorg62/tty-clock on https://api.github.com/repos/xorg62/tty-clock/releases/latest [0m
   [1;34m->[;1m checking for update for 'tuifimanager'[0m
-[37m             [UNKNOWN] [tuifimanager][3.3.5-1] Failed to parse upstream version: invalid version format: .3.3.5 [0m
+[32m          [UP-TO-DATE] [tuifimanager][4.0.0-1] matches upstream version 4.0.0 [0m
   [1;34m->[;1m checking for update for 'tutanota-desktop-bin'[0m
 [37m             [UNKNOWN] [tutanota-desktop-bin][220.240411.0-1] No release found for tutanota-desktop-220.240411.0.AppImage::https://app.tuta.com/desktop/tutanota-desktop-linux.AppImage [0m
   [1;34m->[;1m checking for update for 'typora'[0m
@@ -603,7 +600,7 @@ advcpmv: new version found - 9.4 => 9.5
   [1;34m->[;1m checking for update for 'webtty'[0m
 [32m          [UP-TO-DATE] [webtty][0.5.1-1] matches upstream version 0.5.1 [0m
   [1;34m->[;1m checking for update for 'whitesur-icon-theme'[0m
-[32m          [UP-TO-DATE] [whitesur-icon-theme][2024.04.08-1] matches upstream version 2024.04.08 [0m
+[37m             [UNKNOWN] [whitesur-icon-theme][2024.04.22-1] Failed to parse upstream version: invalid version format: 2024-04-22 [0m
   [1;34m->[;1m checking for update for 'wttr'[0m
 [32m          [UP-TO-DATE] [wttr][1.55-2] matches upstream version 1.55 [0m
   [1;34m->[;1m checking for update for 'x11docker'[0m
@@ -615,12 +612,11 @@ advcpmv: new version found - 9.4 => 9.5
 [32m          [UP-TO-DATE] [xinput-gui][0.3.1-1] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'xmind'[0m
 [37m             [UNKNOWN] [xmind][24.01.14361.202403131929-1] No release found for https://dl3.xmind.net/Xmind-for-Linux-amd64bit-24.01.14361-202403131929.deb [0m
-  [1;34m->[;1m checking for update for 'yaru-icon-theme'[0m
   [1;34m->[;1m checking for update for 'yay-bin'[0m
 [32m          [UP-TO-DATE] [yay-bin][12.3.5-1] matches upstream version 12.3.5 [0m
   [1;34m->[;1m checking for update for 'ytmdl-git'[0m
   [1;34m->[;1m checking for update for 'zoom'[0m
-[37m             [UNKNOWN] [zoom][6.0.0-1] No release found for zoom-6.0.0.4563_orig_x86_64.pkg.tar.xz::https://zoom.us/client/6.0.0.4563/zoom_x86_64.pkg.tar.xz [0m
+[37m             [UNKNOWN] [zoom][6.0.2-1] No release found for zoom-6.0.2.4680_orig_x86_64.pkg.tar.xz::https://zoom.us/client/6.0.2.4680/zoom_x86_64.pkg.tar.xz [0m
   [1;34m->[;1m checking for update for 'zotify-git'[0m
   [1;34m->[;1m checking for update for 'zsh-theme-powerlevel10k-git'[0m
   [1;34m->[;1m checking for update for 'zuki-themes'[0m
