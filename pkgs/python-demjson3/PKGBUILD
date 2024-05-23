@@ -4,7 +4,7 @@
 pkgname=python-demjson3
 _pkgname=${pkgname#python-}
 pkgver=3.0.6
-pkgrel=1
+pkgrel=2
 pkgdesc="encoder, decoder, and lint/validator for JSON (JavaScript Object Notation) compliant with RFC 7159"
 arch=('any')
 url="https://github.com/nielstron/demjson3"

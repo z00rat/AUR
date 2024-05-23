@@ -1,6 +1,9 @@
+arttime-git
 awmtt
-discord-chat-exporter-cli
 hibernator
 libratbag-git
+python-dacite
 python-ffmpy
+python-spotipy
 qrcp-bin
+zoom
