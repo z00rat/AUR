@@ -1,9 +1,7 @@
-arttime-git
 awmtt
 hibernator
 libratbag-git
+megacmd
 python-dacite
 python-ffmpy
-python-spotipy
 qrcp-bin
-zoom

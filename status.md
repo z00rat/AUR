@@ -1,12 +1,14 @@
-  [1;34m->[;1m number of packags that are 330 tracked[0m
-  [1;34m->[;1m number of packages that are 195 installed[0m
+  [1;34m->[;1m number of packags that are 334 tracked[0m
+  [1;34m->[;1m number of packages that are 199 installed[0m
   [1;34m->[;1m packages that are not tracked but installed in the system...[0m
 adwaita-qt5-git
 adwaita-qt6-git
 cf-tool
 firefox-profile-switcher-connector-bin
+lagrange-bin
 leetgo-bin
 libratbag-git
+lpm-git
 lssecret-git
 lua51-inspect
 mandb-ondemand
@@ -20,6 +22,7 @@ python-pulsectl
 python-pwinput
 python-pyogg
 rofi-git
+whatsie
 yaru-icon-theme
   [1;34m->[;1m packages that are tracked but not installed in the system...[0m
 activitywatch-bin
@@ -80,6 +83,7 @@ libuiohook
 libva-intel-driver-hybrid
 light-git
 localepurge
+localsend-bin
 lscolors-git
 lynis-git
 maldet
@@ -110,6 +114,7 @@ parse-torrent
 passivedns-git
 patat-bin
 pikaur
+pkgbrowser
 play-with-mpv-git
 plymouth-theme-arch10
 python-auditok
@@ -149,6 +154,7 @@ speedread-git
 spicetify-cli
 spotify
 stacer
+sublime-text-4
 subuser
 surf-git
 svg-term-cli

@@ -1,25 +1,21 @@
   [1;34m->[;1m checking for out-of-date packages[0m
 
   [1;34m->[;1m listing already flaged packages[0m
-arttime-git
 awmtt
 hibernator
 libratbag-git
+megacmd
 python-dacite
 python-ffmpy
-python-spotipy
 qrcp-bin
-zoom
   [1;34m->[;1m running pkgoutofdate[0m
-uftrace: new version found - 0.15 => 0.16
-resvg: new version found - 0.40.0 => 0.41.0
-qbittorrent-vuetorrent-bin: new version found - 2.8.0 => 2.8.1
-aurutils: new version found - 19.4 => 19.5
-aseprite: new version found - 1.3.6 => 1.3.7
+webtorrent-cli: new version found - 4.1.0 => 5.0.0
+resvg: new version found - 0.41.0 => 0.42.0
+qbittorrent-vuetorrent-bin: new version found - 2.8.1 => 2.9.0
   [1;34m->[;1m sourcing .env[0m
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
-[37m             [UNKNOWN] [activitywatch-bin][0.12.3b17-1] upstream version is 0.12.2 [0m
+[32m          [UP-TO-DATE] [activitywatch-bin][0.13.0-1] matches upstream version 0.13.0 [0m
   [1;34m->[;1m checking for update for 'adbfs-rootless-git'[0m
   [1;34m->[;1m checking for update for 'advcpmv'[0m
 [37m             [UNKNOWN] [advcpmv][9.5-1] No release found for https://ftp.gnu.org/gnu/coreutils/coreutils-9.5.tar.xz [0m
@@ -39,19 +35,21 @@ aseprite: new version found - 1.3.6 => 1.3.7
   [1;34m->[;1m checking for update for 'arttime-git'[0m
   [1;34m->[;1m checking for update for 'ascii-rain-git'[0m
   [1;34m->[;1m checking for update for 'aseprite'[0m
-[31m         [OUT-OF-DATE] [aseprite][1.3.6-1] should be updated to 1.3.7 [0m
+[32m          [UP-TO-DATE] [aseprite][1.3.7-1] matches upstream version 1.3.7 [0m
   [1;34m->[;1m checking for update for 'ast-firmware'[0m
 [37m             [UNKNOWN] [ast-firmware][501-1] Failed to obtain GitHub release for Labaman/ast-firmware from https://api.github.com/repos/Labaman/ast-firmware/releases/latest: No GitHub project found for Labaman/ast-firmware on https://api.github.com/repos/Labaman/ast-firmware/releases/latest [0m
   [1;34m->[;1m checking for update for 'aur-auto-vote-git'[0m
   [1;34m->[;1m checking for update for 'aur-out-of-date'[0m
 [32m          [UP-TO-DATE] [aur-out-of-date][3.2.0-1] matches upstream version 3.2.0 [0m
   [1;34m->[;1m checking for update for 'aurutils'[0m
-[31m         [OUT-OF-DATE] [aurutils][19.4-1] should be updated to 19.5 [0m
+[32m          [UP-TO-DATE] [aurutils][19.5-1] matches upstream version 19.5 [0m
   [1;34m->[;1m checking for update for 'aurvote-utils'[0m
 [32m          [UP-TO-DATE] [aurvote-utils][1.1.0-1] matches upstream version 1.1.0 [0m
   [1;34m->[;1m checking for update for 'awesome-git'[0m
   [1;34m->[;1m checking for update for 'awmtt'[0m
 [37m             [UNKNOWN] [awmtt][0.5-1] Failed to obtain GitHub release for mikar/awmtt.git from https://api.github.com/repos/mikar/awmtt.git/releases/latest: No GitHub project found for mikar/awmtt.git on https://api.github.com/repos/mikar/awmtt.git/releases/latest [0m
+  [1;34m->[;1m checking for update for 'aws-cli-v2'[0m
+[37m             [UNKNOWN] [aws-cli-v2][2.16.0-1] No release found for https://awscli.amazonaws.com/awscli-2.16.0.tar.gz [0m
   [1;34m->[;1m checking for update for 'bash-pipes'[0m
 [32m          [UP-TO-DATE] [bash-pipes][1.3.0-9] matches upstream version 1.3.0 [0m
   [1;34m->[;1m checking for update for 'bashmount'[0m
@@ -84,7 +82,7 @@ aseprite: new version found - 1.3.6 => 1.3.7
   [1;34m->[;1m checking for update for 'bubblejail'[0m
 [32m          [UP-TO-DATE] [bubblejail][0.8.3-1] matches upstream version 0.8.3 [0m
   [1;34m->[;1m checking for update for 'burpsuite'[0m
-[37m             [UNKNOWN] [burpsuite][2024.4.3-1] No release found for burpsuite-2024.4.3.jar::https://portswigger.net/burp/releases/download?product=community&version=2024.4.3&type=Jar [0m
+[37m             [UNKNOWN] [burpsuite][2024.5.1-1] No release found for burpsuite-2024.5.1.jar::https://portswigger.net/burp/releases/download?product=community&version=2024.5.1&type=Jar [0m
   [1;34m->[;1m checking for update for 'candy-icons-git'[0m
   [1;34m->[;1m checking for update for 'cava'[0m
 [32m          [UP-TO-DATE] [cava][0.10.2-2] matches upstream version 0.10.2 [0m
@@ -94,7 +92,7 @@ aseprite: new version found - 1.3.6 => 1.3.7
 [37m             [UNKNOWN] [ccache-ext][3-1] No release found for update-ccache-links.sh [0m
   [1;34m->[;1m checking for update for 'check-broken-packages-pacman-hook-git'[0m
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
-[32m          [UP-TO-DATE] [cloudflared-bin][2024.5.0-1] matches upstream version 2024.5.0 [0m
+[31m         [OUT-OF-DATE] [cloudflared-bin][2024.5.0-1] should be updated to 2024.6.0 [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
 [31m         [OUT-OF-DATE] [code-features][1.89.0-1] should be updated to 1.89.1 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
@@ -120,9 +118,9 @@ aseprite: new version found - 1.3.6 => 1.3.7
   [1;34m->[;1m checking for update for 'diceware'[0m
 [37m             [UNKNOWN] [diceware][0.10-1] Failed to obtain GitHub release for ulif/diceware from https://api.github.com/repos/ulif/diceware/releases/latest: No GitHub project found for ulif/diceware on https://api.github.com/repos/ulif/diceware/releases/latest [0m
   [1;34m->[;1m checking for update for 'discord-chat-exporter-cli'[0m
-[32m          [UP-TO-DATE] [discord-chat-exporter-cli][2.43.1-1] matches upstream version 2.43.1 [0m
+[32m          [UP-TO-DATE] [discord-chat-exporter-cli][2.43.3-1] matches upstream version 2.43.3 [0m
   [1;34m->[;1m checking for update for 'discord-ptb'[0m
-[37m             [UNKNOWN] [discord-ptb][0.0.85-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.85/discord-ptb-0.0.85.tar.gz [0m
+[37m             [UNKNOWN] [discord-ptb][0.0.86-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.86/discord-ptb-0.0.86.tar.gz [0m
   [1;34m->[;1m checking for update for 'docker-systemctl-replacement-git'[0m
   [1;34m->[;1m checking for update for 'downgrade'[0m
 [37m             [UNKNOWN] [downgrade][11.3.0-1] Failed to obtain GitHub release for archlinux-downgrade/downgrade from https://api.github.com/repos/archlinux-downgrade/downgrade/releases/latest: No GitHub project found for archlinux-downgrade/downgrade on https://api.github.com/repos/archlinux-downgrade/downgrade/releases/latest [0m
@@ -131,7 +129,7 @@ aseprite: new version found - 1.3.6 => 1.3.7
   [1;34m->[;1m checking for update for 'dragon-drop'[0m
 [32m          [UP-TO-DATE] [dragon-drop][1.2.0-2] matches upstream version 1.2.0 [0m
   [1;34m->[;1m checking for update for 'drawio-desktop-bin'[0m
-[31m         [OUT-OF-DATE] [drawio-desktop-bin][24.4.0-1] should be updated to 24.4.6 [0m
+[32m          [UP-TO-DATE] [drawio-desktop-bin][24.4.13-1] matches upstream version 24.4.13 [0m
   [1;34m->[;1m checking for update for 'dry-bin'[0m
 [32m          [UP-TO-DATE] [dry-bin][0.11.2-1] matches upstream version 0.11.2 [0m
   [1;34m->[;1m checking for update for 'edex-ui-bin'[0m
@@ -154,8 +152,14 @@ aseprite: new version found - 1.3.6 => 1.3.7
 [32m          [UP-TO-DATE] [ffpb][0.4.1-1] matches upstream version 0.4.1 [0m
   [1;34m->[;1m checking for update for 'figlet-fonts'[0m
 [37m             [UNKNOWN] [figlet-fonts][1.0-3] No release found for ours.tar.gz::ftp://ftp.figlet.org/pub/figlet/fonts/ours.tar.gz [0m
+  [1;34m->[;1m checking for update for 'firefox-clearurls'[0m
+[37m             [UNKNOWN] [firefox-clearurls][1.26.1-1] No release found for clearurls-1.26.1.xpi::https://addons.mozilla.org/firefox/downloads/latest/clearurls/latest.xpi [0m
   [1;34m->[;1m checking for update for 'firefox-esr-bin'[0m
 [37m             [UNKNOWN] [firefox-esr-bin][115.11.0-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/115.11.0esr/linux-x86_64/en-US/firefox-115.11.0esr.tar.bz2 [0m
+  [1;34m->[;1m checking for update for 'firefox-extension-greasemonkey'[0m
+[37m             [UNKNOWN] [firefox-extension-greasemonkey][4.11-1] No release found for https://addons.mozilla.org/firefox/downloads/file/3716451/greasemonkey-4.11-an+fx.xpi [0m
+  [1;34m->[;1m checking for update for 'firefox-extension-tab-session-manager'[0m
+[31m         [OUT-OF-DATE] [firefox-extension-tab-session-manager][6.12.1-1] should be updated to 7.0.0 [0m
   [1;34m->[;1m checking for update for 'flamegraph'[0m
 [32m          [UP-TO-DATE] [flamegraph][1.0-2] matches upstream version 1.0 [0m
   [1;34m->[;1m checking for update for 'florence'[0m
@@ -172,7 +176,7 @@ aseprite: new version found - 1.3.6 => 1.3.7
   [1;34m->[;1m checking for update for 'funny-manpages'[0m
 [32m          [UP-TO-DATE] [funny-manpages][2.3-1] matches upstream version 2.3 [0m
   [1;34m->[;1m checking for update for 'gallery-dl'[0m
-[32m          [UP-TO-DATE] [gallery-dl][1.26.9-3] matches upstream version 1.26.9 [0m
+[32m          [UP-TO-DATE] [gallery-dl][1.27.0-1] matches upstream version 1.27.0 [0m
   [1;34m->[;1m checking for update for 'gconf-cleaner'[0m
 [37m             [UNKNOWN] [gconf-cleaner][0.0.3-2] No release found for https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gconf-cleaner/gconf-cleaner-0.0.3.tar.gz [0m
   [1;34m->[;1m checking for update for 'gconf-gtk2'[0m
@@ -180,13 +184,13 @@ aseprite: new version found - 1.3.6 => 1.3.7
   [1;34m->[;1m checking for update for 'git-cola'[0m
 [32m          [UP-TO-DATE] [git-cola][4.7.1-1] matches upstream version 4.7.1 [0m
   [1;34m->[;1m checking for update for 'gitify-bin'[0m
-[31m         [OUT-OF-DATE] [gitify-bin][5.5.0-1] should be updated to 5.6.0 [0m
+[32m          [UP-TO-DATE] [gitify-bin][5.6.0-1] matches upstream version 5.6.0 [0m
   [1;34m->[;1m checking for update for 'gitstatus'[0m
 [32m          [UP-TO-DATE] [gitstatus][1.5.5-1] matches upstream version 1.5.5 [0m
   [1;34m->[;1m checking for update for 'gocryptfs-ui'[0m
 [37m             [UNKNOWN] [gocryptfs-ui][1.3-1] Failed to obtain GitHub release for bulletmark/gocryptfs-ui from https://api.github.com/repos/bulletmark/gocryptfs-ui/releases/latest: No GitHub project found for bulletmark/gocryptfs-ui on https://api.github.com/repos/bulletmark/gocryptfs-ui/releases/latest [0m
   [1;34m->[;1m checking for update for 'google-chrome'[0m
-[37m             [UNKNOWN] [google-chrome][125.0.6422.76-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_125.0.6422.76-1_amd64.deb [0m
+[37m             [UNKNOWN] [google-chrome][125.0.6422.141-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_125.0.6422.141-1_amd64.deb [0m
   [1;34m->[;1m checking for update for 'grub-hook'[0m
 [37m             [UNKNOWN] [grub-hook][2.1-1] No release found for grub.hook [0m
   [1;34m->[;1m checking for update for 'grub-reboot-poweroff'[0m
@@ -209,7 +213,7 @@ aseprite: new version found - 1.3.6 => 1.3.7
 [37m             [UNKNOWN] [ibus-autostart][1.3-1] No release found for ibus-autostart: %!w(<nil>) [0m
   [1;34m->[;1m checking for update for 'ibus-avro-git'[0m
   [1;34m->[;1m checking for update for 'imhex'[0m
-[32m          [UP-TO-DATE] [imhex][1.33.2-1] matches upstream version 1.33.2 [0m
+[32m          [UP-TO-DATE] [imhex][1.34.0-2] matches upstream version 1.34.0 [0m
   [1;34m->[;1m checking for update for 'invoice-bin'[0m
 [32m          [UP-TO-DATE] [invoice-bin][0.1.0-1] matches upstream version 0.1.0 [0m
   [1;34m->[;1m checking for update for 'jiq-bin'[0m
@@ -240,7 +244,7 @@ aseprite: new version found - 1.3.6 => 1.3.7
   [1;34m->[;1m checking for update for 'localsend-bin'[0m
 [32m          [UP-TO-DATE] [localsend-bin][1.14.0-3] matches upstream version 1.14.0 [0m
   [1;34m->[;1m checking for update for 'losslesscut-bin'[0m
-[37m             [UNKNOWN] [losslesscut-bin][3.61.0-4] upstream version is 3.59.1 [0m
+[32m          [UP-TO-DATE] [losslesscut-bin][3.61.1-4] matches upstream version 3.61.1 [0m
   [1;34m->[;1m checking for update for 'lscolors-git'[0m
   [1;34m->[;1m checking for update for 'lsdesktopf'[0m
 [37m             [UNKNOWN] [lsdesktopf][1.0.7-4] Failed to obtain GitHub release for AndyCrowd/list-desktop-files.git from https://api.github.com/repos/AndyCrowd/list-desktop-files.git/releases/latest: No GitHub project found for AndyCrowd/list-desktop-files.git on https://api.github.com/repos/AndyCrowd/list-desktop-files.git/releases/latest [0m
@@ -283,7 +287,7 @@ aseprite: new version found - 1.3.6 => 1.3.7
   [1;34m->[;1m checking for update for 'mymonero'[0m
 [32m          [UP-TO-DATE] [mymonero][1.3.3-2] matches upstream version 1.3.3 [0m
   [1;34m->[;1m checking for update for 'neo-matrix'[0m
-[32m          [UP-TO-DATE] [neo-matrix][0.6.1-2] matches upstream version 0.6.1 [0m
+[32m          [UP-TO-DATE] [neo-matrix][0.6.1-3] matches upstream version 0.6.1 [0m
   [1;34m->[;1m checking for update for 'nodejs-autocannon'[0m
 [32m          [UP-TO-DATE] [nodejs-autocannon][7.15.0-1] matches upstream version 7.15.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-clinic'[0m
@@ -297,7 +301,7 @@ aseprite: new version found - 1.3.6 => 1.3.7
   [1;34m->[;1m checking for update for 'nodejs-mapscii'[0m
 [32m          [UP-TO-DATE] [nodejs-mapscii][0.3.1-4] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'nodejs-nodemon'[0m
-[32m          [UP-TO-DATE] [nodejs-nodemon][3.1.0-1] matches upstream version 3.1.0 [0m
+[31m         [OUT-OF-DATE] [nodejs-nodemon][3.1.0-1] should be updated to 3.1.3 [0m
   [1;34m->[;1m checking for update for 'nodejs-npm2arch'[0m
 [32m          [UP-TO-DATE] [nodejs-npm2arch][2.2.0-1] matches upstream version 2.2.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-ungit'[0m
@@ -360,7 +364,7 @@ aseprite: new version found - 1.3.6 => 1.3.7
   [1;34m->[;1m checking for update for 'patat-bin'[0m
 [32m          [UP-TO-DATE] [patat-bin][0.12.0.0-1] matches upstream version 0.12.0.0 [0m
   [1;34m->[;1m checking for update for 'pfetch'[0m
-[32m          [UP-TO-DATE] [pfetch][1.0.1-1] matches upstream version 1.0.1 [0m
+[32m          [UP-TO-DATE] [pfetch][1.1.0-1] matches upstream version 1.1.0 [0m
   [1;34m->[;1m checking for update for 'pikaur'[0m
 [32m          [UP-TO-DATE] [pikaur][1.21-1] matches upstream version 1.21 [0m
   [1;34m->[;1m checking for update for 'piper-git'[0m
@@ -381,7 +385,7 @@ aseprite: new version found - 1.3.6 => 1.3.7
   [1;34m->[;1m checking for update for 'python-auditok'[0m
 [32m          [UP-TO-DATE] [python-auditok][0.2.0-1] matches upstream version 0.2.0 [0m
   [1;34m->[;1m checking for update for 'python-bandcamp-api'[0m
-[32m          [UP-TO-DATE] [python-bandcamp-api][0.2.3-2] matches upstream version 0.2.3 [0m
+[37m             [UNKNOWN] [python-bandcamp-api][0.2.3-2] No PyPI release found for bandcamp_api: Get "https://pypi.org/pypi/bandcamp_api/json": dial tcp: lookup pypi.org: no such host [0m
   [1;34m->[;1m checking for update for 'python-dacite'[0m
 [32m          [UP-TO-DATE] [python-dacite][1.8.1-2] matches upstream version 1.8.1 [0m
   [1;34m->[;1m checking for update for 'python-demjson3'[0m
@@ -391,7 +395,7 @@ aseprite: new version found - 1.3.6 => 1.3.7
   [1;34m->[;1m checking for update for 'python-ffsubsync'[0m
 [37m             [UNKNOWN] [python-ffsubsync][0.4.25-2] upstream version is 0.4.22 [0m
   [1;34m->[;1m checking for update for 'python-future-annotations'[0m
-[32m          [UP-TO-DATE] [python-future-annotations][1.0.0-2] matches upstream version 1.0.0 [0m
+[37m             [UNKNOWN] [python-future-annotations][1.0.0-2] No PyPI release found for future_annotations: Get "https://pypi.org/pypi/future_annotations/json": dial tcp: lookup pypi.org: no such host [0m
   [1;34m->[;1m checking for update for 'python-gbinder'[0m
 [37m             [UNKNOWN] [python-gbinder][1.1.2-2] Failed to obtain GitHub release for erfanoabdi/gbinder-python.git from https://api.github.com/repos/erfanoabdi/gbinder-python.git/releases/latest: No GitHub project found for erfanoabdi/gbinder-python.git on https://api.github.com/repos/erfanoabdi/gbinder-python.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'python-gtts'[0m
@@ -403,7 +407,7 @@ aseprite: new version found - 1.3.6 => 1.3.7
   [1;34m->[;1m checking for update for 'python-jaconv'[0m
 [37m             [UNKNOWN] [python-jaconv][0.3.4-3] Failed to obtain GitHub release for ikegami-yukino/jaconv.git from https://api.github.com/repos/ikegami-yukino/jaconv.git/releases/latest: No GitHub project found for ikegami-yukino/jaconv.git on https://api.github.com/repos/ikegami-yukino/jaconv.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'python-polib'[0m
-[32m          [UP-TO-DATE] [python-polib][1.2.0-2] matches upstream version 1.2.0 [0m
+[37m             [UNKNOWN] [python-polib][1.2.0-2] No PyPI release found for polib: Get "https://pypi.org/pypi/polib/json": dial tcp: lookup pypi.org: no such host [0m
   [1;34m->[;1m checking for update for 'python-pydes'[0m
 [37m             [UNKNOWN] [python-pydes][2.0.1-4] Failed to obtain GitHub release for twhiteman/pyDes from https://api.github.com/repos/twhiteman/pyDes/releases/latest: No GitHub project found for twhiteman/pyDes on https://api.github.com/repos/twhiteman/pyDes/releases/latest [0m
   [1;34m->[;1m checking for update for 'python-pykakasi'[0m
@@ -411,27 +415,27 @@ aseprite: new version found - 1.3.6 => 1.3.7
   [1;34m->[;1m checking for update for 'python-pynput'[0m
 [37m             [UNKNOWN] [python-pynput][1.7.7-1] Failed to obtain GitHub release for moses-palmer/pynput from https://api.github.com/repos/moses-palmer/pynput/releases/latest: No GitHub project found for moses-palmer/pynput on https://api.github.com/repos/moses-palmer/pynput/releases/latest [0m
   [1;34m->[;1m checking for update for 'python-pysubs2'[0m
-[31m         [OUT-OF-DATE] [python-pysubs2][1.6.1-1] should be updated to 1.7.1 [0m
+[37m             [UNKNOWN] [python-pysubs2][1.6.1-1] No PyPI release found for pysubs2: Get "https://pypi.org/pypi/pysubs2/json": dial tcp: lookup pypi.org: no such host [0m
   [1;34m->[;1m checking for update for 'python-pytube'[0m
 [37m             [UNKNOWN] [python-pytube][15.0.0-1] upstream version is 11.0.1 [0m
   [1;34m->[;1m checking for update for 'python-simber'[0m
 [32m          [UP-TO-DATE] [python-simber][0.2.6-0] matches upstream version 0.2.6 [0m
   [1;34m->[;1m checking for update for 'python-soundcloud-v2'[0m
-[32m          [UP-TO-DATE] [python-soundcloud-v2][1.3.7-2] matches upstream version 1.3.7 [0m
+[37m             [UNKNOWN] [python-soundcloud-v2][1.3.7-2] No PyPI release found for soundcloud-v2: Get "https://pypi.org/pypi/soundcloud-v2/json": dial tcp: lookup pypi.org: no such host [0m
   [1;34m->[;1m checking for update for 'python-spotdl'[0m
 [32m          [UP-TO-DATE] [python-spotdl][4.2.5-3] matches upstream version 4.2.5 [0m
   [1;34m->[;1m checking for update for 'python-spotipy'[0m
-[32m          [UP-TO-DATE] [python-spotipy][2.23.0-1] matches upstream version 2.23.0 [0m
+[32m          [UP-TO-DATE] [python-spotipy][2.24.0-1] matches upstream version 2.24.0 [0m
   [1;34m->[;1m checking for update for 'python-srt'[0m
 [37m             [UNKNOWN] [python-srt][3.5.3-1] Failed to obtain GitHub release for cdown/srt from https://api.github.com/repos/cdown/srt/releases/latest: No GitHub project found for cdown/srt on https://api.github.com/repos/cdown/srt/releases/latest [0m
   [1;34m->[;1m checking for update for 'python-syncedlyrics'[0m
-[32m          [UP-TO-DATE] [python-syncedlyrics][0.9.0-2] matches upstream version 0.9.0 [0m
+[32m          [UP-TO-DATE] [python-syncedlyrics][0.10.1-1] matches upstream version 0.10.1 [0m
   [1;34m->[;1m checking for update for 'python-torrequest'[0m
-[32m          [UP-TO-DATE] [python-torrequest][0.1.0-4] matches upstream version 0.1.0 [0m
+[37m             [UNKNOWN] [python-torrequest][0.1.0-4] No PyPI release found for torrequest: Get "https://pypi.org/pypi/torrequest/json": dial tcp: lookup pypi.org: no such host [0m
   [1;34m->[;1m checking for update for 'python-uni-curses'[0m
 [37m             [UNKNOWN] [python-uni-curses][3.0.0-1] Failed to parse upstream version: invalid version format: .3.0.0 [0m
   [1;34m->[;1m checking for update for 'python-x256'[0m
-[32m          [UP-TO-DATE] [python-x256][0.0.3-1] matches upstream version 0.0.3 [0m
+[37m             [UNKNOWN] [python-x256][0.0.3-1] No PyPI release found for x256: Get "https://pypi.org/pypi/x256/json": dial tcp: lookup pypi.org: no such host [0m
   [1;34m->[;1m checking for update for 'python-youtube-search-git'[0m
   [1;34m->[;1m checking for update for 'python2-twodict-git'[0m
   [1;34m->[;1m checking for update for 'python3-memoizedb'[0m
@@ -441,7 +445,7 @@ aseprite: new version found - 1.3.6 => 1.3.7
   [1;34m->[;1m checking for update for 'python3-xcpf'[0m
 [37m             [UNKNOWN] [python3-xcpf][2021.12-14] No release found for https://xyne.dev/projects/python3-xcpf/src/python3-xcpf-2021.12.tar.xz [0m
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
-[31m         [OUT-OF-DATE] [qbittorrent-vuetorrent-bin][2.8.0-1] should be updated to 2.8.1 [0m
+[31m         [OUT-OF-DATE] [qbittorrent-vuetorrent-bin][2.8.1-1] should be updated to 2.9.0 [0m
   [1;34m->[;1m checking for update for 'qogir-icon-theme'[0m
 [37m             [UNKNOWN] [qogir-icon-theme][2023.06.05-1] Failed to parse upstream version: invalid version format: 2023-06-05 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
@@ -462,7 +466,7 @@ aseprite: new version found - 1.3.6 => 1.3.7
 [37m             [UNKNOWN] [reboot-arch-btw][0.8.0-1] No release found for reboot-arch-btw-0.8.0.tar.gz::https://static.crates.io/crates/reboot-arch-btw/reboot-arch-btw-0.8.0.crate [0m
   [1;34m->[;1m checking for update for 'rescached-git'[0m
   [1;34m->[;1m checking for update for 'resvg'[0m
-[31m         [OUT-OF-DATE] [resvg][0.40.0-1] should be updated to 0.41.0 [0m
+[31m         [OUT-OF-DATE] [resvg][0.41.0-1] should be updated to 0.42.0 [0m
   [1;34m->[;1m checking for update for 'retroshare'[0m
 [32m          [UP-TO-DATE] [retroshare][0.6.7.2-1] matches upstream version 0.6.7.2 [0m
   [1;34m->[;1m checking for update for 'robo3t-bin'[0m
@@ -472,7 +476,7 @@ aseprite: new version found - 1.3.6 => 1.3.7
   [1;34m->[;1m checking for update for 'rtags'[0m
 [32m          [UP-TO-DATE] [rtags][2.38-1] matches upstream version 2.38 [0m
   [1;34m->[;1m checking for update for 'runjs-bin'[0m
-[31m         [OUT-OF-DATE] [runjs-bin][2.12.0-1] should be updated to 2.12.1 [0m
+[32m          [UP-TO-DATE] [runjs-bin][2.12.1-1] matches upstream version 2.12.1 [0m
   [1;34m->[;1m checking for update for 'rxfetch'[0m
 [37m             [UNKNOWN] [rxfetch][1.0-2] Failed to obtain GitHub release for mangeshrex/rxfetch from https://api.github.com/repos/mangeshrex/rxfetch/releases/latest: No GitHub project found for mangeshrex/rxfetch on https://api.github.com/repos/mangeshrex/rxfetch/releases/latest [0m
   [1;34m->[;1m checking for update for 'selectdefaultapplication-git'[0m
@@ -488,7 +492,7 @@ aseprite: new version found - 1.3.6 => 1.3.7
 [37m             [UNKNOWN] [speedometer][2.9-2] Failed to obtain GitHub release for wardi/speedometer from https://api.github.com/repos/wardi/speedometer/releases/latest: No GitHub project found for wardi/speedometer on https://api.github.com/repos/wardi/speedometer/releases/latest [0m
   [1;34m->[;1m checking for update for 'speedread-git'[0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
-[32m          [UP-TO-DATE] [spicetify-cli][2.36.11-1] matches upstream version 2.36.11 [0m
+[32m          [UP-TO-DATE] [spicetify-cli][2.36.12-1] matches upstream version 2.36.12 [0m
   [1;34m->[;1m checking for update for 'spotdl'[0m
 [32m          [UP-TO-DATE] [spotdl][4.2.5-5] matches upstream version 4.2.5 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
@@ -517,7 +521,7 @@ aseprite: new version found - 1.3.6 => 1.3.7
   [1;34m->[;1m checking for update for 'teams'[0m
 [37m             [UNKNOWN] [teams][1.5.00.23861-1] No release found for https://web.archive.org/web/20221130115842if_/https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.5.00.23861_amd64.deb [0m
   [1;34m->[;1m checking for update for 'terser'[0m
-[31m         [OUT-OF-DATE] [terser][5.30.4-1] should be updated to 5.31.0 [0m
+[32m          [UP-TO-DATE] [terser][5.31.0-1] matches upstream version 5.31.0 [0m
   [1;34m->[;1m checking for update for 'tgpt-bin'[0m
 [32m          [UP-TO-DATE] [tgpt-bin][2.7.4-1] matches upstream version 2.7.4 [0m
   [1;34m->[;1m checking for update for 'themix-export-spotify-git'[0m
@@ -567,11 +571,11 @@ aseprite: new version found - 1.3.6 => 1.3.7
   [1;34m->[;1m checking for update for 'tuifimanager'[0m
 [37m             [UNKNOWN] [tuifimanager][4.0.6-1] Failed to parse upstream version: invalid version format: .4.0.6 [0m
   [1;34m->[;1m checking for update for 'tutanota-desktop-bin'[0m
-[37m             [UNKNOWN] [tutanota-desktop-bin][229.240517.0-1] Failed to parse upstream version: invalid version format: tutanota-desktop-release-229.240517.0 [0m
+[37m             [UNKNOWN] [tutanota-desktop-bin][229.240517.0-1] Failed to parse upstream version: invalid version format: tutanota-ios-release-230.240603.0 [0m
   [1;34m->[;1m checking for update for 'typora'[0m
 [37m             [UNKNOWN] [typora][1.8.10-1] No release found for https://typora.io/linux/typora_1.8.10_amd64.deb [0m
   [1;34m->[;1m checking for update for 'uftrace'[0m
-[31m         [OUT-OF-DATE] [uftrace][0.15-1] should be updated to 0.16 [0m
+[32m          [UP-TO-DATE] [uftrace][0.16-1] matches upstream version 0.16 [0m
   [1;34m->[;1m checking for update for 'upd72020x-fw'[0m
 [32m          [UP-TO-DATE] [upd72020x-fw][1:1.0.0-2] matches upstream version 1.0.0 [0m
   [1;34m->[;1m checking for update for 'update-grub'[0m
@@ -587,7 +591,7 @@ aseprite: new version found - 1.3.6 => 1.3.7
   [1;34m->[;1m checking for update for 'vrms-arch'[0m
 [37m             [UNKNOWN] [vrms-arch][0.1.0.r25.g802c767-1] Failed to obtain GitHub release for orospakr/vrms-arch.git from https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest: No GitHub project found for orospakr/vrms-arch.git on https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'vscodium-bin'[0m
-[32m          [UP-TO-DATE] [vscodium-bin][1.89.1.24130-1] matches upstream version 1.89.1.24130 [0m
+[32m          [UP-TO-DATE] [vscodium-bin][1.89.1.24130-2] matches upstream version 1.89.1.24130 [0m
   [1;34m->[;1m checking for update for 'waydroid'[0m
 [37m             [UNKNOWN] [waydroid][1.4.2-1] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
@@ -596,15 +600,15 @@ aseprite: new version found - 1.3.6 => 1.3.7
 [32m          [UP-TO-DATE] [wd719x-firmware][1-7] matches upstream version 1-7 [0m
   [1;34m->[;1m checking for update for 'we10x-icon-theme-git'[0m
   [1;34m->[;1m checking for update for 'webtorrent-bittorrent-tracker'[0m
-[31m         [OUT-OF-DATE] [webtorrent-bittorrent-tracker][11.0.2-1] should be updated to 11.1.0 [0m
+[32m          [UP-TO-DATE] [webtorrent-bittorrent-tracker][11.1.0-1] matches upstream version 11.1.0 [0m
   [1;34m->[;1m checking for update for 'webtorrent-cli'[0m
-[32m          [UP-TO-DATE] [webtorrent-cli][4.1.0-1] matches upstream version 4.1.0 [0m
+[31m         [OUT-OF-DATE] [webtorrent-cli][4.1.0-1] should be updated to 5.1.0 [0m
   [1;34m->[;1m checking for update for 'webtorrent-desktop-bin'[0m
 [32m          [UP-TO-DATE] [webtorrent-desktop-bin][0.24.0-1] matches upstream version 0.24.0 [0m
   [1;34m->[;1m checking for update for 'webtty'[0m
 [32m          [UP-TO-DATE] [webtty][0.5.1-1] matches upstream version 0.5.1 [0m
   [1;34m->[;1m checking for update for 'whitesur-icon-theme'[0m
-[37m             [UNKNOWN] [whitesur-icon-theme][2024.04.22-1] Failed to parse upstream version: invalid version format: 2024-04-22 [0m
+[37m             [UNKNOWN] [whitesur-icon-theme][2024.05.28-1] Failed to parse upstream version: invalid version format: 2024-05-28 [0m
   [1;34m->[;1m checking for update for 'wttr'[0m
 [32m          [UP-TO-DATE] [wttr][1.55-2] matches upstream version 1.55 [0m
   [1;34m->[;1m checking for update for 'x11docker'[0m
@@ -620,7 +624,7 @@ aseprite: new version found - 1.3.6 => 1.3.7
 [32m          [UP-TO-DATE] [yay-bin][12.3.5-1] matches upstream version 12.3.5 [0m
   [1;34m->[;1m checking for update for 'ytmdl-git'[0m
   [1;34m->[;1m checking for update for 'zoom'[0m
-[37m             [UNKNOWN] [zoom][6.0.2-1] No release found for zoom-6.0.2.4680_orig_x86_64.pkg.tar.xz::https://zoom.us/client/6.0.2.4680/zoom_x86_64.pkg.tar.xz [0m
+[37m             [UNKNOWN] [zoom][6.0.12-1] No release found for zoom-6.0.12.5501_orig_x86_64.pkg.tar.xz::https://zoom.us/client/6.0.12.5501/zoom_x86_64.pkg.tar.xz [0m
   [1;34m->[;1m checking for update for 'zotify-git'[0m
   [1;34m->[;1m checking for update for 'zsh-theme-powerlevel10k-git'[0m
   [1;34m->[;1m checking for update for 'zuki-themes'[0m
