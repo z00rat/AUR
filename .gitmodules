@@ -1323,3 +1323,7 @@
 	path = repos/zuki-themes
 	url = ssh://aur@aur.archlinux.org/zuki-themes.git
 	branch = master
+[submodule "repos/firefox-extension-tab-session-manager"]
+	path = repos/firefox-extension-tab-session-manager
+	url = ssh://aur@aur.archlinux.org/firefox-extension-tab-session-manager.git
+	branch = master
