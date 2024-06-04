@@ -1327,3 +1327,7 @@
 	path = repos/firefox-extension-tab-session-manager
 	url = ssh://aur@aur.archlinux.org/firefox-extension-tab-session-manager.git
 	branch = master
+[submodule "repos/firefox-extension-greasemonkey"]
+	path = repos/firefox-extension-greasemonkey
+	url = ssh://aur@aur.archlinux.org/firefox-extension-greasemonkey.git
+	branch = master
