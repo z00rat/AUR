@@ -1335,3 +1335,7 @@
 	path = repos/firefox-clearurls
 	url = ssh://aur@aur.archlinux.org/firefox-clearurls.git
 	branch = master
+[submodule "repos/aws-cli-v2"]
+	path = repos/aws-cli-v2
+	url = ssh://aur@aur.archlinux.org/aws-cli-v2.git
+	branch = master
