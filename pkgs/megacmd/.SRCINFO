@@ -1,7 +1,7 @@
 pkgbase = megacmd
 	pkgdesc = MEGA Command Line Interactive and Scriptable Application
-	pkgver = 1.6.3
-	pkgrel = 1
+	pkgver = 1.7.0
+	pkgrel = 4
 	url = https://github.com/meganz/MEGAcmd
 	arch = x86_64
 	license = custom
@@ -16,11 +16,11 @@ pkgbase = megacmd
 	depends = libmediainfo
 	depends = pcre
 	depends = libuv
-	source = megacmd-1.6.3.tar.gz::https://github.com/meganz/MEGAcmd/archive/1.6.3_Linux.tar.gz
-	source = mega-sdk-965e4c7cd518d48c5b2fbf0084a244fdecc44b35.tar.gz::https://github.com/meganz/sdk/archive/965e4c7cd518d48c5b2fbf0084a244fdecc44b35.tar.gz
+	source = megacmd-1.7.0-4.tar.gz::https://github.com/meganz/MEGAcmd/archive/1.7.0_ArchLinux.tar.gz
+	source = mega-sdk-e448c09e73a4496329f46e538f1f20143b618ed1.tar.gz::https://github.com/meganz/sdk/archive/e448c09e73a4496329f46e538f1f20143b618ed1.tar.gz
 	source = fix-ffmpeg-compile.patch
-	sha512sums = 425584a1350e5965aea8a09076bb447b4d6a00fc0305e9a19ad91ed8292eae5b758e4c1a41ea7c0887c2f8e0644cf1d1154e3b33503ddcf4713e4a13dd80a6f6
-	sha512sums = 97158dee4c8f2075124d576c67780d6cffa9f39713730d1c99adeb6632b6953bb3867e09eaa1c9babbe0c5aa83029ceb581dd930b5c884b396512f56240f37f7
-	sha512sums = cb29bd8be1aacd5b5de6c433a8857711b1bbce1e6e64cbb891d7ea1957f81d56070dda672b59dc3c7fff4472b0e891f4a461e336251d68dff36989aec85642b6
+	sha512sums = c1b058ef665cdff4c623a9b63643f9daf3fb0cd3875acdf96e3e01dfb5e8109b0ac39c1769755f2e8f8a6f82ecd8b300902665e2ac168363dd8dc9ca94d415b5
+	sha512sums = 9620bbc50db1ee4dd329f91cd5b34f7f8f9443f3d83258b76077c5cab7157fd2d31fc4e8ef18fbc07053d66eda0c9c722cfa9eb86c710c0b112a37da533b4bb5
+	sha512sums = e843e40f72c69b05669478f13b092c115e37505692df1e781724f4466fc56b2339aa44470dbaec16c1cb06816fc779c08f57037cf8bfcf6d8aa966e00c3bf013
 
 pkgname = megacmd

@@ -1,7 +1,7 @@
 awmtt
 hibernator
 libratbag-git
-megacmd
+mawk
 python-dacite
 python-ffmpy
 qrcp-bin

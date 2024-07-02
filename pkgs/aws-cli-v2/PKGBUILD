@@ -1,11 +1,12 @@
-# Maintainer: Kino <cybao292261@163.com>
+# Maintainer: Kevin Stolp <kevinstolp@gmail.com>
+# Contributor: Kino <cybao292261@163.com>
 # Contributor: Chih-Hsuan Yen <yan12125@archlinux.org>
 # Contributor: Marcel Campello <marcel.campello@prafrentex.com.br>
 # Contributor: David Birks <david@birks.dev>
 
 pkgname=aws-cli-v2
 # https://github.com/aws/aws-cli/raw/v2/CHANGELOG.rst
-pkgver=2.16.0
+pkgver=2.17.6
 pkgrel=1
 pkgdesc='Unified command line interface for Amazon Web Services (version 2)'
 arch=(any)
@@ -32,7 +33,7 @@ source=("https://awscli.amazonaws.com/awscli-$pkgver.tar.gz"{,.sig}
         botocore-2551.patch
         aws-cli-v2-8106.patch
         botocore-2967.patch)
-sha256sums=('f6e15071a4327e57f0aa2b8f52a35b1378528b72cb68a586302ae7ae97087d05'
+sha256sums=('2d0a29a2eda4e469b4756cc01017851b7dda4af92f6403004851747e8678b2e6'
             'SKIP'
             '0267e41561ab2c46a97ebfb024f0b047aabc9e6b9866f204b2c1a84ee5810d63'
             '893d61d7e958c3c02bfa1e03bf58f6f6abd98849d248cc661f1c56423df9f312'
