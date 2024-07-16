@@ -1339,3 +1339,7 @@
 	path = repos/aws-cli-v2
 	url = ssh://aur@aur.archlinux.org/aws-cli-v2.git
 	branch = master
+[submodule "repos/logisim"]
+	path = repos/logisim
+	url = ssh://aur@aur.archlinux.org/logisim.git
+	branch = master
