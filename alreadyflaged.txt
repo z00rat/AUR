@@ -1,7 +1,10 @@
 awmtt
+firefox-extension-tab-session-manager
 hibernator
+hydroxide
 libratbag-git
-mawk
+nomacs
 python-dacite
 python-ffmpy
 qrcp-bin
+zoom
