@@ -1343,3 +1343,7 @@
 	path = repos/logisim
 	url = ssh://aur@aur.archlinux.org/logisim.git
 	branch = master
+[submodule "repos/torrentinfo"]
+	path = repos/torrentinfo
+	url = ssh://aur@aur.archlinux.org/torrentinfo.git
+	branch = master
