@@ -1355,3 +1355,7 @@
 	path = repos/bun-bin
 	url = ssh://aur@aur.archlinux.org/bun-bin.git
 	branch = master
+[submodule "repos/vesktop-bin"]
+	path = repos/vesktop-bin
+	url = ssh://aur@aur.archlinux.org/vesktop-bin.git
+	branch = master
