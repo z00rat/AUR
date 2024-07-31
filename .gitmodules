@@ -1347,3 +1347,7 @@
 	path = repos/torrentinfo
 	url = ssh://aur@aur.archlinux.org/torrentinfo.git
 	branch = master
+[submodule "repos/alass"]
+	path = repos/alass
+	url = ssh://aur@aur.archlinux.org/alass.git
+	branch = master
