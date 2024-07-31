@@ -1,22 +1,25 @@
 # Maintainer: Nixuge
 # Contributor: Noah Vogt <noah@noahvogt.com>
+# Contributor: SpieringsAE (aarch64 addition)
 
 # Note: 
 # using the .deb instead of the .tar.gz as it already contains the icons as well as the .desktop file.
 
 pkgname=localsend-bin
-pkgver=1.15.0
-pkgrel=0
+pkgver=1.15.3
+pkgrel=1
 pkgdesc='An open source cross-platform alternative to AirDrop'
 url=https://github.com/localsend/localsend
-arch=(x86_64)
+arch=('x86_64' 'aarch64')
 license=(MIT)
-depends=(fuse2 xdg-user-dirs)
+depends=(fuse2 xdg-user-dirs libayatana-appindicator)
 conflicts=('localsend')
 provides=('localsend')
 options=(!debug)
-source=("https://github.com/localsend/localsend/releases/download/v${pkgver}/LocalSend-${pkgver}-linux-x86-64.deb")
-sha256sums=('d6d5b7d58af8942dae5283630357cf8acef7f73fac0ce09acb339ada14e21657')
+source_x86_64=("${url}/releases/download/v${pkgver}/LocalSend-${pkgver}-linux-x86-64.deb")
+source_aarch64=("${url}/releases/download/v${pkgver}/LocalSend-${pkgver}-linux-arm-64.deb")
+sha256sums_x86_64=('c66d3ea3f14bcb1774b796be92d6f8d98dd3702d02a8fee1da8a6cace83fcee1')
+sha256sums_aarch64=('8798feb4c7aa5be6108f6ba0658050e27daea659f71a1e496adff7e7a4bb5e65')
 _pkgdesktop="localsend_app.desktop"
 
 

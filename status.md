@@ -1,5 +1,5 @@
-  [1;34m->[;1m number of packags that are 336 tracked[0m
-  [1;34m->[;1m number of packages that are 204 installed[0m
+  [1;34m->[;1m number of packags that are 339 tracked[0m
+  [1;34m->[;1m number of packages that are 208 installed[0m
   [1;34m->[;1m packages that are not tracked but installed in the system...[0m
 adwaita-qt5-git
 adwaita-qt6-git
@@ -109,7 +109,6 @@ obs-plugin-input-overlay-bin
 openbangla-keyboard
 opensnitch-git
 p7zip-gui
-passivedns-git
 patat-bin
 pikaur
 pkgbrowser
