@@ -1351,3 +1351,7 @@
 	path = repos/alass
 	url = ssh://aur@aur.archlinux.org/alass.git
 	branch = master
+[submodule "repos/bun-bin"]
+	path = repos/bun-bin
+	url = ssh://aur@aur.archlinux.org/bun-bin.git
+	branch = master
