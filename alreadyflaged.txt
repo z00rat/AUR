@@ -1,9 +1,8 @@
 awmtt
-firefox-extension-tab-session-manager
-google-chrome
 hibernator
 hydroxide
 libratbag-git
+megacmd
 passivedns-git
 python-ffmpy
 qrcp-bin
