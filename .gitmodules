@@ -1367,3 +1367,7 @@
 	path = repos/pkgcacheclean
 	url = ssh://aur@aur.archlinux.org/pkgcacheclean.git
 	branch = master
+[submodule "repos/tixati"]
+	path = repos/tixati
+	url = ssh://aur@aur.archlinux.org/tixati.git
+	branch = master
