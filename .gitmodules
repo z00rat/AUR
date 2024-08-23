@@ -1363,3 +1363,7 @@
 	path = repos/zen-browser-bin
 	url = ssh://aur@aur.archlinux.org/zen-browser-bin.git
 	branch = master
+[submodule "repos/pkgcacheclean"]
+	path = repos/pkgcacheclean
+	url = ssh://aur@aur.archlinux.org/pkgcacheclean.git
+	branch = master
