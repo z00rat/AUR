@@ -1371,3 +1371,7 @@
 	path = repos/tixati
 	url = ssh://aur@aur.archlinux.org/tixati.git
 	branch = master
+[submodule "repos/graphite-cli"]
+	path = repos/graphite-cli
+	url = ssh://aur@aur.archlinux.org/graphite-cli.git
+	branch = master
