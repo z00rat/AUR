@@ -1359,3 +1359,7 @@
 	path = repos/vesktop-bin
 	url = ssh://aur@aur.archlinux.org/vesktop-bin.git
 	branch = master
+[submodule "repos/zen-browser-bin"]
+	path = repos/zen-browser-bin
+	url = ssh://aur@aur.archlinux.org/zen-browser-bin.git
+	branch = master
