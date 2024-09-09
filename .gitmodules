@@ -83,10 +83,6 @@
 	path = repos/downloader-cli
 	url = ssh://aur@aur.archlinux.org/downloader-cli.git
 	branch = master
-[submodule "repos/drawio-desktop-bin"]
-	path = repos/drawio-desktop-bin
-	url = ssh://aur@aur.archlinux.org/drawio-desktop-bin.git
-	branch = master
 [submodule "repos/dry-bin"]
 	path = repos/dry-bin
 	url = ssh://aur@aur.archlinux.org/dry-bin.git
