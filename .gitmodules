@@ -1383,3 +1383,7 @@
 	path = repos/picom-git
 	url = ssh://aur@aur.archlinux.org/picom-git.git
 	branch = master
+[submodule "repos/rofi-git"]
+	path = repos/rofi-git
+	url = ssh://aur@aur.archlinux.org/rofi-git.git
+	branch = master
