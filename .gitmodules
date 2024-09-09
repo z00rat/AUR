@@ -1375,3 +1375,7 @@
 	path = repos/graphite-cli
 	url = ssh://aur@aur.archlinux.org/graphite-cli.git
 	branch = master
+[submodule "repos/spicetify-themes-git"]
+	path = repos/spicetify-themes-git
+	url = ssh://aur@aur.archlinux.org/spicetify-themes-git.git
+	branch = master
