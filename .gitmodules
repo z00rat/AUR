@@ -1387,3 +1387,7 @@
 	path = repos/rofi-git
 	url = ssh://aur@aur.archlinux.org/rofi-git.git
 	branch = master
+[submodule "repos/librewolf-bin"]
+	path = repos/librewolf-bin
+	url = ssh://aur@aur.archlinux.org/librewolf-bin.git
+	branch = master
