@@ -1379,3 +1379,7 @@
 	path = repos/spicetify-themes-git
 	url = ssh://aur@aur.archlinux.org/spicetify-themes-git.git
 	branch = master
+[submodule "repos/picom-git"]
+	path = repos/picom-git
+	url = ssh://aur@aur.archlinux.org/picom-git.git
+	branch = master
