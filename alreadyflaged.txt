@@ -1,8 +1,4 @@
-awmtt
-hibernator
 hydroxide
 libratbag-git
-megacmd
-passivedns-git
-python-ffmpy
+python-jaconv
 qrcp-bin

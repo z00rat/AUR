@@ -1,0 +1,16 @@
+pkgbase = spicetify-themes-git
+	pkgdesc = A community-driven collection of themes for spicetify
+	pkgver = r404.4f10f4f
+	pkgrel = 1
+	url = https://github.com/spicetify/spicetify-themes
+	install = spicetify-themes-git.install
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = spicetify-cli
+	provides = spicetify-themes
+	conflicts = spicetify-themes
+	source = spicetify-themes-git::git+https://github.com/spicetify/spicetify-themes
+	md5sums = SKIP
+
+pkgname = spicetify-themes-git

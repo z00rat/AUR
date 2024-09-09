@@ -1,25 +1,17 @@
   [1;34m->[;1m checking for out-of-date packages[0m
 
   [1;34m->[;1m listing already flaged packages[0m
-awmtt
-hibernator
 hydroxide
 libratbag-git
-megacmd
-passivedns-git
-python-ffmpy
+python-jaconv
 qrcp-bin
   [1;34m->[;1m running pkgoutofdate[0m
-session-desktop-bin: new version found - 1.13.0 => 1.13.1
-resvg: new version found - 0.41.0 => 0.42.0
-qbittorrent-vuetorrent-bin: new version found - 2.11.0 => 2.11.1
-python-gtts: new version found - 2.5.2 => 2.5.3
+qrcp: new version found - 0.11.2 => 0.11.3
+qbittorrent-vuetorrent-bin: new version found - 2.11.2 => 2.12.0
+python-spotdl: new version found - 4.2.5 => 4.2.6
 pacman-static: new version found - 6.1.0 => 7.0.0
 hydroxide: new version found - 0.2.28 => 0.2.29
-ddd: new version found - 3.4.0 => 3.4.1
-discord-ptb: new version found - 0.0.99 => 0.0.100
 ctjs-bin: new version found - 5.0.1 => 5.1.0
-betterlockscreen: new version found - 4.3.0 => 4.4.0
   [1;34m->[;1m sourcing .env[0m
   [1;34m->[;1m running aur-out-of-date[0m
   [1;34m->[;1m checking for update for 'activitywatch-bin'[0m
@@ -35,7 +27,7 @@ betterlockscreen: new version found - 4.3.0 => 4.4.0
   [1;34m->[;1m checking for update for 'alass'[0m
 [32m          [UP-TO-DATE] [alass][2.0.0-2] matches upstream version 2.0.0 [0m
   [1;34m->[;1m checking for update for 'ansifilter'[0m
-[32m          [UP-TO-DATE] [ansifilter][2.20-1] matches upstream version 2.20 [0m
+[32m          [UP-TO-DATE] [ansifilter][2.21-1] matches upstream version 2.21 [0m
   [1;34m->[;1m checking for update for 'antibody'[0m
 [32m          [UP-TO-DATE] [antibody][6.1.1-1] matches upstream version 6.1.1 [0m
   [1;34m->[;1m checking for update for 'apg'[0m
@@ -45,21 +37,21 @@ betterlockscreen: new version found - 4.3.0 => 4.4.0
   [1;34m->[;1m checking for update for 'arttime-git'[0m
   [1;34m->[;1m checking for update for 'ascii-rain-git'[0m
   [1;34m->[;1m checking for update for 'aseprite'[0m
-[32m          [UP-TO-DATE] [aseprite][1.3.7-2] matches upstream version 1.3.7 [0m
+[32m          [UP-TO-DATE] [aseprite][1.3.8.1-1] matches upstream version 1.3.8.1 [0m
   [1;34m->[;1m checking for update for 'ast-firmware'[0m
 [37m             [UNKNOWN] [ast-firmware][501-1] Failed to obtain GitHub release for Labaman/ast-firmware from https://api.github.com/repos/Labaman/ast-firmware/releases/latest: No GitHub project found for Labaman/ast-firmware on https://api.github.com/repos/Labaman/ast-firmware/releases/latest [0m
   [1;34m->[;1m checking for update for 'aur-auto-vote-git'[0m
   [1;34m->[;1m checking for update for 'aur-out-of-date'[0m
 [32m          [UP-TO-DATE] [aur-out-of-date][3.2.0-1] matches upstream version 3.2.0 [0m
   [1;34m->[;1m checking for update for 'aurutils'[0m
-[32m          [UP-TO-DATE] [aurutils][19.9-1] matches upstream version 19.9 [0m
+[32m          [UP-TO-DATE] [aurutils][20-1] matches upstream version 20 [0m
   [1;34m->[;1m checking for update for 'aurvote-utils'[0m
 [32m          [UP-TO-DATE] [aurvote-utils][1.1.0-1] matches upstream version 1.1.0 [0m
   [1;34m->[;1m checking for update for 'awesome-git'[0m
   [1;34m->[;1m checking for update for 'awmtt'[0m
-[37m             [UNKNOWN] [awmtt][0.5-1] Failed to obtain GitHub release for mikar/awmtt.git from https://api.github.com/repos/mikar/awmtt.git/releases/latest: No GitHub project found for mikar/awmtt.git on https://api.github.com/repos/mikar/awmtt.git/releases/latest [0m
+[37m             [UNKNOWN] [awmtt][0.5-2] Failed to obtain GitHub release for gmdfalk/awmtt from https://api.github.com/repos/gmdfalk/awmtt/releases/latest: No GitHub project found for gmdfalk/awmtt on https://api.github.com/repos/gmdfalk/awmtt/releases/latest [0m
   [1;34m->[;1m checking for update for 'aws-cli-v2'[0m
-[37m             [UNKNOWN] [aws-cli-v2][2.17.31-1] No release found for https://awscli.amazonaws.com/awscli-2.17.31.tar.gz [0m
+[37m             [UNKNOWN] [aws-cli-v2][2.17.46-1] No release found for https://awscli.amazonaws.com/awscli-2.17.46.tar.gz [0m
   [1;34m->[;1m checking for update for 'bash-pipes'[0m
 [32m          [UP-TO-DATE] [bash-pipes][1.3.0-9] matches upstream version 1.3.0 [0m
   [1;34m->[;1m checking for update for 'bashmount'[0m
@@ -72,7 +64,7 @@ betterlockscreen: new version found - 4.3.0 => 4.4.0
 [32m          [UP-TO-DATE] [betterdiscord-installer-bin][1.3.0-2] matches upstream version 1.3.0 [0m
   [1;34m->[;1m checking for update for 'betterdiscordctl-git'[0m
   [1;34m->[;1m checking for update for 'betterlockscreen'[0m
-[31m         [OUT-OF-DATE] [betterlockscreen][4.3.0-1] should be updated to 4.4.0 [0m
+[32m          [UP-TO-DATE] [betterlockscreen][4.4.0-1] matches upstream version 4.4.0 [0m
   [1;34m->[;1m checking for update for 'bibata-cursor-theme'[0m
 [32m          [UP-TO-DATE] [bibata-cursor-theme][2.0.7-1] matches upstream version 2.0.7 [0m
   [1;34m->[;1m checking for update for 'bibata-cursor-theme-bin'[0m
@@ -80,21 +72,21 @@ betterlockscreen: new version found - 4.3.0 => 4.4.0
   [1;34m->[;1m checking for update for 'boot-to-windows'[0m
 [37m             [UNKNOWN] [boot-to-windows][1.0.2-1] No release found for boot-to-windows.desktop [0m
   [1;34m->[;1m checking for update for 'boundary-bin'[0m
-[37m             [UNKNOWN] [boundary-bin][0.15.5-1] No release found for boundary-controller.service [0m
+[37m             [UNKNOWN] [boundary-bin][0.17.1-1] No release found for boundary-controller.service [0m
   [1;34m->[;1m checking for update for 'boxes'[0m
 [32m          [UP-TO-DATE] [boxes][2.3.0-1] matches upstream version 2.3.0 [0m
   [1;34m->[;1m checking for update for 'brave'[0m
 [37m             [UNKNOWN] [brave][1.52.129-1] Failed to obtain GitHub release for brave/brave-browser.git from https://api.github.com/repos/brave/brave-browser.git/releases/latest: No GitHub project found for brave/brave-browser.git on https://api.github.com/repos/brave/brave-browser.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'briar-desktop-bin'[0m
-[37m             [UNKNOWN] [briar-desktop-bin][0.6.1.beta-1] No release found for https://desktop.briarproject.org/jars/linux/0.6.1-beta/briar-desktop-linux-0.6.1-beta.jar [0m
+[37m             [UNKNOWN] [briar-desktop-bin][0.6.2.beta-1] No release found for https://desktop.briarproject.org/jars/linux/0.6.2-beta/briar-desktop-linux-0.6.2-beta.jar [0m
   [1;34m->[;1m checking for update for 'broken-link-checker'[0m
 [32m          [UP-TO-DATE] [broken-link-checker][0.7.8-1] matches upstream version 0.7.8 [0m
   [1;34m->[;1m checking for update for 'bubblejail'[0m
-[32m          [UP-TO-DATE] [bubblejail][0.9.0-1] matches upstream version 0.9.0 [0m
+[32m          [UP-TO-DATE] [bubblejail][0.9.2-1] matches upstream version 0.9.2 [0m
   [1;34m->[;1m checking for update for 'bun-bin'[0m
-[37m             [UNKNOWN] [bun-bin][1.1.24-1] upstream version is bun-v1.1.24 [0m
+[37m             [UNKNOWN] [bun-bin][1.1.27-1] upstream version is bun-v1.1.27 [0m
   [1;34m->[;1m checking for update for 'burpsuite'[0m
-[37m             [UNKNOWN] [burpsuite][2024.7.3-1] No release found for burpsuite-2024.7.3.jar::https://portswigger.net/burp/releases/download?product=community&version=2024.7.3&type=Jar [0m
+[37m             [UNKNOWN] [burpsuite][2024.8-1] No release found for burpsuite-2024.8.jar::https://portswigger-cdn.net/burp/releases/download?product=community&version=2024.8&type=Jar [0m
   [1;34m->[;1m checking for update for 'candy-icons-git'[0m
   [1;34m->[;1m checking for update for 'cava'[0m
 [32m          [UP-TO-DATE] [cava][0.10.2-2] matches upstream version 0.10.2 [0m
@@ -104,13 +96,13 @@ betterlockscreen: new version found - 4.3.0 => 4.4.0
 [37m             [UNKNOWN] [ccache-ext][3-1] No release found for update-ccache-links.sh [0m
   [1;34m->[;1m checking for update for 'check-broken-packages-pacman-hook-git'[0m
   [1;34m->[;1m checking for update for 'cloudflared-bin'[0m
-[32m          [UP-TO-DATE] [cloudflared-bin][2024.8.2-1] matches upstream version 2024.8.2 [0m
+[32m          [UP-TO-DATE] [cloudflared-bin][2024.8.3-1] matches upstream version 2024.8.3 [0m
   [1;34m->[;1m checking for update for 'code-features'[0m
-[31m         [OUT-OF-DATE] [code-features][1.90.0-1] should be updated to 1.92.2 [0m
+[31m         [OUT-OF-DATE] [code-features][1.90.0-1] should be updated to 1.93.0 [0m
   [1;34m->[;1m checking for update for 'code-marketplace'[0m
 [37m             [UNKNOWN] [code-marketplace][1.90.0-1] No release found for code-marketplace.hook [0m
   [1;34m->[;1m checking for update for 'code-server'[0m
-[32m          [UP-TO-DATE] [code-server][4.91.1-1] matches upstream version 4.91.1 [0m
+[32m          [UP-TO-DATE] [code-server][4.92.2-1] matches upstream version 4.92.2 [0m
   [1;34m->[;1m checking for update for 'cointop'[0m
 [32m          [UP-TO-DATE] [cointop][1.6.10-1] matches upstream version 1.6.10 [0m
   [1;34m->[;1m checking for update for 'cointop-bin'[0m
@@ -124,7 +116,7 @@ betterlockscreen: new version found - 4.3.0 => 4.4.0
   [1;34m->[;1m checking for update for 'dasel-bin'[0m
 [32m          [UP-TO-DATE] [dasel-bin][2.8.1-1] matches upstream version 2.8.1 [0m
   [1;34m->[;1m checking for update for 'ddd'[0m
-[37m             [UNKNOWN] [ddd][3.4.0-12] No release found for http://ftp.gnu.org/gnu/ddd/ddd-3.4.0.tar.gz [0m
+[37m             [UNKNOWN] [ddd][3.4.1-1] No release found for http://ftp.gnu.org/gnu/ddd/ddd-3.4.1.tar.gz [0m
   [1;34m->[;1m checking for update for 'debtap'[0m
 [32m          [UP-TO-DATE] [debtap][3.5.1-1] matches upstream version 3.5.1 [0m
   [1;34m->[;1m checking for update for 'diceware'[0m
@@ -132,7 +124,7 @@ betterlockscreen: new version found - 4.3.0 => 4.4.0
   [1;34m->[;1m checking for update for 'discord-chat-exporter-cli'[0m
 [32m          [UP-TO-DATE] [discord-chat-exporter-cli][2.43.3-1] matches upstream version 2.43.3 [0m
   [1;34m->[;1m checking for update for 'discord-ptb'[0m
-[37m             [UNKNOWN] [discord-ptb][0.0.99-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.99/discord-ptb-0.0.99.tar.gz [0m
+[37m             [UNKNOWN] [discord-ptb][0.0.103-1] No release found for https://dl-ptb.discordapp.net/apps/linux/0.0.103/discord-ptb-0.0.103.tar.gz [0m
   [1;34m->[;1m checking for update for 'docker-systemctl-replacement-git'[0m
   [1;34m->[;1m checking for update for 'downgrade'[0m
 [37m             [UNKNOWN] [downgrade][11.3.0-1] Failed to obtain GitHub release for archlinux-downgrade/downgrade from https://api.github.com/repos/archlinux-downgrade/downgrade/releases/latest: No GitHub project found for archlinux-downgrade/downgrade on https://api.github.com/repos/archlinux-downgrade/downgrade/releases/latest [0m
@@ -141,7 +133,7 @@ betterlockscreen: new version found - 4.3.0 => 4.4.0
   [1;34m->[;1m checking for update for 'dragon-drop'[0m
 [32m          [UP-TO-DATE] [dragon-drop][1.2.0-2] matches upstream version 1.2.0 [0m
   [1;34m->[;1m checking for update for 'drawio-desktop-bin'[0m
-[32m          [UP-TO-DATE] [drawio-desktop-bin][24.7.5-1] matches upstream version 24.7.5 [0m
+[31m         [OUT-OF-DATE] [drawio-desktop-bin][24.7.5-1] should be updated to 24.7.8 [0m
   [1;34m->[;1m checking for update for 'dry-bin'[0m
 [32m          [UP-TO-DATE] [dry-bin][0.11.2-1] matches upstream version 0.11.2 [0m
   [1;34m->[;1m checking for update for 'edex-ui-bin'[0m
@@ -149,9 +141,9 @@ betterlockscreen: new version found - 4.3.0 => 4.4.0
   [1;34m->[;1m checking for update for 'electorrent-bin'[0m
 [32m          [UP-TO-DATE] [electorrent-bin][2.8.3-1] matches upstream version 2.8.3 [0m
   [1;34m->[;1m checking for update for 'electronmail-bin'[0m
-[32m          [UP-TO-DATE] [electronmail-bin][5.2.2-1] matches upstream version 5.2.2 [0m
+[32m          [UP-TO-DATE] [electronmail-bin][5.2.3-1] matches upstream version 5.2.3 [0m
   [1;34m->[;1m checking for update for 'envycontrol'[0m
-[32m          [UP-TO-DATE] [envycontrol][3.4.0-1] matches upstream version 3.4.0 [0m
+[32m          [UP-TO-DATE] [envycontrol][3.5.1-1] matches upstream version 3.5.1 [0m
   [1;34m->[;1m checking for update for 'ezshare'[0m
 [32m          [UP-TO-DATE] [ezshare][1.10.3-1] matches upstream version 1.10.3 [0m
   [1;34m->[;1m checking for update for 'fakepkg'[0m
@@ -167,7 +159,7 @@ betterlockscreen: new version found - 4.3.0 => 4.4.0
   [1;34m->[;1m checking for update for 'firefox-clearurls'[0m
 [37m             [UNKNOWN] [firefox-clearurls][1.26.1-1] No release found for clearurls-1.26.1.xpi::https://addons.mozilla.org/firefox/downloads/latest/clearurls/latest.xpi [0m
   [1;34m->[;1m checking for update for 'firefox-esr-bin'[0m
-[37m             [UNKNOWN] [firefox-esr-bin][128.1.0-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/128.1.0esr/linux-x86_64/en-US/firefox-128.1.0esr.tar.bz2 [0m
+[37m             [UNKNOWN] [firefox-esr-bin][128.2.0-1] No release found for https://ftp.mozilla.org/pub/firefox/releases/128.2.0esr/linux-x86_64/en-US/firefox-128.2.0esr.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'firefox-extension-greasemonkey'[0m
 [37m             [UNKNOWN] [firefox-extension-greasemonkey][4.13-1] No release found for https://addons.mozilla.org/firefox/downloads/file/4332091/greasemonkey-4.13.xpi [0m
   [1;34m->[;1m checking for update for 'firefox-extension-tab-session-manager'[0m
@@ -188,21 +180,23 @@ betterlockscreen: new version found - 4.3.0 => 4.4.0
   [1;34m->[;1m checking for update for 'funny-manpages'[0m
 [32m          [UP-TO-DATE] [funny-manpages][2.3-1] matches upstream version 2.3 [0m
   [1;34m->[;1m checking for update for 'gallery-dl'[0m
-[32m          [UP-TO-DATE] [gallery-dl][1.27.3-1] matches upstream version 1.27.3 [0m
+[32m          [UP-TO-DATE] [gallery-dl][1.27.4-1] matches upstream version 1.27.4 [0m
   [1;34m->[;1m checking for update for 'gconf-cleaner'[0m
 [37m             [UNKNOWN] [gconf-cleaner][0.0.3-2] No release found for https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gconf-cleaner/gconf-cleaner-0.0.3.tar.gz [0m
   [1;34m->[;1m checking for update for 'gconf-gtk2'[0m
 [37m             [UNKNOWN] [gconf-gtk2][3.2.6-5] No release found for https://download.gnome.org/sources/GConf/3.2/GConf-3.2.6.tar.xz [0m
   [1;34m->[;1m checking for update for 'git-cola'[0m
-[32m          [UP-TO-DATE] [git-cola][4.8.1-1] matches upstream version 4.8.1 [0m
+[32m          [UP-TO-DATE] [git-cola][4.8.2-1] matches upstream version 4.8.2 [0m
   [1;34m->[;1m checking for update for 'gitify-bin'[0m
-[31m         [OUT-OF-DATE] [gitify-bin][5.6.0-1] should be updated to 5.12.1 [0m
+[32m          [UP-TO-DATE] [gitify-bin][5.13.1-1] matches upstream version 5.13.1 [0m
   [1;34m->[;1m checking for update for 'gitstatus'[0m
 [32m          [UP-TO-DATE] [gitstatus][1.5.5-1] matches upstream version 1.5.5 [0m
   [1;34m->[;1m checking for update for 'gocryptfs-ui'[0m
 [37m             [UNKNOWN] [gocryptfs-ui][1.3-1] Failed to obtain GitHub release for bulletmark/gocryptfs-ui from https://api.github.com/repos/bulletmark/gocryptfs-ui/releases/latest: No GitHub project found for bulletmark/gocryptfs-ui on https://api.github.com/repos/bulletmark/gocryptfs-ui/releases/latest [0m
   [1;34m->[;1m checking for update for 'google-chrome'[0m
-[37m             [UNKNOWN] [google-chrome][127.0.6533.119-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_127.0.6533.119-1_amd64.deb [0m
+[37m             [UNKNOWN] [google-chrome][128.0.6613.119-1] No release found for https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_128.0.6613.119-1_amd64.deb [0m
+  [1;34m->[;1m checking for update for 'graphite-cli'[0m
+[31m         [OUT-OF-DATE] [graphite-cli][1.4.3-2] should be updated to 1.4.4 [0m
   [1;34m->[;1m checking for update for 'grub-hook'[0m
 [37m             [UNKNOWN] [grub-hook][2.1-1] No release found for grub.hook [0m
   [1;34m->[;1m checking for update for 'grub-reboot-poweroff'[0m
@@ -220,7 +214,7 @@ betterlockscreen: new version found - 4.3.0 => 4.4.0
   [1;34m->[;1m checking for update for 'hydroxide'[0m
 [31m         [OUT-OF-DATE] [hydroxide][0.2.28-4] should be updated to 0.2.29 [0m
   [1;34m->[;1m checking for update for 'i3lock-color'[0m
-[32m          [UP-TO-DATE] [i3lock-color][2.13.c.5-1] matches upstream version 2.13.c.5 [0m
+[32m          [UP-TO-DATE] [i3lock-color][2.13.c.5-3] matches upstream version 2.13.c.5 [0m
   [1;34m->[;1m checking for update for 'ibus-autostart'[0m
 [37m             [UNKNOWN] [ibus-autostart][1.3-1] No release found for ibus-autostart: %!w(<nil>) [0m
   [1;34m->[;1m checking for update for 'ibus-avro-git'[0m
@@ -242,6 +236,8 @@ betterlockscreen: new version found - 4.3.0 => 4.4.0
 [37m             [UNKNOWN] [libgbinder][1.1.40-1] Failed to obtain GitHub release for mer-hybris/libgbinder from https://api.github.com/repos/mer-hybris/libgbinder/releases/latest: No GitHub project found for mer-hybris/libgbinder on https://api.github.com/repos/mer-hybris/libgbinder/releases/latest [0m
   [1;34m->[;1m checking for update for 'libglibutil'[0m
 [37m             [UNKNOWN] [libglibutil][1.0.79-1] Failed to obtain GitHub release for sailfishos/libglibutil from https://api.github.com/repos/sailfishos/libglibutil/releases/latest: No GitHub project found for sailfishos/libglibutil on https://api.github.com/repos/sailfishos/libglibutil/releases/latest [0m
+  [1;34m->[;1m checking for update for 'librewolf-bin'[0m
+[37m             [UNKNOWN] [librewolf-bin][130.0-3] No GitLab release found for gitlab.com/librewolf-community/browser on https://gitlab.com/api/v4/projects/librewolf-community%2Fbrowser/repository/tags [0m
   [1;34m->[;1m checking for update for 'libsvg'[0m
 [37m             [UNKNOWN] [libsvg][0.1.4-7] No release found for https://cairographics.org/snapshots/libsvg-0.1.4.tar.gz [0m
   [1;34m->[;1m checking for update for 'libsvg-cairo'[0m
@@ -254,7 +250,7 @@ betterlockscreen: new version found - 4.3.0 => 4.4.0
   [1;34m->[;1m checking for update for 'localepurge'[0m
 [32m          [UP-TO-DATE] [localepurge][0.7.3.10-1] matches upstream version 0.7.3.10 [0m
   [1;34m->[;1m checking for update for 'localsend-bin'[0m
-[32m          [UP-TO-DATE] [localsend-bin][1.15.3-1] matches upstream version 1.15.3 [0m
+[32m          [UP-TO-DATE] [localsend-bin][1.15.4-1] matches upstream version 1.15.4 [0m
   [1;34m->[;1m checking for update for 'logisim'[0m
 [37m             [UNKNOWN] [logisim][2.7.1-7] No release found for http://downloads.sourceforge.net/sourceforge/circuit/logisim-generic-2.7.1.jar [0m
   [1;34m->[;1m checking for update for 'losslesscut-bin'[0m
@@ -272,7 +268,7 @@ betterlockscreen: new version found - 4.3.0 => 4.4.0
   [1;34m->[;1m checking for update for 'marktext-bin'[0m
 [32m          [UP-TO-DATE] [marktext-bin][0.17.1-2] matches upstream version 0.17.1 [0m
   [1;34m->[;1m checking for update for 'mawk'[0m
-[37m             [UNKNOWN] [mawk][1.3.4_20240622-1] No release found for https://invisible-island.net/archives/mawk/mawk-1.3.4-20240622.tgz [0m
+[37m             [UNKNOWN] [mawk][1.3.4_20240905-1] No release found for https://invisible-island.net/archives/mawk/mawk-1.3.4-20240905.tgz [0m
   [1;34m->[;1m checking for update for 'megacmd'[0m
 [37m             [UNKNOWN] [megacmd][1.7.0-4] Failed to obtain GitHub release for meganz/MEGAcmd from https://api.github.com/repos/meganz/MEGAcmd/releases/latest: No GitHub project found for meganz/MEGAcmd on https://api.github.com/repos/meganz/MEGAcmd/releases/latest [0m
   [1;34m->[;1m checking for update for 'megatools-bin'[0m
@@ -315,11 +311,11 @@ betterlockscreen: new version found - 4.3.0 => 4.4.0
   [1;34m->[;1m checking for update for 'nodejs-mapscii'[0m
 [32m          [UP-TO-DATE] [nodejs-mapscii][0.3.1-4] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'nodejs-nodemon'[0m
-[31m         [OUT-OF-DATE] [nodejs-nodemon][3.1.0-1] should be updated to 3.1.4 [0m
+[32m          [UP-TO-DATE] [nodejs-nodemon][3.1.4-1] matches upstream version 3.1.4 [0m
   [1;34m->[;1m checking for update for 'nodejs-npm2arch'[0m
 [32m          [UP-TO-DATE] [nodejs-npm2arch][2.2.0-1] matches upstream version 2.2.0 [0m
   [1;34m->[;1m checking for update for 'nodejs-ungit'[0m
-[32m          [UP-TO-DATE] [nodejs-ungit][1.5.26-1] matches upstream version 1.5.26 [0m
+[31m         [OUT-OF-DATE] [nodejs-ungit][1.5.26-1] should be updated to 1.5.27 [0m
   [1;34m->[;1m checking for update for 'noisetorch'[0m
 [32m          [UP-TO-DATE] [noisetorch][0.12.2-4] matches upstream version 0.12.2 [0m
   [1;34m->[;1m checking for update for 'noisetorch-bin'[0m
@@ -329,7 +325,7 @@ betterlockscreen: new version found - 4.3.0 => 4.4.0
   [1;34m->[;1m checking for update for 'nordic-theme'[0m
 [32m          [UP-TO-DATE] [nordic-theme][2.2.0-1] matches upstream version 2.2.0 [0m
   [1;34m->[;1m checking for update for 'nordvpn-bin'[0m
-[37m             [UNKNOWN] [nordvpn-bin][3.18.3-1] No release found for https://repo.nordvpn.com/deb/nordvpn/debian/pool/main/nordvpn_3.18.3_amd64.deb [0m
+[37m             [UNKNOWN] [nordvpn-bin][3.18.5-1] No release found for https://repo.nordvpn.com/deb/nordvpn/debian/pool/main/nordvpn_3.18.5_amd64.deb [0m
   [1;34m->[;1m checking for update for 'notion-app'[0m
 [32m          [UP-TO-DATE] [notion-app][2.0.18-1] matches upstream version 2.0.18-1 [0m
   [1;34m->[;1m checking for update for 'nyaa-bin'[0m
@@ -337,7 +333,7 @@ betterlockscreen: new version found - 4.3.0 => 4.4.0
   [1;34m->[;1m checking for update for 'obfs4proxy'[0m
 [37m             [UNKNOWN] [obfs4proxy][0.0.14-1] upstream version is obfs4proxy-0.0.14 [0m
   [1;34m->[;1m checking for update for 'obs-plugin-input-overlay-bin'[0m
-[32m          [UP-TO-DATE] [obs-plugin-input-overlay-bin][5.0.5-1] matches upstream version 5.0.5 [0m
+[32m          [UP-TO-DATE] [obs-plugin-input-overlay-bin][5.0.5-2] matches upstream version 5.0.5 [0m
   [1;34m->[;1m checking for update for 'onedrive-abraunegg'[0m
 [32m          [UP-TO-DATE] [onedrive-abraunegg][2.4.25-1] matches upstream version 2.4.25 [0m
   [1;34m->[;1m checking for update for 'onioncircuits'[0m
@@ -365,7 +361,7 @@ betterlockscreen: new version found - 4.3.0 => 4.4.0
   [1;34m->[;1m checking for update for 'pacman-pstatus'[0m
 [32m          [UP-TO-DATE] [pacman-pstatus][0.3.1-1] matches upstream version 0.3.1 [0m
   [1;34m->[;1m checking for update for 'pacman-static'[0m
-[31m         [OUT-OF-DATE] [pacman-static][6.1.0-10] should be updated to 7.0.0 [0m
+[31m         [OUT-OF-DATE] [pacman-static][6.1.0-12] should be updated to 7.0.0 [0m
   [1;34m->[;1m checking for update for 'pacman-systemd-inhibit'[0m
 [32m          [UP-TO-DATE] [pacman-systemd-inhibit][1.0-3] matches upstream version 1.0 [0m
   [1;34m->[;1m checking for update for 'pacman4console'[0m
@@ -378,14 +374,17 @@ betterlockscreen: new version found - 4.3.0 => 4.4.0
   [1;34m->[;1m checking for update for 'patat-bin'[0m
 [32m          [UP-TO-DATE] [patat-bin][0.12.0.0-1] matches upstream version 0.12.0.0 [0m
   [1;34m->[;1m checking for update for 'pfetch'[0m
-[32m          [UP-TO-DATE] [pfetch][1.3.0-1] matches upstream version 1.3.0 [0m
+[32m          [UP-TO-DATE] [pfetch][1.4.0-1] matches upstream version 1.4.0 [0m
+  [1;34m->[;1m checking for update for 'picom-git'[0m
   [1;34m->[;1m checking for update for 'pikaur'[0m
-[32m          [UP-TO-DATE] [pikaur][1.24-1] matches upstream version 1.24 [0m
+[32m          [UP-TO-DATE] [pikaur][1.27-1] matches upstream version 1.27 [0m
   [1;34m->[;1m checking for update for 'piper-git'[0m
   [1;34m->[;1m checking for update for 'pipes.sh'[0m
 [32m          [UP-TO-DATE] [pipes.sh][1.3.0-1] matches upstream version 1.3.0 [0m
   [1;34m->[;1m checking for update for 'pkgbrowser'[0m
 [32m          [UP-TO-DATE] [pkgbrowser][0.28.1-2] matches upstream version 0.28.1 [0m
+  [1;34m->[;1m checking for update for 'pkgcacheclean'[0m
+[32m          [UP-TO-DATE] [pkgcacheclean][1.9.0-3] matches upstream version 1.9.0 [0m
   [1;34m->[;1m checking for update for 'pkgoutofdate-git'[0m
   [1;34m->[;1m checking for update for 'play-with-mpv-git'[0m
   [1;34m->[;1m checking for update for 'plymouth-theme-arch10'[0m
@@ -405,15 +404,15 @@ betterlockscreen: new version found - 4.3.0 => 4.4.0
   [1;34m->[;1m checking for update for 'python-demjson3'[0m
 [37m             [UNKNOWN] [python-demjson3][3.0.6-2] Failed to parse upstream version: invalid version format: -3.0.5 [0m
   [1;34m->[;1m checking for update for 'python-fangfrisch'[0m
-[32m          [UP-TO-DATE] [python-fangfrisch][1.9.0-3] matches upstream version 1.9.0 [0m
+[32m          [UP-TO-DATE] [python-fangfrisch][1.9.0-4] matches upstream version 1.9.0 [0m
   [1;34m->[;1m checking for update for 'python-ffsubsync'[0m
-[37m             [UNKNOWN] [python-ffsubsync][0.4.25-2] upstream version is 0.4.22 [0m
+[37m             [UNKNOWN] [python-ffsubsync][0.4.25-3] upstream version is 0.4.22 [0m
   [1;34m->[;1m checking for update for 'python-future-annotations'[0m
 [32m          [UP-TO-DATE] [python-future-annotations][1.0.0-2] matches upstream version 1.0.0 [0m
   [1;34m->[;1m checking for update for 'python-gbinder'[0m
 [37m             [UNKNOWN] [python-gbinder][1.1.2-2] Failed to obtain GitHub release for erfanoabdi/gbinder-python.git from https://api.github.com/repos/erfanoabdi/gbinder-python.git/releases/latest: No GitHub project found for erfanoabdi/gbinder-python.git on https://api.github.com/repos/erfanoabdi/gbinder-python.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'python-gtts'[0m
-[31m         [OUT-OF-DATE] [python-gtts][2.5.2-1] should be updated to 2.5.3 [0m
+[32m          [UP-TO-DATE] [python-gtts][2.5.3-1] matches upstream version 2.5.3 [0m
   [1;34m->[;1m checking for update for 'python-gtts-token'[0m
 [32m          [UP-TO-DATE] [python-gtts-token][1.1.4-1] matches upstream version 1.1.4 [0m
   [1;34m->[;1m checking for update for 'python-itunespy'[0m
@@ -437,7 +436,7 @@ betterlockscreen: new version found - 4.3.0 => 4.4.0
   [1;34m->[;1m checking for update for 'python-soundcloud-v2'[0m
 [32m          [UP-TO-DATE] [python-soundcloud-v2][1.6.0-1] matches upstream version 1.6.0 [0m
   [1;34m->[;1m checking for update for 'python-spotdl'[0m
-[32m          [UP-TO-DATE] [python-spotdl][4.2.5-3] matches upstream version 4.2.5 [0m
+[31m         [OUT-OF-DATE] [python-spotdl][4.2.5-3] should be updated to 4.2.8 [0m
   [1;34m->[;1m checking for update for 'python-spotipy'[0m
 [32m          [UP-TO-DATE] [python-spotipy][2.24.0-1] matches upstream version 2.24.0 [0m
   [1;34m->[;1m checking for update for 'python-srt'[0m
@@ -459,13 +458,13 @@ betterlockscreen: new version found - 4.3.0 => 4.4.0
   [1;34m->[;1m checking for update for 'python3-xcpf'[0m
 [37m             [UNKNOWN] [python3-xcpf][2021.12-14] No release found for https://xyne.dev/projects/python3-xcpf/src/python3-xcpf-2021.12.tar.xz [0m
   [1;34m->[;1m checking for update for 'qbittorrent-vuetorrent-bin'[0m
-[31m         [OUT-OF-DATE] [qbittorrent-vuetorrent-bin][2.11.0-1] should be updated to 2.11.2 [0m
+[31m         [OUT-OF-DATE] [qbittorrent-vuetorrent-bin][2.11.2-1] should be updated to 2.12.0 [0m
   [1;34m->[;1m checking for update for 'qogir-icon-theme'[0m
 [37m             [UNKNOWN] [qogir-icon-theme][2023.06.05-1] Failed to parse upstream version: invalid version format: 2023-06-05 [0m
   [1;34m->[;1m checking for update for 'qrcp'[0m
-[32m          [UP-TO-DATE] [qrcp][0.11.2-1] matches upstream version 0.11.2 [0m
+[31m         [OUT-OF-DATE] [qrcp][0.11.2-1] should be updated to 0.11.3 [0m
   [1;34m->[;1m checking for update for 'qrcp-bin'[0m
-[31m         [OUT-OF-DATE] [qrcp-bin][0.10.1-4] should be updated to 0.11.2 [0m
+[31m         [OUT-OF-DATE] [qrcp-bin][0.10.1-4] should be updated to 0.11.3 [0m
   [1;34m->[;1m checking for update for 'qwinff'[0m
 [37m             [UNKNOWN] [qwinff][0.2.1-1] No release found for http://sourceforge.net/projects/qwinff/files/release/v0.2.1/qwinff_0.2.1.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'rate-mirrors-bin'[0m
@@ -480,11 +479,12 @@ betterlockscreen: new version found - 4.3.0 => 4.4.0
 [37m             [UNKNOWN] [reboot-arch-btw][0.8.0-1] No release found for reboot-arch-btw-0.8.0.tar.gz::https://static.crates.io/crates/reboot-arch-btw/reboot-arch-btw-0.8.0.crate [0m
   [1;34m->[;1m checking for update for 'rescached-git'[0m
   [1;34m->[;1m checking for update for 'resvg'[0m
-[31m         [OUT-OF-DATE] [resvg][0.41.0-1] should be updated to 0.43.0 [0m
+[32m          [UP-TO-DATE] [resvg][0.43.0-1] matches upstream version 0.43.0 [0m
   [1;34m->[;1m checking for update for 'retroshare'[0m
-[32m          [UP-TO-DATE] [retroshare][0.6.7.2-1] matches upstream version 0.6.7.2 [0m
+[32m          [UP-TO-DATE] [retroshare][0.6.7.2-2] matches upstream version 0.6.7.2 [0m
   [1;34m->[;1m checking for update for 'robo3t-bin'[0m
 [32m          [UP-TO-DATE] [robo3t-bin][1.4.4-1] matches upstream version 1.4.4 [0m
+  [1;34m->[;1m checking for update for 'rofi-git'[0m
   [1;34m->[;1m checking for update for 'rofi-greenclip'[0m
 [32m          [UP-TO-DATE] [rofi-greenclip][4.2-3] matches upstream version 4.2 [0m
   [1;34m->[;1m checking for update for 'rtags'[0m
@@ -495,7 +495,7 @@ betterlockscreen: new version found - 4.3.0 => 4.4.0
 [37m             [UNKNOWN] [rxfetch][1.0-2] Failed to obtain GitHub release for mangeshrex/rxfetch from https://api.github.com/repos/mangeshrex/rxfetch/releases/latest: No GitHub project found for mangeshrex/rxfetch on https://api.github.com/repos/mangeshrex/rxfetch/releases/latest [0m
   [1;34m->[;1m checking for update for 'selectdefaultapplication-git'[0m
   [1;34m->[;1m checking for update for 'session-desktop-bin'[0m
-[31m         [OUT-OF-DATE] [session-desktop-bin][1.13.0-1] should be updated to 1.13.1 [0m
+[32m          [UP-TO-DATE] [session-desktop-bin][1.13.2-1] matches upstream version 1.13.2 [0m
   [1;34m->[;1m checking for update for 'sherlock-git'[0m
   [1;34m->[;1m checking for update for 'siji-git'[0m
   [1;34m->[;1m checking for update for 'simple-mtpfs'[0m
@@ -506,9 +506,10 @@ betterlockscreen: new version found - 4.3.0 => 4.4.0
 [37m             [UNKNOWN] [speedometer][2.9-2] Failed to obtain GitHub release for wardi/speedometer from https://api.github.com/repos/wardi/speedometer/releases/latest: No GitHub project found for wardi/speedometer on https://api.github.com/repos/wardi/speedometer/releases/latest [0m
   [1;34m->[;1m checking for update for 'speedread-git'[0m
   [1;34m->[;1m checking for update for 'spicetify-cli'[0m
-[32m          [UP-TO-DATE] [spicetify-cli][2.37.1-1] matches upstream version 2.37.1 [0m
+[32m          [UP-TO-DATE] [spicetify-cli][2.38.2-1] matches upstream version 2.38.2 [0m
+  [1;34m->[;1m checking for update for 'spicetify-themes-git'[0m
   [1;34m->[;1m checking for update for 'spotdl'[0m
-[32m          [UP-TO-DATE] [spotdl][4.2.5-6] matches upstream version 4.2.5 [0m
+[32m          [UP-TO-DATE] [spotdl][4.2.8-1] matches upstream version 4.2.8 [0m
   [1;34m->[;1m checking for update for 'spotify'[0m
 [37m             [UNKNOWN] [spotify][1:1.2.42.290-1] No release found for spotify-1.2.42.290-g242057a2-x86_64.deb::http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.2.42.290.g242057a2_amd64.deb [0m
   [1;34m->[;1m checking for update for 'stacer'[0m
@@ -535,9 +536,9 @@ betterlockscreen: new version found - 4.3.0 => 4.4.0
   [1;34m->[;1m checking for update for 'teams'[0m
 [37m             [UNKNOWN] [teams][1.5.00.23861-1] No release found for https://web.archive.org/web/20221130115842if_/https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.5.00.23861_amd64.deb [0m
   [1;34m->[;1m checking for update for 'terser'[0m
-[31m         [OUT-OF-DATE] [terser][5.31.3-1] should be updated to 5.31.6 [0m
+[32m          [UP-TO-DATE] [terser][5.31.6-1] matches upstream version 5.31.6 [0m
   [1;34m->[;1m checking for update for 'tgpt-bin'[0m
-[32m          [UP-TO-DATE] [tgpt-bin][2.8.0-1] matches upstream version 2.8.0 [0m
+[31m         [OUT-OF-DATE] [tgpt-bin][2.8.0-1] should be updated to 2.8.1 [0m
   [1;34m->[;1m checking for update for 'themix-export-spotify-git'[0m
   [1;34m->[;1m checking for update for 'themix-full-git'[0m
   [1;34m->[;1m checking for update for 'themix-gui-git'[0m
@@ -553,15 +554,17 @@ betterlockscreen: new version found - 4.3.0 => 4.4.0
   [1;34m->[;1m checking for update for 'themix-theme-oomox-git'[0m
   [1;34m->[;1m checking for update for 'thinkfan'[0m
 [32m          [UP-TO-DATE] [thinkfan][1.3.1-1] matches upstream version 1.3.1 [0m
+  [1;34m->[;1m checking for update for 'tixati'[0m
+[37m             [UNKNOWN] [tixati][3.29-1] No release found for LICENSE [0m
   [1;34m->[;1m checking for update for 'tlpui-git'[0m
   [1;34m->[;1m checking for update for 'tmpwatch'[0m
 [37m             [UNKNOWN] [tmpwatch][2.11-3] No release found for https://releases.pagure.org/tmpwatch/tmpwatch-2.11.tar.bz2 [0m
   [1;34m->[;1m checking for update for 'toilet-fonts'[0m
 [37m             [UNKNOWN] [toilet-fonts][1.0-2] No release found for ftp://ftp.figlet.org/pub/figlet/fonts/ours.tar.gz [0m
   [1;34m->[;1m checking for update for 'tor-browser-bin'[0m
-[37m             [UNKNOWN] [tor-browser-bin][13.5.2-1] No release found for tor-browser.desktop.in [0m
+[37m             [UNKNOWN] [tor-browser-bin][13.5.3-1] No release found for tor-browser.desktop.in [0m
   [1;34m->[;1m checking for update for 'torrentinfo'[0m
-[37m             [UNKNOWN] [torrentinfo][1.8.7-3] Failed to obtain GitHub release for Fuuzetsu/torrentinfo from https://api.github.com/repos/Fuuzetsu/torrentinfo/releases/latest: No GitHub project found for Fuuzetsu/torrentinfo on https://api.github.com/repos/Fuuzetsu/torrentinfo/releases/latest [0m
+[37m             [UNKNOWN] [torrentinfo][r264.0e85bcd-1] Failed to obtain GitHub release for Fuuzetsu/torrentinfo from https://api.github.com/repos/Fuuzetsu/torrentinfo/releases/latest: No GitHub project found for Fuuzetsu/torrentinfo on https://api.github.com/repos/Fuuzetsu/torrentinfo/releases/latest [0m
   [1;34m->[;1m checking for update for 'trizen'[0m
 [32m          [UP-TO-DATE] [trizen][1:1.68-1] matches upstream version 1.68 [0m
   [1;34m->[;1m checking for update for 'tt-bin'[0m
@@ -587,9 +590,9 @@ betterlockscreen: new version found - 4.3.0 => 4.4.0
   [1;34m->[;1m checking for update for 'tuifimanager'[0m
 [37m             [UNKNOWN] [tuifimanager][4.1.7-1] Failed to parse upstream version: invalid version format: .4.1.7 [0m
   [1;34m->[;1m checking for update for 'tutanota-desktop-bin'[0m
-[37m             [UNKNOWN] [tutanota-desktop-bin][240.240813.0-1] Failed to parse upstream version: invalid version format: tutanota-android-release-240.240813.0 [0m
+[37m             [UNKNOWN] [tutanota-desktop-bin][244.240903.0-1] Failed to parse upstream version: invalid version format: tutanota-release-244.240903.0 [0m
   [1;34m->[;1m checking for update for 'typora'[0m
-[37m             [UNKNOWN] [typora][1.9.3-1] No release found for https://typora.io/linux/typora_1.9.3_amd64.deb [0m
+[37m             [UNKNOWN] [typora][1.9.3-1] No release found for typora.sh [0m
   [1;34m->[;1m checking for update for 'uftrace'[0m
 [32m          [UP-TO-DATE] [uftrace][0.16-1] matches upstream version 0.16 [0m
   [1;34m->[;1m checking for update for 'upd72020x-fw'[0m
@@ -609,7 +612,7 @@ betterlockscreen: new version found - 4.3.0 => 4.4.0
   [1;34m->[;1m checking for update for 'vrms-arch'[0m
 [37m             [UNKNOWN] [vrms-arch][0.1.0.r25.g802c767-1] Failed to obtain GitHub release for orospakr/vrms-arch.git from https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest: No GitHub project found for orospakr/vrms-arch.git on https://api.github.com/repos/orospakr/vrms-arch.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'vscodium-bin'[0m
-[31m         [OUT-OF-DATE] [vscodium-bin][1.92.1.24225-1] should be updated to 1.92.2.24228 [0m
+[32m          [UP-TO-DATE] [vscodium-bin][1.92.2.24228-1] matches upstream version 1.92.2.24228 [0m
   [1;34m->[;1m checking for update for 'waydroid'[0m
 [37m             [UNKNOWN] [waydroid][1.4.3-1] Failed to obtain GitHub release for waydroid/waydroid.git from https://api.github.com/repos/waydroid/waydroid.git/releases/latest: No GitHub project found for waydroid/waydroid.git on https://api.github.com/repos/waydroid/waydroid.git/releases/latest [0m
   [1;34m->[;1m checking for update for 'waydroid-image'[0m
@@ -626,7 +629,7 @@ betterlockscreen: new version found - 4.3.0 => 4.4.0
   [1;34m->[;1m checking for update for 'webtty'[0m
 [32m          [UP-TO-DATE] [webtty][0.5.1-1] matches upstream version 0.5.1 [0m
   [1;34m->[;1m checking for update for 'whitesur-icon-theme'[0m
-[37m             [UNKNOWN] [whitesur-icon-theme][2024.05.28-1] Failed to parse upstream version: invalid version format: 2024-05-28 [0m
+[37m             [UNKNOWN] [whitesur-icon-theme][2024.09.07-1] Failed to parse upstream version: invalid version format: 2024-09-07 [0m
   [1;34m->[;1m checking for update for 'wttr'[0m
 [32m          [UP-TO-DATE] [wttr][1.55-2] matches upstream version 1.55 [0m
   [1;34m->[;1m checking for update for 'x11docker'[0m
@@ -641,8 +644,12 @@ betterlockscreen: new version found - 4.3.0 => 4.4.0
   [1;34m->[;1m checking for update for 'yay-bin'[0m
 [32m          [UP-TO-DATE] [yay-bin][12.3.5-1] matches upstream version 12.3.5 [0m
   [1;34m->[;1m checking for update for 'ytmdl-git'[0m
+  [1;34m->[;1m checking for update for 'zen-browser-bin'[0m
+[37m             [UNKNOWN] [zen-browser-bin][1.0.0.a.37-1] upstream version is 1.0.0-a.37 [0m
+  [1;34m->[;1m checking for update for 'zen-browser-optimized-bin'[0m
+[37m             [UNKNOWN] [zen-browser-optimized-bin][1.0.0.a.34-1] upstream version is 1.0.0-a.37 [0m
   [1;34m->[;1m checking for update for 'zoom'[0m
-[37m             [UNKNOWN] [zoom][6.1.6-1] No release found for zoom-6.1.6.1013_orig_x86_64.pkg.tar.xz::https://zoom.us/client/6.1.6.1013/zoom_x86_64.pkg.tar.xz [0m
+[37m             [UNKNOWN] [zoom][6.1.11-1] No release found for zoom-6.1.11.1545_orig_x86_64.pkg.tar.xz::https://zoom.us/client/6.1.11.1545/zoom_x86_64.pkg.tar.xz [0m
   [1;34m->[;1m checking for update for 'zotify-git'[0m
   [1;34m->[;1m checking for update for 'zsh-theme-powerlevel10k-git'[0m
   [1;34m->[;1m checking for update for 'zuki-themes'[0m

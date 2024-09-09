@@ -1,0 +1,16 @@
+pkgbase = pkgcacheclean
+	pkgdesc = Application to clean the pacman package cache
+	pkgver = 1.9.0
+	pkgrel = 3
+	url = https://github.com/dbermond/pkgcacheclean/
+	arch = x86_64
+	license = GPL
+	depends = pacman>=5
+	source = pkgcacheclean-1.9.0.tar.gz::https://github.com/dbermond/pkgcacheclean/archive/v1.9.0.tar.gz
+	source = https://github.com/dbermond/pkgcacheclean/releases/download/v1.9.0/pkgcacheclean-1.9.0.tar.gz.asc
+	validpgpkeys = 3FFA6AB7B69AAE6CCA263DDE019A7474297D8577
+	sha256sums = 0efa1183ad556d26f5d7dbb8f34b8f6b0a6fdf0060f345e320db53b8804424e5
+	sha256sums = SKIP
+
+pkgname = pkgcacheclean
+

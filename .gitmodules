@@ -1383,3 +1383,7 @@
 	path = repos/librewolf-bin
 	url = ssh://aur@aur.archlinux.org/librewolf-bin.git
 	branch = master
+[submodule "repos/zen-browser-optimized-bin"]
+	path = repos/zen-browser-optimized-bin
+	url = ssh://aur@aur.archlinux.org/zen-browser-optimized-bin.git
+	branch = master

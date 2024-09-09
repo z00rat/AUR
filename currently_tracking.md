@@ -6,6 +6,7 @@
  - https://aur.archlinux.org/packages/adwaita-qt-git
  - https://aur.archlinux.org/packages/aic94xx-firmware
  - https://aur.archlinux.org/packages/alacritty-themes
+ - https://aur.archlinux.org/packages/alass
  - https://aur.archlinux.org/packages/ansifilter
  - https://aur.archlinux.org/packages/antibody
  - https://aur.archlinux.org/packages/apg
@@ -21,6 +22,7 @@
  - https://aur.archlinux.org/packages/aurvote-utils
  - https://aur.archlinux.org/packages/awesome-git
  - https://aur.archlinux.org/packages/awmtt
+ - https://aur.archlinux.org/packages/aws-cli-v2
  - https://aur.archlinux.org/packages/bash-pipes
  - https://aur.archlinux.org/packages/bashmount
  - https://aur.archlinux.org/packages/bats
@@ -37,6 +39,7 @@
  - https://aur.archlinux.org/packages/briar-desktop-bin
  - https://aur.archlinux.org/packages/broken-link-checker
  - https://aur.archlinux.org/packages/bubblejail
+ - https://aur.archlinux.org/packages/bun-bin
  - https://aur.archlinux.org/packages/burpsuite
  - https://aur.archlinux.org/packages/candy-icons-git
  - https://aur.archlinux.org/packages/cava
@@ -62,7 +65,6 @@
  - https://aur.archlinux.org/packages/downgrade
  - https://aur.archlinux.org/packages/downloader-cli
  - https://aur.archlinux.org/packages/dragon-drop
- - https://aur.archlinux.org/packages/drawio-desktop-bin
  - https://aur.archlinux.org/packages/dry-bin
  - https://aur.archlinux.org/packages/edex-ui-bin
  - https://aur.archlinux.org/packages/electorrent-bin
@@ -74,7 +76,10 @@
  - https://aur.archlinux.org/packages/fbrokendesktop
  - https://aur.archlinux.org/packages/ffpb
  - https://aur.archlinux.org/packages/figlet-fonts
+ - https://aur.archlinux.org/packages/firefox-clearurls
  - https://aur.archlinux.org/packages/firefox-esr-bin
+ - https://aur.archlinux.org/packages/firefox-extension-greasemonkey
+ - https://aur.archlinux.org/packages/firefox-extension-tab-session-manager
  - https://aur.archlinux.org/packages/flamegraph
  - https://aur.archlinux.org/packages/florence
  - https://aur.archlinux.org/packages/fluent-reader-bin
@@ -91,6 +96,7 @@
  - https://aur.archlinux.org/packages/gitstatus
  - https://aur.archlinux.org/packages/gocryptfs-ui
  - https://aur.archlinux.org/packages/google-chrome
+ - https://aur.archlinux.org/packages/graphite-cli
  - https://aur.archlinux.org/packages/grub-hook
  - https://aur.archlinux.org/packages/grub-reboot-poweroff
  - https://aur.archlinux.org/packages/guiscrcpy
@@ -111,6 +117,7 @@
  - https://aur.archlinux.org/packages/lib32-jack
  - https://aur.archlinux.org/packages/libgbinder
  - https://aur.archlinux.org/packages/libglibutil
+ - https://aur.archlinux.org/packages/librewolf-bin
  - https://aur.archlinux.org/packages/libsvg
  - https://aur.archlinux.org/packages/libsvg-cairo
  - https://aur.archlinux.org/packages/libuiohook
@@ -118,6 +125,7 @@
  - https://aur.archlinux.org/packages/light-git
  - https://aur.archlinux.org/packages/localepurge
  - https://aur.archlinux.org/packages/localsend-bin
+ - https://aur.archlinux.org/packages/logisim
  - https://aur.archlinux.org/packages/losslesscut-bin
  - https://aur.archlinux.org/packages/lscolors-git
  - https://aur.archlinux.org/packages/lsdesktopf
@@ -182,10 +190,12 @@
  - https://aur.archlinux.org/packages/passivedns-git
  - https://aur.archlinux.org/packages/patat-bin
  - https://aur.archlinux.org/packages/pfetch
+ - https://aur.archlinux.org/packages/picom-git
  - https://aur.archlinux.org/packages/pikaur
  - https://aur.archlinux.org/packages/piper-git
  - https://aur.archlinux.org/packages/pipes.sh
  - https://aur.archlinux.org/packages/pkgbrowser
+ - https://aur.archlinux.org/packages/pkgcacheclean
  - https://aur.archlinux.org/packages/pkgoutofdate-git
  - https://aur.archlinux.org/packages/play-with-mpv-git
  - https://aur.archlinux.org/packages/plymouth-theme-arch10
@@ -238,6 +248,7 @@
  - https://aur.archlinux.org/packages/resvg
  - https://aur.archlinux.org/packages/retroshare
  - https://aur.archlinux.org/packages/robo3t-bin
+ - https://aur.archlinux.org/packages/rofi-git
  - https://aur.archlinux.org/packages/rofi-greenclip
  - https://aur.archlinux.org/packages/rtags
  - https://aur.archlinux.org/packages/runjs-bin
@@ -251,6 +262,7 @@
  - https://aur.archlinux.org/packages/speedometer
  - https://aur.archlinux.org/packages/speedread-git
  - https://aur.archlinux.org/packages/spicetify-cli
+ - https://aur.archlinux.org/packages/spicetify-themes-git
  - https://aur.archlinux.org/packages/spotdl
  - https://aur.archlinux.org/packages/spotify
  - https://aur.archlinux.org/packages/stacer
@@ -266,7 +278,6 @@
  - https://aur.archlinux.org/packages/sysz
  - https://aur.archlinux.org/packages/teams
  - https://aur.archlinux.org/packages/terser
- - https://aur.archlinux.org/packages/tgpt-bin
  - https://aur.archlinux.org/packages/themix-export-spotify-git
  - https://aur.archlinux.org/packages/themix-full-git
  - https://aur.archlinux.org/packages/themix-gui-git
@@ -281,10 +292,12 @@
  - https://aur.archlinux.org/packages/themix-theme-materia-git
  - https://aur.archlinux.org/packages/themix-theme-oomox-git
  - https://aur.archlinux.org/packages/thinkfan
+ - https://aur.archlinux.org/packages/tixati
  - https://aur.archlinux.org/packages/tlpui-git
  - https://aur.archlinux.org/packages/tmpwatch
  - https://aur.archlinux.org/packages/toilet-fonts
  - https://aur.archlinux.org/packages/tor-browser-bin
+ - https://aur.archlinux.org/packages/torrentinfo
  - https://aur.archlinux.org/packages/trizen
  - https://aur.archlinux.org/packages/tt-bin
  - https://aur.archlinux.org/packages/ttf-anka-coder
@@ -305,6 +318,7 @@
  - https://aur.archlinux.org/packages/usbaudio-git
  - https://aur.archlinux.org/packages/vanitygen-git
  - https://aur.archlinux.org/packages/ventoy-bin
+ - https://aur.archlinux.org/packages/vesktop-bin
  - https://aur.archlinux.org/packages/vimix-cursors
  - https://aur.archlinux.org/packages/volctl
  - https://aur.archlinux.org/packages/vrms-arch
@@ -324,14 +338,15 @@
  - https://aur.archlinux.org/packages/xdg-ninja-git
  - https://aur.archlinux.org/packages/xinput-gui
  - https://aur.archlinux.org/packages/xmind
- - https://aur.archlinux.org/packages/yaru-icon-theme
  - https://aur.archlinux.org/packages/yay-bin
  - https://aur.archlinux.org/packages/ytmdl-git
+ - https://aur.archlinux.org/packages/zen-browser-bin
+ - https://aur.archlinux.org/packages/zen-browser-optimized-bin
  - https://aur.archlinux.org/packages/zoom
  - https://aur.archlinux.org/packages/zotify-git
  - https://aur.archlinux.org/packages/zsh-theme-powerlevel10k-git
  - https://aur.archlinux.org/packages/zuki-themes
 ---
 
-number of packages = 331.
+number of packages = 346.
 

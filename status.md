@@ -1,13 +1,15 @@
-  [1;34m->[;1m number of packags that are 339 tracked[0m
-  [1;34m->[;1m number of packages that are 208 installed[0m
+  [1;34m->[;1m number of packags that are 344 tracked[0m
+  [1;34m->[;1m number of packages that are 212 installed[0m
   [1;34m->[;1m packages that are not tracked but installed in the system...[0m
 adwaita-qt5-git
 adwaita-qt6-git
+ccze
 cf-tool
 firefox-profile-switcher-connector-bin
 lagrange-bin
 leetgo-bin
 libratbag-git
+librewolf-bin
 lpm-git
 lssecret-git
 lua51-inspect
@@ -18,11 +20,10 @@ picom-git
 python-ffmpy
 python-librespot
 python-music-tag
-python-pulsectl
 python-pwinput
 python-pyogg
 rofi-git
-whatsie
+spicetify-themes-git
 yaru-icon-theme
   [1;34m->[;1m packages that are tracked but not installed in the system...[0m
 activitywatch-bin
@@ -50,6 +51,7 @@ cointop-bin
 csslint
 ctjs-bin
 ddd
+discord-ptb
 docker-systemctl-replacement-git
 downloader-cli
 drawio-desktop-bin
@@ -87,6 +89,7 @@ lscolors-git
 lynis-git
 maldet
 marktext-bin
+megatools-bin
 mergerfs
 mergerfs-tools-git
 mkclean
@@ -122,6 +125,7 @@ python-gbinder
 python-gtts
 python-gtts-token
 python-itunespy
+python-polib
 python-pydes
 python-pynput
 python-pysubs2
@@ -147,8 +151,6 @@ sherlock-git
 siji-git
 sirikali
 speedread-git
-spicetify-cli
-spotify
 stacer
 sublime-text-4
 subuser
@@ -156,6 +158,7 @@ surf-git
 svg-term-cli
 systemd-boot-pacman-hook
 systemd-numlockontty
+tgpt-bin
 themix-theme-materia-git
 thinkfan
 tlpui-git
@@ -166,17 +169,17 @@ ttf-twemoji-color
 ttf-typicons
 typora
 uftrace
-usbaudio-git
 vanitygen-git
 vimix-cursors
+volctl
 vrms-arch
 vscodium-bin
 waydroid
 waydroid-image
-webtorrent-bittorrent-tracker
 webtty
 x11docker
 xinput-gui
 xmind
 ytmdl-git
+zen-browser-bin
   [1;34m->[;1m done.[0m
