@@ -2,8 +2,8 @@
 # Contributor: Thomas Wood <grand.edgemaster@gmail.com>
 
 pkgname=ttf-twemoji-color
-pkgver=14.0.2
-pkgrel=4
+pkgver=15.1.0
+pkgrel=1
 
 pkgdesc="A color and B&W emoji SVG-in-OpenType font by Twitter with support for ZWJ, skin tone modifiers and country flags."
 arch=('any')
@@ -17,7 +17,7 @@ changelog="changelog.md"
 install=ttf-twemoji-color.install
 
 source=("${url}/releases/download/v${pkgver}/TwitterColorEmoji-SVGinOT-Linux-${pkgver}.tar.gz")
-b2sums=('43a4c3207cff2e8419c6fb7c0e5bcbe860a607757bc5a1d67c2cd49717eaf6fb259326a4a09b9bfb81b201b9f1ee97be2c3c39649a2d123a62333c7ff8c64241')
+b2sums=('c9b36fd314cbfc163fcd585d8fc2535fc2dc3a86cbf67af14223243baabe8ecb66a3600afcb0d274482eb18f69983e8f011b689afc3926799a2c429395599224')
 
 package() {
 	cd TwitterColorEmoji-SVGinOT-Linux-${pkgver}

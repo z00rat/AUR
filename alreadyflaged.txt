@@ -1,4 +1,3 @@
-hydroxide
 libratbag-git
 python-jaconv
 qrcp-bin

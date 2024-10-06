@@ -13,13 +13,13 @@ depends=('glfw' 'mbedtls' 'curl' 'dbus'
          'freetype2' 'file' 'hicolor-icon-theme' 'xdg-desktop-portal'
          'fmt' 'yara' 'capstone')
 makedepends=('cmake'
-             'llvm' 'librsvg' 'nlohmann-json'
+             'llvm' 'librsvg' 'nlohmann-json' 'libxrandr'
              'python' 'cli11' 'dotnet-runtime')
 optdepends=('dotnet-runtime: support for .NET scripts')
 provides=('imhex-patterns')
 conflicts=('imhex-patterns-git')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/WerWolv/ImHex/releases/download/v$pkgver/Full.Sources.tar.gz"
-"imhex-patterns-$pkgver.tar.gz::https://github.com/WerWolv/ImHex-Patterns/archive/refs/tags/ImHex-v$pkgver.tar.gz")
+        "imhex-patterns-$pkgver.tar.gz::https://github.com/WerWolv/ImHex-Patterns/archive/refs/tags/ImHex-v$pkgver.tar.gz")
 sha256sums=('987188df511a01dca407c4fd398a9dbc805ef82cdf044ea27da57ec343c7d6df'
             '10df85b64b4c14945e43ad14b3ff95cda9ba23e47f4559b5429c2dc733fe23ed')
 b2sums=('1e65a332a810af2884c6cf14dafa46cd2d09fc18891c48c7cb1007cab041b293e96db69db068b20d97fb5b51b16c3dbded38a679b65a8d7fd85ce705ae95d6d8'

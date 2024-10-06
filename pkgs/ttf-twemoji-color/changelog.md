@@ -1,10 +1,10 @@
-# Name: Don't look, they are melting - Unicode 14 
-### URL: https://github.com/13rac1/twemoji-color-font/releases/tag/v14.0.2
-### published at '2022-10-27T21:33:30Z' by 13rac1
+# Name: Phoenix Families - Unicode 15.1 
+### URL: https://github.com/13rac1/twemoji-color-font/releases/tag/v15.1.0
+### published at '2024-10-04T21:42:27Z' by 13rac1
 ---
-New emoji in Unicode 14
+New emoji in Unicode 15.1 - Based on https://github.com/jdecked/twemoji/releases/tag/v15.1.0
 ```
-🫣🫠
+🙂↔️ 🙂↕️ 🐦🔥 🍋🟩 🍄🟫 ⛓️💥 🧑🧑🧒 🧑🧑🧒🧒 🧑🧒 🧑🧒🧒
 ```
 **Download one of the binary files to use the font. You do not need the source.*
 

@@ -2376,3 +2376,71 @@ Thu Sep 5 00:20:56 2024 +0200
     *  2024-09-02 a89ebf9 actionless feat(pikspect): implement support for SIGWINCH, so inner terminal would be resized automatically when user resizing terminal
     *  2024-09-01 e0778b3 actionless chore(packaging: bin): use unbuffered python by default
     *  2024-08-30 3696579 actionless fix(search_cli): handle the case when one of multi-word search queries found nothing in repos (but others found smth)
+
+
+Fri Sep 13 00:56:28 2024 +0200
+-------------------------------------------------
+1.28            Release 1.28
+    
+    Notable Changes:
+    *  2024-09-12 2a04ef4 actionless feat(info_cli): make -Si output closer to pacman's
+    *  2024-09-12 7ad7290 actionless doc(help_cli): better document -X/--extras
+    *  2024-09-12 75663f0 actionless chore: move --dep-tree to -X/--extras
+    *  2024-09-11 ca57f21 actionless chore(pikaur_meta_helpers): add dep_tree visualizer
+    *  2024-09-10 b3f2814 actionless chore(maintenance_scripts: makefile_shellcheck): move it into submodule
+    *  2024-09-07 63a4be3 actionless feat(pikaur-static, args): document `--force-pacman-cli-db` arg
+    *  2024-09-07 e9e9e37 actionless feat(print_dept: pformat_sysupgrade): separate message and style for optional-only dependencies
+    *  2024-09-06 ff3ffaf actionless fix(pikatypes: InstallInfo, install_info_fetcher: mark_dependant: required_by): use set() instead of list() (fixes: #496)
+    *  2024-09-05 3f6fff2 Bundy01 chore(locale): update es.po, fr.po (#839)
+    *  2024-09-05 327f8bb actionless fix(print_dept: pformat_sysupgrade): translate `required by` and `optional for` (re: #839)
+
+
+Thu Sep 19 20:54:03 2024 +0200
+-------------------------------------------------
+1.29            Release 1.29
+    
+    Notable changes:
+    *  2024-09-18 00f6846 actionless fix(pikspect): update templates for pacman questions about package conflicts
+    *  2024-09-18 c25d9cb actionless feat(updates, install_info_fetcher, print_dept): show warning if dev's package stable release have newer version (fixes: #666)
+    *  2024-09-16 573b75f actionless fix(pikaur-static: pypyalpm: Package: compute_requiredby, compute_optionalfor): sort results
+    *  2024-09-16 61fdb66 actionless chore(pikaur-static: pycman): sync with upstream (pacman 7.0/libalpm 15/pyalpm 0.10.6)
+
+
+Thu Sep 19 22:31:43 2024 +0200
+-------------------------------------------------
+1.29.1          Hotfix Release 1.29.1
+    
+    Notable Changes:
+    *  2024-09-19 2ecc4c2 actionless fix(search_cli): handle when pkg.desc is None
+    
+    Other Changes:
+    *  2024-09-19 12125dc actionless fix(progressbar): make it look nice for both cases when number of `values > term width` and `<`
+
+
+Tue Oct 1 23:29:16 2024 +0200
+-------------------------------------------------
+1.30            Release 1.30
+    
+    Notable Changes:
+    *  2024-10-01 e41ff77 actionless doc(readme): mention pikaur-static ⚡
+    *  2024-10-01 1476fcd actionless chore(argparse_extras): sync with upstream (3.12.7) argparse (fixes: #845)
+    *  2024-09-28 6d78019 actionless feat(build: set_build_package_path): if `*-debug` package was built, copy it to pikaur ./pkgs/ cache dir
+    *  2024-09-21 e8727d5 Bundy01 chore(locale): update es.po and fr.po (#842)
+
+
+Wed Oct 2 04:16:14 2024 +0200
+-------------------------------------------------
+1.30.1          Hotfix Release 1.30.1
+    
+    *  2024-10-02 12c34dd actionless refactor(install_cli, install_info_fetcher): common handling of both manually_excluded_package_names and --ignore args
+    *  2024-10-02 3e995a9 actionless fix(install_info_fetcher: print_excluded_pkgs): don't print twice
+    *  2024-10-02 dadda7b actionless fix(aur_deps: install_info_fetcher: get_aur_deps_info): handle the case when --ignore'd pkg is not a pkg itself but a dependency of that package which is going to be installed/updated
+    *  2024-10-01 ca6a347 actionless doc(readme): mention -X flag in the readme
+
+
+Wed Oct 2 19:13:25 2024 +0200
+-------------------------------------------------
+1.30.2          Hotfix Release 1.30.2
+    
+    Notable changes:
+    *  2024-10-02 b49d07d actionless fix(args): handling `--` separator in python 3.12.7+ (fixes: #846)
