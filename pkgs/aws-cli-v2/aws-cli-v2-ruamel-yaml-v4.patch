@@ -28,7 +28,7 @@ index fef9a3068d5..1e436a88149 100644
 @@ -33,7 +33,7 @@ dependencies = [
      "colorama>=0.2.5,<0.4.7",
      "docutils>=0.10,<0.20",
-     "cryptography>=40.0.0,<40.0.2",
+     "cryptography>=40.0.0,<43.0.2",
 -    "ruamel.yaml>=0.15.0,<=0.17.21",
 +    "ruamel.yaml>=0.17.36,<=0.17.39",
      # ruamel.yaml only requires ruamel.yaml.clib for Python versions

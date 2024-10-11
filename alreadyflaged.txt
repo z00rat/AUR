@@ -1,3 +1,5 @@
+boxes
 libratbag-git
 python-jaconv
 qrcp-bin
+spicetify-themes-git
