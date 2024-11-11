@@ -1,4 +1,4 @@
-boxes
+ezshare
 libratbag-git
 python-jaconv
 qrcp-bin

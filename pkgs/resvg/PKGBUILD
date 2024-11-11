@@ -2,7 +2,7 @@
 # Contributor: Caleb Maclennan <caleb@alerque.com>
 
 pkgname=resvg
-pkgver=0.43.0
+pkgver=0.44.0
 pkgrel=1
 pkgdesc='SVG rendering library and CLI'
 arch=(i686 x86_64)
@@ -16,7 +16,7 @@ optdepends=(
 )
 makedepends=(cargo clang qt5-base qt5-tools kio5 cairo pango cmake extra-cmake-modules)
 source=("$url/archive/v$pkgver/$pkgname-$pkgver.tar.gz")
-sha256sums=('263293020fc6cfadf6c4b6dc738f97ae33d3de8e47452fc6487c43392508a905')
+sha256sums=('b45c906b4c72ff46405d74eb98ec1b93842f1528a8e835860f22b057b210306a')
 
 prepare() {
 	cd "$pkgname-$pkgver"
@@ -26,17 +26,17 @@ prepare() {
 
 build() {
 	cd "$pkgname-$pkgver"
-	
+
 	export RUSTUP_TOOLCHAIN=stable
 	export CARGO_TARGET_DIR=target
 	cargo build --workspace --frozen --release --all-features
-	
+
 	(
 		cd tools/viewsvg
 		qmake PREFIX="$pkgdir/usr"
 		make
 	)
-	
+
 	(
 		cd tools/kde-dolphin-thumbnailer/build
 		cmake .. \
@@ -47,7 +47,7 @@ build() {
 			-DCMAKE_BUILD_TYPE=Release
 		make
 	)
-	
+
 	cargo doc --release --no-deps -p resvg-capi
 }
 
