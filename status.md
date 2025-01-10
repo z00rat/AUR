@@ -1,29 +1,42 @@
-  [1;34m->[;1m number of packags that are 344 tracked[0m
-  [1;34m->[;1m number of packages that are 212 installed[0m
+  [1;34m->[;1m number of packags that are 346 tracked[0m
+  [1;34m->[;1m number of packages that are 225 installed[0m
   [1;34m->[;1m packages that are not tracked but installed in the system...[0m
 adwaita-qt5-git
 adwaita-qt6-git
 ccze
 cf-tool
+clion
+clion-cmake
+clion-gdb
+clion-jre
+clion-lldb
+coppwr
+exercism
 firefox-profile-switcher-connector-bin
+floorp-bin
+javafx-scenebuilder
 lagrange-bin
 leetgo-bin
 libratbag-git
-librewolf-bin
+libwireplumber-4.0-compat
 lpm-git
 lssecret-git
 lua51-inspect
 mandb-ondemand
 mimeo
 numix-icon-theme-git
-picom-git
+pacgraph
+pkgtop
+pwvucontrol
 python-ffmpy
 python-librespot
 python-music-tag
 python-pwinput
 python-pyogg
-rofi-git
-spicetify-themes-git
+scc
+spicetify-marketplace-bin
+ttfautohint
+wren
 yaru-icon-theme
   [1;34m->[;1m packages that are tracked but not installed in the system...[0m
 activitywatch-bin
@@ -54,7 +67,6 @@ ddd
 discord-ptb
 docker-systemctl-replacement-git
 downloader-cli
-drawio-desktop-bin
 electorrent-bin
 electronmail-bin
 faq-bin
@@ -62,6 +74,7 @@ fbrokendesktop
 ffpb
 firefox-esr-bin
 flamegraph
+fluent-reader-bin
 fontpreview
 fsearch-git
 gconf-cleaner
@@ -125,8 +138,10 @@ python-gbinder
 python-gtts
 python-gtts-token
 python-itunespy
+python-jaconv
 python-polib
 python-pydes
+python-pykakasi
 python-pynput
 python-pysubs2
 python-pytube
@@ -158,7 +173,7 @@ surf-git
 svg-term-cli
 systemd-boot-pacman-hook
 systemd-numlockontty
-tgpt-bin
+teams
 themix-theme-materia-git
 thinkfan
 tlpui-git
@@ -181,5 +196,5 @@ x11docker
 xinput-gui
 xmind
 ytmdl-git
-zen-browser-bin
+zen-browser-optimized-bin
   [1;34m->[;1m done.[0m

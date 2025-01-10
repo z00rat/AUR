@@ -1,5 +1,6 @@
-ezshare
-libratbag-git
-python-jaconv
+aurutils
+discord-chat-exporter-cli
 qrcp-bin
+rofi-git
 spicetify-themes-git
+tor-browser-bin

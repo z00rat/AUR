@@ -1,10 +1,10 @@
-# Maintainer: Yauheni Kirylau <actionless DOT loveless PLUS aur AT gmail MF com>
+# Maintainer: Yauhen Kirylau <actionless DOT loveless PLUS aur AT gmail MF com>
 # shellcheck disable=SC2001,SC2034,SC2154 shell=bash
 
 _pkgname=pikaur
 pkgname="${_pkgname}"
-pkgver=1.30.2
-pkgrel=1
+pkgver=1.32
+pkgrel=2
 pkgdesc="AUR helper which asks all questions before installing/building. Inspired by pacaur, yaourt and yay."
 arch=('any')
 url="https://github.com/actionless/pikaur"
@@ -12,7 +12,7 @@ license=('GPL-3.0-only')
 source=(
 	"$pkgname-$pkgver.tar.gz"::${url}/archive/"$pkgver".tar.gz
 )
-b2sums=('9f66ec2bdd6d51cff196a42029ebcf0dac5defa3eb656bf068445b42183087f981b312067491b67abc78283e5aa6d77d0bcdbd7d10c23644341c39efca855cd7')
+b2sums=('fd75388787383d783e60197981b1c7e1ba024a29a95a7378bb60f4a60e5ef31edf6e892d2d3e20701072054fff6daf0a5b1ce71150c929d525bf1c41b8767de5')
 depends=(
 	'pyalpm'
 	'git'

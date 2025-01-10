@@ -3,7 +3,7 @@
 
 _pkgname=ImHex
 pkgname=${_pkgname,,}
-pkgver=1.35.4
+pkgver=1.36.2
 pkgrel=1
 pkgdesc='A Hex Editor for Reverse Engineers, Programmers and people that value their eye sight when working at 3 AM'
 url='https://imhex.werwolv.net'
@@ -12,7 +12,7 @@ arch=('x86_64')
 depends=('glfw' 'mbedtls' 'curl' 'dbus'
          'freetype2' 'file' 'hicolor-icon-theme' 'xdg-desktop-portal'
          'fmt' 'yara' 'capstone')
-makedepends=('cmake'
+makedepends=('git' 'cmake'
              'llvm' 'librsvg' 'nlohmann-json' 'libxrandr'
              'python' 'cli11' 'dotnet-runtime')
 optdepends=('dotnet-runtime: support for .NET scripts')
@@ -20,10 +20,10 @@ provides=('imhex-patterns')
 conflicts=('imhex-patterns-git')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/WerWolv/ImHex/releases/download/v$pkgver/Full.Sources.tar.gz"
         "imhex-patterns-$pkgver.tar.gz::https://github.com/WerWolv/ImHex-Patterns/archive/refs/tags/ImHex-v$pkgver.tar.gz")
-sha256sums=('987188df511a01dca407c4fd398a9dbc805ef82cdf044ea27da57ec343c7d6df'
-            '10df85b64b4c14945e43ad14b3ff95cda9ba23e47f4559b5429c2dc733fe23ed')
-b2sums=('1e65a332a810af2884c6cf14dafa46cd2d09fc18891c48c7cb1007cab041b293e96db69db068b20d97fb5b51b16c3dbded38a679b65a8d7fd85ce705ae95d6d8'
-        'ac79ed6bf919917323909b34f285d2bb48c2a1dadf9270ac09a41f627a07b726bd50751da00b6af1f7478c02c8e8de05d44f678840bf9aab377d96049e70d1fd')
+sha256sums=('29bed22dae537b83ac4cce905352b4a1c5342862a67cad5575c58ff41f5847f7'
+            'd1555d142347ddf576e5c0b1a19050ae168e8d174b206d269a9e84e07d2515c9')
+b2sums=('e0c9c8ae8ce003a3115a239d89a660e7dd1c2c709c8aa1007463ddfc7861a5f10394cef1621a09ed9f7bd90fbfa5249a14aed619bd9f50c53500a1a9dc090aa0'
+        '891f8610f643616c5e7625a2a1ca6035038ef67aa6e425fe9fb997a2b18484800bc8caa0ebb52bdeadd61595409b1b768d4bedc22621622c5865143a663507a7')
 options=(!lto !strip)
 
 build() {
