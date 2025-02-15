@@ -16,17 +16,17 @@ Available make targets:
 
 endef
 
-.PHONY:	build clean help install mrproper remove shc
+.PHONY:	build check clean help install mrproper remove shc
 
 help:
 	$(info $(usage))
 	@exit 0
 
 clean:
-	rm -fr pkg src $(NAME)-*.{log,zst}*
+	rm -fr pkg src $(NAME)-*.{log,zst}* logpipe*
 
 mrproper:	clean
-	rm -f pkg src $(NAME)-*.gz
+	rm -fr pkg src $(NAME)-*.gz
 
 .SRCINFO:	PKGBUILD
 	makepkg --printsrcinfo >$@
@@ -34,8 +34,11 @@ mrproper:	clean
 build:	PKGBUILD
 	$(BUILD)
 
+check:	PKGBUILD
+	$(BUILD) --check
+
 install:	PKGBUILD
-	$(BUILD) --install
+	$(BUILD) --cleanbuild --install
 
 remove:
 	@echo -e "# Run the following only if you are certain:\nsudo pacman -Rs $(NAME)"
