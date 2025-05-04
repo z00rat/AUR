@@ -3,14 +3,14 @@
 
 _pkgname=ImHex
 pkgname=${_pkgname,,}
-pkgver=1.36.2
+pkgver=1.37.4
 pkgrel=1
 pkgdesc='A Hex Editor for Reverse Engineers, Programmers and people that value their eye sight when working at 3 AM'
 url='https://imhex.werwolv.net'
 license=('GPL-2.0-or-later')
 arch=('x86_64')
 depends=('glfw' 'mbedtls' 'curl' 'dbus'
-         'freetype2' 'file' 'hicolor-icon-theme' 'xdg-desktop-portal'
+         'freetype2' 'file' 'hicolor-icon-theme' 'xdg-desktop-portal' 'fontconfig'
          'fmt' 'yara' 'capstone')
 makedepends=('git' 'cmake'
              'llvm' 'librsvg' 'nlohmann-json' 'libxrandr'
@@ -20,17 +20,18 @@ provides=('imhex-patterns')
 conflicts=('imhex-patterns-git')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/WerWolv/ImHex/releases/download/v$pkgver/Full.Sources.tar.gz"
         "imhex-patterns-$pkgver.tar.gz::https://github.com/WerWolv/ImHex-Patterns/archive/refs/tags/ImHex-v$pkgver.tar.gz")
-sha256sums=('29bed22dae537b83ac4cce905352b4a1c5342862a67cad5575c58ff41f5847f7'
-            'd1555d142347ddf576e5c0b1a19050ae168e8d174b206d269a9e84e07d2515c9')
-b2sums=('e0c9c8ae8ce003a3115a239d89a660e7dd1c2c709c8aa1007463ddfc7861a5f10394cef1621a09ed9f7bd90fbfa5249a14aed619bd9f50c53500a1a9dc090aa0'
-        '891f8610f643616c5e7625a2a1ca6035038ef67aa6e425fe9fb997a2b18484800bc8caa0ebb52bdeadd61595409b1b768d4bedc22621622c5865143a663507a7')
-options=(!lto !strip)
+sha256sums=('711481cc8dfc368d1b88f5d3e8a44d65f23fa43eb9db092599924f3a4cf1aaa2'
+            '541eddc8cc427d1aeb749bc455911fccc87f64a7784bd4bbc35ecb7b56c03ad5')
+b2sums=('11f93ca310ddec8ec7d074d5450a02f3147d40aaa92387fbe7fce3be08445e129bbd7336d923e971a2f7f2b6df778a6210de73060cb91abe85161e7fd88588b7'
+        'c8699f9f26faeae784b4c4cb14b682d0f4d0c544ef8c9596b8688c19e6066d7101a7c32979ee807cd4a05225fe2548a8759b1fd0a07c578ea5c0fcdb9f104e69')
+options=(!lto)
 
 build() {
   export CXXFLAGS="$CXXFLAGS -Wno-inconsistent-missing-override"
 
   cmake -B build -S "$_pkgname" \
     -Wno-dev \
+    -D CMAKE_POLICY_VERSION_MINIMUM=3.5 \
     -D CMAKE_BUILD_TYPE=Release \
     -D CMAKE_INSTALL_PREFIX=/usr \
     -D CMAKE_SKIP_RPATH=ON \
@@ -62,7 +63,7 @@ package() {
     "$srcdir/ImHex-Patterns-ImHex-v$pkgver"/{constants,encodings,includes,magic,nodes,patterns,plugins,scripts,tests,themes,tips,yara}
 
   # Desktop file(s)
-  install -Dm0644 "$_pkgname/resources/icon.png" "$pkgdir/usr/share/pixmaps/imhex.png"
+  install -Dm0644 "$_pkgname/resources/icon.svg" "$pkgdir/usr/share/pixmaps/imhex.svg"
 
   # Documentation
   install -Dm0644 -t "$pkgdir/usr/share/doc/$pkgname" \

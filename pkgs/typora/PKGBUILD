@@ -2,7 +2,9 @@
 # Contributor: Jonathan Duck <duckbrain30@gmail.com>
 
 pkgname=typora
-pkgver=1.9.3
+pkgver=1.10.8
+_pkgver_x86_64="$pkgver"
+_pkgver_aarch64="$pkgver"
 pkgrel=1
 pkgdesc="A minimal markdown editor and reader."
 arch=('x86_64' 'aarch64')
@@ -13,16 +15,20 @@ optdepends=(
 	'noto-fonts-emoji: Or some other emoji font to see emojis'
 	'pandoc: Import/export for extra file formats')
 source=("$pkgname.sh")
-_urlbase="https://download.typora.io/linux/${pkgname}_${pkgver}"
-source_x86_64=("${_urlbase}_amd64.deb")
-source_aarch64=("${_urlbase}_arm64.deb")
+_urlbase="https://download.typora.io/linux/typora_"
+source_x86_64=("${_urlbase}${_pkgver_x86_64}_amd64.deb")
+source_aarch64=("${_urlbase}${_pkgver_aarch64}_arm64.deb")
 sha512sums=('de9c883c63f3ea35bd551c8761e605f8e1a3468943e000abcbf94bb0c5cbb5f0f6c7fa4d49ab39c177f167e0e3d0b061c861bf828627b4a34f7f1589119c3d04')
-sha512sums_x86_64=('da7714d8a2ef228d1df13bf2a6862f3be3fad51238657e8ee48350380267ecfed29b391e0c66653e3b4322e3dada02d2bea6e1041f5230988358645ea0cf4b28')
-sha512sums_aarch64=('6a8623f44884d3ab564518b6c535079607aa97c10ba169447d05291a76d380e3b68cc7268b240d1ac7fd7cb30e64dd8c3752b889ac98c854006cc03e7f14bcb1')
+sha512sums_x86_64=('dc08b3077388a9168854da0306b32d3153bda6df25c6aa21c061adc6cc8447a42e4368ddcc5ec24cb8b5906cb5342d096ff8efa550e8cd2eeed3683c3fcfb466')
+sha512sums_aarch64=('8fe1e248820516b3a6067e71aa3f811d59b7f95658674d6d3777fff4886c80b9404fca737465176b3e38c7623d85221e16f060ec2bbfbf764a17d9142c60ef5e')
 
 package() {
 	# unpack archive
-	bsdtar -xf data.tar.xz -C "$pkgdir/"
+	if [[ "$CARCH" == "x86_64" ]]; then
+		bsdtar -xf data.tar.zst -C "$pkgdir/"
+	elif [[ "$CARCH" == "aarch64" ]]; then
+		bsdtar -xf data.tar.xz -C "$pkgdir/"
+	fi
 	# remove lintian overrides
 	rm -rf "$pkgdir/usr/share/lintian/"
 	# replace bin link with custom launch script
@@ -38,5 +44,7 @@ package() {
 	sed -i '/Change Log/d' "$pkgdir/usr/share/applications/typora.desktop"
 	# fix permissions
 	chmod 644 "$pkgdir/usr/share/applications/typora.desktop"
+	chmod 644 "$pkgdir/usr/share/typora/resources/packages/node-spellchecker/vendor/hunspell_dictionaries/en_US.dic"
+	chmod 644 "$pkgdir/usr/share/typora/resources/packages/node-spellchecker/vendor/hunspell_dictionaries/en_US.aff"
 	find "$pkgdir" -type d -exec chmod 755 {} \;
 }

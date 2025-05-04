@@ -2,57 +2,89 @@
 # Contributor: Stephanie Wilde-Hobbs <hi@stephanie.is>
 
 pkgname=megacmd
-pkgver=1.7.0
-pkgrel=4
+pkgver=2.1.1
+pkgrel=1
 pkgdesc="MEGA Command Line Interactive and Scriptable Application"
 url="https://github.com/meganz/MEGAcmd"
 arch=('x86_64')
-license=('custom')
-depends=('crypto++' 'sqlite' 'c-ares' 'ffmpeg' 'freeimage'
-         'libsodium' 'libmediainfo' 'pcre' 'libuv')
-makedepends=('git' 'autoconf')
-_sdkhash="e448c09e73a4496329f46e538f1f20143b618ed1"
-source=(
-    "${pkgname}-${pkgver}-${pkgrel}.tar.gz::https://github.com/meganz/MEGAcmd/archive/${pkgver}_ArchLinux.tar.gz"
-    "mega-sdk-${_sdkhash}.tar.gz::https://github.com/meganz/sdk/archive/${_sdkhash}.tar.gz"
-    "fix-ffmpeg-compile.patch")
-sha512sums=('c1b058ef665cdff4c623a9b63643f9daf3fb0cd3875acdf96e3e01dfb5e8109b0ac39c1769755f2e8f8a6f82ecd8b300902665e2ac168363dd8dc9ca94d415b5'
-            '9620bbc50db1ee4dd329f91cd5b34f7f8f9443f3d83258b76077c5cab7157fd2d31fc4e8ef18fbc07053d66eda0c9c722cfa9eb86c710c0b112a37da533b4bb5'
-            'e843e40f72c69b05669478f13b092c115e37505692df1e781724f4466fc56b2339aa44470dbaec16c1cb06816fc779c08f57037cf8bfcf6d8aa966e00c3bf013')
+license=('LicenseRef-megacmd')
+depends=(
+  'crypto++'
+  'curl'
+  'icu'
+  'libsodium'
+  'libuv'
+  'openssl'
+  'pcre'
+  'readline'
+  'sqlite'
+  'zlib'
+  'fuse2'
+)
+makedepends=('cmake' 'git')
+_sdkhash=61013ee2331faf901d9ce88fc0fdf4def9ce4fbd
+source=("${pkgname}-${pkgver}-${pkgrel}.tar.gz::https://github.com/meganz/MEGAcmd/archive/${pkgver}_Linux.tar.gz"
+        "mega-sdk-${_sdkhash}.tar.gz::https://github.com/meganz/sdk/archive/${_sdkhash}.tar.gz")
+sha512sums=('5b510cca8a1cc8480aa759856ca6f4af5a81967f34b05a03af66334a0004ebe295f7825b3d560d86371f71a57ab60952b3dc8b020480a47b35fee2ec781962bc'
+            '4b8b70d75e78898e651b794e155cc207ad79d5498001e66ba2dbfffc31b3794970cd4333f27a069771a4b5fb7eb3e6a4fbed0f8524fd9694a7795a55f9a8271d')
 
 prepare() {
-  cd "MEGAcmd-${pkgver}_ArchLinux"
+  # Remove existing directory if it exists
+  rm -rf "${pkgname}-${pkgver}"
+
+  mv "MEGAcmd-${pkgver}_Linux" "${pkgname}-${pkgver}"
+  cd "${pkgname}-${pkgver}"
 
   rm -r sdk
-  ln -sf "../sdk-${_sdkhash}" sdk
+  ln -sf "${srcdir}/sdk-${_sdkhash}" sdk
 
-  cd sdk
-  patch -Np1 < "${srcdir}"/fix-ffmpeg-compile.patch
+  sed -i '/^set(VCPKG_ROOT/d' CMakeLists.txt
+
+  echo true > build/clone_vcpkg_from_baseline.sh # this script is executed by bash (not using shebang)
+  sed -i '/IMPORTED_TARGET libcrypto++/s/++/pp/' sdk/cmake/modules/sdklib_libraries.cmake
+
+  # Remove hardcoded install paths that break build-time options
+  sed -i \
+    '/set(CMAKE_INSTALL_LIBDIR "opt\/megacmd\/lib")/d; /set(CMAKE_INSTALL_BINDIR "usr\/bin")/d' \
+    CMakeLists.txt
+
+  # Fix PCRE and ZLib linking
+  sed -i '/target_link_libraries(LMegacmdServer PUBLIC MEGA::SDKlib LMEGAcmdCommonUtils)/a target_link_libraries(LMegacmdServer PUBLIC pcrecpp z)' CMakeLists.txt
 }
 
 build() {
-  cd "MEGAcmd-${pkgver}_ArchLinux"
-
-  ./autogen.sh
-  ./configure --prefix=/usr
-  make
+  local cmake_options=(
+    -B build
+    -S "${pkgname}-${pkgver}"
+    -DCMAKE_INSTALL_PREFIX=/usr
+    -DCMAKE_BUILD_TYPE=RelWithDebInfo # None does not work: https://github.com/meganz/sdk/issues/2679
+    -DUSE_FREEIMAGE=no
+    -DUSE_PDFIUM=no
+    -DFULL_REQS=off
+  )
+  cmake "${cmake_options[@]}"
+  cmake --build build
 }
 
 package() {
-  cd "MEGAcmd-${pkgver}_ArchLinux"
+  DESTDIR="${pkgdir}" cmake --install build
+  cd "${pkgname}-${pkgver}"
 
-  make DESTDIR=${pkgdir} install
+  # Remove unnecessary /usr/lib dir containing symlinks
+  rm -rf ${pkgdir}/usr/lib
 
-  # change completions location
+  # Fix completions location (/usr/etc/bash_completions.d/ -> /usr/share/bash-completion/completions)
   rm -rf ${pkgdir}/usr/etc/
   install -Dm644 src/client/megacmd_completion.sh ${pkgdir}/usr/share/bash-completion/completions/${pkgname}
 
+  # Add completions for sub-commands
   for completion_cmd in ${pkgdir}/usr/bin/mega*;
   do
     completion_cmd=$(basename "$completion_cmd")
     ln -s "${pkgname}" "${pkgdir}/usr/share/bash-completion/completions/$completion_cmd"
   done
 
+  # License
   install -Dm644 LICENSE ${pkgdir}/usr/share/licenses/${pkgname}/LICENSE
 }
 

@@ -3,12 +3,16 @@
 pkgname=librewolf-bin
 provides=(${pkgname//-bin/""})
 conflicts=(${pkgname//-bin/""})
-pkgver=135.0
+epoch=1
+pkgver=138.0.1_2
+_fixedfirefoxver="${pkgver%_*}" # Version of Firefox this LibreWolf version is based on, but the Firefox patch number is always included
+_librewolfver="${pkgver#*_}"
+_firefoxver="${_fixedfirefoxver%.0}" # Removes ".0" from the end. For "136.0.0" this will result in "136.0" but for "136.0.1" won't do anything.
 pkgrel=1
 pkgdesc="Community-maintained fork of Firefox, focused on privacy, security and freedom."
 arch=(x86_64 aarch64)
 license=(MPL GPL LGPL)
-url="https://librewolf-community.gitlab.io/"
+url="https://librewolf.net/"
 depends=(gtk3 libxt startup-notification mime-types dbus
          nss ttf-font libpulse ffmpeg)
 makedepends=(git)
@@ -27,12 +31,12 @@ options=(!emptydirs)
 install='librewolf-bin.install'
 
 _project_id=44042130
-_base_url=https://gitlab.com/api/v4/projects/${_project_id}/packages/generic/${pkgname//-bin/""}/${pkgver}-${pkgrel}
-_uploadpath_aarch64=${_base_url}/${pkgname//-bin/""}-${pkgver}-${pkgrel}-linux-arm64-package.tar.xz
-_uploadpath_x86_64=${_base_url}/${pkgname//-bin/""}-${pkgver}-${pkgrel}-linux-x86_64-package.tar.xz
+_base_url=https://gitlab.com/api/v4/projects/${_project_id}/packages/generic/${pkgname//-bin/""}/$_firefoxver-$_librewolfver
+_uploadpath_aarch64=${_base_url}/${pkgname//-bin/""}-$_firefoxver-$_librewolfver-linux-arm64-package.tar.xz
+_uploadpath_x86_64=${_base_url}/${pkgname//-bin/""}-$_firefoxver-$_librewolfver-linux-x86_64-package.tar.xz
 _uploadpath_sig_aarch64=${_uploadpath_aarch64}.sig
 _uploadpath_sig_x86_64=${_uploadpath_x86_64}.sig
-_source_tag="${pkgver}-${pkgrel}"
+_source_tag="$_firefoxver-$_librewolfver"
 source=(
   "git+https://gitlab.com/${pkgname//-bin/""}-community/browser/source.git#tag=${_source_tag}"
   default192x192.png
@@ -40,12 +44,12 @@ source=(
 )
 source_aarch64=("${_uploadpath_aarch64}" "${_uploadpath_sig_aarch64}")
 source_x86_64=("${_uploadpath_x86_64}" "${_uploadpath_sig_x86_64}")
-sha256sums=('3c91e6040ca3fccd35a70ede26f12b9dfae1b7419e2d189590c81466e3035170'
+sha256sums=('f2a54ec038d75769a9757fece21357bbd4042eaaa1d74bc3f8783ba436b2252b'
             '959c94c68cab8d5a8cff185ddf4dca92e84c18dccc6dc7c8fe11c78549cdc2f1'
             '7d01d317b7db7416783febc18ee1237ade2ec86c1567e2c2dd628a94cbf2f25d')
-sha256sums_x86_64=('ae07d2e66d679dd1e2fcd2a898c19fe1a18d0ac36a81cbaccffb20985ebddef3'
+sha256sums_x86_64=('056f028ab2cbf18265f9a5f0196a379f744dd382d6b3771ae08b32e4aaeb8e98'
                    'SKIP')
-sha256sums_aarch64=('b0d60bed7112f64485b56b12234a5a0857d6e7963f934c2854ae94ebf22f4e59'
+sha256sums_aarch64=('2cb510f3b1dcb27c587d3be788a207558fa9a935a976a3756bb811427dcb97b6'
                     'SKIP')
 
 package() {

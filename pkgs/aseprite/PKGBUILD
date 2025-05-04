@@ -10,10 +10,10 @@
 # Contributor: Jomar Milan <jomarm@jomarm.com>
 
 pkgname=aseprite
-pkgver=1.3.12
+pkgver=1.3.13
 _skiaver=m102
 _skiahash=861e4743af
-pkgrel=1
+pkgrel=6
 pkgdesc='Create animated sprites and pixel art'
 arch=('x86_64')
 url="https://www.aseprite.org/"
@@ -21,7 +21,7 @@ license=('LicenseRef-Aseprite-EULA')
 depends=(# ~ Aseprite's direct dependencies ~
          # pixman is not linked to because we use Skia instead
          # harfbuzz is linked statically because Aseprite expects an older version
-         cmark libcurl.so libgif.so libjpeg.so zlib libpng tinyxml2 libfreetype.so libarchive.so libfmt.so
+         cmark libcurl.so libgif.so libjpeg.so zlib libpng 'tinyxml2>=11.0.0' libfreetype.so libarchive.so libfmt.so
          libwebp.so libwebpmux.so libwebpdemux.so
          hicolor-icon-theme # For installing Aseprite's icons
          # ~ Skia deps ~
@@ -43,7 +43,7 @@ makedepends=(# "Meta" dependencies
 source=("https://github.com/aseprite/aseprite/releases/download/v$pkgver/Aseprite-v$pkgver-Source.zip"
         # Which branch a given build of Aseprite requires is noted in its `INSTALL.md`
         "skia-$_skiaver.tar.gz::https://github.com/aseprite/skia/archive/refs/tags/$_skiaver-$_skiahash.tar.gz"
-        aseprite-strings::git+https://github.com/aseprite/strings.git#commit=7b0af61dec1d98242d7eb2e9cab835d442d21235
+        aseprite-strings::git+https://github.com/aseprite/strings.git#commit=5499ce2030d831c614f1ce7fdfdaf36a973c21f8
         desktop.patch
         shared-fmt.patch
         # Based on https://patch-diff.githubusercontent.com/raw/aseprite/aseprite/pull/2535.patch
@@ -53,12 +53,13 @@ source=("https://github.com/aseprite/aseprite/releases/download/v$pkgver/Aseprit
         shared-skia-deps.patch
         optional-pixman.patch
         fix-shared-tinyxml2.patch
-        shared-libwebp-found.patch)
+        shared-libwebp-found.patch
+        include_cstdint.patch)
 noextract=("Aseprite-v$pkgver-Source.zip"
            "skia-$_skiaver.tar.gz") # Don't extract Aseprite or skia sources at the root
-sha256sums=('e44401463b66fc1267a1865ab75f5a9d1ae46e989c19a4ec7aadbaa315634e34'
+sha256sums=('c2e639c083d99a5a478ded7c86d9d7f4e4ff9ebebf6fedac7f8bfc94d6bd94c1'
             '8d76c1ad3693e1fc019eb14d806082148eb4ed7d601474aeeaae601b05a9b3ad'
-            '36b329f23429670bf473472a6b64ca5156d2707599eaabdd69ef424dd6ad5635'
+            '8ee87f57b5792e5751f63fe37cdda8d29053cd4449e1f533e792e15abcfefa79'
             '8b14e36939e930de581e95abf0591645aa0fcfd47161cf88b062917dbaaef7f9'
             'c3591d376180d99ff8001c3d549c0bd18ef5e4d95f1755ccaa8e2fd65dd5d2b3'
             '89cd28a5a90ee9dd42e85866b6f954bde526068d94311b0730a62f00f9cfffdb'
@@ -66,8 +67,9 @@ sha256sums=('e44401463b66fc1267a1865ab75f5a9d1ae46e989c19a4ec7aadbaa315634e34'
             'eb9f544e68b41b5cb1a9ab7a6648db51587e67e94f1a452cb5a84f3d224bf5d0'
             'c2d14f9738a96a9db3695c00ac3d14b1312b6a595b151bd56e19422c86517654'
             'ba02fc060dc930cfd66a8903a5d8a59f981753bdf416e91cc77a48c56c86aea3'
-            '72605d6760c29eb98f2d8d8cf2cc9f9f7d7655bcf7cfc944f6a46b0957adbb14')
-_debug="true"
+            '72605d6760c29eb98f2d8d8cf2cc9f9f7d7655bcf7cfc944f6a46b0957adbb14'
+            'ce20c8caa61b0e4b478eb08853e1148eba76836027ec04cf5d0f76c4db9ae112')
+_debug="false"
 prepare() {
 	# Extract Aseprite's sources
 	mkdir -p aseprite
@@ -96,6 +98,8 @@ prepare() {
 	env -C aseprite/third_party/TinyEXIF patch -tp1 <fix-shared-tinyxml2.patch
 	[[ -n $_debug ]] && echo shared-libwebp-found.patch
 	env -C aseprite patch -tp1 <shared-libwebp-found.patch
+	[[ -n $_debug ]] && echo include_cstdint.patch
+	patch -tp1 <include_cstdint.patch
 }
 
 build() {
@@ -125,12 +129,9 @@ build() {
 	#   skia_use_zlib: Only used for PDF and RAW files.
 	#   skia_use_libgifcodec: Only used for GIFs, which Aseprite doesn't use.
 	#   skia_enable_{particles,skparagraph,sktext}: Aseprite does not link against this library.
-	env -C skia gn gen "$_skiadir" --args="$(printf '%s ' \
-is_official_build=true skia_build_fuzzers=false \
-skia_enable_{pdf,skottie,sksl,svg}=false \
-skia_use_{libjpeg_turbo,libwebp}_{encode,decode}=false \
-skia_use_{expat,piex,xps,zlib,libgifcodec}=false \
-skia_enable_{particles,skparagraph,sktext}=false)"
+
+	# gn is bad software
+	env -C skia gn gen "$_skiadir" --args='is_official_build=true skia_build_fuzzers=false skia_enable_pdf=false skia_enable_skottie=false skia_enable_sksl=false skia_enable_svg=false skia_use_libjpeg_turbo_encode=false skia_use_libjpeg_turbo_decode=false skia_use_libwebp_encode=false skia_use_libwebp_decode=false skia_use_expat=false skia_use_piex=false skia_use_xps=false skia_use_zlib=false skia_use_libgifcodec=false skia_enable_particles=false skia_enable_skparagraph=false skia_enable_sktext=false cc="clang" cxx="clang++"'
 	ninja -C "$_skiadir" skia modules
 
 	echo Building Aseprite...
@@ -139,7 +140,8 @@ skia_enable_{particles,skparagraph,sktext}=false)"
 -DENABLE_UPDATER=OFF -DENABLE_{SCRIPTING,WEBSOCKET}=ON \
 -DLAF_WITH_{EXAMPLES,TESTS}=OFF -DLAF_BACKEND=skia \
 -DSKIA_DIR="$PWD/skia" -DSKIA_LIBRARY_DIR="$_skiadir" \
--DUSE_SHARED_{CMARK,CURL,FMT,GIFLIB,JPEGLIB,ZLIB,LIBPNG,TINYXML,PIXMAN,FREETYPE,HARFBUZZ,LIBARCHIVE,WEBP}=YES
+-DUSE_SHARED_{CMARK,CURL,FMT,GIFLIB,JPEGLIB,ZLIB,LIBPNG,TINYXML,PIXMAN,FREETYPE,HARFBUZZ,LIBARCHIVE,WEBP}=YES \
+-DCMAKE_POLICY_VERSION_MINIMUM=3.5 # workaround
 	cmake --build build
 }
 

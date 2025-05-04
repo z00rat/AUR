@@ -1,6 +1,6 @@
-aurutils
-discord-chat-exporter-cli
+firefox-clearurls
+megacmd
+qogir-icon-theme
 qrcp-bin
-rofi-git
 spicetify-themes-git
 tor-browser-bin
