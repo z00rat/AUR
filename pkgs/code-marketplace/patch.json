@@ -7,6 +7,7 @@
 		"resourceUrlTemplate": "https://{publisher}.vscode-unpkg.net/{publisher}/{name}/{version}/{path}",
 		"extensionUrlTemplate": "https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest",
 		"controlUrl": "https://main.vscode-cdn.net/extensions/marketplace.json",
+		"mcpUrl": "https://main.vscode-cdn.net/mcp/servers.json",
 		"accessSKUs": [
 			"copilot_enterprise_seat",
 			"copilot_enterprise_seat_quota",
@@ -177,13 +178,13 @@
 				}
 			]
 		},
-		"ms-azuretools.vscode-docker": {
+		"ms-azuretools.vscode-containers": {
 			"onFileOpen": [
 				{
 					"pathGlob": "{**/dockerfile,**/Dockerfile,**/docker-compose.yml,**/docker-compose.*.yml}",
 					"important": true,
 					"whenNotInstalled": [
-						"ms-azuretools.vscode-containers"
+						"ms-azuretools.vscode-docker"
 					]
 				},
 				{
@@ -192,13 +193,13 @@
 					],
 					"important": true,
 					"whenNotInstalled": [
-						"ms-azuretools.vscode-containers"
+						"ms-azuretools.vscode-docker"
 					]
 				},
 				{
 					"pathGlob": "{**/*.cs,**/project.json,**/global.json,**/*.csproj,**/*.cshtml,**/*.sln,**/appsettings.json,**/*.py,**/*.ipynb,**/*.js,**/*.ts,**/package.json}",
 					"whenNotInstalled": [
-						"ms-azuretools.vscode-containers"
+						"ms-azuretools.vscode-docker"
 					]
 				}
 			]

@@ -1,5 +1,6 @@
 *.xz
 pkg
+code.svg
 src
 *.zip
 *.tar.gz

@@ -18,13 +18,13 @@ updateinfo:
 
 # This will update PKGBUILD with the latest version and build the package
 update:
-	sed 's/^pkgver=.*$$/pkgver=$(shell curl -s https://www.typora.io/linux/Packages | grep Version | cut -f 2 -d ' ' | sort -V | cut -f 1 -d '-' | uniq | tail -n 1)/' -i PKGBUILD
+	sed 's/^pkgver=.*$$/pkgver=$(shell curl -s https://downloads.typora.io/linux/Packages | grep Version | cut -f 2 -d ' ' | sort -V | cut -f 1 -d '-' | uniq | tail -n 1)/' -i PKGBUILD
 	sed 's/^pkgrel=.*$$/pkgrel=1/' -i PKGBUILD
 	$(MAKE)
 
 # This will list the versions available in the Ubuntu repository
 versions:
-	curl -s https://www.typora.io/linux/Packages | grep Version | cut -f 2 -d ' ' | sort -V | cut -f 1 -d '-' | uniq
+	curl -s https://downloads.typora.io/linux/Packages | grep Version | cut -f 2 -d ' ' | sort -V | cut -f 1 -d '-' | uniq
 
 # This will remove the files downloaded and created in the build process
 clean:

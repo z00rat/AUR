@@ -291,8 +291,18 @@
 	},
 	"settingsSearchUrl": "https://bingsettingssearch.trafficmanager.net/api/Search",
 	"extensionEnabledApiProposals": {
+		"ms-azuretools.vscode-containers": [
+			"authenticationChallenges"
+		],
+		"ms-azuretools.vscode-azureresourcegroups": [
+			"authenticationChallenges"
+		],
+		"ms-azuretools.vscode-azure-github-copilot": [
+			"authenticationChallenges"
+		],
 		"ms-azuretools.vscode-dev-azurecloudshell": [
-			"contribEditSessions"
+			"contribEditSessions",
+			"authenticationChallenges"
 		],
 		"ms-vscode.vscode-selfhost-test-provider": [
 			"testObserver",
@@ -309,7 +319,6 @@
 			"documentFiltersExclusive",
 			"fileSearchProvider",
 			"findTextInFiles",
-			"notebookCellExecutionState",
 			"notebookLiveShare",
 			"terminalDimensions",
 			"terminalDataWriteEvent",
@@ -428,6 +437,9 @@
 		],
 		"GitHub.vscode-pull-request-github": [
 			"activeComment",
+			"chatParticipantAdditions",
+			"chatParticipantPrivate",
+			"chatSessionsProvider",
 			"codiconDecoration",
 			"codeActionRanges",
 			"commentingRangeHint",
@@ -443,7 +455,10 @@
 			"contribMultiDiffEditorMenus",
 			"contribShareMenu",
 			"diffCommand",
+			"languageModelDataPart",
+			"languageModelToolResultAudience",
 			"quickDiffProvider",
+			"remoteCodingAgents",
 			"shareProvider",
 			"tabInputTextMerge",
 			"tokenInformation",
@@ -490,14 +505,20 @@
 			"documentFiltersExclusive",
 			"chatParticipantPrivate",
 			"contribDebugCreateConfiguration",
-			"inlineEdit",
 			"inlineCompletionsAdditions",
 			"chatReferenceBinaryData",
 			"languageModelSystem",
 			"languageModelCapabilities",
 			"languageModelDataPart",
+			"languageModelThinkingPart",
 			"chatStatusItem",
-			"taskProblemMatcherStatus"
+			"taskProblemMatcherStatus",
+			"contribLanguageModelToolSets",
+			"textDocumentChangeReason",
+			"resolvers",
+			"taskExecutionTerminal",
+			"dataChannels",
+			"chatSessionsProvider"
 		],
 		"GitHub.remotehub": [
 			"contribRemoteHelp",
@@ -514,11 +535,7 @@
 			"textSearchProvider",
 			"timeline"
 		],
-		"ms-python.gather": [
-			"notebookCellExecutionState"
-		],
 		"ms-python.vscode-pylance": [
-			"mcpConfigurationProvider",
 			"terminalShellEnv"
 		],
 		"ms-python.debugpy": [
@@ -593,6 +610,16 @@
 		],
 		"ms-autodev.vscode-autodev": [
 			"chatParticipantAdditions"
+		],
+		"vscjava.vscode-java-upgrade": [
+			"chatParticipantAdditions",
+			"chatParticipantPrivate"
+		],
+		"FoundryLocal.foundry-local-chat": [
+			"chatProvider"
+		],
+		"Microsoft.foundry-local-chat": [
+			"chatProvider"
 		]
 	},
 	"tasConfig": {
@@ -802,6 +829,7 @@
 			"ms-azuretools.vscode-azure-github-copilot"
 		],
 		"microsoft": [
+			"github.copilot-chat",
 			"ms-vscode.azure-repos",
 			"ms-vscode.remote-server",
 			"ms-vsliveshare.vsliveshare",
