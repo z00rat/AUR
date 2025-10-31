@@ -1403,3 +1403,7 @@
 	path = repos/gtrash-bin
 	url = ssh://aur@aur.archlinux.org/gtrash-bin.git
 	branch = master
+[submodule "repos/overskride-bin"]
+	path = repos/overskride-bin
+	url = ssh://aur@aur.archlinux.org/overskride-bin.git
+	branch = master
