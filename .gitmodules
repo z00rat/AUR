@@ -1395,3 +1395,7 @@
 	path = repos/exercism-bin
 	url = ssh://aur@aur.archlinux.org/exercism-bin.git
 	branch = master
+[submodule "repos/fish-done"]
+	path = repos/fish-done
+	url = ssh://aur@aur.archlinux.org/fish-done.git
+	branch = master
