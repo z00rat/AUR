@@ -1387,3 +1387,11 @@
 	path = repos/zen-browser-optimized-bin
 	url = ssh://aur@aur.archlinux.org/zen-browser-optimized-bin.git
 	branch = master
+[submodule "repos/arduino-ide-bin"]
+	path = repos/arduino-ide-bin
+	url = ssh://aur@aur.archlinux.org/arduino-ide-bin.git
+	branch = master
+[submodule "repos/exercism-bin"]
+	path = repos/exercism-bin
+	url = ssh://aur@aur.archlinux.org/exercism-bin.git
+	branch = master
