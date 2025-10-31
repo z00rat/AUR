@@ -1411,3 +1411,7 @@
 	path = repos/pkgtop
 	url = ssh://aur@aur.archlinux.org/pkgtop.git
 	branch = master
+[submodule "repos/selectdefaultapplication-fork-git"]
+	path = repos/selectdefaultapplication-fork-git
+	url = ssh://aur@aur.archlinux.org/selectdefaultapplication-fork-git.git
+	branch = master
