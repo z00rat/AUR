@@ -12,6 +12,7 @@
  - https://aur.archlinux.org/packages/apg
  - https://aur.archlinux.org/packages/apparmor.d-git
  - https://aur.archlinux.org/packages/archiso-git
+ - https://aur.archlinux.org/packages/arduino-ide-bin
  - https://aur.archlinux.org/packages/arttime-git
  - https://aur.archlinux.org/packages/ascii-rain-git
  - https://aur.archlinux.org/packages/aseprite
@@ -70,6 +71,7 @@
  - https://aur.archlinux.org/packages/electorrent-bin
  - https://aur.archlinux.org/packages/electronmail-bin
  - https://aur.archlinux.org/packages/envycontrol
+ - https://aur.archlinux.org/packages/exercism-bin
  - https://aur.archlinux.org/packages/ezshare
  - https://aur.archlinux.org/packages/fakepkg
  - https://aur.archlinux.org/packages/faq-bin
@@ -80,6 +82,7 @@
  - https://aur.archlinux.org/packages/firefox-esr-bin
  - https://aur.archlinux.org/packages/firefox-extension-greasemonkey
  - https://aur.archlinux.org/packages/firefox-extension-tab-session-manager
+ - https://aur.archlinux.org/packages/fish-done
  - https://aur.archlinux.org/packages/flamegraph
  - https://aur.archlinux.org/packages/florence
  - https://aur.archlinux.org/packages/fluent-reader-bin
@@ -99,6 +102,7 @@
  - https://aur.archlinux.org/packages/graphite-cli
  - https://aur.archlinux.org/packages/grub-hook
  - https://aur.archlinux.org/packages/grub-reboot-poweroff
+ - https://aur.archlinux.org/packages/gtrash-bin
  - https://aur.archlinux.org/packages/guiscrcpy
  - https://aur.archlinux.org/packages/heroku-cli-bin
  - https://aur.archlinux.org/packages/hibernator
@@ -174,6 +178,7 @@
  - https://aur.archlinux.org/packages/openbangla-keyboard
  - https://aur.archlinux.org/packages/opencomic-bin
  - https://aur.archlinux.org/packages/opensnitch-git
+ - https://aur.archlinux.org/packages/overskride-bin
  - https://aur.archlinux.org/packages/p7zip-gui
  - https://aur.archlinux.org/packages/pacdiff-pacman-hook-git
  - https://aur.archlinux.org/packages/paclast
@@ -197,6 +202,7 @@
  - https://aur.archlinux.org/packages/pkgbrowser
  - https://aur.archlinux.org/packages/pkgcacheclean
  - https://aur.archlinux.org/packages/pkgoutofdate-git
+ - https://aur.archlinux.org/packages/pkgtop
  - https://aur.archlinux.org/packages/play-with-mpv-git
  - https://aur.archlinux.org/packages/plymouth-theme-arch10
  - https://aur.archlinux.org/packages/pm2ml
@@ -253,6 +259,7 @@
  - https://aur.archlinux.org/packages/rtags
  - https://aur.archlinux.org/packages/runjs-bin
  - https://aur.archlinux.org/packages/rxfetch
+ - https://aur.archlinux.org/packages/selectdefaultapplication-fork-git
  - https://aur.archlinux.org/packages/selectdefaultapplication-git
  - https://aur.archlinux.org/packages/session-desktop-bin
  - https://aur.archlinux.org/packages/sherlock-git
@@ -348,5 +355,5 @@
  - https://aur.archlinux.org/packages/zuki-themes
 ---
 
-number of packages = 346.
+number of packages = 353.
 
