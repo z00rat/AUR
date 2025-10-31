@@ -1407,3 +1407,7 @@
 	path = repos/overskride-bin
 	url = ssh://aur@aur.archlinux.org/overskride-bin.git
 	branch = master
+[submodule "repos/pkgtop"]
+	path = repos/pkgtop
+	url = ssh://aur@aur.archlinux.org/pkgtop.git
+	branch = master
