@@ -1399,3 +1399,7 @@
 	path = repos/fish-done
 	url = ssh://aur@aur.archlinux.org/fish-done.git
 	branch = master
+[submodule "repos/gtrash-bin"]
+	path = repos/gtrash-bin
+	url = ssh://aur@aur.archlinux.org/gtrash-bin.git
+	branch = master
